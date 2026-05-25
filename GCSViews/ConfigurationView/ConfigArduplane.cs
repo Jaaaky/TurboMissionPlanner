@@ -100,26 +100,43 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             changes.Clear();
 
-            // add tooltips to all controls
-            foreach (Control control1 in Controls)
+            // Phase 8 fix: cache firmware + warm metadata cache before loop.
+            var firmware = MainV2.comPort.MAV.cs.firmware.ToString();
+            ParameterMetaDataRepository.GetParameterMetaData("TUNE",
+                ParameterMetaDataConstants.Description, firmware);
+
+            // Phase 9 fix: suspend layout across the SetToolTip flood to
+            // avoid per-control reflow on visible AutoSize containers.
+            this.SuspendLayout();
+            foreach (Control c1 in Controls) c1.SuspendLayout();
+            try
             {
-                foreach (Control control2 in control1.Controls)
+                foreach (Control control1 in Controls)
                 {
-                    if (control2 is MavlinkNumericUpDown)
+                    foreach (Control control2 in control1.Controls)
                     {
-                        var ParamName = ((MavlinkNumericUpDown)control2).ParamName;
-                        toolTip1.SetToolTip(control2,
-                            ParameterMetaDataRepository.GetParameterMetaData(ParamName,
-                                ParameterMetaDataConstants.Description, MainV2.comPort.MAV.cs.firmware.ToString()));
-                    }
-                    if (control2 is MavlinkComboBox)
-                    {
-                        var ParamName = ((MavlinkComboBox)control2).ParamName;
-                        toolTip1.SetToolTip(control2,
-                            ParameterMetaDataRepository.GetParameterMetaData(ParamName,
-                                ParameterMetaDataConstants.Description, MainV2.comPort.MAV.cs.firmware.ToString()));
+                        if (control2 is MavlinkNumericUpDown)
+                        {
+                            var ParamName = ((MavlinkNumericUpDown)control2).ParamName;
+                            toolTip1.SetToolTip(control2,
+                                ParameterMetaDataRepository.GetParameterMetaData(ParamName,
+                                    ParameterMetaDataConstants.Description, firmware));
+                        }
+                        if (control2 is MavlinkComboBox)
+                        {
+                            var ParamName = ((MavlinkComboBox)control2).ParamName;
+                            toolTip1.SetToolTip(control2,
+                                ParameterMetaDataRepository.GetParameterMetaData(ParamName,
+                                    ParameterMetaDataConstants.Description, firmware));
+                        }
                     }
                 }
+            }
+            finally
+            {
+                foreach (Control c1 in Controls) c1.ResumeLayout(false);
+                this.ResumeLayout(false);
+                this.PerformLayout();
             }
 
             startup = false;
