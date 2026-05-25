@@ -40,17 +40,22 @@
 		<BaseIntermediateOutputPath>obj3\</BaseIntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <OutputPath>bin\Debug\net461\</OutputPath>
+    <OutputPath>bin\Debug\net472\</OutputPath>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
     <RunCodeAnalysis>false</RunCodeAnalysis>
     <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
     <WarningsAsErrors>$(WarningsAsErrors);</WarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
-    <OutputPath>bin\Release\net461\</OutputPath>
+    <OutputPath>bin\Release\net472\</OutputPath>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
     <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
     <WarningsAsErrors>$(WarningsAsErrors);</WarningsAsErrors>
+    <!-- Turbo fork: drop the ~7 MB MissionPlanner.pdb from Release output. Optimize
+         is already on (SDK Release default); this only stops debug-symbol emission.
+         Loses post-mortem symbolication, which we don't ship anyway. -->
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="APMPlannerXplanes\**" />
@@ -92,6 +97,14 @@
     <Compile Remove="packages\**" />
     <EmbeddedResource Remove="packages\**" />
     <None Remove="packages\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Phase 9 fork: bundle IBM Plex Sans (SIL OFL 1.1) so the UI uses a
+         modern font that renders consistently on both Windows and Wine.
+         Loaded at startup via Utilities/AppFonts.cs. -->
+    <EmbeddedResource Include="Fonts\IBMPlexSans-Regular.ttf" />
+    <EmbeddedResource Include="Fonts\IBMPlexSans-Medium.ttf" />
+    <EmbeddedResource Include="Fonts\IBMPlexSans-Bold.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="BitMiracle.LibTiff.NetStandard">

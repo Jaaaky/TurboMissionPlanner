@@ -10,7 +10,7 @@ MSBuild.exe MissionPlanner.sln /restore /m /p:Configuration=Release /verbosity:n
 echo create appx?
 pause
 
-cd bin\release\net461
+cd bin\release\net472
 
 powershell -command "ls plugins -recurse | ForEach-Object { if (Test-Path ($_.fullname -replace '\\plugins\\','\') -PathType Leaf) { $_.fullname }} | ForEach-Object { del $_ }"
 
@@ -18,7 +18,7 @@ cd ..
 cd ..
 cd ..
 
-"C:\Program Files (x86)\Windows Kits\10\Tools\bin\i386\makeappx" pack /d bin\release\net461 /p MissionPlanner.appx
+"C:\Program Files (x86)\Windows Kits\10\Tools\bin\i386\makeappx" pack /d bin\release\net472 /p MissionPlanner.appx
 
 "C:\Program Files (x86)\Windows Kits\10\Tools\bin\i386\signtool" sign /a /v /fd SHA256 /t http://timestamp.verisign.com/scripts/timestamp.dll /n "michael oborne" MissionPlanner.appx
 
