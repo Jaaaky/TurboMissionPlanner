@@ -9,13 +9,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <NoWarn>1701;1702;NU1605</NoWarn>
     <DebugType>portable</DebugType>
-    <outputPath>..\..\bin\Debug\net461\plugins\</outputPath>
+    <outputPath>..\..\bin\Debug\net472\plugins\</outputPath>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <NoWarn>1701;1702;NU1605</NoWarn>
     <DebugType>portable</DebugType>
-    <outputPath>..\..\bin\Release\net461\plugins\</outputPath>
+    <outputPath>..\..\bin\Release\net472\plugins\</outputPath>
   </PropertyGroup>
 
   <ItemGroup>
