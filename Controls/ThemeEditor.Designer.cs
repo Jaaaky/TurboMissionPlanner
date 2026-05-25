@@ -120,7 +120,7 @@
             // lblThemeName
             // 
             this.lblThemeName.AutoSize = true;
-            this.lblThemeName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblThemeName.Font = new System.Drawing.Font("IBM Plex Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblThemeName.Location = new System.Drawing.Point(241, 20);
             this.lblThemeName.Name = "lblThemeName";
             this.lblThemeName.Size = new System.Drawing.Size(0, 13);
