@@ -25,10 +25,19 @@ Same GCS, same MAVLink, same `.NET Framework 4.7.2` build. Tracks upstream `mast
 
 - Skips the Wine-hostile WMI `Win32_SerialPort` query and RAS enumeration.
 - Embedded font registration so GDI+ name lookup resolves under Wine.
+- Speech/SAPI **off by default** — a real performance win under Wine, where the COM voice-token enumeration is slow and noisy (hundreds of `fixme:sapi` calls) at startup.
 - ~300 MB lighter install (debloat drops dead-arch natives, duplicate plugin tree, GDAL, PDBs).
+
+Run under Wine by bootstrapping the prefix with the real Microsoft runtime (never wine-mono):
+
+```bash
+winetricks --unattended dotnet472 gdiplus windowscodecs
+wine MissionPlanner.exe
+```
 
 **Other**
 
+- **Fixes the upstream MAVLink signing-key loss bug** (ArduPilot/MissionPlanner#3694): keys were silently wiped when the NIC-MAC-derived AES key changed or a keyfile failed to decrypt. The fork derives the key from a stable machine id, refuses to overwrite a keyfile it couldn't load, and sets an un-decryptable file aside instead of destroying it — so your signing keys survive.
 - MAVLink signing keys stored in `turbomp-authkeys.xml` (separate from upstream's `authkeys.xml`) so you can run this fork and official Mission Planner side by side without clobbering each other's keys.
 - User data directory unchanged (`%ProgramData%\Mission Planner`, `Documents\Mission Planner`) — settings, maps, and logs are shared with upstream.
 
