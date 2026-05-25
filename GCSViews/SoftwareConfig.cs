@@ -121,8 +121,30 @@ namespace MissionPlanner.GCSViews
             InitializeComponent();
         }
 
+        // Phase 10j fork: track whether the current backstage page set was
+        // built for the current connection state. SoftwareConfig is now
+        // Persistent across tab switches (so we don't pay the 2-3s rebuild
+        // every visit), but that means SoftwareConfig_Load fires only ONCE
+        // -- typically at startup-preload time, while disconnected. Without
+        // this rebuild trigger, connecting to a vehicle later never adds
+        // BasicTuning / ExtendedTuning / FullParamList / FW-specific tabs.
+        private bool _builtForConnected = false;
+        private Firmwares _builtForFirmware = Firmwares.PX4;
+        private bool _firstBuildDone = false;
+
         public void Activate()
         {
+            try
+            {
+                bool nowConnected = MainV2.comPort.BaseStream != null && MainV2.comPort.BaseStream.IsOpen;
+                Firmwares nowFw = nowConnected ? MainV2.comPort.MAV.cs.firmware : Firmwares.PX4;
+                if (_firstBuildDone && (nowConnected != _builtForConnected || nowFw != _builtForFirmware))
+                {
+                    MissionPlanner.Utilities.Profiler.Mark("SoftwareConfig.Activate:state-changed -> rebuild");
+                    RebuildPages();
+                }
+            }
+            catch (Exception ex) { log.Warn("SoftwareConfig.Activate rebuild check: " + ex.Message); }
         }
 
         public BackstageViewPage AddBackstageViewPage(Type userControl, string headerText,
@@ -141,8 +163,36 @@ namespace MissionPlanner.GCSViews
 
         private void SoftwareConfig_Load(object sender, EventArgs e)
         {
+            MissionPlanner.Utilities.Profiler.Mark("SoftwareConfig.Load:begin");
+            RebuildPages();
+            MissionPlanner.Utilities.Profiler.Mark("SoftwareConfig.Load:done");
+        }
+
+        // Phase 10j fork: extracted from SoftwareConfig_Load so we can also
+        // call it from Activate when the connection state changes.
+        private void RebuildPages()
+        {
+            MissionPlanner.Utilities.Profiler.Mark("SoftwareConfig.RebuildPages:begin");
             try
             {
+                // Phase 10o fork: SoftReset() preserves _pageCache so re-Add
+                // of the same Type reuses the existing Control instance. The
+                // hard Reset() disposed every Page and caused 2.8s spikes on
+                // disconnect (BackstageView.Add:ConfigPlanner took 2887ms in
+                // profile-20260524-203825 because Activator.CreateInstance +
+                // InitializeComponent + ApplyTheme cascade re-ran).
+                try
+                {
+                    backstageView.SoftReset();
+                }
+                catch (Exception exClr) { log.Warn("backstageView soft reset: " + exClr.Message); }
+
+                bool nowConnected = MainV2.comPort.BaseStream != null && MainV2.comPort.BaseStream.IsOpen;
+                Firmwares nowFw = nowConnected ? MainV2.comPort.MAV.cs.firmware : Firmwares.PX4;
+                _builtForConnected = nowConnected;
+                _builtForFirmware = nowFw;
+                _firstBuildDone = true;
+
                 BackstageViewPage start = null;
 
                 if (gotAllParams)
@@ -313,11 +363,27 @@ namespace MissionPlanner.GCSViews
                             log.Error(ex);
                         }
                     });
+
+                // Phase 10g fork: pre-construct every sub-page on the message
+                // pump so subsequent clicks don't pay the per-page handle-
+                // creation + InitializeComponent cost (~2-3s for ConfigPlanner
+                // on Wine). User input always preempts the prewarmer.
+                this.BeginInvoke((Action) delegate
+                {
+                    try { backstageView.PrewarmAllAsync(); }
+                    catch (Exception ex) { log.Warn("SWConfig prewarm: " + ex.Message); }
+                });
             }
             catch (Exception ex)
             {
                 log.Error(ex);
             }
+            // Phase 10p3 fork: SoftReset + AddPage batch needs explicit
+            // menu redraw or pnlMenu stays empty (no buttons appear) on
+            // first launch when lastpagename has no match.
+            try { backstageView.RedrawMenu(); }
+            catch (Exception ex) { log.Warn("SoftwareConfig.RebuildPages RedrawMenu: " + ex.Message); }
+            MissionPlanner.Utilities.Profiler.Mark("SoftwareConfig.RebuildPages:done");
         }
 
         private void SoftwareConfig_FormClosing(object sender, FormClosingEventArgs e)

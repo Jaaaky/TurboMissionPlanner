@@ -41,6 +41,88 @@ namespace MissionPlanner.Controls.BackstageView
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
         public BackstageViewCollection Pages { get { return _items; } }
 
+        private bool _prewarmStarted;
+        private Panel _prewarmHost;
+
+        /// <summary>
+        /// Phase 10g fork: idle-driven preconstruction of every registered
+        /// BackstageViewPage. Forces ctor + handle creation + initial
+        /// PerformLayout off the user-click path. Each page is warmed via
+        /// one BeginInvoke per UI message-pump cycle, so user input always
+        /// preempts; a click on an unwarmed page costs the same as before,
+        /// but every page warmed by then opens instantly.
+        /// </summary>
+        public void PrewarmAllAsync()
+        {
+            if (_prewarmStarted) return;
+            if (!this.IsHandleCreated || this.IsDisposed) return;
+            _prewarmStarted = true;
+
+            // Detached invisible host so we can force handle creation on each
+            // Page without making it visible inside pnlPages. Parented to the
+            // BackstageView itself but kept invisible + zero-size so layout
+            // doesn't shift.
+            _prewarmHost = new Panel { Visible = false, Width = 0, Height = 0 };
+            this.Controls.Add(_prewarmHost);
+
+            var queue = new System.Collections.Generic.Queue<BackstageViewPage>();
+            foreach (BackstageViewPage p in _items) queue.Enqueue(p);
+            ScheduleNextPrewarm(queue);
+        }
+
+        private void ScheduleNextPrewarm(System.Collections.Generic.Queue<BackstageViewPage> q)
+        {
+            if (q.Count == 0)
+            {
+                try { _prewarmHost?.Dispose(); } catch { }
+                _prewarmHost = null;
+                MissionPlanner.Utilities.Profiler.Mark("BackstageView.Prewarm:done");
+                return;
+            }
+            if (!this.IsHandleCreated || this.IsDisposed) return;
+            try
+            {
+                this.BeginInvoke((Action) delegate { PrewarmOne(q); });
+            }
+            catch { }
+        }
+
+        private void PrewarmOne(System.Collections.Generic.Queue<BackstageViewPage> q)
+        {
+            if (q.Count == 0 || _prewarmHost == null) return;
+            var p = q.Dequeue();
+            try
+            {
+                if (!p.isPageCreated)
+                {
+                    MissionPlanner.Utilities.Profiler.Mark("BackstageView.Prewarm:" + (p.LinkText ?? "?"));
+                    // Touching .Page triggers Activator.CreateInstance + the
+                    // BackstageViewPage initial property assignments + the
+                    // ApplyTheme delegate. UserControl ctor (InitializeComponent)
+                    // runs here.
+                    var ctrl = p.Page;
+                    if (ctrl != null && _prewarmHost != null && !_prewarmHost.IsDisposed)
+                    {
+                        // Parent to the hidden host so .Handle access cascades
+                        // CreateHandle to all 100+ child controls now. This is
+                        // the heaviest part of the click-time cost (~80% of it).
+                        _prewarmHost.Controls.Add(ctrl);
+                        var _ = ctrl.Handle;
+                        try { ctrl.PerformLayout(); } catch { }
+                        // Remove from host so ActivatePage's Controls.Add into
+                        // pnlPages becomes a cheap reparent rather than a full
+                        // handle-recreate.
+                        _prewarmHost.Controls.Remove(ctrl);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                log.Warn("BackstageView prewarm " + (p.LinkText ?? "?") + ": " + ex.Message);
+            }
+            ScheduleNextPrewarm(q);
+        }
+
         /// <summary>
         /// Show advanced items or not
         /// </summary>
@@ -196,12 +278,38 @@ namespace MissionPlanner.Controls.BackstageView
         /// <summary>
         /// Add a page (tab) to this backstage view. Will be added at the end/bottom
         /// </summary>
+        // Phase 10o fork: cache BackstageViewPage instances by (Type, parent
+        // header). On vehicle connect / disconnect SoftwareConfig.RebuildPages
+        // calls SoftReset() then re-AddPage()s the appropriate set. Without
+        // this cache, every re-Add allocated a NEW BackstageViewPage whose
+        // .Page getter then ran Activator.CreateInstance + InitializeComponent
+        // + ApplyTheme cascade from scratch - ConfigPlanner.Add measured
+        // 2887ms on disconnect in profile-20260524-203825. With the cache the
+        // existing Control is reused.
+        private readonly System.Collections.Generic.Dictionary<string, BackstageViewPage> _pageCache
+            = new System.Collections.Generic.Dictionary<string, BackstageViewPage>();
+
         public BackstageViewPage AddPage(Type userControl, string headerText, BackstageViewPage Parent, bool advanced)
         {
-            var page = new BackstageViewPage(userControl, headerText, Parent, advanced);
-
+            // Cache key combines Type with Parent's text so a sub-page that
+            // legitimately appears under two different parents still works.
+            var cacheKey = userControl.FullName + "|" + (Parent?.LinkText ?? "");
+            BackstageViewPage page;
+            if (_pageCache.TryGetValue(cacheKey, out page) && page != null)
+            {
+                // Reuse the existing BackstageViewPage (and therefore its
+                // already-created Control). Refresh header/advanced flag in
+                // case caller changed them between rebuilds.
+                page.LinkText = headerText;
+                page.Parent = Parent;
+                page.Advanced = advanced;
+            }
+            else
+            {
+                page = new BackstageViewPage(userControl, headerText, Parent, advanced);
+                _pageCache[cacheKey] = page;
+            }
             _items.Add(page);
-
             return page;
         }
 
@@ -432,6 +540,14 @@ namespace MissionPlanner.Controls.BackstageView
             this.ActivatePage(associatedPage);
         }
 
+        // Phase 9 fork: re-entrancy + idempotency guard. Re-clicking the
+        // active tab used to re-run the whole Activate path (XML walks,
+        // tooltip rewiring, control re-binds) -- visible to users as
+        // "double-click doubled the wait". Also block overlapping activates
+        // while one is still running (defends against fast tab-jumping
+        // queueing multiple full activates on the UI message pump).
+        private bool _activating;
+
         public void ActivatePage(BackstageViewPage associatedPage)
         {
             if (associatedPage == null)
@@ -440,6 +556,14 @@ namespace MissionPlanner.Controls.BackstageView
                     DrawMenu(null, true);
                 return;
             }
+
+            if (_activePage == associatedPage)
+                return;
+            if (_activating)
+                return;
+            _activating = true;
+            try
+            {
 
             Tracking?.Invoke(associatedPage.Page.GetType().ToString(), associatedPage.LinkText);
 
@@ -488,12 +612,17 @@ namespace MissionPlanner.Controls.BackstageView
             associatedPage.Page.Visible = true;
 
             if (!pnlPages.Controls.Contains(associatedPage.Page))
+            {
+                MissionPlanner.Utilities.Profiler.Mark("BackstageView.Add:" + (associatedPage.Page?.GetType().Name ?? "?"));
                 this.pnlPages.Controls.Add(associatedPage.Page);
+                MissionPlanner.Utilities.Profiler.Mark("BackstageView.Add:done");
+            }
 
             // new way of notifying activation. Goal is to get rid of BackStageViewContentPanel
             // so plain old user controls can be added
             if (associatedPage.Page is IActivate)
             {
+                MissionPlanner.Utilities.Profiler.Mark("BackstageView.Activate:" + associatedPage.Page.GetType().Name);
                 try
                 {
                     ((IActivate) (associatedPage.Page)).Activate();
@@ -502,6 +631,7 @@ namespace MissionPlanner.Controls.BackstageView
                 {
                     log.Error(ex);
                 }
+                MissionPlanner.Utilities.Profiler.Mark("BackstageView.Activate:done");
             }
 
             try
@@ -520,6 +650,12 @@ namespace MissionPlanner.Controls.BackstageView
                 (end - start).TotalMilliseconds);
 
             _activePage = associatedPage;
+
+            }
+            finally
+            {
+                _activating = false;
+            }
         }
 
         protected override void OnPaint(PaintEventArgs e)
@@ -528,6 +664,76 @@ namespace MissionPlanner.Controls.BackstageView
                 DrawMenu(null, false);
 
             base.OnPaint(e);
+        }
+
+        /// <summary>
+        /// Phase 10j fork: full teardown for a SoftwareConfig-style host
+        /// that wants to rebuild its page list (e.g. after the vehicle
+        /// connection state changed). Disposes cached page controls,
+        /// clears the Pages collection, removes menu buttons, removes
+        /// previously-parented page panels from pnlPages. Caller is then
+        /// free to call AddPage() again from scratch.
+        /// </summary>
+        public void Reset()
+        {
+            Close(); // dispose cached page controls (existing behaviour)
+            try
+            {
+                pnlPages.Controls.Clear();
+            }
+            catch { }
+            try
+            {
+                // Drop all menu buttons that CreateLinkButton added. They
+                // are direct children of pnlMenu.
+                for (int i = pnlMenu.Controls.Count - 1; i >= 0; i--)
+                {
+                    var c = pnlMenu.Controls[i];
+                    if (c is BackstageViewButton)
+                    {
+                        pnlMenu.Controls.RemoveAt(i);
+                        try { c.Dispose(); } catch { }
+                    }
+                }
+            }
+            catch { }
+            _pageCache.Clear(); // Reset() disposes Pages, cache is invalid
+            _items.Clear();
+            _activePage = null;
+            expanded.Clear();
+            ButtonTopPos = 0;
+            _prewarmStarted = false;
+        }
+
+        /// <summary>
+        /// Phase 10o introduced this as a no-dispose variant of Reset() so
+        /// the _pageCache could reuse the same Control instances across
+        /// rebuilds (saved 2.8s ConfigPlanner.Add on disconnect). Phase
+        /// 10p4 reverted that: too many config pages (ConfigRadioOutput,
+        /// ConfigHWCompass, ConfigBatteryMonitoring, ...) read MAV.param
+        /// ONCE during InitializeComponent / Activate and never refresh,
+        /// so reusing a cached Control after a connection state change
+        /// produced stale defaults / empty values. Correctness > the
+        /// micro-optimisation; SoftReset now just forwards to Reset().
+        /// </summary>
+        public void SoftReset()
+        {
+            Reset();
+        }
+
+        /// <summary>
+        /// Phase 10p3 fork: explicit redraw after a SoftReset + AddPage()
+        /// batch. SoftReset cleared the pnlMenu buttons, AddPage only adds
+        /// to _items - nothing rebuilds the buttons unless ActivatePage
+        /// fires (and on first launch with no lastpagename match it never
+        /// does). Without this call the Setup tab shows an empty menu /
+        /// blank content panel even though _items has 38 pages. Pair every
+        /// SoftReset() + AddPage() batch with RedrawMenu() at the end.
+        /// </summary>
+        public void RedrawMenu()
+        {
+            try { DrawMenu(null, true); }
+            catch (Exception ex) { log.Warn("BackstageView.RedrawMenu: " + ex.Message); }
         }
 
         public new void Close()
