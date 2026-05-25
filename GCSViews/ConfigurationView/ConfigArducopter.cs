@@ -179,25 +179,45 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 CHK_lockrollpitch.Checked = false;
             }
 
-            // add tooltips to all controls
-            foreach (Control control1 in Controls)
-            {
-                foreach (Control control2 in control1.Controls)
-                {
-                    if (control2 is MavlinkNumericUpDown)
-                    {
-                        var ParamName = ((MavlinkNumericUpDown) control2).ParamName;
-                        toolTip1.SetToolTip(control2,
-                            $"{ParamName}:\n{ParameterMetaDataRepository.GetParameterMetaData(ParamName, ParameterMetaDataConstants.Description, MainV2.comPort.MAV.cs.firmware.ToString())}");
-                    }
+            // Phase 8/9 fix: cache firmware + warm metadata. Phase 9f added
+            // an O(1) index so lookups are cheap, but SetToolTip on a
+            // visible AutoSize container still triggers a per-control
+            // layout pass -- the user-visible "frame by frame" stutter.
+            // Suspend the whole UserControl + every direct child container
+            // before the tooltip flood, resume once at the end.
+            var firmware = MainV2.comPort.MAV.cs.firmware.ToString();
+            ParameterMetaDataRepository.GetParameterMetaData("TUNE",
+                ParameterMetaDataConstants.Description, firmware);
 
-                    if (control2 is MavlinkComboBox)
+            this.SuspendLayout();
+            foreach (Control c1 in Controls) c1.SuspendLayout();
+            try
+            {
+                foreach (Control control1 in Controls)
+                {
+                    foreach (Control control2 in control1.Controls)
                     {
-                        var ParamName = ((MavlinkComboBox) control2).ParamName;
-                        toolTip1.SetToolTip(control2,
-                            $"{ParamName}:\n{ParameterMetaDataRepository.GetParameterMetaData(ParamName, ParameterMetaDataConstants.Description, MainV2.comPort.MAV.cs.firmware.ToString())}");
+                        if (control2 is MavlinkNumericUpDown)
+                        {
+                            var ParamName = ((MavlinkNumericUpDown) control2).ParamName;
+                            toolTip1.SetToolTip(control2,
+                                $"{ParamName}:\n{ParameterMetaDataRepository.GetParameterMetaData(ParamName, ParameterMetaDataConstants.Description, firmware)}");
+                        }
+
+                        if (control2 is MavlinkComboBox)
+                        {
+                            var ParamName = ((MavlinkComboBox) control2).ParamName;
+                            toolTip1.SetToolTip(control2,
+                                $"{ParamName}:\n{ParameterMetaDataRepository.GetParameterMetaData(ParamName, ParameterMetaDataConstants.Description, firmware)}");
+                        }
                     }
                 }
+            }
+            finally
+            {
+                foreach (Control c1 in Controls) c1.ResumeLayout(false);
+                this.ResumeLayout(false);
+                this.PerformLayout();
             }
 
             startup = false;

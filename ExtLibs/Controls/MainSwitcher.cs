@@ -65,6 +65,92 @@ namespace MissionPlanner.Controls
             ShowScreen(current.Name);
         }
 
+        // Phase 10h fork: hidden off-screen Form that hosts preload-target
+        // screens so we can fire their Form Load event without showing them
+        // to the user. Control.CreateControl() only triggers OnLoad when the
+        // control is Visible AND parented to a visible container; we need
+        // both. A regular hidden Panel doesn't work (parent not "visible").
+        private Form _preloadHost;
+        private Form GetPreloadHost()
+        {
+            if (_preloadHost != null && !_preloadHost.IsDisposed) return _preloadHost;
+            _preloadHost = new Form
+            {
+                FormBorderStyle = FormBorderStyle.None,
+                StartPosition = FormStartPosition.Manual,
+                Location = new Point(-32000, -32000),
+                Size = new Size(800, 600),
+                ShowInTaskbar = false,
+                Opacity = 0.0,
+                Visible = false,
+            };
+            // Show off-screen + invisible so SetVisibleCore fires CreateControl
+            // on its children when we add them.
+            try { _preloadHost.Show(); _preloadHost.Hide(); } catch { }
+            _preloadHost.Visible = true; // needed for child CreateControl path
+            return _preloadHost;
+        }
+
+        /// <summary>
+        /// Phase 10h fork: pre-construct a screen's Control + force handle
+        /// cascade + force Form Load event off the user-click path. Hosted
+        /// in an invisible off-screen Form so OnLoad fires.
+        ///
+        /// Returns true if a new Control was created; false if it already
+        /// existed (or screen not found / not persistent).
+        /// </summary>
+        private static void ForceCreateControlRecursive(Control c)
+        {
+            if (c == null) return;
+            try { c.CreateControl(); } catch { }
+            try { var _ = c.Handle; } catch { }
+            foreach (Control child in c.Controls)
+                ForceCreateControlRecursive(child);
+        }
+
+        public bool PreloadScreen(string name)
+        {
+            Screen s;
+            try { s = screens.SingleOrDefault(sc => sc.Name == name); }
+            catch { return false; }
+            if (s == null) return false;
+            if (s.Control != null && !s.Control.IsDisposed) return false;
+            if (!s.Persistent) return false; // pointless to preload a non-persistent screen
+            try
+            {
+                CreateControl(s);
+                if (s.Control == null) return false;
+                var host = GetPreloadHost();
+                s.Control.Visible = true; // required for CreateControl -> OnLoad
+                s.Control.Dock = DockStyle.Fill;
+                if (!host.Controls.Contains(s.Control))
+                    host.Controls.Add(s.Control);
+                // Force handle + load event chain on UI thread RIGHT NOW.
+                var _ = s.Control.Handle;
+                try { s.Control.CreateControl(); } catch { }
+                try { s.Control.PerformLayout(); } catch { }
+                if (s.Control is IActivate)
+                    try { ((IActivate) s.Control).Activate(); } catch { }
+                // Do NOT pump messages here: Application.DoEvents inside the
+                // preload was pumping the entire backstage prewarm chain
+                // (16+ seconds of queued work), blocking startup. The
+                // ActivatePage queued by SoftwareConfig_Load will run on its
+                // own when the message pump returns to idle.
+                if (s.Control is IDeactivate)
+                    try { ((IDeactivate) s.Control).Deactivate(); } catch { }
+                // Remove from host so ShowScreen can re-parent into MainControl
+                // without complaints. Handle stays valid; controls remember
+                // their state. ShowScreen will set Visible appropriately.
+                try { host.Controls.Remove(s.Control); } catch { }
+                s.Control.Visible = false;
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         void CreateControl(Screen current)
         {
             Type type = current.Type;
