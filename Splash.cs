@@ -8,6 +8,15 @@ namespace MissionPlanner
     {
         public Splash()
         {
+            // Phase 9 fork: load + apply IBM Plex Sans before designer fonts.
+            try
+            {
+                MissionPlanner.Utilities.AppFonts.Load();
+                if (MissionPlanner.Utilities.AppFonts.PlexSans != null)
+                    this.Font = MissionPlanner.Utilities.AppFonts.Make(this.Font?.Size ?? 8.25f);
+            }
+            catch { }
+
             InitializeComponent();
 
             string strVersion = typeof(Splash).GetType().Assembly.GetName().Version.ToString();
