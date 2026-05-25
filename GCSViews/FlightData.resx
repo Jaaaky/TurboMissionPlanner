@@ -352,7 +352,7 @@
     <value>Fill</value>
   </data>
   <data name="quickView6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>IBM Plex Sans, 9.75pt</value>
   </data>
   <data name="quickView6.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 115</value>
@@ -382,7 +382,7 @@
     <value>Fill</value>
   </data>
   <data name="quickView5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>IBM Plex Sans, 9.75pt</value>
   </data>
   <data name="quickView5.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 115</value>
@@ -412,7 +412,7 @@
     <value>Fill</value>
   </data>
   <data name="quickView4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>IBM Plex Sans, 9.75pt</value>
   </data>
   <data name="quickView4.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 59</value>
@@ -442,7 +442,7 @@
     <value>Fill</value>
   </data>
   <data name="quickView3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>IBM Plex Sans, 9.75pt</value>
   </data>
   <data name="quickView3.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 59</value>
@@ -472,7 +472,7 @@
     <value>Fill</value>
   </data>
   <data name="quickView2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>IBM Plex Sans, 9.75pt</value>
   </data>
   <data name="quickView2.Location" type="System.Drawing.Point, System.Drawing">
     <value>145, 3</value>
@@ -502,7 +502,7 @@
     <value>Fill</value>
   </data>
   <data name="quickView1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+    <value>IBM Plex Sans, 9.75pt</value>
   </data>
   <data name="quickView1.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
@@ -739,7 +739,7 @@
     <value>Fill</value>
   </data>
   <data name="CMB_action.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>IBM Plex Sans, 12pt</value>
   </data>
   <data name="CMB_action.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
@@ -901,7 +901,7 @@
     <value>Fill</value>
   </data>
   <data name="CMB_setwp.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>IBM Plex Sans, 12pt</value>
   </data>
   <data name="CMB_setwp.Items" xml:space="preserve">
     <value>0 (Home)</value>
@@ -1129,7 +1129,7 @@
     <value>Fill</value>
   </data>
   <data name="CMB_mountmode.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>IBM Plex Sans, 12pt</value>
   </data>
   <data name="CMB_mountmode.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 111</value>
@@ -1255,7 +1255,7 @@
     <value>Fill</value>
   </data>
   <data name="CMB_modes.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>IBM Plex Sans, 12pt</value>
   </data>
   <data name="CMB_modes.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 75</value>
@@ -5636,7 +5636,7 @@
     <value>307, 17</value>
   </metadata>
   <data name="windDir1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+    <value>IBM Plex Sans, 8.25pt, style=Bold</value>
   </data>
   <data name="windDir1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>

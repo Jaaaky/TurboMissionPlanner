@@ -304,7 +304,7 @@ This requires you to place your autopilot flat and level.</value>
     <value>188, 72</value>
   </data>
   <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>IBM Plex Sans, 12pt</value>
   </data>
   <data name="&gt;&gt;BUT_level.Type" xml:space="preserve">
     <value>MissionPlanner.Controls.MyButton, MissionPlanner.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>

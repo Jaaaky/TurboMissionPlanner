@@ -2449,7 +2449,7 @@
     <value>Zoom</value>
   </data>
   <data name="Gservoloc.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9pt</value>
+    <value>IBM Plex Sans, 9pt</value>
   </data>
   <data name="Gservoloc.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 93</value>

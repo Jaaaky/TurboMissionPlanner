@@ -184,7 +184,7 @@
     <value>17, 17</value>
   </metadata>
   <data name="lbl_currentmode.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 26.25pt</value>
+    <value>IBM Plex Sans, 26.25pt</value>
   </data>
   <data name="lbl_currentmode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -827,7 +827,7 @@ Arducopter Other: if have gps, RTL, Otherwise Land</value>
     <value>1</value>
   </data>
   <data name="lbl_armed.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 26.25pt</value>
+    <value>IBM Plex Sans, 26.25pt</value>
   </data>
   <data name="lbl_armed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -857,7 +857,7 @@ Arducopter Other: if have gps, RTL, Otherwise Land</value>
     <value>4</value>
   </data>
   <data name="lbl_gpslock.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 26.25pt</value>
+    <value>IBM Plex Sans, 26.25pt</value>
   </data>
   <data name="lbl_gpslock.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>

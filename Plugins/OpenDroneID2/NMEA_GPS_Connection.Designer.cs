@@ -89,7 +89,7 @@
             // LBL_gpsStatus
             // 
             this.LBL_gpsStatus.AutoSize = true;
-            this.LBL_gpsStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_gpsStatus.Font = new System.Drawing.Font("IBM Plex Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_gpsStatus.Location = new System.Drawing.Point(3, 43);
             this.LBL_gpsStatus.Name = "LBL_gpsStatus";
             this.LBL_gpsStatus.Size = new System.Drawing.Size(368, 13);
