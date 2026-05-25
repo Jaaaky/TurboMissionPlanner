@@ -4,19 +4,24 @@ using System.IO;
 using System.Xml.Linq;
 using System.Linq;
 using System.Collections;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Globalization;
-using Microsoft.Extensions.Caching.Memory;
 
 namespace MissionPlanner.Utilities
 {
     public static class ParameterMetaDataRepository
     {
-        private static MemoryCache _cache =
-            new MemoryCache(new MemoryCacheOptions()
-            {
-                /*SizeLimit = 1024 * 1024 * 500*/
-            });
+        // Phase 9 fork: was a Microsoft.Extensions MemoryCache gated by a
+        // single `lock(_cache)` for every read and write. With ~1500 params
+        // * 5+ metaKeys per param looked up by ConfigRawParams + Ardu*
+        // tooltip loops + servo setup, the lock became the serialising
+        // bottleneck (Parallel.ForEach in ConfigRawParams was effectively
+        // sequential). Swap to ConcurrentDictionary -- lock-free reads,
+        // no eviction needed since the param metadata is bounded and
+        // immutable for the life of the process.
+        private static readonly ConcurrentDictionary<string, string> _cache =
+            new ConcurrentDictionary<string, string>(StringComparer.Ordinal);
 
         /// <summary>
         /// Gets the parameter meta data.
@@ -26,46 +31,31 @@ namespace MissionPlanner.Utilities
         /// <returns></returns>
         public static string GetParameterMetaData(string nodeKey, string metaKey, string vechileType)
         {
-            lock (_cache)
-            {
-                var ans = _cache.Get(nodeKey + metaKey + vechileType) as string;
-                if (ans != null)
-                    return ans;
-            }
+            var key = nodeKey + "" + metaKey + "" + vechileType;
+            if (_cache.TryGetValue(key, out var cached))
+                return cached;
 
             if (vechileType == "PX4")
             {
-                return ParameterMetaDataRepositoryPX4.GetParameterMetaData(nodeKey, metaKey, vechileType);
+                var px = ParameterMetaDataRepositoryPX4.GetParameterMetaData(nodeKey, metaKey, vechileType);
+                if (!string.IsNullOrEmpty(px))
+                    _cache.TryAdd(key, px);
+                return px ?? string.Empty;
             }
-            else
-            {
-                var answer = ParameterMetaDataRepositoryAPMpdef.GetParameterMetaData(nodeKey, metaKey, vechileType);
-                if (answer == string.Empty)
-                    answer = ParameterMetaDataRepositoryAPMpdef.GetParameterMetaData(nodeKey, metaKey, "SITL");
-                if (answer == string.Empty)
-                    answer = ParameterMetaDataRepositoryAPMpdef.GetParameterMetaData(nodeKey, metaKey, "AP_Periph");
-                // add fallback
-                if (answer == string.Empty)
-                    answer = ParameterMetaDataRepositoryAPM.GetParameterMetaData(nodeKey, metaKey, vechileType);
 
-                if (answer == string.Empty)
-                    return String.Empty;
+            var answer = ParameterMetaDataRepositoryAPMpdef.GetParameterMetaData(nodeKey, metaKey, vechileType);
+            if (answer == string.Empty)
+                answer = ParameterMetaDataRepositoryAPMpdef.GetParameterMetaData(nodeKey, metaKey, "SITL");
+            if (answer == string.Empty)
+                answer = ParameterMetaDataRepositoryAPMpdef.GetParameterMetaData(nodeKey, metaKey, "AP_Periph");
+            if (answer == string.Empty)
+                answer = ParameterMetaDataRepositoryAPM.GetParameterMetaData(nodeKey, metaKey, vechileType);
 
-                lock (_cache)
-                {
-                    try
-                    {
-                        var ci = _cache.CreateEntry(nodeKey + metaKey + vechileType);
-                        ci.Value = answer;
-                        ci.Size = ((string)ci.Value).Length;
-                        // evict after no access
-                        ci.SlidingExpiration = TimeSpan.FromMinutes(5);
-                        ci.Dispose();
-                    } catch { }
-                }
-
-                return answer;
-            }
+            // Cache both hits AND misses. Caching misses is critical because
+            // the lookup just walked four fallback repositories; without
+            // this, every miss does the full four-repo retry on every call.
+            _cache.TryAdd(key, answer);
+            return answer;
         }
 
         /// <summary>
