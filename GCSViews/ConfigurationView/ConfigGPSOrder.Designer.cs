@@ -46,7 +46,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             // 
             // label6
             // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label6.Font = new System.Drawing.Font("IBM Plex Sans", 12F);
             this.label6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label6.Location = new System.Drawing.Point(3, 0);
             this.label6.Name = "label6";
