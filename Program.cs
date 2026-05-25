@@ -39,6 +39,17 @@ namespace MissionPlanner
     {
         private static readonly ILog log = LogManager.GetLogger(typeof(Program));
 
+        // Fork patch: 30+ startup Console.WriteLine probes were spamming
+        // stdout on every launch (dir paths, GMap setup steps, splash status).
+        // Gated behind MP_VERBOSE_STARTUP env var so they vanish by default
+        // but can be re-enabled for debugging.
+        private static readonly bool _verboseStartup =
+            Environment.GetEnvironmentVariable("MP_VERBOSE_STARTUP") == "1";
+        private static void Tlog(string msg)
+        {
+            if (_verboseStartup) Console.WriteLine(msg);
+        }
+
         public static DateTime starttime = DateTime.Now;
 
         public static string name { get; internal set; }
@@ -125,25 +136,22 @@ namespace MissionPlanner
         public static void Start(string[] args)
         {
             Program.args = args;
-            Console.WriteLine(
-                "If your error is about Microsoft.DirectX.DirectInput, please install the latest directx redist from here http://www.microsoft.com/en-us/download/details.aspx?id=35 \n\n");
-            Console.WriteLine("Debug under mono    MONO_LOG_LEVEL=debug mono MissionPlanner.exe");
-            Console.WriteLine("To fix any filename case issues under mono use    export MONO_IOMAP=drive:case");
-            Console.WriteLine("for pinvoke      MONO_LOG_LEVEL=debug MONO_LOG_MASK=dll mono MissionPlanner.exe");
+            // Fork patch: dropped the misleading DirectX redist message and
+            // the obsolete mono-debug hints. The DirectX one mis-implies a
+            // failure even when MP starts fine (the assembly load happens
+            // later behind try/catch); the mono hints predate the wine-mono
+            // ban and are no longer relevant since MP must run on real .NET.
 
-            Console.WriteLine("watch -n 1 ls -l /proc/$(pidof mono)/fd");
-            Console.WriteLine("watch -n 1 lsof -p $(pidof mono)");
-
-            Console.WriteLine("Data Dir " + Settings.GetDataDirectory());
-            Console.WriteLine("Log Dir " + Settings.GetDefaultLogDir());
-            Console.WriteLine("Running Dir " + Settings.GetRunningDirectory());
-            Console.WriteLine("User Data Dir " + Settings.GetUserDataDirectory());
+            Tlog("Data Dir " + Settings.GetDataDirectory());
+            Tlog("Log Dir " + Settings.GetDefaultLogDir());
+            Tlog("Running Dir " + Settings.GetRunningDirectory());
+            Tlog("User Data Dir " + Settings.GetUserDataDirectory());
 
 
-            Console.WriteLine("PlacesRecentDocuments Dir " + Environment.GetFolderPath(Environment.SpecialFolder.Recent));
-            Console.WriteLine("PlacesDesktop Dir " +  Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory));
-            Console.WriteLine("PlacesPersonal Dir " +  Environment.GetFolderPath(Environment.SpecialFolder.Personal));
-            Console.WriteLine("PlacesMyComputer Dir " + Environment.GetFolderPath(Environment.SpecialFolder.MyComputer));
+            Tlog("PlacesRecentDocuments Dir " + Environment.GetFolderPath(Environment.SpecialFolder.Recent));
+            Tlog("PlacesDesktop Dir " +  Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory));
+            Tlog("PlacesPersonal Dir " +  Environment.GetFolderPath(Environment.SpecialFolder.Personal));
+            Tlog("PlacesMyComputer Dir " + Environment.GetFolderPath(Environment.SpecialFolder.MyComputer));
 
             var t = Type.GetType("Mono.Runtime");
             MONO = (t != null);
@@ -158,6 +166,23 @@ namespace MissionPlanner
                 Trace.Listeners.Add(listener);
 
             Thread = Thread.CurrentThread;
+
+            // Phase 9 fork: force GDI text rendering (TextRenderer.DrawText)
+            // instead of GDI+ (Graphics.DrawString). Two reasons:
+            //   1. WinForms text lookups by NAME ("IBM Plex Sans") only see
+            //      AddFontMemResourceEx-registered fonts in the GDI path.
+            //      GDI+ uses an isolated PrivateFontCollection that name
+            //      lookups don't search, so the embedded font is invisible
+            //      under the default GDI+ rendering.
+            //   2. Wine's GDI+ has known text smoothing TODOs; GDI via
+            //      FreeType renders much more crisply on Wine.
+            // Must be called BEFORE EnableVisualStyles + before any control
+            // is created.
+            try { System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false); } catch { }
+
+            // Phase 9 fork: register embedded IBM Plex Sans with GDI/GDI+
+            // before any WinForms control gets instantiated.
+            try { MissionPlanner.Utilities.AppFonts.Load(); } catch { }
 
             System.Windows.Forms.Application.EnableVisualStyles();
             XmlConfigurator.Configure(LogManager.GetRepository(Assembly.GetCallingAssembly()));
@@ -184,6 +209,13 @@ namespace MissionPlanner
 
             log.Info("******************* Logging Configured *******************");
 
+            // Phase 10e fork: start the crash-survivable sampling profiler if
+            // the user opted in (env var MP_PROFILER=1 or Setting
+            // "EnableProfiler"=true). The UI thread is the one calling
+            // Program.Main, so capture it here.
+            try { MissionPlanner.Utilities.Profiler.Start(System.Threading.Thread.CurrentThread); } catch { }
+            try { MissionPlanner.Utilities.Profiler.Mark("Program.Main:logging-configured"); } catch { }
+
             ServicePointManager.DefaultConnectionLimit = 10;
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls | SecurityProtocolType.Ssl3;
 
@@ -202,7 +234,7 @@ namespace MissionPlanner
                 return;
             }
 
-            name = "Mission Planner";
+            name = "Mission Planner (Turbo)";
 
             try
             {
@@ -272,7 +304,7 @@ namespace MissionPlanner
                 Splash.pictureBox1.Visible = false;
             }
 
-            Console.WriteLine("IconFile");
+            Tlog("IconFile");
             if (IconFile != null)
                 Splash.Icon = Icon.FromHandle(((Bitmap) IconFile).GetHicon());
 
@@ -280,16 +312,16 @@ namespace MissionPlanner
                 ? File.ReadAllText("version.txt")
                 : System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
             Splash.Text = name + " " + Application.ProductVersion + " build " + strVersion;
-            Console.WriteLine("Splash.Show()");
+            Tlog("Splash.Show()");
             Splash.Show();
 
-            Console.WriteLine("Debugger.IsAttached " + Debugger.IsAttached);
+            Tlog("Debugger.IsAttached " + Debugger.IsAttached);
             if (Debugger.IsAttached)
                 Splash.TopMost = false;
 
-            Console.WriteLine("Application.DoEvents");
+            Tlog("Application.DoEvents");
             Application.DoEvents();
-            Console.WriteLine("Application.DoEvents");
+            Tlog("Application.DoEvents");
             Application.DoEvents();
 
             CustomMessageBox.ShowEvent += (text, caption, buttons, icon, yestext, notext) =>
@@ -315,7 +347,7 @@ namespace MissionPlanner
 
             MissionPlanner.Utilities.Extensions.MessageLoop = new Action(() => Application.DoEvents());
 
-            Console.WriteLine("Setup GMaps 1");
+            Tlog("Setup GMaps 1");
             // set the cache provider to my custom version
             GMap.NET.GMaps.Instance.PrimaryCache = new Maps.MyImageCache();
             if (Settings.Instance["mapCache"] != null)
@@ -323,7 +355,7 @@ namespace MissionPlanner
                 GMap.NET.GMaps.Instance.Mode = (GMap.NET.AccessMode)Enum.Parse(typeof(GMap.NET.AccessMode), Settings.Instance["mapCache"].ToString());
                 log.Info("Map access mode set to : " + GMap.NET.GMaps.Instance.Mode.ToString());
             }
-            Console.WriteLine("Setup GMaps 2");
+            Tlog("Setup GMaps 2");
             // add my custom map providers
             GMap.NET.MapProviders.GMapProviders.List.Add(Maps.WMSProvider.Instance);
             GMap.NET.MapProviders.GMapProviders.List.Add(Maps.WMTSProvider.Instance);
@@ -357,46 +389,100 @@ namespace MissionPlanner
             if(Xamarin.Essentials.DeviceInfo.Platform != Xamarin.Essentials.DevicePlatform.Unknown)
                 log.Info(typeof(Xamarin.Essentials.DeviceInfo).ToJSON());
 
-            Console.WriteLine("Setup GoogleMapProvider API");
+            Tlog("Setup GoogleMapProvider API");
             if (Settings.Instance["GoogleApiKey"] != null) GoogleMapProvider.APIKey = Settings.Instance["GoogleApiKey"];
 
-            Console.WriteLine("Setup Tracking.productName");
+            Tlog("Setup Tracking.productName");
             Tracking.productName = Application.ProductName;
             Tracking.productVersion = Application.ProductVersion;
             Tracking.currentCultureName = Application.CurrentCulture.Name;
-            Console.WriteLine("Setup Tracking.primaryScreenBitsPerPixel");
+            Tlog("Setup Tracking.primaryScreenBitsPerPixel");
             Tracking.primaryScreenBitsPerPixel = Screen.PrimaryScreen.BitsPerPixel;
             Tracking.boundsWidth = Screen.PrimaryScreen.Bounds.Width;
             Tracking.boundsHeight = Screen.PrimaryScreen.Bounds.Height;
 
-            Console.WriteLine("Setup Settings.Instance.UserAgent");
+            Tlog("Setup Settings.Instance.UserAgent");
             Settings.Instance.UserAgent = Application.ProductName + " " + Application.ProductVersion + " (" +
                                           Environment.OSVersion?.VersionString + ")";
             GMap.NET.MapProviders.GMapProvider.UserAgent = Settings.Instance.UserAgent;
 
-            Console.WriteLine("Setup check gdal dir");
-            // optionally add gdal support
+            Tlog("Setup check gdal dir");
+            // Fork patch: GDAL static-ctor loads native DLLs + builds a WGS84
+            // SpatialReference (~300-800ms). Defer to a background thread so
+            // it doesn't block the splash. The GetProvider() Add must still
+            // happen but GDAL.GDAL() itself is the heavy bit.
             if (Directory.Exists(Application.StartupPath + Path.DirectorySeparatorChar + "gdal"))
             {
-                Console.WriteLine("Setup gdal");
+                Tlog("Setup gdal (background)");
 #if !LIB
-                // net461
-                MissionPlanner.Utilities.GDAL.GDALBase = new GDAL.GDAL();
+                Task.Run(() =>
+                {
+                    try
+                    {
+                        MissionPlanner.Utilities.GDAL.GDALBase = new GDAL.GDAL();
+                        GMap.NET.MapProviders.GMapProviders.List.Add(
+                            MissionPlanner.Utilities.GDAL.GetProvider());
+                    }
+                    catch (Exception ex)
+                    {
+                        log.Error("GDAL deferred init failed", ex);
+                    }
+                });
 #endif
-                GMap.NET.MapProviders.GMapProviders.List.Add(MissionPlanner.Utilities.GDAL.GetProvider());
             }
 
-            Console.WriteLine("Setup proxy");
-            // add proxy settings
-            try
+            // Fork patch: WebRequest.GetSystemWebProxy() can hang for 500-2000ms
+            // probing WPAD on misconfigured networks. Run both proxy probes on
+            // a background thread; map tile fetches and HTTP calls happen well
+            // after startup, so the race-window for "proxy not set yet" is harmless.
+            Tlog("Setup proxy (background)");
+            Task.Run(() =>
             {
-                GMap.NET.MapProviders.GMapProvider.WebProxy = WebRequest.GetSystemWebProxy();
-                GMap.NET.MapProviders.GMapProvider.WebProxy.Credentials = CredentialCache.DefaultCredentials;
-            }
-            catch (PlatformNotSupportedException)
-            {
+                try
+                {
+                    GMap.NET.MapProviders.GMapProvider.WebProxy = WebRequest.GetSystemWebProxy();
+                    GMap.NET.MapProviders.GMapProvider.WebProxy.Credentials = CredentialCache.DefaultCredentials;
+                }
+                catch (PlatformNotSupportedException) { }
+                catch (Exception ex) { log.Warn("GMapProvider proxy probe failed: " + ex.Message); }
 
-            }
+                try
+                {
+                    WebRequest.DefaultWebProxy = WebRequest.GetSystemWebProxy();
+                    WebRequest.DefaultWebProxy.Credentials = CredentialCache.DefaultNetworkCredentials;
+                }
+                catch (PlatformNotSupportedException) { }
+                catch (Exception ex) { log.Warn("DefaultWebProxy probe failed: " + ex.Message); }
+            });
+
+            // Fork patch: the first SkiaSharp paint (HUD, the Quick tab's
+            // QuickView SKControls, map overlays) pays a one-time cost --
+            // native libSkiaSharp load + font-manager init + first text
+            // shaping -- which shows as a visible stutter when the Quick tab
+            // or HUD first renders. Warm that exact path on a background
+            // thread at startup (raster SKSurface + measure + draw text) so
+            // the first real paint is instant. Pure JIT/native warm-up; the
+            // throwaway surface is discarded.
+            Tlog("Setup skia (background)");
+            Task.Run(() =>
+            {
+                try
+                {
+                    using (var surface = SkiaSharp.SKSurface.Create(new SkiaSharp.SKImageInfo(32, 32)))
+                    {
+                        var canvas = surface.Canvas;
+                        canvas.Clear(SkiaSharp.SKColors.Black);
+                        using (var paint = new SkiaSharp.SKPaint
+                            { Color = SkiaSharp.SKColors.White, TextSize = 12, IsAntialias = true })
+                        {
+                            paint.MeasureText("00.00");
+                            canvas.DrawText("00.00", 2, 16, paint);
+                        }
+                        canvas.Flush();
+                    }
+                }
+                catch (Exception ex) { log.Warn("skia prewarm failed: " + ex.Message); }
+            });
 
             // generic status report screen
             MAVLinkInterface.CreateIProgressReporterDialogue += title =>
@@ -405,17 +491,6 @@ namespace MissionPlanner
                 ThemeManager.ApplyThemeTo(ret);
                 return ret;
             };
-
-            Console.WriteLine("Setup proxy");
-            try
-            {
-                WebRequest.DefaultWebProxy = WebRequest.GetSystemWebProxy();
-                WebRequest.DefaultWebProxy.Credentials = CredentialCache.DefaultNetworkCredentials;
-            }
-            catch (PlatformNotSupportedException)
-            {
-
-            }
 
             if (name == "VVVVZ")
             {
@@ -428,8 +503,11 @@ namespace MissionPlanner
                 System.Configuration.ConfigurationManager.AppSettings["UpdateLocationVersion"] = "";
             }
 
-            Console.WriteLine("Setup CleanupFiles");
-            CleanupFiles();
+            // Fork patch: CleanupFiles() does four sync Directory.GetFiles()
+            // scans of the install dir looking for .new/update-stale files.
+            // ~50-300ms on cold disk. Defer; not safety-critical.
+            Tlog("Setup CleanupFiles (background)");
+            Task.Run(() => { try { CleanupFiles(); } catch (Exception ex) { log.Warn("CleanupFiles deferred: " + ex.Message); } });
 
             log.InfoFormat("64bit os {0}, 64bit process {1}, OS Arch {2}, OS Desc {3}, FW Desc {4}",
                 System.Environment.Is64BitOperatingSystem,
@@ -462,7 +540,7 @@ namespace MissionPlanner
                     {
                         if (int.Parse(match.Groups[1].Value) < 6)
                         {
-                            Console.WriteLine(
+                            Tlog(
                                 "Please upgrade your mono version to 6+ https://www.mono-project.com/download/stable/");
                             CustomMessageBox.Show(
                                 "Please upgrade your mono version to 6+ https://www.mono-project.com/download/stable/");
@@ -474,15 +552,18 @@ namespace MissionPlanner
             try
             {
                 Thread.CurrentThread.Name = "Base Thread";
-                Console.WriteLine("Application.Run(new MainV2())");
+                Tlog("Application.Run(new MainV2())");
+                MissionPlanner.Utilities.Profiler.Mark("Application.Run:begin");
                 Application.Run(new MainV2());
+                MissionPlanner.Utilities.Profiler.Mark("Application.Run:returned");
+                MissionPlanner.Utilities.Profiler.Stop();
             }
             catch (Exception ex)
             {
                 log.Fatal("Fatal app exception", ex);
-                Console.WriteLine(ex.ToString());
+                Tlog(ex.ToString());
 
-                Console.WriteLine("\nPress any key to exit!");
+                Tlog("\nPress any key to exit!");
                 Console.ReadLine();
             }
 
@@ -505,8 +586,51 @@ namespace MissionPlanner
             }
         }
 
+        // Fork patch: Wine stubs out WMI ManagementObjectSearcher (returns
+        // empty results). Calling it from Wine wastes time activating COM
+        // for nothing and triggers a fixme storm in
+        // combase/RoGetParameterizedTypeInstanceIID. Cache the detection,
+        // then short-circuit on Wine.
+        private static bool? _isWine;
+        public static bool IsRunningOnWine
+        {
+            get
+            {
+                if (_isWine.HasValue) return _isWine.Value;
+                try
+                {
+                    var ntdll = NativeLibrary.LoadLibrary("ntdll.dll");
+                    if (ntdll != IntPtr.Zero)
+                    {
+                        IntPtr wineFunc = NativeLibrary.GetProcAddress(ntdll, "wine_get_version");
+                        _isWine = wineFunc != IntPtr.Zero;
+                        return _isWine.Value;
+                    }
+                }
+                catch
+                {
+                }
+                _isWine = false;
+                return false;
+            }
+        }
+
+        // Native helper for IsRunningOnWine — keep this tiny class private to
+        // Program so we don't pollute MissionPlanner.Utilities.
+        private static class NativeLibrary
+        {
+            [DllImport("kernel32.dll", SetLastError = true, CharSet = CharSet.Auto)]
+            public static extern IntPtr LoadLibrary(string lpFileName);
+            [DllImport("kernel32.dll", SetLastError = true, CharSet = CharSet.Ansi)]
+            public static extern IntPtr GetProcAddress(IntPtr hModule, string procName);
+        }
+
         private static string SerialPort_GetDeviceName(string port)
         {
+            // Fork patch: skip WMI on Wine -- it is stubbed, returns empty.
+            if (IsRunningOnWine)
+                return "";
+
             ObjectQuery query = new ObjectQuery("SELECT * FROM Win32_SerialPort"); // Win32_USBControllerDevice
             using (ManagementObjectSearcher searcher = new ManagementObjectSearcher(query))
             {
@@ -705,7 +829,7 @@ namespace MissionPlanner
                 }
 
                 Console.Write(stackTrace);
-                Console.WriteLine("Message: " + e.Message);
+                Tlog("Message: " + e.Message);
             }
             catch
             {
@@ -861,7 +985,7 @@ namespace MissionPlanner
                 }
                 catch (Exception exp)
                 {
-                    Console.WriteLine(exp.ToString());
+                    Tlog(exp.ToString());
                     log.Error(exp);
                     CustomMessageBox.Show("Could not send report! Typically due to lack of internet connection.");
                 }
