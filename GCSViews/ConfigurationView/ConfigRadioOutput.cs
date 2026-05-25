@@ -23,13 +23,35 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 num_servos = 32;
             }
 
-            SuspendLayout();
-            foreach (var i in Enumerable.Range(1, num_servos))
-            {
-                setup(i);
-            }
+            // Phase 8 fix: warm metadata cache before per-servo loop.
+            var firmware = MainV2.comPort.MAV.cs.firmware.ToString();
+            ParameterMetaDataRepository.GetParameterOptionsInt("SERVO1_FUNCTION", firmware);
 
-            ResumeLayout(true);
+            // Phase 9 fork: suspend the ACTUAL container (tableLayoutPanel1)
+            // we are adding into, not the UserControl. Upstream SuspendLayout
+            // on `this` didn't stop the TableLayoutPanel from reflowing on
+            // every Controls.Add -- with AutoSize=true that's O(N^2) over
+            // 16-32 servos * 7 controls. Pre-grow RowCount so the table
+            // doesn't auto-extend mid-loop either.
+            tableLayoutPanel1.SuspendLayout();
+            try
+            {
+                if (tableLayoutPanel1.RowCount < num_servos + 1)
+                {
+                    tableLayoutPanel1.RowCount = num_servos + 1;
+                    while (tableLayoutPanel1.RowStyles.Count < num_servos + 1)
+                        tableLayoutPanel1.RowStyles.Add(new RowStyle());
+                }
+                foreach (var i in Enumerable.Range(1, num_servos))
+                {
+                    setup(i);
+                }
+            }
+            finally
+            {
+                tableLayoutPanel1.ResumeLayout(false);
+                tableLayoutPanel1.PerformLayout();
+            }
         }
 
         private void setup(int servono)

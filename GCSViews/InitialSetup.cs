@@ -120,13 +120,18 @@ namespace MissionPlanner.GCSViews
         {
             get
             {
-                log.InfoFormat("TotalReceived {0} TotalReported {1}", MainV2.comPort.MAV.param.TotalReceived,
-                    MainV2.comPort.MAV.param.TotalReported);
-                if (MainV2.comPort.MAV.param.TotalReceived < MainV2.comPort.MAV.param.TotalReported)
-                {
-                    return false;
-                }
-
+                // Phase 10p5 fork: upstream returned true when Received==0 and
+                // Reported==0 (the disconnected / mid-handshake case). That
+                // tricked RebuildPages into adding all the connection +
+                // params-required tabs (Servo Output, Compass, ...) before
+                // any params had actually arrived; Activate then read an
+                // empty MAV.param and showed defaults forever. Now require
+                // the vehicle to have at least reported a total before
+                // claiming we have it all.
+                int rx = MainV2.comPort.MAV.param.TotalReceived;
+                int rep = MainV2.comPort.MAV.param.TotalReported;
+                if (rep == 0) return false;       // nothing reported yet
+                if (rx < rep) return false;       // still downloading
                 return true;
             }
         }
@@ -148,13 +153,79 @@ namespace MissionPlanner.GCSViews
             return null;
         }
 
+        // Phase 10p fork: track what state we built the page list for. On
+        // Windows the preload path fires Load while DISCONNECTED, building
+        // the Setup tab with most `isConnected && gotAllParams` filters
+        // false -> page list nearly empty -> tab appears blank when the
+        // user clicks it after vehicle connect. Activate now compares
+        // current state and rebuilds if diverged. Wine masks the bug
+        // because OnLoad doesn't reliably fire during off-screen preload
+        // there, so Load runs at click-time with the right state.
+        private bool? _builtForConnected;
+        private Firmwares _builtForFirmware;
+        private bool _builtForGotAllParams;
+
         public void Activate()
         {
+            try
+            {
+                bool nowConnected = MainV2.comPort.BaseStream != null && MainV2.comPort.BaseStream.IsOpen;
+                Firmwares nowFw = nowConnected ? MainV2.comPort.MAV.cs.firmware : Firmwares.PX4;
+                bool nowGotParams = gotAllParams;
+                var msg = string.Format("InitialSetup.Activate: now=({0},{1},{2}) built=({3},{4},{5}) pages={6}",
+                    nowConnected, nowFw, nowGotParams,
+                    _builtForConnected, _builtForFirmware, _builtForGotAllParams,
+                    backstageView.Pages.Count);
+                // Phase 10p6 fork: bug fixed in 10p5; downgrade trace verbosity
+                // to Debug so it stops polluting the default WARN-level log.
+                // Profiler.Mark still fires so MP_PROFILER=1 catches it.
+                log.Debug(msg);
+                MissionPlanner.Utilities.Profiler.Mark(msg);
+                if (_builtForConnected == nowConnected
+                    && _builtForFirmware == nowFw
+                    && _builtForGotAllParams == nowGotParams
+                    && backstageView.Pages.Count > 0)
+                {
+                    log.Debug("InitialSetup.Activate: SKIP rebuild - state unchanged");
+                    return;
+                }
+                log.Debug("InitialSetup.Activate: state diverged, calling RebuildPages");
+                RebuildPages();
+            }
+            catch (Exception ex)
+            {
+                log.Warn("InitialSetup.Activate rebuild check exception: " + ex);
+            }
         }
 
         private void HardwareConfig_Load(object sender, EventArgs e)
         {
+            var msg = string.Format("InitialSetup.HardwareConfig_Load FIRED. isOpen={0} TotalReceived={1} TotalReported={2}",
+                MainV2.comPort?.BaseStream?.IsOpen, MainV2.comPort?.MAV?.param?.TotalReceived,
+                MainV2.comPort?.MAV?.param?.TotalReported);
+            log.Debug(msg);
+            MissionPlanner.Utilities.Profiler.Mark(msg);
+            RebuildPages();
+        }
+
+        private void RebuildPages()
+        {
+            // Phase 10p fork: extracted from HardwareConfig_Load so Activate
+            // can re-run the page build when connection state changes. Uses
+            // BackstageView.SoftReset (Phase 10o) so existing Page Controls
+            // are reused on rebuild instead of disposed + reconstructed.
+            try { backstageView.SoftReset(); }
+            catch (Exception ex) { log.Warn("InitialSetup SoftReset: " + ex.Message); }
+
             ResourceManager rm = new ResourceManager(this.GetType());
+
+            _builtForConnected = MainV2.comPort.BaseStream != null && MainV2.comPort.BaseStream.IsOpen;
+            _builtForFirmware = _builtForConnected.Value ? MainV2.comPort.MAV.cs.firmware : Firmwares.PX4;
+            _builtForGotAllParams = gotAllParams;
+            var buildMsg = string.Format("InitialSetup.RebuildPages BUILDING: connected={0} firmware={1} gotAllParams={2}",
+                _builtForConnected, _builtForFirmware, _builtForGotAllParams);
+            log.Debug(buildMsg);
+            MissionPlanner.Utilities.Profiler.Mark(buildMsg);
 
             if (!gotAllParams)
             {
@@ -381,6 +452,18 @@ namespace MissionPlanner.GCSViews
                 AddBackstageViewPage(item.page, item.headerText);
             }
 
+            var doneMsg = string.Format("InitialSetup.RebuildPages DONE. backstageView.Pages.Count={0}", backstageView.Pages.Count);
+            log.Debug(doneMsg);
+            MissionPlanner.Utilities.Profiler.Mark(doneMsg);
+
+            // Phase 10p3 fork: after SoftReset cleared the menu buttons,
+            // _items was repopulated via AddPage but the menu is still
+            // empty. Without an explicit redraw, the Setup tab shows a
+            // blank menu (and no content) unless lastpagename happens to
+            // match a page (which fires ActivatePage -> DrawMenu).
+            try { backstageView.RedrawMenu(); }
+            catch (Exception ex) { log.Warn("InitialSetup.RebuildPages RedrawMenu: " + ex.Message); }
+
             // remeber last page accessed
             foreach (BackstageViewPage page in backstageView.Pages)
             {
@@ -392,6 +475,14 @@ namespace MissionPlanner.GCSViews
             }
 
             ThemeManager.ApplyThemeTo(this);
+
+            // Phase 10g fork: pre-construct every sub-page on the message
+            // pump so subsequent clicks don't pay handle-creation cost.
+            this.BeginInvoke((Action) delegate
+            {
+                try { backstageView.PrewarmAllAsync(); }
+                catch (Exception ex) { log.Warn("HWConfig prewarm: " + ex.Message); }
+            });
         }
 
         private void HardwareConfig_FormClosing(object sender, FormClosingEventArgs e)
