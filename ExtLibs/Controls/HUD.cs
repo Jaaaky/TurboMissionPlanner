@@ -254,9 +254,41 @@ namespace MissionPlanner.Controls
             log.Info("Static HUD ctor");
         }
 
+        // Fork patch: coalesce per-property Invalidate() calls into a single
+        // 30Hz repaint. Telemetry can update 20+ HUD properties per frame; the
+        // upstream code triggers ~20 separate Invalidate() calls per frame, each
+        // of which schedules a full repaint. Result: 600 repaints/sec on Wine
+        // GDI+ instead of ~30. Setters now flip _dirty; the timer flushes it.
+        // Phase 8 fix: _dirty was a plain bool. MAVLink packet handlers run
+        // on the SerialReader background thread and write _dirty=true from
+        // every property setter. Without a memory barrier the UI-thread Tick
+        // might miss writes (ARM/.NET memory model) AND the read+false-assign
+        // pair was a lost-update window. Use Interlocked.Exchange for
+        // atomic test-and-clear -- if a background write races between read
+        // and clear, the next tick picks it up.
+        private int _dirty;
+        private System.Windows.Forms.Timer _repaintTimer;
+
         public HUD()
         {
             log.Info("Instance HUD ctor");
+            // Repaint at ~30Hz only when dirty. Stopped when control hidden.
+            _repaintTimer = new System.Windows.Forms.Timer { Interval = 33 };
+            _repaintTimer.Tick += (s, e) =>
+            {
+                if (Interlocked.Exchange(ref _dirty, 0) == 1
+                    && this.IsHandleCreated && !this.IsDisposed)
+                {
+                    this.Invalidate();
+                }
+            };
+            this.HandleCreated += (s, e) => _repaintTimer.Start();
+            this.HandleDestroyed += (s, e) => _repaintTimer.Stop();
+            this.VisibleChanged += (s, e) =>
+            {
+                if (this.Visible) _repaintTimer.Start(); else _repaintTimer.Stop();
+            };
+
             opengl =
                 displayvibe =
                     displayekf =
@@ -361,7 +393,7 @@ namespace MissionPlanner.Controls
                 if (_roll != value)
                 {
                     _roll = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -375,7 +407,7 @@ namespace MissionPlanner.Controls
                 if (_navroll != value)
                 {
                     _navroll = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -389,7 +421,7 @@ namespace MissionPlanner.Controls
                 if (_pitch != value)
                 {
                     _pitch = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -403,7 +435,7 @@ namespace MissionPlanner.Controls
                 if (_navpitch != value)
                 {
                     _navpitch = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -417,7 +449,7 @@ namespace MissionPlanner.Controls
                 if (_heading != value)
                 {
                     _heading = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -431,7 +463,7 @@ namespace MissionPlanner.Controls
                 if (_targetheading != value)
                 {
                     _targetheading = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -451,7 +483,7 @@ namespace MissionPlanner.Controls
                 if (_load != value)
                 {
                     _load = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -465,7 +497,7 @@ namespace MissionPlanner.Controls
                 if (_alt != value)
                 {
                     _alt = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -479,7 +511,7 @@ namespace MissionPlanner.Controls
                 if (_targetalt != value)
                 {
                     _targetalt = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -493,7 +525,7 @@ namespace MissionPlanner.Controls
                 if (_groundspeed != value)
                 {
                     _groundspeed = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -507,7 +539,7 @@ namespace MissionPlanner.Controls
                 if (_airspeed != value)
                 {
                     _airspeed = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -521,7 +553,7 @@ namespace MissionPlanner.Controls
                 if (_lowgroundspeed != value)
                 {
                     _lowgroundspeed = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -535,7 +567,7 @@ namespace MissionPlanner.Controls
                 if (_lowairspeed != value)
                 {
                     _lowairspeed = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -549,7 +581,7 @@ namespace MissionPlanner.Controls
                 if (_targetspeed != value)
                 {
                     _targetspeed = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -563,7 +595,7 @@ namespace MissionPlanner.Controls
                 if (_batterylevel != value)
                 {
                     _batterylevel = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -577,7 +609,7 @@ namespace MissionPlanner.Controls
                 if (_batterylevel2 != value)
                 {
                     _batterylevel2 = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -591,7 +623,7 @@ namespace MissionPlanner.Controls
                 if (_batteryremaining2 != value)
                 {
                     _batteryremaining2 = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -605,7 +637,7 @@ namespace MissionPlanner.Controls
                 if (_current2 != value)
                 {
                     _current2 = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -619,7 +651,7 @@ namespace MissionPlanner.Controls
                 if (_batterycellcount != value)
                 {
                     _batterycellcount = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -633,7 +665,7 @@ namespace MissionPlanner.Controls
                 if (_batteryremaining != value)
                 {
                     _batteryremaining = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -647,7 +679,7 @@ namespace MissionPlanner.Controls
                 if (_current != value)
                 {
                     _current = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -661,7 +693,7 @@ namespace MissionPlanner.Controls
                 if (_gpsfix != value)
                 {
                     _gpsfix = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -675,7 +707,7 @@ namespace MissionPlanner.Controls
                 if (_gpshdop != value)
                 {
                     _gpshdop = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -689,7 +721,7 @@ namespace MissionPlanner.Controls
                 if (_gpsfix2 != value)
                 {
                     _gpsfix2 = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -703,7 +735,7 @@ namespace MissionPlanner.Controls
                 if (_gpshdop2 != value)
                 {
                     _gpshdop2 = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -717,7 +749,7 @@ namespace MissionPlanner.Controls
                 if (_disttowp != value)
                 {
                     _disttowp = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -732,7 +764,7 @@ namespace MissionPlanner.Controls
                 {
                     _mode = value;
                     _modechanged = datetime;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -746,7 +778,7 @@ namespace MissionPlanner.Controls
                 if (_wpno != value)
                 {
                     _wpno = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -760,7 +792,7 @@ namespace MissionPlanner.Controls
                 if (_groundcourse != value)
                 {
                     _groundcourse = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -774,7 +806,7 @@ namespace MissionPlanner.Controls
                 if (_xtrack_error != value)
                 {
                     _xtrack_error = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -788,7 +820,7 @@ namespace MissionPlanner.Controls
                 if (_turnrate != value)
                 {
                     _turnrate = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -802,7 +834,7 @@ namespace MissionPlanner.Controls
                 if (_verticalspeed != Math.Round(value, 1))
                 {
                     _verticalspeed = (float) Math.Round(value, 1);
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -816,7 +848,7 @@ namespace MissionPlanner.Controls
                 if (_linkqualitygcs != value)
                 {
                     _linkqualitygcs = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -833,7 +865,7 @@ namespace MissionPlanner.Controls
                 if (_datetime != value)
                 {
                     _datetime = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -890,7 +922,7 @@ namespace MissionPlanner.Controls
                 {
                     _AOA = value;
                     displayAOASSA = true;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -904,7 +936,7 @@ namespace MissionPlanner.Controls
                 if (_critAOA != value)
                 {
                     _critAOA = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -919,7 +951,7 @@ namespace MissionPlanner.Controls
                 {
                     _SSA = value;
                     displayAOASSA = true;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -933,7 +965,7 @@ namespace MissionPlanner.Controls
                 if (_critSSA != value)
                 {
                     _critSSA = value;
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
         }
@@ -1033,7 +1065,7 @@ namespace MissionPlanner.Controls
                         _bgimage = null;
                     }
 
-                    this.Invalidate();
+                    Interlocked.Exchange(ref _dirty, 1);
                 }
             }
             get { return _bgimage; }
@@ -1350,7 +1382,6 @@ namespace MissionPlanner.Controls
             if (DateTime.Now.Second != countdate.Second)
             {
                 countdate = DateTime.Now;
-                Console.WriteLine("HUD " + count + " hz drawtime " + (huddrawtime / count) + " gl " + opengl);
                 if ((huddrawtime / count) > 1000)
                     opengl = false;
 
