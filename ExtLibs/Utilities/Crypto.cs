@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.NetworkInformation;
 using System.Security.Cryptography;
 using System.Text;
+using Microsoft.Win32;
 
 namespace MissionPlanner.Utilities
 {
@@ -34,30 +35,154 @@ namespace MissionPlanner.Utilities
         /// </summary>
         public Crypto()
         {
+            // Phase 8 fix (ArduPilot/MissionPlanner#3694): upstream derived
+            // the AES-256 Key + IV from the first NIC's MAC address. That
+            // enumeration order is not stable: VPN connect/disconnect, USB
+            // NIC plug, Hyper-V virtual adapter creation, or a Wine prefix
+            // rebuild all change which adapter appears first, so the key
+            // changes, decryption fails, and (combined with the bug fixed in
+            // MAVAuthKeys.cs) destroys all stored signing keys.
+            //
+            // Replace with a stable per-install random salt persisted to
+            // GetUserDataDirectory()/crypto.salt. Same machine = same key
+            // for the life of that file. Works identically on Windows,
+            // Linux/Mono and Wine -- no NIC enumeration involved.
+
+            byte[] salt = LoadOrCreateMachineId();
+            string saltSha = "?";
             try
             {
-                var macAddr = (
-                    from nic in NetworkInterface.GetAllNetworkInterfaces()
-                    // where nic.OperationalStatus == OperationalStatus.Up
-                    select nic.GetPhysicalAddress()
-                    ).FirstOrDefault();
-
-                var bytes = macAddr.GetAddressBytes();
-
-                Array.Copy(bytes, IV, bytes.Length);
-
-                Array.Copy(bytes, Key, bytes.Length);
+                using (var s = SHA256.Create()) saltSha = BitConverter.ToString(s.ComputeHash(salt)).Replace("-", "").Substring(0, 16);
             }
-            catch
+            catch { }
+            Console.WriteLine("[Crypto] salt {0} bytes, sha256(salt) first8={1}", salt.Length, saltSha);
+            try
             {
+                using (var sha = SHA256.Create())
+                {
+                    var keyDerived = sha.ComputeHash(salt);
+                    Array.Copy(keyDerived, Key, Math.Min(keyDerived.Length, Key.Length));
+                }
+                using (var md5 = MD5.Create())
+                {
+                    var ivDerived = md5.ComputeHash(salt);
+                    Array.Copy(ivDerived, IV, Math.Min(ivDerived.Length, IV.Length));
+                }
+                Console.WriteLine("[Crypto] derived key first8={0} iv first8={1} (salt path)",
+                    BitConverter.ToString(Key, 0, 8).Replace("-", ""),
+                    BitConverter.ToString(IV, 0, 8).Replace("-", ""));
             }
-
+            catch (Exception exDerive)
+            {
+                // If anything went wrong leave the static Key/IV defaults
+                // in place (still better than the MAC-derived path).
+                Console.WriteLine("[Crypto] DERIVE FAILED, using STATIC hardcoded Key/IV (this WILL break authkeys.xml decryption): {0}", exDerive.Message);
+            }
 
             this.algorithm = new RijndaelManaged();
             this.algorithm.Mode = CipherMode.CBC;
             this.algorithm.Padding = PaddingMode.PKCS7;
             this.algorithm.Key = Key;
             this.algorithm.IV = IV;
+        }
+
+        // Phase 10l fork: machine ID lives in HKCU\Software\MissionPlanner.
+        // Registry is per-user, survives reinstall + app-dir wipe, doesn't
+        // depend on NIC MAC, doesn't depend on the Documents dir layout.
+        // Written EXACTLY ONCE (when missing); never overwritten while it
+        // exists. Random 32 bytes from RNGCryptoServiceProvider.
+        //
+        // Migration: if the legacy crypto.salt file (Phase 9e) exists and
+        // the registry doesn't, we adopt the salt-file value into the
+        // registry. Avoids invalidating already-encrypted authkeys.xml
+        // for users who installed the prior fork build.
+        private const string MachineIdKeyPath = @"Software\MissionPlanner";
+        private const string MachineIdValueName = "MachineId";
+        private static readonly object _idLock = new object();
+
+        private static byte[] LoadOrCreateMachineId()
+        {
+            lock (_idLock)
+            {
+                // 1. Try HKCU registry (preferred).
+                try
+                {
+                    using (var k = Registry.CurrentUser.OpenSubKey(MachineIdKeyPath, false))
+                    {
+                        if (k != null)
+                        {
+                            var v = k.GetValue(MachineIdValueName) as byte[];
+                            if (v != null && v.Length >= 16)
+                            {
+                                Console.WriteLine("[Crypto] MachineId LOADED from HKCU\\{0}\\{1} ({2} bytes)",
+                                    MachineIdKeyPath, MachineIdValueName, v.Length);
+                                return v;
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("[Crypto] MachineId registry read failed: {0}", ex.Message);
+                }
+
+                // 2. Migrate legacy crypto.salt file (Phase 9e), if present.
+                try
+                {
+                    string saltFile = Settings.GetUserDataDirectory() + "crypto.salt";
+                    if (File.Exists(saltFile))
+                    {
+                        var bytes = File.ReadAllBytes(saltFile);
+                        if (bytes.Length >= 16)
+                        {
+                            Console.WriteLine("[Crypto] MachineId MIGRATING legacy crypto.salt -> registry");
+                            WriteMachineIdToRegistry(bytes);
+                            return bytes;
+                        }
+                    }
+                }
+                catch (Exception exSalt)
+                {
+                    Console.WriteLine("[Crypto] MachineId salt-file migration probe failed: {0}", exSalt.Message);
+                }
+
+                // 3. Generate fresh + persist to registry.
+                var fresh = new byte[32];
+                try
+                {
+                    using (var rng = RandomNumberGenerator.Create())
+                        rng.GetBytes(fresh);
+                    Console.WriteLine("[Crypto] MachineId GENERATED fresh ({0} bytes), writing to registry", fresh.Length);
+                    WriteMachineIdToRegistry(fresh);
+                }
+                catch (Exception exGen)
+                {
+                    Console.WriteLine("[Crypto] MachineId GENERATE/PERSIST failed: {0} -- ephemeral this run, authkeys.xml decryption will likely fail next run", exGen.Message);
+                }
+                return fresh;
+            }
+        }
+
+        private static void WriteMachineIdToRegistry(byte[] value)
+        {
+            try
+            {
+                using (var k = Registry.CurrentUser.CreateSubKey(MachineIdKeyPath))
+                {
+                    if (k == null)
+                    {
+                        Console.WriteLine("[Crypto] MachineId registry CreateSubKey returned null");
+                        return;
+                    }
+                    k.SetValue(MachineIdValueName, value, RegistryValueKind.Binary);
+                    Console.WriteLine("[Crypto] MachineId WROTE to HKCU\\{0}\\{1} ({2} bytes)",
+                        MachineIdKeyPath, MachineIdValueName, value.Length);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("[Crypto] MachineId registry write failed: {0}", ex.Message);
+            }
         }
 
         /// <summary>
