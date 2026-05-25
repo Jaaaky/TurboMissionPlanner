@@ -486,6 +486,37 @@ namespace MissionPlanner
         public static ISpeech speechEngine { get; set; }
 
         /// <summary>
+        /// Phase 10p5 fork: callable from any thread once getParamList(...)
+        /// returns. If the user is currently sitting on HWConfig or SWConfig
+        /// it re-fires ShowScreen, which triggers IActivate.Activate ->
+        /// state-divergence check -> RebuildPages with gotAllParams=true.
+        /// Without this the connection + params-required tabs (Servo Output,
+        /// Compass, Mandatory Hardware, ...) stay built from the empty-param
+        /// rebuild that fired the moment the connection opened.
+        /// </summary>
+        internal static void TriggerPostParamsRefresh()
+        {
+            try
+            {
+                var inst = instance;
+                if (inst == null || inst.IsDisposed) return;
+                inst.BeginInvoke((Action)delegate
+                {
+                    try
+                    {
+                        if (inst.MyView?.current == null) return;
+                        if (inst.MyView.current.Name == "HWConfig")
+                            inst.MyView.ShowScreen("HWConfig");
+                        else if (inst.MyView.current.Name == "SWConfig")
+                            inst.MyView.ShowScreen("SWConfig");
+                    }
+                    catch (Exception exInner) { log.Warn("post-params refresh: " + exInner.Message); }
+                });
+            }
+            catch { }
+        }
+
+        /// <summary>
         /// joystick static class
         /// </summary>
         public static Joystick.JoystickBase joystick { get; set; }
@@ -632,9 +663,38 @@ namespace MissionPlanner
 
         public MainV2()
         {
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.ctor:begin");
             log.Info("Mainv2 ctor");
 
             SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
+
+            // Phase 10e: UI heartbeat for the freeze watchdog. 50 ms WinForms
+            // timer pings Profiler.Beat() on the UI thread; the background
+            // watchdog logs a FREEZE entry whenever the gap exceeds 300 ms.
+            try
+            {
+                var profilerTimer = new System.Windows.Forms.Timer { Interval = 50 };
+                profilerTimer.Tick += (s, e) => MissionPlanner.Utilities.Profiler.Beat();
+                profilerTimer.Start();
+                MissionPlanner.Utilities.Profiler.Mark("UI-heartbeat-started");
+            }
+            catch (Exception exHb) { log.Warn("Profiler heartbeat: " + exHb.Message); }
+
+            // Phase 9 fork: apply the embedded IBM Plex Sans font to MainV2
+            // before InitializeComponent runs (cascades to children that
+            // don't have their Font explicitly set in Designer). Designer-
+            // pinned controls still keep "IBM Plex Sans" name because the
+            // bulk Designer.cs rewrite replaced "Microsoft Sans Serif" with
+            // "IBM Plex Sans" and the GDI font is registered globally via
+            // AppFonts.AddFontMemResourceEx.
+            try
+            {
+                if (!MissionPlanner.Utilities.AppFonts.Loaded)
+                    MissionPlanner.Utilities.AppFonts.Load();
+                if (MissionPlanner.Utilities.AppFonts.PlexSans != null)
+                    this.Font = MissionPlanner.Utilities.AppFonts.Make(this.Font?.Size ?? 8.25f);
+            }
+            catch (Exception exFont) { log.Warn("AppFonts apply: " + exFont.Message); }
 
             // create one here - but override on load
             Settings.Instance["guid"] = Guid.NewGuid().ToString();
@@ -699,7 +759,9 @@ namespace MissionPlanner
                 changelanguage(CultureInfoEx.GetCultureInfo(Settings.Instance["language"]));
             }
 
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.InitializeComponent:begin");
             InitializeComponent();
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.InitializeComponent:done");
 
             //Init Theme table and load BurntKermit as a default
             ThemeManager.thmColor = new ThemeColorTable(); //Init colortable
@@ -717,9 +779,12 @@ namespace MissionPlanner
                     Settings.Instance["theme"] = "BurntKermit.mpsystheme";
             }
 
+            MissionPlanner.Utilities.Profiler.Mark("ThemeManager.LoadTheme:begin");
             ThemeManager.LoadTheme(Settings.Instance["theme"]);
+            MissionPlanner.Utilities.Profiler.Mark("ThemeManager.LoadTheme:done");
 
             Utilities.ThemeManager.ApplyThemeTo(this);
+            MissionPlanner.Utilities.Profiler.Mark("ThemeManager.ApplyThemeTo:done");
 
 
             // define default basestream
@@ -753,30 +818,112 @@ namespace MissionPlanner
             var t = Type.GetType("Mono.Runtime");
             MONO = (t != null);
 
-            try
+            // Phase 9 fork: Speech ctor can probe SAPI/registry for ~100-300ms
+            // on Windows TTS engines. Defer to background; consumers null-check
+            // before use, and speech is async anyway.
+            // Phase 10p fork: ALSO skip the ctor entirely when speech is not
+            // enabled in Settings. Under Wine the SAPI enumeration produces
+            // ~336 fixme:sapi:* stderr lines per launch (data_key /
+            // token_enum / token_category / class_factory QueryInterface for
+            // every interface CLR's CCW probes). Without speech enabled
+            // those 336 fixme lines are pure noise that drown out genuine
+            // signal in the wine debug log. With speechenable=true the user
+            // explicitly opted in, so the SAPI cost is acceptable.
+            Task.Run(() =>
             {
-                if (speechEngine == null)
-                    speechEngine = new Speech();
-                MAVLinkInterface.Speech = speechEngine;
-                CurrentState.Speech = speechEngine;
-            }
-            catch
-            {
-            }
+                try
+                {
+                    bool wantSpeech = Settings.Instance.GetBoolean("speechenable");
+                    if (!wantSpeech)
+                    {
+                        log.Info("Speech engine init skipped (speechenable=false). " +
+                                 "Set speechenable=true in config.xml to enable TTS.");
+                        return;
+                    }
+                    if (speechEngine == null)
+                        speechEngine = new Speech();
+                    MAVLinkInterface.Speech = speechEngine;
+                    CurrentState.Speech = speechEngine;
+                }
+                catch (Exception ex) { log.Warn("Speech engine deferred init: " + ex.Message); }
+            });
 
-            // proxy loader - dll load now instead of on config form load
-            new Transition(new TransitionType_EaseInEaseOut(2000));
+            // Phase 9 fork: Transitions assembly load comment said "proxy loader
+            // - dll load now instead of on config form load". Even the dummy
+            // instance pulls Transitions.dll JIT cost into the splash path.
+            // Defer it; the Configuration form rarely opens immediately.
+            Task.Run(() => { try { new Transition(new TransitionType_EaseInEaseOut(2000)); } catch { } });
 
-            PopulateSerialportList();
-            if (_connectionControl.CMB_serialport.Items.Count > 0)
+            // Phase 9 fork: pre-warm the parameter-metadata XML for the
+            // common firmware families on a background thread. The first
+            // call to ParameterMetaDataRepository hits ParameterMetaData-
+            // RepositoryAPMpdef.CheckLoad -> XDocument.Load on a ~10-50 MB
+            // pdef.xml + BuildParamIndex walk (~1-3s). Doing it eagerly off
+            // the UI thread means tab opens are fast even on first click
+            // (Servo Output, Full Param List, Extended Tuning all benefit).
+            Task.Run(() =>
             {
-                _connectionControl.CMB_baudrate.SelectedIndex = 8;
-                _connectionControl.CMB_serialport.SelectedIndex = 0;
-            }
+                try
+                {
+                    // Trigger CheckLoad for every vehicle family we are
+                    // likely to encounter. Each is a no-op if the XML file
+                    // doesn't exist locally yet.
+                    foreach (var vehicle in new[] { "ArduCopter", "ArduPlane", "Rover", "ArduSub", "Heli", "AntennaTracker", "SITL", "AP_Periph", "Blimp" })
+                    {
+                        ParameterMetaDataRepositoryAPMpdef.CheckLoad(vehicle);
+                    }
+                }
+                catch (Exception ex) { log.Warn("Param metadata pre-warm: " + ex.Message); }
+            });
+
+            // Phase 9 fork: load the embedded modern font (IBM Plex Sans) so
+            // GDI + GDI+ paths can resolve it. Cheap (~5ms) but must run
+            // BEFORE any control that hardcodes "IBM Plex Sans" is created.
+            try { MissionPlanner.Utilities.AppFonts.Load(); } catch { }
+
+            // Phase 9 fork: SerialPort.GetPortNames() probes USB hubs +
+            // (on Windows) hits the registry; ~200-800ms on first call after
+            // boot. Run async; marshal back to populate the dropdown.
+            Task.Run(() =>
+            {
+                try
+                {
+                    var ports = SerialPort.GetPortNames();
+                    this.BeginInvokeIfRequired(() =>
+                    {
+                        try
+                        {
+                            _connectionControl.CMB_serialport.Items.Clear();
+                            _connectionControl.CMB_serialport.Items.AddRange(ports);
+                            _connectionControl.CMB_serialport.Items.Add("UDP");
+                            _connectionControl.CMB_serialport.Items.Add("UDPCl");
+                            _connectionControl.CMB_serialport.Items.Add("TCP");
+                            _connectionControl.CMB_serialport.Items.Add("AUTO");
+                            if (_connectionControl.CMB_serialport.Items.Count > 0)
+                            {
+                                _connectionControl.CMB_baudrate.SelectedIndex = 8;
+                                _connectionControl.CMB_serialport.SelectedIndex = 0;
+                            }
+                            // re-apply last saved port now that the list is populated
+                            var saved = Settings.Instance.ComPort;
+                            if (!string.IsNullOrEmpty(saved))
+                            {
+                                var idx = _connectionControl.CMB_serialport.FindString(saved);
+                                if (idx >= 0) _connectionControl.CMB_serialport.SelectedIndex = idx;
+                                else _connectionControl.CMB_serialport.Text = saved;
+                            }
+                        }
+                        catch (Exception ex) { log.Warn("port-list marshal: " + ex.Message); }
+                    });
+                }
+                catch (Exception ex) { log.Warn("SerialPort enum deferred: " + ex.Message); }
+            });
             // ** Done
 
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.ctor:before-splash-refresh");
             splash?.Refresh();
             Application.DoEvents();
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.ctor:after-splash-DoEvents");
 
             // load last saved connection settings
             string temp = Settings.Instance.ComPort;
@@ -808,7 +955,9 @@ namespace MissionPlanner
                 comPortBaud = int.Parse(temp2);
             }
 
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.ctor:before-Tracking.cid");
             MissionPlanner.Utilities.Tracking.cid = new Guid(Settings.Instance["guid"].ToString());
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.ctor:after-Tracking.cid");
 
             if (splash != null)
             {
@@ -833,7 +982,9 @@ namespace MissionPlanner
                         NativeMethods.ES_CONTINUOUS | NativeMethods.ES_SYSTEM_REQUIRED);
             }
 
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.ctor:before-ChangeUnits");
             ChangeUnits();
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.ctor:after-ChangeUnits");
 
             if (Settings.Instance["showairports"] != null)
             {
@@ -853,9 +1004,15 @@ namespace MissionPlanner
                 MainV2.instance.EnableADSB = Settings.Instance.GetBoolean("enableadsb");
             }
 
+            // Phase 10f fork: gate behind IsDebugEnabled. Modules enumeration
+            // + JSON serialisation walks every loaded native/managed module
+            // (200+ entries under Wine) and probes file metadata for each;
+            // ~300-800ms on Wine, zero benefit when the root log level is
+            // WARN.
             try
             {
-                log.Debug(Process.GetCurrentProcess().Modules.ToJSON());
+                if (log.IsDebugEnabled)
+                    log.Debug(Process.GetCurrentProcess().Modules.ToJSON());
             }
             catch
             {
@@ -863,19 +1020,32 @@ namespace MissionPlanner
 
             try
             {
+                // Phase 9 fork: FlightPlanner is needed by AddScreen() further
+                // down + by keyboard shortcuts that reference the static
+                // field, so kept sync. Simulation (SITL) takes ~150ms to
+                // construct; gated behind the disable_simulation Setting
+                // (default true) and exposed via the PluginManager UI.
+                MissionPlanner.Utilities.Profiler.Mark("new FlightData:begin");
                 log.Info("Create FD");
                 FlightData = new GCSViews.FlightData();
+                MissionPlanner.Utilities.Profiler.Mark("new FlightPlanner:begin");
                 log.Info("Create FP");
                 FlightPlanner = new GCSViews.FlightPlanner();
-                //Configuration = new GCSViews.ConfigurationView.Setup();
-                log.Info("Create SIM");
-                Simulation = new GCSViews.SITL();
-                //Firmware = new GCSViews.Firmware();
-                //Terminal = new GCSViews.Terminal();
+                MissionPlanner.Utilities.Profiler.Mark("new FlightPlanner:done");
 
                 FlightData.Width = MyView.Width;
                 FlightPlanner.Width = MyView.Width;
-                Simulation.Width = MyView.Width;
+
+                if (!Settings.Instance.GetBoolean("disable_simulation", true))
+                {
+                    log.Info("Create SIM");
+                    Simulation = new GCSViews.SITL();
+                    Simulation.Width = MyView.Width;
+                }
+                else
+                {
+                    log.Info("Skip SIM (disable_simulation = true)");
+                }
             }
             catch (ArgumentException e)
             {
@@ -1677,13 +1847,28 @@ namespace MissionPlanner
                                 {
 
                                 }
+                                // Phase 10p5 fork: post-params HWConfig refresh
+                                // also fires for the MAVftp background path.
+                                TriggerPostParamsRefresh();
                             });
                         }
                         else
                         {
                             comPort.getParamList();
+                            TriggerPostParamsRefresh();
                         }
                     }
+                    // Phase 10n fork: kick off ParamDisplayCache warm-up
+                    // on a thread-pool task so Description/Units/Options
+                    // strings are pre-composed before the user clicks
+                    // Full Parameter List. Idempotent + debounced.
+                    try
+                    {
+                        var fw = comPort.MAV.cs.firmware.ToString();
+                        var names = comPort.MAV.param.Keys.ToList();
+                        ParamDisplayCache.TriggerWarm(fw, names);
+                    }
+                    catch { /* never block connect path */ }
                 }
 
                 // check for newer firmware
@@ -2617,7 +2802,11 @@ namespace MissionPlanner
             {
                 try
                 {
-                    await Task.Delay(1).ConfigureAwait(false); // was 5
+                    // Fork patch: was 1ms (1000 wakeups/sec for a housekeeping
+                    // loop) -- that's pure CPU burn on Wine where each Task.Delay
+                    // round-trips through ntdll!NtDelayExecution. 50ms (20Hz) is
+                    // far more than enough for UI status + 30s speech timers.
+                    await Task.Delay(50).ConfigureAwait(false);
 
                     try
                     {
@@ -3174,12 +3363,25 @@ namespace MissionPlanner
             {
             }
 
+            MissionPlanner.Utilities.Profiler.Mark("AddScreen:FlightData:begin");
             MyView.AddScreen(new MainSwitcher.Screen("FlightData", FlightData, true));
+            MissionPlanner.Utilities.Profiler.Mark("AddScreen:FlightPlanner:begin");
             MyView.AddScreen(new MainSwitcher.Screen("FlightPlanner", FlightPlanner, true));
-            MyView.AddScreen(new MainSwitcher.Screen("HWConfig", typeof(GCSViews.InitialSetup), false));
-            MyView.AddScreen(new MainSwitcher.Screen("SWConfig", typeof(GCSViews.SoftwareConfig), false));
-            MyView.AddScreen(new MainSwitcher.Screen("Simulation", Simulation, true));
-            MyView.AddScreen(new MainSwitcher.Screen("Help", typeof(GCSViews.Help), false));
+            MissionPlanner.Utilities.Profiler.Mark("AddScreen:HWConfig:begin");
+            // Phase 10h fork: persistent=true so the InitialSetup +
+            // SoftwareConfig instances and their inner BackstageView pages
+            // stay alive across tab switches. Wine pays ~2.5-3 s in
+            // Win32 CreateWindowEx per sub-page on first show; without
+            // persistence every Config-tab visit re-pays the full cost.
+            MyView.AddScreen(new MainSwitcher.Screen("HWConfig", typeof(GCSViews.InitialSetup), true));
+            MissionPlanner.Utilities.Profiler.Mark("AddScreen:SWConfig:begin");
+            MyView.AddScreen(new MainSwitcher.Screen("SWConfig", typeof(GCSViews.SoftwareConfig), true));
+            MissionPlanner.Utilities.Profiler.Mark("AddScreen:rest:begin");
+            // Phase 9 fork: only register Simulation when the user opted in
+            // via the PluginManager (Settings.disable_simulation = false).
+            if (Simulation != null)
+                MyView.AddScreen(new MainSwitcher.Screen("Simulation", Simulation, true));
+            MyView.AddScreen(new MainSwitcher.Screen("Help", typeof(GCSViews.Help), true));
 
             try
             {
@@ -3189,11 +3391,123 @@ namespace MissionPlanner
                 else
                 {
                     log.Info("Load Pluggins");
+
+                    // Phase 8 fork: seed a default-disabled bloat-plugin
+                    // list on first run so heavy/niche plugins are off by
+                    // default; user can re-enable via the Plugins dialog
+                    // (Ctrl+P or the prompt below).
+                    // Phase 9 fork: use a versioned marker. Existing users
+                    // from earlier fork builds had PluginsPromptShown=true
+                    // but never got the new bloat-curation seed; bump the
+                    // marker so the seed re-applies once.
+                    if (Settings.Instance["PluginsForkDefaults_v4"] == null)
+                    {
+                        // Phase 10a fork: ALL plugins (compiled DLLs AND .cs
+                        // script examples) start DISABLED on first run. The
+                        // user opts in via the Plugins dialog (Ctrl+P). We
+                        // keep an empty whitelist intentionally -- previous
+                        // forks shipped a small curated set, but the user
+                        // wants zero plugins active by default to eliminate
+                        // unknown-plugin surface area and shave startup time.
+                        var disabled = new List<string>();
+
+                        try
+                        {
+                            var pluginsDir = Settings.GetRunningDirectory() + "plugins" + Path.DirectorySeparatorChar;
+                            if (Directory.Exists(pluginsDir))
+                            {
+                                // Compiled .dll plugins -- skip true dep DLLs
+                                // (whitelist in PluginLoader.IsDependencyDll).
+                                foreach (var f in Directory.GetFiles(pluginsDir, "*.dll"))
+                                {
+                                    var name = Path.GetFileName(f).ToLowerInvariant();
+                                    if (Plugin.PluginLoader.IsDependencyDll(name)) continue;
+                                    if (disabled.Contains(name)) continue;
+                                    disabled.Add(name);
+                                }
+                                // .cs script plugins (Roslyn-compiled at
+                                // runtime). All default-off.
+                                foreach (var f in Directory.GetFiles(pluginsDir, "*.cs"))
+                                {
+                                    var name = Path.GetFileName(f).ToLowerInvariant();
+                                    if (disabled.Contains(name)) continue;
+                                    disabled.Add(name);
+                                }
+                            }
+                        }
+                        catch (Exception exSeed) { log.Warn("Plugin seed scan: " + exSeed.Message); }
+
+                        Settings.Instance.SetList("DisabledPlugins", disabled);
+                        Settings.Instance["PluginsForkDefaults_v4"] = "true";
+                        log.Info("Plugin fork defaults applied: " + disabled.Count + " disabled (all-off)");
+                    }
+
+                    // Phase 10p fork: seed privacy-respecting defaults if not
+                    // already explicitly set by the user. analyticsoptout=true
+                    // means Tracking is opted out (no Google Analytics page
+                    // pings via Tracking.cs - already hard-stubbed in Phase 3
+                    // but this also keeps the checkbox in Config -> Planner
+                    // showing as opted out). enableadsb=false leaves adsb.cs
+                    // sockets unopened (no ADSBExchange / SBS1 polling).
+                    if (Settings.Instance["ForkPrivacyDefaults_v1"] == null)
+                    {
+                        if (Settings.Instance["analyticsoptout"] == null)
+                        {
+                            Settings.Instance["analyticsoptout"] = "True";
+                            MissionPlanner.Utilities.Tracking.OptOut = true;
+                        }
+                        if (Settings.Instance["enableadsb"] == null)
+                        {
+                            Settings.Instance["enableadsb"] = "False";
+                        }
+                        if (Settings.Instance["speechenable"] == null)
+                        {
+                            Settings.Instance["speechenable"] = "False";
+                        }
+                        Settings.Instance["ForkPrivacyDefaults_v1"] = "true";
+                        log.Info("Fork privacy defaults seeded: " +
+                                 "analyticsoptout=true, enableadsb=false, speechenable=false");
+                    }
+
                     Plugin.PluginLoader.DisabledPluginNames.Clear();
                     foreach (var s in Settings.Instance.GetList("DisabledPlugins"))
                         Plugin.PluginLoader.DisabledPluginNames.Add(s);
+                    MissionPlanner.Utilities.Profiler.Mark("PluginLoader.LoadAll:begin");
                     Plugin.PluginLoader.LoadAll();
+                    MissionPlanner.Utilities.Profiler.Mark("PluginLoader.LoadAll:done");
                     log.Info("Load Pluggins... Done");
+
+                    // First-run plugin chooser: pop the Plugins dialog once
+                    // the main window is up so the user sees what loaded and
+                    // can opt in/out without hunting for the Ctrl+P hotkey.
+                    if (Settings.Instance["PluginsPromptShown"] == null)
+                    {
+                        Settings.Instance["PluginsPromptShown"] = "true";
+                        this.BeginInvoke((Action) delegate
+                        {
+                            try
+                            {
+                                // System.CustomMessageBox.Show resolves to the
+                                // int-returning overload here (DialogResult cast).
+                                var dr = (int) CustomMessageBox.Show(
+                                    "Mission Planner ships a number of optional plugins. " +
+                                    "A small default-disabled list was applied; you can " +
+                                    "review and change which plugins load via the Plugins " +
+                                    "dialog (Ctrl+P).\n\n" +
+                                    "Open the dialog now to choose?",
+                                    "Plugins",
+                                    MessageBoxButtons.YesNo);
+                                if (dr == (int) DialogResult.Yes)
+                                {
+                                    var ui = new Controls.PluginUI();
+                                    ThemeManager.ApplyThemeTo(ui);
+                                    ui.Show();
+                                }
+                            }
+                            catch (Exception ex2) { log.Error("Plugins first-run prompt", ex2); }
+                        });
+                    }
+
                 }
             }
             catch (Exception ex)
@@ -3203,18 +3517,27 @@ namespace MissionPlanner
 
             if (Program.Logo != null && Program.name == "VVVVZ")
             {
+                MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:PerformLayout+ShowFlightPlanner:begin");
                 this.PerformLayout();
                 MenuFlightPlanner_Click(this, e);
                 MainMenu_ItemClicked(this, new ToolStripItemClickedEventArgs(MenuFlightPlanner));
+                MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:PerformLayout+ShowFlightPlanner:done");
             }
             else
             {
+                MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:PerformLayout+ShowFlightData:begin");
                 this.PerformLayout();
                 log.Info("show FlightData");
                 MenuFlightData_Click(this, e);
                 log.Info("show FlightData... Done");
                 MainMenu_ItemClicked(this, new ToolStripItemClickedEventArgs(MenuFlightData));
+                MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:PerformLayout+ShowFlightData:done");
             }
+
+            // Phase 10o fork: opt-in OLE IPicture trigger trace. No-op unless
+            // MP_OLE_TRACE=1 or Settings["EnableOlePictureTracer"]=true.
+            try { OlePictureTracer.ScanAndLog(this); }
+            catch (Exception olex) { log.Warn("OlePictureTracer", olex); }
 
             // for long running tasks using own threads.
             // for short use threadpool
@@ -3224,6 +3547,7 @@ namespace MissionPlanner
             // setup http server
             try
             {
+                MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:start-httpserver:begin");
                 log.Info("start http");
                 httpthread = new Thread(new httpserver().listernforclients)
                 {
@@ -3231,6 +3555,7 @@ namespace MissionPlanner
                     IsBackground = true
                 };
                 httpthread.Start();
+                MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:start-httpserver:done");
             }
             catch (Exception ex)
             {
@@ -3238,6 +3563,7 @@ namespace MissionPlanner
                 CustomMessageBox.Show(ex.ToString());
             }
 
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:joysticksend:begin");
             log.Info("start joystick");
             try
             {
@@ -3248,7 +3574,9 @@ namespace MissionPlanner
             {
                 log.Error(ex);
             }
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:joysticksend:done");
 
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:SerialReader:begin");
             log.Info("start serialreader");
             try
             {
@@ -3259,6 +3587,38 @@ namespace MissionPlanner
             {
                 log.Error(ex);
             }
+            MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:SerialReader:done");
+
+            // Phase 10h fork: pre-construct the heavy Config tabs in the
+            // background. FlightData is already on screen by now; user sees
+            // it and starts orienting. Meanwhile we chain one preload per
+            // BeginInvoke so the UI stays responsive: user clicks always win
+            // over the preload queue (regular WM messages preempt). Each
+            // preload runs the full ctor + handle cascade for that screen
+            // (the 2.5-3s Wine bottleneck) ONCE, then ShowScreen later only
+            // toggles Visible. SoftwareConfig also kicks off BackstageView
+            // prewarm of its sub-pages once loaded.
+            this.BeginInvoke((Action) delegate
+            {
+                try
+                {
+                    MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:preload-SWConfig:begin");
+                    bool created = MyView.PreloadScreen("SWConfig");
+                    MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:preload-SWConfig:done (created=" + created + ")");
+                }
+                catch (Exception ex) { log.Warn("Preload SWConfig: " + ex.Message); }
+
+                this.BeginInvoke((Action) delegate
+                {
+                    try
+                    {
+                        MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:preload-HWConfig:begin");
+                        bool created = MyView.PreloadScreen("HWConfig");
+                        MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:preload-HWConfig:done (created=" + created + ")");
+                    }
+                    catch (Exception ex) { log.Warn("Preload HWConfig: " + ex.Message); }
+                });
+            });
 
             log.Info("start adsbsender");
             try
@@ -4030,17 +4390,9 @@ namespace MissionPlanner
 
         private void checkupdate(object stuff)
         {
-            if (Program.WindowsStoreApp)
-                return;
-
-            try
-            {
-                MissionPlanner.Utilities.Update.CheckForUpdate();
-            }
-            catch (Exception ex)
-            {
-                log.Error("Update check failed", ex);
-            }
+            // Fork patch: auto-updater disabled — would otherwise pull upstream's
+            // betarelease binary and overwrite our patched build.
+            return;
         }
 
         private void MainV2_Resize(object sender, EventArgs e)
