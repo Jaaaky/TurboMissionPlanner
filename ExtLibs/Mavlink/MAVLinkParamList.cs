@@ -10,6 +10,18 @@ public partial class MAVLink
     {
         ReaderWriterLock locker = new ReaderWriterLock();
 
+        // Phase 10m fork (deep fix): the string indexer used to do a O(n)
+        // linear scan + a ReaderWriterLock.AcquireReaderLock kernel call on
+        // EVERY lookup. Callers like ConfigRawParams.processToScreen hit this
+        // 1500+ times -> O(n^2) = millions of compares + 1500 kernel-heavy
+        // lock acquires (each ~30us on Wine). Aux dictionary brings it to
+        // O(1). The base List<T> API is preserved so callers that use
+        // foreach/ToArray/Count/[int] are unaffected. Direct base.Add /
+        // base.Remove bypasses are rare; the indexer get falls back to the
+        // legacy linear scan on dict miss so semantics stay correct.
+        private readonly Dictionary<string, MAVLinkParam> _byName =
+            new Dictionary<string, MAVLinkParam>(StringComparer.Ordinal);
+
         public int TotalReported { get; set; }
 
         public int TotalReceived
@@ -21,13 +33,26 @@ public partial class MAVLink
         {
             get
             {
+                if (name == null) return null;
                 try
                 {
                     locker.AcquireReaderLock(1000);
+                    MAVLinkParam cached;
+                    lock (_byName)
+                    {
+                        if (_byName.TryGetValue(name, out cached) && cached != null
+                            && cached.Name == name)
+                            return cached;
+                    }
+                    // Fallback: legacy linear scan in case the cache desynced
+                    // (e.g. caller used base.Add/base.Remove directly).
                     foreach (var item in this)
                     {
                         if (item.Name == name)
+                        {
+                            lock (_byName) { _byName[name] = item; }
                             return item;
+                        }
                     }
                 }
                 finally
@@ -50,6 +75,7 @@ public partial class MAVLink
                         if (item.Name == name)
                         {
                             this[index] = value;
+                            lock (_byName) { _byName[name] = value; }
                             OnPropertyChanged();
                             return;
                         }
@@ -58,6 +84,8 @@ public partial class MAVLink
                     }
 
                     base.Add(value);
+                    if (value?.Name != null)
+                        lock (_byName) { _byName[value.Name] = value; }
                 }
                 finally
                 {
@@ -113,13 +141,21 @@ public partial class MAVLink
 
         public bool ContainsKey(string v)
         {
+            if (v == null) return false;
             try
             {
                 locker.AcquireReaderLock(1000);
+                lock (_byName)
+                {
+                    if (_byName.ContainsKey(v)) return true;
+                }
                 foreach (MAVLinkParam item in this)
                 {
                     if (item.Name == v)
+                    {
+                        lock (_byName) { _byName[v] = item; }
                         return true;
+                    }
                 }
             }
             finally
@@ -138,6 +174,7 @@ public partial class MAVLink
                 locker.AcquireWriterLock(1000);
                 TotalReported = 0;
                 base.Clear();
+                lock (_byName) { _byName.Clear(); }
             }
             finally
             {
@@ -163,7 +200,12 @@ public partial class MAVLink
             try
             {
                 locker.AcquireWriterLock(1000);
-                base.AddRange(collection);
+                foreach (var item in collection)
+                {
+                    base.Add(item);
+                    if (item?.Name != null)
+                        lock (_byName) { _byName[item.Name] = item; }
+                }
                 OnPropertyChanged();
             }
             finally
