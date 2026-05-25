@@ -38,7 +38,9 @@ namespace MissionPlanner.Utilities
 
         }
 
-        public static bool OptOut = false;
+        // Fork patch: telemetry hard-disabled. OptOut defaults to true and
+        // track() bails unconditionally below — settings UI cannot re-enable.
+        public static bool OptOut = true;
 
         static string version = "1";
         static string tid = "UA-43098846-1";
@@ -292,6 +294,9 @@ namespace MissionPlanner.Utilities
 
         static void track(object temp)
         {
+            // Fork patch: hard-disabled. Never POST to google-analytics.com.
+            return;
+#pragma warning disable CS0162 // unreachable code
             if (OptOut)
                 return;
 
@@ -324,6 +329,7 @@ namespace MissionPlanner.Utilities
                 client.PostAsync(secureTrackingEndpoint, new StringContent(data));
             }
             catch { }
+#pragma warning restore CS0162
         }
     }
 }
