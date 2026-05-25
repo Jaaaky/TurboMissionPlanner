@@ -4488,6 +4488,17 @@ namespace MissionPlanner
         public void UpdateCurrentSettings(Action<CurrentState> bs, bool updatenow,
             MAVLinkInterface mavinterface, MAVState MAV)
         {
+            // Phase 9 fork: previously the WHOLE method body, including the
+            // BindingSource.Invoke that does ctl.ResetBindings on the UI
+            // thread, ran inside `lock(this)`. That blocked the MAVLink
+            // reader thread (which also takes `lock(this)` to update fields)
+            // for the duration of every binding refresh -- 5-30ms stalls
+            // 10x/sec while any binding-using tab was visible, killing
+            // telemetry smoothness. Narrow the lock to ONLY the
+            // state-mutating field updates; invoke csCallBack + the UI
+            // BindingSource OUTSIDE the lock.
+            Action<CurrentState> bsSnap;
+            EventHandler csCallBackSnap;
             lock (this)
             {
                 if (DateTime.Now > lastupdate.AddMilliseconds(50) || updatenow) // 20 hz
@@ -4571,25 +4582,26 @@ namespace MissionPlanner
                     }
                 }
 
-                try
-                {
-                    if (csCallBack != null)
-                        csCallBack(this, null);
-                }
-                catch
-                {
-                }
+                // snapshot delegates while we hold the lock; invoke after.
+                bsSnap = bs;
+                csCallBackSnap = csCallBack;
+            }
 
-                //Console.Write(DateTime.Now.Millisecond + " start ");
-                // update form
-                try
-                {
-                    if (bs != null) bs?.Invoke(this);
-                }
-                catch
-                {
-                    log.InfoFormat("CurrentState Binding error");
-                }
+            try
+            {
+                csCallBackSnap?.Invoke(this, null);
+            }
+            catch
+            {
+            }
+
+            try
+            {
+                bsSnap?.Invoke(this);
+            }
+            catch
+            {
+                log.InfoFormat("CurrentState Binding error");
             }
         }
 
