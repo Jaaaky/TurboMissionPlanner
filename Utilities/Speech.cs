@@ -50,7 +50,23 @@ namespace MissionPlanner.Utilities
             var t = Type.GetType("Mono.Runtime");
             MONO = (t != null);
 
-            log.Info("TTS: init, mono = " + MONO);
+            // Phase 10p fork: belt-and-braces - even if a caller bypasses
+            // MainV2's gate and constructs Speech() directly, do NOT touch
+            // SpeechSynthesizer unless explicit opt-in. The SAPI ctor
+            // enumerates COM voice tokens / data keys; on Wine that emits
+            // ~336 fixme:sapi:* lines per construction. speechenable
+            // defaults to false on fresh installs.
+            bool wantSpeech = false;
+            try { wantSpeech = Settings.Instance.GetBoolean("speechenable"); }
+            catch { }
+
+            log.Info("TTS: init, mono = " + MONO + " enabled = " + wantSpeech);
+
+            if (!wantSpeech)
+            {
+                _state = SynthesizerState.Ready;
+                return; // no SAPI / festival init
+            }
 
             if (MONO)
             {
