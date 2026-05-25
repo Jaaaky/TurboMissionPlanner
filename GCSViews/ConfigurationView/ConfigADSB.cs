@@ -326,13 +326,20 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             // Clear list
             _params.Clear();
 
+            // Phase 8 fix: cache firmware + warm metadata cache once before
+            // the per-param loop (was 30-50 ADSB_* params hitting fresh XML
+            // parse twice each, ~1-2 sec UI freeze).
+            var firmware = MainV2.comPort.MAV.cs.firmware.ToString();
+            ParameterMetaDataRepository.GetParameterMetaData("ADSB_ENABLE",
+                ParameterMetaDataConstants.DisplayName, firmware);
+
             // When the parameter list is changed, re sort the list for our View's purposes
             MainV2.comPort.MAV.param.Keys.ForEach(x =>
             {
                 var displayName = ParameterMetaDataRepository.GetParameterMetaData(x.ToString(),
-                    ParameterMetaDataConstants.DisplayName, MainV2.comPort.MAV.cs.firmware.ToString());
+                    ParameterMetaDataConstants.DisplayName, firmware);
                 var parameterMode = ParameterMetaDataRepository.GetParameterMetaData(x.ToString(),
-                    ParameterMetaDataConstants.User, MainV2.comPort.MAV.cs.firmware.ToString());
+                    ParameterMetaDataConstants.User, firmware);
 
                 // If we have a friendly display name AND
                 if (!string.IsNullOrEmpty(displayName))
