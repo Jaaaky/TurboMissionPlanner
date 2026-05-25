@@ -272,13 +272,23 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             _params.Clear();
             var locker = new object();
 
+            // Phase 8 fix: warm metadata cache on UI thread BEFORE Parallel.
+            // Without this, every parallel worker races to parse the full
+            // ~10-50 MB pdef.xml and blocks on the internal cache lock.
+            // Also cache firmware string instead of recomputing per call.
+            var firmware = MainV2.comPort.MAV.cs.firmware.ToString();
+            var firstKey = MainV2.comPort.MAV.param.Keys.FirstOrDefault();
+            if (firstKey != null)
+                ParameterMetaDataRepository.GetParameterMetaData(firstKey.ToString(),
+                    ParameterMetaDataConstants.DisplayName, firmware);
+
             // When the parameter list is changed, re sort the list for our View's purposes
             Parallel.ForEach(MainV2.comPort.MAV.param.Keys, x =>
             {
                 var displayName = ParameterMetaDataRepository.GetParameterMetaData(x.ToString(),
-                    ParameterMetaDataConstants.DisplayName, MainV2.comPort.MAV.cs.firmware.ToString());
+                    ParameterMetaDataConstants.DisplayName, firmware);
                 var parameterMode = ParameterMetaDataRepository.GetParameterMetaData(x.ToString(),
-                    ParameterMetaDataConstants.User, MainV2.comPort.MAV.cs.firmware.ToString());
+                    ParameterMetaDataConstants.User, firmware);
 
                 // If we have a friendly display name AND
                 if (!string.IsNullOrEmpty(displayName) &&
