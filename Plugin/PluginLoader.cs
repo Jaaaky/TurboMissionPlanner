@@ -32,9 +32,89 @@ namespace MissionPlanner.Plugin
         public static List<Plugin> LoadingPlugins = new List<Plugin>();
         public static List<Plugin> Plugins = new List<Plugin>();
 
-        public static Dictionary<string, string[]> filecache = new Dictionary<string, string[]>();
+        // Phase 8 fix: filecache + ErrorInfo are static dictionaries accessed
+        // from the AssemblyResolve callback (any thread the CLR happens to
+        // be on) and from PluginLoader.LoadAll's Task.Run + InitPlugin paths.
+        // Lock all reads/writes via _cacheLock to prevent torn dictionary
+        // state during concurrent assembly resolution.
+        // Phase 9 fork: known dependency-DLL prefixes that ship in the
+        // plugins/ folder but are NOT plugin assemblies. Anything matching
+        // is loaded lazily by the CLR's AssemblyResolve handler when an
+        // actual consumer asks for it; explicit LoadFile is wasteful here.
+        private static readonly string[] DepDllPrefixes =
+        {
+            "microsoft.", "system.", "accord", "alglibnet", "avifile",
+            "baseclasses", "basclasses", "bitmiracle", "bouncycastle",
+            "brutile", "bse.windows", "core.dll", "crc32",
+            "csassortedwidgets", "csmatio", "deviceprogramming",
+            "directshowlib", "dotnetzip", "dotspatial", "exiflibrary",
+            "flurl", "gdal", "gdalconst", "gdal_csharp", "geoapi",
+            "geoidheights", "geojson.net", "geoutility", "gmap.net",
+            "icsharpcode", "interfaces.dll", "ironpython", "jetbrains",
+            "kmlib", "libtessdotnet", "libusb", "libvlc",
+            "managednativewifi", "mathparser", "mavlink.dll",
+            "metadataextractor", "missionplanner.antenna",
+            "missionplanner.ardupilot", "missionplanner.comms",
+            "missionplanner.controls", "missionplanner.drawing",
+            "missionplanner.grid", "missionplanner.gridv2",
+            "missionplanner.hil", "missionplanner.maps",
+            "missionplanner.strings", "missionplanner.utilities",
+            "missionplanner.webapis", "mono.posix", "nefarius",
+            "netdxf", "newtonsoft", "nettopologysuite", "objectlistview",
+            "ogr_csharp", "onvif", "opentk", "osr_csharp",
+            "projnet", "px4uploader", "renci", "restsharp",
+            "sharpadbclient", "sharpcompress", "sharpdx", "sharpkml",
+            "simpleble", "sixlabors", "skiasharp", "socketioclient",
+            "solo.dll", "supersocket", "svgnet", "transitions",
+            "usbserialforandroid", "webcamservice", "websocket4net",
+            "xamarin", "zedgraph", "zeroconf", "zlib", "log4net",
+            // Phase 10b fork: additional dep DLLs surfacing as bogus
+            // plugin entries in user reports.
+            "7zip", "arduino", "altitudeangelwings", "dronecan",
+            "markdig", "nodatime", "polly", "sharpfont", "humanizer",
+            "humanizer.core", "jsondiffpatch", "mavlinkkitlibrary",
+            "rclcommandextract", "rocheltslibrary", "scintilla",
+            "scintillanet", "wixtoolset", "uavcan", "tag"
+        };
 
+        public static bool IsDependencyDll(string lowercaseName)
+        {
+            // Explicit plugins always pass through (override prefix matches).
+            if (lowercaseName.Contains("plugin") ||
+                lowercaseName == "trackerhome.dll" ||
+                lowercaseName == "facemap.dll" ||
+                lowercaseName == "bulb.dll" ||
+                lowercaseName == "osdconfigurator.dll" ||
+                lowercaseName == "opendroneid.dll" ||
+                lowercaseName == "shortcuts.dll" ||
+                lowercaseName == "extguided.dll" ||
+                lowercaseName == "missionplanner.stats.dll" ||
+                lowercaseName == "missionplanner.simplegrid.dll" ||
+                lowercaseName == "tlogthumbnailhandler.dll")
+                return false;
+
+            for (int i = 0; i < DepDllPrefixes.Length; i++)
+                if (lowercaseName.StartsWith(DepDllPrefixes[i]))
+                    return true;
+            return false;
+        }
+
+        public static Dictionary<string, string[]> filecache = new Dictionary<string, string[]>();
         public static Dictionary<string, string> ErrorInfo = new Dictionary<string, string>();
+        private static readonly object _cacheLock = new object();
+
+        private static string[] GetCachedFiles(string folderPath)
+        {
+            lock (_cacheLock)
+            {
+                if (!filecache.TryGetValue(folderPath, out var files))
+                {
+                    files = Directory.GetFiles(folderPath, "*.dll", SearchOption.AllDirectories);
+                    filecache[folderPath] = files;
+                }
+                return files;
+            }
+        }
 
         static Assembly LoadFromSameFolder(object sender, ResolveEventArgs args)
         {
@@ -43,19 +123,10 @@ namespace MissionPlanner.Plugin
 
             // check install folder
             string folderPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            if (filecache.ContainsKey(folderPath))
-            {
+            var files = GetCachedFiles(folderPath);
+            var needle = new AssemblyName(args.Name).Name.ToLower() + ".dll";
 
-            }
-            else
-            {
-                string[] search1 = Directory.GetFiles(folderPath, "*.dll",
-                    SearchOption.AllDirectories);
-
-                filecache[folderPath] = search1;
-            }
-
-            foreach (var file in filecache[folderPath].Where(a => a.ToLower().Contains(new AssemblyName(args.Name).Name.ToLower() + ".dll")))
+            foreach (var file in files.Where(a => a.ToLower().Contains(needle)))
             {
                 try
                 {
@@ -68,19 +139,9 @@ namespace MissionPlanner.Plugin
 
             // check local directory
             folderPath = Path.GetDirectoryName(args.RequestingAssembly.Location);
-            if (filecache.ContainsKey(folderPath))
-            {
+            files = GetCachedFiles(folderPath);
 
-            }
-            else
-            {
-                string[] search1 = Directory.GetFiles(folderPath, "*.dll",
-                    SearchOption.AllDirectories);
-
-                filecache[folderPath] = search1;
-            }
-
-            foreach (var file in filecache[folderPath].Where(a => a.ToLower().Contains(new AssemblyName(args.Name).Name.ToLower() + ".dll")))
+            foreach (var file in files.Where(a => a.ToLower().Contains(needle)))
             {
                 try
                 {
@@ -98,12 +159,17 @@ namespace MissionPlanner.Plugin
 
         public static void Load(String file)
         {
-            if (!File.Exists(file) || !file.EndsWith(".dll", true, null) ||
-                file.ToLower().Contains("microsoft.") ||
-                file.ToLower().Contains("system.") ||
-                file.ToLower().Contains("missionplanner.grid.dll") ||
-                file.ToLower().Contains("usbserialforandroid")
-                )
+            if (!File.Exists(file) || !file.EndsWith(".dll", true, null))
+                return;
+
+            // Phase 9 fork: tightened skip list. The plugins/ folder contains
+            // ~150 dependency DLLs (ZedGraph, SkiaSharp, IronPython, Xamarin,
+            // BouncyCastle, GMap, Newtonsoft, etc.) that the CLR loads via
+            // AssemblyResolve on demand -- LoadFile()-ing them here wastes
+            // tens of ms per file, spams the log, and triggers Wine's
+            // amsi:AmsiScanBuffer fixme storm. Skip them.
+            var name = Path.GetFileName(file).ToLower();
+            if (IsDependencyDll(name))
                 return;
 
             //Check if it is disabled (moved out from the previous IF, to make it loggable)
@@ -295,19 +361,26 @@ namespace MissionPlanner.Plugin
                     }
                 }
 
+                // Fork patch: .dll loading + self-reflection were running
+                // synchronously on the UI thread after the .cs Task.Run
+                // completed. Each Assembly.LoadFile + GetTypes() walk is slow
+                // on Wine. Move them into the same background task; bubble the
+                // final PluginInit() to UI exactly once.
+                String[] dllFiles = Directory.GetFiles(path, "*.dll");
+                foreach (var s in dllFiles)
+                {
+                    try { Load(Path.Combine(Environment.CurrentDirectory, s)); }
+                    catch (Exception ex) { log.Error("Plugin DLL load failed: " + s, ex); }
+                }
+
+                try { InitPlugin(Assembly.GetAssembly(typeof(PluginLoader)), "self"); }
+                catch (Exception ex) { log.Error("Plugin self-init failed", ex); }
+
                 MainV2.instance.BeginInvokeIfRequired(() =>
                 {
                     PluginInit();
                 });
             });
-
-            String[] files = Directory.GetFiles(path, "*.dll");
-            foreach (var s in files)
-                Load(Path.Combine(Environment.CurrentDirectory, s));
-
-            InitPlugin(Assembly.GetAssembly(typeof(PluginLoader)), "self");
-
-            PluginInit();
         }
 
         private static void PluginInit()
