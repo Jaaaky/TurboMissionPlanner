@@ -297,6 +297,7 @@ namespace MissionPlanner.GCSViews
 
         public void Activate()
         {
+            MissionPlanner.Utilities.Profiler.Mark("FlightPlanner.Activate:begin");
             timer1.Start();
 
             // hide altmode if old copter version
