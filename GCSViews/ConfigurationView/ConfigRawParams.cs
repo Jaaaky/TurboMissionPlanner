@@ -42,6 +42,12 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
         private NaturalStringComparer naturalsorter = new NaturalStringComparer();
 
+        // Phase 10n fork: deferred metadata enrichment (Desc/Units/Options +
+        // tooltips). Set by processToScreen, consumed by EnrichMetadataChunked
+        // via BeginInvoke chain after first paint.
+        private string _pendingEnrichFirmware;
+        private int _enrichGen; // increments to cancel in-flight chunked walk
+
         public ConfigRawParams()
         {
             InitializeComponent();
@@ -49,6 +55,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
         public void Activate()
         {
+            Profiler.Mark("ConfigRawParams.Activate:begin");
             if ((rowlist.Count == 0) || (!Settings.Instance.GetBoolean("SlowMachine", false))) startup = true;
             //If we connected to another vehicle the do a full refresh
             if (rowlist.Count != MainV2.comPort.MAV.param.Count()) startup = true;
@@ -67,25 +74,27 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             Params.Enabled = false;
 
+            // Phase 10m fork: gate log per column (was unconditional INFO).
+            bool logInfo = log.IsInfoEnabled;
             foreach (DataGridViewColumn col in Params.Columns)
             {
-                // Don't need to size a fill column
                 if (col.AutoSizeMode == DataGridViewAutoSizeColumnMode.Fill) continue;
-
-                // Don't need to size a column that can't be resized
                 if (col.Resizable == DataGridViewTriState.False) continue;
 
-                if (!String.IsNullOrEmpty(Settings.Instance["rawparam_" + col.Name + "_width"]))
+                var key = "rawparam_" + col.Name + "_width";
+                if (!String.IsNullOrEmpty(Settings.Instance[key]))
                 {
-                    col.Width = (int)Math.Max(5, Settings.Instance.GetInt32("rawparam_" + col.Name + "_width"));
-                    log.InfoFormat("{0} to {1}", col.Name, col.Width);
+                    col.Width = (int)Math.Max(5, Settings.Instance.GetInt32(key));
+                    if (logInfo) log.InfoFormat("{0} to {1}", col.Name, col.Width);
                 }
             }
             splitContainer1.SplitterDistance = Settings.Instance.GetInt32("rawparam_splitterdistance", 180);
             splitContainer1.Panel1Collapsed = Settings.Instance.GetBoolean("rawparam_panel1collapsed", false);
             but_collapse.Text = splitContainer1.Panel1Collapsed ? ">" : "<";
+            Profiler.Mark("ConfigRawParams.Activate:before-processToScreen startup=" + startup);
 
             processToScreen();
+            Profiler.Mark("ConfigRawParams.Activate:after-processToScreen");
 
             Params.Enabled = true;
 
@@ -94,10 +103,21 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             startup = false;
 
             txt_search.Focus();
+            Profiler.Mark("ConfigRawParams.Activate:done");
         }
 
         public void Deactivate()
         {
+            // Phase 8 fix: stop+unwire the debounce timer on deactivate so
+            // repeated Activate/Deactivate cycles do not leak handlers or
+            // fire a stale filter against a disposed grid.
+            _filterTimer.Stop();
+            if (_filterTimerWired)
+            {
+                _filterTimer.Tick -= FilterTimerOnElapsed;
+                _filterTimerWired = false;
+            }
+
             foreach (DataGridViewColumn col in Params.Columns)
             {
                 // Don't need to save the width of a fill column
@@ -562,9 +582,11 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
         internal void processToScreen()
         {
+            Profiler.Mark("processToScreen:begin startup=" + startup);
             toolTip1.RemoveAll();
             Params.Rows.Clear();
             log.Info("processToScreen");
+            Profiler.Mark("processToScreen:after-Rows.Clear");
 
             var list = new List<string>();
 
@@ -574,115 +596,257 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             if (startup)
             {
-                foreach (string item in MainV2.comPort.MAV.param.Keys)
-                    list.Add(item);
-
                 rowlist.Clear();
 
                 bool has_defaults = false;
 
-                Parallel.ForEach(list, value =>
+                // Phase 10m fork: SNAPSHOT MAV.param once. The original code
+                // hit MAV.param[value] 2-3x per row inside Parallel.ForEach,
+                // and the MAVLinkParamList indexer is O(n) linear scan +
+                // ReaderWriterLock.AcquireReaderLock per call. With 1500 params
+                // that is 4500 calls * O(1500) = ~6.75M string compares plus
+                // 4500 lock acquires (~30us each on Wine, serialised across
+                // parallel workers via the same lock instance). Snapshotting
+                // to a plain Dictionary collapses all of that into O(n).
+                MAVLink.MAVLinkParam[] snapshot;
+                try { snapshot = MainV2.comPort.MAV.param.ToArray(); }
+                catch { snapshot = new MAVLink.MAVLinkParam[0]; }
+
+                var paramByName = new Dictionary<string, MAVLink.MAVLinkParam>(
+                    snapshot.Length, StringComparer.Ordinal);
+                foreach (var p in snapshot)
                 {
-                    if (value == null || value == "")
-                        return;
+                    if (p?.Name == null) continue;
+                    paramByName[p.Name] = p;
+                    list.Add(p.Name);
+                }
+                Profiler.Mark("processToScreen:snapshot count=" + snapshot.Length);
+
+                // Phase 8 fix: hoist out per-iteration work:
+                //   1. Settings.Instance.GetList("fav_params") was called
+                //      1500 times inside the loop (each hits the dict).
+                //   2. MAV.cs.firmware.ToString() was called 4x per row.
+                //   3. ParameterMetaData first call parses ~10-50MB XML on
+                //      the UI thread; warm the cache here so Parallel.ForEach
+                //      threads don't all race to parse it.
+                // Phase 10m fork: fav_params is a List<string>, so Contains
+                // is O(|fav|) per call -> O(n*|fav|) total. Hash it once.
+                var favSet = new HashSet<string>(
+                    Settings.Instance.GetList("fav_params") ?? Enumerable.Empty<string>(),
+                    StringComparer.Ordinal);
+                var firmware = MainV2.comPort.MAV.cs.firmware.ToString();
+                if (list.Count > 0)
+                {
+                    var firstKey = list.FirstOrDefault(s => !string.IsNullOrEmpty(s));
+                    if (firstKey != null)
+                        ParameterMetaDataRepository.GetParameterMetaData(firstKey,
+                            ParameterMetaDataConstants.Description, firmware);
+                }
+
+                // Phase 10n fork: Parallel.ForEach was HURTING this loop, not
+                // helping. The actual work is UI-bound (row.CreateCells reads
+                // Params.Columns under WinForms locks) and serialised by
+                // `lock (rowlist)`. Parallel adds thread pool dispatch
+                // overhead + blocks the UI thread for the wall-clock duration
+                // anyway. Plain UI-thread foreach is simpler AND faster.
+                //
+                // Additionally we split into two passes:
+                //   Pass 1 (this loop): name + value + favorite + default.
+                //                       Fast - ~50us per row. ~60ms total.
+                //   Pass 2 (deferred):  description / units / options /
+                //                       tooltips. Chunked BeginInvoke so the
+                //                       grid paints first and stays responsive.
+                foreach (var value in list)
+                {
+                    if (string.IsNullOrEmpty(value)) continue;
+                    if (!paramByName.TryGetValue(value, out var p) || p == null) continue;
 
                     var row = new DataGridViewRow() { Height = 36 };
-                    lock (rowlist)
-                        rowlist.Add(row);
                     row.CreateCells(Params);
                     row.Cells[Command.Index].Value = value;
-                    row.Cells[Value.Index].Value = MainV2.comPort.MAV.param[value].ToString();
-                    var fav_params = Settings.Instance.GetList("fav_params");
-                    row.Cells[Fav.Index].Value = fav_params.Contains(value);
+                    row.Cells[Value.Index].Value = p.ToString();
+                    row.Cells[Fav.Index].Value = favSet.Contains(value);
 
-                    if (MainV2.comPort.MAV.param[value].default_value.HasValue) {
+                    if (p.default_value.HasValue) {
                         has_defaults = true;
-                        row.Cells[Default_value.Index].Value = MainV2.comPort.MAV.param[value].default_value_to_string();
+                        row.Cells[Default_value.Index].Value = p.default_value_to_string();
                     } else {
                         row.Cells[Default_value.Index].Value = "NaN";
                     }
-                    try
-                    {
-                        var metaDataDescription = ParameterMetaDataRepository.GetParameterMetaData(value,
-                            ParameterMetaDataConstants.Description, MainV2.comPort.MAV.cs.firmware.ToString());
-                        if (!string.IsNullOrEmpty(metaDataDescription))
-                        {
-                            row.Cells[Command.Index].ToolTipText = AddNewLinesForTooltip(metaDataDescription);
-                            row.Cells[Value.Index].ToolTipText = AddNewLinesForTooltip(metaDataDescription);
+                    rowlist.Add(row);
+                }
 
-                            var range = ParameterMetaDataRepository.GetParameterMetaData(value,
-                                ParameterMetaDataConstants.Range, MainV2.comPort.MAV.cs.firmware.ToString());
-                            var options = ParameterMetaDataRepository.GetParameterMetaData(value,
-                                ParameterMetaDataConstants.Values, MainV2.comPort.MAV.cs.firmware.ToString());
-                            var units = ParameterMetaDataRepository.GetParameterMetaData(value,
-                                ParameterMetaDataConstants.Units, MainV2.comPort.MAV.cs.firmware.ToString());
-
-                            row.Cells[Units.Index].Value = units;
-                            row.Cells[Options.Index].Value = (range + "\n" + options.Replace(",", "\n")).Trim();
-                            if (options.Length > 0) row.Cells[Options.Index].ToolTipText = options.Replace(',', '\n');
-                            int N = options.Count(c => c.Equals(','));
-                            if (N > 50)
-                            {
-                                int columns = (N - 1) / 50 + 1;
-                                StringBuilder ans = new StringBuilder();
-                                var opts = options.Split(',');
-                                int i = 0;
-                                while(true)
-                                {
-                                    for(int j=0; j<columns; j++)
-                                    {
-                                        ans.Append(opts[i] + ", ");
-                                        i++;
-                                        if (i >= N) break;
-                                    }
-                                    if (i >= N) break;
-                                    ans.Append("\n");
-                                }
-                                row.Cells[Options.Index].ToolTipText = ans.ToInvariantString();
-                            }
-                            row.Cells[Desc.Index].Value = metaDataDescription;
-                            row.Cells[Desc.Index].ToolTipText = AddNewLinesForTooltip(metaDataDescription);
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        log.Error(ex);
-                    }
-                });
-
+                _pendingEnrichFirmware = firmware;
                 Default_value.Visible = has_defaults;
                 chk_none_default.Visible = has_defaults;
+                Profiler.Mark("processToScreen:rows-built count=" + rowlist.Count);
+
+                // Phase 10m fork: pre-sort rowlist before AddRange. The grid's
+                // SortCompare event hits ~7,500 cell reads for 1,500 rows
+                // (~200-300ms on the UI thread). Sorting a List<DataGridViewRow>
+                // by the same key (fav desc, then natural by command) is cheaper
+                // and lets us skip the post-AddRange Sort() entirely.
+                var cmdIdx = Command.Index;
+                var favIdx = Fav.Index;
+                var comparer = naturalsorter;
+                rowlist.Sort((r1, r2) =>
+                {
+                    var f1 = (r1.Cells[favIdx].Value is bool b1) && b1;
+                    var f2 = (r2.Cells[favIdx].Value is bool b2) && b2;
+                    if (f1 != f2) return f1 ? -1 : 1;
+                    return comparer.NaturalCompare(
+                        r1.Cells[cmdIdx].Value?.ToString() ?? "",
+                        r2.Cells[cmdIdx].Value?.ToString() ?? "");
+                });
+                Profiler.Mark("processToScreen:rowlist-sorted");
             }
             //update values in rowlist
             if (!startup)
             {
+                // Phase 10m fork: snapshot lookup (see comment above) so the
+                // refresh path is O(n) instead of O(n^2) on MAV.param[name].
+                MAVLink.MAVLinkParam[] refreshSnap;
+                try { refreshSnap = MainV2.comPort.MAV.param.ToArray(); }
+                catch { refreshSnap = new MAVLink.MAVLinkParam[0]; }
+                var refreshMap = new Dictionary<string, MAVLink.MAVLinkParam>(
+                    refreshSnap.Length, StringComparer.Ordinal);
+                foreach (var p in refreshSnap)
+                    if (p?.Name != null) refreshMap[p.Name] = p;
+
                 foreach (DataGridViewRow r in rowlist)
                 {
-                    r.Cells[Value.Index].Value = MainV2.comPort.MAV.param[r.Cells[Command.Index].Value.ToString()].ToString();
+                    var name = r.Cells[Command.Index].Value?.ToString();
+                    if (name != null && refreshMap.TryGetValue(name, out var p) && p != null)
+                        r.Cells[Value.Index].Value = p.ToString();
                 }
             }
 
 
             log.Info("about to add all");
 
+            // Phase 10m fork: SuspendLayout around AddRange. WinForms re-flows
+            // the grid on every Rows.AddRange iteration even with Visible=false;
+            // SuspendLayout collapses that into a single ResumeLayout call.
             Params.Visible = false;
-
+            Params.SuspendLayout();
             Params.Rows.AddRange(rowlist.ToArray());
+            Params.ResumeLayout(false);
+            Profiler.Mark("processToScreen:AddRange-done");
 
-            log.Info("about to sort");
-
+            // SortCompare must still be wired so the user can click columns to
+            // re-sort. The actual initial sort is already done in-list above,
+            // so we skip Params.Sort() (saves the 200-300ms cost).
+            Params.SortCompare -= OnParamsOnSortCompare; // idempotent
             Params.SortCompare += OnParamsOnSortCompare;
-
-            Params.Sort(Params.Columns[Command.Index], ListSortDirection.Ascending);
 
             Params.Visible = true;
 
             if (splitContainer1.Panel1Collapsed == false)
             {
-                BuildTree();
+                // Phase 8 fix: BuildTree is O(n^2) over the 1500-row list
+                // (~500ms-1s on the UI thread). Defer it briefly so the grid
+                // renders first; tree appears a moment later, user gets to
+                // scroll the grid right away.
+                BeginInvoke(new Action(BuildTree));
+            }
+
+            // Phase 10n fork: kick off deferred metadata enrichment. Cancels
+            // any in-flight chunked walk (via _enrichGen bump) and starts
+            // fresh on this rowlist. First chunk runs at next message pump.
+            if (startup && !string.IsNullOrEmpty(_pendingEnrichFirmware))
+            {
+                Interlocked.Increment(ref _enrichGen);
+                var gen = _enrichGen;
+                var fw = _pendingEnrichFirmware;
+                BeginInvoke(new Action(() => EnrichMetadataChunked(0, fw, gen)));
             }
 
             log.Info("Done");
+            Profiler.Mark("processToScreen:done");
+        }
+
+        // Phase 10n fork: walk Params.Rows in small chunks, filling in the
+        // expensive Description/Units/Options cells + tooltips. Yields between
+        // chunks via BeginInvoke so the UI message pump keeps running -
+        // heartbeat stays alive, user can scroll/click/filter during the walk.
+        private void EnrichMetadataChunked(int startIdx, string firmware, int gen)
+        {
+            if (gen != Volatile.Read(ref _enrichGen)) return; // a newer pass took over
+            if (Params == null || Params.IsDisposed) return;
+
+            const int chunkSize = 64;
+            int total = Params.Rows.Count;
+            int end = Math.Min(startIdx + chunkSize, total);
+
+            if (startIdx == 0) Profiler.Mark("EnrichMetadata:begin total=" + total);
+
+            // Phase 10n: prefer the pre-warmed ParamDisplayCache. If hot, the
+            // expensive string composition is already done on a bg thread -
+            // this loop is pure UI cell assignment, ~5us per row.
+            var cache = ParamDisplayCache.Current;
+            bool cacheHot = cache != null
+                && ParamDisplayCache.CurrentFirmware == firmware;
+
+            for (int i = startIdx; i < end; i++)
+            {
+                try
+                {
+                    var row = Params.Rows[i];
+                    var nameObj = row.Cells[Command.Index].Value;
+                    if (nameObj == null) continue;
+                    var name = nameObj.ToString();
+                    if (string.IsNullOrEmpty(name)) continue;
+
+                    ParamDisplayCache.EnrichedParam pre = null;
+                    if (cacheHot) cache.TryGetValue(name, out pre);
+
+                    string desc, descTip, units, optionsCell, optionsTip;
+                    if (pre != null)
+                    {
+                        desc = pre.Description;
+                        descTip = pre.DescriptionTooltip;
+                        units = pre.Units;
+                        optionsCell = pre.OptionsCellText;
+                        optionsTip = pre.OptionsTooltipText;
+                    }
+                    else
+                    {
+                        // Live compose (cache miss or not warm yet).
+                        desc = ParameterMetaDataRepository.GetParameterMetaData(name,
+                            ParameterMetaDataConstants.Description, firmware);
+                        if (string.IsNullOrEmpty(desc)) continue;
+                        descTip = AddNewLinesForTooltip(desc);
+                        var range = ParameterMetaDataRepository.GetParameterMetaData(name,
+                            ParameterMetaDataConstants.Range, firmware) ?? "";
+                        var options = ParameterMetaDataRepository.GetParameterMetaData(name,
+                            ParameterMetaDataConstants.Values, firmware) ?? "";
+                        units = ParameterMetaDataRepository.GetParameterMetaData(name,
+                            ParameterMetaDataConstants.Units, firmware);
+                        optionsCell = (range + "\n" + options.Replace(",", "\n")).Trim();
+                        optionsTip = options.Length > 0 ? options.Replace(',', '\n') : null;
+                    }
+
+                    if (string.IsNullOrEmpty(desc)) continue;
+                    row.Cells[Desc.Index].Value = desc;
+                    row.Cells[Desc.Index].ToolTipText = descTip;
+                    row.Cells[Command.Index].ToolTipText = descTip;
+                    row.Cells[Value.Index].ToolTipText = descTip;
+                    row.Cells[Units.Index].Value = units;
+                    row.Cells[Options.Index].Value = optionsCell;
+                    if (!string.IsNullOrEmpty(optionsTip))
+                        row.Cells[Options.Index].ToolTipText = optionsTip;
+                }
+                catch (Exception ex) { log.Error(ex); }
+            }
+
+            if (end < total)
+            {
+                BeginInvoke(new Action(() => EnrichMetadataChunked(end, firmware, gen)));
+            }
+            else
+            {
+                Profiler.Mark("EnrichMetadata:done");
+            }
         }
 
         private void BuildTree()
@@ -1002,26 +1166,31 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             }
         }
 
-        private readonly System.Timers.Timer _filterTimer = new System.Timers.Timer();
+        // Fork patch: was System.Timers.Timer (fires on a thread-pool thread,
+        // then synchronous Invoke back to UI — blocks the pool thread for the
+        // duration of the heavy filterList() + grid reflow). Replaced with a
+        // System.Windows.Forms.Timer that fires directly on the UI thread, so
+        // no Invoke is needed. Also shortened debounce 500ms -> 300ms.
+        private readonly System.Windows.Forms.Timer _filterTimer = new System.Windows.Forms.Timer { Interval = 300 };
+        private bool _filterTimerWired;
         private string cellEditValue;
 
         private void txt_search_TextChanged(object sender, EventArgs e)
         {
-            _filterTimer.Elapsed -= FilterTimerOnElapsed;
-            _filterTimer.Stop();
-            _filterTimer.Interval = 500;
-            _filterTimer.Elapsed += FilterTimerOnElapsed;
+            if (!_filterTimerWired)
+            {
+                _filterTimer.Tick += FilterTimerOnElapsed;
+                _filterTimerWired = true;
+            }
+            _filterTimer.Stop();   // reset debounce on every keystroke
             _filterTimer.Start();
         }
 
-        public void FilterTimerOnElapsed(object sender, ElapsedEventArgs elapsedEventArgs)
+        public void FilterTimerOnElapsed(object sender, EventArgs elapsedEventArgs)
         {
             _filterTimer.Stop();
-            Invoke((Action)delegate
-           {
-               filterList(txt_search.Text);
-               optionsControlUpateBounds();
-           });
+            filterList(txt_search.Text);
+            optionsControlUpateBounds();
         }
 
         private void Params_CellContentClick(object sender, DataGridViewCellEventArgs e)

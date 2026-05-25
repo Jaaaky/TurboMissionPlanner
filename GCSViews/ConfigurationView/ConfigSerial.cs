@@ -26,6 +26,12 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
         private Label noteLabel;
 
+        // Phase 10n fork: cache built state. Was rebuilding every control +
+        // re-running synchronous MAVFtp download on every tab switch (1.9s
+        // per Activate seen in profile-20260524-195135.log).
+        private int _builtForSerialPorts = -1;
+        private string _builtForFirmware;
+
         public ConfigSerial()
         {
             InitializeComponent();
@@ -36,6 +42,15 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
         public void Activate()
         {
+            // Phase 10n fork: skip if nothing relevant changed.
+            var fw = MainV2.comPort.MAV.cs.firmware.ToString();
+            if (_builtForSerialPorts > 0
+                && _builtForFirmware == fw
+                && tableLayoutPanel1.Controls.Count > 0
+                && _gotUARTNames && _gotOptionRules)
+            {
+                return;
+            }
             //Get OptionRules if not already done
             if (!_gotOptionRules)
             {
@@ -377,6 +392,9 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             tableLayoutPanel1.ResumeLayout();
 
+            // Phase 10n fork: remember what we built so repeat Activate skips.
+            _builtForSerialPorts = serialPorts;
+            _builtForFirmware = fw;
         }
 
         //Apply baud rate and options rules based on protocol
