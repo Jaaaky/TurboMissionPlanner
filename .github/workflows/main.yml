@@ -1,82 +1,76 @@
-name: DotNet Build
-on: [push, workflow_dispatch, pull_request]
+name: Release Build (fork)
+on:
+  workflow_dispatch:
+  pull_request:
+    paths-ignore:
+      - '**.md'
+      - '**.txt'
+      - '**/Translations/**'
+      - 'MainV2.*.resx'
+      - 'GCSViews/**/*.*.resx'
+  push:
+    tags:
+      - 'fork-v*'
 
 jobs:
   build:
-    name: Build Release
-    runs-on: windows-latest
-
+    runs-on: windows-2022
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
-          submodules: true
-          fetch-depth: 10
+          submodules: recursive
+          fetch-depth: 1
 
-      - name: Build
-        shell: pwsh
-        run: |
-          $msbuildPath = Split-Path (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\Current\Bin\amd64\MSBuild.exe | Select-Object -First 1) -Parent
-          $env:PATH = $msbuildPath + ';' + $env:PATH
-          nuget locals all -clear
-          msbuild -v:m -restore -t:Build -p:Configuration=Release MissionPlanner.sln
-
-      - name: Cleanup
-        shell: pwsh
-        run: |
-          cd bin\Release\net461
-          gci plugins | ForEach-Object {                 if (Test-Path $_.Name -PathType Leaf)                {                    Write-Host "Remove" $_.FullName   ;                 Remove-Item $_.FullName                            } else {                    Write-Host $_.Name                }            }
-
-          copy version.txt ..\..\..\
-          7z a -tzip ..\..\..\MissionPlannerBeta.zip *
-          cd ..
-          .\md5sum.exe net461 > ..\..\checksums.txt
-          
-      - uses: actions/upload-artifact@v4
+      - name: Cache NuGet packages
+        uses: actions/cache@v4
         with:
-          name: MissionPlannerBeta
-          path: bin\Release\net461
-          
-      - uses: "marvinpinto/action-automatic-releases@v1.2.1"
-        if: ${{ github.ref == 'refs/tags/beta' }}
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "betarelease"
-          prerelease: true
-          title: "Beta Build"
-          files: |
-            MissionPlannerBeta.zip
-            checksums.txt
-            version.txt
-            ChangeLog.txt
+          path: ~/.nuget/packages
+          key: nuget-${{ hashFiles('**/packages.config', '**/MissionPlanner.csproj') }}
+          restore-keys: nuget-
 
-
-  buildDebug:
-    name: Build Debug
-    runs-on: windows-latest
-
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true
-          fetch-depth: 10
-
-      - name: Cache multiple paths
+      - name: Cache build obj/
         uses: actions/cache@v4
         with:
           path: |
-            **/obj/**
-          key: ${{ runner.os }}-buildDebug
+            **/obj
+          key: obj-${{ hashFiles('**/MissionPlanner.csproj') }}-${{ github.sha }}
+          restore-keys: obj-
 
-      - name: Build
+      - name: Build Release
         shell: pwsh
         run: |
-          $msbuildPath = Split-Path (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -requires Microsoft.Component.MSBuild -find MSBuild\Current\Bin\amd64\MSBuild.exe | Select-Object -First 1) -Parent
-          $env:PATH = $msbuildPath + ';' + $env:PATH
-          nuget locals all -clear
-          msbuild -v:m -restore -t:Build -p:Configuration=Debug MissionPlanner.sln
+          $vswhere = "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe"
+          $msbuild = & $vswhere -latest -requires Microsoft.Component.MSBuild -find 'MSBuild\Current\Bin\amd64\MSBuild.exe' | Select-Object -First 1
+          $env:PATH = (Split-Path $msbuild) + ';' + $env:PATH
+          msbuild -v:m -restore -t:Build -p:Configuration=Release -m MissionPlanner.sln
 
-      - name: Cleanup
+      - name: Package
         shell: pwsh
         run: |
-          cd bin\Debug\net461
-          gci plugins | ForEach-Object {                 if (Test-Path $_.Name -PathType Leaf)                {                    Write-Host "Remove" $_.FullName   ;                 Remove-Item $_.FullName                            } else {                    Write-Host $_.Name                }            }
+          cd bin\Release\net472
+          # strip plugin source files left behind by build
+          Get-ChildItem plugins -File -ErrorAction SilentlyContinue | ForEach-Object { Remove-Item $_.FullName }
+          if (Test-Path version.txt) { Copy-Item version.txt ..\..\..\ }
+          7z a ..\..\..\MissionPlannerFork.zip *
+          if (Test-Path .\md5sum.exe) { .\md5sum.exe . > ..\..\checksums.txt }
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MissionPlannerFork-${{ github.sha }}
+          path: |
+            MissionPlannerFork.zip
+            checksums.txt
+            version.txt
+          retention-days: 30
+
+      - name: Create Release (on fork-v* tag)
+        if: startsWith(github.ref, 'refs/tags/fork-v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            MissionPlannerFork.zip
+            checksums.txt
+            version.txt
+            ChangeLog.txt
+          prerelease: false
+          generate_release_notes: true
