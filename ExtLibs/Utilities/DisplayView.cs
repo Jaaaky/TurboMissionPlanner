@@ -37,7 +37,11 @@ namespace MissionPlanner.Utilities
         public bool displayRTKInject { get; set; } = true;
         public bool displayGPSOrder { get; set; } = true;
         public bool displayHWIDs { get; set; } = true;
-        public bool displayADSB { get; set; } = true;
+        // Phase 10p fork: ADSB off by default - the Setup sub-page is hidden,
+        // and adsb.cs's network polling (ADSBExchange / SBS1 sockets) does
+        // not run. User can re-enable via Settings["enableadsb"]=true +
+        // Settings["displayADSB"]=true (planner config) if they want it.
+        public bool displayADSB { get; set; } = false;
         public DisplayNames displayName { get; set; }
 
         //MainV2 buttons
