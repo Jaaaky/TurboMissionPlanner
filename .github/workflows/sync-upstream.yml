@@ -1,0 +1,56 @@
+name: Sync Upstream
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 7 * * 1" # Monday 07:00 UTC
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: fork/main
+      - name: Rebase onto upstream master
+        id: rebase
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git remote add upstream https://github.com/ArduPilot/MissionPlanner.git
+          git fetch upstream master
+          set +e
+          git rebase upstream/master
+          rc=$?
+          set -e
+          if [ $rc -ne 0 ]; then
+            git rebase --abort || true
+            echo "REBASE_FAILED=1" >> $GITHUB_OUTPUT
+            exit 42
+          fi
+          git push --force-with-lease origin fork/main
+      - name: Open issue on conflict
+        if: failure() && steps.rebase.outputs.REBASE_FAILED == '1'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const today = new Date().toISOString().slice(0,10);
+            github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title: `Upstream rebase conflict ${today}`,
+              body: [
+                'Auto-rebase against `ArduPilot/MissionPlanner` master failed.',
+                '',
+                'Resolve locally:',
+                '```',
+                'git fetch upstream',
+                'git checkout fork/main',
+                'git rebase upstream/master',
+                '# resolve conflicts, see FORK_PATCHES.md for context',
+                'git push --force-with-lease origin fork/main',
+                '```',
+              ].join('\n'),
+            });
