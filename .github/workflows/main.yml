@@ -3,14 +3,14 @@ on:
   workflow_dispatch:
   pull_request:
     paths-ignore:
-      - '**.md'
-      - '**.txt'
-      - '**/Translations/**'
-      - 'MainV2.*.resx'
-      - 'GCSViews/**/*.*.resx'
+      - "**.md"
+      - "**.txt"
+      - "**/Translations/**"
+      - "MainV2.*.resx"
+      - "GCSViews/**/*.*.resx"
   push:
     tags:
-      - 'fork-v*'
+      - "fork-v*"
 
 jobs:
   build:
@@ -44,12 +44,14 @@ jobs:
           $env:PATH = (Split-Path $msbuild) + ';' + $env:PATH
           msbuild -v:m -restore -t:Build -p:Configuration=Release -m MissionPlanner.sln
 
+      - name: Debloat output (~430 MB -> ~114 MB)
+        shell: pwsh
+        run: .\debloat.ps1 -OutDir bin\Release\net472
+
       - name: Package
         shell: pwsh
         run: |
           cd bin\Release\net472
-          # strip plugin source files left behind by build
-          Get-ChildItem plugins -File -ErrorAction SilentlyContinue | ForEach-Object { Remove-Item $_.FullName }
           if (Test-Path version.txt) { Copy-Item version.txt ..\..\..\ }
           7z a ..\..\..\MissionPlannerFork.zip *
           if (Test-Path .\md5sum.exe) { .\md5sum.exe . > ..\..\checksums.txt }
