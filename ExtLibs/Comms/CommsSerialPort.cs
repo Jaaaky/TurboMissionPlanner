@@ -425,7 +425,10 @@ namespace MissionPlanner.Comms
             get => base.DtrEnable;
             set
             {
-                log.Info(base.PortName + " DtrEnable " + value);
+                // Fork patch: was log.Info -- fires on every DTR toggle during
+                // XModem firmware upload (~10 Hz for tens of seconds).
+                if (log.IsDebugEnabled)
+                    log.Debug(base.PortName + " DtrEnable " + value);
                 if (base.DtrEnable == value) return;
                 base.DtrEnable = value;
             }
@@ -436,7 +439,9 @@ namespace MissionPlanner.Comms
             get => base.RtsEnable;
             set
             {
-                log.Info(PortName + " RtsEnable " + value);
+                // Fork patch: same as DtrEnable above.
+                if (log.IsDebugEnabled)
+                    log.Debug(PortName + " RtsEnable " + value);
                 if (base.RtsEnable == value) return;
                 base.RtsEnable = value;
             }
@@ -496,7 +501,8 @@ namespace MissionPlanner.Comms
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                // Fork patch: was bare Console.WriteLine -- route through log4net.
+                log.Warn("CommsSerialPort.Open: " + ex.Message);
             }
 
             if (PortName.StartsWith("/"))
@@ -535,8 +541,9 @@ namespace MissionPlanner.Comms
 
         public void toggleDTR()
         {
+            // Fork patch: dropped bare Console.WriteLine probes (start/end);
+            // they appear on every reboot/connect and clutter stdout.
             var open = base.IsOpen;
-            Console.WriteLine("toggleDTR " + IsOpen);
             try
             {
                 if (!open)
@@ -564,8 +571,6 @@ namespace MissionPlanner.Comms
             catch
             {
             }
-
-            Console.WriteLine("toggleDTR done " + IsOpen);
         }
     }
 

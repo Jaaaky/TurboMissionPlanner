@@ -5316,6 +5316,11 @@ namespace MissionPlanner.GCSViews
             }
         }
 
+        // Fork patch: cache last-rendered point count so we skip the
+        // expensive AxisChange() + Invalidate() when nothing has been added
+        // since the previous tick (which is most ticks while idle).
+        private int _zedLastPointCount = -1;
+
         private void ZedGraphTimer_Tick(object sender, EventArgs e)
         {
             try
@@ -5342,11 +5347,20 @@ namespace MissionPlanner.GCSViews
                 // Keep the X scale at a rolling 30 second interval, with one
                 // major step between the max X value and the end of the axis
                 Scale xScale = zg1.GraphPane.XAxis.Scale;
+                bool scaleScrolled = false;
                 if (time > xScale.Max - xScale.MajorStep)
                 {
                     xScale.Max = time + xScale.MajorStep;
                     xScale.Min = xScale.Max - 10.0;
+                    scaleScrolled = true;
                 }
+
+                // Fork patch: skip the AxisChange + Invalidate when neither the
+                // data nor the time window has changed since the last tick.
+                int pointCount = list.Count;
+                if (!scaleScrolled && pointCount == _zedLastPointCount)
+                    return;
+                _zedLastPointCount = pointCount;
 
                 // Make sure the Y axis is rescaled to accommodate actual data
                 zg1.AxisChange();
