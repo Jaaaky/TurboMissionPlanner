@@ -426,6 +426,18 @@ namespace MissionPlanner.Utilities
 
         public void Load()
         {
+            // Phase 8 fix: Load and Save both touch the config dictionary
+            // and the same on-disk XML file. Save() already takes _saveLock;
+            // Load() must take it too to avoid dict-corruption mid-Save and
+            // torn reads of a half-written file.
+            lock (_saveLock)
+            {
+                LoadLocked();
+            }
+        }
+
+        private void LoadLocked()
+        {
             // load the defaults
             try
             {
@@ -504,7 +516,22 @@ namespace MissionPlanner.Utilities
             }
         }
 
+        // Fork patch: serialise Save() to prevent torn writes when multiple
+        // threads (UI + analytics persistence + plugin code) call it
+        // concurrently. The XmlTextWriter opens GetConfigFullPath() directly
+        // with no file lock; interleaved writes were producing corrupt config
+        // files in the wild.
+        private static readonly object _saveLock = new object();
+
         public void Save()
+        {
+            lock (_saveLock)
+            {
+                SaveLocked();
+            }
+        }
+
+        private void SaveLocked()
         {
             string filename = GetConfigFullPath();
 
