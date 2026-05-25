@@ -708,7 +708,7 @@
     <value>True</value>
   </data>
   <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+    <value>IBM Plex Sans, 8.25pt, style=Bold</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
     <value>94, 40</value>

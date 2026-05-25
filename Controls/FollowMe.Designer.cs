@@ -77,7 +77,7 @@
             // 
             // LBL_location
             // 
-            this.LBL_location.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LBL_location.Font = new System.Drawing.Font("IBM Plex Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_location.Location = new System.Drawing.Point(3, 64);
             this.LBL_location.Name = "LBL_location";
             this.LBL_location.Size = new System.Drawing.Size(425, 59);
