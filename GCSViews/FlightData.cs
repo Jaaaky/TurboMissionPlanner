@@ -1681,8 +1681,12 @@ namespace MissionPlanner.GCSViews
         {
             // Custom action handling
             {
-                var customAction = CustomActions[CMB_action.Text];
-                if(customAction!=null)
+                // Fork patch: Dictionary indexer throws KeyNotFoundException for
+                // built-in actions (Arm, RTL, ...), which are in ActionList but
+                // never in CustomActions unless a plugin registered them --
+                // upstream #3744 regression broke every stock Do-Action click.
+                if (CustomActions.TryGetValue(CMB_action.Text, out var customAction)
+                    && customAction != null)
                 {
                     try
                     {
