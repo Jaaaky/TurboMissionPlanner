@@ -4025,12 +4025,30 @@ namespace MissionPlanner.GCSViews
                             }
 
                             // add new - populate camera_feedback to map
+                            //
+                            // Fork patch: the membership test used to be a LINQ
+                            // scan of every existing marker, run once per camera
+                            // point - O(n^2) with a boxed compare per step, on
+                            // the 0.3s map update. A 2000-photo survey burned ~4M
+                            // comparisons every tick and the map visibly stalled.
+                            // Hash the existing tags once per pass instead.
+                            var existingphotos = new HashSet<ulong>();
+                            foreach (var m in photosoverlay.Markers)
+                            {
+                                if (m is GMapMarkerPhoto && m.Tag is ulong)
+                                    existingphotos.Add((ulong) m.Tag);
+                            }
+
                             double oldtime = double.MinValue;
                             foreach (var mark in MainV2.comPort.MAV.camerapoints.ToArray())
                             {
                                 var timesincelastshot = (mark.time_usec / 1000.0) / 1000.0 - oldtime;
                                 MainV2.comPort.MAV.cs.timesincelastshot = timesincelastshot;
-                                bool contains = photosoverlay.Markers.Any(p => p.Tag.Equals(mark.time_usec));
+                                // Add() is false when already present; it also
+                                // dedupes within this pass, which the old test
+                                // could not do because addMissionPhotoMarker
+                                // only queues the marker via BeginInvoke.
+                                bool contains = !existingphotos.Add(mark.time_usec);
                                 if (!contains)
                                 {
                                     if (timesincelastshot < min_interval)
