@@ -43,6 +43,8 @@ namespace MissionPlanner.Controls.BackstageView
 
         private bool _prewarmStarted;
         private Panel _prewarmHost;
+        private System.Windows.Forms.Timer _prewarmTimer;
+        private System.Collections.Generic.Queue<BackstageViewPage> _prewarmQueue;
 
         /// <summary>
         /// Phase 10g fork: idle-driven preconstruction of every registered
@@ -74,17 +76,52 @@ namespace MissionPlanner.Controls.BackstageView
         {
             if (q.Count == 0)
             {
+                StopPrewarmTimer();
                 try { _prewarmHost?.Dispose(); } catch { }
                 _prewarmHost = null;
                 MissionPlanner.Utilities.Profiler.Mark("BackstageView.Prewarm:done");
                 return;
             }
-            if (!this.IsHandleCreated || this.IsDisposed) return;
+            if (!this.IsHandleCreated || this.IsDisposed) { StopPrewarmTimer(); return; }
             try
             {
-                this.BeginInvoke((Action) delegate { PrewarmOne(q); });
+                // Fork patch: re-arming with BeginInvoke from inside the callback
+                // did NOT yield. WinForms drains its marshalled-callback queue in
+                // a loop (Control.InvokeMarshaledCallbacks), including entries
+                // appended during that drain, so every page was prewarmed inside
+                // one pump message and the UI froze for the whole run - the exact
+                // opposite of what this scheduler was written for. WM_TIMER is
+                // only delivered when the queue is otherwise empty, so a one-shot
+                // timer genuinely lets paint and input through between pages.
+                _prewarmQueue = q;
+
+                if (_prewarmTimer == null)
+                {
+                    _prewarmTimer = new System.Windows.Forms.Timer { Interval = 10 };
+                    _prewarmTimer.Tick += (s, e) =>
+                    {
+                        _prewarmTimer.Stop();
+                        if (this.IsDisposed || !this.IsHandleCreated || _prewarmQueue == null) return;
+                        PrewarmOne(_prewarmQueue);
+                    };
+                }
+
+                _prewarmTimer.Start();
             }
             catch { }
+        }
+
+        private void StopPrewarmTimer()
+        {
+            _prewarmQueue = null;
+            if (_prewarmTimer == null) return;
+            try
+            {
+                _prewarmTimer.Stop();
+                _prewarmTimer.Dispose();
+            }
+            catch { }
+            _prewarmTimer = null;
         }
 
         private void PrewarmOne(System.Collections.Generic.Queue<BackstageViewPage> q)
