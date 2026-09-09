@@ -15,6 +15,46 @@ namespace MissionPlanner.Utilities
     {
         private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
+        /// <summary>
+        /// Win32_SerialPort instances, or an empty list where WMI cannot answer.
+        /// </summary>
+        /// <remarks>
+        /// Fork patch: DetectBoard branches on Mono, not on Wine, so native
+        /// .NET Framework under Wine takes the Windows path and issues this
+        /// query. Wine's wbemprox implements no Win32_SerialPort class and
+        /// fails the query with WBEM_E_INVALID_CLASS, surfacing as a
+        /// ManagementException - and the first call site sits outside any try,
+        /// so board detection aborted instead of falling through to the serial
+        /// bootloader probe and manual selection. This is the same query the
+        /// Phase 9 patch already guards in Program.cs.
+        /// </remarks>
+        private static List<ManagementObject> QuerySerialPortsWmi()
+        {
+            var result = new List<ManagementObject>();
+
+            if (MissionPlanner.Program.IsRunningOnWine)
+            {
+                log.Info("Wine: skipping Win32_SerialPort WMI query, using serial detection only");
+                return result;
+            }
+
+            try
+            {
+                using (var searcher = new ManagementObjectSearcher(new ObjectQuery("SELECT * FROM Win32_SerialPort")))
+                {
+                    foreach (ManagementObject obj in searcher.Get())
+                        result.Add(obj);
+                }
+            }
+            catch (Exception ex)
+            {
+                log.Warn("Win32_SerialPort WMI query failed: " + ex.Message);
+                result.Clear();
+            }
+
+            return result;
+        }
+
         public enum boards
         {
             none = 0,
@@ -196,9 +236,7 @@ namespace MissionPlanner.Utilities
                     log.Error(ex);
                 }
 
-                ObjectQuery query = new ObjectQuery("SELECT * FROM Win32_SerialPort"); // Win32_USBControllerDevice
-                ManagementObjectSearcher searcher = new ManagementObjectSearcher(query);
-                foreach (ManagementObject obj2 in searcher.Get())
+                foreach (ManagementObject obj2 in QuerySerialPortsWmi()) // Win32_USBControllerDevice
                 {
                     log.InfoFormat("-----------------------------------");
                     log.InfoFormat("Win32_USBDevice instance");
@@ -486,10 +524,8 @@ namespace MissionPlanner.Utilities
                         //HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB\VID_2341&PID_0010\640333439373519060F0\Device Parameters
                         if (!MONO)
                         {
-                            ObjectQuery query = new ObjectQuery("SELECT * FROM Win32_SerialPort");
                             // Win32_USBControllerDevice
-                            ManagementObjectSearcher searcher = new ManagementObjectSearcher(query);
-                            foreach (ManagementObject obj2 in searcher.Get())
+                            foreach (ManagementObject obj2 in QuerySerialPortsWmi())
                             {
                                 //Console.WriteLine("Dependant : " + obj2["Dependent"]);
 
