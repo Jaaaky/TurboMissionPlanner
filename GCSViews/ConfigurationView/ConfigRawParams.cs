@@ -758,7 +758,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 Interlocked.Increment(ref _enrichGen);
                 var gen = _enrichGen;
                 var fw = _pendingEnrichFirmware;
-                BeginInvoke(new Action(() => EnrichMetadataChunked(0, fw, gen)));
+                ScheduleEnrichChunk(0, fw, gen);
             }
 
             log.Info("Done");
@@ -769,6 +769,57 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         // expensive Description/Units/Options cells + tooltips. Yields between
         // chunks via BeginInvoke so the UI message pump keeps running -
         // heartbeat stays alive, user can scroll/click/filter during the walk.
+        // Fork patch: chunks used to re-arm with BeginInvoke, which does NOT
+        // yield. WinForms drains its marshalled-callback queue in a loop
+        // (Control.InvokeMarshaledCallbacks) and picks up entries appended
+        // during that drain, so all ~24 chunks ran inside a single pump message
+        // and the grid stayed frozen for the whole walk - the opposite of this
+        // scheduler's purpose. WM_TIMER is only delivered when the queue is
+        // otherwise empty, so paint, scrolling and filtering get in between
+        // chunks. Timer over Application.Idle: same preemption, simpler teardown.
+        private System.Windows.Forms.Timer _enrichTimer;
+        private int _enrichNextIdx;
+        private string _enrichFirmware;
+        private int _enrichPendingGen;
+
+        private void ScheduleEnrichChunk(int startIdx, string firmware, int gen)
+        {
+            if (IsDisposed || !IsHandleCreated) return;
+
+            _enrichNextIdx = startIdx;
+            _enrichFirmware = firmware;
+            _enrichPendingGen = gen;
+
+            if (_enrichTimer == null)
+            {
+                _enrichTimer = new System.Windows.Forms.Timer { Interval = 10 };
+                _enrichTimer.Tick += (s, e) =>
+                {
+                    _enrichTimer.Stop();
+                    if (IsDisposed || !IsHandleCreated) return;
+                    EnrichMetadataChunked(_enrichNextIdx, _enrichFirmware, _enrichPendingGen);
+                };
+            }
+            else
+            {
+                _enrichTimer.Stop();
+            }
+
+            _enrichTimer.Start();
+        }
+
+        private void StopEnrichTimer()
+        {
+            if (_enrichTimer == null) return;
+            try
+            {
+                _enrichTimer.Stop();
+                _enrichTimer.Dispose();
+            }
+            catch { }
+            _enrichTimer = null;
+        }
+
         private void EnrichMetadataChunked(int startIdx, string firmware, int gen)
         {
             if (gen != Volatile.Read(ref _enrichGen)) return; // a newer pass took over
@@ -841,10 +892,11 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
             if (end < total)
             {
-                BeginInvoke(new Action(() => EnrichMetadataChunked(end, firmware, gen)));
+                ScheduleEnrichChunk(end, firmware, gen);
             }
             else
             {
+                StopEnrichTimer();
                 Profiler.Mark("EnrichMetadata:done");
             }
         }
