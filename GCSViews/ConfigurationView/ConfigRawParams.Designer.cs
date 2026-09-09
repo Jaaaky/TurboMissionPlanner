@@ -15,9 +15,14 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            if (disposing)
             {
-                components.Dispose();
+                // Fork patch: the chunked metadata enrichment owns a WinForms
+                // timer that must not tick into a disposed grid.
+                StopEnrichTimer();
+
+                if (components != null)
+                    components.Dispose();
             }
             base.Dispose(disposing);
         }
