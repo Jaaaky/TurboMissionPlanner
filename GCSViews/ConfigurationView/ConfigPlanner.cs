@@ -379,8 +379,35 @@ namespace MissionPlanner.GCSViews.ConfigurationView
 
         private void CHK_enablespeech_CheckedChanged(object sender, EventArgs e)
         {
-            MainV2.speechEnable = CHK_enablespeech.Checked;
+            // Fork patch: Phase 10p made startup skip the Speech() ctor entirely
+            // when speechenable=false, and MainV2.speechEnable's setter is a
+            // no-op while speechEngine is null. Ticking this box therefore did
+            // nothing at all until the next launch. Write the setting first -
+            // the Speech ctor reads it - then build and attach the engine.
             Settings.Instance["speechenable"] = CHK_enablespeech.Checked.ToString();
+
+            if (CHK_enablespeech.Checked && MainV2.speechEngine == null)
+            {
+                try
+                {
+                    MainV2.speechEngine = new Speech();
+                    MAVLinkInterface.Speech = MainV2.speechEngine;
+                    CurrentState.Speech = MainV2.speechEngine;
+                }
+                catch (Exception ex)
+                {
+                    // SAPI can be absent or broken (notably under Wine). Fall
+                    // back to disabled rather than leaving a half-wired engine.
+                    MainV2.speechEngine = null;
+                    CustomMessageBox.Show("Speech engine unavailable\n" + ex.Message, Strings.ERROR);
+                    CHK_enablespeech.Checked = false; // re-enters and writes the setting off
+                    return;
+                }
+            }
+
+            MainV2.speechEnable = CHK_enablespeech.Checked;
+            Warnings.WarningEngine.Start(CHK_enablespeech.Checked ? MainV2.speechEngine : null);
+
             if (MainV2.speechEngine != null)
                 MainV2.speechEngine.SpeakAsyncCancelAll();
 
