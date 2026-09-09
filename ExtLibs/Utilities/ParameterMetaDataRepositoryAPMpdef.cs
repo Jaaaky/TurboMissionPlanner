@@ -87,8 +87,22 @@ namespace MissionPlanner.Utilities
 
                     var veh = vehicles.First(b => b.Contains(a));
 
-                    if(_parameterMetaDataXML.ContainsKey(a + version.ToString()))
-                        _parameterMetaDataXML[veh] = _parameterMetaDataXML[a + version.ToString()];
+                    var versionedKey = a + version.ToString();
+
+                    if (_parameterMetaDataXML.ContainsKey(versionedKey))
+                    {
+                        _parameterMetaDataXML[veh] = _parameterMetaDataXML[versionedKey];
+
+                        // Fork patch: GetParameterMetaData() consults _paramIndex
+                        // first and returns from it, so re-pointing the document
+                        // alone left every lookup serving the previous (generic)
+                        // metadata - wrong descriptions, options and ranges after
+                        // a versioned download. Move the index with the document.
+                        if (_paramIndex.TryGetValue(versionedKey, out var versionedIdx))
+                            _paramIndex[veh] = versionedIdx;
+                        else
+                            _paramIndex.TryRemove(veh, out _);
+                    }
                 }
                 catch (Exception ex) { log.Error(ex); }
             });
@@ -163,6 +177,9 @@ namespace MissionPlanner.Utilities
         public static void Reset()
         {
             _parameterMetaDataXML.Clear();
+            // Fork patch: the index is the primary lookup path, so leaving it
+            // populated here made Reset() a no-op for every actual consumer.
+            _paramIndex.Clear();
         }
 
         private static void BuildParamIndex(string vehicle, XDocument doc)
