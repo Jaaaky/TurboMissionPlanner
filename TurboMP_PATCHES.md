@@ -11,8 +11,11 @@ Branch layout:
 - `upstream/master` — read-only mirror of ArduPilot/MissionPlanner.
 - `master` — the Turbo branch; all patches live here. Default branch on the fork.
 
-Last sync: rebased onto upstream `a2fcd74d6` (2026-08, auto-sync); all patches
-re-applied clean (`git range-diff` all `=`), reviewed for logical conflicts.
+Last sync: rebased onto upstream `2b5589f40` (2026-09-10). 27 of 28 patches
+re-applied byte-identically (`git range-diff` all `=`); only row 7 differed,
+because upstream edited `android.yml`/`mac.yml` (delete/modify conflict) — kept
+our deletions. No upstream commit touched C# source this round, so there was
+nothing to review for logical conflicts.
 
 | Order | Subject                                                            | Conflict risk | Files touched (key)                                                                                                                                          | Why it can clash                                                                                                                                                                     |
 | ----- | ------------------------------------------------------------------ | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -34,6 +37,7 @@ re-applied clean (`git range-diff` all `=`), reviewed for logical conflicts.
 | 15    | perf: yield to the message pump between deferred batches           | **MED**       | `ExtLibs/Controls/BackstageView/BackstageView.cs` (+`.Designer.cs`), `GCSViews/ConfigurationView/ConfigRawParams.cs` (+`.Designer.cs`)                       | Repairs rows 5/11-era schedulers: `BeginInvoke` re-armed from inside its own callback does not yield (WinForms drains the queue in a loop), so prewarm and enrichment ran as one blocking batch. Re-arm via one-shot `Timer`.        |
 | 16    | perf: hash photo-marker tags instead of rescanning the overlay     | **LOW**       | `GCSViews/FlightData.cs`                                                                                                                                     | O(n²) boxed membership test per 0.3 s map update; visible stall on long camera/survey missions. Touches the same map-update region as row 3, so expect it near a rebase conflict there.                                              |
 | 17    | fix(wine): no `Win32_SerialPort` WMI in board detection            | **LOW**       | `Utilities/BoardDetect.cs`                                                                                                                                   | `DetectBoard` branches on Mono, not Wine, so native .NET under Wine hit a class Wine's `wbemprox` does not implement. Same query row 6 already guards in `Program.cs`.                                                               |
+| 18    | docs: correct upstream `CLAUDE.md` for this fork                   | **MED**       | `CLAUDE.md`                                                                                                                                                  | Upstream added `CLAUDE.md` in `9515c8804` documenting `bin\Release\net461`, the android/mac workflows and a `beta` release tag — all wrong here. It is agent-facing, so a stale copy actively misdirects. Upstream will keep editing this file; re-apply the three corrections by hand. |
 
 > **net48 was tried (11c + 11c.1) and reverted** — it hangs on the splash
 > screen under Wine. Stay on `net472`. Table rows 8-11 are the live Phase 11
