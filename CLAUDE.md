@@ -22,8 +22,11 @@ msbuild -v:m -restore -t:Build -p:Configuration=Release MissionPlanner.sln
 ```
 
 - The main app is built from **`MissionPlanner.sln`** → `MissionPlanner.csproj` (`net472`, `Exe`).
-- Output goes to **`bin\Release\net461\`** (or `bin\Debug\net461\`) — the `net461` folder name is
-  intentional (`AppendTargetFrameworkToOutputPath=false`), it is *not* a separate target.
+- Output goes to **`bin\Release\net472\`** (or `bin\Debug\net472\`). The folder name is set
+  explicitly (`AppendTargetFrameworkToOutputPath=false`), it is *not* a separate target.
+  **Fork note:** upstream names this folder `net461`; this fork renamed it to `net472` to match
+  the actual TFM (see `TurboMP_PATCHES.md` row 9). Expect that rename to reconflict on every
+  upstream sync.
 - `build.bat`, `build - debug.bat`, `build - Clean.bat` are the maintainer's local build scripts
   (they also do appx packaging/signing/rsync — not needed for plain builds).
 - To import the exact VS workload/component set, use `vs2022.vsconfig` (or `vs2019`/`vs2026`).
@@ -37,9 +40,13 @@ single most important thing to understand before touching shared code.
 
 ### CI
 
-GitHub Actions (`.github/workflows/main.yml` = "DotNet Build", plus `android.yml`, `mac.yml`)
-build on Windows with MSBuild. CI builds the solution and zips `bin/Release/net461`; tagging
-`beta` publishes a release.
+**Fork note:** this fork replaced upstream's CI. `.github/workflows/main.yml` is
+"Release Build (fork)" — Windows + MSBuild Release only, triggered by a `turbo-v*` tag,
+`workflow_dispatch`, or a pull request. It runs `debloat.ps1` before packaging and publishes a
+GitHub Release with a SHA256 `checksums.txt`. `.github/workflows/sync-upstream.yml` rebases this
+fork onto upstream weekly. The `android.yml`, `mac.yml`, `appveyor.yml` and `azure-pipelines.yml`
+pipelines are deleted here. Tag `turbo-v*` to cut a release; a plain push to `master` does not
+build. Never build this fork locally — use CI (`gh workflow run main.yml -R Jaaaky/TurboMissionPlanner`).
 
 ## Tests
 
@@ -48,7 +55,7 @@ references the main projects. Tests use `[TestClass]` / `[TestMethod]` and `Asse
 
 ```bat
 :: build then run via the VS Test Explorer, or:
-vstest.console.exe bin\Release\net461\MissionPlannerTests.dll
+vstest.console.exe bin\Release\net472\MissionPlannerTests.dll
 :: single test:
 vstest.console.exe MissionPlannerTests.dll /Tests:DetectBoardTest
 ```
