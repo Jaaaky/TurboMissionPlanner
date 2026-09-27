@@ -121,10 +121,10 @@
     <value>高程曲線圖</value>
   </data>
   <data name="flyToHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>飞到这里</value>
+    <value>飛到這裡</value>
   </data>
   <data name="CHK_geheight.Text" xml:space="preserve">
-    <value>验证高度</value>
+    <value>驗證高度</value>
   </data>
   <data name="lbl_homedist.Text" xml:space="preserve">
     <value>返航點</value>
@@ -136,7 +136,7 @@
     <value>Y</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>纬度</value>
+    <value>緯度</value>
   </data>
   <data name="GeoFencedownloadToolStripMenuItem.Text" xml:space="preserve">
     <value>下載</value>
@@ -148,7 +148,7 @@
     <value>從檔案載入集結點</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>MGRS（测试中）</value>
+    <value>MGRS（測試中）</value>
   </data>
   <data name="lbl_prevdist.Text" xml:space="preserve">
     <value>上一點</value>
@@ -175,7 +175,7 @@
     <value>時間</value>
   </data>
   <data name="CHK_altmode.Text" xml:space="preserve">
-    <value>绝对高度</value>
+    <value>絕對高度</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>高度警告</value>
@@ -184,7 +184,7 @@
     <value>預設高度</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>区域</value>
+    <value>區域</value>
   </data>
   <data name="Param2.HeaderText" xml:space="preserve">
     <value>P2</value>
@@ -223,7 +223,7 @@
     <value>DO_SET_ROI</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>鼠标位置</value>
+    <value>滑鼠位置</value>
   </data>
   <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
     <value>向上</value>
@@ -262,7 +262,7 @@
     <value>縮放至</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>经度</value>
+    <value>經度</value>
   </data>
   <data name="saveToFileToolStripMenuItem1.Text" xml:space="preserve">
     <value>將集結點儲存至檔案</value>
@@ -406,7 +406,7 @@
     <value>下載</value>
   </data>
   <data name="splineToolStripMenuItem.Text" xml:space="preserve">
-    <value>视图曲线化</value>
+    <value>視圖曲線化</value>
   </data>
   <data name="Grad.HeaderText" xml:space="preserve">
     <value>坡度 %</value>
@@ -433,7 +433,7 @@
     <value>P3</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
-    <value>复杂</value>
+    <value>複雜</value>
   </data>
   <data name="savePolygonToolStripMenuItem.Text" xml:space="preserve">
     <value>儲存多邊形</value>
