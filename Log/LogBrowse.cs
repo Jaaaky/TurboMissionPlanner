@@ -532,7 +532,7 @@ namespace MissionPlanner.Log
 
         private string get_param_value_string(string param_name, string VehicleType)
         {
-            var param = MainV2.comPort.MAV.param[param_name];
+            var param = _logParams[param_name];
             if (param == null)
             {
                 return "";
@@ -575,7 +575,7 @@ namespace MissionPlanner.Log
                         var rc_map = new[] {"ROLL", "PITCH", "THROTTLE", "YAW", "FORWARD", "LATERAL"};
                         foreach (string map in rc_map)
                         {
-                            var map_param = MainV2.comPort.MAV.param["RCMAP_" + map];
+                            var map_param = _logParams["RCMAP_" + map];
                             if ((map_param != null) && (map_param.Value == Convert.ToDouble(rc_in_num)))
                             {
                                 if (ret.Length > 0)
@@ -588,7 +588,7 @@ namespace MissionPlanner.Log
                         }
 
                         // Check flight mode switch
-                        var mode_param = MainV2.comPort.MAV.param["FLTMODE_CH"];
+                        var mode_param = _logParams["FLTMODE_CH"];
                         if ((mode_param != null) && (mode_param.Value == Convert.ToDouble(rc_in_num)))
                         {
                             if (ret.Length > 0)
@@ -634,7 +634,7 @@ namespace MissionPlanner.Log
                     {
                         // convert to 1 indexed
                         var param = "BARO" + (Convert.ToUInt32(instance) + 1).ToString() + "_DEVID";
-                        var dev_id = MainV2.comPort.MAV.param[param];
+                        var dev_id = _logParams[param];
                         if (dev_id == null)
                         {
                             return "";
@@ -660,7 +660,7 @@ namespace MissionPlanner.Log
                     case "MAG":
                     {
                         var param = "COMPASS_PRIO" + (Convert.ToUInt32(instance) + 1).ToString() + "_ID";
-                        var dev_id = MainV2.comPort.MAV.param[param];
+                        var dev_id = _logParams[param];
                         if (dev_id == null)
                         {
                             return "";
@@ -705,8 +705,17 @@ namespace MissionPlanner.Log
             var parmdata = logdata.GetEnumeratorType("PARM").Take(100000).Select(a =>
                 new MAVLink.MAVLinkParam(a["Name"], double.Parse(a["Value"], CultureInfo.InvariantCulture),
                     MAVLink.MAV_PARAM_TYPE.REAL32));
-            MainV2.comPort.MAV.param.Clear();
-            MainV2.comPort.MAV.param.AddRange(parmdata);
+            // Fork: keep the log's parameters private. Replacing MAV.param
+            // while connected wiped the live vehicle's parameter list (every
+            // Config page then showed the log's values or nothing). Offline,
+            // copy them as upstream did so other tools can use them.
+            _logParams.Clear();
+            _logParams.AddRange(parmdata);
+            if (!MainV2.comPort.BaseStream.IsOpen)
+            {
+                MainV2.comPort.MAV.param.Clear();
+                MainV2.comPort.MAV.param.AddRange(_logParams);
+            }
 
             // If we are not currently connected to a vehicle, then use VehicleType to set CurrentState firmware
             // (we probably aren't connected to a vehicle when reviewing a log, but if we are, we don't want to override this)
@@ -3834,10 +3843,75 @@ main()
                 paramdata.Add(sourceItem);
             }
 
-            MainV2.comPort.MAV.param.Clear();
-            MainV2.comPort.MAV.param.AddRange(paramdata);
+            // Fork: show the log's parameters in a log-owned read-only viewer.
+            // ConfigRawParams replaced MAV.param and stays bound to the vehicle:
+            // opened offline and left open, its queued edits could later be
+            // written (Ctrl+S) to a vehicle connected afterwards.
+            ShowLogParamsReadOnly(paramdata);
+        }
 
-            var frm = new ConfigRawParams().ShowUserControl();
+        // Fork: parameters of the loaded log (see ResetTreeView).
+        private readonly MAVLink.MAVLinkParamList _logParams = new MAVLink.MAVLinkParamList();
+
+        /// <summary>
+        /// Fork: log-owned, read-only parameter list with a name filter and
+        /// save-to-file. Never touches MAV.param or the vehicle.
+        /// </summary>
+        private void ShowLogParamsReadOnly(IEnumerable<MAVLink.MAVLinkParam> paramdata)
+        {
+            var grid = new DataGridView
+            {
+                Dock = DockStyle.Fill,
+                ReadOnly = true,
+                AllowUserToAddRows = false,
+                AllowUserToDeleteRows = false,
+                RowHeadersVisible = false,
+                AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill,
+                SelectionMode = DataGridViewSelectionMode.FullRowSelect
+            };
+            grid.Columns.Add("Name", "Name");
+            grid.Columns.Add("Value", "Value");
+            grid.Columns.Add("Default", "Default");
+            foreach (var p in paramdata.OrderBy(a => a.Name, StringComparer.Ordinal))
+                grid.Rows.Add(p.Name, p.Value.ToString(CultureInfo.InvariantCulture),
+                    p.default_value.HasValue ? p.default_value.Value.ToString(CultureInfo.InvariantCulture) : "");
+
+            // the offline Full Parameter List used to offer this; keep it
+            var save = new MyButton { Text = "Save as .param", Dock = DockStyle.Bottom };
+            save.Click += (o, e) =>
+            {
+                using (var sfd = new SaveFileDialog { Filter = "Param List|*.param;*.parm", DefaultExt = ".param" })
+                {
+                    if (sfd.ShowDialog() != DialogResult.OK)
+                        return;
+                    var table = new Hashtable();
+                    foreach (var p in paramdata)
+                        table[p.Name] = p.Value;
+                    try { ParamFile.SaveParamFile(sfd.FileName, table); }
+                    catch (Exception ex) { CustomMessageBox.Show("Save failed: " + ex.Message, Strings.ERROR); }
+                }
+            };
+
+            var filter = new TextBox { Dock = DockStyle.Top };
+            filter.TextChanged += (o, e) =>
+            {
+                var text = filter.Text.Trim();
+                foreach (DataGridViewRow row in grid.Rows)
+                    row.Visible = text.Length == 0 ||
+                                  row.Cells[0].Value.ToString().IndexOf(text, StringComparison.OrdinalIgnoreCase) >= 0;
+            };
+
+            var form = new Form
+            {
+                Text = "Log parameters (read-only)",
+                Size = new Size(500, 700),
+                StartPosition = FormStartPosition.CenterParent
+            };
+            form.Controls.Add(grid);
+            form.Controls.Add(filter);
+            form.Controls.Add(save);
+            ThemeManager.ApplyThemeTo(form);
+            form.Show(this);
         }
 
         private void treeView1_MouseDown(object sender, MouseEventArgs e)
