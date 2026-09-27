@@ -33,6 +33,13 @@ namespace MissionPlanner.Utilities
         private static readonly System.Collections.Concurrent.ConcurrentDictionary<string, Dictionary<string, XElement>>
             _paramIndex = new System.Collections.Concurrent.ConcurrentDictionary<string, Dictionary<string, XElement>>();
 
+        // Fork patch: publication (document + index) and Reset are serialised.
+        // A Reload that started before a Reset must not publish afterwards:
+        // it could leave a document without its index, and CheckLoad (which
+        // keys off the document) would then never reload it.
+        private static readonly object _publishLock = new object();
+        private static int _resetGeneration;
+
         private static string[] vehicles = new[]
         {
              "SITL", "AP_Periph", "ArduSub", "Rover", "ArduCopter",
@@ -93,6 +100,7 @@ namespace MissionPlanner.Utilities
 
                     var versionedKey = a + version.ToString();
 
+                    lock (_publishLock)
                     if (_parameterMetaDataXML.TryGetValue(versionedKey, out var versionedDoc))
                     {
                         // Fork patch: GetParameterMetaData() consults _paramIndex
@@ -111,6 +119,9 @@ namespace MissionPlanner.Utilities
                 }
                 catch (Exception ex) { log.Error(ex); }
             });
+
+            // Fork patch: cached answers still hold the generic metadata.
+            ParameterMetaDataRepository.ClearCache();
         }
 
         public static async Task GetMetaData(bool force = false)
@@ -181,10 +192,16 @@ namespace MissionPlanner.Utilities
 
         public static void Reset()
         {
-            _parameterMetaDataXML.Clear();
-            // Fork patch: the index is the primary lookup path, so leaving it
-            // populated here made Reset() a no-op for every actual consumer.
-            _paramIndex.Clear();
+            lock (_publishLock)
+            {
+                _resetGeneration++;
+                _parameterMetaDataXML.Clear();
+                // Fork patch: the index is the primary lookup path, so leaving it
+                // populated here made Reset() a no-op for every actual consumer.
+                _paramIndex.Clear();
+            }
+            // Fork patch: and the answer caches built from the old documents.
+            ParameterMetaDataRepository.ClearCache();
         }
 
         private static Dictionary<string, XElement> BuildParamIndex(string vehicle, XDocument doc)
@@ -225,6 +242,10 @@ namespace MissionPlanner.Utilities
             string paramMetaDataXMLFileName =
                 String.Format("{0}{1}", Settings.GetDataDirectory(), vehicle + ".apm.pdef.xml");
 
+            int generation;
+            lock (_publishLock)
+                generation = _resetGeneration;
+
             try
             {
                 if (File.Exists(paramMetaDataXMLFileName))
@@ -238,11 +259,16 @@ namespace MissionPlanner.Utilities
                     // CheckLoad keys off the document, so the other order let
                     // a reader skip loading and then find no index.
                     var idx = BuildParamIndex(vehicle, doc);
-                    if (idx != null)
-                        _paramIndex[vehicle] = idx;
-                    else
-                        _paramIndex.TryRemove(vehicle, out _);
-                    _parameterMetaDataXML[vehicle] = doc;
+                    lock (_publishLock)
+                    {
+                        if (generation != _resetGeneration)
+                            return; // a Reset ran meanwhile; CheckLoad reloads
+                        if (idx != null)
+                            _paramIndex[vehicle] = idx;
+                        else
+                            _paramIndex.TryRemove(vehicle, out _);
+                        _parameterMetaDataXML[vehicle] = doc;
+                    }
                 }
 
             }
