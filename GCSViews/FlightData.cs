@@ -138,6 +138,7 @@ namespace MissionPlanner.GCSViews
         GMapMarker marker;
 
         int messagecount;
+        long messageticks;
 
         //whether or not the output console has already started
         bool outputwindowstarted;
@@ -4400,8 +4401,12 @@ namespace MissionPlanner.GCSViews
 
         private void Messagetabtimer_Tick(object sender, EventArgs e)
         {
-            var messagetime = MainV2.comPort.MAV.cs.messages.LastOrDefault().time;
-            if (messagecount != messagetime.toUnixTime())
+            // Fork: compare exact time and count. The whole-second unix time
+            // missed every further message in the same second (and the list
+            // being replaced), so the tab showed stale text.
+            var messages = MainV2.comPort.MAV.cs.messages;
+            var messagetime = messages.LastOrDefault().time;
+            if (messageticks != messagetime.Ticks || messagecount != messages.Count)
             {
                 try
                 {
@@ -4412,7 +4417,8 @@ namespace MissionPlanner.GCSViews
                     });
                     txt_messagebox.Text = message.ToString();
 
-                    messagecount = messagetime.toUnixTime();
+                    messageticks = messagetime.Ticks;
+                    messagecount = messages.Count;
                 }
                 catch (Exception ex)
                 {
