@@ -52,7 +52,14 @@ namespace MissionPlanner.Controls
         {
             if (MainV2.comPort.MirrorStream != null && MainV2.comPort.MirrorStream.IsOpen || listener != null)
             {
-                MainV2.comPort.MirrorStream.Close();
+                // Fork: also stop the TCP host listener. It stayed bound and
+                // non-null, so the button could never start a new mirror.
+                try { MainV2.comPort.MirrorStream?.Close(); } catch { }
+                if (listener != null)
+                {
+                    try { listener.Stop(); } catch { }
+                    listener = null;
+                }
                 BUT_connect.Text = Strings.Connect;
             }
             else
@@ -71,7 +78,11 @@ namespace MissionPlanner.Controls
                                     return;
                                 listener = new TcpListener(System.Net.IPAddress.Any, port);
                                 listener.Start(0);
-                                listener.BeginAcceptTcpClient(new AsyncCallback(DoAcceptTcpClientCallback), listener);
+                                // Fork: the callback expects (listener, mirror); passing
+                                // the bare listener threw InvalidCastException on the
+                                // pool thread and crashed the app on the first client.
+                                listener.BeginAcceptTcpClient(new AsyncCallback(DoAcceptTcpClientCallback),
+                                    (listener, MainV2.comPort.Mirrors[0]));
                                 BUT_connect.Text = Strings.Stop;
                                 return;
                             }
@@ -131,18 +142,31 @@ namespace MissionPlanner.Controls
 
         void DoAcceptTcpClientCallback(IAsyncResult ar)
         {
-            // Get the listener that handles the client request.
-            var state = (ValueTuple<TcpListener, MAVLinkInterface.Mirror>)ar.AsyncState;
-            TcpListener listener = state.Item1;
-            MAVLinkInterface.Mirror mirror = state.Item2;
+            // Fork: this runs on a pool thread, where any exception ends the
+            // process. Stopping the listener completes the pending accept
+            // with ObjectDisposedException, which is the normal shutdown.
+            try
+            {
+                // Get the listener that handles the client request.
+                var state = (ValueTuple<TcpListener, MAVLinkInterface.Mirror>)ar.AsyncState;
+                TcpListener listener = state.Item1;
+                MAVLinkInterface.Mirror mirror = state.Item2;
 
-            // End the operation and display the received data on  
-            // the console.
-            TcpClient client = listener.EndAcceptTcpClient(ar);
+                // End the operation and display the received data on  
+                // the console.
+                TcpClient client = listener.EndAcceptTcpClient(ar);
 
-            ((TcpSerial)mirror.MirrorStream).client = client;
+                ((TcpSerial)mirror.MirrorStream).client = client;
 
-            listener.BeginAcceptTcpClient(new AsyncCallback(DoAcceptTcpClientCallback), state);
+                listener.BeginAcceptTcpClient(new AsyncCallback(DoAcceptTcpClientCallback), state);
+            }
+            catch (ObjectDisposedException)
+            {
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("SerialOutputPass accept: " + ex);
+            }
         }
 
         private void chk_write_CheckedChanged(object sender, EventArgs e)
