@@ -1103,6 +1103,22 @@ namespace MissionPlanner.GCSViews
 
         }
 
+        private DateTime _lastNoTerrainWarning = DateTime.MinValue;
+
+        /// <summary>
+        /// Fork: tell the pilot Verify Height had no SRTM data for a point.
+        /// At most once per 10 s, so a survey adding many rows shows it once.
+        /// </summary>
+        private void WarnNoTerrain(string action)
+        {
+            log.Warn("Verify Height: no SRTM data. " + action);
+            if (DateTime.Now - _lastNoTerrainWarning < System.TimeSpan.FromSeconds(10))
+                return;
+            _lastNoTerrainWarning = DateTime.Now;
+            CustomMessageBox.Show("No SRTM terrain data here (tile missing or still downloading). " + action,
+                Strings.ERROR);
+        }
+
         /// <summary>
         /// Actualy Sets the values into the datagrid and verifys height if turned on
         /// </summary>
@@ -1134,11 +1150,22 @@ namespace MissionPlanner.GCSViews
                             Commands.Rows[selectedrow].Cells[Lat.Index] as DataGridViewTextBoxCell;
                         DataGridViewTextBoxCell celllon =
                             Commands.Rows[selectedrow].Cells[Lon.Index] as DataGridViewTextBoxCell;
-                        int oldsrtm =
-                            (int)
-                            ((srtm.getAltitude(double.Parse(celllat.Value.ToString()),
-                                double.Parse(celllon.Value.ToString())).alt) * CurrentState.multiplieralt);
-                        int newsrtm = (int) ((srtm.getAltitude(lat, lng).alt) * CurrentState.multiplieralt);
+                        var oldterrain = srtm.getAltitude(double.Parse(celllat.Value.ToString()),
+                            double.Parse(celllon.Value.ToString()));
+                        var newterrain = srtm.getAltitude(lat, lng);
+                        // Fork: a missing or still-downloading tile reads as 0 m,
+                        // which moved waypoints hundreds of metres up or down.
+                        // Refuse the whole drag (nothing written yet) and redraw
+                        // so the marker returns to its row.
+                        if (oldterrain.currenttype == srtm.tiletype.invalid ||
+                            newterrain.currenttype == srtm.tiletype.invalid)
+                        {
+                            WarnNoTerrain("Waypoint not moved.");
+                            writeKML();
+                            return;
+                        }
+                        int oldsrtm = (int) (oldterrain.alt * CurrentState.multiplieralt);
+                        int newsrtm = (int) (newterrain.alt * CurrentState.multiplieralt);
                         int newh = (int) (ans + newsrtm - oldsrtm);
 
                         cell.Value = newh;
@@ -1211,28 +1238,58 @@ namespace MissionPlanner.GCSViews
                     // not online and verify alt via srtm
                     if (CHK_verifyheight.Checked) // use srtm data
                     {
+                        // Fork: keep the altitude the caller passed (survey,
+                        // plugin, insert, LAND=1); only plain clicks pass 0 and
+                        // get Default Alt. Upstream always used Default Alt.
+                        int baseAlt = alt != 0 ? alt : int.Parse(TXT_DefaultAlt.Text);
+
                         // is absolute but no verify
                         if ((altmode) CMB_altmode.SelectedValue == altmode.Absolute)
                         {
                             //abs
-                            cell.Value =
-                                ((srtm.getAltitude(lat, lng).alt) * CurrentState.multiplieralt +
-                                 int.Parse(TXT_DefaultAlt.Text)).ToString();
+                            var terrain = srtm.getAltitude(lat, lng);
+                            if (terrain.currenttype == srtm.tiletype.invalid)
+                            {
+                                // Fork: never write an above-ground number into
+                                // an above-sea-level row. Use home's altitude as
+                                // the ground reference and say so.
+                                double homealt;
+                                double.TryParse(TXT_homealt.Text, out homealt);
+                                cell.Value = (homealt + baseAlt).ToString();
+                                WarnNoTerrain("Altitude set relative to the home altitude; check it.");
+                            }
+                            else
+                            {
+                                cell.Value =
+                                    (terrain.alt * CurrentState.multiplieralt + baseAlt).ToString();
+                            }
                         }
                         else if ((altmode) CMB_altmode.SelectedValue == altmode.Terrain)
                         {
-                            cell.Value = int.Parse(TXT_DefaultAlt.Text);
+                            cell.Value = baseAlt;
                         }
                         else
                         {
                             //relative and verify
-                            cell.Value =
-                                ((int) (srtm.getAltitude(lat, lng).alt) * CurrentState.multiplieralt +
-                                 int.Parse(TXT_DefaultAlt.Text) -
-                                 (int)
-                                 srtm.getAltitude(MainV2.comPort.MAV.cs.PlannedHomeLocation.Lat,
-                                     MainV2.comPort.MAV.cs.PlannedHomeLocation.Lng).alt * CurrentState.multiplieralt)
-                                .ToString();
+                            var terrain = srtm.getAltitude(lat, lng);
+                            var hometerrain = srtm.getAltitude(MainV2.comPort.MAV.cs.PlannedHomeLocation.Lat,
+                                MainV2.comPort.MAV.cs.PlannedHomeLocation.Lng);
+                            if (terrain.currenttype == srtm.tiletype.invalid ||
+                                hometerrain.currenttype == srtm.tiletype.invalid)
+                            {
+                                // Fork: a missing tile read as 0 m gave waypoints
+                                // hundreds of metres low. Keep it unadjusted.
+                                cell.Value = baseAlt;
+                                WarnNoTerrain("Altitude not terrain-adjusted.");
+                            }
+                            else
+                            {
+                                cell.Value =
+                                    ((int) (terrain.alt) * CurrentState.multiplieralt +
+                                     baseAlt -
+                                     (int) hometerrain.alt * CurrentState.multiplieralt)
+                                    .ToString();
+                            }
                         }
                     }
 
