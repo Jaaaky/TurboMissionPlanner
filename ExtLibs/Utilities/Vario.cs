@@ -34,6 +34,13 @@ namespace MissionPlanner.Utilities
             {
                 float note = climbrate * 30 + MidTone;
 
+                // Fork: pace each pass by elapsed time. Console.Beep blocks for
+                // its duration on Windows, but under Wine it returns at once
+                // (or throws), so the descending branch and any exception
+                // looped with no wait and pegged a core.
+                var passStart = DateTime.UtcNow;
+                int passMs = 100;
+
                 try
                 {
 
@@ -42,24 +49,26 @@ namespace MissionPlanner.Utilities
                         // freq , duration
                         if (climbrate > 0)
                         {
-                            Beep((int)note, 300 - (int)(climbrate * 5));
-                            await Task.Delay(20).ConfigureAwait(false);
+                            var duration = Math.Max(50, 300 - (int)(climbrate * 5));
+                            passMs = duration + 20;
+                            Beep((int)note, duration);
                         }
                         else
                         {
+                            passMs = 600;
                             Beep((int)note - 50, 600);
                         }
-                    }
-                    else
-                    {
-                        // sleep when there is no sound required
-                        await Task.Delay(100).ConfigureAwait(false);
                     }
 
                 }
                 catch
                 {
                 }
+
+                // sleep for whatever the beep did not already take
+                var remaining = passMs - (int)(DateTime.UtcNow - passStart).TotalMilliseconds;
+                if (remaining > 0)
+                    await Task.Delay(remaining).ConfigureAwait(false);
             }
         }
 
