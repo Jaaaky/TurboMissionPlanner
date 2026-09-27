@@ -627,7 +627,10 @@ namespace MissionPlanner
 
         public void updateLayout(object sender, EventArgs e)
         {
-            MenuSimulation.Visible = DisplayConfiguration.displaySimulation;
+            // Fork: the Simulation screen only exists when enabled in the
+            // Plugin Manager (disable_simulation); otherwise the button did
+            // nothing when clicked.
+            MenuSimulation.Visible = DisplayConfiguration.displaySimulation && Simulation != null;
             MenuHelp.Visible = DisplayConfiguration.displayHelp;
             MissionPlanner.Controls.BackstageView.BackstageView.Advanced = DisplayConfiguration.isAdvancedMode;
 
