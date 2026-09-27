@@ -884,40 +884,39 @@ namespace MissionPlanner
             // Phase 9 fork: SerialPort.GetPortNames() probes USB hubs +
             // (on Windows) hits the registry; ~200-800ms on first call after
             // boot. Run async; marshal back to populate the dropdown.
-            Task.Run(() =>
+            // Fork v0.3.0: the default baud is set here, synchronously, so the
+            // saved-settings restore below always wins. The list update is
+            // posted to the UI thread's SynchronizationContext: MainV2 has no
+            // handle yet, so BeginInvokeIfRequired would run it inline on the
+            // pool thread. The update keeps the chosen port and never touches
+            // the baud rate.
+            PopulateSerialportList(new string[0]);
+            if (_connectionControl.CMB_serialport.Items.Count > 0)
             {
-                try
+                _connectionControl.CMB_baudrate.SelectedIndex = 8;
+                _connectionControl.CMB_serialport.SelectedIndex = 0;
+            }
+            var uiContext = SynchronizationContext.Current;
+            if (uiContext == null)
+            {
+                RefreshSerialportList(SerialPort.GetPortNames());
+            }
+            else
+            {
+                Task.Run(() =>
                 {
-                    var ports = SerialPort.GetPortNames();
-                    this.BeginInvokeIfRequired(() =>
+                    try
                     {
-                        try
+                        var ports = SerialPort.GetPortNames();
+                        uiContext.Post(_ =>
                         {
-                            _connectionControl.CMB_serialport.Items.Clear();
-                            _connectionControl.CMB_serialport.Items.AddRange(ports);
-                            _connectionControl.CMB_serialport.Items.Add("UDP");
-                            _connectionControl.CMB_serialport.Items.Add("UDPCl");
-                            _connectionControl.CMB_serialport.Items.Add("TCP");
-                            _connectionControl.CMB_serialport.Items.Add("AUTO");
-                            if (_connectionControl.CMB_serialport.Items.Count > 0)
-                            {
-                                _connectionControl.CMB_baudrate.SelectedIndex = 8;
-                                _connectionControl.CMB_serialport.SelectedIndex = 0;
-                            }
-                            // re-apply last saved port now that the list is populated
-                            var saved = Settings.Instance.ComPort;
-                            if (!string.IsNullOrEmpty(saved))
-                            {
-                                var idx = _connectionControl.CMB_serialport.FindString(saved);
-                                if (idx >= 0) _connectionControl.CMB_serialport.SelectedIndex = idx;
-                                else _connectionControl.CMB_serialport.Text = saved;
-                            }
-                        }
-                        catch (Exception ex) { log.Warn("port-list marshal: " + ex.Message); }
-                    });
-                }
-                catch (Exception ex) { log.Warn("SerialPort enum deferred: " + ex.Message); }
-            });
+                            try { RefreshSerialportList(ports); }
+                            catch (Exception ex) { log.Warn("port-list marshal: " + ex.Message); }
+                        }, null);
+                    }
+                    catch (Exception ex) { log.Warn("SerialPort enum deferred: " + ex.Message); }
+                });
+            }
             // ** Done
 
             MissionPlanner.Utilities.Profiler.Mark("MainV2.ctor:before-splash-refresh");
@@ -1460,10 +1459,15 @@ namespace MissionPlanner
 
         private void PopulateSerialportList()
         {
+            PopulateSerialportList(SerialPort.GetPortNames());
+        }
+
+        private void PopulateSerialportList(string[] ports)
+        {
             _connectionControl.CMB_serialport.Items.Clear();
 
             _connectionControl.CMB_serialport.Items.Add("AUTO");
-            _connectionControl.CMB_serialport.Items.AddRange(SerialPort.GetPortNames());
+            _connectionControl.CMB_serialport.Items.AddRange(ports);
 
             _connectionControl.CMB_serialport.Items.Add("TCP");
             _connectionControl.CMB_serialport.Items.Add("UDP");
@@ -1473,6 +1477,36 @@ namespace MissionPlanner
             foreach (var item in ExtraConnectionList)
             {
                 _connectionControl.CMB_serialport.Items.Add(item.Label);
+            }
+        }
+
+        // Fork v0.3.0: set while the port list is rebuilt in the background,
+        // so re-selecting the current port does not load its saved baud.
+        private bool _suppressPortBaudRestore;
+
+        /// <summary>
+        /// Fork v0.3.0: rebuild the port list with freshly enumerated ports,
+        /// keeping whatever port the user (or saved settings) already chose.
+        /// Never changes the baud rate.
+        /// </summary>
+        private void RefreshSerialportList(string[] ports)
+        {
+            var current = _connectionControl.CMB_serialport.Text;
+            _suppressPortBaudRestore = true;
+            try
+            {
+                PopulateSerialportList(ports);
+                if (string.IsNullOrEmpty(current))
+                    return;
+                var idx = _connectionControl.CMB_serialport.FindStringExact(current);
+                if (idx >= 0)
+                    _connectionControl.CMB_serialport.SelectedIndex = idx;
+                else
+                    _connectionControl.CMB_serialport.Text = current; // allows ports that dont exist - yet
+            }
+            finally
+            {
+                _suppressPortBaudRestore = false;
             }
         }
 
@@ -2166,7 +2200,8 @@ namespace MissionPlanner
             try
             {
                 // check for saved baud rate and restore
-                if (Settings.Instance[_connectionControl.CMB_serialport.Text.Replace(" ", "_") + "_BAUD"] != null)
+                if (!_suppressPortBaudRestore &&
+                    Settings.Instance[_connectionControl.CMB_serialport.Text.Replace(" ", "_") + "_BAUD"] != null)
                 {
                     _connectionControl.CMB_baudrate.Text =
                         Settings.Instance[_connectionControl.CMB_serialport.Text.Replace(" ", "_") + "_BAUD"];
