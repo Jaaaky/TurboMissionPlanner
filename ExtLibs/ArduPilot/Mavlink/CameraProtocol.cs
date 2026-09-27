@@ -227,23 +227,28 @@ namespace MissionPlanner.ArduPilot.Mavlink
             {
                 if (parent?.parent != null)
                 {
+                    // Fork: send both requests without waiting for an ACK. The
+                    // acked request took giveComport and read packets itself,
+                    // so this periodic probe (every ~38 s) competed with any
+                    // mission/param transfer for replies; a pre-check cannot
+                    // close that race. CAMERA_INFORMATION arrives through
+                    // ParseMessages either way; the deprecated request covers
+                    // firmware without REQUEST_MESSAGE (a duplicate is harmless).
                     // New-style request
-                    var resp = await parent.parent.doCommandAsync(
+                    await parent.parent.doCommandAsync(
                         parent.sysid, parent.compid,
                         MAVLink.MAV_CMD.REQUEST_MESSAGE,
                         (float)MAVLink.MAVLINK_MSG_ID.CAMERA_INFORMATION,
-                        0, 0, 0, 0, 0, 0
+                        0, 0, 0, 0, 0, 0,
+                        false // Don't wait for response
                     );
-                    // Fall back to deprecated request message
-                    if (!resp)
-                    {
-                        await parent.parent.doCommandAsync(
-                            parent.sysid, parent.compid,
-                            MAVLink.MAV_CMD.REQUEST_CAMERA_INFORMATION,
-                            0, 0, 0, 0, 0, 0, 0,
-                            false // Don't wait for response
-                        );
-                    }
+                    // Deprecated request message
+                    await parent.parent.doCommandAsync(
+                        parent.sysid, parent.compid,
+                        MAVLink.MAV_CMD.REQUEST_CAMERA_INFORMATION,
+                        0, 0, 0, 0, 0, 0, 0,
+                        false // Don't wait for response
+                    );
 
                     // Get video stream information as well
                     await parent.parent.doCommandAsync(

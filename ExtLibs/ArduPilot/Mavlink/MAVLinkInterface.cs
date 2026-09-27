@@ -2721,7 +2721,9 @@ Mission Planner waits for 2 valid heartbeat packets before connecting
 
             if (!requireack)
             {
-                giveComport = false;
+                // Fork: this path never set giveComport, so it must not clear
+                // it: that silently ended another transfer's exclusive use of
+                // the link (e.g. the 38 s gimbal probe during a WP download).
                 return true;
             }
 
@@ -2886,7 +2888,9 @@ Mission Planner waits for 2 valid heartbeat packets before connecting
 
             if (!requireack)
             {
-                giveComport = false;
+                // Fork: this path never set giveComport, so it must not clear
+                // it: that silently ended another transfer's exclusive use of
+                // the link (e.g. the 38 s gimbal probe during a WP download).
                 return true;
             }
 
