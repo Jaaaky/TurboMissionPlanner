@@ -2612,10 +2612,9 @@ namespace MissionPlanner
 
                                     //Console.WriteLine("Joystick btw " + comPort.BaseStream.BytesToWrite);
 
-                                    if (!comPort.BaseStream.IsOpen)
-                                        continue;
-
-                                    if (comPort.BaseStream.BytesToWrite < 50)
+                                    // Fork: no `continue` here; it skipped the loop's
+                                    // delay and spun a core while disconnected.
+                                    if (comPort.BaseStream.IsOpen && comPort.BaseStream.BytesToWrite < 50)
                                     {
                                         if (sitl)
                                         {
@@ -2635,7 +2634,10 @@ namespace MissionPlanner
                             {
                                 MAVLink.mavlink_manual_control_t rc = new MAVLink.mavlink_manual_control_t();
 
-                                rc.target = comPort.MAV.compid;
+                                // Fork: MANUAL_CONTROL.target is the target SYSTEM id
+                                // (was the component id, so any vehicle whose sysid is
+                                // not equal to its compid, usually 1, ignored it).
+                                rc.target = comPort.MAV.sysid;
 
                                 if (joystick.getJoystickAxis(1) != Joystick.joystickaxis.None)
                                     rc.x = MainV2.comPort.MAV.cs.rcoverridech1;
@@ -2648,10 +2650,9 @@ namespace MissionPlanner
 
                                 if (lastjoystick.AddMilliseconds(rate) < DateTime.Now)
                                 {
-                                    if (!comPort.BaseStream.IsOpen)
-                                        continue;
-
-                                    if (comPort.BaseStream.BytesToWrite < 50)
+                                    // Fork: no `continue` here; it skipped the loop's
+                                    // delay and spun a core while disconnected.
+                                    if (comPort.BaseStream.IsOpen && comPort.BaseStream.BytesToWrite < 50)
                                     {
                                         if (sitl)
                                         {
@@ -2670,11 +2671,13 @@ namespace MissionPlanner
                         }
                     }
 
-                    await Task.Delay(40).ConfigureAwait(false);
                 }
                 catch
                 {
                 } // cant fall out
+
+                // Fork: pace every pass, including one that threw.
+                await Task.Delay(40).ConfigureAwait(false);
             }
 
             joysendThreadExited = true; //so we know this thread exited.
