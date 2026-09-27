@@ -193,11 +193,17 @@ namespace MissionPlanner.Log
             }
         }
 
-        async Task<string> GetLog(ushort no, string fileName)
+        // Fork: set when a downloaded log is shorter than the vehicle said.
+        private bool _truncatedLogs;
+
+        async Task<string> GetLog(ushort no, string fileName, uint expectedSize = 0)
         {
             log.Info("GetLog " + no);
 
             MainV2.comPort.Progress += ComPort_Progress;
+            // Fork: unsubscribe even when the download throws.
+            try
+            {
 
             status = SerialStatus.Reading;
 
@@ -207,6 +213,16 @@ namespace MissionPlanner.Log
 
             GC.Collect();
             status = SerialStatus.Done;
+
+            // Fork: ArduPilot reports an SD read error as end-of-log, so a
+            // short file used to be saved as a normal complete download.
+            long gotSize = new FileInfo(fn).Length;
+            if (expectedSize > 0 && gotSize < expectedSize)
+            {
+                _truncatedLogs = true;
+                AppendSerialLog("WARNING: log " + no + " is truncated: got " + gotSize + " of " + expectedSize +
+                                " bytes (vehicle read error?). Saved what was received.");
+            }
 
             logfile = Settings.Instance.LogDir + Path.DirectorySeparatorChar
                                                + MainV2.comPort.MAV.aptype.ToString() + Path.DirectorySeparatorChar
@@ -264,9 +280,13 @@ namespace MissionPlanner.Log
                 }
             }
 
-            MainV2.comPort.Progress -= ComPort_Progress;
-
             return logfile;
+
+            }
+            finally
+            {
+                MainV2.comPort.Progress -= ComPort_Progress;
+            }
         }
 
         protected override void OnClosed(EventArgs e)
@@ -357,6 +377,7 @@ namespace MissionPlanner.Log
                 totalBytes = 0;
                 tallyBytes = 0;
                 receivedbytes = 0;
+                _truncatedLogs = false;
                 foreach (int a in selectedLogs)
                 {
                     var entry = logEntries[a]; // mavlink_log_entry_t
@@ -371,7 +392,7 @@ namespace MissionPlanner.Log
 
                     AppendSerialLog(string.Format(LogStrings.FetchingLog, fileName));
 
-                    await GetLog(entry.id, fileName).ConfigureAwait(false);
+                    await GetLog(entry.id, fileName, entry.size).ConfigureAwait(false);
 
                     tallyBytes += receivedbytes;
                     receivedbytes = 0;
@@ -380,8 +401,15 @@ namespace MissionPlanner.Log
 
                 UpdateProgress(0, totalBytes, totalBytes);
 
-                AppendSerialLog("Download complete.");
-                Console.Beep();
+                if (_truncatedLogs)
+                {
+                    AppendSerialLog("Download finished, but some logs are truncated (see warnings above).");
+                }
+                else
+                {
+                    AppendSerialLog("Download complete.");
+                    Console.Beep();
+                }
             }
             catch (Exception ex)
             {
