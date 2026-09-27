@@ -55,6 +55,29 @@ jobs:
         shell: pwsh
         run: .\debloat.ps1 -OutDir bin\Release\net472
 
+      # Fork: fail the build if debloat removed something the app needs at
+      # runtime (it once shipped without lib\ and could have dropped Skia).
+      - name: Check release artifacts
+        shell: pwsh
+        run: |
+          $out = "bin\Release\net472"
+          $fail = @()
+          function Get-PeMachine($path) {
+            $b = [IO.File]::ReadAllBytes($path)
+            $pe = [BitConverter]::ToInt32($b, 0x3C)
+            return [BitConverter]::ToUInt16($b, $pe + 4)
+          }
+          $skia = Join-Path $out 'x64\libSkiaSharp.dll'
+          if (-not (Test-Path $skia)) { $fail += "missing $skia" }
+          elseif ((Get-PeMachine $skia) -ne 0x8664) { $fail += "$skia is not an x64 (PE32+) image" }
+          $skiaArm = Join-Path $out 'arm64\libSkiaSharp.dll'
+          if (-not (Test-Path $skiaArm)) { $fail += "missing $skiaArm" }
+          elseif ((Get-PeMachine $skiaArm) -ne 0xAA64) { $fail += "$skiaArm is not an ARM64 image" }
+          if (-not (Test-Path (Join-Path $out 'lib\os.py'))) { $fail += "missing lib\os.py (IronPython stdlib)" }
+          if (-not (Test-Path (Join-Path $out 'MissionPlanner.exe'))) { $fail += "missing MissionPlanner.exe" }
+          if ($fail.Count -gt 0) { $fail | ForEach-Object { Write-Host "::error::$_" }; exit 1 }
+          Write-Host "Release artifacts OK"
+
       - name: Package
         shell: pwsh
         run: |
