@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Text;
+using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
 using log4net;
 using Microsoft.Win32;
 
@@ -280,16 +283,275 @@ namespace MissionPlanner.Utilities
         /// </summary>
         public static Font Make(float emSize, FontStyle style = FontStyle.Regular)
         {
-            if (PlexSans != null)
+            var family = UiFamily ?? PlexSans;
+            if (family != null)
             {
                 // Some styles (e.g. Italic) may not exist if we didn't bundle
                 // those weights; clamp to Regular when not available.
-                if (!PlexSans.IsStyleAvailable(style))
+                if (!family.IsStyleAvailable(style))
                     style = FontStyle.Regular;
-                try { return new Font(PlexSans, emSize, style, GraphicsUnit.Point); }
+                try { return new Font(family, emSize, style, GraphicsUnit.Point); }
                 catch { }
             }
             return new Font("Microsoft Sans Serif", emSize, style, GraphicsUnit.Point);
+        }
+
+        // Fork v0.3.2: script fonts. IBM Plex Sans has no Arabic or CJK
+        // glyphs. Wine joins Arabic letters only when the SELECTED font has
+        // them (font linking never shapes), so a UI in Arabic, Persian,
+        // Uyghur, Chinese, Japanese or Korean uses a Turbo Sans font as its UI
+        // font. Turbo Sans is IBM Plex Sans Arabic/SC/TC/JP/KR, renamed and
+        // subset by Fonts\tools\build_fonts.py, shipped as files in Fonts\.
+
+        /// <summary>UI font family: a Turbo Sans font for script languages, else IBM Plex Sans.</summary>
+        public static FontFamily UiFamily { get; private set; }
+
+        private static readonly string[] CjkTags = { "SC", "TC", "JP", "KR" };
+        private static readonly List<string> _privatePaths = new List<string>();
+        private static readonly Dictionary<string, Font> _uiFonts = new Dictionary<string, Font>();
+
+        /// <summary>Turbo Sans tag ("Arabic", "SC", "TC", "JP", "KR") for a UI culture, or null.</summary>
+        public static string ScriptFontTag(CultureInfo culture)
+        {
+            for (var c = culture; c != null && !string.IsNullOrEmpty(c.Name); c = c.Parent)
+            {
+                switch (c.Name.ToLowerInvariant())
+                {
+                    case "ar":
+                    case "fa":
+                    case "ug":
+                        return "Arabic";
+                    case "ja":
+                        return "JP";
+                    case "ko":
+                        return "KR";
+                    case "zh-hant":
+                    case "zh-tw":
+                    case "zh-hk":
+                    case "zh-mo":
+                    case "zh-cht":
+                        return "TC";
+                    case "zh-hans":
+                    case "zh-cn":
+                    case "zh-sg":
+                    case "zh-chs":
+                    case "zh":
+                        return "SC";
+                }
+            }
+            return null;
+        }
+
+        private static string ScriptFontPath(string tag, string style)
+        {
+            return Path.Combine(Settings.GetRunningDirectory(), "Fonts", "TurboSans" + tag + "-" + style + ".ttf");
+        }
+
+        /// <summary>
+        /// Picks the UI font for the UI language. Call once the language is
+        /// known and before the main form's controls are created.
+        /// </summary>
+        public static void UseScriptFont(CultureInfo culture)
+        {
+            UiFamily = PlexSans;
+            var tag = ScriptFontTag(culture);
+
+            if (MissionPlanner.Program.IsRunningOnWine)
+            {
+                try { InstallWineFallbacks(tag); }
+                catch (Exception ex) { log.Warn("AppFonts: Wine font fallbacks: " + ex.Message); }
+            }
+
+            if (tag == null)
+                return;
+
+            var familyName = "Turbo Sans " + tag;
+            foreach (var style in new[] { "Regular", "Bold" })
+            {
+                var path = ScriptFontPath(tag, style);
+                if (!File.Exists(path))
+                {
+                    log.Warn("AppFonts: missing " + path);
+                    continue;
+                }
+                // GDI+ draws with the private family; GDI (TextRenderer,
+                // native controls) finds the face by name in this process.
+                try { Collection.AddFontFile(path); }
+                catch (Exception ex) { log.Warn("AppFonts: AddFontFile " + path + ": " + ex.Message); }
+                try
+                {
+                    if (AddFontResourceExW(path, FR_PRIVATE, IntPtr.Zero) > 0)
+                        _privatePaths.Add(path);
+                }
+                catch (Exception ex) { log.Warn("AppFonts: AddFontResourceExW " + path + ": " + ex.Message); }
+            }
+
+            var family = Collection.Families.FirstOrDefault(f =>
+                string.Equals(f.Name, familyName, StringComparison.OrdinalIgnoreCase));
+            if (family != null)
+                UiFamily = family;
+            log.Info("AppFonts: UI language " + culture?.Name + " -> " + (UiFamily?.Name ?? "(none)"));
+        }
+
+        /// <summary>
+        /// Moves a control tree onto the UI font when a script font is in
+        /// use. Designer files and translations pin families that lack the
+        /// script (IBM Plex Sans, Microsoft Sans Serif, Segoe UI, ...).
+        /// Monospace and symbol fonts are kept. No-op for other languages.
+        /// </summary>
+        public static void ApplyUiFont(Control root)
+        {
+            if (root == null || UiFamily == null || UiFamily == PlexSans)
+                return;
+            SwapFonts(root);
+        }
+
+        private static void SwapFonts(Control ctl)
+        {
+            // An inherited (ambient) font is the parent's instance; the parent
+            // already has the UI font, so leave the child inheriting it.
+            bool inherited = ctl.Parent != null && ReferenceEquals(ctl.Font, ctl.Parent.Font);
+            if (!inherited)
+            {
+                var font = UiFont(ctl.Font);
+                if (font != null)
+                    ctl.Font = font;
+            }
+
+            var grid = ctl as DataGridView;
+            if (grid != null)
+            {
+                SwapFont(grid.DefaultCellStyle);
+                SwapFont(grid.ColumnHeadersDefaultCellStyle);
+                SwapFont(grid.RowHeadersDefaultCellStyle);
+                SwapFont(grid.AlternatingRowsDefaultCellStyle);
+                foreach (DataGridViewColumn column in grid.Columns)
+                    if (column.HasDefaultCellStyle)
+                        SwapFont(column.DefaultCellStyle);
+            }
+
+            var strip = ctl as ToolStrip;
+            if (strip != null)
+                SwapFonts(strip.Items);
+
+            if (ctl.ContextMenuStrip != null && ctl.ContextMenuStrip != ctl)
+                SwapFonts(ctl.ContextMenuStrip);
+
+            foreach (Control child in ctl.Controls)
+                SwapFonts(child);
+        }
+
+        private static void SwapFonts(ToolStripItemCollection items)
+        {
+            foreach (ToolStripItem item in items)
+            {
+                if (item.Owner == null || !ReferenceEquals(item.Font, item.Owner.Font))
+                {
+                    var font = UiFont(item.Font);
+                    if (font != null)
+                        item.Font = font;
+                }
+
+                var dropDown = item as ToolStripDropDownItem;
+                if (dropDown != null && dropDown.HasDropDownItems)
+                    SwapFonts(dropDown.DropDown);
+            }
+        }
+
+        private static void SwapFont(DataGridViewCellStyle style)
+        {
+            if (style?.Font == null)
+                return;
+            var font = UiFont(style.Font);
+            if (font != null)
+                style.Font = font;
+        }
+
+        // The UI-font equivalent of a font, or null to keep it. Cached: the
+        // same few sizes are used everywhere and controls share the instances.
+        private static Font UiFont(Font font)
+        {
+            if (font == null)
+                return null;
+            var name = font.FontFamily.Name;
+            if (string.Equals(name, UiFamily.Name, StringComparison.OrdinalIgnoreCase) || KeepFamily(name))
+                return null;
+
+            var key = font.Size + "|" + (int)font.Style + "|" + (int)font.Unit;
+            Font result;
+            if (_uiFonts.TryGetValue(key, out result))
+                return result;
+
+            // Turbo Sans has Regular and Bold only; drop Italic, keep the rest.
+            var style = font.Style & ~FontStyle.Italic;
+            if (!UiFamily.IsStyleAvailable(style))
+                style &= ~FontStyle.Bold;
+            try { result = new Font(UiFamily, font.Size, style, font.Unit); }
+            catch (Exception ex)
+            {
+                log.Warn("AppFonts: UI font " + key + ": " + ex.Message);
+                result = null;
+            }
+            _uiFonts[key] = result;
+            return result;
+        }
+
+        private static bool KeepFamily(string name)
+        {
+            var n = name.ToLowerInvariant();
+            return n.Contains("mono") || n.Contains("courier") || n.Contains("consol") || n.Contains("lucida console") ||
+                   n.Contains("wingding") || n.Contains("webding") || n.Contains("symbol") || n.Contains("marlett") ||
+                   n.Contains("cambam");
+        }
+
+        // Wine only. Font linking gives CJK glyphs to text drawn in any other
+        // font (it cannot join Arabic: Wine shapes only with the selected
+        // font), and usp10's fallback table picks the font for scripts typed
+        // into text boxes. Wine reads both at process start and needs the
+        // fonts as files in C:\windows\Fonts, so this works from the next
+        // launch on. The UI language's own font is registered above anyway.
+        private static void InstallWineFallbacks(string uiTag)
+        {
+            var fontsDir = Environment.GetFolderPath(Environment.SpecialFolder.Fonts);
+            if (string.IsNullOrEmpty(fontsDir))
+                return;
+            foreach (var tag in new[] { "Arabic" }.Concat(CjkTags))
+            {
+                var src = ScriptFontPath(tag, "Regular");
+                var dst = Path.Combine(fontsDir, Path.GetFileName(src));
+                if (!File.Exists(src))
+                    return;
+                if (!File.Exists(dst) || new FileInfo(dst).Length != new FileInfo(src).Length)
+                    File.Copy(src, dst, true);
+            }
+
+            // The UI language's CJK forms first, then the others.
+            var children = CjkTags.OrderBy(t => t == uiTag ? 0 : 1)
+                .Select(t => "TurboSans" + t + "-Regular.ttf,Turbo Sans " + t).ToArray();
+            using (var key = Registry.LocalMachine.CreateSubKey(
+                       @"Software\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink"))
+            {
+                // Keys are face full names. Every font's link chain ends with
+                // Tahoma's links, so Tahoma covers fonts not listed here.
+                foreach (var face in new[] { "IBM Plex Sans", "IBM Plex Sans Bold", "IBM Plex Sans Medm", "Tahoma" })
+                {
+                    var existing = key.GetValue(face) as string[] ?? new string[0];
+                    var others = existing.Where(e => !e.StartsWith("TurboSans", StringComparison.OrdinalIgnoreCase));
+                    var value = (face == "Tahoma" ? others.Concat(children) : children.Concat(others)).ToArray();
+                    if (!value.SequenceEqual(existing))
+                        key.SetValue(face, value, RegistryValueKind.MultiString);
+                }
+            }
+
+            var han = uiTag == "TC" || uiTag == "JP" ? uiTag : "SC";
+            using (var key = Registry.CurrentUser.CreateSubKey(@"Software\Wine\Uniscribe\Fallback"))
+            {
+                // Value name: the script's OpenType tag as hex (usp10 find_fallback_font).
+                key.SetValue("62617261", "Turbo Sans Arabic"); // arab
+                key.SetValue("696e6168", "Turbo Sans " + han); // hani
+                key.SetValue("616e616b", "Turbo Sans JP"); // kana
+                key.SetValue("676e6168", "Turbo Sans KR"); // hang
+            }
         }
 
         // Phase 9g: register a TTF in the Windows font registry. GDI+ name
@@ -516,6 +778,12 @@ namespace MissionPlanner.Utilities
                 try { RemoveFontResourceExW(p, 0u, IntPtr.Zero); } catch { }
             }
             _registeredPaths.Clear();
+
+            foreach (string p in _privatePaths)
+            {
+                try { RemoveFontResourceExW(p, FR_PRIVATE, IntPtr.Zero); } catch { }
+            }
+            _privatePaths.Clear();
 
             foreach (IntPtr h in _gdiHandles)
             {

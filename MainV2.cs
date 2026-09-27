@@ -783,6 +783,20 @@ namespace MissionPlanner
                 changelanguage(CultureInfoEx.GetCultureInfo(Settings.Instance["language"]));
             }
 
+            // Fork v0.3.2: the UI language is known now. Arabic-script and
+            // CJK languages switch the UI font to a Turbo Sans script font.
+            try
+            {
+                MissionPlanner.Utilities.AppFonts.UseScriptFont(Thread.CurrentThread.CurrentUICulture);
+                if (MissionPlanner.Utilities.AppFonts.UiFamily != MissionPlanner.Utilities.AppFonts.PlexSans)
+                {
+                    this.Font = MissionPlanner.Utilities.AppFonts.Make(this.Font?.Size ?? 8.25f);
+                    MsgBox.CustomMessageBox.TextFont =
+                        MissionPlanner.Utilities.AppFonts.Make(SystemFonts.DefaultFont.Size);
+                }
+            }
+            catch (Exception exFont) { log.Warn("AppFonts script font: " + exFont.Message); }
+
             MissionPlanner.Utilities.Profiler.Mark("MainV2.InitializeComponent:begin");
             InitializeComponent();
             MissionPlanner.Utilities.Profiler.Mark("MainV2.InitializeComponent:done");
