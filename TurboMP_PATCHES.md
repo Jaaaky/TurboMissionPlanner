@@ -18,6 +18,11 @@ so our code half was dropped and only its tracker note survives. The other new
 upstream commits (MAVFtp `ListDirectoryWithTime`, `Debugger.Break` guard, mass
 storage reboot action) touch no code our patches modify.
 
+v0.3.0 work (2026-09-27, branch `v0.3.0-work`): rows 19-55 from the deep review
+(plan `.claude/tasks/2026-09-27-deep-review-plan.md` in the GCSs workspace).
+Row 19 reverts most of the Phase 10h persistence work, so row 15's BackstageView
+prewarm half no longer exists; its ConfigRawParams half remains.
+
 | Order | Subject                                                            | Conflict risk | Files touched (key)                                                                                                                                          | Why it can clash                                                                                                                                                                     |
 | ----- | ------------------------------------------------------------------ | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1     | cfg: silence default logging + drop AI/System.Net trace            | **LOW**       | `app.config`                                                                                                                                                 | Single XML file. Easy 3-way merge.                                                                                                                                                   |
@@ -39,6 +44,43 @@ storage reboot action) touch no code our patches modify.
 | 16    | perf: hash photo-marker tags instead of rescanning the overlay     | **LOW**       | `GCSViews/FlightData.cs`                                                                                                                                     | O(n²) boxed membership test per 0.3 s map update; visible stall on long camera/survey missions. Touches the same map-update region as row 3, so expect it near a rebase conflict there.                                              |
 | 17    | fix(wine): no `Win32_SerialPort` WMI in board detection            | **LOW**       | `Utilities/BoardDetect.cs`                                                                                                                                   | `DetectBoard` branches on Mono, not Wine, so native .NET under Wine hit a class Wine's `wbemprox` does not implement. Same query row 6 already guards in `Program.cs`.                                                               |
 | 18    | docs: correct upstream `CLAUDE.md` for this fork                   | **MED**       | `CLAUDE.md`                                                                                                                                                  | Upstream added `CLAUDE.md` in `9515c8804` documenting `bin\Release\net461`, the android/mac workflows and a `beta` release tag — all wrong here. It is agent-facing, so a stale copy actively misdirects. Upstream will keep editing this file; re-apply the three corrections by hand. |
+| 19    | fix: rebuild Setup/Config screens fresh on every visit | **MED** | `MainV2.cs`, `GCSViews/InitialSetup.cs`, `GCSViews/SoftwareConfig.cs`, `ConfigParamLoading.cs`, `ConfigFlightModes.cs`, `ConfigUserDefined.cs`; restores upstream `ConfigSerial.cs`, `MainSwitcher.cs`, `BackstageView.Designer.cs` | Reverts the Phase 10h persistent hosts, preload and whole-page prewarm (and the BackstageView page cache). Net effect shrinks the fork delta. Remaining hunks: `gotAllParams` rep>0 in 3 files, Loading timer stop, FlightModes `Tick -=`. |
+| 20    | fix: startup port-list refresh keeps the saved baud | **MED** | `MainV2.cs` | Ctor port-list block plus `PopulateSerialportList(string[])` overload and `RefreshSerialportList`; MainV2 churns upstream. |
+| 21    | fix: serial reader loop waits 5 ms, not 50 ms | **LOW** | `MainV2.cs` | One line in `SerialReader`. |
+| 22    | fix: thread-safe metadata map, index published first | **LOW** | `ExtLibs/Utilities/ParameterMetaDataRepositoryAPMpdef.cs` | Builds on row 14; `ConcurrentDictionary`, publication and `Reset` under one lock with a reset generation. |
+| 23    | fix: clear metadata caches when the metadata changes | **LOW** | `ParameterMetaDataRepository.cs`, `ParamDisplayCache.cs`, `ParameterMetaDataRepositoryAPMpdef.cs` | `ClearCache()` swaps the answer-cache instance; fork-owned cache files. |
+| 24    | fix(release): keep IronPython stdlib and arm64 Skia | **LOW** | `debloat.ps1` | Fork-only file. |
+| 25    | fix: hide SIMULATION when simulation is disabled | **LOW** | `MainV2.cs` | One line in `updateLayout`. |
+| 26    | fix: Gridv2 plugin loads again, default off | **LOW** | `Plugin/PluginLoader.cs`, `MainV2.cs` | Pass-through line plus a one-shot `PluginsForkGridv2Off_v1` migration after the v4 seed. |
+| 27    | fix: Full Parameter List enrichment survives sorting | **LOW** | `GCSViews/ConfigurationView/ConfigRawParams.cs` | Fork-owned enrichment code (row 15). |
+| 28    | fix: recover signing keys from official MP | **LOW** | `ExtLibs/ArduPilot/Mavlink/MAVAuthKeys.cs`, `ExtLibs/Utilities/Crypto.cs` | Both files already fork-modified; upstream has not touched them since 2020. |
+| 29    | fix: firmware page board detection after re-visit | **LOW** | `GCSViews/ConfigurationView/ConfigFirmware.cs` | 3 lines in `Activate`. |
+| 30    | fix: Motor Test does not stack buttons | **LOW** | `GCSViews/ConfigurationView/ConfigMotorTest.cs` | List of dynamic controls in `Activate`. |
+| 31    | fix: Radio Calibration labels do not grow | **LOW** | `GCSViews/ConfigurationView/ConfigRadioInput.cs` | Base-label array in `Activate`. |
+| 32    | fix: joystick preview resumes after re-visit | **LOW** | `Joystick/JoystickSetup.cs`, `.Designer.cs` | Designer `timer1.Enabled` line removed; new `Activate`. |
+| 33    | fix: Verify Height keeps passed altitudes, no 0 m tiles | **MED** | `GCSViews/FlightPlanner.cs` | `setfromMap` Verify Height branches; FlightPlanner churns upstream. Uses `System.TimeSpan` (SharpKml also defines `TimeSpan`). |
+| 34    | fix: Survey (Grid) altitudes in the altitude unit | **LOW** | `Grid/GridUI.cs` | Five `multiplierdist` to `multiplieralt` swaps. |
+| 35    | fix: Log Browser keeps the vehicle's live params | **LOW** | `Log/LogBrowse.cs` | Private `_logParams`, 5 read sites; Show Params always opens a log-owned read-only viewer (with save to .param). |
+| 36    | fix: re-downloaded logs get a unique name | **LOW** | `Log/LogDownloadMavLink.cs` | Two moves plus `UniqueFileName`; file last changed upstream 2023. |
+| 37    | fix: MAVLink log download truncation/stall/cleanup | **MED** | `ExtLibs/ArduPilot/Mavlink/MAVLinkInterface.cs` (`GetLog`), `Log/LogDownloadMavLink.cs` | `GetLog` body rewritten (HashSet, cursor, 30 s stall, finally); MAVLinkInterface churns upstream. |
+| 38    | fix: Messages tab shows every new message | **LOW** | `GCSViews/FlightData.cs` | `Messagetabtimer_Tick` compare. |
+| 39    | fix: TCP Host mirror no longer crashes | **LOW** | `Controls/SerialOutputPass.cs` | Async-state tuple, callback try/catch, listener stop. |
+| 40    | fix: joystick sender pacing; MANUAL_CONTROL target | **MED** | `MainV2.cs` | `joysticksend` loop; MainV2 churns. |
+| 41    | fix: tile HttpClient timeout 10 s | **LOW** | `ExtLibs/GMap.NET.Core/.../GMapProvider.cs` | One field initializer. |
+| 42    | fix: Bing init off the UI thread | **LOW** | `ExtLibs/GMap.NET.Core/.../Bing/BingMapProvider.cs` | `OnInitialized` wrapper; old body renamed `InitVersionAndKey`. |
+| 43    | fix: camera/gimbal probes respect link ownership | **MED** | `MAVLinkInterface.cs` (`doCommandAsync`, `doCommandIntAsync`), `CurrentState.cs`, `CameraProtocol.cs` | Two removed flag clears in a churned file; the camera info request is now sent without an ACK wait (never takes the link). |
+| 44    | fix: MAVFtp uploads complete only when every chunk is acked | **LOW** | `ExtLibs/ArduPilot/Mavlink/MAVFtp.cs` | `UploadFile` and `kCmdWriteFile` (ACKs matched to this transfer's sequence numbers); low churn. |
+| 45    | fix: sysid switch deactivates before the swap | **LOW** | `Controls/ConnectionControl.cs` | `CMB_sysid_SelectedIndexChanged` (non-persistent screens only, `current` kept set). |
+| 46    | fix: tlog CSV invariant culture | **LOW** | `ExtLibs/ArduPilot/Mavlink/MAVLinkInterface.cs` | One line in `DebugPacket`. |
+| 47    | fix: map prefetch caches every layer | **LOW** | `ExtLibs/GMap.NET.WindowsForms/.../TilePrefetcher.cs` | Two `return true` to `continue`. |
+| 48    | feat(wine): run-wine.sh launcher + one-time notice | **LOW** | `run-wine.sh` (new), `.gitattributes` (new), `.github/workflows/main.yml`, `README.md`, `MainV2.cs` | New files are fork-only; MainV2 gets a helper and one call in `doConnect`. |
+| 49    | fix(wine): no /dev ports, no GC per click | **LOW** | `ExtLibs/Comms/CommsSerialPort.cs` | One condition (row 4 also touches this file). |
+| 50    | fix: speech voice probe, sticky failure, late attach | **MED** | `Utilities/Speech.cs`, `ExtLibs/Utilities/Warnings/WarningEngine.cs`, `MainV2.cs` | Speech ctor/IsReady, WarningEngine spin, MainV2 deferred-init task. |
+| 51    | fix(wine): GStreamer lookup ignores host Linux libs | **LOW** | `ExtLibs/Utilities/GStreamer.cs` | `LookForGstreamer` only; moderate churn elsewhere in the file. |
+| 52    | fix(wine): vario loop elapsed-time pacing | **LOW** | `ExtLibs/Utilities/Vario.cs` | `mainloop` only. |
+| 53    | perf: log graph presets skip the dead IronPython pass | **LOW** | `Log/LogBrowse.cs` | Call site only; `TestPython` itself is left in place (unused). |
+| 54    | fix: log expressions: per-record args, TYPE[n], lowpass | **LOW** | `ExtLibs/Utilities/DFLogScript.cs` | `ProcessExpression` loop and the `lowpass` class. |
+| 55    | ci: post-debloat artifact checks | **LOW** | `.github/workflows/main.yml` | Fork-only workflow. |
 
 > **net48 was tried (11c + 11c.1) and reverted** — it hangs on the splash
 > screen under Wine. Stay on `net472`. Table rows 8-11 are the live Phase 11
