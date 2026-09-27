@@ -105,6 +105,13 @@
     <EmbeddedResource Include="Fonts\IBMPlexSans-Regular.ttf" />
     <EmbeddedResource Include="Fonts\IBMPlexSans-Medium.ttf" />
     <EmbeddedResource Include="Fonts\IBMPlexSans-Bold.ttf" />
+    <!-- Fork v0.3.2: Turbo Sans script fonts (IBM Plex derivatives, SIL OFL
+         1.1) for Arabic-script and CJK UI languages, built by
+         Fonts\tools\build_fonts.py. Shipped as files: only the UI
+         language's font is loaded, and Wine needs files for font linking. -->
+    <None Update="Fonts\TurboSans*.ttf" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Fonts\LICENSE.txt" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Fonts\README.txt" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="BitMiracle.LibTiff.NetStandard">
