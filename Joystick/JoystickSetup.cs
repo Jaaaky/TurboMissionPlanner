@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace MissionPlanner.Joystick
 {
-    public partial class JoystickSetup : MyUserControl, IDeactivate
+    public partial class JoystickSetup : MyUserControl, IActivate, IDeactivate
     {
         bool startup = true;
 
@@ -239,7 +239,10 @@ namespace MissionPlanner.Joystick
                         {
                             string name = (f).ToString();
 
-                            doButtontoUI(name, maxctl.Right + 100, maxctl.Top + f * maxctl.Height);
+                            // Fork: the joystick is recreated after every
+                            // re-activation; build each button row only once.
+                            if (Controls.Find("hbar" + name, false).Length == 0)
+                                doButtontoUI(name, maxctl.Right + 100, maxctl.Top + f * maxctl.Height);
 
                             var config = joy.getButton(f);
 
@@ -522,6 +525,15 @@ namespace MissionPlanner.Joystick
         private void chk_manualcontrol_CheckedChanged(object sender, EventArgs e)
         {
             MainV2.joystick.manual_control = chk_manualcontrol.Checked;
+        }
+
+        // Fork: the timer used to be enabled in the Designer, and Deactivate
+        // stopped it for good; after leaving the page once, the live axis and
+        // button preview never updated again. Both hosts (Setup page and
+        // ShowUserControl) call Activate, so start it here.
+        public void Activate()
+        {
+            timer1.Start();
         }
 
         public void Deactivate()
