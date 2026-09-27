@@ -25,10 +25,66 @@ namespace MissionPlanner.Utilities
             0xe2, 0xa3, 0xd7, 0xc3, 0xf3, 0x39, 0xf2, 0x16
         };
 
+        // Fork: untouched copies of the constants above. The default ctor
+        // overwrites Key/IV in place, so the legacy path must start from these.
+        private static readonly byte[] LegacyBaseKey = (byte[])Key.Clone();
+        private static readonly byte[] LegacyBaseIV = (byte[])IV.Clone();
+
         /// <summary>
         /// Abstract object
         /// </summary>
         public SymmetricAlgorithm algorithm;
+
+        private Crypto(byte[] key, byte[] iv)
+        {
+            this.algorithm = new RijndaelManaged();
+            this.algorithm.Mode = CipherMode.CBC;
+            this.algorithm.Padding = PaddingMode.PKCS7;
+            this.algorithm.Key = key;
+            this.algorithm.IV = iv;
+        }
+
+        /// <summary>
+        /// Fork: the keys upstream Mission Planner may have used to encrypt
+        /// its files: the hardcoded constants with a NIC MAC address copied
+        /// over their first bytes. Upstream used the first NIC, but that
+        /// order is unstable (#3694), so one candidate per NIC is returned,
+        /// plus the bare constants (upstream's fallback when no NIC exists).
+        /// Never touches the static Key/IV. Caller disposes each instance.
+        /// </summary>
+        public static List<Crypto> CreateLegacyMacKeyedCandidates()
+        {
+            var macs = new List<byte[]>();
+            try
+            {
+                foreach (var nic in NetworkInterface.GetAllNetworkInterfaces())
+                {
+                    try
+                    {
+                        var bytes = nic.GetPhysicalAddress().GetAddressBytes();
+                        if (!macs.Any(m => m.SequenceEqual(bytes)))
+                            macs.Add(bytes);
+                    }
+                    catch { }
+                }
+            }
+            catch { }
+            if (!macs.Any(m => m.Length == 0))
+                macs.Add(new byte[0]);
+
+            var list = new List<Crypto>();
+            foreach (var mac in macs)
+            {
+                if (mac.Length > LegacyBaseIV.Length)
+                    continue;
+                var key = (byte[])LegacyBaseKey.Clone();
+                var iv = (byte[])LegacyBaseIV.Clone();
+                Array.Copy(mac, iv, mac.Length);
+                Array.Copy(mac, key, mac.Length);
+                list.Add(new Crypto(key, iv));
+            }
+            return list;
+        }
 
         /// <summary>
         /// Default constructor

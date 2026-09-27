@@ -119,6 +119,57 @@ namespace MissionPlanner.Mavlink
             }
         }
 
+        private static AuthKeys ReadKeyfile(Crypto crypto)
+        {
+            DataContractSerializer reader =
+                new DataContractSerializer(typeof (AuthKeys),
+                    new Type[] {typeof (AuthKey)});
+
+            // Phase 10l fork: Load opens read-only + ShareReadWrite so a
+            // concurrent Save() (atomic tmp + File.Replace, separate fd)
+            // doesn't get blocked by our handle.
+            AuthKeys result;
+            using (var fs = new FileStream(keyfile, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            using (var sr = new CryptoStream(fs, crypto.algorithm.CreateDecryptor(), CryptoStreamMode.Read))
+            {
+                result = (AuthKeys) reader.ReadObject(sr);
+            }
+            if (result == null)
+                throw new InvalidDataException("empty key set");
+            return result;
+        }
+
+        private static bool TryLoadLegacy()
+        {
+            List<Crypto> candidates;
+            try { candidates = Crypto.CreateLegacyMacKeyedCandidates(); }
+            catch (Exception ex) { log.Warn("MAVAuthKeys: legacy keys unavailable: " + ex.Message); return false; }
+
+            try
+            {
+                foreach (var legacy in candidates)
+                {
+                    AuthKeys loaded;
+                    try { loaded = ReadKeyfile(legacy); }
+                    catch { continue; }
+
+                    Keys = loaded;
+                    _loaded = true;
+                    log.Warn("MAVAuthKeys: recovered " + loaded.Count +
+                             " key(s) encrypted by official Mission Planner; re-saving with this install's key");
+                    try { Save(); }
+                    catch (Exception exSave) { log.Error("MAVAuthKeys: re-save after legacy recovery failed", exSave); }
+                    return true;
+                }
+            }
+            finally
+            {
+                foreach (var c in candidates)
+                    try { c.Dispose(); } catch { }
+            }
+            return false;
+        }
+
         internal static void Load()
         {
             Console.WriteLine("[MAVAuthKeys] Load() keyfile = {0}", keyfile);
@@ -153,19 +204,9 @@ namespace MissionPlanner.Mavlink
 
             try
             {
-
-                DataContractSerializer reader =
-                    new DataContractSerializer(typeof (AuthKeys),
-                        new Type[] {typeof (AuthKey)});
-
-                // Phase 10l fork: Load opens read-only + ShareReadWrite so a
-                // concurrent Save() (atomic tmp + File.Replace, separate fd)
-                // doesn't get blocked by our handle.
-                using (var fs = new FileStream(keyfile, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
-                using (var sr = new CryptoStream(fs, Rij.algorithm.CreateDecryptor(), CryptoStreamMode.Read))
-                {
-                    Keys = (AuthKeys) reader.ReadObject(sr);
-                }
+                // Fork: deserialize fully into a local, then replace Keys.
+                var loaded = ReadKeyfile(Rij);
+                Keys = loaded;
                 _loaded = true;
                 Console.WriteLine("[MAVAuthKeys] Load() SUCCESS: {0} key(s) loaded", Keys?.Count);
             }
@@ -182,6 +223,14 @@ namespace MissionPlanner.Mavlink
                 // can write a fresh keyfile with the user's new keys.
                 Console.WriteLine("[MAVAuthKeys] Load() FAILED -> {0}: {1}", ex.GetType().Name, ex.Message);
                 log.Error(ex);
+
+                // Fork: a file copied over from official Mission Planner is
+                // encrypted with its NIC-MAC-derived key. Try those keys
+                // before giving up, then re-save under the fork key. Save()
+                // keeps the old file as .bak, and authkeys.xml is untouched.
+                if (TryLoadLegacy())
+                    return;
+
                 try
                 {
                     var corruptPath = keyfile + ".corrupt-" + DateTime.UtcNow.ToString("yyyyMMdd-HHmmss");
