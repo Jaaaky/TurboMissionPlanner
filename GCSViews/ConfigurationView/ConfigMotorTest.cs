@@ -1,6 +1,7 @@
 ﻿using MissionPlanner.Controls;
 using MissionPlanner.Utilities;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
@@ -40,10 +41,22 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         }
         private _layouts motor_layout;
 
+        // Fork: controls this page adds at runtime. Activate runs on every
+        // visit, so without removing them first each visit stacked another
+        // full set of buttons and labels on top of the old ones.
+        private readonly List<Control> _dynamicControls = new List<Control>();
+
         public void Activate()
         {
             var x = 6;
             var y = 75;
+
+            foreach (var old in _dynamicControls)
+            {
+                groupBox1.Controls.Remove(old);
+                old.Dispose();
+            }
+            _dynamicControls.Clear();
 
             motormax = this.get_motormax();
 
@@ -57,6 +70,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 but.Tag = a;
 
                 groupBox1.Controls.Add(but);
+                _dynamicControls.Add(but);
 
                 if (motor_layout.motors != null)
                 {
@@ -73,6 +87,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                             lab.Location = new Point(x + 85, y + 5);
                             lab.Width = 150;
                             groupBox1.Controls.Add(lab);
+                            _dynamicControls.Add(lab);
                         }
                     }
                 }
@@ -86,6 +101,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             but.Size = new Size(75, 37);
             but.Click += but_TestAll;
             groupBox1.Controls.Add(but);
+            _dynamicControls.Add(but);
 
             y += 39;
 
@@ -95,6 +111,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             but.Size = new Size(75, 37);
             but.Click += but_StopAll;
             groupBox1.Controls.Add(but);
+            _dynamicControls.Add(but);
 
             y += 39;
 
@@ -104,6 +121,7 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             but.Size = new Size(75, 37);
             but.Click += but_TestAllSeq;
             groupBox1.Controls.Add(but);
+            _dynamicControls.Add(but);
 
             Utilities.ThemeManager.ApplyThemeTo(this);
         }
