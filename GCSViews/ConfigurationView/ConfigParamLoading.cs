@@ -17,12 +17,12 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         {
             get
             {
-                if (MainV2.comPort.MAV.param.TotalReceived < MainV2.comPort.MAV.param.TotalReported)
-                {
-                    return false;
-                }
-
-                return true;
+                // Fork: same rule as InitialSetup/SoftwareConfig. With
+                // rep == 0 the old check said "done" while the hosts said
+                // "not done", so Reload rebuilt the Loading page at 10 Hz.
+                int rx = MainV2.comPort.MAV.param.TotalReceived;
+                int rep = MainV2.comPort.MAV.param.TotalReported;
+                return rep > 0 && rx >= rep;
             }
         }
 
@@ -44,7 +44,12 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (gotAllParams)
+            {
+                // Fork: stop first so a slow or re-entrant Reload cannot
+                // fire a second one from this page.
+                timer1.Stop();
                 MainV2.View.Reload();
+            }
         }
 
         private void but_forceparams_Click(object sender, EventArgs e)

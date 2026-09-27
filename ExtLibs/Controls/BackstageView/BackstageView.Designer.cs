@@ -13,14 +13,9 @@
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
-            if (disposing)
+            if (disposing && (components != null))
             {
-                // Fork patch: the prewarm scheduler owns a WinForms timer that
-                // must not keep ticking into a disposed control.
-                StopPrewarmTimer();
-
-                if (components != null)
-                    components.Dispose();
+                components.Dispose();
             }
             base.Dispose(disposing);
         }
