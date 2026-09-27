@@ -18,10 +18,14 @@ so our code half was dropped and only its tracker note survives. The other new
 upstream commits (MAVFtp `ListDirectoryWithTime`, `Debugger.Break` guard, mass
 storage reboot action) touch no code our patches modify.
 
-v0.3.0 work (2026-09-27, branch `v0.3.0-work`): rows 19-55 from the deep review
+v0.3.0 (2026-09-27, released as `turbo-v0.3.0`): rows 19-55 from the deep review
 (plan `.claude/tasks/2026-09-27-deep-review-plan.md` in the GCSs workspace).
 Row 19 reverts most of the Phase 10h persistence work, so row 15's BackstageView
 prewarm half no longer exists; its ConfigRawParams half remains.
+
+v0.3.1 (2026-09-28): row 56 completes the translations (satellite `.resx` only; no
+English base `.resx` touched) and adds Persian (`fa`) and Uyghur (`ug`). It edits about 990 upstream
+satellite files that upstream refreshes from Crowdin, so expect conflicts there on every sync.
 
 | Order | Subject                                                            | Conflict risk | Files touched (key)                                                                                                                                          | Why it can clash                                                                                                                                                                     |
 | ----- | ------------------------------------------------------------------ | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -81,6 +85,7 @@ prewarm half no longer exists; its ConfigRawParams half remains.
 | 53    | perf: log graph presets skip the dead IronPython pass | **LOW** | `Log/LogBrowse.cs` | Call site only; `TestPython` itself is left in place (unused). |
 | 54    | fix: log expressions: per-record args, TYPE[n], lowpass | **LOW** | `ExtLibs/Utilities/DFLogScript.cs` | `ProcessExpression` loop and the `lowpass` class. |
 | 55    | ci: post-debloat artifact checks | **LOW** | `.github/workflows/main.yml` | Fork-only workflow. |
+| 56    | feat: complete translations and add Persian and Uyghur | **HIGH** | ~990 modified + 812 new satellite `*.<culture>.resx`; `GCSViews/ConfigurationView/ConfigPlanner.cs` (language list) | Upstream rewrites satellite `.resx` files from Crowdin. On conflict, prefer upstream's file and re-run the translation fill for that file; our new `fa`/`ug` files and the two list entries in `ConfigPlanner.cs` rarely clash. |
 
 > **net48 was tried (11c + 11c.1) and reverted** — it hangs on the splash
 > screen under Wine. Stay on `net472`. Table rows 8-11 are the live Phase 11
