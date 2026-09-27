@@ -236,7 +236,7 @@
     <value>調校</value>
   </data>
   <data name="BUT_script.Text" xml:space="preserve">
-    <value>脚本</value>
+    <value>指令碼</value>
   </data>
   <data name="lbl_winddir.Text" xml:space="preserve">
     <value>風向: 0</value>
@@ -260,7 +260,7 @@
     <value>狀態</value>
   </data>
   <data name="tabTLogs.Text1" xml:space="preserve">
-    <value>遥測記錄</value>
+    <value>遙測記錄</value>
   </data>
   <data name="setMJPEGSourceToolStripMenuItem.Text" xml:space="preserve"><value>設定 MJPEG 來源</value></data>
   <data name="startCameraToolStripMenuItem.Text" xml:space="preserve"><value>啟動攝影機</value></data>
