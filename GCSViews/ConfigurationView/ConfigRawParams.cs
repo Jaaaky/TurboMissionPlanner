@@ -781,6 +781,10 @@ namespace MissionPlanner.GCSViews.ConfigurationView
         private int _enrichNextIdx;
         private string _enrichFirmware;
         private int _enrichPendingGen;
+        // Fork: rows captured when a pass starts. Walking Params.Rows by index
+        // skipped and repeated rows whenever the user sorted mid-pass, which
+        // left those descriptions blank (and unsearchable).
+        private DataGridViewRow[] _enrichRows;
 
         private void ScheduleEnrichChunk(int startIdx, string firmware, int gen)
         {
@@ -826,7 +830,15 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             if (Params == null || Params.IsDisposed) return;
 
             const int chunkSize = 64;
-            int total = Params.Rows.Count;
+            if (startIdx == 0 || _enrichRows == null)
+            {
+                // indexer, not CopyTo: CopyTo can hand out shared rows
+                _enrichRows = new DataGridViewRow[Params.Rows.Count];
+                for (int r = 0; r < _enrichRows.Length; r++)
+                    _enrichRows[r] = Params.Rows[r];
+            }
+            var rows = _enrichRows;
+            int total = rows.Length;
             int end = Math.Min(startIdx + chunkSize, total);
 
             if (startIdx == 0) Profiler.Mark("EnrichMetadata:begin total=" + total);
@@ -842,7 +854,8 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             {
                 try
                 {
-                    var row = Params.Rows[i];
+                    var row = rows[i];
+                    if (row.DataGridView != Params) continue;
                     var nameObj = row.Cells[Command.Index].Value;
                     if (nameObj == null) continue;
                     var name = nameObj.ToString();
@@ -897,7 +910,12 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             else
             {
                 StopEnrichTimer();
+                _enrichRows = null;
                 Profiler.Mark("EnrichMetadata:done");
+                // Fork: a search typed during the pass ran before the
+                // descriptions existed, so description matches were missing.
+                if (!string.IsNullOrEmpty(txt_search.Text))
+                    FilterTimerOnElapsed(null, null);
             }
         }
 
