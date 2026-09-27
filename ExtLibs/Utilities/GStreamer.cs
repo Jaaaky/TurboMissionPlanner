@@ -1416,12 +1416,16 @@ namespace MissionPlanner.Utilities
 
         public static string LookForGstreamer()
         {
+            // Fork: under Wine the backend is Windows (it P/Invokes the .dll),
+            // but "/usr/lib/..." resolves on the Z: drive. Walking it froze the
+            // UI and found the host's ELF .so, which then broke video.
+            var windowsBackend = NativeMethods.Backend == NativeMethods.BackendEnum.Windows;
             List<string> dirs = new List<string>
             {
                 // linux
-                "/usr/lib/x86_64-linux-gnu",
+                windowsBackend ? null : "/usr/lib/x86_64-linux-gnu",
                 // rpi
-                "/usr/lib/arm-linux-gnueabihf",
+                windowsBackend ? null : "/usr/lib/arm-linux-gnueabihf",
                 // current
                 Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),
                 // settings
@@ -1447,15 +1451,22 @@ namespace MissionPlanner.Utilities
 
             foreach (var dir in dirs)
             {
+                if (dir == null)
+                    continue;
                 log.Info($"look in dir {dir}");
                 if (Directory.Exists(dir))
                 {
                     var ans = Directory.GetFiles(dir, "*.*", SearchOption.AllDirectories).Where(a => a.ToLower().Contains("libgstreamer-1.0-0.dll") || a.ToLower().Contains("libgstreamer-1.0.so.0") || a.ToLower().Contains("libgstreamer_android.so")).ToArray();
 
-                    ans = ans.Where(a =>
-                        (!is64bit && !a.ToLower().Contains("_64")) || // windows
-                        is64bit && a.ToLower().Contains("_64") || // windows
-                        a.ToLower().Contains(".so.") // linux/rpi
+                    // Fork: the Windows backend takes only the .dll. The "_64"
+                    // test alone also matched ".../x86_64-linux-gnu/...so.0".
+                    ans = ans.Where(a => windowsBackend
+                        ? a.ToLower().EndsWith(".dll") &&
+                          ((!is64bit && !a.ToLower().Contains("_64")) || // windows
+                           is64bit && a.ToLower().Contains("_64")) // windows
+                        : (!is64bit && !a.ToLower().Contains("_64")) ||
+                          is64bit && a.ToLower().Contains("_64") ||
+                          a.ToLower().Contains(".so.") // linux/rpi
                         ).ToArray();
 
                     if (ans.Length > 0)
