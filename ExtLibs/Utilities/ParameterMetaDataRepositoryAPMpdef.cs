@@ -18,7 +18,11 @@ namespace MissionPlanner.Utilities
         private static readonly ILog log =
             LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-        private static Dictionary<string,XDocument> _parameterMetaDataXML = new Dictionary<string, XDocument>();
+        // Fork patch: concurrent. The startup pre-warm, the versioned
+        // download task and UI lookups all write/read this map at once; a
+        // plain Dictionary written concurrently can corrupt and hang readers.
+        private static readonly System.Collections.Concurrent.ConcurrentDictionary<string, XDocument> _parameterMetaDataXML =
+            new System.Collections.Concurrent.ConcurrentDictionary<string, XDocument>();
 
         // Phase 9 fork: per-vehicle index of name -> XElement. Built ONCE at
         // Reload time; subsequent GetParameterMetaData calls are O(1) dict
@@ -89,19 +93,20 @@ namespace MissionPlanner.Utilities
 
                     var versionedKey = a + version.ToString();
 
-                    if (_parameterMetaDataXML.ContainsKey(versionedKey))
+                    if (_parameterMetaDataXML.TryGetValue(versionedKey, out var versionedDoc))
                     {
-                        _parameterMetaDataXML[veh] = _parameterMetaDataXML[versionedKey];
-
                         // Fork patch: GetParameterMetaData() consults _paramIndex
                         // first and returns from it, so re-pointing the document
                         // alone left every lookup serving the previous (generic)
                         // metadata - wrong descriptions, options and ranges after
-                        // a versioned download. Move the index with the document.
+                        // a versioned download. Move the index with the document,
+                        // index first so a reader never sees the new document
+                        // with the old index.
                         if (_paramIndex.TryGetValue(versionedKey, out var versionedIdx))
                             _paramIndex[veh] = versionedIdx;
                         else
                             _paramIndex.TryRemove(veh, out _);
+                        _parameterMetaDataXML[veh] = versionedDoc;
                     }
                 }
                 catch (Exception ex) { log.Error(ex); }
@@ -182,7 +187,7 @@ namespace MissionPlanner.Utilities
             _paramIndex.Clear();
         }
 
-        private static void BuildParamIndex(string vehicle, XDocument doc)
+        private static Dictionary<string, XElement> BuildParamIndex(string vehicle, XDocument doc)
         {
             try
             {
@@ -199,16 +204,19 @@ namespace MissionPlanner.Utilities
                             {
                                 var nameAttr = param.Attribute("name");
                                 if (nameAttr == null) continue;
-                                idx[nameAttr.Value] = param;
+                                // first match wins, as in upstream's document walk
+                                if (!idx.ContainsKey(nameAttr.Value))
+                                    idx[nameAttr.Value] = param;
                             }
                         }
                     }
                 }
-                _paramIndex[vehicle] = idx;
+                return idx;
             }
             catch (Exception ex)
             {
                 log.Error("BuildParamIndex(" + vehicle + ")", ex);
+                return null;
             }
         }
 
@@ -222,12 +230,19 @@ namespace MissionPlanner.Utilities
                 if (File.Exists(paramMetaDataXMLFileName))
                 {
                     var doc = XDocument.Load(paramMetaDataXMLFileName);
-                    _parameterMetaDataXML[vehicle] = doc;
 
                     // Phase 9 fork: build flat name->XElement index in one
                     // pass so GetParameterMetaData() is O(1) instead of
                     // O(N) per call. See _paramIndex declaration.
-                    BuildParamIndex(vehicle, doc);
+                    // Fork patch: publish the index before the document.
+                    // CheckLoad keys off the document, so the other order let
+                    // a reader skip loading and then find no index.
+                    var idx = BuildParamIndex(vehicle, doc);
+                    if (idx != null)
+                        _paramIndex[vehicle] = idx;
+                    else
+                        _paramIndex.TryRemove(vehicle, out _);
+                    _parameterMetaDataXML[vehicle] = doc;
                 }
 
             }
