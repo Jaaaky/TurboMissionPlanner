@@ -161,6 +161,12 @@ namespace MissionPlanner.Log
                 }
             }
 
+            // Fork: mXparser argument names must be plain identifiers. An
+            // indexed type (GPS[1]) became the name "GPS[1]Spd", failed the
+            // syntax check, and every instance-specific preset graphed nothing.
+            // GPS[1].Spd is now the argument GPS_1_Spd.
+            Func<string, string> argPrefix = type => Regex.Replace(type, @"[^A-Za-z0-9_]", "_");
+
             Function f = new Function("wrap_360(x) = (x+360) # 360");
             Function f1 = new Function("degrees(x) = x*57.295779513");
             Function f2 = new Function("atan2", new atan2_func());
@@ -173,7 +179,7 @@ namespace MissionPlanner.Log
 
             //convert paramnames to remove .
             var filter2 = Regex.Replace(filter1, @"(([A-z0-9_]{2,20})\.([A-z0-9_]+))",
-                match => match.Groups[2].ToString() + match.Groups[3]);
+                match => argPrefix(match.Groups[2].ToString()) + match.Groups[3]);
 
             // convert strings to long
             var filter3 = Regex.Replace(filter2, @"([""']{1}[^""]+[""']{1})",
@@ -191,7 +197,7 @@ namespace MissionPlanner.Log
             {
                 foreach (var value in item.Value)
                 {
-                    Argument x = new Argument(item.Key + "" + value);
+                    Argument x = new Argument(argPrefix(item.Key) + value);
                     e.addArguments(x);
                 }
             }
@@ -212,17 +218,44 @@ namespace MissionPlanner.Log
                 bad = true;
             }
 
+            // Fork: split "GPS[1]" into message type and instance.
+            var keyTypes = fieldsUsed.Keys.ToDictionary(k => k, k =>
+            {
+                var m = Regex.Match(k, @"^(\w+)\[([0-9]+)\]$");
+                return m.Success
+                    ? Tuple.Create(m.Groups[1].Value, m.Groups[2].Value)
+                    : Tuple.Create(k, (string) null);
+            });
+            var seenKeys = new HashSet<string>();
+
             if (!bad)
                 foreach (var line in logdata.GetEnumeratorType(fieldsUsed.Keys.ToArray()))
                 {
+                    // Fork: a row only carries its own message's columns. Update
+                    // just the arguments of the type (and instance) this row
+                    // belongs to; the others keep their latest sample. Reading
+                    // every argument from the current row fed, e.g., BAT
+                    // columns into GPS arguments in cross-message expressions.
                     foreach (var item in fieldsUsed)
                     {
+                        var keyType = keyTypes[item.Key];
+                        if (line.msgtype != keyType.Item1)
+                            continue;
+                        if (keyType.Item2 != null && line.instance != keyType.Item2)
+                            continue;
+
                         foreach (var value in item.Value.Distinct())
                         {
-                            e.setArgumentValue(item.Key + "" + value,
-                                double.Parse(line.items[dflog.FindMessageOffset(item.Key, value)]));
+                            e.setArgumentValue(argPrefix(item.Key) + value,
+                                double.Parse(line.items[dflog.FindMessageOffset(keyType.Item1, value)]));
                         }
+
+                        seenKeys.Add(item.Key);
                     }
+
+                    // no point until every referenced message has a sample
+                    if (seenKeys.Count < fieldsUsed.Count)
+                        continue;
 
                     answer.Add(line, e.calculate());
                 }
@@ -503,27 +536,40 @@ namespace MissionPlanner.Log
             private  double var;
             private  string key;
             private  double factor;
-            static Dictionary<string,double> lowpass_data = new Dictionary<string, double>();
+            // Fork: filter state per ProcessExpression call, shared with the
+            // clones mXparser makes, and updated after each sample. It was a
+            // static dictionary seeded with the first sample and never
+            // updated, so the output was a blend with that first sample
+            // forever, and it leaked into later graphs and logs.
+            private readonly Dictionary<string, double> lowpass_data;
 
-            public lowpass()
+            public lowpass() : this(new Dictionary<string, double>())
             {
             }
-            public lowpass(double var, double key, double factor)
+            private lowpass(Dictionary<string, double> state)
+            {
+                lowpass_data = state;
+            }
+            private lowpass(Dictionary<string, double> state, double var, string key, double factor)
+                : this(state)
             {
                 this.var = var;
-                this.key = key.ToString();
+                this.key = key;
                 this.factor = factor;
             }
             public double calculate()
             {
-                if (!lowpass_data.ContainsKey(key))
-                    lowpass_data[key] = var;
-                return factor * lowpass_data[key] + (1.0 - factor) * var;
+                double previous;
+                if (!lowpass_data.TryGetValue(key ?? "", out previous))
+                    previous = var;
+                var result = factor * previous + (1.0 - factor) * var;
+                lowpass_data[key ?? ""] = result;
+                return result;
             }
 
             public FunctionExtension clone()
             {
-                return new lowpass(var, double.Parse(key), factor);
+                return new lowpass(lowpass_data, var, key, factor);
             }
 
             public string getParameterName(int argumentIndex)
