@@ -39,6 +39,8 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             _timer.Tick += timer_Tick;
         }
 
+        private string[] _baseLabels;
+
         public void Activate()
         {
             _timer.Enabled = true;
@@ -107,10 +109,14 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             BAR16.DataBindings.Add(new Binding("Value", currentStateBindingSource, "ch16in", true));
 
             //Add channel to pitch/roll/throttle/yaw bars labels
-            BARroll.Label = BARroll.Label + " (rc" + chroll.ToString() + ")";
-            BARpitch.Label = BARpitch.Label + " (rc" + chpitch.ToString() + ")";
-            BARthrottle.Label = BARthrottle.Label + " (rc" + chthro.ToString() + ")";
-            BARyaw.Label = BARyaw.Label + " (rc" + chyaw.ToString() + ")";
+            // Fork: from the original labels. Activate runs on every visit,
+            // so appending to the current text grew "(rc1) (rc1) ..." each time.
+            if (_baseLabels == null)
+                _baseLabels = new[] { BARroll.Label, BARpitch.Label, BARthrottle.Label, BARyaw.Label };
+            BARroll.Label = _baseLabels[0] + " (rc" + chroll.ToString() + ")";
+            BARpitch.Label = _baseLabels[1] + " (rc" + chpitch.ToString() + ")";
+            BARthrottle.Label = _baseLabels[2] + " (rc" + chthro.ToString() + ")";
+            BARyaw.Label = _baseLabels[3] + " (rc" + chyaw.ToString() + ")";
 
             try
             {
