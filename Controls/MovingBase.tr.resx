@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
     <data name="textBox1.Text" xml:space="preserve">
-    <value> O ne yapar. 1. Mevcut gps koordinatlarını, nmea gps'den alır. 2. Haritadaki ana pozisyonu günceller. (not MAV'da evde güncellenmez). Nasıl kullanılır 1. Otopilot'a bağlanır. 2. Açın ve nmea gps'iniz için derleme ve baud hızınızı seçin. 3. Güncelleme kalkış noktasını.</value>
+    <value>İşlevi
+1. NMEA GPS alıcısından mevcut GPS koordinatlarını alır.
+2. Haritadaki ev konumunu günceller. (Araçtaki ev konumunu güncellemez.)
+
+Kullanımı
+1. Otopilota bağlanın.
+2. Bu pencereyi açıp NMEA GPS alıcınızın COM portunu ve baud hızını seçin.
+3. Ev konumu artık güncelleniyor olmalıdır.</value>
   </data>
 </root>

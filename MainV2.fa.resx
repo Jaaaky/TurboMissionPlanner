@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="autoHideToolStripMenuItem.Text" xml:space="preserve"><value>پنهان‌سازی خودکار</value></data>
+  <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve"><value>تمام‌صفحه</value></data>
+  <data name="readonlyToolStripMenuItem.Text" xml:space="preserve"><value>فقط‌خواندنی</value></data>
+  <data name="connectionOptionsToolStripMenuItem.Text" xml:space="preserve"><value>گزینه‌های اتصال</value></data>
+  <data name="connectionListToolStripMenuItem.Text" xml:space="preserve"><value>فهرست اتصال‌ها</value></data>
+  <data name="MenuFlightData.Text" xml:space="preserve"><value>داده‌ها</value></data>
+  <data name="MenuFlightData.ToolTipText" xml:space="preserve"><value>داده‌های پرواز</value></data>
+  <data name="MenuFlightPlanner.Text" xml:space="preserve"><value>برنامه‌ریزی</value></data>
+  <data name="MenuFlightPlanner.ToolTipText" xml:space="preserve"><value>برنامه‌ریز پرواز</value></data>
+  <data name="MenuInitConfig.Text" xml:space="preserve"><value>راه‌اندازی</value></data>
+  <data name="MenuInitConfig.ToolTipText" xml:space="preserve"><value>پیکربندی سخت‌افزار</value></data>
+  <data name="MenuConfigTune.Text" xml:space="preserve"><value>پیکربندی</value></data>
+  <data name="MenuConfigTune.ToolTipText" xml:space="preserve"><value>پیکربندی نرم‌افزار</value></data>
+  <data name="MenuSimulation.Text" xml:space="preserve"><value>شبیه‌سازی</value></data>
+  <data name="MenuSimulation.ToolTipText" xml:space="preserve"><value>شبیه‌سازی</value></data>
+  <data name="MenuHelp.Text" xml:space="preserve"><value>راهنما</value></data>
+  <data name="MenuHelp.ToolTipText" xml:space="preserve"><value>راهنما</value></data>
+  <data name="MenuConnect.Text" xml:space="preserve"><value>اتصال</value></data>
+  <data name="MainMenu.Text" xml:space="preserve"><value>menuStrip1</value></data>
+  <data name="menu.Text" xml:space="preserve"><value>منو</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Mission Planner (Turbo) - اثر Michael Oborne (انشعاب Turbo)</value></data>
+</root>

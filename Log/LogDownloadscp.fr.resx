@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Fichiers journaux :</value></data>
+  <data name="LabelStatus.Text" xml:space="preserve"><value>REMARQUE : pour toute demande d’assistance, joignez le fichier .bin</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Sortie :</value></data>
+  <data name="labelBytes.Text" xml:space="preserve"><value>label3</value></data>
+  <data name="BUT_DLall.Text" xml:space="preserve"><value>Télécharger tous les journaux</value></data>
+  <data name="BUT_clearlogs.Text" xml:space="preserve"><value>Effacer les journaux</value></data>
+  <data name="BUT_clearlogs.ToolTip" xml:space="preserve"><value>Supprimer tous les journaux du drone connecté.</value></data>
+  <data name="BUT_firstperson.Text" xml:space="preserve"><value>KML en vue subjective</value></data>
+  <data name="BUT_firstperson.ToolTip" xml:space="preserve"><value>Convertir un journal en KML avec vue subjective.</value></data>
+  <data name="BUT_DLthese.Text" xml:space="preserve"><value>Télécharger les journaux sélectionnés</value></data>
+  <data name="BUT_DLthese.ToolTip" xml:space="preserve"><value>Télécharger les journaux cochés dans la liste ci-dessus.</value></data>
+  <data name="BUT_bintolog.Text" xml:space="preserve"><value>.bin vers .log</value></data>
+  <data name="BUT_bintolog.ToolTip" xml:space="preserve"><value>Convertir un journal binaire (.bin) au format texte (.log).</value></data>
+  <data name="BUT_redokml.Text" xml:space="preserve"><value>Recréer le KML</value></data>
+  <data name="BUT_redokml.ToolTip" xml:space="preserve"><value>Convertir un journal au format KML.</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Téléchargement des journaux</value></data>
+</root>

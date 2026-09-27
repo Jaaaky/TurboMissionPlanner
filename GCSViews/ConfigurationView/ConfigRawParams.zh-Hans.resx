@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -136,19 +136,19 @@
     <value />
   </data>
   <data name="BUT_save.Text" xml:space="preserve">
-    <value>保存</value>
+    <value>保存到文件</value>
   </data>
   <data name="BUT_save.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_load.Text" xml:space="preserve">
-    <value>加载</value>
+    <value>从文件加载</value>
   </data>
   <data name="BUT_load.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="Command.HeaderText" xml:space="preserve">
-    <value>命令</value>
+    <value>名称</value>
   </data>
   <data name="Value.HeaderText" xml:space="preserve">
     <value>值</value>
@@ -170,8 +170,8 @@
     <value>125, 24</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>所有单位都会以原始
-格式储存，不会被缩放</value>
+    <value>所有值均为未经缩放的
+原始格式</value>
   </data>
   <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -180,7 +180,7 @@
     <value />
   </data>
   <data name="BUT_paramfileload.Text" xml:space="preserve">
-    <value>加载参数</value>
+    <value>加载预存参数</value>
   </data>
   <data name="BUT_paramfileload.ToolTip" xml:space="preserve">
     <value />
@@ -209,4 +209,10 @@
   <data name="$this.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="BUT_commitToFlash.Text" xml:space="preserve"><value>提交参数</value></data>
+  <data name="chk_modified.Text" xml:space="preserve"><value>已修改</value></data>
+  <data name="BUT_refreshTable.Text" xml:space="preserve"><value>刷新表格</value></data>
+  <data name="chk_none_default.Text" xml:space="preserve"><value>非默认值</value></data>
+  <data name="Default_value.HeaderText" xml:space="preserve"><value>默认值</value></data>
+  <data name="Fav.HeaderText" xml:space="preserve"><value>收藏</value></data>
 </root>

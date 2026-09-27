@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label22.Text" xml:space="preserve"><value>نوع المحرك</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>أقصى خانق (%)</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>أدنى خانق (%)</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>الخانق والمحركات</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>سرعة الطيران الرحلي</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>خانق الطيران الرحلي</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>الكبح</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>أقصى تسارع (m/s/s)</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox14.Text" xml:space="preserve"><value>السرعة/الخانق</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>كتابة المعاملات</value></data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>تحديث المعاملات</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>سرعة نقاط المسار</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>تخميد التحكم بالتسارع الجانبي</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>فترة التحكم بالتسارع الجانبي</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>تجاوز نقطة المسار</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>نصف قطر نقطة المسار</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>أقصى تسارع انعطاف بوحدة G</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>الملاحة</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>FF</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>معدل التوجيه</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>إزالة ارتداد إشارة السونار</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>مدة الانعطاف</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>زاوية الانعطاف</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>مسافة التفعيل (cm)</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>تجنّب العوائق</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>نصف قطر الانعطاف</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>وضع التوجيه</value></data>
+  <data name="BUT_refreshpart.Text" xml:space="preserve"><value>تحديث الشاشة</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>وظيفة RC7</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>وظيفة RC8</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>وظيفة RC9</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>وظيفة RC10</value></data>
 </root>

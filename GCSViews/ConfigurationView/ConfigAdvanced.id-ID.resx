@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Halaman berikut hanya untuk konfigurasi lanjutan. Gunakan dengan hati-hati</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>Inspektur MAVLink</value></data>
+  <data name="but_warningmanager.Text" xml:space="preserve"><value>Pengelola Peringatan</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>Kedekatan</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>Penandatanganan MAVLink</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>Pencerminan MAVLink</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Bagikan koneksi dengan teknisi dukungan</value></data>
+  <data name="BUT_supportproxy.Text" xml:space="preserve"><value>Proksi Dukungan</value></data>
+  <data name="BUT_spect.Text" xml:space="preserve"><value>Spektrogram</value></data>
+  <data name="but_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Keluarkan lokasi MAV sebagai string NMEA</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Cerminkan MAVLink ke lokasi eksternal untuk pemantauan atau kendali</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Aktifkan penandatanganan MAVLink untuk mengamankan komunikasi dengan MAV</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Lihat data dari lidar 360 derajat</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Aktifkan peringatan khusus berdasarkan serangkaian kondisi</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Lihat data MAVLink yang didekodekan saat dikirim dan diterima</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Acak lintang/bujur dalam bin atau tlog</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>Ikuti Saya</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Gunakan GPS NMEA eksternal dan kirim titik lintasan mode Guided ke MAV berdasarkan lokasi tersebut</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Buat ulang informasi parameter yang digunakan di MP</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>Pembuat Parameter</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Tampilkan ikon tambahan pada peta untuk lokasi Anda saat ini.</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>Basis Bergerak</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>Anonimkan Log</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Buat grafik FFT dari log</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Buat grafik FFT dari log</value></data>
+</root>

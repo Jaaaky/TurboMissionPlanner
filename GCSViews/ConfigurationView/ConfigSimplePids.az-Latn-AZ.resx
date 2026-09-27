@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="TXT_info.Text" xml:space="preserve">
-    <value>Qeyd: bu interfeysdən istifadə edərək, bəzi xüsusi pitlərinizi sıfırlaya bilərsiniz.</value>
+    <value>QEYD: bu interfeysdən istifadə bəzi fərdi PID parametrlərinizi sıfırlaya bilər.</value>
   </data>
 </root>

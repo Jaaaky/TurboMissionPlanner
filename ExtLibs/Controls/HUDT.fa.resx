@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="ARMED" xml:space="preserve"><value>مسلح</value></data>
+  <data name="AS" xml:space="preserve"><value>سرعت هوایی </value></data>
+  <data name="Bat" xml:space="preserve"><value>باتری</value></data>
+  <data name="Cell" xml:space="preserve"><value>سلول</value></data>
+  <data name="DISARMED" xml:space="preserve"><value>غیرمسلح</value></data>
+  <data name="E" xml:space="preserve"><value>شرق</value></data>
+  <data name="FAILSAFE" xml:space="preserve"><value>حالت ایمنی اضطراری</value></data>
+  <data name="GPS0" xml:space="preserve"><value>GPS: موجود نیست</value></data>
+  <data name="GPS1" xml:space="preserve"><value>GPS: بدون تثبیت موقعیت</value></data>
+  <data name="GPS2" xml:space="preserve"><value>GPS: موقعیت دوبعدی</value></data>
+  <data name="GPS3" xml:space="preserve"><value>GPS: موقعیت سه‌بعدی</value></data>
+  <data name="GPS4" xml:space="preserve"><value>GPS: موقعیت سه‌بعدی DGPS</value></data>
+  <data name="GPS5" xml:space="preserve"><value>GPS: RTK شناور</value></data>
+  <data name="GPS6" xml:space="preserve"><value>GPS: RTK ثابت</value></data>
+  <data name="GS" xml:space="preserve"><value>سرعت زمینی </value></data>
+  <data name="N" xml:space="preserve"><value>شمال</value></data>
+  <data name="NE" xml:space="preserve"><value>شمال‌شرق</value></data>
+  <data name="NotReadyToArm" xml:space="preserve"><value>آمادهٔ مسلح شدن نیست</value></data>
+  <data name="NW" xml:space="preserve"><value>شمال‌غرب</value></data>
+  <data name="ReadyToArm" xml:space="preserve"><value>آمادهٔ مسلح شدن</value></data>
+  <data name="S" xml:space="preserve"><value>جنوب</value></data>
+  <data name="SAFE" xml:space="preserve"><value>ایمن</value></data>
+  <data name="SE" xml:space="preserve"><value>جنوب‌شرق</value></data>
+  <data name="SW" xml:space="preserve"><value>جنوب‌غرب</value></data>
+  <data name="W" xml:space="preserve"><value>غرب</value></data>
+</root>

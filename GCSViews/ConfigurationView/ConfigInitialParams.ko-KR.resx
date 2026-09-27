@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>새 콥터를 설정할 때는 배터리와 프로펠러 크기에 맞춰 일부 매개변수를 설정해야 합니다.
+여기에 데이터를 입력하고 매개변수를 업데이트하기 전에 다음을 확인하십시오.
+
+  -- 모든 초기 설정 완료(보정, 프레임 설정, 모터 시험)
+  -- 배터리 전압 모니터링 설정 및 정상 작동 확인
+
+참고: INS_GYRO_FILTER를 20 이외의 값으로 설정하는 것은 선택 사항이며 주로 소형 프레임/프로펠러에만 필요합니다. 처음에는 20으로 유지해도 됩니다.</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve"><value>ESC kalibrasyonu (AC3.3+)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Pervaneleri sökün!
+Bu düğmeye bastıktan sonra:
+-USB ve bataryayı ayırın
+-Bataryayı bağlayın
+-LED'ler yanıp söndüğünde emniyet düğmesine basın (varsa)
+-ESC'ler kalibre edilirken sesli uyarı vermelidir
+-Uçuş kontrolcüsünü normal şekilde yeniden başlatın</value></data>
+  <data name="buttonStart.Text" xml:space="preserve"><value>ESC'leri kalibre et</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>ESC tipi:</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Min. çıkış PWM</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Maks. çıkış PWM</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Arm durumunda dönme</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Min. dönme</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Maks. dönme</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Alıcı giriş aralığını kullanmak için 0 bırakın</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Alıcı giriş aralığını kullanmak için 0 bırakın</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Motorlar arm edilmişken gaz sıfırdayken geçerli hız (rölanti)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Uçuş sırasında minimum motor hızı ("Arm durumunda dönme" değerinden biraz yüksek)</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Uçuş sırasında maksimum motor hızı (neredeyse tüm ESC'lerin üst sınırında ölü bölge vardır)</value></data>
 </root>

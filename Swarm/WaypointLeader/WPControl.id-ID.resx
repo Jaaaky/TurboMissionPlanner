@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Cara Penggunaan:
+1. Hubungkan semua drone termasuk pemimpin (klik kanan bilah ikon atas, pilih "Opsi Koneksi").
+2. Pilih wahana yang benar lalu klik Tetapkan Pemimpin Darat.
+3. Pilih wahana yang benar lalu klik Tetapkan Pemimpin Udara.
+4. Unggah jalur ke drone pemimpin udara.
+5. Atur opsi jarak pemisah dan jarak mendahului.
+6. Tunggu semua drone memperoleh posisi GPS dan lakukan kalibrasi. Jika tidak, pemeriksaan sebelum arm dapat gagal; uji terlebih dahulu untuk memastikan operasi lancar.
+7. Pastikan pemimpin darat siap dan menunggu di jalur penerbangan.
+8. Klik Mulai.</value></data>
+</root>

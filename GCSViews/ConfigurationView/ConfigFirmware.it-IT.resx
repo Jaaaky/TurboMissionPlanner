@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,19 +121,19 @@
     <value>Scegli firmware precedente</value>
   </data>
   <data name="lbl_devfw.Text" xml:space="preserve">
-    <value>Beta FIRMWARE</value>
+    <value>Firmware beta</value>
   </data>
   <data name="lbl_dlfw.Text" xml:space="preserve">
-    <value>Scarica FIRMWARE</value>
+    <value>Scarica firmware</value>
   </data>
   <data name="lbl_px4io.Text" xml:space="preserve">
     <value>PX4IO Firmware</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Immagini di Max Levine e Marooned</value>
+    <value>Immagini di Max Levine</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Perfavore seleziona queste immagini per "Flight versions"</value>
+    <value>Fare clic sulle immagini sopra per le versioni di volo</value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
     <value>Stato</value>
@@ -144,4 +144,8 @@
   <data name="Custom_firmware_label.Text" xml:space="preserve">
     <value>Carica Firmware personalizzato</value>
   </data>
+  <data name="lbl_Custom_firmware_label.Text" xml:space="preserve"><value>Carica firmware personalizzato</value></data>
+  <data name="lbl_px4bl.Text" xml:space="preserve"><value>Forza bootloader</value></data>
+  <data name="lbl_licence.Text" xml:space="preserve"><value>ArduPilot è software libero. Fare clic qui per leggere la licenza del firmware open source.</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>Configurazione motori Copter</value></data>
 </root>

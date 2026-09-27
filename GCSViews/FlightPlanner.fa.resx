@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CHK_verifyheight.Text" xml:space="preserve"><value>بررسی ارتفاع</value></data>
+  <data name="LBL_WPRad.Text" xml:space="preserve"><value>شعاع نقطهٔ مسیر</value></data>
+  <data name="LBL_defalutalt.Text" xml:space="preserve"><value>ارتفاع پیش‌فرض</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>شعاع پرسه‌زنی</value></data>
+  <data name="but_writewpfast.Text" xml:space="preserve"><value>نوشتن سریع</value></data>
+  <data name="BUT_write.Text" xml:space="preserve"><value>نوشتن</value></data>
+  <data name="BUT_read.Text" xml:space="preserve"><value>خواندن</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>موقعیت خانه</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>از سطح دریا</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>طول جغرافیایی</value></data>
+  <data name="Label1.Text" xml:space="preserve"><value>عرض جغرافیایی</value></data>
+  <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve"><value>بالا</value></data>
+  <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve"><value>پایین</value></data>
+  <data name="lbl_status.Text" xml:space="preserve"><value>وضعیت</value></data>
+  <data name="chk_usemavftp.Text" xml:space="preserve"><value>MAVFTP</value></data>
+  <data name="CMB_altmode.Text" xml:space="preserve"><value>نسبی</value></data>
+  <data name="CHK_splinedefault.Text" xml:space="preserve"><value>اسپلاین</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>هشدار ارتفاع</value></data>
+  <data name="Command.HeaderText" xml:space="preserve"><value>فرمان</value></data>
+  <data name="Command.ToolTipText" xml:space="preserve"><value>فرمان</value></data>
+  <data name="Param1.HeaderText" xml:space="preserve"><value>P1</value></data>
+  <data name="Param2.HeaderText" xml:space="preserve"><value>P2</value></data>
+  <data name="Param3.HeaderText" xml:space="preserve"><value>P3</value></data>
+  <data name="Param4.HeaderText" xml:space="preserve"><value>P4</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>عرض جغرافیایی</value></data>
+  <data name="Lon.HeaderText" xml:space="preserve"><value>طول جغرافیایی</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>ارتفاع</value></data>
+  <data name="Frame.HeaderText" xml:space="preserve"><value>چارچوب</value></data>
+  <data name="coordZone.HeaderText" xml:space="preserve"><value>زون</value></data>
+  <data name="coordEasting.HeaderText" xml:space="preserve"><value>مختصهٔ شرقی</value></data>
+  <data name="coordNorthing.HeaderText" xml:space="preserve"><value>مختصهٔ شمالی</value></data>
+  <data name="MGRS.HeaderText" xml:space="preserve"><value>MGRS</value></data>
+  <data name="Delete.HeaderText" xml:space="preserve"><value>حذف</value></data>
+  <data name="Delete.ToolTipText" xml:space="preserve"><value>حذف ردیف</value></data>
+  <data name="Up.ToolTipText" xml:space="preserve"><value>انتقال ردیف به بالا</value></data>
+  <data name="Down.ToolTipText" xml:space="preserve"><value>انتقال ردیف به پایین</value></data>
+  <data name="Grad.HeaderText" xml:space="preserve"><value>شیب ٪</value></data>
+  <data name="Angle.HeaderText" xml:space="preserve"><value>زاویه</value></data>
+  <data name="Dist.HeaderText" xml:space="preserve"><value>فاصله</value></data>
+  <data name="AZ.HeaderText" xml:space="preserve"><value>سمت</value></data>
+  <data name="TagData.HeaderText" xml:space="preserve"><value>دادهٔ برچسب</value></data>
+  <data name="BUT_Add.Text" xml:space="preserve"><value>افزودن در پایین</value></data>
+  <data name="BUT_Add.ToolTip" xml:space="preserve"><value>افزودن یک ردیف به جدول زیر</value></data>
+  <data name="panelWaypoints.Text" xml:space="preserve"><value>نقاط مسیر</value></data>
+  <data name="BUT_InjectCustomMap.Text" xml:space="preserve"><value>افزودن نقشهٔ سفارشی</value></data>
+  <data name="chk_grid.Text" xml:space="preserve"><value>شبکه</value></data>
+  <data name="comboBoxMapType.ToolTip" xml:space="preserve"><value>تغییر نوع نقشهٔ فعلی</value></data>
+  <data name="lnk_kml.Text" xml:space="preserve"><value>نمایش KML</value></data>
+  <data name="BUT_loadwpfile.Text" xml:space="preserve"><value>بارگذاری فایل</value></data>
+  <data name="BUT_saveWPFile.Text" xml:space="preserve"><value>ذخیرهٔ فایل</value></data>
+  <data name="panelAction.Text" xml:space="preserve"><value>اقدام</value></data>
+  <data name="lbl_homedist.Text" xml:space="preserve"><value>خانه</value></data>
+  <data name="lbl_prevdist.Text" xml:space="preserve"><value>قبلی</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>تغییر سطح بزرگ‌نمایی</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>بزرگ‌نمایی</value></data>
+  <data name="lbl_distance.Text" xml:space="preserve"><value>فاصله</value></data>
+  <data name="cmb_missiontype.Items" xml:space="preserve"><value>مأموریت</value></data>
+  <data name="cmb_missiontype.Items1" xml:space="preserve"><value>حصار</value></data>
+  <data name="cmb_missiontype.Items2" xml:space="preserve"><value>نقطهٔ تجمع</value></data>
+  <data name="deleteWPToolStripMenuItem.Text" xml:space="preserve"><value>حذف نقطهٔ مسیر</value></data>
+  <data name="currentPositionToolStripMenuItem.Text" xml:space="preserve"><value>در موقعیت فعلی</value></data>
+  <data name="insertWpToolStripMenuItem.Text" xml:space="preserve"><value>درج نقطهٔ مسیر</value></data>
+  <data name="insertSplineWPToolStripMenuItem.Text" xml:space="preserve"><value>درج نقطهٔ مسیر اسپلاین</value></data>
+  <data name="loiterForeverToolStripMenuItem.Text" xml:space="preserve"><value>نامحدود</value></data>
+  <data name="loitertimeToolStripMenuItem.Text" xml:space="preserve"><value>زمان</value></data>
+  <data name="loitercirclesToolStripMenuItem.Text" xml:space="preserve"><value>دور</value></data>
+  <data name="loiterToolStripMenuItem.Text" xml:space="preserve"><value>پرسه‌زنی</value></data>
+  <data name="jumpstartToolStripMenuItem.Text" xml:space="preserve"><value>شروع</value></data>
+  <data name="jumpwPToolStripMenuItem.Text" xml:space="preserve"><value>شمارهٔ نقطهٔ مسیر</value></data>
+  <data name="jumpToolStripMenuItem.Text" xml:space="preserve"><value>پرش</value></data>
+  <data name="rTLToolStripMenuItem.Text" xml:space="preserve"><value>RTL</value></data>
+  <data name="landToolStripMenuItem.Text" xml:space="preserve"><value>فرود</value></data>
+  <data name="takeoffToolStripMenuItem.Text" xml:space="preserve"><value>برخاست</value></data>
+  <data name="setROIToolStripMenuItem.Text" xml:space="preserve"><value>DO_SET_ROI</value></data>
+  <data name="clearMissionToolStripMenuItem.Text" xml:space="preserve"><value>پاک کردن مأموریت</value></data>
+  <data name="addPolygonPointToolStripMenuItem2.Text" xml:space="preserve"><value>رسم چندضلعی</value></data>
+  <data name="clearPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>پاک کردن چندضلعی</value></data>
+  <data name="savePolygonToolStripMenuItem2.Text" xml:space="preserve"><value>ذخیرهٔ چندضلعی</value></data>
+  <data name="loadPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>بارگذاری چندضلعی</value></data>
+  <data name="fromSHPToolStripMenuItem2.Text" xml:space="preserve"><value>از SHP</value></data>
+  <data name="fromCurrentWaypointsToolStripMenuItem.Text" xml:space="preserve"><value>از نقاط مسیر فعلی</value></data>
+  <data name="offsetPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>آفست چندضلعی</value></data>
+  <data name="areaToolStripMenuItem2.Text" xml:space="preserve"><value>مساحت</value></data>
+  <data name="polygonToolStripMenuItem.Text" xml:space="preserve"><value>چندضلعی</value></data>
+  <data name="GeoFenceuploadToolStripMenuItem.Text" xml:space="preserve"><value>بارگذاری</value></data>
+  <data name="GeoFencedownloadToolStripMenuItem.Text" xml:space="preserve"><value>بارگیری</value></data>
+  <data name="setReturnLocationToolStripMenuItem.Text" xml:space="preserve"><value>تنظیم محل بازگشت</value></data>
+  <data name="loadFromFileToolStripMenuItem.Text" xml:space="preserve"><value>بارگذاری از فایل</value></data>
+  <data name="saveToFileToolStripMenuItem.Text" xml:space="preserve"><value>ذخیره در فایل</value></data>
+  <data name="clearToolStripMenuItem.Text" xml:space="preserve"><value>پاک کردن</value></data>
+  <data name="geoFenceToolStripMenuItem.Text" xml:space="preserve"><value>حصار جغرافیایی</value></data>
+  <data name="setRallyPointToolStripMenuItem.Text" xml:space="preserve"><value>تنظیم نقطهٔ تجمع</value></data>
+  <data name="getRallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>بارگیری</value></data>
+  <data name="saveRallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>بارگذاری</value></data>
+  <data name="clearRallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>پاک کردن نقاط تجمع</value></data>
+  <data name="saveToFileToolStripMenuItem1.Text" xml:space="preserve"><value>ذخیرهٔ نقاط تجمع در فایل</value></data>
+  <data name="loadFromFileToolStripMenuItem1.Text" xml:space="preserve"><value>بارگذاری نقاط تجمع از فایل</value></data>
+  <data name="rallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>نقاط تجمع</value></data>
+  <data name="createWpCircleToolStripMenuItem.Text" xml:space="preserve"><value>ایجاد دایرهٔ نقاط مسیر</value></data>
+  <data name="createSplineCircleToolStripMenuItem.Text" xml:space="preserve"><value>ایجاد دایرهٔ اسپلاین</value></data>
+  <data name="areaToolStripMenuItem1.Text" xml:space="preserve"><value>مساحت</value></data>
+  <data name="textToolStripMenuItem.Text" xml:space="preserve"><value>متن</value></data>
+  <data name="createCircleSurveyToolStripMenuItem.Text" xml:space="preserve"><value>ایجاد برداشت دایره‌ای</value></data>
+  <data name="surveyGridToolStripMenuItem.Text" xml:space="preserve"><value>برداشت (شبکه‌ای)</value></data>
+  <data name="autoWPToolStripMenuItem.Text" xml:space="preserve"><value>نقطهٔ مسیر خودکار</value></data>
+  <data name="ContextMeasure.Text" xml:space="preserve"><value>اندازه‌گیری فاصله</value></data>
+  <data name="rotateMapToolStripMenuItem.Text" xml:space="preserve"><value>چرخاندن نقشه</value></data>
+  <data name="zoomToToolStripMenuItem.Text" xml:space="preserve"><value>بزرگ‌نمایی روی</value></data>
+  <data name="prefetchToolStripMenuItem.Text" xml:space="preserve"><value>پیش‌بارگیری</value></data>
+  <data name="prefetchWPPathToolStripMenuItem.Text" xml:space="preserve"><value>پیش‌بارگیری مسیر نقاط</value></data>
+  <data name="kMLOverlayToolStripMenuItem.Text" xml:space="preserve"><value>لایهٔ KML</value></data>
+  <data name="elevationGraphToolStripMenuItem.Text" xml:space="preserve"><value>نمودار ارتفاع</value></data>
+  <data name="reverseWPsToolStripMenuItem.Text" xml:space="preserve"><value>معکوس کردن ترتیب نقاط مسیر</value></data>
+  <data name="gDALOpacityToolStripMenuItem.Text" xml:space="preserve"><value>میزان ماتی GDAL</value></data>
+  <data name="mapToolToolStripMenuItem.Text" xml:space="preserve"><value>ابزار نقشه</value></data>
+  <data name="loadWPFileToolStripMenuItem.Text" xml:space="preserve"><value>بارگذاری فایل نقاط مسیر</value></data>
+  <data name="loadAndAppendToolStripMenuItem.Text" xml:space="preserve"><value>بارگذاری و افزودن به انتها</value></data>
+  <data name="saveWPFileToolStripMenuItem.Text" xml:space="preserve"><value>ذخیرهٔ فایل نقاط مسیر</value></data>
+  <data name="loadKMLFileToolStripMenuItem.Text" xml:space="preserve"><value>بارگذاری فایل KML</value></data>
+  <data name="loadSHPFileToolStripMenuItem.Text" xml:space="preserve"><value>بارگذاری فایل SHP</value></data>
+  <data name="fileLoadSaveToolStripMenuItem.Text" xml:space="preserve"><value>بارگذاری/ذخیرهٔ فایل</value></data>
+  <data name="poiaddToolStripMenuItem.Text" xml:space="preserve"><value>افزودن</value></data>
+  <data name="poideleteToolStripMenuItem.Text" xml:space="preserve"><value>حذف</value></data>
+  <data name="poieditToolStripMenuItem.Text" xml:space="preserve"><value>ویرایش</value></data>
+  <data name="pOIToolStripMenuItem.Text" xml:space="preserve"><value>نقطهٔ موردنظر</value></data>
+  <data name="trackerHomeToolStripMenuItem.Text" xml:space="preserve"><value>خانهٔ ردیاب</value></data>
+  <data name="modifyAltToolStripMenuItem.Text" xml:space="preserve"><value>تغییر ارتفاع</value></data>
+  <data name="enterUTMCoordToolStripMenuItem.Text" xml:space="preserve"><value>ورود مختصات UTM</value></data>
+  <data name="switchDockingToolStripMenuItem.Text" xml:space="preserve"><value>تغییر اتصال پنل</value></data>
+  <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>تنظیم خانه در اینجا</value></data>
+  <data name="panelMap.Text" xml:space="preserve"><value>panel6</value></data>
+  <data name="addPolygonPointToolStripMenuItem.Text" xml:space="preserve"><value>رسم چندضلعی</value></data>
+  <data name="clearPolygonToolStripMenuItem.Text" xml:space="preserve"><value>پاک کردن چندضلعی</value></data>
+  <data name="savePolygonToolStripMenuItem.Text" xml:space="preserve"><value>ذخیرهٔ چندضلعی</value></data>
+  <data name="loadPolygonToolStripMenuItem.Text" xml:space="preserve"><value>بارگذاری چندضلعی</value></data>
+  <data name="fromSHPToolStripMenuItem.Text" xml:space="preserve"><value>از SHP</value></data>
+  <data name="areaToolStripMenuItem.Text" xml:space="preserve"><value>مساحت</value></data>
+  <data name="fenceInclusionToolStripMenuItem.Text" xml:space="preserve"><value>محدودهٔ مجاز حصار</value></data>
+  <data name="fenceExclusionToolStripMenuItem.Text" xml:space="preserve"><value>محدودهٔ ممنوع حصار</value></data>
+  <data name="convertWPToPolygonToolStripMenuItem.Text" xml:space="preserve"><value>از نقاط مسیر فعلی</value></data>
+  <data name="offsetPolygonToolStripMenuItem.Text" xml:space="preserve"><value>آفست چندضلعی</value></data>
+  <data name="drawAPolygonToolStripMenuItem.Text" xml:space="preserve"><value>رسم چندضلعی</value></data>
+  <data name="testToolStripMenuItem.Text" xml:space="preserve"><value>آزمایش</value></data>
+  <data name="zoomToVehicleToolStripMenuItem.Text" xml:space="preserve"><value>بزرگ‌نمایی روی وسیله</value></data>
+  <data name="zoomToMissionToolStripMenuItem.Text" xml:space="preserve"><value>بزرگ‌نمایی روی مأموریت</value></data>
+  <data name="zoomToHomeToolStripMenuItem.Text" xml:space="preserve"><value>بزرگ‌نمایی روی خانه</value></data>
+</root>

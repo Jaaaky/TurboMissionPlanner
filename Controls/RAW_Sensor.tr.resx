@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,48 +118,50 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="tabRawSensor.Text" xml:space="preserve">
-    <value>BİR. algılayıcı</value>
+    <value>Ham sensör verileri</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ILK. Aygılayici</value>
+    <value>Ham sensör verileri</value>
   </data>
   <data name="CMB_rawupdaterate.Text" xml:space="preserve">
     <value>Güncelleme hızı</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Servo / motor</value>
+    <value>Servo/motor çıkışı</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Not: Xbee @ 50hz ile görüntülerken bir gecikme var</value>
+    <value>Not: XBee üzerinden 50 Hz'de
+görüntülerken gecikme
+oluşur</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Radyo Girisi</value>
+    <value>Kumanda girişi</value>
   </data>
   <data name="chkax.Text" xml:space="preserve">
-    <value>Cıktı. X</value>
+    <value>İvme X</value>
   </data>
   <data name="chkaz.Text" xml:space="preserve">
-    <value>Cıktı. Z</value>
+    <value>İvme Z</value>
   </data>
   <data name="chkay.Text" xml:space="preserve">
-    <value>Cıktı. Y</value>
+    <value>İvme Y</value>
   </data>
   <data name="tabRadio.Text" xml:space="preserve">
-    <value>Radyo Kontrolu</value>
+    <value>Radyo</value>
   </data>
   <data name="tabOrientation.Text" xml:space="preserve">
-    <value>Ucus Bilgileri</value>
+    <value>Uçuş verileri</value>
   </data>
   <data name="BUT_savecsv.Text" xml:space="preserve">
-    <value>CSV'yi kaydet</value>
+    <value>CSV kaydet</value>
   </data>
   <data name="chkgz.Text" xml:space="preserve">
-    <value>Girdi Z</value>
+    <value>Jiroskop Z</value>
   </data>
   <data name="chkgx.Text" xml:space="preserve">
-    <value>Girdi X</value>
+    <value>Jiroskop X</value>
   </data>
   <data name="chkgy.Text" xml:space="preserve">
-    <value>Girdi Y</value>
+    <value>Jiroskop Y</value>
   </data>
 </root>

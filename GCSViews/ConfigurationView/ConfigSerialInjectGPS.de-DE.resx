@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,128 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>M8P</value>
+    <value>Einmessung</value>
   </data>
   <data name="lbl_svin.Text" xml:space="preserve">
-    <value>SVIN</value>
+    <value>Einmessung</value>
   </data>
   <data name="chk_rtcmmsg.Text" xml:space="preserve">
-    <value>new RTCM msg</value>
+    <value>Einzuspeisender Nachrichtentyp</value>
   </data>
   <data name="but_save_basepos.Text" xml:space="preserve">
-    <value>Save Base Position</value>
+    <value>Aktuelle Position speichern</value>
   </data>
+  <data name="lbl_status1.Text" xml:space="preserve"><value>9999 bps</value></data>
+  <data name="chk_rtcmmsg.ToolTip" xml:space="preserve"><value>Dies hängt von der Firmwareversion Ihres Autopiloten ab. Wenn möglich aktiviert lassen, da der neuere Nachrichtentyp beschädigte Daten deutlich besser behandelt.</value></data>
+  <data name="lbl_svin.ToolTip" xml:space="preserve"><value>Informationen zur Einmessung
+Valid: Ist die Einmessung gültig?
+InProgress: Wird die Position gerade eingemessen?
+Duration: Bisherige Einmessdauer in Sekunden
+Obs: Anzahl der für die Einmessung verwendeten Beobachtungen
+Acc: Aktuelle Genauigkeit der eingemessenen Position
+</value></data>
+  <data name="chk_autoconfig.Text" xml:space="preserve"><value>Empfänger automatisch konfigurieren</value></data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve"><value>Den am gewählten Port angeschlossenen Empfänger automatisch für die Ausgabe von Korrekturdaten konfigurieren.</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>Beim Verbinden startet der Empfänger eine Einmessung („Survey-in“), um die genaue GPS-Position zu bestimmen.
+Die Einmessung endet, sobald sich die Position der RTCM-Basis nicht mehr ändert.
+Je nach Standort und Signal kann dies einige Minuten dauern.
+
+Nach Abschluss der Einmessung ist das System einsatzbereit.
+</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>RTCM-Satellitensysteme</value></data>
+  <data name="label21.ToolTip" xml:space="preserve"><value>Satellitensysteme auswählen, für die der Empfänger Korrekturen ausgibt. Mehr Systeme erhöhen die Datenrate.</value></data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve"><value>Ausgabe von Galileo-RTCM-Nachrichten ein-/ausschalten.</value></data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve"><value>Ausgabe von BeiDou-RTCM-Nachrichten ein-/ausschalten.</value></data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve"><value>Ausgabe von GLONASS-RTCM-Nachrichten ein-/ausschalten.</value></data>
+  <data name="chk_septentriogps.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve"><value>Ausgabe von GPS-RTCM-Nachrichten ein-/ausschalten.</value></data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve"><value>Intervall festlegen</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>RTCM-Nachrichtenintervall (s)</value></data>
+  <data name="label20.ToolTip" xml:space="preserve"><value>Ausgabeintervall der RTCM-Nachrichten wählen. Kleinere Werte erhöhen die Datenrate.</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>RTCM-Nachrichtenumfang</value></data>
+  <data name="label19.ToolTip" xml:space="preserve"><value>Detailumfang der RTCM-Nachrichten wählen. Höhere Werte erhöhen die Datenrate.</value></data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve"><value>Reduziert</value></data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve"><value>Basis</value></data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve"><value>Vollständig</value></data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve"><value>Feste Position</value></data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve"><value>Eine feste Position der Basisstationsantenne eingeben, statt sie automatisch vom Empfänger ermitteln zu lassen. Dies kann die Genauigkeit der Korrekturen verbessern.
+</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Breitengrad (WGS84)</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Längengrad (WGS84)</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Höhe (m)</value></data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve"><value>Position festlegen</value></data>
+  <data name="but_restartsvin.Text" xml:space="preserve"><value>Neu starten</value></data>
+  <data name="but_restartsvin.ToolTip" xml:space="preserve"><value>Aktuell eingemessene Position der Basisstation speichern</value></data>
+  <data name="chk_m8p_130p.Text" xml:space="preserve"><value>M8P fw 130+/F9P</value></data>
+  <data name="chk_m8p_130p.ToolTip" xml:space="preserve"><value>Aktivieren, wenn Basis und Rover u-blox-Firmware 1.30 oder neuer verwenden</value></data>
+  <data name="but_save_basepos.ToolTip" xml:space="preserve"><value>Aktuell eingemessene Position der Basisstation speichern</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>Breite/ECEFX</value></data>
+  <data name="Long.HeaderText" xml:space="preserve"><value>Länge/ECEFY</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>Höhe/ECEFZ</value></data>
+  <data name="BaseName1.HeaderText" xml:space="preserve"><value>Name</value></data>
+  <data name="Use.HeaderText" xml:space="preserve"><value>Verwenden</value></data>
+  <data name="Delete.HeaderText" xml:space="preserve"><value>Löschen</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Zeit (s)</value></data>
+  <data name="txt_surveyinAcc.ToolTip" xml:space="preserve"><value>Genauigkeitsschwelle der Einmessung. Der Wert muss unterschritten werden.</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Einmessgenauigkeit (m)</value></data>
+  <data name="label1.ToolTip" xml:space="preserve"><value>Genauigkeits- und Zeitvorgabe müssen beide erfüllt sein, damit die Einmessung abgeschlossen wird.
+Beispiel: Genauigkeit besser als 2 m und Beobachtungsdauer länger als 60 Sekunden.</value></data>
+  <data name="txt_surveyinDur.ToolTip" xml:space="preserve"><value>Mindesteinmessdauer. Dieser Wert muss überschritten werden.</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Einmessung</value></data>
+  <data name="label10.ToolTip" xml:space="preserve"><value>Informationen zur Einmessung
+Valid: Ist die Einmessung gültig?
+InProgress: Wird die Position gerade eingemessen?
+Duration: Bisherige Einmessdauer in Sekunden
+Obs: Anzahl der für die Einmessung verwendeten Beobachtungen
+Acc: Aktuelle Genauigkeit der eingemessenen Position
+</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Einmessung</value></data>
+  <data name="label7.ToolTip" xml:space="preserve"><value>Informationen zur Einmessung
+Valid: Ist die Einmessung gültig?
+InProgress: Wird die Position gerade eingemessen?
+Duration: Bisherige Einmessdauer in Sekunden
+Obs: Anzahl der für die Einmessung verwendeten Beobachtungen
+Acc: Aktuelle Genauigkeit der eingemessenen Position
+</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Einmessung</value></data>
+  <data name="label9.ToolTip" xml:space="preserve"><value>Informationen zur Einmessung
+Valid: Ist die Einmessung gültig?
+InProgress: Wird die Position gerade eingemessen?
+Duration: Bisherige Einmessdauer in Sekunden
+Obs: Anzahl der für die Einmessung verwendeten Beobachtungen
+Acc: Aktuelle Genauigkeit der eingemessenen Position
+</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Einmessung</value></data>
+  <data name="label8.ToolTip" xml:space="preserve"><value>Informationen zur Einmessung
+Valid: Ist die Einmessung gültig?
+InProgress: Wird die Position gerade eingemessen?
+Duration: Bisherige Einmessdauer in Sekunden
+Obs: Anzahl der für die Einmessung verwendeten Beobachtungen
+Acc: Aktuelle Genauigkeit der eingemessenen Position
+</value></data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve"><value>Optionen für automatische Konfiguration</value></data>
+  <data name="chk_sendgga.Text" xml:space="preserve"><value>NTRIP-GGA senden? (VRS/Smart)</value></data>
+  <data name="chk_sendgga.ToolTip" xml:space="preserve"><value>Dies hängt von der Firmwareversion Ihres Autopiloten ab. Wenn möglich aktiviert lassen, da der neuere Nachrichtentyp beschädigte Daten deutlich besser behandelt.</value></data>
+  <data name="check_sendntripv1.Text" xml:space="preserve"><value>NTRIP-Protokoll v1.0 verwenden?</value></data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve"><value>Einige ältere NTRIP-Caster, etwa RTKLIB, unterstützen NTRIP v2.0 nicht. Aktivieren Sie diese Option, um v1.0 zu verwenden.</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Eingangsdatenrate</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Ausgangsdatenrate</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>RTCM-Basis </value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Empfangene Nachrichten</value></data>
+  <data name="labelmsgseen.Text" xml:space="preserve"><value>rtcm0000
+rtcm0000</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Basis</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Gps</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Glonass</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Beidou</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>RTCM</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Verbindungsstatus</value></data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve"><value>UBlox M8P/F9P</value></data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve"><value>Septentrio</value></data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve"><value>Unicore UM982</value></data>
+  <data name="BUT_connect.Text" xml:space="preserve"><value>Verbinden</value></data>
 </root>

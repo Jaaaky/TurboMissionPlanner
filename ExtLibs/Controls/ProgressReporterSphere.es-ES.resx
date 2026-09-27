@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CHK_rotate.Text" xml:space="preserve"><value>Girar con cada punto de datos</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Apunte a los puntos blancos.
+Oriente el piloto automático hacia el norte y gírelo sobre
+el eje de cabeceo hasta nivelarlo.
+Después,
+gire el piloto automático 90 grados y gírelo sobre el
+eje de alabeo hasta nivelarlo.
+
+Este método debería cubrir todos los puntos blancos.</value></data>
+  <data name="chk_auto.Text" xml:space="preserve"><value>Usar aceptación automática</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -208,7 +208,7 @@
     <value>Zakres ruchu płyty sterującej</value>
   </data>
   <data name="lbl_currentmode.Text" xml:space="preserve">
-    <value>Ręczne</value>
+    <value>Ręcznie</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
     <value>Zakres steru kierunku</value>
@@ -226,13 +226,13 @@
     <value>Max</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Tryb lotu 2</value>
+    <value>Wyjścia serw/silników</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>Max przechylenie</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Tryb lotu 3</value>
+    <value>Awaryjne PWM</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
     <value>Max pochylenie</value>
@@ -241,13 +241,13 @@
     <value>w stopniech np. 2° 3' W to -2.3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Tryb lotu 1</value>
+    <value>Wejścia RC</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Wypoziomuj quada żeby stawić domyśle offsety przysp.</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Tryb lotu 6</value>
+    <value>Czas niskiego poziomu</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
     <value>Pojemność</value>
@@ -265,19 +265,19 @@
     <value>Wejścia radia</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Calibration</value>
+    <value>Akumulator</value>
   </data>
   <data name="HS4_MIN.Text" xml:space="preserve">
     <value>1500</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Tryb lotu 4</value>
+    <value>Niski poziom akumulatora</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Tryb lotu 5</value>
+    <value>Rezerwa mAh</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Żyro</value>
+    <value>GCS</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>PWM 1361 - 1490</value>
@@ -315,4 +315,24 @@
   <data name="label30.Text" xml:space="preserve">
     <value>Monitor</value>
   </data>
+  <data name="LNK_wiki.Text" xml:space="preserve"><value>Wiki</value></data>
+  <data name="mavlinkNumericUpDownlow_voltage.ToolTip" xml:space="preserve"><value>Próg niskiego napięcia</value></data>
+  <data name="mavlinkCheckBoxlong_fs.Text" xml:space="preserve"><value>Długotrwała utrata sygnału (20 s)</value></data>
+  <data name="mavlinkCheckBoxlong_fs.ToolTip" xml:space="preserve"><value>Wył.: brak działania; wł.: RTL</value></data>
+  <data name="mavlinkCheckBoxshort_fs.Text" xml:space="preserve"><value>Krótkotrwała utrata sygnału (1 s)</value></data>
+  <data name="mavlinkCheckBoxshort_fs.ToolTip" xml:space="preserve"><value>Wył.: brak działania; wł.: RTL</value></data>
+  <data name="mavlinkCheckBoxgcs_fs.Text" xml:space="preserve"><value>Tryb awaryjny GCS</value></data>
+  <data name="mavlinkCheckBoxgcs_fs.ToolTip" xml:space="preserve"><value>Włącz tryb awaryjny przy utracie łączności z GCS</value></data>
+  <data name="mavlinkCheckBoxthr_fs_action.Text" xml:space="preserve"><value>Działanie awaryjne kanału gazu</value></data>
+  <data name="mavlinkCheckBoxthr_fs_action.ToolTip" xml:space="preserve"><value>ArduCopter Auto: wył. — brak działania; wł. — RTL
+Inne tryby ArduCopter: z GPS — RTL; bez GPS — lądowanie</value></data>
+  <data name="mavlinkNumericUpDownfs_thr_value.ToolTip" xml:space="preserve"><value>Próg PWM gazu</value></data>
+  <data name="mavlinkNumericUpDownthr_fs_value.ToolTip" xml:space="preserve"><value>Próg PWM gazu</value></data>
+  <data name="mavlinkCheckBoxthr_fs.Text" xml:space="preserve"><value>Tryb awaryjny gazu</value></data>
+  <data name="mavlinkCheckBoxthr_fs.ToolTip" xml:space="preserve"><value>Włącz tryb awaryjny przy niskim PWM gazu</value></data>
+  <data name="mavlinkComboBox_fs_thr_enable.ToolTip" xml:space="preserve"><value>Tryb awaryjny przy niskim PWM</value></data>
+  <data name="mavlinkCheckBoxFS_GCS_ENABLE.Text" xml:space="preserve"><value>Włącz tryb awaryjny GCS</value></data>
+  <data name="lbl_armed.Text" xml:space="preserve"><value>Rozbrojony</value></data>
+  <data name="lbl_gpslock.Text" xml:space="preserve"><value>Brak ustalonej pozycji</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Radio</value></data>
 </root>

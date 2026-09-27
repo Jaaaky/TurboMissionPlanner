@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>Se está descargando un archivo de registro. ¿Desea cancelar?</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>¿Está seguro?</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>Creando KML para {0}</value></data>
+  <data name="Done" xml:space="preserve"><value>Hecho</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>Descargando archivos de registro en: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>Espere entre 30 y 90 segundos para el borrado</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>Error al procesar el archivo. Compruebe que no esté en uso.</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>Obteniendo archivo de registro {0}...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>Obteniendo lista de archivos de registro...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>No se pudo crear la carpeta de registros: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>No hay registros para descargar</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>Conecte el dron</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>Seleccione registros marcando las casillas de la lista</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>Procesando {0}</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>Se han encontrado {0} archivos de registro. Nota: los tamaños son estimados.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>Error:</value></data>
+</root>

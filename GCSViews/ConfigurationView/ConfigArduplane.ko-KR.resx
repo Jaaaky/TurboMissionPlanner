@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,34 +130,34 @@
     <value>순항</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>추진력 0-100%</value>
+    <value>스로틀 0-100%</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>비율</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>최대 FBW</value>
+    <value>최대</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>최소 FBW</value>
+    <value>최소</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>순항</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>항속 m/s</value>
+    <value>대기속도 m/s</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>최소 상하 요동각</value>
+    <value>최소 피치</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>최대 상하 요동각</value>
+    <value>최대 피치</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>최대 Bank값</value>
+    <value>최대 뱅크각</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>순항각</value>
+    <value>항법 각도</value>
   </data>
   <data name="label78.Text" xml:space="preserve">
     <value>방향타 혼합</value>
@@ -169,22 +169,22 @@
     <value>에너지/고도 PID</value>
   </data>
   <data name="label57.Text" xml:space="preserve">
-    <value>적분 최대</value>
+    <value>적분 상한</value>
   </data>
   <data name="label58.Text" xml:space="preserve">
-    <value>약화</value>
+    <value>감쇠</value>
   </data>
   <data name="label59.Text" xml:space="preserve">
     <value>적분</value>
   </data>
   <data name="groupBox10.Text" xml:space="preserve">
-    <value>서보 방위각</value>
+    <value>요 서보</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>서보 상하 요동 PID</value>
+    <value>피치 서보 PID</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
-    <value>서보 좌우 요동 PID</value>
+    <value>롤 서보 PID</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
     <value>매개변수 기록</value>
@@ -208,7 +208,7 @@
     <value>시간 상수</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Pitch 약화</value>
+    <value>피치 감쇠</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>최소 하강속도 (m/s)</value>
@@ -219,4 +219,29 @@
   <data name="BUT_refreshpart.Text" xml:space="preserve">
     <value>화면 갱신</value>
   </data>
+  <data name="label83.Text" xml:space="preserve"><value>피치 → 스로틀</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label69.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label70.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label71.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label72.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>항법 피치-고도 PID</value></data>
+  <data name="label65.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label66.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label67.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label68.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>항법 피치-대기속도 PID</value></data>
+  <data name="label60.Text" xml:space="preserve"><value>요 → 롤</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>TECS</value></data>
 </root>

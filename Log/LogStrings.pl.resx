@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>Trwa pobieranie dziennika. Czy chcesz je anulować?</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>Czy na pewno?</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>Tworzenie KML dla {0}</value></data>
+  <data name="Done" xml:space="preserve"><value>Gotowe</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>Pobieranie dzienników do: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>Usuwanie może potrwać 30–90 sekund!</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>Błąd przetwarzania pliku. Upewnij się, że nie jest używany.</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>Pobieranie pliku dziennika {0}...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>Pobieranie listy dzienników...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>Nie można utworzyć katalogu dzienników: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>Brak dzienników do pobrania</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>Podłącz drona</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>Zaznacz dzienniki za pomocą pól wyboru na liście</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>Przetwarzanie {0}</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>Znaleziono {0} plików dzienników. Uwaga: podane rozmiary są szacunkowe.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>Błąd:</value></data>
+</root>

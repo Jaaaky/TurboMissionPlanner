@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,31 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="tabRawSensor.Text" xml:space="preserve">
-    <value>Sensor Raw</value>
+    <value>Data Sensor Mentah</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Sensor Raw</value>
+    <value>Data Sensor Mentah</value>
   </data>
   <data name="CMB_rawupdaterate.Text" xml:space="preserve">
-    <value>Perbarui Kecepatan</value>
+    <value>Kecepatan Pembaruan</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Servo/Motor OUT</value>
+    <value>Keluaran Servo/Motor</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Catatan: Ada penundaan saat melihat melalui Xbee @ 50Hz</value>
+    <value>Catatan: Ada jeda
+saat menampilkan melalui Xbee
+pada 50 Hz</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Radio IN</value>
+    <value>Masukan Radio</value>
   </data>
   <data name="chkax.Text" xml:space="preserve">
-    <value>Accel X</value>
+    <value>Percepatan X</value>
   </data>
   <data name="chkaz.Text" xml:space="preserve">
-    <value>Accel Z</value>
+    <value>Percepatan Z</value>
   </data>
   <data name="chkay.Text" xml:space="preserve">
-    <value>Accel Y</value>
+    <value>Percepatan Y</value>
   </data>
   <data name="tabRadio.Text" xml:space="preserve">
     <value>Radio</value>
@@ -154,12 +156,12 @@
     <value>Simpan CSV</value>
   </data>
   <data name="chkgz.Text" xml:space="preserve">
-    <value>Gyro Z</value>
+    <value>Giroskop Z</value>
   </data>
   <data name="chkgx.Text" xml:space="preserve">
-    <value>Gyro X</value>
+    <value>Giroskop X</value>
   </data>
   <data name="chkgy.Text" xml:space="preserve">
-    <value>Gyro Y</value>
+    <value>Giroskop Y</value>
   </data>
 </root>

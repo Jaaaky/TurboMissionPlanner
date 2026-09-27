@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="recordHudToAVIToolStripMenuItem.Text" xml:space="preserve"><value>ضبط HUD در AVI</value></data>
+  <data name="stopRecordToolStripMenuItem.Text" xml:space="preserve"><value>توقف ضبط</value></data>
+  <data name="setMJPEGSourceToolStripMenuItem.Text" xml:space="preserve"><value>تنظیم منبع MJPEG</value></data>
+  <data name="startCameraToolStripMenuItem.Text" xml:space="preserve"><value>راه‌اندازی دوربین</value></data>
+  <data name="setGStreamerSourceToolStripMenuItem.Text" xml:space="preserve"><value>تنظیم منبع GStreamer</value></data>
+  <data name="hereLinkVideoToolStripMenuItem.Text" xml:space="preserve"><value>ویدئوی HereLink</value></data>
+  <data name="gStreamerStopToolStripMenuItem.Text" xml:space="preserve"><value>توقف GStreamer</value></data>
+  <data name="videoToolStripMenuItem.Text" xml:space="preserve"><value>ویدئو</value></data>
+  <data name="setAspectRatioToolStripMenuItem.Text" xml:space="preserve"><value>تنظیم نسبت تصویر</value></data>
+  <data name="userItemsToolStripMenuItem.Text" xml:space="preserve"><value>موارد کاربر</value></data>
+  <data name="russianHudToolStripMenuItem.Text" xml:space="preserve"><value>HUD روسی</value></data>
+  <data name="swapWithMapToolStripMenuItem.Text" xml:space="preserve"><value>جابه‌جایی با نقشه</value></data>
+  <data name="groundColorToolStripMenuItem.Text" xml:space="preserve"><value>رنگ زمین</value></data>
+  <data name="setBatteryCellCountToolStripMenuItem.Text" xml:space="preserve"><value>ولتاژ سلول باتری</value></data>
+  <data name="showIconsToolStripMenuItem.Text" xml:space="preserve"><value>نمایش نمادها</value></data>
+  <data name="customizeToolStripMenuItem.Text" xml:space="preserve"><value>سفارشی‌سازی</value></data>
+  <data name="multiLineToolStripMenuItem.Text" xml:space="preserve"><value>چندخطی</value></data>
+  <data name="setViewCountToolStripMenuItem.Text" xml:space="preserve"><value>تنظیم تعداد نماها</value></data>
+  <data name="undockToolStripMenuItem.Text" xml:space="preserve"><value>جدا کردن پنجره</value></data>
+  <data name="quickView1.ToolTip" xml:space="preserve"><value>برای تغییر دوبار کلیک کنید</value></data>
+  <data name="tabQuick.Text" xml:space="preserve"><value>دسترسی سریع</value></data>
+  <data name="BUT_SendMSG.Text" xml:space="preserve"><value>پیام</value></data>
+  <data name="BUT_SendMSG.ToolTip" xml:space="preserve"><value>ارسال پیام برای ذخیره در گزارش پرنده</value></data>
+  <data name="BUT_abortland.Text" xml:space="preserve"><value>لغو فرود</value></data>
+  <data name="BUT_abortland.ToolTip" xml:space="preserve"><value>فقط هواپیما</value></data>
+  <data name="BUT_clear_track.Text" xml:space="preserve"><value>پاک کردن رد مسیر</value></data>
+  <data name="BUT_clear_track.ToolTip" xml:space="preserve"><value>پاک کردن مسیر ثبت‌شده روی نقشه</value></data>
+  <data name="BUTactiondo.Text" xml:space="preserve"><value>اجرای اقدام</value></data>
+  <data name="BUTactiondo.ToolTip" xml:space="preserve"><value>اجرای اقدام سمت چپ</value></data>
+  <data name="BUT_resumemis.Text" xml:space="preserve"><value>ادامهٔ مأموریت</value></data>
+  <data name="CMB_setwp.Items" xml:space="preserve"><value>0 (خانه)</value></data>
+  <data name="BUT_ARM.Text" xml:space="preserve"><value>مسلح/غیرمسلح کردن</value></data>
+  <data name="BUT_ARM.ToolTip" xml:space="preserve"><value>مسلح کردن پرنده</value></data>
+  <data name="BUT_mountmode.Text" xml:space="preserve"><value>تنظیم پایهٔ دوربین</value></data>
+  <data name="BUT_mountmode.ToolTip" xml:space="preserve"><value>تغییر به حالت سمت چپ</value></data>
+  <data name="BUT_joystick.Text" xml:space="preserve"><value>جوی‌استیک</value></data>
+  <data name="BUT_joystick.ToolTip" xml:space="preserve"><value>تنظیم و فعال‌سازی جوی‌استیک</value></data>
+  <data name="BUT_RAWSensor.Text" xml:space="preserve"><value>نمای دادهٔ خام حسگر</value></data>
+  <data name="BUT_RAWSensor.ToolTip" xml:space="preserve"><value>مشاهدهٔ مقادیر خام ژیروسکوپ و شتاب‌سنج و ورودی/خروجی‌های خام رادیو</value></data>
+  <data name="BUT_Homealt.Text" xml:space="preserve"><value>تنظیم ارتفاع خانه</value></data>
+  <data name="BUT_Homealt.ToolTip" xml:space="preserve"><value>صفر کردن ارتفاع نمایشی فعلی؛ یعنی ارتفاع خانه صفر نشان داده می‌شود</value></data>
+  <data name="BUTrestartmission.Text" xml:space="preserve"><value>شروع دوبارهٔ مأموریت</value></data>
+  <data name="BUTrestartmission.ToolTip" xml:space="preserve"><value>مأموریت را از ابتدا شروع می‌کند</value></data>
+  <data name="BUT_quickrtl.Text" xml:space="preserve"><value>RTL</value></data>
+  <data name="BUT_quickrtl.ToolTip" xml:space="preserve"><value>تغییر حالت به RTL</value></data>
+  <data name="BUT_quickmanual.Text" xml:space="preserve"><value>پرسه‌زنی</value></data>
+  <data name="BUT_quickmanual.ToolTip" xml:space="preserve"><value>تغییر حالت به Manual/Stabilize</value></data>
+  <data name="BUT_setwp.Text" xml:space="preserve"><value>تنظیم نقطهٔ مسیر</value></data>
+  <data name="BUT_setwp.ToolTip" xml:space="preserve"><value>تغییر نقطهٔ مسیر هدف فعلی</value></data>
+  <data name="BUT_quickauto.Text" xml:space="preserve"><value>خودکار</value></data>
+  <data name="BUT_quickauto.ToolTip" xml:space="preserve"><value>تغییر حالت به Auto</value></data>
+  <data name="BUT_setmode.Text" xml:space="preserve"><value>تنظیم حالت</value></data>
+  <data name="BUT_setmode.ToolTip" xml:space="preserve"><value>تغییر به حالت سمت چپ</value></data>
+  <data name="tabActions.Text" xml:space="preserve"><value>اقدام‌ها</value></data>
+  <data name="tabPagemessages.Text" xml:space="preserve"><value>پیام‌ها</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>پرسه‌زنی</value></data>
+  <data name="myButton1.ToolTip" xml:space="preserve"><value>تغییر حالت به Manual/Stabilize</value></data>
+  <data name="myButton2.Text" xml:space="preserve"><value>RTL</value></data>
+  <data name="myButton2.ToolTip" xml:space="preserve"><value>تغییر حالت به RTL</value></data>
+  <data name="myButton3.Text" xml:space="preserve"><value>خودکار</value></data>
+  <data name="myButton3.ToolTip" xml:space="preserve"><value>تغییر حالت به Auto</value></data>
+  <data name="tabActionsSimple.Text" xml:space="preserve"><value>اقدام‌ها</value></data>
+  <data name="tabPagePreFlight.Text" xml:space="preserve"><value>پیش از پرواز</value></data>
+  <data name="Gspeed.ToolTip" xml:space="preserve"><value>برای تغییر بیشینه دوبار کلیک کنید</value></data>
+  <data name="tabGauges.Text" xml:space="preserve"><value>نشانگرها</value></data>
+  <data name="NACp_lbl.Text" xml:space="preserve"><value>NACp</value></data>
+  <data name="NIC_lbl.Text" xml:space="preserve"><value>NIC</value></data>
+  <data name="fault_clb.Items" xml:space="preserve"><value>نیاز به سرویس</value></data>
+  <data name="fault_clb.Items1" xml:space="preserve"><value>GPS در دسترس نیست</value></data>
+  <data name="fault_clb.Items2" xml:space="preserve"><value>GPS بدون تثبیت موقعیت</value></data>
+  <data name="fault_clb.Items3" xml:space="preserve"><value>خرابی سامانهٔ فرستنده</value></data>
+  <data name="fault_clb.Items4" xml:space="preserve"><value>روی زمین</value></data>
+  <data name="XPDRConnect_btn.Text" xml:space="preserve"><value>اتصال به ترانسپوندر</value></data>
+  <data name="Squawk_label.Text" xml:space="preserve"><value>کد اسکوآک</value></data>
+  <data name="FlightID_label.Text" xml:space="preserve"><value>شناسهٔ پرواز</value></data>
+  <data name="IDENT_btn.Text" xml:space="preserve"><value>IDENT</value></data>
+  <data name="ALT_btn.Text" xml:space="preserve"><value>ALT</value></data>
+  <data name="STBY_btn.Text" xml:space="preserve"><value>STBY</value></data>
+  <data name="ON_btn.Text" xml:space="preserve"><value>روشن</value></data>
+  <data name="Mode_clb.Items" xml:space="preserve"><value>حالت A</value></data>
+  <data name="Mode_clb.Items1" xml:space="preserve"><value>حالت C</value></data>
+  <data name="Mode_clb.Items2" xml:space="preserve"><value>حالت S</value></data>
+  <data name="Mode_clb.Items3" xml:space="preserve"><value>1090ES ADS-B OUT</value></data>
+  <data name="tabTransponder.Text" xml:space="preserve"><value>ترانسپوندر</value></data>
+  <data name="tabStatus.Text" xml:space="preserve"><value>وضعیت</value></data>
+  <data name="tabServo.Text" xml:space="preserve"><value>سروو/رله</value></data>
+  <data name="tabAuxFunction.Text" xml:space="preserve"><value>عملکرد کمکی</value></data>
+  <data name="checkBoxRedirectOutput.Text" xml:space="preserve"><value>هدایت خروجی برنامه</value></data>
+  <data name="BUT_edit_selected.Text" xml:space="preserve"><value>ویرایش اسکریپت انتخاب‌شده</value></data>
+  <data name="labelSelectedScript.Text" xml:space="preserve"><value>اسکریپت انتخاب‌شده: هیچ‌کدام</value></data>
+  <data name="BUT_run_script.Text" xml:space="preserve"><value>اجرای اسکریپت</value></data>
+  <data name="BUT_abort_script.Text" xml:space="preserve"><value>توقف اسکریپت در حال اجرا</value></data>
+  <data name="labelScriptStatus.Text" xml:space="preserve"><value>وضعیت اسکریپت: اسکریپتی در حال اجرا نیست</value></data>
+  <data name="BUT_select_script.Text" xml:space="preserve"><value>انتخاب اسکریپت</value></data>
+  <data name="tabScripts.Text" xml:space="preserve"><value>اسکریپت‌ها</value></data>
+  <data name="BUT_GimbalVideo.Text" xml:space="preserve"><value>کنترل ویدئو</value></data>
+  <data name="groupBoxRoll.Text" xml:space="preserve"><value>رول</value></data>
+  <data name="groupBoxYaw.Text" xml:space="preserve"><value>چرخش افقی</value></data>
+  <data name="BUT_resetGimbalPos.Text" xml:space="preserve"><value>بازنشانی موقعیت</value></data>
+  <data name="groupBoxPitch.Text" xml:space="preserve"><value>چرخش عمودی</value></data>
+  <data name="tabPayload.Text" xml:space="preserve"><value>کنترل محموله</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>سرعت</value></data>
+  <data name="BUT_speed10.Text" xml:space="preserve"><value>10x</value></data>
+  <data name="BUT_speed5.Text" xml:space="preserve"><value>5x</value></data>
+  <data name="BUT_speed2.Text" xml:space="preserve"><value>2x</value></data>
+  <data name="BUT_speed1.Text" xml:space="preserve"><value>1x</value></data>
+  <data name="BUT_loadtelem.Text" xml:space="preserve"><value>بارگذاری گزارش</value></data>
+  <data name="lbl_playbackspeed.Text" xml:space="preserve"><value>x 1.0</value></data>
+  <data name="BUT_log2kml.Text" xml:space="preserve"><value>تبدیل Tlog به Kml یا نمودار</value></data>
+  <data name="BUT_playlog.Text" xml:space="preserve"><value>پخش/مکث</value></data>
+  <data name="tabTLogs.Text" xml:space="preserve"><value>گزارش‌های تله‌متری</value></data>
+  <data name="BUT_DFMavlink.Text" xml:space="preserve"><value>بارگیری گزارش DataFlash از طریق MAVLink</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>زمین‌مرجع کردن تصاویر</value></data>
+  <data name="BUT_logbrowse.Text" xml:space="preserve"><value>بررسی گزارش</value></data>
+  <data name="BUT_matlab.Text" xml:space="preserve"><value>ایجاد فایل Matlab</value></data>
+  <data name="but_bintolog.Text" xml:space="preserve"><value>تبدیل .Bin به .Log</value></data>
+  <data name="but_dflogtokml.Text" xml:space="preserve"><value>ایجاد KML + gpx</value></data>
+  <data name="BUT_loganalysis.Text" xml:space="preserve"><value>تحلیل خودکار</value></data>
+  <data name="tablogbrowse.Text" xml:space="preserve"><value>گزارش‌های DataFlash</value></data>
+  <data name="goHereToolStripMenuItem.Text" xml:space="preserve"><value>پرواز به اینجا</value></data>
+  <data name="flyToHereAltToolStripMenuItem.Text" xml:space="preserve"><value>ارتفاع پرواز به اینجا</value></data>
+  <data name="flyToCoordsToolStripMenuItem.Text" xml:space="preserve"><value>پرواز به مختصات</value></data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve"><value>حذف</value></data>
+  <data name="saveFileToolStripMenuItem.Text" xml:space="preserve"><value>ذخیرهٔ فایل</value></data>
+  <data name="loadFileToolStripMenuItem.Text" xml:space="preserve"><value>بارگذاری فایل</value></data>
+  <data name="poiatcoordsToolStripMenuItem.Text" xml:space="preserve"><value>مختصات</value></data>
+  <data name="addPoiToolStripMenuItem.Text" xml:space="preserve"><value>افزودن نقطهٔ موردنظر</value></data>
+  <data name="pointCameraHereToolStripMenuItem.Text" xml:space="preserve"><value>نشانه‌روی دوربین به اینجا</value></data>
+  <data name="PointCameraCoordsToolStripMenuItem1.Text" xml:space="preserve"><value>مختصات نشانه‌روی دوربین</value></data>
+  <data name="triggerCameraToolStripMenuItem.Text" xml:space="preserve"><value>عکس‌برداری همین حالا</value></data>
+  <data name="flightPlannerToolStripMenuItem.Text" xml:space="preserve"><value>برنامه‌ریز پرواز</value></data>
+  <data name="setEKFHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>تنظیم مبدأ EKF در اینجا</value></data>
+  <data name="setHomeHereToolStripMenuItem1.Text" xml:space="preserve"><value>تنظیم خانه در اینجا</value></data>
+  <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>تنظیم خانه در اینجا</value></data>
+  <data name="takeOffToolStripMenuItem.Text" xml:space="preserve"><value>برخاست</value></data>
+  <data name="onOffCameraOverlapToolStripMenuItem.Text" xml:space="preserve"><value>هم‌پوشانی دوربین</value></data>
+  <data name="jumpToTagToolStripMenuItem.Text" xml:space="preserve"><value>پرش به برچسب</value></data>
+  <data name="gimbalVideoFullSizedToolStripMenuItem.Text" xml:space="preserve"><value>اندازهٔ کامل</value></data>
+  <data name="gimbalVideoMiniToolStripMenuItem.Text" xml:space="preserve"><value>کوچک</value></data>
+  <data name="gimbalVideoPopOutToolStripMenuItem.Text" xml:space="preserve"><value>باز کردن در پنجرهٔ جدا</value></data>
+  <data name="gimbalVideoToolStripMenuItem.Text" xml:space="preserve"><value>ویدئوی گیمبال</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>بزرگ‌نمایی</value></data>
+  <data name="but_disablejoystick.Text" xml:space="preserve"><value>غیرفعال کردن جوی‌استیک</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>تغییر سطح بزرگ‌نمایی</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>رد مسیر GPS (سیاه)</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>سمت هدف</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>مسیر مستقیم به نقطهٔ مسیر فعلی</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>سمت فعلی</value></data>
+  <data name="lbl_hdop.Text" xml:space="preserve"><value>hdop: 0</value></data>
+  <data name="lbl_hdop.ToolTip" xml:space="preserve"><value>HDOP گیرندهٔ GPS</value></data>
+  <data name="lbl_sats.Text" xml:space="preserve"><value>ماهواره‌ها: ۰</value></data>
+  <data name="lbl_sats.ToolTip" xml:space="preserve"><value>تعداد ماهواره‌ها</value></data>
+  <data name="CHK_autopan.Text" xml:space="preserve"><value>جابه‌جایی خودکار نقشه</value></data>
+  <data name="CHK_autopan.ToolTip" xml:space="preserve"><value>نقشه را بر اساس موقعیت فعلی به‌طور خودکار جابه‌جا می‌کند</value></data>
+  <data name="CB_tuning.Text" xml:space="preserve"><value>تنظیم</value></data>
+  <data name="CB_tuning.ToolTip" xml:space="preserve"><value>نمایش نمودار تنظیم، شامل وضعیت زاویه‌ای هدف در برابر مقدار واقعی</value></data>
+  <data name="openScriptDialog.Filter" xml:space="preserve"><value>فایل‌های پایتون|*.py|همهٔ فایل‌ها|*.*</value></data>
+</root>

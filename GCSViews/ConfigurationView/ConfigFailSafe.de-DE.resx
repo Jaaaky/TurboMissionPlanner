@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,79 +118,82 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="mavlinkCheckBoxthr_fs_action.Text" xml:space="preserve">
-    <value>Aktion Schub Failsafe</value>
+    <value>Aktion bei Gas-Failsafe</value>
   </data>
   <data name="lbl_currentmode.Text" xml:space="preserve">
     <value>Manuell</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.ToolTip" xml:space="preserve">
-    <value>Aus, keine Aktion, An, RTL</value>
+    <value>Aus: keine Aktion; Ein: RTL</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Servo/Motor-Ausgang</value>
+    <value>Servo-/Motorausgang</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.Text" xml:space="preserve">
-    <value>Langer FailSafe (20 sec)</value>
+    <value>Langer Failsafe (20 s)</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>FS PWM</value>
+    <value>Failsafe-PWM</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.Text" xml:space="preserve">
-    <value>Schub FailSafe (FS)</value>
+    <value>Gas-Failsafe</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>RC-Steuerung-Eingang</value>
+    <value>RC-Eingang</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.ToolTip" xml:space="preserve">
-    <value>FailSafe (FS) bei GCS-Kommunikationsverlust</value>
+    <value>Failsafe bei Verlust der Verbindung zur Bodenstation aktivieren</value>
   </data>
   <data name="mavlinkCheckBoxshort_fs.ToolTip" xml:space="preserve">
-    <value>Aus, keine Aktion, An, RTL</value>
+    <value>Aus: keine Aktion; Ein: RTL</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Batterie</value>
+    <value>Akku</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Niedriger Ladestand</value>
+    <value>Niedriger Akkustand</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Reserve mAh</value>
+    <value>Restkapazität (mAh)</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>RC-Steuerung</value>
+    <value>Fernsteuerung</value>
   </data>
   <data name="mavlinkNumericUpDownlow_voltage.ToolTip" xml:space="preserve">
-    <value>Niedrig Spannung Trigger</value>
+    <value>Unterspannungsschwelle</value>
   </data>
   <data name="lbl_gpslock.Text" xml:space="preserve">
-    <value>Kein 'GPS Lock'</value>
+    <value>Kein GPS-Fix</value>
   </data>
   <data name="mavlinkCheckBoxshort_fs.Text" xml:space="preserve">
-    <value>Kurzer FailSafe (1 sec)</value>
+    <value>Kurzer Failsafe (1 s)</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs_action.ToolTip" xml:space="preserve">
-    <value>Arducopter Auto: Aus, keine Aktion, An, RTL 
-Arducopter Andere: Wenn GPS verfügbar, RTL, ansonsten landen</value>
+    <value>ArduCopter AUTO: Aus: keine Aktion; Ein: RTL
+ArduCopter, andere Modi: mit GPS RTL, sonst Landen</value>
   </data>
   <data name="mavlinkNumericUpDownfs_thr_value.ToolTip" xml:space="preserve">
-    <value>Schub einschalten - PWM</value>
+    <value>Gas-PWM-Auslöseschwelle</value>
   </data>
   <data name="mavlinkCheckBoxFS_GCS_ENABLE.Text" xml:space="preserve">
-    <value>GCS FS aktiviert</value>
+    <value>GCS-Failsafe aktivieren</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.ToolTip" xml:space="preserve">
-    <value>FailSafe bei niedrigem Schub-PWM aktivieren</value>
+    <value>Failsafe bei niedrigem Gas-PWM aktivieren</value>
   </data>
   <data name="lbl_armed.Text" xml:space="preserve">
-    <value>Unscharf</value>
+    <value>Entschärft</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.Text" xml:space="preserve">
-    <value>GCS FailSafe (FS)</value>
+    <value>GCS-Failsafe</value>
   </data>
   <data name="mavlinkNumericUpDownthr_fs_value.ToolTip" xml:space="preserve">
-    <value>Schub einschalten- PWM</value>
+    <value>Gas-PWM-Auslöseschwelle</value>
   </data>
   <data name="mavlinkComboBox_fs_thr_enable.ToolTip" xml:space="preserve">
-    <value>FailSafe (FS) bei niedrigem PWM</value>
+    <value>Failsafe-Modus bei niedrigem PWM</value>
   </data>
+  <data name="LNK_wiki.Text" xml:space="preserve"><value>Wiki</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>GCS</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Unterspannungsdauer</value></data>
 </root>

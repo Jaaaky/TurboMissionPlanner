@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,39 +118,60 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label10.Text" xml:space="preserve">
-    <value>Max Norma</value>
+    <value>Maks. bucaq sürəti</value>
   </data>
   <data name="mavlinkCheckBox1.Text" xml:space="preserve">
-    <value>Əksinə</value>
+    <value>Tərsinə çevir</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Növü</value>
+    <value>Növ</value>
   </data>
   <data name="mavlinkCheckBox2.Text" xml:space="preserve">
-    <value>Əksinə</value>
+    <value>Tərsinə çevir</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>Neytral</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Növü</value>
+    <value>Növ</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>Max (derece)</value>
+    <value>Maks. (dərəcə)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Neytral</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>Qurmaq Gain</value>
+    <value>Tanqaj gücləndirmə əmsalı</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Yaw Hərəkət aralığı</value>
+    <value>Kurs üzrə hərəkət diapazonu</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Range (derece)</value>
+    <value>Diapazon (dərəcə)</value>
   </data>
   <data name="groupBox22.Text" xml:space="preserve">
-    <value>Orientasiya Panosu</value>
+    <value>Platanın istiqaməti</value>
   </data>
+  <data name="BUT_test_yaw.Text" xml:space="preserve"><value>Sınaq</value></data>
+  <data name="label90.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="label91.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="groupBox25.Text" xml:space="preserve"><value>Kurs servosu</value></data>
+  <data name="BUT_test_pitch.Text" xml:space="preserve"><value>Sınaq</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Tanqaj servosu</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Min. (dərəcə)</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Tanqaj üzrə hərəkət diapazonu</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Maks. bucaq sürəti</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label88.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>Kurs gücləndirmə əmsalı</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Hündürlük mənbəyi</value></data>
 </root>

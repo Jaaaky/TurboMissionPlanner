@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,9 +130,9 @@
     <value>舵机/电机输出</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>注意：
-当通过Xbee
-@ 50hz查看时有延时</value>
+    <value>注意：通过 XBee 以
+50 Hz 查看时
+会有延迟</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>遥控输入</value>

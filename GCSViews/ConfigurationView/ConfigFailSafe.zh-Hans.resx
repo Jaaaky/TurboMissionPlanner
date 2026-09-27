@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -143,7 +143,7 @@
     <value />
   </data>
   <data name="mavlinkNumericUpDownlow_voltage.ToolTip" xml:space="preserve">
-    <value>低电压触发器</value>
+    <value>低电压触发阈值</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 16</value>
@@ -179,13 +179,14 @@
     <value>油门故障保护动作</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs_action.ToolTip" xml:space="preserve">
-    <value>Arducopter自动：关，无动作，开，返航 Arducopter其他：如果有GPS，返航，否则降落</value>
+    <value>ArduCopter 自动模式：关闭时不采取动作，开启时返航
+ArduCopter 其他模式：有 GPS 定位时返航，否则降落</value>
   </data>
   <data name="mavlinkNumericUpDownfs_thr_value.ToolTip" xml:space="preserve">
-    <value>触发器油门Pwm</value>
+    <value>油门 PWM 触发阈值</value>
   </data>
   <data name="mavlinkNumericUpDownthr_fs_value.ToolTip" xml:space="preserve">
-    <value>触发器油门Pwm</value>
+    <value>油门 PWM 触发阈值</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 16</value>
@@ -197,7 +198,7 @@
     <value>在低油门pwm时启用故障保护</value>
   </data>
   <data name="mavlinkComboBox_fs_thr_enable.ToolTip" xml:space="preserve">
-    <value>触发器油门Pwm</value>
+    <value>低 PWM 时的故障保护模式</value>
   </data>
   <data name="mavlinkComboBoxfs_batt_enable.ToolTip" xml:space="preserve">
     <value />
@@ -239,7 +240,7 @@
     <value>71, 12</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>故障保护Pwm</value>
+    <value>故障保护 PWM</value>
   </data>
   <data name="label3.ToolTip" xml:space="preserve">
     <value />
@@ -248,7 +249,7 @@
     <value />
   </data>
   <data name="lbl_armed.Text" xml:space="preserve">
-    <value>锁定</value>
+    <value>已锁定</value>
   </data>
   <data name="lbl_armed.ToolTip" xml:space="preserve">
     <value />
@@ -308,7 +309,7 @@
     <value />
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>电台</value>
+    <value>遥控</value>
   </data>
   <data name="groupBox2.ToolTip" xml:space="preserve">
     <value />
@@ -328,4 +329,6 @@
   <data name="$this.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="LNK_wiki.Text" xml:space="preserve"><value>帮助文档</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>低电压持续时间</value></data>
 </root>

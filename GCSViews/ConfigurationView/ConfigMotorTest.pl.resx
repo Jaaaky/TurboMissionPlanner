@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Gaz %</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>UWAGA: PRZYTRZYMAJ POJAZD
+Test sprawdzi działanie silników.
+Silniki są testowane zgodnie z ruchem wskazówek zegara,
+zaczynając od prawego przedniego.</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>Kliknij tutaj, aby sprawdzić numerację silników.
+Przewiń stronę na sam dół.</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Czas trwania (s)</value></data>
+  <data name="FrameType.Text" xml:space="preserve"><value>Typ: nieznany</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>Klasa: nieznana</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Ustaw minimalny procent sygnału wyjściowego podczas lotu</value></data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve"><value>Ustaw min. obroty w locie</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Ustaw minimalny procent sygnału po uzbrojeniu, gdy pojazd jest jeszcze na ziemi</value></data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve"><value>Ustaw obroty po uzbrojeniu</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Test silników</value></data>
+</root>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label44.Text" xml:space="preserve"><value>最低快門速度：</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>地面海拔：</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>轉彎直徑 (45 度傾斜)：</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>拍照間隔 (估計)：</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>飛行時間 (估計)：</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>航線間距：</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>影像覆蓋範圍：</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>航帶數量：</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>照片數量：</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>地面解析度： </value></data>
+  <data name="label27.Text" xml:space="preserve"><value>拍攝間距： </value></data>
+  <data name="label23.Text" xml:space="preserve"><value>距離： </value></data>
+  <data name="label22.Text" xml:space="preserve"><value>面積： </value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>統計資料</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>伺服機</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>PWM 高值</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>PWM 低值</value></data>
+  <data name="rad_do_set_servo.Text" xml:space="preserve"><value>DO_SET_SERVO</value></data>
+  <data name="chk_stopstart.Text" xml:space="preserve"><value>分段啟停拍攝</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>PWM</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>週期時間 [s]</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>伺服機</value></data>
+  <data name="rad_digicam.Text" xml:space="preserve"><value>DO_DIGICAM_CONTROL</value></data>
+  <data name="rad_repeatservo.Text" xml:space="preserve"><value>DO_REPEAT_SERVO</value></data>
+  <data name="rad_trigdist.Text" xml:space="preserve"><value>CAM_TRIGG_DIST</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>觸發方式</value></data>
+  <data name="BUT_samplephoto.Text" xml:space="preserve"><value>載入範例照片</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>計算值</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>垂直視野 [m]</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>水平視野 [m]</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>cm/像素</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>感光元件高度 [mm]</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>感光元件寬度 [mm]</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>影像高度 [像素]</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>影像寬度 [像素]</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>焦距 [mm]</value></data>
+  <data name="BUT_save.Text" xml:space="preserve"><value>儲存</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>相機選項</value></data>
+  <data name="tabCamera.Text" xml:space="preserve"><value>相機設定</value></data>
+  <data name="LBL_laps.Text" xml:space="preserve"><value>圈數</value></data>
+  <data name="CHK_match_spiral_perimeter.Text" xml:space="preserve"><value>外圍貼合多邊形</value></data>
+  <data name="LBL_clockwise_laps.Text" xml:space="preserve"><value>順時針圈數</value></data>
+  <data name="LBL_clockwise_laps1.Text" xml:space="preserve"><value>(-1 為順時針螺旋)</value></data>
+  <data name="groupBoxSpiral.Text" xml:space="preserve"><value>螺旋選項</value></data>
+  <data name="chk_optimize_for_distance.Text" xml:space="preserve"><value>最佳化飛行距離</value></data>
+  <data name="LBL_Alternating_lanes.Text" xml:space="preserve"><value>交錯航線</value></data>
+  <data name="LBL_Lane_Dist.Text" xml:space="preserve"><value>最小航線間隔</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>固定翼選項</value></data>
+  <data name="chk_spline.Text" xml:space="preserve"><value>使用樣條曲線進出</value></data>
+  <data name="CHK_copter_headingholdlock.Text" xml:space="preserve"><value>解除與網格的連動</value></data>
+  <data name="CHK_copter_headinghold.Text" xml:space="preserve"><value>保持航向</value></data>
+  <data name="LBL_copter_delay.Text" xml:space="preserve"><value>航點停留時間 (秒)</value></data>
+  <data name="groupBox_copter.Text" xml:space="preserve"><value>多旋翼選項</value></data>
+  <data name="chk_spiral.Text" xml:space="preserve"><value>螺旋</value></data>
+  <data name="chk_Corridor.Text" xml:space="preserve"><value>走廊</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>走廊寬度 [m]</value></data>
+  <data name="chk_crossgrid.Text" xml:space="preserve"><value>交叉網格</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>進入延伸距離 [m]</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>航向重疊率 [%]</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>起點</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>旁向重疊率 [%]</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>超出距離 [m]</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>航線間距 [m]</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>網格選項</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>拍照間距 [m]</value></data>
+  <data name="tabGrid.Text" xml:space="preserve"><value>網格選項</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Ctrl+S 儲存至檔案
+Ctrl+O 從檔案載入</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>分割為 x 段</value></data>
+  <data name="CHK_usespeed.Text" xml:space="preserve"><value>此任務使用指定速度</value></data>
+  <data name="CHK_toandland_RTL.Text" xml:space="preserve"><value>使用返航</value></data>
+  <data name="CHK_toandland.Text" xml:space="preserve"><value>新增起飛與降落航點</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>飛行速度 (估計)</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>相機</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>角度 [度]</value></data>
+  <data name="CHK_camdirection.Text" xml:space="preserve"><value>相機頂部朝前</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>高度</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>簡易選項</value></data>
+  <data name="CHK_advanced.Text" xml:space="preserve"><value>進階選項</value></data>
+  <data name="CHK_footprints.Text" xml:space="preserve"><value>影像覆蓋範圍</value></data>
+  <data name="CHK_internals.Text" xml:space="preserve"><value>內部線段</value></data>
+  <data name="CHK_grid.Text" xml:space="preserve"><value>網格</value></data>
+  <data name="CHK_markers.Text" xml:space="preserve"><value>標記</value></data>
+  <data name="CHK_boundary.Text" xml:space="preserve"><value>邊界</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>顯示</value></data>
+  <data name="BUT_Accept.Text" xml:space="preserve"><value>接受</value></data>
+  <data name="tabSimple.Text" xml:space="preserve"><value>簡易</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>測繪 (網格)</value></data>
+</root>

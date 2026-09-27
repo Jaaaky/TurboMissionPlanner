@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label22.Text" xml:space="preserve"><value>馬達類型</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>最大油門 (%)</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>最小油門 (%)</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>油門與馬達</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>巡航速度</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>巡航油門</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>煞車</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>最大加速度 (m/s/s)</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox14.Text" xml:space="preserve"><value>速度/油門</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>寫入參數</value></data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>重新讀取參數</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>航點速度</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>側向加速度控制阻尼</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>側向加速度控制週期</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>航點超越量</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>航點半徑</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>最大轉彎 G 值</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>導航</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>FF</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>轉向角速度</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>聲納去抖動</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>轉彎時間</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>轉彎角度</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>觸發距離 (cm)</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>避障</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>轉彎半徑</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>轉向模式</value></data>
+  <data name="BUT_refreshpart.Text" xml:space="preserve"><value>重新整理畫面</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>RC7 選項</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>RC8 選項</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>RC9 選項</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>RC10 選項</value></data>
+</root>

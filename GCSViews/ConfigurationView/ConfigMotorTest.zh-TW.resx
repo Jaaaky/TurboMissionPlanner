@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>油門 %</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>注意：請固定好無人機
+此功能將測試馬達是否正常運作。
+馬達會從右前方開始，
+依順時針順序測試。</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>按此查看馬達編號，
+請捲動至網頁底部</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>持續時間 (s)</value></data>
+  <data name="FrameType.Text" xml:space="preserve"><value>類型：未知</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>類別：未知</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>設定飛行時的最低輸出百分比</value></data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve"><value>設定馬達最低轉速</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>設定已解鎖但仍在地面時的最低輸出百分比</value></data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve"><value>設定馬達解鎖轉速</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>馬達測試</value></data>
+</root>

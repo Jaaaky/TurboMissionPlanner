@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,58 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Climb Max (m/s)</value>
+    <value>Laju Tanjak Maks (m/s)</value>
   </data>
   <data name="label49.Text" xml:space="preserve">
     <value>INT_MAX</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Period</value>
+    <value>Periode</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Pitch Dampening</value>
+    <value>Peredaman Pitch</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Sink Min (m/s)</value>
+    <value>Laju Turun Min (m/s)</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Time Const</value>
+    <value>Konstanta Waktu</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Sink Max (m/s)</value>
+    <value>Laju Turun Maks (m/s)</value>
   </data>
   <data name="label83.Text" xml:space="preserve">
-    <value>P to T</value>
+    <value>P ke T</value>
   </data>
   <data name="label56.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>FBW max</value>
+    <value>Maks</value>
   </data>
   <data name="label54.Text" xml:space="preserve">
     <value>D</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>FBW min</value>
+    <value>Min</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
-    <value>Servo Roll Pid</value>
+    <value>PID Servo Roll</value>
   </data>
   <data name="label57.Text" xml:space="preserve">
-    <value>Intergrator Max</value>
+    <value>Integrator Maks</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>Servo Pitch Pid</value>
+    <value>PID Servo Pitch</value>
   </data>
   <data name="label52.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Ratio</value>
+    <value>Rasio</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks</value>
   </data>
   <data name="label55.Text" xml:space="preserve">
     <value>I</value>
@@ -181,10 +181,10 @@
     <value>Min</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>L1 Control - Turn Control</value>
+    <value>Kendali L1 - Kendali Belokan</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Cruise</value>
+    <value>Jelajah</value>
   </data>
   <data name="label53.Text" xml:space="preserve">
     <value>INT_MAX</value>
@@ -193,10 +193,10 @@
     <value>TECS</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>SlewRate</value>
+    <value>Laju Perubahan</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Navigation Angles</value>
+    <value>Sudut Navigasi</value>
   </data>
   <data name="label51.Text" xml:space="preserve">
     <value>I</value>
@@ -205,16 +205,16 @@
     <value>Throttle 0-100%</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Cruise</value>
+    <value>Jelajah</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Airspeed m/s</value>
+    <value>Kecepatan Udara m/s</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Damping</value>
+    <value>Peredaman</value>
   </data>
   <data name="label58.Text" xml:space="preserve">
-    <value>Dampening</value>
+    <value>Peredaman</value>
   </data>
   <data name="label65.Text" xml:space="preserve">
     <value>INT_MAX</value>
@@ -229,16 +229,16 @@
     <value>I</value>
   </data>
   <data name="label60.Text" xml:space="preserve">
-    <value>Yaw 2 roll</value>
+    <value>Yaw ke Roll</value>
   </data>
   <data name="groupBox16.Text" xml:space="preserve">
-    <value>Other Mix's</value>
+    <value>Pencampuran Lain</value>
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
-    <value>Energy/Alt Pid</value>
+    <value>PID Energi/Ketinggian</value>
   </data>
   <data name="groupBox12.Text" xml:space="preserve">
-    <value>Nav Pitch AS Pid</value>
+    <value>PID Pitch Navigasi Kecepatan Udara</value>
   </data>
   <data name="label68.Text" xml:space="preserve">
     <value>P</value>
@@ -250,13 +250,13 @@
     <value>Servo Yaw</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
-    <value>Nav Pitch Alt Pid</value>
+    <value>PID Pitch Navigasi Ketinggian</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>Pitch Max</value>
+    <value>Pitch Maks</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>Bank Max</value>
+    <value>Kemiringan Maks</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
     <value>Pitch Min</value>
@@ -283,15 +283,15 @@
     <value>INT_MAX</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Write Params</value>
+    <value>Tulis Parameter</value>
   </data>
   <data name="label78.Text" xml:space="preserve">
-    <value>Rudder Mix</value>
+    <value>Pencampuran Rudder</value>
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
-    <value>Refresh Screen</value>
+    <value>Segarkan Layar</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Refresh Params</value>
+    <value>Segarkan Parameter</value>
   </data>
 </root>

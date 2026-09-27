@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Gas %</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>NOTA: TENERE SALDAMENTE FERMO L'UAV
+Questo test verifica il funzionamento dei motori.
+I motori vengono provati in senso orario,
+a partire da quello anteriore destro.</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>Fare clic qui per vedere la numerazione dei motori,
+quindi scorrere fino in fondo alla pagina</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Durata (s)</value></data>
+  <data name="FrameType.Text" xml:space="preserve"><value>Tipo: sconosciuto</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>Classe: sconosciuta</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Imposta la percentuale minima di uscita durante il volo</value></data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve"><value>Imposta rotazione minima motori</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Imposta la percentuale minima di uscita a veicolo armato ma ancora a terra</value></data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve"><value>Imposta rotazione motori all'armamento</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Test motori</value></data>
+</root>

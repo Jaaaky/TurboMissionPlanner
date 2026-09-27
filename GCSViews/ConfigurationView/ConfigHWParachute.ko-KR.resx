@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -403,7 +403,7 @@
     <value>label2</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>배치 PWM</value>
+    <value>전개 PWM</value>
   </data>
   <data name="&gt;&gt;mavlinkNumericUpDownResting.ZOrder" xml:space="preserve">
     <value>3</value>

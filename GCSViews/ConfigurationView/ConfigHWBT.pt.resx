@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,6 +121,10 @@
     <value>Nome</value>
   </data>
   <data name="BUT_btsettings.Text" xml:space="preserve">
-    <value>Salvar Ajustes</value>
+    <value>Salvar configurações</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>Bluetooth</value></data>
+  <data name="txt_name.Text" xml:space="preserve"><value>ArduPilot</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Velocidade de transmissão</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Pino</value></data>
 </root>

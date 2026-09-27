@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,12 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>Log</value>
+    <value>Dziennik</value>
   </data>
   <data name="BUT_redokml.Text" xml:space="preserve">
-    <value>Utwórz KML</value>
+    <value>Utwórz KML + GPX</value>
   </data>
   <data name="BUT_humanreadable.Text" xml:space="preserve">
     <value>Konwertuj do tekstu</value>
   </data>
+  <data name="BUT_graphmavlog.Text" xml:space="preserve"><value>Wykres dziennika</value></data>
+  <data name="BUT_convertcsv.Text" xml:space="preserve"><value>Konwertuj do CSV</value></data>
+  <data name="BUT_paramsfromlog.Text" xml:space="preserve"><value>Wyodrębnij parametry</value></data>
+  <data name="BUT_getwpsfromlog.Text" xml:space="preserve"><value>Wyodrębnij punkty trasy</value></data>
+  <data name="BUT_matlab.Text" xml:space="preserve"><value>Utwórz plik MATLAB</value></data>
+  <data name="but_cs.Text" xml:space="preserve"><value>Wyodrębnij CS</value></data>
 </root>

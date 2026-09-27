@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,14 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>What this does.
-1. gets the current gps coords from a nmea gps.
-2. sends a guided mode WP to the AP every 2 seconds.
+    <value>Fonctionnement
+1. Lit les coordonnées actuelles d’un GPS NMEA.
+2. Envoie un point de passage en mode guidé au pilote automatique à la fréquence demandée (limitée par celle du GPS utilisé).
 
-How to use it
-1. connect to ap.
-2. take off, test guided mode is working.
-3. open this and pick your comport, and baud rate for your nmea gps.
-4. it should now be following you.</value>
+Utilisation
+1. Connectez-vous au pilote automatique.
+2. Décollez et vérifiez le fonctionnement du mode guidé.
+3. Ouvrez cette fenêtre et choisissez le port COM et le débit de votre GPS NMEA.
+4. L’appareil devrait maintenant vous suivre.
+REMARQUE : vous devez activer manuellement le mode guidé du pilote automatique.</value>
   </data>
 </root>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="groupBox5.Text" xml:space="preserve"><value>نوع سواش‌پلیت</value></data>
+  <data name="fbl_modeFBL.Text" xml:space="preserve"><value>بدون فلای‌بار</value></data>
+  <data name="H_SWASH_TYPE.Text" xml:space="preserve"><value>H1</value></data>
+  <data name="CCPM.Text" xml:space="preserve"><value>CCPM</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>پایین</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>نوع دم</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>سرعت روتور دم</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>بهره</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>بالا</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>صفر</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>بیشینه</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>کمینه</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>معکوس</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>تریم</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>سروو</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>تریم</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>معکوس</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>موقعیت</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>سروو</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>دامنهٔ حرکت سکان سمت</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>دامنهٔ حرکت کالکتیو</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>موقعیت سرووی سواش‌پلیت</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>پیش‌جبران کالکتیو</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>نرخ افزایش تدریجی RSC</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>بحرانی</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>زمان دورگیری (ثانیه)</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>نرخ (ثانیه)</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>نقطهٔ تنظیم حالت ۱</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>کنترل سرعت روتور</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>آزمایش سروو هنگام راه‌اندازی</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>رول پرواز درجا</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>جبران چرخش یاو</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>دامنهٔ حرکت سایکلیک</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>کالکتیو فرود</value></data>
+  <data name="myButtonH_SV_MANtest.Text" xml:space="preserve"><value>آزمایش</value></data>
+  <data name="myButtonH_SV_MANmin.Text" xml:space="preserve"><value>کمینه</value></data>
+  <data name="myButtonH_SV_MANzero.Text" xml:space="preserve"><value>صفر</value></data>
+  <data name="myButtonH_SV_MANmax.Text" xml:space="preserve"><value>بیشینه</value></data>
+  <data name="myButtonH_SV_MANmanual.Text" xml:space="preserve"><value>دستی</value></data>
+  <data name="myButtonH_SV_MAN.Text" xml:space="preserve"><value>فعال</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>حالت سروو</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>زاویهٔ فاز</value></data>
+  <data name="groupBox11.Text" xml:space="preserve"><value>خروجی گاز</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>معکوس</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>بیشینه</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>کمینه</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>منحنی V</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>توان بالا</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>توان پایین</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>دور آرام</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>منحنی</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>اکسپوی آکرو</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>تثبیت ۴</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>تثبیت ۳</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>تثبیت ۲</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>تثبیت ۱</value></data>
+</root>

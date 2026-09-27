@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,16 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="tabRawSensor.Text" xml:space="preserve">
-    <value>Sersor bruto</value>
+    <value>Dados brutos do sensor</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Sensor Bruto</value>
+    <value>Dados brutos do sensor</value>
   </data>
   <data name="CMB_rawupdaterate.Text" xml:space="preserve">
-    <value>Atualizar velociadae</value>
+    <value>Frequência de atualização</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Existe um delay quando visualizar via o Xbee @ 50Hz</value>
+    <value>Nota: existe um atraso
+na visualização via XBee
+a 50 Hz</value>
   </data>
   <data name="tabOrientation.Text" xml:space="preserve">
     <value>Dados de voo</value>
@@ -135,4 +137,13 @@
   <data name="BUT_savecsv.Text" xml:space="preserve">
     <value>Salvar CSV</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>Saída de servo/motor</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Entrada de rádio</value></data>
+  <data name="tabRadio.Text" xml:space="preserve"><value>Rádio</value></data>
+  <data name="chkax.Text" xml:space="preserve"><value>Acel. X</value></data>
+  <data name="chkay.Text" xml:space="preserve"><value>Acel. Y</value></data>
+  <data name="chkaz.Text" xml:space="preserve"><value>Acel. Z</value></data>
+  <data name="chkgx.Text" xml:space="preserve"><value>Giroscópio X</value></data>
+  <data name="chkgy.Text" xml:space="preserve"><value>Giroscópio Y</value></data>
+  <data name="chkgz.Text" xml:space="preserve"><value>Giroscópio Z</value></data>
 </root>

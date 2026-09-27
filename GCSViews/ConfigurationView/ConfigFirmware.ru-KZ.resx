@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -112,39 +112,50 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CMB_history_label.Text" xml:space="preserve">
-    <value>Выбрать предыдущую прошивку</value>
+  <data name="lbl_status.Text" xml:space="preserve">
+    <value>Состояние</value>
   </data>
-  <data name="lbl_devfw.Text" xml:space="preserve">
-    <value>Бета-прошивки</value>
-  </data>
-  <data name="lbl_dlfw.Text" xml:space="preserve">
-    <value>Скачать прошивку</value>
+  <data name="lbl_AP.Text" xml:space="preserve">
+    <value>ArduPlane</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Изобр. Max Levine</value>
+    <value>Иллюстрации: Max Levine</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Пожалуйста, нажмите на изображения, приведенные выше.</value>
+  <data name="lbl_APHil.Text" xml:space="preserve">
+    <value>ArduPlane (Xplane симулятор)</value>
   </data>
-  <data name="lbl_status.Text" xml:space="preserve">
-    <value>Статус</value>
+  <data name="lbl_ACQuad.Text" xml:space="preserve">
+    <value>ArduCopter Quad</value>
   </data>
-  <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Настройка двигателей коптера</value>
+  <data name="lbl_ACHexa.Text" xml:space="preserve">
+    <value>ArduCopter Hexa</value>
   </data>
-  <data name="lbl_Custom_firmware_label.Text" xml:space="preserve">
-    <value>Загрузка пользователь. прошивки</value>
+  <data name="lbl_ACTri.Text" xml:space="preserve">
+    <value>ArduCopter Tri</value>
   </data>
-  <data name="lbl_px4bl.Text" xml:space="preserve">
-    <value>Загрузчик Force PX4</value>
+  <data name="lbl_ACY6.Text" xml:space="preserve">
+    <value>ArduCopter Y6</value>
   </data>
-  <data name="lbl_licence.Text" xml:space="preserve">
-    <value>Ardupilot - бесплатное программное обеспечение. Нажмите здесь, чтобы прочитать лицензию на прошивку с открытым исходным кодом.</value>
+  <data name="lbl_Heli.Text" xml:space="preserve">
+    <value>ArduCopter Heli</value>
   </data>
+  <data name="lbl_ACHil.Text" xml:space="preserve">
+    <value>ArduCopter Quad (Симулятор)</value>
+  </data>
+  <data name="BUT_setup.Text" xml:space="preserve">
+    <value>Настройка автопилота</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve"><value>Нажмите на изображения выше, чтобы выбрать полётную прошивку</value></data>
+  <data name="CMB_history_label.Text" xml:space="preserve"><value>Выбрать предыдущую прошивку</value></data>
+  <data name="lbl_Custom_firmware_label.Text" xml:space="preserve"><value>Загрузить свою прошивку</value></data>
+  <data name="lbl_devfw.Text" xml:space="preserve"><value>Бета-прошивки</value></data>
+  <data name="lbl_dlfw.Text" xml:space="preserve"><value>Скачать прошивки</value></data>
+  <data name="lbl_px4bl.Text" xml:space="preserve"><value>Принудительный запуск загрузчика</value></data>
+  <data name="lbl_licence.Text" xml:space="preserve"><value>ArduPilot — свободное ПО. Нажмите здесь, чтобы прочитать лицензию прошивки с открытым исходным кодом.</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>Настройка двигателей коптера</value></data>
 </root>

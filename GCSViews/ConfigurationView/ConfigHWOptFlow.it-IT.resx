@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,9 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CHK_enableoptflow.Text" xml:space="preserve">
-    <value>Abilita Sensore Ottico</value>
+    <value>Abilita</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Sensore Ottico</value>
+    <value>Flusso ottico  </value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>Tipo</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Orientamento imbardata</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Scala FX</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Scala FY</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Posizione X</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Posizione Y</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Posizione Z</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>gradi, rispetto al veicolo</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>metri in avanti</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>metri a destra</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>metri verso il basso</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Posizione del sensore rispetto all'IMU</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Fattori di scala</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Forza altezza</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>metri dal suolo</value></data>
 </root>

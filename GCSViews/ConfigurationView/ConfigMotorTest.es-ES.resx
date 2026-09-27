@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Acelerador %</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>NOTA: SUJETE FIRMEMENTE EL UAV
+Esta prueba comprueba el funcionamiento de los motores.
+Se prueban en sentido horario,
+empezando por el delantero derecho.</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>Pulse aquí para consultar la numeración de los motores.
+Desplácese hasta el final de la página.</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Duración (s)</value></data>
+  <data name="FrameType.Text" xml:space="preserve"><value>Tipo: desconocido</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>Clase: desconocida</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Establecer el porcentaje mínimo de salida durante el vuelo</value></data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve"><value>Fijar giro mínimo de motores</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Establecer el porcentaje mínimo de salida con los motores armados y el vehículo aún en tierra</value></data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve"><value>Fijar giro de motores al armar</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Prueba de motores</value></data>
+</root>

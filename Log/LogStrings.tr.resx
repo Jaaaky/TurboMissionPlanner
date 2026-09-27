@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>Bir günlük dosyası indiriyorsunuz. İptal etmek istiyor musunuz?</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>Emin misiniz?</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>{0} için KML oluşturuluyor</value></data>
+  <data name="Done" xml:space="preserve"><value>Bitti</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>Günlük dosyaları şuraya indiriliyor: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>Silme işlemi için 30-90 saniye bekleyin!</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>Dosya işlenirken hata oluştu. Dosyanın kullanımda olmadığından emin olun.</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>{0} günlük dosyası alınıyor...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>Günlük dosyaları listesi alınıyor...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>Günlük dosyası dizini oluşturulamadı: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>İndirilecek günlük yok</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>Lütfen İHA'nızı bağlayın</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>Lütfen listedeki kutuları işaretleyerek günlükleri seçin</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>İşleniyor: {0}</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>{0} günlük dosyası bulundu. Not: Dosya boyutları tahminidir.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>Hata:</value></data>
+</root>

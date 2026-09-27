@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>Quello che fa.  #1. Ottiene le attuali coordinate GPS da un GPS NMEA.  #2. Invia una modalità WP guidata al AP ogni 2 secondi.       Come usarlo:   #1. connettersi al AP.    #2. decollare, la modalità guidata test sta funzionando.    #3. aprire questo e scegli la tua porta COM, il "baud rate" per il vostro GPS NMEA.   #4. ora dovrebbe seguirti.</value>
+    <value>Funzionamento
+1. Legge le coordinate attuali da un GPS NMEA.
+2. Invia all'autopilota un waypoint in modalità Guided alla frequenza richiesta (limitata dal GPS utilizzato).
+
+Utilizzo
+1. Connettersi all'autopilota.
+2. Decollare e verificare che la modalità Guided funzioni.
+3. Aprire questa finestra e selezionare la porta COM e il baud rate del GPS NMEA.
+4. Il veicolo dovrebbe ora seguirvi.
+NOTA: è necessario impostare manualmente l'autopilota in modalità Guided.</value>
   </data>
 </root>

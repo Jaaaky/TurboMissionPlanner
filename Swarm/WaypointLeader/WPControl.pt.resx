@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>Como Usar: 1. conecte todos os drones incluindo o principal (Clique com botão direito na barra de cima “opções de conexão”) 2. selecione o veiculo correto e clique setar o principal em terra  3. selecione o veiculo correto e clique setar o principal no ar  4. Carregue o caminho para o principal no ar. 5. Ajuste a separação e as opções para os seguidores  6. Permita que todos os drones sintonize o GPS e se caliber. (em caso de falha as verificações para armar falharão, isso não pode ser testado anteriormente para certificar uma operação suave)  7. Certifique-se que seu principal em terra está pronto e esperando o caminho do voo 8. Clique iniciar</value>
+    <value>Como utilizar:
+1. Conecte todos os drones, incluindo os líderes (clique com o botão direito na barra de ícones superior e selecione "Opções de conexão").
+2. Selecione o veículo correto e clique em Definir líder no solo.
+3. Selecione o veículo correto e clique em Definir líder aéreo.
+4. Envie o percurso para o drone líder aéreo.
+5. Defina a separação e as opções de liderança.
+6. Aguarde que todos os drones obtenham uma posição GPS e efetue a calibração. Caso contrário, poderão falhar as verificações pré-armamento. Pode testar isto antecipadamente para garantir uma operação sem problemas.
+7. Certifique-se de que o líder no solo está pronto e à espera no percurso de voo.
+8. Clique em Iniciar</value>
   </data>
 </root>

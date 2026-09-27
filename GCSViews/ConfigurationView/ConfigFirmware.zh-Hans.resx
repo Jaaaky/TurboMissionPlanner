@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -125,7 +125,7 @@
     <value>图片由Max Levine提供</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>请点击上方图片选择飞机种类</value>
+    <value>请单击上方图片选择对应的飞行器固件版本</value>
   </data>
   <data name="CMB_history_label.Text" xml:space="preserve">
     <value>选择以前的固件</value>
@@ -140,12 +140,12 @@
     <value>从网页下载固件</value>
   </data>
   <data name="lbl_px4bl.Text" xml:space="preserve">
-    <value>刷写PX4 Bootloader</value>
+    <value>强制进入引导程序</value>
   </data>
   <data name="lbl_licence.Text" xml:space="preserve">
     <value>Ardupilot是自由软件。点击这里阅读开源固件许可。</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>飞行器电机安装</value>
+    <value>多旋翼电机设置</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,67 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>L'uso scorreto di questa interfaccia potrebbe danneggiare il vostro Servo, usa con cautela!!!!</value>
+    <value>L'uso improprio di questa interfaccia può danneggiare i servi. Usare con cautela!</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Angle</value>
+    <value>Angolo</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Center PWM</value>
+    <value>PWM centrale</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Angle</value>
+    <value>Angolo</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Center PWM</value>
+    <value>PWM centrale</value>
   </data>
   <data name="BUT_find.Text" xml:space="preserve">
-    <value>Trova Trim Pan (Sik Radio)</value>
+    <value>Trova trim panoramica (radio SiK)</value>
   </data>
   <data name="LBL_tilttrim.Text" xml:space="preserve">
-    <value>Angle</value>
+    <value>Angolo</value>
   </data>
   <data name="LBL_pantrim.Text" xml:space="preserve">
-    <value>Angle</value>
+    <value>Angolo</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Pan</value>
+    <value>Panoramica</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Trim</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Interface</value>
+    <value>Interfaccia</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Trim</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Tilt</value>
+    <value>Inclinazione</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Range</value>
+    <value>Escursione</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Range</value>
+    <value>Escursione</value>
   </data>
   <data name="CMB_interface.Text" xml:space="preserve">
     <value>Maestro</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>PWM</value>
+    <value>Intervallo PWM</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>PWM</value>
+    <value>Intervallo PWM</value>
   </data>
   <data name="CHK_revtilt.Text" xml:space="preserve">
-    <value>Rev</value>
+    <value>Inv.</value>
   </data>
   <data name="TXT_pwmrangepan.Text" xml:space="preserve">
     <value>1000</value>
   </data>
   <data name="CHK_revpan.Text" xml:space="preserve">
-    <value>Rev</value>
+    <value>Inv.</value>
   </data>
   <data name="TXT_panrange.Text" xml:space="preserve">
     <value>360</value>
@@ -187,7 +187,7 @@
     <value>1500</value>
   </data>
   <data name="BUT_connect.Text" xml:space="preserve">
-    <value>Connesso</value>
+    <value>Connetti</value>
   </data>
   <data name="TXT_centertilt.Text" xml:space="preserve">
     <value>1500</value>
@@ -198,4 +198,10 @@
   <data name="TXT_tiltrange.Text" xml:space="preserve">
     <value>90</value>
   </data>
+  <data name="CMB_interface.Items" xml:space="preserve"><value>Maestro</value></data>
+  <data name="CMB_interface.Items1" xml:space="preserve"><value>ArduTracker</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Velocità</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Accelerazione</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Accelerazione</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Velocità</value></data>
 </root>

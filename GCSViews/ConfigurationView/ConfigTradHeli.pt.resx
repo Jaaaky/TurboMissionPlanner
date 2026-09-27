@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,67 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Critico</value>
+    <value>Crítico</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Hover roll</value>
+    <value>Rolagem em voo estacionário</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Testar servo au ligar</value>
+    <value>Teste dos servos ao iniciar</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Posição Swash-Servo</value>
+    <value>Posição dos servos do prato cíclico</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Viagem coletiva</value>
+    <value>Curso do coletivo</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Curso do Leme</value>
+    <value>Curso do leme</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Modo Servo</value>
+    <value>Modo dos servos</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>Baixa Pot.</value>
+    <value>Potência baixa</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Angulo Fase</value>
+    <value>Ângulo de fase</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>Ocioso</value>
+    <value>Marcha lenta</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
-    <value>Modo 1 Setpoint</value>
+    <value>Referência do modo 1</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>Controle de Vel rotor</value>
+    <value>Controlo da velocidade do rotor</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Vel cauda</value>
+    <value>Velocidade da cauda</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>RSC Taxa rampa</value>
+    <value>Taxa de rampa RSC</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Pouso coletivo</value>
+    <value>Coletivo de aterragem</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Tipo Swash</value>
+    <value>Tipo de prato cíclico</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Taxa(seg)</value>
+    <value>Taxa (s)</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Tipo Tail</value>
+    <value>Tipo de cauda</value>
   </data>
   <data name="groupBox12.Text" xml:space="preserve">
-    <value>V-Curva</value>
+    <value>Curva em V</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
     <value>Curva</value>
   </data>
   <data name="groupBox11.Text" xml:space="preserve">
-    <value>Saida Acell</value>
+    <value>Saída do acelerador</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
     <value>Posição</value>
@@ -192,4 +192,35 @@
   <data name="label41.Text" xml:space="preserve">
     <value>Inferior</value>
   </data>
+  <data name="fbl_modeFBL.Text" xml:space="preserve"><value>Sem barra estabilizadora</value></data>
+  <data name="H_SWASH_TYPE.Text" xml:space="preserve"><value>H1</value></data>
+  <data name="CCPM.Text" xml:space="preserve"><value>CCPM</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Superior</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Zero</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Inverter</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>Compensação</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Compensação</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Inverter</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Pré-compensação do coletivo</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Tempo de aceleração (s)</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Compensação de pirueta</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Curso do cíclico</value></data>
+  <data name="myButtonH_SV_MANtest.Text" xml:space="preserve"><value>Testar</value></data>
+  <data name="myButtonH_SV_MANmin.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="myButtonH_SV_MANzero.Text" xml:space="preserve"><value>Zero</value></data>
+  <data name="myButtonH_SV_MANmax.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="myButtonH_SV_MANmanual.Text" xml:space="preserve"><value>Manual</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Inverter</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Potência alta</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Exponencial Acro</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Estab. 4</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Estab. 3</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Estab. 2</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Estab. 1</value></data>
 </root>

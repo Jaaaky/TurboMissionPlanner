@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,18 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_calib_accell.Text" xml:space="preserve">
-    <value>Sürət Kalibrə</value>
+    <value>Akselerometri kalibrlə</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Avtomatik sürət qutusunu (1 eksen / AHRS trims) təyin etmək üçün autopilotunuzu düzəldin. Bu sizin autopilot düz və səviyyəli yerləşdirilməsini tələb edir.</value>
+    <value>Akselerometrin ilkin sürüşmələrini təyin etmək üçün avtopilotu üfüqi vəziyyətə gətirin (1 ox/AHRS trimləri).
+Avtopilotu düz və üfüqi səthə qoymalısınız.</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Avtomatik sürət qutusunu Min / Max (3 eksen) təyin etmək üçün autopilotu düzləndirin.</value>
+    <value>Akselerometrin ilkin min/maks dəyərlərini təyin etmək üçün avtopilotu üfüqi vəziyyətə gətirin (3 ox).
+Sizdən avtopilotu hər tərəfi üzərində yerləşdirmək istəniləcək.</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Accelerometer Kalibrasyonu</value>
+    <value>Akselerometrin kalibrlənməsi</value>
   </data>
   <data name="BUT_level.Text" xml:space="preserve">
-    <value>Səviyyəni kalibrləmə</value>
+    <value>Üfüqi vəziyyəti kalibrlə</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>Üfüqi uçuş üçün akselerometrin ilkin miqyas əmsallarını təyin etmək məqsədilə avtopilotu üfüqi vəziyyətə gətirin (1 ox).
+Avtopilotu düz və üfüqi səthə qoymalısınız.</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>Sadə akselerometr kalibrləməsi</value></data>
 </root>

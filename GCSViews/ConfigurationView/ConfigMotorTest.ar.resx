@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>ملاحظة : يرجى الأمساك بطائرتك سيقوم الان بفحص جهوزية المحركات . سيكون فحص المحركات بالدوران باتجاه عقارب الساعة بدء من اليمين الامامي</value>
+    <value>ملاحظة: يُرجى تثبيت الطائرة المسيّرة جيدًا
+سيختبر هذا عمل المحركات.
+تُختبر المحركات بالتتابع باتجاه عقارب الساعة 
+بدءًا من المحرك الأمامي الأيمن.</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>المدة ( ث )</value>
+    <value>المدة (s)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>الدفع %</value>
+    <value>الخانق %</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>لطفاً اضغط هنا لرؤية ارقام المحرك , مرر للأسفل في الصفحة</value>
+    <value>انقر هنا للاطلاع على أرقام المحركات،
+ثم مرّر إلى أسفل الصفحة</value>
   </data>
+  <data name="FrameType.Text" xml:space="preserve"><value>النوع: غير معروف</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>الفئة: غير معروفة</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>تعيين أدنى نسبة خرج أثناء الطيران</value></data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve"><value>تعيين أدنى دوران للمحركات</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>تعيين أدنى نسبة خرج عند التسليح مع بقاء المركبة على الأرض</value></data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve"><value>تعيين دوران المحركات عند التسليح</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>اختبار المحركات</value></data>
 </root>

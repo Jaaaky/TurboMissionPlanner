@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,7 +124,7 @@
     <value>サーボ限度</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>さいだい</value>
+    <value>最大</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>角度限度</value>
@@ -157,7 +157,7 @@
     <value>入力 Ch</value>
   </data>
   <data name="CHK_stab_roll.Text" xml:space="preserve">
-    <value>Stabalise ロール</value>
+    <value>ロールを安定化</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
     <value>入力 Ch</value>
@@ -181,7 +181,7 @@
     <value>Z</value>
   </data>
   <data name="CHK_stab_tilt.Text" xml:space="preserve">
-    <value>Stabalise チルト</value>
+    <value>チルトを安定化</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>角度限度</value>
@@ -244,7 +244,7 @@
     <value>押した状態</value>
   </data>
   <data name="mavlinkCheckBoxRR.Text" xml:space="preserve">
-    <value>リバース</value>
+    <value>反転</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
     <value>押さない状態</value>
@@ -253,16 +253,16 @@
     <value>最大</value>
   </data>
   <data name="mavlinkCheckBoxTR.Text" xml:space="preserve">
-    <value>リバース</value>
+    <value>反転</value>
   </data>
   <data name="mavlinkCheckBoxPR.Text" xml:space="preserve">
-    <value>リバース</value>
+    <value>反転</value>
   </data>
   <data name="CHK_stab_pan.Text" xml:space="preserve">
     <value>Stabalise パン</value>
   </data>
   <data name="LNK_wiki.Text" xml:space="preserve">
-    <value>Wikiで説明を読む</value>
+    <value>Wiki</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
     <value>Ch7オプションをカメラトリガーにセットしてください</value>
@@ -273,4 +273,6 @@
   <data name="label41.Text" xml:space="preserve">
     <value>シャッター</value>
   </data>
+  <data name="label43.Text" xml:space="preserve"><value>タイプ</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>注意：ジンバルの種類は、フライトコントローラーの次回再起動時に反映されます</value></data>
 </root>

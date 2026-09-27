@@ -62,15 +62,16 @@
     <value>Bluetooth</value>
   </data>
   <data name="BUT_btsettings.Text" xml:space="preserve">
-    <value>Enregistrer les paramètres</value>
+    <value>Enregistrer les réglages</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Nom</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Débit</value>
+    <value>Débit en bauds</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Code PIN</value>
   </data>
+  <data name="txt_name.Text" xml:space="preserve"><value>Ardupilot</value></data>
 </root>

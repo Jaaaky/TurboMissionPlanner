@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,58 +121,58 @@
     <value>Min</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Servo Limits</value>
+    <value>Batas Servo</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Angle Limits</value>
+    <value>Batas Sudut</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Servo Limits</value>
+    <value>Batas Servo</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Pan</value>
+    <value>Putar horizontal</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Input Ch</value>
+    <value>Kanal Masukan</value>
   </data>
   <data name="CHK_stab_roll.Text" xml:space="preserve">
-    <value>Stabalise Roll</value>
+    <value>Stabilkan Roll</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Input Ch</value>
+    <value>Kanal Masukan</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>Input Ch</value>
+    <value>Kanal Masukan</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Servo Limits</value>
+    <value>Batas Servo</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>X</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
     <value>Y</value>
@@ -181,10 +181,10 @@
     <value>Z</value>
   </data>
   <data name="CHK_stab_tilt.Text" xml:space="preserve">
-    <value>Stabalise Tilt</value>
+    <value>Stabilkan Kemiringan</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Angle Limits</value>
+    <value>Batas Sudut</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Z</value>
@@ -199,25 +199,25 @@
     <value>Y</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Retract Angles</value>
+    <value>Sudut Tarik Masuk</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Neutral Angles</value>
+    <value>Sudut Netral</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Tilt</value>
+    <value>Kemiringan</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Angle Limits</value>
+    <value>Batas Sudut</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
     <value>X</value>
@@ -229,54 +229,54 @@
     <value>Z</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>Duration (1/10th sec)</value>
+    <value>Durasi (1/10 dtk)</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
     <value>X</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
-    <value>Servo Limits</value>
+    <value>Batas Servo</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>Shutter</value>
+    <value>Rana</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>Pushed</value>
+    <value>Ditekan</value>
   </data>
   <data name="mavlinkCheckBoxRR.Text" xml:space="preserve">
-    <value>Reverse</value>
+    <value>Balik</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>Not Pushed</value>
+    <value>Tidak Ditekan</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks</value>
   </data>
   <data name="mavlinkCheckBoxTR.Text" xml:space="preserve">
-    <value>Reverse</value>
+    <value>Balik</value>
   </data>
   <data name="mavlinkCheckBoxPR.Text" xml:space="preserve">
-    <value>Reverse</value>
+    <value>Balik</value>
   </data>
   <data name="CHK_stab_pan.Text" xml:space="preserve">
     <value>Stabalise Pan</value>
   </data>
   <data name="label44.Text" xml:space="preserve">
-    <value>NOTE: the gimbal type takes effect on the next reboot of the fight controller</value>
+    <value>CATATAN: jenis gimbal diterapkan setelah pengendali penerbangan dimulai ulang</value>
   </data>
   <data name="LNK_wiki.Text" xml:space="preserve">
     <value>Wiki</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
-    <value>Please set the Ch7 Option to Camera Trigger</value>
+    <value>Atur Opsi Ch7 ke Pemicu Kamera</value>
   </data>
   <data name="label43.Text" xml:space="preserve">
-    <value>Type</value>
+    <value>Jenis</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="label41.Text" xml:space="preserve">
-    <value>Shutter</value>
+    <value>Rana</value>
   </data>
 </root>

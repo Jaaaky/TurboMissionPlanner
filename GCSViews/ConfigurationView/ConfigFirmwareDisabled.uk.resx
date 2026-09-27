@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>Оновити bootloader на пристрої до найновішої доступності.</value>
+    <value>Оновити завантажувач обладнання до найновішої доступної версії.</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Ви не можете завантажити нову прошивку під час під'єднання за допомогою MAVLink. 
+    <value>Неможливо встановити нову прошивку під час з’єднання через MAVLink.
 
-Будь ласка, натисніть кнопку Від'єднання вгорі для завершення поточної сесії MAVLink та увімкніть екран завантаження прошивки.</value>
+Натисніть «Від’єднатися» вгорі праворуч, щоб завершити поточний сеанс MAVLink і відкрити екран встановлення прошивки.</value>
   </data>
   <data name="but_bootloaderupdate.Text" xml:space="preserve">
     <value>Оновлення завантажувача</value>

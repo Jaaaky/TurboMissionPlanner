@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,107 +118,107 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="chk_m8p_130p.ToolTip" xml:space="preserve">
-    <value>Якщо ви одночасно використовуєте прошивку 1.30 або вище, позначте цю коробку</value>
+    <value>Установіть цей прапорець, якщо і база, і ровер мають прошивку u-blox 1.30 або новішу</value>
   </data>
   <data name="txt_surveyinAcc.ToolTip" xml:space="preserve">
-    <value>Дослідження в точності тригера має бути нижче</value>
+    <value>Поріг точності усереднення: похибка має бути меншою за це значення</value>
   </data>
   <data name="BaseName1.HeaderText" xml:space="preserve">
-    <value>Ім'я</value>
+    <value>Назва</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Опитування через</value>
+    <value>Усереднення позиції</value>
   </data>
   <data name="Use.HeaderText" xml:space="preserve">
-    <value>Використати</value>
+    <value>Використовувати</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Галілео</value>
+    <value>Galileo</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Основи</value>
+    <value>База</value>
   </data>
   <data name="chk_rtcmmsg.ToolTip" xml:space="preserve">
-    <value>Це залежить від версії прошивки, яка знаходиться на автопілоті, якщо видимий вихід увімкненим, бо новіше повідомлення обробляє криві даних краще</value>
+    <value>Залежить від версії прошивки автопілота. За можливості залиште ввімкненим: новий тип повідомлень значно краще обробляє пошкодження даних.</value>
   </data>
   <data name="chk_sendgga.Text" xml:space="preserve">
-    <value>Відправити NTRIP GA? (VRS/Smart)</value>
+    <value>Надсилати NTRIP GGA? (VRS/Smart)</value>
   </data>
   <data name="but_restartsvin.ToolTip" xml:space="preserve">
-    <value>Використовується для збереження поточного позиції базової станції в якості опитаних</value>
+    <value>Зберегти поточну позицію базової станції, визначену усередненням</value>
   </data>
   <data name="label1.ToolTip" xml:space="preserve">
-    <value>Для проходження опитування необхідно зустріти як точність, так і за датою пройденої
-ie менш ніж 2 m точності, і більше 60 секунд спостережень</value>
+    <value>Для завершення усереднення мають виконуватися обидві умови: точність і тривалість.
+Наприклад, похибка менша за 2 м і понад 60 секунд спостережень.</value>
   </data>
   <data name="label9.ToolTip" xml:space="preserve">
-    <value>Опитування в інформації
-Valid: це опитування дійсне
-Ingress: на даний момент ми проводимо опитування на нашій позиції
-тривалість: кількість секунд, яку ми опитували в
-Одержимо: кількість обстеження використовується в нашому опитуванні в
-акци: поточна точність опитувань в точці
+    <value>Відомості про усереднення позиції
+Valid: чи є результат усереднення дійсним
+InProgress: чи триває усереднення поточної позиції
+Duration: тривалість усереднення в секундах
+Obs: кількість використаних спостережень
+Acc: поточна точність усередненої позиції
 </value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Час(и)</value>
+    <value>Час (с)</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Вхідна швидкість</value>
+    <value>Швидкість вхідних даних</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Акцент SurveyIn (м)</value>
+    <value>Точність усереднення (м)</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Переглянуті повідомлення</value>
+    <value>Отримані повідомлення</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Опитування через</value>
+    <value>Усереднення позиції</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Вихідна швидкість передачі даних</value>
+    <value>Швидкість вихідних даних</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>База RTCM </value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Посилання статус</value>
+    <value>Стан зв’язку</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Опитування через</value>
+    <value>Усереднення позиції</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Опитування через</value>
+    <value>Усереднення позиції</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Опитування через</value>
+    <value>Усереднення позиції</value>
   </data>
   <data name="lbl_svin.Text" xml:space="preserve">
-    <value>Опитування через</value>
+    <value>Усереднення позиції</value>
   </data>
   <data name="chk_rtcmmsg.Text" xml:space="preserve">
-    <value>Прошити тип MSG</value>
+    <value>Тип повідомлень для введення</value>
   </data>
   <data name="but_save_basepos.ToolTip" xml:space="preserve">
-    <value>Використовується для збереження поточного позиції базової станції в якості опитаних</value>
+    <value>Зберегти поточну позицію базової станції, визначену усередненням</value>
   </data>
   <data name="chk_sendgga.ToolTip" xml:space="preserve">
-    <value>Це залежить від версії прошивки, яка знаходиться на автопілоті, якщо видимий вихід увімкненим, бо новіше повідомлення обробляє криві даних краще</value>
+    <value>Залежить від версії прошивки автопілота. За можливості залиште ввімкненим: новий тип повідомлень значно краще обробляє пошкодження даних.</value>
   </data>
   <data name="label7.ToolTip" xml:space="preserve">
-    <value>Опитування в інформації
-Valid: це опитування дійсне
-Ingress: на даний момент ми проводимо опитування на нашій позиції
-тривалість: кількість секунд, яку ми опитували в
-Одержимо: кількість обстеження використовується в нашому опитуванні в
-акци: поточна точність опитувань в точці
+    <value>Відомості про усереднення позиції
+Valid: чи є результат усереднення дійсним
+InProgress: чи триває усереднення поточної позиції
+Duration: тривалість усереднення в секундах
+Obs: кількість використаних спостережень
+Acc: поточна точність усередненої позиції
 </value>
   </data>
   <data name="but_restartsvin.Text" xml:space="preserve">
     <value>Перезапустити</value>
   </data>
   <data name="BUT_connect.Text" xml:space="preserve">
-    <value>Підключитися</value>
+    <value>Під’єднатися</value>
   </data>
   <data name="but_save_basepos.Text" xml:space="preserve">
     <value>Зберегти поточну позицію</value>
@@ -227,36 +227,86 @@ Ingress: на даний момент ми проводимо опитуванн
     <value>Видалити</value>
   </data>
   <data name="txt_surveyinDur.ToolTip" xml:space="preserve">
-    <value>Опитування мінімальний час. Має бути більше цього числа</value>
+    <value>Мінімальний час усереднення: тривалість має перевищити це значення</value>
   </data>
   <data name="lbl_svin.ToolTip" xml:space="preserve">
-    <value>Опитування в інформації
-Valid: це опитування дійсне
-Ingress: на даний момент ми проводимо опитування на нашій позиції
-тривалість: кількість секунд, яку ми опитували в
-Одержимо: кількість обстеження використовується в нашому опитуванні в
-акци: поточна точність опитувань в точці
+    <value>Відомості про усереднення позиції
+Valid: чи є результат усереднення дійсним
+InProgress: чи триває усереднення поточної позиції
+Duration: тривалість усереднення в секундах
+Obs: кількість використаних спостережень
+Acc: поточна точність усередненої позиції
 </value>
   </data>
   <data name="label10.ToolTip" xml:space="preserve">
-    <value>Опитування в інформації
-Valid: це опитування дійсне
-Ingress: на даний момент ми проводимо опитування на нашій позиції
-тривалість: кількість секунд, яку ми опитували в
-Одержимо: кількість обстеження використовується в нашому опитуванні в
-акци: поточна точність опитувань в точці
+    <value>Відомості про усереднення позиції
+Valid: чи є результат усереднення дійсним
+InProgress: чи триває усереднення поточної позиції
+Duration: тривалість усереднення в секундах
+Obs: кількість використаних спостережень
+Acc: поточна точність усередненої позиції
 </value>
   </data>
   <data name="chk_ubloxautoconfig.ToolTip" xml:space="preserve">
     <value>Автоматично конфігурувати ublox m8p</value>
   </data>
   <data name="label8.ToolTip" xml:space="preserve">
-    <value>Опитування в інформації
-Valid: це опитування дійсне
-Ingress: на даний момент ми проводимо опитування на нашій позиції
-тривалість: кількість секунд, яку ми опитували в
-Одержимо: кількість обстеження використовується в нашому опитуванні в
-акци: поточна точність опитувань в точці
+    <value>Відомості про усереднення позиції
+Valid: чи є результат усереднення дійсним
+InProgress: чи триває усереднення поточної позиції
+Duration: тривалість усереднення в секундах
+Obs: кількість використаних спостережень
+Acc: поточна точність усередненої позиції
 </value>
   </data>
+  <data name="lbl_status1.Text" xml:space="preserve"><value>9999 біт/с</value></data>
+  <data name="chk_autoconfig.Text" xml:space="preserve"><value>Автоматично налаштовувати приймач</value></data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve"><value>Автоматично налаштовувати приймач на вибраному порту для виведення коригувальних повідомлень.</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>Після під’єднання приймач почне усереднення (survey-in), щоб точно визначити координати GPS.
+Усереднення завершиться, коли положення бази RTCM перестане змінюватися.
+Залежно від розташування та сигналу це може тривати кілька хвилин.
+
+Після завершення усереднення можна починати роботу.
+</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Супутникові системи RTCM</value></data>
+  <data name="label21.ToolTip" xml:space="preserve"><value>Виберіть супутникові системи, для яких приймач виводитиме поправки. Більше систем — більший потік даних.</value></data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve"><value>Увімкнути або вимкнути виведення повідомлень RTCM для Galileo.</value></data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve"><value>Увімкнути або вимкнути виведення повідомлень RTCM для BeiDou.</value></data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve"><value>ГЛОНАСС</value></data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve"><value>Увімкнути або вимкнути виведення повідомлень RTCM для ГЛОНАСС.</value></data>
+  <data name="chk_septentriogps.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve"><value>Увімкнути або вимкнути виведення повідомлень RTCM для GPS.</value></data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve"><value>Установити інтервал</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Інтервал повідомлень RTCM (с)</value></data>
+  <data name="label20.ToolTip" xml:space="preserve"><value>Виберіть частоту виведення повідомлень RTCM приймачем. Менший інтервал — більший потік даних.</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Деталізація повідомлень RTCM</value></data>
+  <data name="label19.ToolTip" xml:space="preserve"><value>Виберіть рівень деталізації повідомлень RTCM. Вище значення — більший потік даних.</value></data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve"><value>Мінімальна</value></data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve"><value>Базова</value></data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve"><value>Повна</value></data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve"><value>Фіксована позиція</value></data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve"><value>Задайте фіксовану позицію антени базової станції замість автоматичного визначення приймачем. Це може підвищити точність поправок.
+</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Широта (WGS84)</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Довгота (WGS84)</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Висота (м)</value></data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve"><value>Установити позицію</value></data>
+  <data name="chk_m8p_130p.Text" xml:space="preserve"><value>M8P, прошивка 130+ / F9P</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>Широта/ECEFX</value></data>
+  <data name="Long.HeaderText" xml:space="preserve"><value>Довгота/ECEFY</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>Висота/ECEFZ</value></data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve"><value>Параметри автоматичного налаштування</value></data>
+  <data name="check_sendntripv1.Text" xml:space="preserve"><value>Використовувати протокол NTRIP v1.0?</value></data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve"><value>Деякі старі сервери NTRIP, зокрема RTKLIB, не підтримують протокол NTRIP v2.0. Установіть прапорець, щоб використовувати v1.0.</value></data>
+  <data name="labelmsgseen.Text" xml:space="preserve"><value>rtcm0000
+rtcm0000</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>ГЛОНАСС</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>RTCM</value></data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve"><value>u-blox M8P/F9P</value></data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve"><value>Septentrio</value></data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve"><value>Unicore UM982</value></data>
 </root>

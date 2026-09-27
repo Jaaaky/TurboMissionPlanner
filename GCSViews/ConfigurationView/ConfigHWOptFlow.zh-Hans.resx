@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,6 +121,21 @@
     <value>启用</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>光流</value>
+    <value>光流  </value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>类型</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>偏航安装角</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>X 轴比例因子</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Y 轴比例因子</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>X 轴位置</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Y 轴位置</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Z 轴位置</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>度，相对于机体</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>向前，单位：米</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>向右，单位：米</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>向下，单位：米</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>传感器相对于 IMU 的位置</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>比例因子</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>指定高度</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>距地面高度，单位：米</value></data>
 </root>

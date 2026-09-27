@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -136,7 +136,7 @@
     <value />
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>油门速率</value>
+    <value>油门速率（垂直速度→加速度）</value>
   </data>
   <data name="groupBox5.ToolTip" xml:space="preserve">
     <value />
@@ -146,7 +146,7 @@
     <value>138, 16</value>
   </data>
   <data name="CHK_lockrollpitch.Text" xml:space="preserve">
-    <value>锁定Pitch和Roll的值</value>
+    <value>锁定俯仰和横滚值</value>
   </data>
   <data name="CHK_lockrollpitch.ToolTip" xml:space="preserve">
     <value />
@@ -164,7 +164,7 @@
     <value />
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>留待速度</value>
+    <value>悬停移动速度</value>
   </data>
   <data name="label9.ToolTip" xml:space="preserve">
     <value />
@@ -191,13 +191,13 @@
     <value />
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>速度</value>
+    <value>速度 </value>
   </data>
   <data name="label16.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>航点导航(cm's)</value>
+    <value>航点导航（cm）</value>
   </data>
   <data name="groupBox4.ToolTip" xml:space="preserve">
     <value />
@@ -209,7 +209,7 @@
     <value />
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>高度保持</value>
+    <value>定高（高度→爬升率）</value>
   </data>
   <data name="groupBox7.ToolTip" xml:space="preserve">
     <value />
@@ -221,7 +221,7 @@
     <value />
   </data>
   <data name="groupBox19.Text" xml:space="preserve">
-    <value>悬停PID</value>
+    <value>水平位置（距离→速度）</value>
   </data>
   <data name="groupBox19.ToolTip" xml:space="preserve">
     <value />
@@ -233,7 +233,7 @@
     <value />
   </data>
   <data name="groupBox20.Text" xml:space="preserve">
-    <value>自稳Yaw</value>
+    <value>偏航自稳（误差→角速度）</value>
   </data>
   <data name="groupBox20.ToolTip" xml:space="preserve">
     <value />
@@ -245,7 +245,7 @@
     <value />
   </data>
   <data name="groupBox21.Text" xml:space="preserve">
-    <value>自稳Pitch</value>
+    <value>俯仰自稳（误差→角速度）</value>
   </data>
   <data name="groupBox21.ToolTip" xml:space="preserve">
     <value />
@@ -257,7 +257,7 @@
     <value />
   </data>
   <data name="groupBox22.Text" xml:space="preserve">
-    <value>自稳Roll</value>
+    <value>横滚自稳（误差→角速度）</value>
   </data>
   <data name="groupBox22.ToolTip" xml:space="preserve">
     <value />
@@ -278,7 +278,7 @@
     <value />
   </data>
   <data name="label47.Text" xml:space="preserve">
-    <value>I最大</value>
+    <value>积分上限</value>
   </data>
   <data name="label47.ToolTip" xml:space="preserve">
     <value />
@@ -296,7 +296,7 @@
     <value />
   </data>
   <data name="groupBox23.Text" xml:space="preserve">
-    <value>Yaw速率</value>
+    <value>偏航角速度</value>
   </data>
   <data name="groupBox23.ToolTip" xml:space="preserve">
     <value />
@@ -317,7 +317,7 @@
     <value />
   </data>
   <data name="label84.Text" xml:space="preserve">
-    <value>I最大</value>
+    <value>积分上限</value>
   </data>
   <data name="label84.ToolTip" xml:space="preserve">
     <value />
@@ -335,7 +335,7 @@
     <value />
   </data>
   <data name="groupBox24.Text" xml:space="preserve">
-    <value>Pitch速率</value>
+    <value>俯仰角速度</value>
   </data>
   <data name="groupBox24.ToolTip" xml:space="preserve">
     <value />
@@ -356,7 +356,7 @@
     <value />
   </data>
   <data name="label88.Text" xml:space="preserve">
-    <value>I最大</value>
+    <value>积分上限</value>
   </data>
   <data name="label88.ToolTip" xml:space="preserve">
     <value />
@@ -374,7 +374,7 @@
     <value />
   </data>
   <data name="groupBox25.Text" xml:space="preserve">
-    <value>Roll速率</value>
+    <value>横滚角速度</value>
   </data>
   <data name="groupBox25.ToolTip" xml:space="preserve">
     <value />
@@ -389,7 +389,7 @@
     <value />
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>I最大</value>
+    <value>积分上限</value>
   </data>
   <data name="label2.ToolTip" xml:space="preserve">
     <value />
@@ -407,7 +407,7 @@
     <value />
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>悬停速率</value>
+    <value>水平速度（速度→加速度）</value>
   </data>
   <data name="groupBox1.ToolTip" xml:space="preserve">
     <value />
@@ -425,13 +425,13 @@
     <value />
   </data>
   <data name="myLabel3.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="myLabel3.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="myLabel2.Text" xml:space="preserve">
-    <value>通道6选项</value>
+    <value>调参</value>
   </data>
   <data name="myLabel2.ToolTip" xml:space="preserve">
     <value />
@@ -449,7 +449,7 @@
     <value />
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>I最大</value>
+    <value>积分上限</value>
   </data>
   <data name="label6.ToolTip" xml:space="preserve">
     <value />
@@ -470,7 +470,7 @@
     <value />
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>油门加速度</value>
+    <value>油门加速度（加速度→电机）</value>
   </data>
   <data name="groupBox2.ToolTip" xml:space="preserve">
     <value />
@@ -493,4 +493,62 @@
   <data name="$this.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="label25.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>输入时间常数</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>最大加速度</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>最大加速度</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>最大加速度</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>FLTE</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label77.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label82.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>FLTE</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label86.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label87.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="P_FLTD.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>FLTE</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label90.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label91.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>P</value></data>
+  <data name="myLabel5.Text" xml:space="preserve"><value>通道 9 选项</value></data>
+  <data name="myLabel6.Text" xml:space="preserve"><value>通道 10 选项</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>加速度计</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>陀螺仪</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>基本滤波器</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>谐波</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>选项</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>带宽</value></data>
+  <data name="label48.Text" xml:space="preserve"><value>衰减</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>频率</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>参考值</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>模式</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>已启用</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>谐波陷波滤波器</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>衰减</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>带宽</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>频率</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>已启用</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>静态陷波滤波器</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>选项</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>掩码</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>滤波日志</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>通道 6 选项</value></data>
+  <data name="lblUnitWarning.Text" xml:space="preserve"><value>不兼容变更警告</value></data>
 </root>

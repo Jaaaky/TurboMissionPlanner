@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>プランナー画面のミッション一覧で選択できるMAVLinkコマンドを追加できます。
+追加にはコマンドIDが必要です。MAVLinkライブラリに定義済みのIDなら、
+名前が自動入力されます。未定義のIDも追加できますが、
+その場合は名前も入力してください。ここで追加しても、オートパイロットが
+受け付けたり実行したりするとは限りません。仕様を理解したうえで使用してください。</value></data>
+</root>

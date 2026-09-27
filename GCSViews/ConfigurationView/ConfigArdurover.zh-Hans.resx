@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,19 +121,19 @@
     <value>巡航速度</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>转向距离</value>
+    <value>最大转向过载</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>阻尼</value>
+    <value>横向加速度控制阻尼</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>转向速度</value>
+    <value>转弯半径</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>INT_MAX</value>
+    <value>积分上限</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>P</value>
@@ -142,46 +142,46 @@
     <value>D</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>周期</value>
+    <value>横向加速度控制周期</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>转向角度</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>触发器 cm</value>
+    <value>触发距离（cm）</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>转向时间</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大油门（%）</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小油门（%）</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Rover</value>
+    <value>导航</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>防抖</value>
+    <value>声呐消抖</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>方向舵 至 舵机</value>
+    <value>转向角速度</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>FS 值</value>
+    <value>航点速度</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>L1 控制 - 转向控制</value>
+    <value>转向模式</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>油门 0-100%</value>
+    <value>油门与电机</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>巡航</value>
+    <value>巡航油门</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>声呐</value>
+    <value>避障</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>航点半径</value>
@@ -199,7 +199,7 @@
     <value>I</value>
   </data>
   <data name="label73.Text" xml:space="preserve">
-    <value>INT_MAX</value>
+    <value>积分上限</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
     <value>写入参数</value>
@@ -210,4 +210,13 @@
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
     <value>刷新参数</value>
   </data>
+  <data name="label22.Text" xml:space="preserve"><value>电机类型</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>制动</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>最大加速度（m/s/s）</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>航点超越量</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>前馈</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>通道7选项</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>通道8选项</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>通道 9 选项</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>通道 10 选项</value></data>
 </root>

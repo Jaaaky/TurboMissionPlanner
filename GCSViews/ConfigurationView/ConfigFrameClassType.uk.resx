@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,45 +118,50 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>'Плюс'</value>
+    <value>«Плюс»</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>'Х' , 'Y6A'</value>
+    <value>«X», «Y6A»</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>'Г'</value>
+    <value>«H»</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>ПРИМІТКА: це Y6B і поворот змін старого Y6A</value>
+    <value>ПРИМІТКА: це Y6B; напрямки обертання пропелерів відрізняються від старої Y6A</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>ПРИМІТКА: Х і H, НЕ змінюють зміни обертання передплати</value>
+    <value>ПРИМІТКА: X і H НЕ взаємозамінні — напрямки обертання пропелерів відрізняються</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>'Y6Б'</value>
+    <value>«Y6B»</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Тип фрейму</value>
+    <value>Тип рами</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Тип фрейму</value>
+    <value>Клас рами</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>'V Таго'</value>
+    <value>«V-подібний хвіст»</value>
   </data>
   <data name="radio_type_other.Text" xml:space="preserve">
     <value>Інше</value>
   </data>
   <data name="radioButtonUndef.Text" xml:space="preserve">
-    <value>Невизначено</value>
+    <value>Не визначено</value>
   </data>
   <data name="radioButtonY6.Text" xml:space="preserve">
-    <value>Й6</value>
+    <value>Y6</value>
   </data>
   <data name="radioButtonQuad.Text" xml:space="preserve">
-    <value>Кварка</value>
+    <value>Квадрокоптер</value>
   </data>
   <data name="radioButtonHexa.Text" xml:space="preserve">
-    <value>Шестерні</value>
+    <value>Гексакоптер</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>«V»</value></data>
+  <data name="radioButtonOctaQuad.Text" xml:space="preserve"><value>OctaQuad</value></data>
+  <data name="radioButtonTri.Text" xml:space="preserve"><value>Трикоптер</value></data>
+  <data name="radioButtonHeli.Text" xml:space="preserve"><value>Гелікоптер</value></data>
+  <data name="radioButtonOcta.Text" xml:space="preserve"><value>Октокоптер</value></data>
 </root>

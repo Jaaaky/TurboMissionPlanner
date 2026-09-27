@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>这是什么。 1. 从nmea gps中获取当前GPS记录。 2. 在地图上更新家的位置。（注意不要在MAV上更新家的位置） 如何使用 1. 连接到飞控。 2. 打开这个，为你的nmea gps选择COM口和波特率。 3. 现在已经更新家的位置了。</value>
+    <value>功能说明
+1. 从 NMEA GPS 获取当前坐标。
+2. 更新地图上的起飞点位置（不会更新飞行器的返航点）。
+
+使用方法
+1. 连接飞控。
+2. 打开此窗口，选择 NMEA GPS 的串口和波特率。
+3. 起飞点位置应开始更新。</value>
   </data>
 </root>

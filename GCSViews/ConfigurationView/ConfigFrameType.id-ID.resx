@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,19 +130,19 @@
     <value>'V'</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>NOTE: This is the Y6B and prop rotation changes from the old Y6A</value>
+    <value>CATATAN: Ini adalah Y6B; putaran baling-baling berbeda dari Y6A lama</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>NOTE: X and H are NOT interchangable the prop rotation changes</value>
+    <value>CATATAN: X dan H TIDAK dapat saling ditukar karena arah putaran baling-baling berbeda</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>'Y6B'</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Frame Type</value>
+    <value>Jenis Rangka</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Default Settings</value>
+    <value>Pengaturan Bawaan</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>'V Tail'</value>

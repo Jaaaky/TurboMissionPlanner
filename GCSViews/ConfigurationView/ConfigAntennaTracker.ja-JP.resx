@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,13 +121,13 @@
     <value>IMAX</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>レートMax</value>
+    <value>最大レート</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="mavlinkCheckBox1.Text" xml:space="preserve">
-    <value>リバース</value>
+    <value>反転</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>D</value>
@@ -136,7 +136,7 @@
     <value>P</value>
   </data>
   <data name="mavlinkCheckBox2.Text" xml:space="preserve">
-    <value>リバース</value>
+    <value>反転</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>ニュートラル</value>
@@ -172,13 +172,13 @@
     <value>ヨーの動作範囲</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>レンジ (度)</value>
+    <value>範囲（度）</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
     <value>ピッチの動作範囲</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>レンジ (度)</value>
+    <value>最小（度）</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>ピッチサーボ</value>
@@ -187,10 +187,10 @@
     <value>P</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>サーボの種類</value>
+    <value>高度の取得元</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>レートMax</value>
+    <value>最大レート</value>
   </data>
   <data name="label90.Text" xml:space="preserve">
     <value>最大</value>
@@ -216,4 +216,7 @@
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
     <value>パラメータ更新</value>
   </data>
+  <data name="label16.Text" xml:space="preserve"><value>タイプ</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>タイプ</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>最大（度）</value></data>
 </root>

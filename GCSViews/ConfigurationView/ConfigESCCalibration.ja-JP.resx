@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>ESCキャリブレーション（AC3.3以降）</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>プロペラを取り外してください！
+このボタンを押した後：
+- USBとバッテリーを取り外します
+- バッテリーを接続します
+- LEDが点滅したら、安全スイッチがある場合は押します
+- ESCの校正時にビープ音が鳴ります
+- フライトコントローラーを通常どおり再起動します</value></data>
+  <data name="buttonStart.Text" xml:space="preserve"><value>ESCを校正</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>ESC種類：</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>出力PWM最小値</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>出力PWM最大値</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>アーム時の回転</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>最小回転</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>最大回転</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>受信機の入力範囲を使用する場合は0のままにします</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>受信機の入力範囲を使用する場合は0のままにします</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>アーム済みでスロットルがゼロのときのモーター回転速度（アイドル）</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>飛行中のモーターの最小回転速度（「アーム時の回転」より少し高く設定）</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>飛行中のモーターの最大回転速度（ほとんどのESCには上限付近に不感帯があります）</value></data>
+</root>

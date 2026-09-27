@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,19 +124,18 @@
     <value>センサの生データ</value>
   </data>
   <data name="CMB_rawupdaterate.Text" xml:space="preserve">
-    <value>更新スピード</value>
+    <value>更新頻度</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>サーボ/モータ 出力</value>
+    <value>サーボ／モーター出力</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>注意: 遅延があります。
-Xbee経由で見た場合
-@ 50hz
-</value>
+    <value>注意：XBee経由で
+50 Hzのデータを表示すると
+遅延が生じます</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>ラジオ入力</value>
+    <value>RC入力</value>
   </data>
   <data name="chkax.Text" xml:space="preserve">
     <value>加速度 X</value>
@@ -148,10 +147,10 @@ Xbee経由で見た場合
     <value>加速度 Y</value>
   </data>
   <data name="tabRadio.Text" xml:space="preserve">
-    <value>ラジオ</value>
+    <value>RC送受信機</value>
   </data>
   <data name="tabOrientation.Text" xml:space="preserve">
-    <value>フライト・データ</value>
+    <value>飛行データ</value>
   </data>
   <data name="BUT_savecsv.Text" xml:space="preserve">
     <value>CSVで保存</value>

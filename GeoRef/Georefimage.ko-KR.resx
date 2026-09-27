@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -235,7 +235,7 @@
     <value>7</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>초 오프셋</value>
+    <value>시간 오프셋(초)</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -262,7 +262,7 @@
     <value>9</value>
   </data>
   <data name="BUT_Geotagimages.Text" xml:space="preserve">
-    <value>지오태그 이미지</value>
+    <value>이미지 지오태깅</value>
   </data>
   <data name="&gt;&gt;BUT_Geotagimages.Name" xml:space="preserve">
     <value>BUT_Geotagimages</value>
@@ -286,7 +286,7 @@
     <value>8</value>
   </data>
   <data name="BUT_estoffset.Text" xml:space="preserve">
-    <value>추정 오프셋</value>
+    <value>오프셋 추정</value>
   </data>
   <data name="&gt;&gt;BUT_estoffset.Name" xml:space="preserve">
     <value>BUT_estoffset</value>
@@ -334,7 +334,7 @@
     <value>1</value>
   </data>
   <data name="BUT_browsedir.Text" xml:space="preserve">
-    <value>그림 탐색</value>
+    <value>사진 찾기</value>
   </data>
   <data name="&gt;&gt;BUT_browsedir.Name" xml:space="preserve">
     <value>BUT_browsedir</value>
@@ -358,7 +358,7 @@
     <value>0</value>
   </data>
   <data name="BUT_browselog.Text" xml:space="preserve">
-    <value>로그 탐색</value>
+    <value>로그 찾기</value>
   </data>
   <data name="&gt;&gt;BUT_browselog.Name" xml:space="preserve">
     <value>BUT_browselog</value>
@@ -505,7 +505,7 @@
     <value>31</value>
   </data>
   <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve">
-    <value>CAM 메세지 동기화 (DF 로그 전용)</value>
+    <value>CAM 메시지</value>
   </data>
   <data name="&gt;&gt;RDIO_CAMMsgSynchro.Name" xml:space="preserve">
     <value>RDIO_CAMMsgSynchro</value>
@@ -607,7 +607,7 @@
     <value>37</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>교차 시야각</value>
+    <value>횡방향 시야각</value>
   </data>
   <data name="&gt;&gt;label8.Name" xml:space="preserve">
     <value>label8</value>
@@ -637,7 +637,7 @@
     <value>36</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>직접 시야각</value>
+    <value>진행 방향 시야각</value>
   </data>
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
@@ -709,7 +709,7 @@
     <value>43</value>
   </data>
   <data name="chk_usegps2.Text" xml:space="preserve">
-    <value>GPS2 활용</value>
+    <value>GPS2 사용</value>
   </data>
   <data name="&gt;&gt;chk_usegps2.Name" xml:space="preserve">
     <value>chk_usegps2</value>
@@ -790,7 +790,7 @@
     <value>40</value>
   </data>
   <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve">
-    <value>AMSL 고도 활용</value>
+    <value>평균 해수면 고도 사용</value>
   </data>
   <data name="&gt;&gt;CHECK_AMSLAlt_Use.Name" xml:space="preserve">
     <value>CHECK_AMSLAlt_Use</value>
@@ -865,7 +865,7 @@
     <value>9</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>셔터 지연 (ms)</value>
+    <value>셔터 지연(ms)</value>
   </data>
   <data name="&gt;&gt;label27.Name" xml:space="preserve">
     <value>label27</value>
@@ -913,7 +913,7 @@
     <value>42</value>
   </data>
   <data name="chk_cammsg.Text" xml:space="preserve">
-    <value>CAM 메세지 활용</value>
+    <value>CAM 메시지 사용</value>
   </data>
   <data name="&gt;&gt;chk_cammsg.Name" xml:space="preserve">
     <value>chk_cammsg</value>
@@ -943,7 +943,7 @@
     <value>43</value>
   </data>
   <data name="RDIO_trigmsg.Text" xml:space="preserve">
-    <value>트리거 메세지</value>
+    <value>트리거 메시지</value>
   </data>
   <data name="&gt;&gt;RDIO_trigmsg.Name" xml:space="preserve">
     <value>RDIO_trigmsg</value>
@@ -1024,7 +1024,7 @@
     <value>46</value>
   </data>
   <data name="chk_camusegpsalt.Text" xml:space="preserve">
-    <value>GPS 대체 활용</value>
+    <value>GPS 고도 사용</value>
   </data>
   <data name="&gt;&gt;chk_camusegpsalt.Name" xml:space="preserve">
     <value>chk_camusegpsalt</value>
@@ -1054,7 +1054,7 @@
     <value>47</value>
   </data>
   <data name="chk_trigusergpsalt.Text" xml:space="preserve">
-    <value>GPS 대체 활용</value>
+    <value>GPS 고도 사용</value>
   </data>
   <data name="&gt;&gt;chk_trigusergpsalt.Name" xml:space="preserve">
     <value>chk_trigusergpsalt</value>
@@ -1078,7 +1078,7 @@
     <value>1085, 595</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Geo Ref Images</value>
+    <value>이미지 지리 참조</value>
   </data>
   <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
     <value>openFileDialog1</value>
@@ -1098,4 +1098,7 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="label3.Text" xml:space="preserve"><value>최소 셔터 간격(초)(CAM)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>끝 이미지 제외</value></data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>시작 이미지 제외</value></data>
 </root>

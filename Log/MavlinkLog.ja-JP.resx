@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_paramsfromlog.Text" xml:space="preserve">
-    <value>パラメータの展開</value>
+    <value>パラメータを抽出</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ログ</value>
@@ -127,7 +127,7 @@
     <value>KML + GPXの生成</value>
   </data>
   <data name="BUT_getwpsfromlog.Text" xml:space="preserve">
-    <value>ウェイポイントを展開</value>
+    <value>ウェイポイントを抽出</value>
   </data>
   <data name="BUT_convertcsv.Text" xml:space="preserve">
     <value>CSVに変換</value>
@@ -144,4 +144,5 @@
   <data name="BUT_humanreadable.Text" xml:space="preserve">
     <value>テキストに変換</value>
   </data>
+  <data name="but_cs.Text" xml:space="preserve"><value>CSを抽出</value></data>
 </root>

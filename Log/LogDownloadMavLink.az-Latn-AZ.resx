@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,42 +118,45 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_clearlogs.ToolTip" xml:space="preserve">
-    <value>Bağlı PUA dakı bütün qeydləri silin.</value>
+    <value>Qoşulmuş PUA-dakı bütün jurnalları sil.</value>
   </data>
   <data name="BUT_bintolog.ToolTip" xml:space="preserve">
-    <value>Bir Binarı log faylını (.bin) mətn text formatına  (.log) çevir</value>
+    <value>İkili jurnal faylını (.bin) mətn formatına (.log) çevir.</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Lon Endirici</value>
+    <value>Jurnal endirmə aləti</value>
   </data>
   <data name="BUT_DLall.Text" xml:space="preserve">
-    <value>Bütün logları endir</value>
+    <value>Bütün jurnalları endir</value>
   </data>
   <data name="BUT_redokml.Text" xml:space="preserve">
-    <value>KML yenidən qur</value>
+    <value>KML yarat</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Çıxış:</value>
   </data>
   <data name="BUT_firstperson.ToolTip" xml:space="preserve">
-    <value>Log faylini KML birinci-şəxs formatına çevir</value>
+    <value>Jurnal faylını birinci şəxs görünüşlü KML formatına çevir.</value>
   </data>
   <data name="LabelStatus.Text" xml:space="preserve">
-    <value>Qeyd: dəstək suallarını göndərərkən, .bin faylını göndərin</value>
+    <value>QEYD: dəstək sorğusu göndərərkən .bin faylını əlavə edin</value>
   </data>
   <data name="BUT_DLthese.ToolTip" xml:space="preserve">
-    <value>Yuxarıdakı siyahıda yoxladığınız qeydləri yükləyin.</value>
+    <value>Yuxarıdakı siyahıda işarələdiyiniz jurnalları endir.</value>
   </data>
   <data name="BUT_redokml.ToolTip" xml:space="preserve">
-    <value>Bir Binarı log faylını (.bin) mətn text formatına  (.log) çevir</value>
+    <value>Jurnal faylını KML formatına çevir.</value>
   </data>
   <data name="BUT_DLthese.Text" xml:space="preserve">
-    <value>Seçilmiş logları endir</value>
+    <value>Seçilmiş jurnalları endir</value>
   </data>
   <data name="BUT_clearlogs.Text" xml:space="preserve">
-    <value>Logları təmizlə</value>
+    <value>Jurnalları təmizlə</value>
   </data>
   <data name="BUT_firstperson.Text" xml:space="preserve">
-    <value>KML İlk Şəxs</value>
+    <value>Birinci şəxs görünüşlü KML</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>Jurnal faylları:</value></data>
+  <data name="labelBytes.Text" xml:space="preserve"><value>label3</value></data>
+  <data name="BUT_bintolog.Text" xml:space="preserve"><value>.bin-dən .log-a</value></data>
 </root>

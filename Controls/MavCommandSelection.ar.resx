@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>يمكنك إضافة أوامر MAVLink إلى قائمة الأوامر في جدول المهمة ضمن عرض تخطيط الرحلة. 
+لإضافة أمر، يجب أن تعرف معرّفه. يُملأ الاسم تلقائيًا إذا كان
+المعرّف معرّفًا بالفعل في مكتبات MAVLink. ويمكنك أيضًا إضافة معرّف غير معرّف بعد.
+في هذه الحالة، يجب إدخال الاسم أيضًا. إضافة أمر هنا لا تعني أن
+الطيار الآلي سيقبله أو ينفّذه. لذا يجب أن تكون على دراية بما تفعله.</value></data>
+</root>

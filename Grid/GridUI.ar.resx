@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label44.Text" xml:space="preserve"><value>أدنى سرعة للغالق:</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>منسوب الأرض:</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>قطر الانعطاف (عند 45 درجة):</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>صورة كل (تقديريًا):</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>زمن الرحلة (تقديريًا):</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>المسافة بين الخطوط:</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>البصمة الأرضية:</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>عدد شرائط المسح:</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>الصور:</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>الدقة الأرضية: </value></data>
+  <data name="label27.Text" xml:space="preserve"><value>المسافة بين الصور: </value></data>
+  <data name="label23.Text" xml:space="preserve"><value>المسافة: </value></data>
+  <data name="label22.Text" xml:space="preserve"><value>المساحة: </value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>الإحصاءات</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>سيرفو</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>PWM العالي</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>PWM المنخفض</value></data>
+  <data name="rad_do_set_servo.Text" xml:space="preserve"><value>DO_SET_SERVO</value></data>
+  <data name="chk_stopstart.Text" xml:space="preserve"><value>فصل بدايات المسارات</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>PWM</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>زمن الدورة [s]</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>سيرفو</value></data>
+  <data name="rad_digicam.Text" xml:space="preserve"><value>DO_DIGICAM_CONTROL</value></data>
+  <data name="rad_repeatservo.Text" xml:space="preserve"><value>DO_REPEAT_SERVO</value></data>
+  <data name="rad_trigdist.Text" xml:space="preserve"><value>CAM_TRIGG_DIST</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>طريقة تشغيل الغالق</value></data>
+  <data name="BUT_samplephoto.Text" xml:space="preserve"><value>تحميل صورة نموذجية</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>القيم المحسوبة</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>مجال الرؤية الرأسي [m]</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>مجال الرؤية الأفقي [m]</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>cm/بكسل</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>ارتفاع المستشعر [mm]</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>عرض المستشعر [mm]</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>ارتفاع الصورة [بكسل]</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>عرض الصورة [بكسل]</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>البعد البؤري [mm]</value></data>
+  <data name="BUT_save.Text" xml:space="preserve"><value>حفظ</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>خيارات الكاميرا</value></data>
+  <data name="tabCamera.Text" xml:space="preserve"><value>إعداد الكاميرا</value></data>
+  <data name="LBL_laps.Text" xml:space="preserve"><value>عدد اللفات</value></data>
+  <data name="CHK_match_spiral_perimeter.Text" xml:space="preserve"><value>مطابقة المحيط مع المضلع</value></data>
+  <data name="LBL_clockwise_laps.Text" xml:space="preserve"><value>عدد اللفات باتجاه عقارب الساعة</value></data>
+  <data name="LBL_clockwise_laps1.Text" xml:space="preserve"><value>(-1 لمسار حلزوني باتجاه عقارب الساعة)</value></data>
+  <data name="groupBoxSpiral.Text" xml:space="preserve"><value>خيارات المسار الحلزوني</value></data>
+  <data name="chk_optimize_for_distance.Text" xml:space="preserve"><value>تحسين المسافة</value></data>
+  <data name="LBL_Alternating_lanes.Text" xml:space="preserve"><value>مسارات متناوبة</value></data>
+  <data name="LBL_Lane_Dist.Text" xml:space="preserve"><value>أدنى فصل بين المسارات</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>خيارات الطائرة ثابتة الجناح</value></data>
+  <data name="chk_spline.Text" xml:space="preserve"><value>دخول/خروج بمنحنيات سلسة</value></data>
+  <data name="CHK_copter_headingholdlock.Text" xml:space="preserve"><value>إلغاء الارتباط بالشبكة</value></data>
+  <data name="CHK_copter_headinghold.Text" xml:space="preserve"><value>تثبيت الاتجاه</value></data>
+  <data name="LBL_copter_delay.Text" xml:space="preserve"><value>الانتظار عند نقطة المسار (ث)</value></data>
+  <data name="groupBox_copter.Text" xml:space="preserve"><value>خيارات الطائرة متعددة المراوح</value></data>
+  <data name="chk_spiral.Text" xml:space="preserve"><value>حلزوني</value></data>
+  <data name="chk_Corridor.Text" xml:space="preserve"><value>ممر</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>عرض الممر [m]</value></data>
+  <data name="chk_crossgrid.Text" xml:space="preserve"><value>شبكة متقاطعة</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>مسافة الدخول [m]</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>التداخل الطولي [%]</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>البدء من</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>التداخل الجانبي [%]</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>مسافة التجاوز [m]</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>المسافة بين الخطوط [m]</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>خيارات الشبكة</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>التقاط صورة كل [m]</value></data>
+  <data name="tabGrid.Text" xml:space="preserve"><value>خيارات الشبكة</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Control-S للحفظ إلى ملف
+Control-O للتحميل من ملف</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>التقسيم إلى x مقاطع</value></data>
+  <data name="CHK_usespeed.Text" xml:space="preserve"><value>استخدام السرعة لهذه المهمة</value></data>
+  <data name="CHK_toandland_RTL.Text" xml:space="preserve"><value>استخدام العودة إلى نقطة الانطلاق</value></data>
+  <data name="CHK_toandland.Text" xml:space="preserve"><value>إضافة نقطتي مسار للإقلاع والهبوط</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>سرعة الطيران (تقديرية)</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>الكاميرا</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>الزاوية [درجة]</value></data>
+  <data name="CHK_camdirection.Text" xml:space="preserve"><value>توجيه أعلى الكاميرا إلى الأمام</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>الارتفاع</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>خيارات مبسّطة</value></data>
+  <data name="CHK_advanced.Text" xml:space="preserve"><value>خيارات متقدمة</value></data>
+  <data name="CHK_footprints.Text" xml:space="preserve"><value>البصمات الأرضية</value></data>
+  <data name="CHK_internals.Text" xml:space="preserve"><value>العناصر الداخلية</value></data>
+  <data name="CHK_grid.Text" xml:space="preserve"><value>الشبكة</value></data>
+  <data name="CHK_markers.Text" xml:space="preserve"><value>العلامات</value></data>
+  <data name="CHK_boundary.Text" xml:space="preserve"><value>الحدود</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>العرض</value></data>
+  <data name="BUT_Accept.Text" xml:space="preserve"><value>قبول</value></data>
+  <data name="tabSimple.Text" xml:space="preserve"><value>مبسّط</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>مسح (شبكة)</value></data>
+</root>

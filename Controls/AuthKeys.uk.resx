@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,13 +121,13 @@
     <value>Ключ</value>
   </data>
   <data name="Use.HeaderText" xml:space="preserve">
-    <value>Використати</value>
+    <value>Використовувати</value>
   </data>
   <data name="FName.HeaderText" xml:space="preserve">
-    <value>Зручна назва</value>
+    <value>Зрозуміла назва</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Ключі автора</value>
+    <value>Ключі автентифікації</value>
   </data>
   <data name="but_save.Text" xml:space="preserve">
     <value>Зберегти</value>
@@ -136,6 +136,6 @@
     <value>Додати</value>
   </data>
   <data name="but_disablesigning.Text" xml:space="preserve">
-    <value>Вимкнути підпис</value>
+    <value>Вимкнути підписування</value>
   </data>
 </root>

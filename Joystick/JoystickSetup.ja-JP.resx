@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label5.Text" xml:space="preserve"><value>ジョイスティック</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>エクスポ</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>出力</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>コントローラー軸</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>反転</value></data>
+  <data name="CHK_elevons.Text" xml:space="preserve"><value>エレボン</value></data>
+  <data name="BUT_enable.Text" xml:space="preserve"><value>有効</value></data>
+  <data name="BUT_save.Text" xml:space="preserve"><value>保存</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>読込済み設定の対象</value></data>
+  <data name="chk_manualcontrol.Text" xml:space="preserve"><value>手動制御</value></data>
+  <data name="but_export.Text" xml:space="preserve"><value>エクスポート</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>インポート</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -275,13 +275,13 @@
     <value>HRLV</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>聲納</value>
+    <value>測距儀</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>距離: </value>
+    <value>距離： </value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>電壓: </value>
+    <value>電壓： </value>
   </data>
   <data name="LBL_dist.Text" xml:space="preserve">
     <value>0.0</value>

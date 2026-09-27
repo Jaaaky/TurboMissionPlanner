@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label33.Text" xml:space="preserve"><value>حسگر</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>قالب ویدئو</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>HUD</value></data>
+  <data name="CHK_GDIPlus.Text" xml:space="preserve"><value>GDI+ (نوع قدیمی/بدون شتاب‌دهی سخت‌افزاری)</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>نقاط مسیر</value></data>
+  <data name="CHK_loadwponconnect.Text" xml:space="preserve"><value>بارگذاری نقاط مسیر هنگام اتصال؟</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>طول رد مسیر</value></data>
+  <data name="CHK_speechaltwarning.Text" xml:space="preserve"><value>هشدار ارتفاع</value></data>
+  <data name="label108.Text" xml:space="preserve"><value>بازنشانی هنگام اتصال</value></data>
+  <data name="CHK_resetapmonconnect.Text" xml:space="preserve"><value>بازنشانی هنگام اتصال USB (تغییر وضعیت DTR)</value></data>
+  <data name="CHK_mavdebug.Text" xml:space="preserve"><value>اشکال‌زدایی پیام‌های MAVLink</value></data>
+  <data name="label107.Text" xml:space="preserve"><value>RC</value></data>
+  <data name="label104.Text" xml:space="preserve"><value>حالت/وضعیت</value></data>
+  <data name="label103.Text" xml:space="preserve"><value>موقعیت</value></data>
+  <data name="label102.Text" xml:space="preserve"><value>وضعیت زاویه‌ای</value></data>
+  <data name="label101.Text" xml:space="preserve"><value>نرخ‌های تله‌متری</value></data>
+  <data name="label99.Text" xml:space="preserve"><value>نکته: زبانهٔ پیکربندی این واحدها را نمایش نمی‌دهد، زیرا مقادیر آن خام هستند.
+</value></data>
+  <data name="label98.Text" xml:space="preserve"><value>واحد سرعت</value></data>
+  <data name="label97.Text" xml:space="preserve"><value>واحد فاصله</value></data>
+  <data name="label96.Text" xml:space="preserve"><value>جوی‌استیک</value></data>
+  <data name="label95.Text" xml:space="preserve"><value>گفتار</value></data>
+  <data name="CHK_speechbattery.Text" xml:space="preserve"><value>هشدار باتری</value></data>
+  <data name="CHK_speechcustom.Text" xml:space="preserve"><value>فاصلهٔ ۳۰ ثانیه</value></data>
+  <data name="CHK_speechmode.Text" xml:space="preserve"><value>حالت </value></data>
+  <data name="CHK_speechwaypoint.Text" xml:space="preserve"><value>نقطهٔ مسیر</value></data>
+  <data name="label94.Text" xml:space="preserve"><value>رنگ OSD</value></data>
+  <data name="label93.Text" xml:space="preserve"><value>زبان رابط کاربری</value></data>
+  <data name="CHK_enablespeech.Text" xml:space="preserve"><value>فعال کردن گفتار</value></data>
+  <data name="CHK_hudshow.Text" xml:space="preserve"><value>فعال کردن لایهٔ HUD</value></data>
+  <data name="label92.Text" xml:space="preserve"><value>دستگاه ویدئویی</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>دنبال کردن روی نقشه</value></data>
+  <data name="CHK_maprotation.Text" xml:space="preserve"><value>نقشه برای دنبال کردن هواپیما می‌چرخد</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>فاصله تا خانه</value></data>
+  <data name="CHK_disttohomeflightdata.Text" xml:space="preserve"><value>نمایش در داده‌های پرواز</value></data>
+  <data name="BUT_Joystick.Text" xml:space="preserve"><value>تنظیم جوی‌استیک</value></data>
+  <data name="BUT_videostop.Text" xml:space="preserve"><value>توقف</value></data>
+  <data name="BUT_videostart.Text" xml:space="preserve"><value>شروع</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>مسیر گزارش‌ها</value></data>
+  <data name="BUT_logdirbrowse.Text" xml:space="preserve"><value>مرور</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>پوسته</value></data>
+  <data name="BUT_themecustom.Text" xml:space="preserve"><value>سفارشی</value></data>
+  <data name="CHK_speecharmdisarm.Text" xml:space="preserve"><value>مسلح/غیرمسلح کردن</value></data>
+  <data name="BUT_Vario.Text" xml:space="preserve"><value>شروع/توقف واریومتر</value></data>
+  <data name="chk_analytics.Text" xml:space="preserve"><value>انصراف از ارسال آمار ناشناس</value></data>
+  <data name="CHK_beta.Text" xml:space="preserve"><value>به‌روزرسانی‌های بتا</value></data>
+  <data name="CHK_Password.Text" xml:space="preserve"><value>محافظت از تنظیمات با گذرواژه</value></data>
+  <data name="CHK_speechlowspeed.Text" xml:space="preserve"><value>سرعت پایین</value></data>
+  <data name="CHK_showairports.Text" xml:space="preserve"><value>نمایش فرودگاه‌ها</value></data>
+  <data name="chk_ADSB.Text" xml:space="preserve"><value>ADSB</value></data>
+  <data name="chk_tfr.Text" xml:space="preserve"><value>محدودیت‌های موقت پرواز</value></data>
+  <data name="chk_temp.Text" xml:space="preserve"><value>صفحهٔ آزمایش</value></data>
+  <data name="chk_norcreceiver.Text" xml:space="preserve"><value>گیرندهٔ رادیوکنترل موجود نیست</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>چیدمان</value></data>
+  <data name="CHK_AutoParamCommit.Text" xml:space="preserve"><value>ثبت خودکار پارامترها</value></data>
+  <data name="chk_shownofly.Text" xml:space="preserve"><value>ممنوعیت پرواز</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>واحد ارتفاع</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>شناسهٔ GCS</value></data>
+  <data name="CHK_params_bg.Text" xml:space="preserve"><value>بارگیری پارامترها در پس‌زمینه</value></data>
+  <data name="chk_slowMachine.Text" xml:space="preserve"><value>اجرا روی رایانهٔ کند</value></data>
+  <data name="CHK_speechArmedOnly.Text" xml:space="preserve"><value>فقط در حالت مسلح</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>نکته: حداقل سطح اهمیت پیام‌های گفتاری را تنظیم کنید</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>هواگرد غیرفعال</value></data>
+  <data name="chk_displaycog.Text" xml:space="preserve"><value>نمایش مسیر حرکت روی زمین</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>نماد هواگرد</value></data>
+  <data name="chk_displayheading.Text" xml:space="preserve"><value>نمایش سمت</value></data>
+  <data name="chk_displaynavbearing.Text" xml:space="preserve"><value>نمایش سمت ناوبری</value></data>
+  <data name="chk_displayradius.Text" xml:space="preserve"><value>نمایش شعاع گردش</value></data>
+  <data name="chk_displaytarget.Text" xml:space="preserve"><value>نمایش هدف</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>طول خط</value></data>
+  <data name="chk_displaytooltip.Text" xml:space="preserve"><value>نمایش راهنمای شناور</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>حالت دسترسی به نقشه</value></data>
+  <data name="BUT_mapCacheDir.Text" xml:space="preserve"><value>باز کردن حافظهٔ نهان نقشه</value></data>
+  <data name="CHK_rtsresetesp32.Text" xml:space="preserve"><value>غیرفعال کردن بازنشانی RTS در SerialUSB برد ESP32</value></data>
+</root>

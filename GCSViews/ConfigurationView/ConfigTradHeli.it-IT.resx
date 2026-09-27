@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,7 +124,7 @@
     <value>180</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Posizione del servo "Swash-Servo"</value>
+    <value>Posizione servi del piatto</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
     <value>1</value>
@@ -136,37 +136,37 @@
     <value>3</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
-    <value>Top</value>
+    <value>Superiore</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Escursione del piatto Servo</value>
+    <value>Escursione collettivo</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Escursione Timone</value>
+    <value>Escursione timone</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
     <value>Max</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Modalità servi</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>Roll Max</value>
+    <value>Potenza bassa</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Bottom %</value>
+    <value>Angolo di fase</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>Pitch Max</value>
+    <value>Minimo</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
-    <value>Modalità 1 "Setpoint"</value>
+    <value>Setpoint modalità 1</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
     <value>Controllo velocità rotore</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Min</value>
+    <value>Zero</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
     <value>Stabilizza Col Min/Max</value>
@@ -175,25 +175,25 @@
     <value>1000</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>RSC Ramp Rate</value>
+    <value>Rampa RSC</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Calibrazione</value>
+    <value>Precompensazione collettivo</value>
   </data>
   <data name="HS4_MIN.Text" xml:space="preserve">
     <value>1500</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Top%</value>
+    <value>Collettivo in atterraggio</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Tipologia Piatto-Servp</value>
+    <value>Tipo di piatto oscillante</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Secondi</value>
+    <value>Tempo rampa (s)</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Giroscopio EXT</value>
+    <value>Tipo di coda</value>
   </data>
   <data name="HS4_MAX.Text" xml:space="preserve">
     <value>1500</value>
@@ -208,13 +208,13 @@
     <value>60</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>Rev</value>
+    <value>Inv.</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
     <value>Posizione</value>
   </data>
   <data name="fbl_modeFBL.Text" xml:space="preserve">
-    <value>FBL</value>
+    <value>Senza flybar</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
     <value>Trim</value>
@@ -244,7 +244,7 @@
     <value>1500</value>
   </data>
   <data name="label46.Text" xml:space="preserve">
-    <value>Gain</value>
+    <value>Guadagno</value>
   </data>
   <data name="label44.Text" xml:space="preserve">
     <value>Trim</value>
@@ -259,12 +259,38 @@
     <value>Timone</value>
   </data>
   <data name="label43.Text" xml:space="preserve">
-    <value>Rev</value>
+    <value>Inv.</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="label41.Text" xml:space="preserve">
-    <value>Bottom</value>
+    <value>Inferiore</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>Velocità coda</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Critico</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Avviamento (s)</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Test servi all'avvio</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Rollio in hovering</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Compensazione piroetta</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Escursione ciclico</value></data>
+  <data name="myButtonH_SV_MANtest.Text" xml:space="preserve"><value>Test</value></data>
+  <data name="myButtonH_SV_MANmin.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="myButtonH_SV_MANzero.Text" xml:space="preserve"><value>Zero</value></data>
+  <data name="myButtonH_SV_MANmax.Text" xml:space="preserve"><value>Max</value></data>
+  <data name="myButtonH_SV_MANmanual.Text" xml:space="preserve"><value>Manuale</value></data>
+  <data name="myButtonH_SV_MAN.Text" xml:space="preserve"><value>Attivo</value></data>
+  <data name="groupBox11.Text" xml:space="preserve"><value>Uscita gas</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Inv.</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Max</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>Curva a V</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Potenza alta</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>Curva</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Esponenziale Acro</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Stab 4</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Stab 3</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Stab 2</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Stab 1</value></data>
 </root>

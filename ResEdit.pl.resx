@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>Plik</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>Wewnętrzne</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>Angielski</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>Inny język</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>Zapisz</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>Sposób użycia:
+Przy pierwszym uruchomieniu wybierz język na dole, edytuj teksty i kliknij Zapisz.
+
+Przy kolejnym użyciu wybierz język — istniejące tłumaczenia zostaną wczytane automatycznie.
+
+Aby kontynuować częściowo ukończoną pracę, kliknij Wczytaj tłumaczenie.
+
+UWAGA: automatyczne wczytywanie działa dopiero po dodaniu tłumaczenia do programu przez Michaela. W przeciwnym razie użyj przycisku Wczytaj tłumaczenie.
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Wczytaj tłumaczenie</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>Kopiuj do schowka</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Edytor języka</value></data>
+</root>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label3.Text" xml:space="preserve"><value>جریان نوری  </value></data>
+  <data name="label1.Text" xml:space="preserve"><value>نوع</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>جهت یاو</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>مقیاس FX</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>مقیاس FY</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>موقعیت X</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>موقعیت Y</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>موقعیت Z</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>درجه، نسبت به وسیله</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>متر به جلو</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>متر به راست</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>متر به پایین</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>موقعیت حسگر نسبت به IMU</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>ضرایب مقیاس</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>جایگزینی ارتفاع</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>متر از سطح زمین</value></data>
+  <data name="CHK_enableoptflow.Text" xml:space="preserve"><value>فعال کردن</value></data>
+</root>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="chk_ele.Text" xml:space="preserve"><value>ارتفاع از سطح دریا</value></data>
+  <data name="chk_terrain.Text" xml:space="preserve"><value>ناهمواری زمین</value></data>
+  <data name="chk_rf.Text" xml:space="preserve"><value>نقشهٔ پوشش رادیویی</value></data>
+  <data name="chk_dronedist.Text" xml:space="preserve"><value>فاصلهٔ باقی‌مانده تا پهپاد</value></data>
+  <data name="chk_homedist.Text" xml:space="preserve"><value>فاصلهٔ باقی‌مانده تا خانه</value></data>
+  <data name="cb_showscale.Text" xml:space="preserve"><value>نمایش مقیاس</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>فیلتر ارتفاع</value></data>
+  <data name="label91.Text" xml:space="preserve"><value>ارتفاع از سطح دریا</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>بیشینهٔ ارتفاع</value></data>
+  <data name="label89.Text" xml:space="preserve"><value>فاصلهٔ آزاد [m]</value></data>
+  <data name="label100.Text" xml:space="preserve"><value>انتشار امواج</value></data>
+  <data name="label113.Text" xml:space="preserve"><value>کیلومتر باقی‌مانده</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>کمینهٔ ارتفاع</value></data>
+  <data name="label109.Text" xml:space="preserve"><value>گام سمت</value></data>
+  <data name="label90.Text" xml:space="preserve"><value>تفکیک‌پذیری</value></data>
+  <data name="label110.Text" xml:space="preserve"><value>همگرایی</value></data>
+  <data name="label111.Text" xml:space="preserve"><value>برد [Km]</value></data>
+  <data name="label112.Text" xml:space="preserve"><value>ارتفاع پایه [m]</value></data>
+  <data name="label114.Text" xml:space="preserve"><value>تلرانس</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>لایهٔ نقشه</value></data>
+  <data name="chk_setalt.Text" xml:space="preserve"><value>فیلتر ارتفاع</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>تنظیمات انتشار امواج</value></data>
+</root>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_forcecal_accel.Text" xml:space="preserve"><value>İvmeölçer kalibrasyonunu zorla</value></data>
+  <data name="BUT_forcecal_mag.Text" xml:space="preserve"><value>Pusula kalibrasyonunu zorla</value></data>
+  <data name="but_apjtool.Text" xml:space="preserve"><value>APJ aracı</value></data>
+  <data name="BUT_CoT.Text" xml:space="preserve"><value>CoT</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>Yakınlık</value></data>
+  <data name="but_followswarm.Text" xml:space="preserve"><value>Sürüyü takip et</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>MAVLink 2 imzalama yapılandırması</value></data>
+  <data name="but_lockup.Text" xml:space="preserve"><value>Aracı kilitle</value></data>
+  <data name="but_td.Text" xml:space="preserve"><value>threads.txt dosyasını al</value></data>
+  <data name="but_gpsinj.Text" xml:space="preserve"><value>gps_inject verilerini çıkar</value></data>
+  <data name="but_dem.Text" xml:space="preserve"><value>DEM</value></data>
+  <data name="BUT_magfit2.Text" xml:space="preserve"><value>Pusula kalibrasyon günlüğü</value></data>
+  <data name="but_GDAL.Text" xml:space="preserve"><value>Özel GDAL</value></data>
+  <data name="but_sortlogs.Text" xml:space="preserve"><value>Tüm günlükleri yeniden sırala</value></data>
+  <data name="but_optflowcalib.Text" xml:space="preserve"><value>Optik akış kalibrasyonu</value></data>
+  <data name="but_logdlscp.Text" xml:space="preserve"><value>SCP ile günlük indir</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>İmzalama</value></data>
+  <data name="but_acbarohight.Text" xml:space="preserve"><value>Hava aracının barometrik yüksekliğini ayarla</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>DataFlash günlüğünü böl</value></data>
+  <data name="but_driverclean.Text" xml:space="preserve"><value>Sürücüleri temizle</value></data>
+  <data name="but_agemapdata.Text" xml:space="preserve"><value>Eski harita verilerini temizle</value></data>
+  <data name="but_packetbytes.Text" xml:space="preserve"><value>Paket baytlarını ayrıştır</value></data>
+  <data name="myButton_vlc.Text" xml:space="preserve"><value>VLC</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>DashWare veri giriş dosyası oluştur</value></data>
+  <data name="but_trimble.Text" xml:space="preserve"><value>Sürü sıralaması</value></data>
+  <data name="but_hwids.Text" xml:space="preserve"><value>Donanım kimliklerini çözümle</value></data>
+  <data name="BUT_QNH.Text" xml:space="preserve"><value>QNH</value></data>
+  <data name="but_reboot.Text" xml:space="preserve"><value>Pixhawk'ı yeniden başlat</value></data>
+  <data name="but_3dmap.Text" xml:space="preserve"><value>3B harita</value></data>
+  <data name="but_messageinterval.Text" xml:space="preserve"><value>Mesaj aralığı</value></data>
+  <data name="but_blupdate.Text" xml:space="preserve"><value>Önyükleyiciyi yükselt</value></data>
+  <data name="BUT_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="but_disablearmswitch.Text" xml:space="preserve"><value>Emniyet anahtarının durumunu değiştir</value></data>
+  <data name="but_paramrestore.Text" xml:space="preserve"><value>Parametreleri geri yükle</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>MAVLink inceleyicisi</value></data>
+  <data name="but_sitl_comb.Text" xml:space="preserve"><value>SITL akış birleştirici</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>Günlüğü anonimleştir</value></data>
+  <data name="but_dashware.Text" xml:space="preserve"><value>DashWare</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>TLOG tarayıcısı</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>Dizindeki tüm TLOG dosyaları için harita JPG'leri oluştur</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Gimbal yöneltme algoritmasını çalıştır</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Quad: arm et ve kalkış yap</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Yapı dönüşümü hız testi</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Özel görüntüleri sil</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Mission Planner'a özel görüntüler ekle</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Tüm güncel donanım yazılımlarını indir</value></data>
+  <data name="butlogindex.Text" xml:space="preserve"><value>Günlük dizini</value></data>
+  <data name="but_armandtakeoff.Text" xml:space="preserve"><value>Arm et ve kalkış yap</value></data>
+  <data name="but_maplogs.Text" xml:space="preserve"><value>Günlükleri haritada göster</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>TLOG dosyalarını tür ve sistem kimliği dizinlerine ayır</value></data>
+  <data name="but_gimbaltest.Text" xml:space="preserve"><value>Gimbal testi</value></data>
+  <data name="but_structtest.Text" xml:space="preserve"><value>Yapı testi</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>GPS'e özel doğrudan geçiş bağlantısı oluştur (port 500)</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Lideri takip eden sürü</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Çok araçlı sürü arayüzü</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>SHP dosyasını çokgen dosyasına dönüştür</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Mevcut konumunuz için haritada ek bir simge göster.</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Kaydedilmiş videolarınıza HUD katmanı ekle</value></data>
+  <data name="BUT_clearcustommaps.Text" xml:space="preserve"><value>Özel haritaları temizle</value></data>
+  <data name="but_getfw.Text" xml:space="preserve"><value>Tüm donanım yazılımlarını çıkar</value></data>
+  <data name="BUT_geinjection.Text" xml:space="preserve"><value>GE ekle</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Çeviri dili düzenleyicisi</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Mission Planner içinde kullanılan parametre bilgilerini yeniden oluştur</value></data>
+  <data name="BUT_sorttlogs.Text" xml:space="preserve"><value>TLOG dosyalarını sırala</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Mission Planner'ın aldığı MAVLink akışını yansıtır</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Araç konumunu Microdrone biçiminde dışarı aktarır</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Araç konumunu NMEA biçiminde dışarı aktarır</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Beni takip etmek için NMEA GPS kullan</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Özel sesli uyarılar oluştur</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="BUT_outputMD.Text" xml:space="preserve"><value>MicroDrone</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>Görüntülere coğrafi referans ekle</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Uyarı yöneticisi</value></data>
+  <data name="BUT_lang_edit.Text" xml:space="preserve"><value>Dil düzenleme</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>Beni takip et</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>Parametre oluşturucu</value></data>
+  <data name="but_osdvideo.Text" xml:space="preserve"><value>OSD videosu</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>Hareketli üs</value></data>
+  <data name="BUT_shptopoly.Text" xml:space="preserve"><value>SHP'den çokgene</value></data>
+  <data name="BUT_swarm.Text" xml:space="preserve"><value>Sürü</value></data>
+  <data name="BUT_followleader.Text" xml:space="preserve"><value>Lideri takip et</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>DataFlash sekmesine taşındı</value></data>
+  <data name="but_mavserialport.Text" xml:space="preserve"><value>MAVSerial doğrudan geçiş</value></data>
+  <data name="but_hexmavlink.Text" xml:space="preserve"><value>Onaltılık MAVLink çözümleme</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Günlükten pusula ofsetlerini al</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>PX4 optik akış sensörünün görüntü verilerini göster</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Yüklü sürücüleri kaldır</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Emniyet düğmesine sanal olarak bas</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>Mesajlar için özel gönderim aralıkları ayarla</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>Gönderilen tüm MAVLink paketlerini incele</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>Önyükleyiciyi güncelle</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>3B harita testi</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Girilen donanım kimliğiyle ilgili bilgileri göster</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Onaltılık dizge biçimindeki MAVLink paketinde hata ayıkla</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Barometrik irtifa referansını değiştir</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Otopilotun kilitlenmesini sağla</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Yüklü sayısal yükseklik modellerinin bilgilerini göster</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>SCP - SSH üzerinden günlük indir (apsync)</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>Mission Planner günlük klasöründeki tüm günlükleri yeniden sırala</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>GDAL üzerinden özel harita döşemesi kaynağı yükle</value></data>
+  <data name="label47.Text" xml:space="preserve"><value>Otopilotu yeniden başlat</value></data>
+  <data name="label48.Text" xml:space="preserve"><value>QNH değerini ayarla</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>label49</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>VLC üzerinden video akışını göster; bunun yerine GStreamer KULLANIN</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>30 günden eski görüntü döşemelerini kaldır</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>DataFlash günlüğünü x parçaya böl</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>TLOG dosyasından RTCM verilerini çıkar</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>Yakınlık arayüzünü göster</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>Sürü biçimi</value></data>
+  <data name="but_remotedflogger.Text" xml:space="preserve"><value>Uzak DataFlash kaydedicisini başlat</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Cursor-on-Target çıktısı üretir</value></data>
+  <data name="but_ManageCMDList.Text" xml:space="preserve"><value>Komut listesini yönet</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Planlayıcının komut listesini yönet</value></data>
+  <data name="but_dfumode.Text" xml:space="preserve"><value>DFU modu</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>DFU modu</value></data>
+  <data name="label57.Text" xml:space="preserve"><value>Parametreler geri yüklendikten sonra ivmeölçeri kalibre edilmiş olarak işaretle</value></data>
+  <data name="label58.Text" xml:space="preserve"><value>Parametreler geri yüklendikten sonra pusulayı kalibre edilmiş olarak işaretle</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Geçici</value></data>
+</root>

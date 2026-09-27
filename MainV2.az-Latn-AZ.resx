@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,40 +121,40 @@
     <value>Simulyasiya</value>
   </data>
   <data name="MenuFlightPlanner.Text" xml:space="preserve">
-    <value>ÜÇÜŞ PLANI</value>
+    <value>PLAN</value>
   </data>
   <data name="MenuHelp.Text" xml:space="preserve">
     <value>KÖMƏK</value>
   </data>
   <data name="connectionListToolStripMenuItem.Text" xml:space="preserve">
-    <value>Əlaqə siyahısı</value>
+    <value>Bağlantı siyahısı</value>
   </data>
   <data name="MenuInitConfig.ToolTipText" xml:space="preserve">
-    <value>Qurğu tənzimləmələri</value>
+    <value>Avadanlıq sazlaması</value>
   </data>
   <data name="connectionOptionsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Əlaqə tənzimləmələri</value>
+    <value>Bağlantı seçimləri</value>
   </data>
   <data name="MenuFlightData.Text" xml:space="preserve">
-    <value>ÜÇÜŞ TARİXİ</value>
+    <value>MƏLUMATLAR</value>
   </data>
   <data name="MenuInitConfig.Text" xml:space="preserve">
-    <value>İLKİN QURAŞDIRMA</value>
+    <value>QURAŞDIRMA</value>
   </data>
   <data name="MenuConnect.Text" xml:space="preserve">
-    <value>ƏLAQƏ</value>
+    <value>QOŞUL</value>
   </data>
   <data name="MenuFlightPlanner.ToolTipText" xml:space="preserve">
-    <value>Üçüş Planlama</value>
+    <value>Uçuş planlaşdırıcısı</value>
   </data>
   <data name="MenuConfigTune.Text" xml:space="preserve">
-    <value>Konfiqurasiya/Dəyışdırmə</value>
+    <value>SAZLAMA</value>
   </data>
   <data name="MenuFlightData.ToolTipText" xml:space="preserve">
-    <value>Üçüş Tarixi</value>
+    <value>Uçuş məlumatları</value>
   </data>
   <data name="MenuConfigTune.ToolTipText" xml:space="preserve">
-    <value>Program təminatı konfiqurasiya</value>
+    <value>Proqram sazlaması</value>
   </data>
   <data name="MenuSimulation.Text" xml:space="preserve">
     <value>SİMULYASİYA</value>
@@ -166,12 +166,15 @@
     <value>Menyu</value>
   </data>
   <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tam Ekran</value>
+    <value>Tam ekran</value>
   </data>
   <data name="autoHideToolStripMenuItem.Text" xml:space="preserve">
-    <value>Avto Gizləmə</value>
+    <value>Avtomatik gizlət</value>
   </data>
   <data name="MenuDonate.ToolTipText" xml:space="preserve">
     <value>Bağışlayın</value>
   </data>
+  <data name="readonlyToolStripMenuItem.Text" xml:space="preserve"><value>Yalnız oxuma</value></data>
+  <data name="MainMenu.Text" xml:space="preserve"><value>menuStrip1</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Mission Planner (Turbo) - Michael Oborne (Turbo qolu)</value></data>
 </root>

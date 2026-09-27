@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CMB_history_label.Text" xml:space="preserve">
-    <value>Pick previous firmware</value>
+    <value>Choisir un micrologiciel antérieur</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Images par Max Levine</value>
+    <value>Images de Max Levine</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>SVP selectioner l'ìmage ci-jaur pour versions volant</value>
+    <value>Cliquez sur les images ci-dessus pour les versions de vol</value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
     <value>État</value>
@@ -136,21 +136,21 @@
     <value>Charger firmware personnalisé</value>
   </data>
   <data name="lbl_Custom_firmware_label.Text" xml:space="preserve">
-    <value>Charger firmware personnalisé</value>
+    <value>Charger un micrologiciel personnalisé</value>
   </data>
   <data name="lbl_devfw.Text" xml:space="preserve">
-    <value>Firmwares bêta</value>
+    <value>Micrologiciels bêta</value>
   </data>
   <data name="lbl_dlfw.Text" xml:space="preserve">
-    <value>Télécharger les firmwares</value>
+    <value>Télécharger les micrologiciels</value>
   </data>
   <data name="lbl_px4bl.Text" xml:space="preserve">
-    <value>Forcer le bootloader</value>
+    <value>Forcer le chargeur de démarrage</value>
   </data>
   <data name="lbl_licence.Text" xml:space="preserve">
-    <value>Ardupilot est un logiciel libre. Cliquez ici pour lire la licence du firmware Open Source.</value>
+    <value>ArduPilot est un logiciel libre. Cliquez ici pour lire la licence du micrologiciel open source.</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Configuration moteurs Copter</value>
+    <value>Configuration des moteurs Copter</value>
   </data>
 </root>

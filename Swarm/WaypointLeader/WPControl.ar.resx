@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>طريقة الاستخدام:
+1. اتصل بجميع الطائرات المسيّرة، بما فيها القادة (انقر بزر الفأرة الأيمن على شريط الأيقونات العلوي واختر «خيارات الاتصال»).
+2. اختر المركبة الصحيحة وانقر على تعيين القائد الأرضي.
+3. اختر المركبة الصحيحة وانقر على تعيين القائد الجوي.
+4. ارفع المسار إلى الطائرة القائدة جويًا.
+5. اضبط خيارات التباعد والتقدم.
+6. انتظر حتى تحدد جميع الطائرات موقعها عبر GPS وأجرِ المعايرة. (قد تفشل فحوص ما قبل التسليح إن لم تفعل ذلك؛ ويمكن اختبار ذلك مسبقًا لضمان التشغيل السلس.)
+7. تأكّد من جاهزية القائد الأرضي وانتظاره على مسار الرحلة.
+8. انقر على بدء.</value></data>
+</root>

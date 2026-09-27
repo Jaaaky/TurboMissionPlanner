@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve"><value>معايرة متحكمات السرعة (AC3.3+)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>أزل المراوح!
+بعد الضغط على هذا الزر:
+-افصل USB والبطارية
+-وصّل البطارية
+-عندما تومض المؤشرات، اضغط مفتاح الأمان (إن وُجد)
+-يُفترض أن تُصدر متحكمات السرعة صفيرًا أثناء المعايرة
+-أعد تشغيل متحكم الطيران بالطريقة المعتادة</value></data>
+  <data name="buttonStart.Text" xml:space="preserve"><value>معايرة متحكمات السرعة</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>نوع متحكم السرعة:</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>أدنى خرج PWM</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>أقصى خرج PWM</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>الدوران عند التسليح</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>الحد الأدنى للدوران</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>الحد الأقصى للدوران</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>اترك القيمة 0 لاستخدام نطاق دخل المستقبل</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>اترك القيمة 0 لاستخدام نطاق دخل المستقبل</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>سرعة المحركات عند التسليح والخانق عند الصفر (الخمول)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>أدنى سرعة للمحركات أثناء الطيران (أعلى قليلًا من «الدوران عند التسليح»)</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>أقصى سرعة للمحركات أثناء الطيران (لمعظم متحكمات السرعة نطاق ميت عند الحد الأعلى)</value></data>
 </root>

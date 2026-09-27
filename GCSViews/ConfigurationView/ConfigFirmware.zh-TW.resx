@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -226,7 +226,7 @@
     <value>9</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Images by Max Levine</value>
+    <value>圖片由 Max Levine 提供</value>
   </data>
   <data name="pictureBoxHeli.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -337,7 +337,7 @@
     <value>26</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>請點選對應的圖片來安裝韌體</value>
+    <value>請點選上方圖片選擇「飛行韌體版本」</value>
   </data>
   <data name="CMB_history.Location" type="System.Drawing.Point, System.Drawing">
     <value>684, 389</value>
@@ -364,7 +364,7 @@
     <value>28</value>
   </data>
   <data name="CMB_history_label.Text" xml:space="preserve">
-    <value>較舊版本韌體</value>
+    <value>選擇舊版韌體</value>
   </data>
   <data name="lbl_Custom_firmware_label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -382,7 +382,7 @@
     <value>29</value>
   </data>
   <data name="lbl_Custom_firmware_label.Text" xml:space="preserve">
-    <value>由檔案載入韌體</value>
+    <value>載入自訂韌體</value>
   </data>
   <data name="lbl_devfw.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -418,7 +418,7 @@
     <value>32</value>
   </data>
   <data name="lbl_dlfw.Text" xml:space="preserve">
-    <value>由網頁下載韌體</value>
+    <value>下載韌體</value>
   </data>
   <data name="lbl_px4bl.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -436,7 +436,7 @@
     <value>33</value>
   </data>
   <data name="lbl_px4bl.Text" xml:space="preserve">
-    <value>更新 PX4 Bootloader</value>
+    <value>強制進入開機載入程式</value>
   </data>
   <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -447,4 +447,6 @@
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>827, 461</value>
   </data>
+  <data name="lbl_licence.Text" xml:space="preserve"><value>ArduPilot 是自由軟體。按此閱讀開源韌體授權條款。</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>多旋翼馬達設定</value></data>
 </root>

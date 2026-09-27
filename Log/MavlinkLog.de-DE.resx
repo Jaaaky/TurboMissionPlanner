@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,18 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_paramsfromlog.Text" xml:space="preserve">
-    <value>Parameter entpacken</value>
+    <value>Parameter extrahieren</value>
   </data>
   <data name="BUT_redokml.Text" xml:space="preserve">
-    <value>KML + GPX erzeugen</value>
+    <value>KML + GPX erstellen</value>
   </data>
   <data name="BUT_getwpsfromlog.Text" xml:space="preserve">
-    <value>WPs entpacken</value>
+    <value>Wegpunkte extrahieren</value>
   </data>
   <data name="BUT_convertcsv.Text" xml:space="preserve">
-    <value>zu CSV Konvertieren</value>
+    <value>In CSV konvertieren</value>
   </data>
   <data name="BUT_humanreadable.Text" xml:space="preserve">
-    <value>in Text Konvertieren</value>
+    <value>In Text konvertieren</value>
   </data>
+  <data name="BUT_graphmavlog.Text" xml:space="preserve"><value>Protokoll grafisch darstellen</value></data>
+  <data name="BUT_matlab.Text" xml:space="preserve"><value>MATLAB-Datei erstellen</value></data>
+  <data name="but_cs.Text" xml:space="preserve"><value>CS extrahieren</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Protokoll</value></data>
 </root>

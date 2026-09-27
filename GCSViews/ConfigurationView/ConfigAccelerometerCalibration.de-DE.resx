@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,18 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_calib_accell.Text" xml:space="preserve">
-    <value>Beschl. kalib.</value>
+    <value>Beschleunigungssensor kalibrieren</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Autopilot ausrichten um Standard-Offsets zu ermitteln (1 Achse/AHRS Trims). Autopilot horizontal/flach ausrichten.</value>
+    <value>Richten Sie den Autopiloten waagerecht aus, um die Standard-Offsets des Beschleunigungssensors festzulegen (1 Achse/AHRS-Trimmung).
+Der Autopilot muss dazu flach und waagerecht liegen.</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Autopilot ausrichten um Min/Max-Offsets zu ermitteln (3 Achsen. Autopilot horizontal/flach ausrichten.</value>
+    <value>Kalibrieren Sie die Min./Max.-Werte des Beschleunigungssensors (3 Achsen).
+Sie werden aufgefordert, den Autopiloten nacheinander auf jede Seite zu legen.</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Beschleunigungssensoren kalibirieren</value>
+    <value>Beschleunigungssensor-Kalibrierung</value>
   </data>
   <data name="BUT_level.Text" xml:space="preserve">
-    <value>Nivellierung kalibrieren</value>
+    <value>Horizontallage kalibrieren</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>Richten Sie den Autopiloten waagerecht aus, um die Standard-Skalierungsfaktoren des Beschleunigungssensors für den Horizontalflug festzulegen (1 Achse).
+Der Autopilot muss dazu flach und waagerecht liegen.</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>Einfache Beschleunigungskalibrierung</value></data>
 </root>

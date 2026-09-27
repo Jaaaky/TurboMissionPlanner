@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,24 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
     <data name="CMB_history_label.Text" xml:space="preserve">
-    <value>Bir onceki yazilim programini secin</value>
+    <value>Önceki donanım yazılımını seç</value>
   </data>
   <data name="lbl_devfw.Text" xml:space="preserve">
-    <value>Demo </value>
+    <value>Beta donanım yazılımları</value>
   </data>
   <data name="lbl_dlfw.Text" xml:space="preserve">
-    <value>Yazilim İndirin</value>
+    <value>Donanım yazılımlarını indir</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Ucus icin yukarıdaki resme tiklayin</value>
+    <value>Uçuş sürümleri için lütfen yukarıdaki görsellere tıklayın</value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
     <value>Durum</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Motor cekirdek ayarlari </value>
+    <value>Copter motor kurulumu</value>
   </data>
   <data name="lbl_Custom_firmware_label.Text" xml:space="preserve">
-    <value>Ozel Yazilim İndirin</value>
+    <value>Özel donanım yazılımı yükle</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>Görseller: Max Levine</value></data>
+  <data name="lbl_px4bl.Text" xml:space="preserve"><value>Önyükleyiciyi zorla</value></data>
+  <data name="lbl_licence.Text" xml:space="preserve"><value>ArduPilot özgür yazılımdır. Açık kaynak donanım yazılımı lisansını okumak için buraya tıklayın.</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,129 +118,161 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
     <data name="CHK_maprotation.Text" xml:space="preserve">
-    <value>Harita ucagı izlemek icin doner. </value>
+    <value>Harita, uçağı takip edecek şekilde döndürülür</value>
   </data>
   <data name="CHK_speechaltwarning.Text" xml:space="preserve">
-    <value>Yukseklik Uyarisi</value>
+    <value>İrtifa uyarısı</value>
   </data>
   <data name="BUT_videostop.Text" xml:space="preserve">
-    <value>Dur</value>
+    <value>Durdur</value>
   </data>
   <data name="CHK_speechbattery.Text" xml:space="preserve">
-    <value>Pil Uyarisi</value>
+    <value>Batarya uyarısı</value>
   </data>
   <data name="CHK_enablespeech.Text" xml:space="preserve">
-    <value>Konusmayi Etkinlestir</value>
+    <value>Seslendirmeyi etkinleştir</value>
   </data>
   <data name="CHK_Password.Text" xml:space="preserve">
-    <value>Sifre Korumasi</value>
+    <value>Yapılandırmayı parolayla koru</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Pist Uzunlugu</value>
+    <value>İz uzunluğu</value>
   </data>
   <data name="CHK_speecharmdisarm.Text" xml:space="preserve">
-    <value>Etkinlestir / devre disi birak</value>
+    <value>Arm/disarm</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>Koordinatlar</value>
+    <value>Rota noktaları</value>
   </data>
   <data name="CHK_speechcustom.Text" xml:space="preserve">
-    <value>Sure 30 D</value>
+    <value>30 sn aralık</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Baslangıc Uzunlugu</value>
+    <value>Eve uzaklık</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Kayit defteri yolu</value>
+    <value>Günlük yolu</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>Video formati</value>
+    <value>Video biçimi</value>
   </data>
   <data name="label103.Text" xml:space="preserve">
-    <value>Yer</value>
+    <value>Konum</value>
   </data>
   <data name="label102.Text" xml:space="preserve">
-    <value>Durum</value>
+    <value>Duruş</value>
   </data>
   <data name="BUT_Vario.Text" xml:space="preserve">
-    <value>Vario'yu baslat / durdur</value>
+    <value>Varyometreyi başlat/durdur</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Haritayı takip et</value>
+    <value>Harita takibi</value>
   </data>
   <data name="label101.Text" xml:space="preserve">
-    <value>Telemetri veri hizi</value>
+    <value>Telemetri hızları</value>
   </data>
   <data name="CHK_speechlowspeed.Text" xml:space="preserve">
-    <value>Dusuk Hiz</value>
+    <value>Düşük hız</value>
   </data>
   <data name="label107.Text" xml:space="preserve">
-    <value>Uzaktan Kumanda</value>
+    <value>RC</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Stil</value>
+    <value>Tema</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Vario</value>
+    <value>Düzen</value>
   </data>
   <data name="label104.Text" xml:space="preserve">
-    <value>Durum / Durum </value>
+    <value>Mod/durum</value>
   </data>
   <data name="label108.Text" xml:space="preserve">
-    <value>APM'yi sifirlayin</value>
+    <value>Bağlantıda sıfırla</value>
   </data>
   <data name="CHK_loadwponconnect.Text" xml:space="preserve">
-    <value>Baglanirken rota koordinatlarini indirin?</value>
+    <value>Bağlanırken rota noktaları yüklensin mi?</value>
   </data>
   <data name="CHK_beta.Text" xml:space="preserve">
-    <value>Demo Surumunu Guncelleme</value>
+    <value>Beta güncellemeleri</value>
   </data>
   <data name="label98.Text" xml:space="preserve">
-    <value>Hiz birimleri</value>
+    <value>Hız birimleri</value>
   </data>
   <data name="CHK_speechwaypoint.Text" xml:space="preserve">
-    <value>Ara nokta</value>
+    <value>Rota noktası</value>
   </data>
   <data name="label92.Text" xml:space="preserve">
-    <value>Video cihazi</value>
+    <value>Video cihazı</value>
   </data>
   <data name="label93.Text" xml:space="preserve">
-    <value>Ekran dili</value>
+    <value>Arayüz dili</value>
   </data>
   <data name="label96.Text" xml:space="preserve">
-    <value>joystick</value>
+    <value>Oyun çubuğu</value>
   </data>
   <data name="label94.Text" xml:space="preserve">
-    <value>Renkli ekran verileri</value>
+    <value>OSD rengi</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>Hassas</value>
+    <value>Sensör</value>
   </data>
   <data name="label97.Text" xml:space="preserve">
     <value>Mesafe birimleri</value>
   </data>
   <data name="CHK_showairports.Text" xml:space="preserve">
-    <value>Havaalanlarını göster</value>
+    <value>Havalimanlarını göster</value>
   </data>
   <data name="BUT_themecustom.Text" xml:space="preserve">
-    <value>Ozellestir</value>
+    <value>Özel</value>
   </data>
   <data name="label95.Text" xml:space="preserve">
-    <value>Kontrol</value>
+    <value>Seslendirme</value>
   </data>
   <data name="BUT_Joystick.Text" xml:space="preserve">
-    <value>Kumanda cubuklarinin montaji</value>
+    <value>Oyun çubuğu kurulumu</value>
   </data>
   <data name="CHK_disttohomeflightdata.Text" xml:space="preserve">
-    <value>Ucus Verilerini Goruntuleyin</value>
+    <value>Uçuş verilerinde göster</value>
   </data>
   <data name="CHK_speechmode.Text" xml:space="preserve">
-    <value>Durum</value>
+    <value>Mod </value>
   </data>
   <data name="BUT_logdirbrowse.Text" xml:space="preserve">
-    <value>Inceleme</value>
+    <value>Gözat</value>
   </data>
   <data name="BUT_videostart.Text" xml:space="preserve">
-    <value>Ekran</value>
+    <value>Başlat</value>
   </data>
+  <data name="label12.Text" xml:space="preserve"><value>HUD</value></data>
+  <data name="CHK_GDIPlus.Text" xml:space="preserve"><value>GDI+ (eski tip/donanım hızlandırması yok)</value></data>
+  <data name="CHK_resetapmonconnect.Text" xml:space="preserve"><value>USB bağlantısında sıfırla (DTR durumunu değiştir)</value></data>
+  <data name="CHK_mavdebug.Text" xml:space="preserve"><value>MAVLink mesaj hata ayıklama</value></data>
+  <data name="label99.Text" xml:space="preserve"><value>NOT: Yapılandırma sekmesindeki değerler ham olduğundan bu birimler orada GÖSTERİLMEZ.
+</value></data>
+  <data name="CHK_hudshow.Text" xml:space="preserve"><value>HUD katmanını etkinleştir</value></data>
+  <data name="chk_analytics.Text" xml:space="preserve"><value>Anonim istatistik paylaşımından çık</value></data>
+  <data name="chk_ADSB.Text" xml:space="preserve"><value>ADS-B</value></data>
+  <data name="chk_tfr.Text" xml:space="preserve"><value>Geçici uçuş kısıtlamaları</value></data>
+  <data name="chk_temp.Text" xml:space="preserve"><value>Test ekranı</value></data>
+  <data name="chk_norcreceiver.Text" xml:space="preserve"><value>RC alıcısı yok</value></data>
+  <data name="CHK_AutoParamCommit.Text" xml:space="preserve"><value>Parametreleri otomatik uygula</value></data>
+  <data name="chk_shownofly.Text" xml:space="preserve"><value>Uçuşa yasak</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>İrtifa birimleri</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Yer istasyonu kimliği</value></data>
+  <data name="CHK_params_bg.Text" xml:space="preserve"><value>Parametreleri arka planda indir</value></data>
+  <data name="chk_slowMachine.Text" xml:space="preserve"><value>Yavaş bilgisayarda çalışıyor</value></data>
+  <data name="CHK_speechArmedOnly.Text" xml:space="preserve"><value>Yalnızca arm durumunda</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>NOT: Seslendirilecek en düşük ÖNEM düzeyini ayarlayın</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Etkin olmayan hava aracı</value></data>
+  <data name="chk_displaycog.Text" xml:space="preserve"><value>Yer iz açısını göster</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Hava aracı simgesi</value></data>
+  <data name="chk_displayheading.Text" xml:space="preserve"><value>Baş açısını göster</value></data>
+  <data name="chk_displaynavbearing.Text" xml:space="preserve"><value>Seyrüsefer kerterizini göster</value></data>
+  <data name="chk_displayradius.Text" xml:space="preserve"><value>Dönüş yarıçapını göster</value></data>
+  <data name="chk_displaytarget.Text" xml:space="preserve"><value>Hedefi göster</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Çizgi uzunluğu</value></data>
+  <data name="chk_displaytooltip.Text" xml:space="preserve"><value>Araç ipucunu göster</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Harita erişim modu</value></data>
+  <data name="BUT_mapCacheDir.Text" xml:space="preserve"><value>Harita önbelleğini aç</value></data>
+  <data name="CHK_rtsresetesp32.Text" xml:space="preserve"><value>ESP32 SerialUSB için RTS sıfırlamasını devre dışı bırak</value></data>
 </root>

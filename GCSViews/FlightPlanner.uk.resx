@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -125,34 +125,34 @@
     <value>116, 17</value>
   </data>
   <data name="CHK_verifyheight.Text" xml:space="preserve">
-    <value>Перевірка висоти</value>
+    <value>Перевіряти висоту</value>
   </data>
   <data name="LBL_WPRad.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 13</value>
   </data>
   <data name="LBL_WPRad.Text" xml:space="preserve">
-    <value>Радіус ППМ</value>
+    <value>Радіус маршрутної точки</value>
   </data>
   <data name="LBL_defalutalt.Size" type="System.Drawing.Size, System.Drawing">
     <value>101, 13</value>
   </data>
   <data name="LBL_defalutalt.Text" xml:space="preserve">
-    <value>Висота за замовч.</value>
+    <value>Типова висота</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 13</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Радіус Віражу</value>
+    <value>Радіус Loiter</value>
   </data>
   <data name="but_writewpfast.Text" xml:space="preserve">
-    <value>Швидко записати</value>
+    <value>Швидкий запис</value>
   </data>
   <data name="BUT_write.Text" xml:space="preserve">
     <value>Записати</value>
   </data>
   <data name="BUT_read.Text" xml:space="preserve">
-    <value>Читати</value>
+    <value>Прочитати</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 2</value>
@@ -161,22 +161,22 @@
     <value>61, 13</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Дом.точка</value>
+    <value>Домашня точка</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>36, 13</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Довг.</value>
+    <value>Довгота</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 13</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>Шир.</value>
+    <value>Широта</value>
   </data>
   <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
-    <value>Вгору</value>
+    <value>Угору</value>
   </data>
   <data name="dataGridViewImageColumn1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -187,7 +187,7 @@
 </value>
   </data>
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
-    <value>Донизу</value>
+    <value>Униз</value>
   </data>
   <data name="dataGridViewImageColumn2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -204,7 +204,7 @@
     <value>Стан</value>
   </data>
   <data name="panelWaypoints.Text" xml:space="preserve">
-    <value>Поворотні пункти маршруту</value>
+    <value>Маршрутні точки</value>
   </data>
   <data name="chk_usemavftp.Location" type="System.Drawing.Point, System.Drawing">
     <value>674, 12</value>
@@ -213,7 +213,7 @@
     <value>251, 7</value>
   </data>
   <data name="CMB_altmode.Text" xml:space="preserve">
-    <value>Відносно</value>
+    <value>Відносна</value>
   </data>
   <data name="CHK_splinedefault.Location" type="System.Drawing.Point, System.Drawing">
     <value>613, 12</value>
@@ -231,8 +231,7 @@
     <value>76, 26</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Попереджати
-про висоту</value>
+    <value>Попередження про висоту</value>
   </data>
   <data name="TXT_altwarn.Location" type="System.Drawing.Point, System.Drawing">
     <value>536, 33</value>
@@ -247,7 +246,7 @@
     <value>Додати нижче</value>
   </data>
   <data name="BUT_Add.ToolTip" xml:space="preserve">
-    <value>Додати рядок до сітки нижче</value>
+    <value>Додати рядок до таблиці нижче</value>
   </data>
   <data name="panelAction.Text" xml:space="preserve">
     <value>Дія</value>
@@ -259,13 +258,13 @@
     <value>Сітка</value>
   </data>
   <data name="comboBoxMapType.ToolTip" xml:space="preserve">
-    <value>Змінити тип мапи</value>
+    <value>Змінити поточний тип мапи</value>
   </data>
   <data name="lnk_kml.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 13</value>
   </data>
   <data name="lnk_kml.Text" xml:space="preserve">
-    <value>KML-файл</value>
+    <value>Переглянути KML</value>
   </data>
   <data name="BUT_loadwpfile.Text" xml:space="preserve">
     <value>Завантажити файл</value>
@@ -277,19 +276,19 @@
     <value>61, 13</value>
   </data>
   <data name="lbl_homedist.Text" xml:space="preserve">
-    <value>Дом.точка</value>
+    <value>Дім</value>
   </data>
   <data name="lbl_prevdist.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 13</value>
   </data>
   <data name="lbl_prevdist.Text" xml:space="preserve">
-    <value>Попередн.</value>
+    <value>Попередній</value>
   </data>
   <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 13</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Мштб.</value>
+    <value>Масштаб</value>
   </data>
   <data name="lbl_distance.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 13</value>
@@ -301,79 +300,79 @@
     <value>212, 494</value>
   </data>
   <data name="panelMap.Text" xml:space="preserve">
-    <value>панель 6</value>
+    <value>panel6</value>
   </data>
   <data name="deleteWPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="deleteWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>Видалити ППМ</value>
+    <value>Видалити точку</value>
   </data>
   <data name="insertWpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="insertWpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Добавити ППМ</value>
+    <value>Вставити точку</value>
   </data>
   <data name="currentPositionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>206, 22</value>
   </data>
   <data name="currentPositionToolStripMenuItem.Text" xml:space="preserve">
-    <value>За Поточною Позицією</value>
+    <value>У поточній позиції</value>
   </data>
   <data name="insertSplineWPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="insertSplineWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>Добавити Сплайнову ППМ</value>
+    <value>Вставити точку сплайна</value>
   </data>
   <data name="loiterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="loiterToolStripMenuItem.Text" xml:space="preserve">
-    <value>Віраж</value>
+    <value>Loiter</value>
   </data>
   <data name="loiterForeverToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 22</value>
   </data>
   <data name="loiterForeverToolStripMenuItem.Text" xml:space="preserve">
-    <value>Постійно</value>
+    <value>Безстроково</value>
   </data>
   <data name="loitertimeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 22</value>
   </data>
   <data name="loitertimeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити час</value>
+    <value>Час</value>
   </data>
   <data name="loitercirclesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 22</value>
   </data>
   <data name="loitercirclesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити кількість</value>
+    <value>Кола</value>
   </data>
   <data name="jumpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="jumpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Перейти</value>
+    <value>Перехід</value>
   </data>
   <data name="jumpstartToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 22</value>
   </data>
   <data name="jumpstartToolStripMenuItem.Text" xml:space="preserve">
-    <value>Старт</value>
+    <value>Почати</value>
   </data>
   <data name="jumpwPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 22</value>
   </data>
   <data name="jumpwPToolStripMenuItem.Text" xml:space="preserve">
-    <value>ППМ #</value>
+    <value>Точка №</value>
   </data>
   <data name="rTLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="rTLToolStripMenuItem.Text" xml:space="preserve">
-    <value>RTL (повернення додому)</value>
+    <value>RTL</value>
   </data>
   <data name="landToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
@@ -391,7 +390,7 @@
     <value>211, 22</value>
   </data>
   <data name="setROIToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити ROI</value>
+    <value>DO_SET_ROI</value>
   </data>
   <data name="clearMissionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
@@ -406,49 +405,49 @@
     <value>211, 22</value>
   </data>
   <data name="polygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Многокутник</value>
+    <value>Багатокутник</value>
   </data>
   <data name="addPolygonPointToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
   </data>
   <data name="addPolygonPointToolStripMenuItem2.Text" xml:space="preserve">
-    <value>Накреслити Многокутник</value>
+    <value>Накреслити багатокутник</value>
   </data>
   <data name="clearPolygonToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
   </data>
   <data name="clearPolygonToolStripMenuItem2.Text" xml:space="preserve">
-    <value>Видалити Многокутник</value>
+    <value>Очистити багатокутник</value>
   </data>
   <data name="savePolygonToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
   </data>
   <data name="savePolygonToolStripMenuItem2.Text" xml:space="preserve">
-    <value>Зберегти Многокутник</value>
+    <value>Зберегти багатокутник</value>
   </data>
   <data name="loadPolygonToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
   </data>
   <data name="loadPolygonToolStripMenuItem2.Text" xml:space="preserve">
-    <value>Завантажити Многокутник</value>
+    <value>Завантажити багатокутник</value>
   </data>
   <data name="fromSHPToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
   </data>
   <data name="fromSHPToolStripMenuItem2.Text" xml:space="preserve">
-    <value>З SHP-файлу</value>
+    <value>Із SHP</value>
   </data>
   <data name="fromCurrentWaypointsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
   </data>
   <data name="fromCurrentWaypointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>З поточних ППМ</value>
+    <value>Із поточних маршрутних точок</value>
   </data>
   <data name="offsetPolygonToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
   </data>
   <data name="offsetPolygonToolStripMenuItem2.Text" xml:space="preserve">
-    <value>Змістити Многокутник</value>
+    <value>Зсунути багатокутник</value>
   </data>
   <data name="areaToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 22</value>
@@ -460,13 +459,13 @@
     <value>211, 22</value>
   </data>
   <data name="geoFenceToolStripMenuItem.Text" xml:space="preserve">
-    <value>Геозони</value>
+    <value>Геоогорожа</value>
   </data>
   <data name="GeoFenceuploadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>243, 22</value>
   </data>
   <data name="GeoFenceuploadToolStripMenuItem.Text" xml:space="preserve">
-    <value>Вивантажити</value>
+    <value>Передати</value>
   </data>
   <data name="GeoFencedownloadToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>243, 22</value>
@@ -478,7 +477,7 @@
     <value>243, 22</value>
   </data>
   <data name="setReturnLocationToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити Точку Повернення</value>
+    <value>Задати місце повернення</value>
   </data>
   <data name="loadFromFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>243, 22</value>
@@ -490,7 +489,7 @@
     <value>243, 22</value>
   </data>
   <data name="saveToFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Зберегти до файлу</value>
+    <value>Зберегти у файл</value>
   </data>
   <data name="clearToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>243, 22</value>
@@ -502,13 +501,13 @@
     <value>211, 22</value>
   </data>
   <data name="rallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Пункти збору</value>
+    <value>Точки збору</value>
   </data>
   <data name="setRallyPointToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 22</value>
   </data>
   <data name="setRallyPointToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити Пункт збору</value>
+    <value>Задати точку збору</value>
   </data>
   <data name="getRallyPointsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 22</value>
@@ -520,43 +519,43 @@
     <value>269, 22</value>
   </data>
   <data name="saveRallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Вивантажити</value>
+    <value>Передати</value>
   </data>
   <data name="clearRallyPointsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 22</value>
   </data>
   <data name="clearRallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Очистити Пункти збору</value>
+    <value>Очистити точки збору</value>
   </data>
   <data name="saveToFileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 22</value>
   </data>
   <data name="saveToFileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Зберегти Пункти збору у Файл</value>
+    <value>Зберегти точки збору у файл</value>
   </data>
   <data name="loadFromFileToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 22</value>
   </data>
   <data name="loadFromFileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Завантажити Пункти збору з Файлу</value>
+    <value>Завантажити точки збору з файлу</value>
   </data>
   <data name="autoWPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="autoWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>Генерувати ППМ</value>
+    <value>Автоматичні маршрутні точки</value>
   </data>
   <data name="createWpCircleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>318, 22</value>
   </data>
   <data name="createWpCircleToolStripMenuItem.Text" xml:space="preserve">
-    <value>Створити ППМ на окружності</value>
+    <value>Створити коло з точок</value>
   </data>
   <data name="createSplineCircleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>318, 22</value>
   </data>
   <data name="createSplineCircleToolStripMenuItem.Text" xml:space="preserve">
-    <value>Створити Сплайнову Окружність</value>
+    <value>Створити сплайнове коло</value>
   </data>
   <data name="areaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>318, 22</value>
@@ -574,25 +573,25 @@
     <value>318, 22</value>
   </data>
   <data name="createCircleSurveyToolStripMenuItem.Text" xml:space="preserve">
-    <value>Створити Геодезичну зйомку за окружністю</value>
+    <value>Створити кругове знімання</value>
   </data>
   <data name="surveyGridToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>318, 22</value>
   </data>
   <data name="surveyGridToolStripMenuItem.Text" xml:space="preserve">
-    <value>Геодезична зйомка сіткою (Grid)</value>
+    <value>Знімання (сітка)</value>
   </data>
   <data name="mapToolToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="mapToolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Картографічні інструменти</value>
+    <value>Інструменти мапи</value>
   </data>
   <data name="ContextMeasure.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 22</value>
   </data>
   <data name="ContextMeasure.Text" xml:space="preserve">
-    <value>Виміряти Відстань</value>
+    <value>Виміряти відстань</value>
   </data>
   <data name="rotateMapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 22</value>
@@ -604,37 +603,37 @@
     <value>301, 22</value>
   </data>
   <data name="zoomToToolStripMenuItem.Text" xml:space="preserve">
-    <value>Збільшити до</value>
+    <value>Масштабувати до</value>
   </data>
   <data name="prefetchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 22</value>
   </data>
   <data name="prefetchToolStripMenuItem.Text" xml:space="preserve">
-    <value>Попереднє завантаження</value>
+    <value>Попередньо завантажити</value>
   </data>
   <data name="prefetchWPPathToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 22</value>
   </data>
   <data name="prefetchWPPathToolStripMenuItem.Text" xml:space="preserve">
-    <value>Попереднє завантаження Шляху на ППМ</value>
+    <value>Попередньо завантажити маршрут</value>
   </data>
   <data name="kMLOverlayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 22</value>
   </data>
   <data name="kMLOverlayToolStripMenuItem.Text" xml:space="preserve">
-    <value>KML Оверлей</value>
+    <value>Шар KML</value>
   </data>
   <data name="elevationGraphToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 22</value>
   </data>
   <data name="elevationGraphToolStripMenuItem.Text" xml:space="preserve">
-    <value>Графік підвищення</value>
+    <value>Профіль висот</value>
   </data>
   <data name="reverseWPsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 22</value>
   </data>
   <data name="reverseWPsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Реверс ППМ</value>
+    <value>Зворотний порядок точок</value>
   </data>
   <data name="gDALOpacityToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 22</value>
@@ -646,37 +645,37 @@
     <value>211, 22</value>
   </data>
   <data name="fileLoadSaveToolStripMenuItem.Text" xml:space="preserve">
-    <value>Завантажити/Зберегти Файл</value>
+    <value>Завантаження/збереження файлів</value>
   </data>
   <data name="loadWPFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>217, 22</value>
   </data>
   <data name="loadWPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Завантажити файл з ППМ</value>
+    <value>Завантажити файл точок</value>
   </data>
   <data name="loadAndAppendToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>217, 22</value>
   </data>
   <data name="loadAndAppendToolStripMenuItem.Text" xml:space="preserve">
-    <value>Завантажити та додати</value>
+    <value>Завантажити й додати</value>
   </data>
   <data name="saveWPFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>217, 22</value>
   </data>
   <data name="saveWPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Зберегти файл з ППМ</value>
+    <value>Зберегти файл точок</value>
   </data>
   <data name="loadKMLFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>217, 22</value>
   </data>
   <data name="loadKMLFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Завантажити KML-файл</value>
+    <value>Завантажити файл KML</value>
   </data>
   <data name="loadSHPFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>217, 22</value>
   </data>
   <data name="loadSHPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Завантажити SHP-файл</value>
+    <value>Завантажити файл SHP</value>
   </data>
   <data name="pOIToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
@@ -703,61 +702,61 @@
     <value>211, 22</value>
   </data>
   <data name="trackerHomeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Дом.точка трекеру</value>
+    <value>Домашня точка трекера</value>
   </data>
   <data name="modifyAltToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="modifyAltToolStripMenuItem.Text" xml:space="preserve">
-    <value>Змінити Висоту</value>
+    <value>Змінити висоту</value>
   </data>
   <data name="enterUTMCoordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="enterUTMCoordToolStripMenuItem.Text" xml:space="preserve">
-    <value>Введіть UTM-коорд.</value>
+    <value>Ввести координати UTM</value>
   </data>
   <data name="switchDockingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="switchDockingToolStripMenuItem.Text" xml:space="preserve">
-    <value>Перевпорядкувати інтерфейс</value>
+    <value>Змінити закріплення</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 22</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити Дом.точку Тут</value>
+    <value>Задати домашню точку тут</value>
   </data>
   <data name="addPolygonPointToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="addPolygonPointToolStripMenuItem.Text" xml:space="preserve">
-    <value>Накреслити Многокутник</value>
+    <value>Накреслити багатокутник</value>
   </data>
   <data name="clearPolygonToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="clearPolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Видалити Многокутник</value>
+    <value>Очистити багатокутник</value>
   </data>
   <data name="savePolygonToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="savePolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Зберегти Многокутник</value>
+    <value>Зберегти багатокутник</value>
   </data>
   <data name="loadPolygonToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="loadPolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Завантажити многокутник</value>
+    <value>Завантажити багатокутник</value>
   </data>
   <data name="fromSHPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="fromSHPToolStripMenuItem.Text" xml:space="preserve">
-    <value>З SHP-файлу</value>
+    <value>Із SHP</value>
   </data>
   <data name="areaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
@@ -769,13 +768,13 @@
     <value>195, 22</value>
   </data>
   <data name="fenceInclusionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Включена зона</value>
+    <value>Дозволена зона</value>
   </data>
   <data name="fenceExclusionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="fenceExclusionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Виключена зона</value>
+    <value>Заборонена зона</value>
   </data>
   <data name="contextMenuStripPoly.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 224</value>
@@ -784,19 +783,19 @@
     <value>195, 22</value>
   </data>
   <data name="convertWPToPolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>З поточних ППМ</value>
+    <value>Із поточних маршрутних точок</value>
   </data>
   <data name="offsetPolygonToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="offsetPolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Змістити Многокутник</value>
+    <value>Зсунути багатокутник</value>
   </data>
   <data name="drawAPolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Накреслити Многокутник</value>
+    <value>Накреслити багатокутник</value>
   </data>
   <data name="testToolStripMenuItem.Text" xml:space="preserve">
-    <value>тест</value>
+    <value>перевірка</value>
   </data>
   <data name="contextMenuStripZoom.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 70</value>
@@ -805,19 +804,19 @@
     <value>231, 22</value>
   </data>
   <data name="zoomToVehicleToolStripMenuItem.Text" xml:space="preserve">
-    <value>Збільшити до трансп.засобу</value>
+    <value>Масштабувати до апарата</value>
   </data>
   <data name="zoomToMissionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>231, 22</value>
   </data>
   <data name="zoomToMissionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Збільшити до Місії</value>
+    <value>Масштабувати до місії</value>
   </data>
   <data name="zoomToHomeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>231, 22</value>
   </data>
   <data name="zoomToHomeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Збільшити до Дом.точки</value>
+    <value>Масштабувати до дому</value>
   </data>
   <data name="Command.HeaderText" xml:space="preserve">
     <value>Команда</value>
@@ -826,25 +825,25 @@
     <value>Команда</value>
   </data>
   <data name="Lat.HeaderText" xml:space="preserve">
-    <value>Шир.</value>
+    <value>Широта</value>
   </data>
   <data name="Lon.HeaderText" xml:space="preserve">
     <value>Довг.</value>
   </data>
   <data name="Alt.HeaderText" xml:space="preserve">
-    <value>Висота</value>
+    <value>Вис.</value>
   </data>
   <data name="Frame.HeaderText" xml:space="preserve">
-    <value>Фрейм</value>
+    <value>Система відліку</value>
   </data>
   <data name="coordZone.HeaderText" xml:space="preserve">
     <value>Зона</value>
   </data>
   <data name="coordEasting.HeaderText" xml:space="preserve">
-    <value>Відст.на схід</value>
+    <value>Східна координата</value>
   </data>
   <data name="coordNorthing.HeaderText" xml:space="preserve">
-    <value>Відст. на північ</value>
+    <value>Північна координата</value>
   </data>
   <data name="Delete.HeaderText" xml:space="preserve">
     <value>Видалити</value>
@@ -864,7 +863,7 @@
 </value>
   </data>
   <data name="Up.ToolTipText" xml:space="preserve">
-    <value>Перемістити рядок Вгору</value>
+    <value>Перемістити рядок УГОРУ</value>
   </data>
   <data name="Down.HeaderText" xml:space="preserve">
     <value>Донизу</value>
@@ -878,19 +877,19 @@
 </value>
   </data>
   <data name="Down.ToolTipText" xml:space="preserve">
-    <value>Перемістити рядок вниз</value>
+    <value>Перемістити рядок униз</value>
   </data>
   <data name="Grad.HeaderText" xml:space="preserve">
-    <value>Град %</value>
+    <value>Ухил, %</value>
   </data>
   <data name="Angle.HeaderText" xml:space="preserve">
     <value>Кут</value>
   </data>
   <data name="Dist.HeaderText" xml:space="preserve">
-    <value>Відст.</value>
+    <value>Відстань</value>
   </data>
   <data name="TagData.HeaderText" xml:space="preserve">
-    <value>Дані тегу</value>
+    <value>Дані мітки</value>
   </data>
   <data name="Commands.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 48</value>
@@ -898,4 +897,18 @@
   <data name="Commands.Size" type="System.Drawing.Size, System.Drawing">
     <value>968, 118</value>
   </data>
+  <data name="label3.Text" xml:space="preserve"><value>Над рівнем моря</value></data>
+  <data name="chk_usemavftp.Text" xml:space="preserve"><value>MAVFTP</value></data>
+  <data name="Param1.HeaderText" xml:space="preserve"><value>P1</value></data>
+  <data name="Param2.HeaderText" xml:space="preserve"><value>P2</value></data>
+  <data name="Param3.HeaderText" xml:space="preserve"><value>P3</value></data>
+  <data name="Param4.HeaderText" xml:space="preserve"><value>P4</value></data>
+  <data name="MGRS.HeaderText" xml:space="preserve"><value>MGRS</value></data>
+  <data name="AZ.HeaderText" xml:space="preserve"><value>Азимут</value></data>
+  <data name="BUT_InjectCustomMap.Text" xml:space="preserve"><value>Додати власну мапу</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>Змінити масштаб</value></data>
+  <data name="cmb_missiontype.Items" xml:space="preserve"><value>Місія</value></data>
+  <data name="cmb_missiontype.Items1" xml:space="preserve"><value>Геоогорожа</value></data>
+  <data name="cmb_missiontype.Items2" xml:space="preserve"><value>Збір</value></data>
+  <data name="pOIToolStripMenuItem.Text" xml:space="preserve"><value>POI</value></data>
 </root>

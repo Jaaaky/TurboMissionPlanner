@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="groupBox3.Text" xml:space="preserve"><value>گاز 0–100%</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>كاشىلا قوغداش قىممىتى</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>ئەڭ يۇقىرى</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>ئەڭ تۆۋەن</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>كروز</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>يان يېنىش سېرۋوسى PID</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>ئىنتېگرال چېكى</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>كونترول كۈچى چېكى</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>باش كۆتۈرۈش سېرۋوسى PID</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>ئىنتېگرال چېكى</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>كونترول كۈچى چېكى</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>ئېنېرگىيە ئېگىزلىكى</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>ئېنېرگىيە ئېگىزلىكى دائىرىسى</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>ئىنتېگرال چېكى</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>كونترول كۈچى چېكى</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>يۆنىلىشتىن يان يېنىشقا</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>ئىنتېگرال چېكى</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>كونترول كۈچى چېكى</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>ھاۋا سۈرئىتىدىن باش كۆتۈرۈشكە</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>ئىنتېگرال چېكى</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>كونترول كۈچى چېكى</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>بۇرۇلۇش سېرۋوسى PID</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>بۇرۇلۇش سۈرئىتى چېكى</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>ئىز ۋە ئايلىنىش</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>كۆڭۈلدىكى رادىئۇس</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>ئايلىنىش كۈچەيتىشى</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>كىرىش بۇلۇڭى</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>ئىز قوغلاش كۈچەيتىشى</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>يول باشلاش بۇلۇڭلىرى</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>ئەڭ تۆۋەن باش كۆتۈرۈش</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>ئەڭ يۇقىرى باش كۆتۈرۈش</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>ئەڭ تۆۋەن يان يېنىش</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>ئەڭ يۇقىرى يان يېنىش</value></data>
+  <data name="groupBox10.Text" xml:space="preserve"><value>ئېگىزلىك ئۆلچىگۈچ تەڭشەكلىرى</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>in Hg</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>مەيدان ئېگىزلىكى</value></data>
+  <data name="groupBox11.Text" xml:space="preserve"><value>كۆتۈرۈلۈش / قونۇش</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>قونۇشقا يېقىنلىشىش سۈرئىتى</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>كۆتۈرۈلۈشتىكى ئەڭ تۆۋەن باش كۆتۈرۈش</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>ھاۋا سۈرئىتى m/s</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>ئەڭ يۇقىرى ھاۋا سۈرئىتى</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>ئەڭ تۆۋەن ھاۋا سۈرئىتى</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>كروز</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>يان يېنىشتىن ئېگىزلىك رولىغا</value></data>
+  <data name="BUT_read_flash.Text" xml:space="preserve"><value>Flash نى ئوقۇش</value></data>
+  <data name="BUT_write_flash.Text" xml:space="preserve"><value>Flash قا يېزىش</value></data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>پارامېتىرلارنى يېڭىلاش</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>پارامېتىرلارنى يېزىش</value></data>
+</root>

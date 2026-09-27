@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,16 +130,16 @@
     <value>'V'</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>注意：XとHに互換性はありません。プロペラの回転方向が変更されました。</value>
+    <value>注意：これはY6Bです。旧Y6Aとはプロペラの回転方向が異なります</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>注意：XとHに互換性はありません。プロペラの回転方向が変更されました。</value>
+    <value>注意：XとHはプロペラの回転方向が異なり、互換性はありません</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>'Y6B'</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>フレーム形式</value>
+    <value>フレームタイプ</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>デフォルト設定</value>

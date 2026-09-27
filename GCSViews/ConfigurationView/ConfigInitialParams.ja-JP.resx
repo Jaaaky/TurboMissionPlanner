@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>新しいコプターでは、バッテリーとプロペラのサイズに応じたパラメータ設定が必要です。
+ここに値を入力してパラメータを更新する前に、次を確認してください：
+
+  -- 初期設定がすべて完了している（校正、フレーム設定、モーターテスト）
+  -- バッテリー電圧監視が設定済みで正常に動作している
+
+注意：INS_GYRO_FILTERを20以外にするのは任意で、通常は小型フレーム／プロペラ用です。最初は20のままで構いません</value></data>
+</root>

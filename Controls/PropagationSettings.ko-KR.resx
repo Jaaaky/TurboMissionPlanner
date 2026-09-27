@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -213,7 +213,7 @@
     <value>3</value>
   </data>
   <data name="chk_dronedist.Text" xml:space="preserve">
-    <value>남은 드론 거리</value>
+    <value>기체 잔여 거리</value>
   </data>
   <data name="&gt;&gt;chk_dronedist.Name" xml:space="preserve">
     <value>chk_dronedist</value>
@@ -240,7 +240,7 @@
     <value>4</value>
   </data>
   <data name="chk_homedist.Text" xml:space="preserve">
-    <value>남은 원점 거리</value>
+    <value>홈 잔여 거리</value>
   </data>
   <data name="&gt;&gt;chk_homedist.Name" xml:space="preserve">
     <value>chk_homedist</value>
@@ -295,7 +295,7 @@
     <value>121</value>
   </data>
   <data name="label89.Text" xml:space="preserve">
-    <value>거리 [m]</value>
+    <value>지형 이격 높이 [m]</value>
   </data>
   <data name="&gt;&gt;label89.Name" xml:space="preserve">
     <value>label89</value>
@@ -343,7 +343,7 @@
     <value>122</value>
   </data>
   <data name="label100.Text" xml:space="preserve">
-    <value>전달</value>
+    <value>전파 전파 특성</value>
   </data>
   <data name="&gt;&gt;label100.Name" xml:space="preserve">
     <value>label100</value>
@@ -523,7 +523,7 @@
     <value>124</value>
   </data>
   <data name="label110.Text" xml:space="preserve">
-    <value>집중</value>
+    <value>수렴</value>
   </data>
   <data name="&gt;&gt;label110.Name" xml:space="preserve">
     <value>label110</value>
@@ -748,7 +748,7 @@
     <value>694, 230</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>전달 설정</value>
+    <value>전파 전파 설정</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PropagationSettings</value>
@@ -756,4 +756,9 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="cb_showscale.Text" xml:space="preserve"><value>축척 표시</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>고도 필터</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>최대 고도</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>최소 고도</value></data>
+  <data name="chk_setalt.Text" xml:space="preserve"><value>고도 필터</value></data>
 </root>

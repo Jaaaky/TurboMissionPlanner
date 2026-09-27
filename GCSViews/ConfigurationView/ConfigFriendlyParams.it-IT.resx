@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>Aggiorna parametri</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>Scrivi parametri</value></data>
+  <data name="BUT_Find.Text" xml:space="preserve"><value>Trova</value></data>
+  <data name="chk_advview.Text" xml:space="preserve"><value>Menu avanzato</value></data>
+</root>

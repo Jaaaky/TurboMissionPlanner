@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,6 +121,21 @@
     <value>تفعيل</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>حساس التدفق البصري</value>
+    <value>التدفق البصري  </value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>النوع</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>اتجاه الانعراج</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>مقياس FX</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>مقياس FY</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>الموضع X</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>الموضع Y</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>الموضع Z</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>درجات، بالنسبة إلى المركبة</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>أمتار إلى الأمام</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>أمتار إلى اليمين</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>أمتار إلى الأسفل</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>موضع المستشعر بالنسبة إلى وحدة IMU</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>معاملات التحجيم</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>تجاوز الارتفاع</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>أمتار فوق الأرض</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_loadlog.Text" xml:space="preserve">
-    <value>Carica un Log</value>
+    <value>Carica un log</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Sfoglia Log</value>
+    <value>Consulta log</value>
   </data>
   <data name="Graphit.Text" xml:space="preserve">
     <value>Crea un grafico da questi Dati</value>
@@ -136,6 +136,23 @@
     <value>Pulisci tutti i dati grafici</value>
   </data>
   <data name="BUT_cleargraph.Text" xml:space="preserve">
-    <value>Pulisci Grafico</value>
+    <value>Cancella grafico</value>
   </data>
+  <data name="exportVisibleToolStripMenuItem.Text" xml:space="preserve"><value>Esporta elementi visibili</value></data>
+  <data name="exportFilesToolStripMenuItem.Text" xml:space="preserve"><value>Esporta file</value></data>
+  <data name="BUT_Graphit.Text" xml:space="preserve"><value>Grafico su asse sinistro</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>GPSB</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>POS</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>GPS2</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_params.Text" xml:space="preserve"><value>Mostra parametri</value></data>
+  <data name="chk_events.Text" xml:space="preserve"><value>Eventi</value></data>
+  <data name="chk_datagrid.Text" xml:space="preserve"><value>Tabella dati</value></data>
+  <data name="chk_msg.Text" xml:space="preserve"><value>MSG</value></data>
+  <data name="chk_errors.Text" xml:space="preserve"><value>Errori</value></data>
+  <data name="chk_mode.Text" xml:space="preserve"><value>Modalità</value></data>
+  <data name="BUT_Graphit_R.Text" xml:space="preserve"><value>Grafico su asse destro</value></data>
+  <data name="chk_time.Text" xml:space="preserve"><value>Tempo</value></data>
+  <data name="CHK_map.Text" xml:space="preserve"><value>Mappa</value></data>
+  <data name="BUT_removeitem.Text" xml:space="preserve"><value>Rimuovi elemento</value></data>
 </root>

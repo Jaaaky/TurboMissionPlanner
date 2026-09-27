@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_forcecal_accel.Text" xml:space="preserve"><value>تېزلىنىش كالىبرلىشىنى مەجبۇرىي بەلگىلەش</value></data>
+  <data name="BUT_forcecal_mag.Text" xml:space="preserve"><value>كومپاس كالىبرلىشىنى مەجبۇرىي بەلگىلەش</value></data>
+  <data name="but_apjtool.Text" xml:space="preserve"><value>APJ قورالى</value></data>
+  <data name="BUT_CoT.Text" xml:space="preserve"><value>CoT</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>يېقىنلىق</value></data>
+  <data name="but_followswarm.Text" xml:space="preserve"><value>توپقا ئەگىشىش</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>MAVLink2 ئىمزالاش سەپلىمىسى</value></data>
+  <data name="but_lockup.Text" xml:space="preserve"><value>ئۇچقۇنى قېتىپ قالدۇرۇش</value></data>
+  <data name="but_td.Text" xml:space="preserve"><value>threads.txt نى ئېلىش</value></data>
+  <data name="but_gpsinj.Text" xml:space="preserve"><value>gps_inject نى ئاجرىتىش</value></data>
+  <data name="but_dem.Text" xml:space="preserve"><value>DEM</value></data>
+  <data name="BUT_magfit2.Text" xml:space="preserve"><value>ماگنىتومېتىر كالىبرلاش خاتىرىسى</value></data>
+  <data name="but_GDAL.Text" xml:space="preserve"><value>خاس GDAL</value></data>
+  <data name="but_sortlogs.Text" xml:space="preserve"><value>بارلىق خاتىرىلەرنى قايتا رەتلەش</value></data>
+  <data name="but_optflowcalib.Text" xml:space="preserve"><value>ئوپتىكىلىق ئېقىمنى كالىبرلاش</value></data>
+  <data name="but_logdlscp.Text" xml:space="preserve"><value>SCP ئارقىلىق خاتىرە چۈشۈرۈش</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>ئىمزالاش</value></data>
+  <data name="but_acbarohight.Text" xml:space="preserve"><value>ئۇچقۇنىڭ بارومېتىر ئېگىزلىكىنى تەڭشەش</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>DFLog نى بۆلۈش</value></data>
+  <data name="but_driverclean.Text" xml:space="preserve"><value>قوزغاتقۇچ تازىلاش</value></data>
+  <data name="but_agemapdata.Text" xml:space="preserve"><value>كونا خەرىتە سانلىق مەلۇماتىنى تازىلاش</value></data>
+  <data name="but_packetbytes.Text" xml:space="preserve"><value>بولاق بايتلىرىنى تەھلىل قىلىش</value></data>
+  <data name="myButton_vlc.Text" xml:space="preserve"><value>vlc</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>DashWare چېسلا كىرگۈزۈش ھۆججىتى قۇرۇش</value></data>
+  <data name="but_trimble.Text" xml:space="preserve"><value>توپ تەرتىپى</value></data>
+  <data name="but_hwids.Text" xml:space="preserve"><value>قاتتىق دېتال كىملىكلىرىنى يېشىش</value></data>
+  <data name="BUT_QNH.Text" xml:space="preserve"><value>QNH</value></data>
+  <data name="but_reboot.Text" xml:space="preserve"><value>Pixhawk نى قايتا قوزغىتىش</value></data>
+  <data name="but_3dmap.Text" xml:space="preserve"><value>3D خەرىتە</value></data>
+  <data name="but_messageinterval.Text" xml:space="preserve"><value>ئۇچۇر ئارىلىقى</value></data>
+  <data name="but_blupdate.Text" xml:space="preserve"><value>قوزغىتىش يۈكلىگۈچىنى يېڭىلاش</value></data>
+  <data name="BUT_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="but_disablearmswitch.Text" xml:space="preserve"><value>بىخەتەرلىك ئالماشتۇرغۇچىنى ئالماشتۇرۇش</value></data>
+  <data name="but_paramrestore.Text" xml:space="preserve"><value>پارامېتىرلارنى ئەسلىگە كەلتۈرۈش</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>MAVLink تەكشۈرگۈچى</value></data>
+  <data name="but_sitl_comb.Text" xml:space="preserve"><value>SITL ئېقىم بىرلەشتۈرگۈچى</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>خاتىرىنى نامسىزلاشتۇرۇش</value></data>
+  <data name="but_dashware.Text" xml:space="preserve"><value>DashWare</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>tlog كۆرگۈچ</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>مۇندەرىجىدىكى بارلىق TLog لارغا خەرىتە JPG رەسىملىرى قۇرۇش</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>مۇقىملاشتۇرغۇچنى قارىتىش ئالگورىزىمىنى ئىجرا قىلىش</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>تۆت پىرقىرىغۇچلۇق ئۇچقۇ: قوزغىتىش ۋە كۆتۈرۈلۈش</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>قۇرۇلما ئايلاندۇرۇش سۈرئىتى سىنىقى</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>خاس تەسۋىرلەرنى تازىلاش</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Mission Planner غا خاس تەسۋىر قوشۇش</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>نۆۋەتتىكى بارلىق مۇقىم دېتاللارنى چۈشۈرۈش</value></data>
+  <data name="butlogindex.Text" xml:space="preserve"><value>خاتىرە ئىندېكسى</value></data>
+  <data name="but_armandtakeoff.Text" xml:space="preserve"><value>قوزغىتىش ۋە كۆتۈرۈلۈش</value></data>
+  <data name="but_maplogs.Text" xml:space="preserve"><value>خاتىرىلەرنى خەرىتىدە كۆرسىتىش</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>TLog لارنى تىپى ۋە sysid مۇندەرىجىلىرى بويىچە رەتلەش</value></data>
+  <data name="but_gimbaltest.Text" xml:space="preserve"><value>مۇقىملاشتۇرغۇچ سىنىقى</value></data>
+  <data name="but_structtest.Text" xml:space="preserve"><value>قۇرۇلما سىنىقى</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>GPS غا مەخسۇس بىۋاسىتە ئۇلىنىش قۇرۇش (500-ئېغىز)</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>يېتەكچىگە ئەگىشىدىغان توپ</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>كۆپ ئۇچقۇ توپى كۆرۈنمە يۈزى</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>SHP ھۆججىتىنى كۆپ تەرەپلىك ھۆججىتىگە ئايلاندۇرۇش</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>خەرىتىدە نۆۋەتتىكى ئورنىڭىزنىڭ قوشۇمچە سىنبەلگىسىنى كۆرسىتىش.</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>خاتىرىلەنگەن سىنلىرىڭىزغا HUD قاپلاش</value></data>
+  <data name="BUT_clearcustommaps.Text" xml:space="preserve"><value>خاس خەرىتىلەرنى تازىلاش</value></data>
+  <data name="but_getfw.Text" xml:space="preserve"><value>بارلىق مۇقىم دېتاللارنى ئېلىش</value></data>
+  <data name="BUT_geinjection.Text" xml:space="preserve"><value>GE كىرگۈزۈش</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>تەرجىمە تىلى تەھرىرلىگۈچى</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Mission Planner ئىشلىتىدىغان پارامېتىر ئۇچۇرلىرىنى قايتا ھاسىل قىلىش</value></data>
+  <data name="BUT_sorttlogs.Text" xml:space="preserve"><value>TLog لارنى رەتلەش</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Mission Planner قوبۇل قىلغان MAVLink ئېقىمىنى ئەينەكلىتىش</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>ئۇچقۇ ئورنىنى Microdrone فورماتىدا چىقىرىش</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>ئۇچقۇ ئورنىنى NMEA دا چىقىرىش</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>NMEA GPS ئارقىلىق ماڭا ئەگىشىش</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>خاس ئاۋازلىق ئاگاھلاندۇرۇش قۇرۇش</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="BUT_outputMD.Text" xml:space="preserve"><value>MicroDrone</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>رەسىملەرگە جۇغراپىيەلىك ئۇچۇر باغلاش</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>ئاگاھلاندۇرۇش باشقۇرغۇچى</value></data>
+  <data name="BUT_lang_edit.Text" xml:space="preserve"><value>تىل تەھرىرلەش</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>ماڭا ئەگىشىش</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>پارامېتىر ھاسىل قىلىش</value></data>
+  <data name="but_osdvideo.Text" xml:space="preserve"><value>OSD سىن</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>كۆچمە بەزە</value></data>
+  <data name="BUT_shptopoly.Text" xml:space="preserve"><value>SHP دىن كۆپ تەرەپلىككە</value></data>
+  <data name="BUT_swarm.Text" xml:space="preserve"><value>توپ</value></data>
+  <data name="BUT_followleader.Text" xml:space="preserve"><value>يېتەكچىگە ئەگىشىش</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>DataFlash بەتكۈچىگە يۆتكەلگەن</value></data>
+  <data name="but_mavserialport.Text" xml:space="preserve"><value>MAVSerial بىۋاسىتە ئۇلىنىشى</value></data>
+  <data name="but_hexmavlink.Text" xml:space="preserve"><value>ئون ئالتىلىك MAVLink يېشىش</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>خاتىرىدىن ماگنىتومېتىر سىلجىش قىممەتلىرىنى ئېلىش</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>PX4 ئوپتىكىلىق ئېقىم سېنزورىنىڭ رەسىم سانلىق مەلۇماتىنى كۆرسىتىش</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>قاچىلانغان قوزغاتقۇچلارنى چىقىرىۋېتىش</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>بىخەتەرلىك كۇنۇپكىسىنى مەۋھۇم بېسىش</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>ئۇچۇرلارغا خاس ۋاقىت ئارىلىقى بەلگىلەش</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>ئۇزىتىلىۋاتقان بارلىق MAVLink بولاقلىرىنى تەكشۈرۈش</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>قوزغىتىش يۈكلىگۈچىنى يېڭىلاش</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>3D خەرىتە سىنىقى</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>كىرگۈزۈلگەن قاتتىق دېتال كىملىكى توغرىسىدىكى ئۇچۇرنى كۆرسىتىش</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>ئون ئالتىلىك تېكىست شەكلىدىكى MAVLink بولىقىنى سازلاش</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>بارومېتىر ئېگىزلىكىنىڭ پايدىلىنىش ئېگىزلىكىنى ئۆزگەرتىش</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>ئاپتوماتىك ئۇچقۇچنى قېتىپ قالدۇرۇش</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>نۆۋەتتە يۈكلەنگەن DEM لارنىڭ ئۇچۇرىنى كۆرسىتىش</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>SCP - SSH (apsync) ئارقىلىق خاتىرە چۈشۈرۈش</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>MP خاتىرە قىسقۇچىدىكى بارلىق خاتىرىلەرنى قايتا رەتلەش</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>GDAL ئارقىلىق خاس خەرىتە كاتەكچە مەنبەسىنى يۈكلەش</value></data>
+  <data name="label47.Text" xml:space="preserve"><value>ئاپتوماتىك ئۇچقۇچنى قايتا قوزغىتىش</value></data>
+  <data name="label48.Text" xml:space="preserve"><value>QNH نى تەڭشەش</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>label49</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>VLC ئارقىلىق سىن ئېقىمىنى كۆرسىتىش — ئورنىغا GStreamer ئىشلىتىڭ</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>30 كۈندىن كونا رەسىم كاتەكچىلىرىنى ئۆچۈرۈش</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>DFLog نى x بۆلەككە بۆلۈش</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>tlog دىن RTCM سانلىق مەلۇماتىنى ئاجرىتىش</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>يېقىنلىق كۆرۈنمە يۈزىنى كۆرسىتىش</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>توپ ئۇسلۇبى</value></data>
+  <data name="but_remotedflogger.Text" xml:space="preserve"><value>يىراقتىكى DF خاتىرىلىگۈچنى باشلاش</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Cursor-on-Target چىقىرىشى</value></data>
+  <data name="but_ManageCMDList.Text" xml:space="preserve"><value>بۇيرۇق تىزىملىكىنى باشقۇرۇش</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>پىلانلىغۇچنىڭ بۇيرۇق تىزىملىكىنى باشقۇرۇش</value></data>
+  <data name="but_dfumode.Text" xml:space="preserve"><value>DFU ھالىتى</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>DFU ھالىتى</value></data>
+  <data name="label57.Text" xml:space="preserve"><value>پارامېتىرلار ئەسلىگە كەلتۈرۈلگەندىن كېيىن تېزلىنىش ئۆلچىگۈچنى كالىبرلانغان دەپ بەلگىلەش</value></data>
+  <data name="label58.Text" xml:space="preserve"><value>پارامېتىرلار ئەسلىگە كەلتۈرۈلگەندىن كېيىن ماگنىتومېتىرنى كالىبرلانغان دەپ بەلگىلەش</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>ۋاقىتلىق</value></data>
+</root>

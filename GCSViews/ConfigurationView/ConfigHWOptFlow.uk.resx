@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,9 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CHK_enableoptflow.Text" xml:space="preserve">
-    <value>Увімкнено</value>
+    <value>Увімкнути</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Оптичний потік</value>
+    <value>Оптичний потік  </value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>Тип</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Орієнтація за рисканням</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Масштаб FX</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Масштаб FY</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Положення X</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Положення Y</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Положення Z</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>градуси відносно апарата</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>метри вперед</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>метри праворуч</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>метри вниз</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Положення датчика відносно IMU</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Масштабні коефіцієнти</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Перевизначення висоти</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>метри над землею</value></data>
 </root>

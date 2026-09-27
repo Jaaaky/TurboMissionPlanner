@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>電調校正 (AC3.3+)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>請拆除螺旋槳！
+按下此按鈕後：
+-拔除 USB 與電池
+-接上電池
+-LED 閃爍時，按下安全開關 (若有)
+-電調校正時應發出提示音
+-以正常方式重新啟動飛控</value></data>
+  <data name="buttonStart.Text" xml:space="preserve"><value>校正電調</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>電調類型：</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>輸出 PWM 最小值</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>輸出 PWM 最大值</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>解鎖轉速</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>最低轉速</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>最高轉速</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>保持為 0 即使用接收機輸入範圍</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>保持為 0 即使用接收機輸入範圍</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>馬達已解鎖但油門為零時的轉速 (怠速)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>飛行時馬達的最低轉速 (略高於「解鎖轉速」)</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>飛行時馬達的最高轉速 (幾乎所有電調在最大輸出端都有死區)</value></data>
+</root>

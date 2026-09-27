@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,14 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>ここで行うこと
-1. NMEAのGPS から現在のGPS位置座標を取得する。
-2.地図上のホームポジションをアップデートする。(注記：MAV上のホームは、アップデートされません)
+    <value>機能
+1. NMEA GPSから現在の座標を取得します。
+2. 地図上のホーム位置を更新します（機体のホーム位置は更新しません）。
 
 使い方
-1.オートパイロットに接続します。
-2.ここを開いてCOMポートを選び, NMEA GPSのボーレートを設定します。
-3.ホームがアップデートするようになります。
-</value>
+1. オートパイロットに接続します。
+2. この画面を開き、NMEA GPSのCOMポートとボーレートを選択します。
+3. ホーム位置の更新が始まります。</value>
   </data>
 </root>

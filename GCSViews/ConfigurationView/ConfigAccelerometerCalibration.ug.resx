@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>كۆڭۈلدىكى تېزلىنىش ئۆلچىگۈچ سىلجىشىنى (1 ئوق/AHRS مىكرو تەڭشىكى) تەڭشەش ئۈچۈن ئاپتوماتىك ئۇچقۇچنى تەكشىلەڭ.
+ئاپتوماتىك ئۇچقۇچنى تەكشى ۋە گورىزونتال قويۇشىڭىز كېرەك.</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>كۆڭۈلدىكى تېزلىنىش ئۆلچىگۈچنىڭ تۆۋەن/يۇقىرى چېكىنى (3 ئوق) تەڭشەش ئۈچۈن ئاپتوماتىك ئۇچقۇچنى تەكشىلەڭ.
+سىزدىن ئاپتوماتىك ئۇچقۇچنى ھەر بىر يېنىغا قويۇش تەلەپ قىلىنىدۇ.</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>تەكشى ئۇچۇشنىڭ كۆڭۈلدىكى تېزلىنىش ئۆلچىگۈچ كۆلەم كوئېففىتسېنتلىرىنى (1 ئوق) تەڭشەش ئۈچۈن ئاپتوماتىك ئۇچقۇچنى تەكشىلەڭ.
+ئاپتوماتىك ئۇچقۇچنى تەكشى ۋە گورىزونتال قويۇشىڭىز كېرەك.</value></data>
+  <data name="BUT_calib_accell.Text" xml:space="preserve"><value>تېزلىنىش ئۆلچىگۈچنى كالىبرلاش</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>ئاددىي تېزلىنىش كالىبرلاش</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>تېزلىنىش ئۆلچىگۈچنى كالىبرلاش</value></data>
+  <data name="BUT_level.Text" xml:space="preserve"><value>گورىزونتاللىقنى كالىبرلاش</value></data>
+</root>

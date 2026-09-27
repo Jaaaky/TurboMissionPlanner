@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,6 +121,11 @@
     <value>Məsafə: </value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Voltaj: </value>
+    <value>Gərginlik: </value>
   </data>
+  <data name="CMB_sonartype.Items" xml:space="preserve"><value>XL-EZ0 / XL-EZ4</value></data>
+  <data name="CMB_sonartype.Items1" xml:space="preserve"><value>LV-EZ0</value></data>
+  <data name="CMB_sonartype.Items2" xml:space="preserve"><value>XL-EZL0</value></data>
+  <data name="CMB_sonartype.Items3" xml:space="preserve"><value>HRLV</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Məsafəölçən</value></data>
 </root>

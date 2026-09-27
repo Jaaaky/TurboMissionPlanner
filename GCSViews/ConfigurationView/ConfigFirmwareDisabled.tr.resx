@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
     <data name="label1.Text" xml:space="preserve">
-    <value>Mavlink ile bağlandıysanız yeni bir yazılım programı indiremezsiniz. Geçerli bağlantıyı kesmek ve daha sonra bellenim indirme arayüzünü etkinleştirmek için lütfen Bağlantı Kes düğmesine tıklayın. </value>
+    <value>MAVLink üzerinden bağlıyken yeni donanım yazılımı yükleyemezsiniz.
+
+Mevcut MAVLink oturumunu sonlandırmak ve donanım yazılımı yükleme ekranını etkinleştirmek için sağ üstteki Bağlantıyı Kes düğmesine basın.</value>
   </data>
+  <data name="but_bootloaderupdate.Text" xml:space="preserve"><value>Önyükleyici güncellemesi</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Donanımınızdaki önyükleyiciyi en yeni kullanılabilir sürüme güncelleyin.</value></data>
 </root>

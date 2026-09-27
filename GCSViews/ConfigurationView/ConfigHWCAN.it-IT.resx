@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label6.Text" xml:space="preserve"><value>CAN</value></data>
+  <data name="but_startenum.Text" xml:space="preserve"><value>Avvia enumerazione</value></data>
+  <data name="but_stopenum.Text" xml:space="preserve"><value>Arresta enumerazione</value></data>
+  <data name="but_saveconfig.Text" xml:space="preserve"><value>Salva tutta la configurazione</value></data>
+  <data name="but_factoryreset.Text" xml:space="preserve"><value>Reimposta configurazione</value></data>
+  <data name="checkBox1.Text" xml:space="preserve"><value>Ripristina impostazioni di fabbrica</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Abilita CAN</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>NOTA: dopo la modifica di questa opzione è necessario un riavvio</value></data>
+</root>

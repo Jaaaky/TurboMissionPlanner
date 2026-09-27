@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label6.Text" xml:space="preserve"><value>CAN</value></data>
+  <data name="but_startenum.Text" xml:space="preserve"><value>列挙開始</value></data>
+  <data name="but_stopenum.Text" xml:space="preserve"><value>列挙停止</value></data>
+  <data name="but_saveconfig.Text" xml:space="preserve"><value>全設定を保存</value></data>
+  <data name="but_factoryreset.Text" xml:space="preserve"><value>設定をリセット</value></data>
+  <data name="checkBox1.Text" xml:space="preserve"><value>工場出荷状態に戻す</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>CANを有効化</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>注意：この設定を変更した後は再起動が必要です</value></data>
+</root>

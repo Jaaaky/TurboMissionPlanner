@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,7 +130,7 @@
     <value>必要硬件</value>
   </data>
   <data name="backstageViewPagetradheli.Text" xml:space="preserve">
-    <value>直升机安装</value>
+    <value>直升机设置</value>
   </data>
   <data name="backstageViewPageframetype.Text" xml:space="preserve">
     <value>机架类型</value>
@@ -140,7 +140,7 @@
     <value>1000, 450</value>
   </data>
   <data name="backstageViewPagecompass.Text" xml:space="preserve">
-    <value>指南针</value>
+    <value>罗盘</value>
   </data>
   <data name="backstageViewPageradio.Text" xml:space="preserve">
     <value>遥控器校准</value>
@@ -161,10 +161,10 @@
     <value>电池监测器</value>
   </data>
   <data name="backstageViewPagecompassmot.Text" xml:space="preserve">
-    <value>指南针/电机 校准</value>
+    <value>罗盘电机干扰校准</value>
   </data>
   <data name="backstageViewPagesonar.Text" xml:space="preserve">
-    <value>声呐</value>
+    <value>测距仪</value>
   </data>
   <data name="backstageViewPageairspeed.Text" xml:space="preserve">
     <value>空速</value>
@@ -208,4 +208,8 @@
 <data name="backstageViewPageSerialInjectGPS.Text" xml:space="preserve">
     <value>差分定位</value>
   </data>
+  <data name="backstageViewPageInitialParams.Text" xml:space="preserve"><value>初始调参</value></data>
+  <data name="backstageViewPageinstfw.Text" xml:space="preserve"><value>安装固件</value></data>
+  <data name="backstageViewPageosd.Text" xml:space="preserve"><value>OSD</value></data>
+  <data name="backstageViewPageSerial.Text" xml:space="preserve"><value>串口</value></data>
 </root>

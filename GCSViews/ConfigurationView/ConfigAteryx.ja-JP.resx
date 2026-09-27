@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>制御出力制限</value>
   </data>
   <data name="label49.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>制御出力制限</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>P</value>
@@ -130,16 +130,16 @@
     <value>D</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>積分制限</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>積分制限</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>制御出力制限</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>P</value>
@@ -154,10 +154,10 @@
     <value>P</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>積分制限</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>制御出力制限</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
     <value>D</value>
@@ -166,13 +166,13 @@
     <value>I</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>積分制限</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>制御出力制限</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
     <value>EH レンジ</value>
@@ -181,7 +181,7 @@
     <value>ロール サーボ PID</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>ピッチ最小</value>
+    <value>ピッチMin</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
     <value>ナビゲーション角度</value>
@@ -190,7 +190,7 @@
     <value>P</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>積分制限</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>デフォルト半径</value>
@@ -214,13 +214,13 @@
     <value>最小</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Heading to Roll</value>
+    <value>方位→ロール</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>D</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Airspeed to Pitch</value>
+    <value>対気速度→ピッチ</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>FS値</value>
@@ -253,7 +253,7 @@
     <value>高度計設定</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
-    <value>Roll to Elev</value>
+    <value>ロール→エレベーター</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
     <value>エントリー角度</value>
@@ -262,22 +262,22 @@
     <value>P</value>
   </data>
   <data name="groupBox11.Text" xml:space="preserve">
-    <value>着陸</value>
+    <value>離陸／着陸</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>ピッチ最大</value>
+    <value>ピッチMax</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
     <value>トラックゲイン</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
-    <value>バンク最大</value>
+    <value>バンクMax</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
     <value>バンク最小</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>フィールド エレベータ</value>
+    <value>飛行場の標高</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
     <value>in Hg</value>
@@ -289,7 +289,7 @@
     <value>フラッシュ書き込み</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>パラメータ書き込み</value>
+    <value>パラメータ書込</value>
   </data>
   <data name="BUT_read_flash.Text" xml:space="preserve">
     <value>フラッシュ読み込み</value>
@@ -304,9 +304,9 @@
     <value>最小対気速度</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
-    <value>Min TO Pitch</value>
+    <value>離陸時の最小ピッチ</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>パラメータ リフレッシュ</value>
+    <value>パラメータ再取得</value>
   </data>
 </root>

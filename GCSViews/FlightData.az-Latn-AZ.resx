@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,160 +118,160 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pointCameraHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kameranı bura nizamla</value>
+    <value>Kameranı buraya yönəlt</value>
   </data>
   <data name="BUT_setmode.ToolTip" xml:space="preserve">
-    <value>Modun sol tərəfə dəyişdirilməsi</value>
+    <value>Soldakı rejimə keçir</value>
   </data>
   <data name="BUT_edit_selected.Text" xml:space="preserve">
-    <value>Qeyd edilmiş kodlamanı dəyişmək</value>
+    <value>Seçilmiş skripti redaktə et</value>
   </data>
   <data name="BUT_abort_script.Text" xml:space="preserve">
-    <value>İşıəyən kodlamanı dayandır</value>
+    <value>İşləyən skripti dayandır</value>
   </data>
   <data name="BUT_playlog.Text" xml:space="preserve">
-    <value>Davam et / dayandır</value>
+    <value>Oynat/fasilə</value>
   </data>
   <data name="BUT_setwp.ToolTip" xml:space="preserve">
-    <value>Mövcud hədəf nöqtəsini dəyişir</value>
+    <value>Cari hədəf marşrut nöqtəsini dəyişir</value>
   </data>
   <data name="BUT_quickauto.ToolTip" xml:space="preserve">
-    <value>Modu avtomatik dəyiş</value>
+    <value>Rejimi Auto et</value>
   </data>
   <data name="goHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Bura uçuş et</value>
+    <value>Buraya uç</value>
   </data>
   <data name="quickView1.ToolTip" xml:space="preserve">
-    <value>Dəyişdirmək üçün iki dəfə klikləyin</value>
+    <value>Dəyişmək üçün iki dəfə basın</value>
   </data>
   <data name="checkBoxRedirectOutput.Text" xml:space="preserve">
-    <value>Programi yeniden yönləndirmə çııxışı</value>
+    <value>Proqram çıxışını yönləndir</value>
   </data>
   <data name="BUT_RAWSensor.Text" xml:space="preserve">
-    <value>Raw Sensor Görünüşü</value>
+    <value>Xam sensor məlumatlarına baxış</value>
   </data>
   <data name="BUTrestartmission.ToolTip" xml:space="preserve">
-    <value>Missiyanı başından yenidən başladır</value>
+    <value>Tapşırığı əvvəldən başladır</value>
   </data>
   <data name="BUT_abortland.ToolTip" xml:space="preserve">
-    <value>Sadəcə planla</value>
+    <value>Yalnız təyyarə</value>
   </data>
   <data name="BUT_loganalysis.Text" xml:space="preserve">
-    <value>Avtomatik Analiz</value>
+    <value>Avtomatik təhlil</value>
   </data>
   <data name="tabPagePreFlight.Text" xml:space="preserve">
-    <value>Üçüş öncəsi</value>
+    <value>Uçuşöncəsi</value>
   </data>
   <data name="BUT_clear_track.ToolTip" xml:space="preserve">
-    <value>Qeydə alınan yolu xəritədə sil</value>
+    <value>Xəritədə qeydə alınmış yolu təmizlə</value>
   </data>
   <data name="BUT_resumemis.Text" xml:space="preserve">
-    <value>Missiyanı davam etdirin</value>
+    <value>Tapşırığı davam etdir</value>
   </data>
   <data name="CB_tuning.ToolTip" xml:space="preserve">
-    <value>Tənzimləmə qrafikini göstərin, hədəf münasibətlərini faktiki olaraq tərtib edin</value>
+    <value>Hədəf və faktiki fəza vəziyyətlərini müqayisə edən sazlama qrafikini göstər</value>
   </data>
   <data name="russianHudToolStripMenuItem.Text" xml:space="preserve">
-    <value>Russia Hud</value>
+    <value>Rus tipli HUD</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Sürət</value>
   </data>
   <data name="BUT_ARM.ToolTip" xml:space="preserve">
-    <value>Mav qolu</value>
+    <value>Aparatı aktivləşdir</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Mövcud WP -ə yönəl</value>
+    <value>Cari marşrut nöqtəsinə birbaşa</value>
   </data>
   <data name="BUT_log2kml.Text" xml:space="preserve">
-    <value>Tlog &gt; Kml və ya Grafik</value>
+    <value>Tlog &gt; Kml və ya qrafik</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Yaxınlaşdır</value>
+    <value>Miqyas</value>
   </data>
   <data name="BUT_clear_track.Text" xml:space="preserve">
-    <value>Track Təmizlə</value>
+    <value>İzi təmizlə</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>GPS Track (qara)</value>
+    <value>GPS izi (qara)</value>
   </data>
   <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
     <value>Yuxarı</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Mövcud idarəetmə</value>
+    <value>Cari kurs</value>
   </data>
   <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
     <value>Sil</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Hədəf idarəetmə</value>
+    <value>Hədəf kurs</value>
   </data>
   <data name="userItemsToolStripMenuItem.Text" xml:space="preserve">
-    <value>İstifadəçi maddələri</value>
+    <value>İstifadəçi elementləri</value>
   </data>
   <data name="myButton1.ToolTip" xml:space="preserve">
-    <value>Modu Manual / Stabilize olaraq dəyişdirin</value>
+    <value>Rejimi Manual/Stabilize et</value>
   </data>
   <data name="tabActionsSimple.Text" xml:space="preserve">
-    <value>Hərəkətlər</value>
+    <value>Əməliyyatlar</value>
   </data>
   <data name="BUT_DFMavlink.Text" xml:space="preserve">
-    <value>Mavlink ilə DataFlash Girişini yükləyin</value>
+    <value>DataFlash jurnalını MAVLink ilə endir</value>
   </data>
   <data name="CHK_autopan.ToolTip" xml:space="preserve">
-    <value>Mövcud yerləşməyə gora xəritəni tənzimləyir</value>
+    <value>Xəritəni cari mövqeyə görə avtomatik sürüşdürür</value>
   </data>
   <data name="BUT_quickrtl.ToolTip" xml:space="preserve">
-    <value>RTL üçün modu dəyişdir</value>
+    <value>Rejimi RTL-ə dəyiş</value>
   </data>
   <data name="BUT_mountmode.ToolTip" xml:space="preserve">
-    <value>Soldakı modu dəyişdir</value>
+    <value>Soldakı rejimə keçir</value>
   </data>
   <data name="setViewCountToolStripMenuItem.Text" xml:space="preserve">
-    <value>Göstərmə sayını seçin</value>
+    <value>Görünüş sayını təyin et</value>
   </data>
   <data name="setMJPEGSourceToolStripMenuItem.Text" xml:space="preserve">
-    <value>MJPEG qaynaq Seç</value>
+    <value>MJPEG mənbəyini təyin et</value>
   </data>
   <data name="customizeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Özəlləşdirmə</value>
+    <value>Fərdiləşdir</value>
   </data>
   <data name="Zoomlevel.ToolTip" xml:space="preserve">
-    <value>Yaxınlaşdırma səviyyəsini dəyiş</value>
+    <value>Miqyas səviyyəsini dəyiş</value>
   </data>
   <data name="but_disablejoystick.Text" xml:space="preserve">
-    <value>Joystick Deaktiv et </value>
+    <value>Coystiki söndür</value>
   </data>
   <data name="BUT_run_script.Text" xml:space="preserve">
-    <value>Kodlamanı işlət</value>
+    <value>Skripti işə sal</value>
   </data>
   <data name="tabScripts.Text" xml:space="preserve">
-    <value>Kodlama</value>
+    <value>Skriptlər</value>
   </data>
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
     <value>Aşağı</value>
   </data>
   <data name="BUTactiondo.Text" xml:space="preserve">
-    <value>Hərəkət et</value>
+    <value>Əməli icra et</value>
   </data>
   <data name="BUTrestartmission.Text" xml:space="preserve">
-    <value>Missiyanı yenidən başlad</value>
+    <value>Tapşırığı yenidən başlat</value>
   </data>
   <data name="BUT_quickmanual.ToolTip" xml:space="preserve">
-    <value>Modu Manual / Stabilize olaraq dəyişdirin</value>
+    <value>Rejimi Manual/Stabilize et</value>
   </data>
   <data name="takeOffToolStripMenuItem.Text" xml:space="preserve">
-    <value>Qalxış</value>
+    <value>Qalx</value>
   </data>
   <data name="setAspectRatioToolStripMenuItem.Text" xml:space="preserve">
-    <value>Aspect nisbətini təyin edin</value>
+    <value>Tərəflər nisbətini təyin et</value>
   </data>
   <data name="saveFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Yaddaşa yaz</value>
+    <value>Faylı saxla</value>
   </data>
   <data name="PointCameraCoordsToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Kamera Koordinatlarının nöqtəsi</value>
+    <value>Kameranı koordinatlara yönəlt</value>
   </data>
   <data name="BUT_matlab.Text" xml:space="preserve">
     <value>Matlab faylı yarat</value>
@@ -280,10 +280,10 @@
     <value>Enişi dayandır</value>
   </data>
   <data name="Gspeed.ToolTip" xml:space="preserve">
-    <value>Max'i dəyişmək üçüniki dəfə klikləyin</value>
+    <value>Maksimumu dəyişmək üçün iki dəfə basın</value>
   </data>
   <data name="labelScriptStatus.Text" xml:space="preserve">
-    <value>Kodlama Durumu: Skript yoxdur</value>
+    <value>Skriptin vəziyyəti: işləyən skript yoxdur</value>
   </data>
   <data name="but_dflogtokml.Text" xml:space="preserve">
     <value>KML + gpx yarat</value>
@@ -292,93 +292,164 @@
     <value>Mesajlar</value>
   </data>
   <data name="tabActions.Text" xml:space="preserve">
-    <value>Hərəkətlər</value>
+    <value>Əməliyyatlar</value>
   </data>
   <data name="loadFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Yünlənmiş fayl</value>
+    <value>Faylı yüklə</value>
   </data>
   <data name="BUTactiondo.ToolTip" xml:space="preserve">
-    <value>Sola hərəkət edin</value>
+    <value>Soldakı əməli icra et</value>
   </data>
   <data name="BUT_Homealt.Text" xml:space="preserve">
-    <value>Əsas yeri seç Alt</value>
+    <value>Ev hündürlüyünü təyin et</value>
   </data>
   <data name="setGStreamerSourceToolStripMenuItem.Text" xml:space="preserve">
-    <value>GStreamer Qaynaqı Seç </value>
+    <value>GStreamer mənbəyini təyin et</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Buranı Əsas yer seç</value>
+    <value>Ev mövqeyini burada təyin et</value>
   </data>
   <data name="labelSelectedScript.Text" xml:space="preserve">
-    <value>Seçilmiş skriptt: Yoxdur</value>
+    <value>Seçilmiş skript: yoxdur</value>
   </data>
   <data name="swapWithMapToolStripMenuItem.Text" xml:space="preserve">
-    <value>Xəritə ilə dəyişdirmək</value>
+    <value>Xəritə ilə yerini dəyiş</value>
   </data>
   <data name="tabQuick.Text" xml:space="preserve">
-    <value>tez</value>
+    <value>Cəld baxış</value>
   </data>
   <data name="BUT_loadtelem.Text" xml:space="preserve">
-    <value>Log yüklə</value>
+    <value>Jurnalı yüklə</value>
   </data>
   <data name="addPoiToolStripMenuItem.Text" xml:space="preserve">
-    <value>Poi əlavə edin</value>
+    <value>Maraq nöqtəsi əlavə et</value>
   </data>
   <data name="BUT_joystick.ToolTip" xml:space="preserve">
-    <value>Joystki qurun və aktiv edin</value>
+    <value>Coystikinizi sazlayın və aktiv edin</value>
   </data>
   <data name="BUT_Homealt.ToolTip" xml:space="preserve">
-    <value>Cari ekran altını 0 olaraq təyin edin, yəni ev alt 0 olaraq göstərilir</value>
+    <value>Cari göstərilən hündürlüyü 0 et, yəni ev hündürlüyü 0 göstərilsin</value>
   </data>
   <data name="recordHudToAVIToolStripMenuItem.Text" xml:space="preserve">
-    <value>Çəkiliş Hud to AVI</value>
+    <value>HUD-u AVI-yə yaz</value>
   </data>
   <data name="tabStatus.Text" xml:space="preserve">
-    <value>Durum</value>
+    <value>Vəziyyət</value>
   </data>
   <data name="BUT_quickauto.Text" xml:space="preserve">
-    <value>Avto</value>
+    <value>Auto</value>
   </data>
   <data name="BUT_setwp.Text" xml:space="preserve">
-    <value>WP Seç</value>
+    <value>Marşrut nöqtəsini təyin et</value>
   </data>
   <data name="myButton3.Text" xml:space="preserve">
-    <value>Avto</value>
+    <value>Auto</value>
   </data>
   <data name="BUT_select_script.Text" xml:space="preserve">
     <value>Skript seç</value>
   </data>
   <data name="tabTLogs.Text" xml:space="preserve">
-    <value>Telemetriya loglari</value>
+    <value>Telemetriya jurnalları</value>
   </data>
   <data name="myButton2.ToolTip" xml:space="preserve">
-    <value>RTL modu  seç</value>
+    <value>Rejimi RTL-ə dəyiş</value>
   </data>
   <data name="flightPlannerToolStripMenuItem.Text" xml:space="preserve">
-    <value>Uçuş planlama</value>
+    <value>Uçuş planlaşdırıcısı</value>
   </data>
   <data name="BUT_mountmode.Text" xml:space="preserve">
-    <value>Mount Seç</value>
+    <value>Asqını təyin et</value>
   </data>
   <data name="myButton3.ToolTip" xml:space="preserve">
-    <value>Modu avtomatik deyişdir</value>
+    <value>Rejimi Auto et</value>
   </data>
   <data name="BUT_setmode.Text" xml:space="preserve">
-    <value>Modu qur</value>
+    <value>Rejimi təyin et</value>
   </data>
   <data name="onOffCameraOverlapToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kamera ust-uste duşmə</value>
+    <value>Kamera örtüşməsi</value>
   </data>
   <data name="stopRecordToolStripMenuItem.Text" xml:space="preserve">
-    <value>Çəkilişi dayandır</value>
+    <value>Yazmanı dayandır</value>
   </data>
   <data name="flyToHereAltToolStripMenuItem.Text" xml:space="preserve">
-    <value>Bu nöqtəyə  uçuş elə Alt</value>
+    <value>Buraya uçuş hündürlüyü</value>
   </data>
   <data name="lbl_sats.ToolTip" xml:space="preserve">
-    <value>Peyk hesablama</value>
+    <value>Peyk sayı</value>
   </data>
   <data name="startCameraToolStripMenuItem.Text" xml:space="preserve">
     <value>Kameranı başlat</value>
   </data>
+  <data name="hereLinkVideoToolStripMenuItem.Text" xml:space="preserve"><value>HereLink videosu</value></data>
+  <data name="gStreamerStopToolStripMenuItem.Text" xml:space="preserve"><value>GStreamer-i dayandır</value></data>
+  <data name="videoToolStripMenuItem.Text" xml:space="preserve"><value>Video</value></data>
+  <data name="groundColorToolStripMenuItem.Text" xml:space="preserve"><value>Yer səthinin rəngi</value></data>
+  <data name="setBatteryCellCountToolStripMenuItem.Text" xml:space="preserve"><value>Batareya elementinin gərginliyi</value></data>
+  <data name="showIconsToolStripMenuItem.Text" xml:space="preserve"><value>Nişanları göstər</value></data>
+  <data name="multiLineToolStripMenuItem.Text" xml:space="preserve"><value>Çoxsətirli</value></data>
+  <data name="undockToolStripMenuItem.Text" xml:space="preserve"><value>Paneldən ayır</value></data>
+  <data name="BUT_SendMSG.Text" xml:space="preserve"><value>Mesaj</value></data>
+  <data name="BUT_SendMSG.ToolTip" xml:space="preserve"><value>Aparatın jurnalında saxlanmaq üçün mesaj göndər</value></data>
+  <data name="CMB_setwp.Items" xml:space="preserve"><value>0 (Ev)</value></data>
+  <data name="BUT_ARM.Text" xml:space="preserve"><value>Aktivləşdir/deaktivləşdir</value></data>
+  <data name="BUT_joystick.Text" xml:space="preserve"><value>Coystik</value></data>
+  <data name="BUT_RAWSensor.ToolTip" xml:space="preserve"><value>Xam giroskop və akselerometr dəyərlərinə, radio giriş/çıxışlarına bax</value></data>
+  <data name="BUT_quickrtl.Text" xml:space="preserve"><value>RTL</value></data>
+  <data name="BUT_quickmanual.Text" xml:space="preserve"><value>Loiter</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>Loiter</value></data>
+  <data name="myButton2.Text" xml:space="preserve"><value>RTL</value></data>
+  <data name="tabGauges.Text" xml:space="preserve"><value>Göstəricilər</value></data>
+  <data name="NACp_lbl.Text" xml:space="preserve"><value>NACp</value></data>
+  <data name="NIC_lbl.Text" xml:space="preserve"><value>NIC</value></data>
+  <data name="fault_clb.Items" xml:space="preserve"><value>Texniki xidmət lazımdır</value></data>
+  <data name="fault_clb.Items1" xml:space="preserve"><value>GPS əlçatan deyil</value></data>
+  <data name="fault_clb.Items2" xml:space="preserve"><value>GPS mövqeyi təyin edilməyib</value></data>
+  <data name="fault_clb.Items3" xml:space="preserve"><value>TX sistemi nasazdır</value></data>
+  <data name="fault_clb.Items4" xml:space="preserve"><value>Yerdə</value></data>
+  <data name="XPDRConnect_btn.Text" xml:space="preserve"><value>Transponderə qoşul</value></data>
+  <data name="Squawk_label.Text" xml:space="preserve"><value>Squawk kodu</value></data>
+  <data name="FlightID_label.Text" xml:space="preserve"><value>Uçuş ID-si</value></data>
+  <data name="IDENT_btn.Text" xml:space="preserve"><value>IDENT</value></data>
+  <data name="ALT_btn.Text" xml:space="preserve"><value>ALT</value></data>
+  <data name="STBY_btn.Text" xml:space="preserve"><value>STBY</value></data>
+  <data name="ON_btn.Text" xml:space="preserve"><value>ON</value></data>
+  <data name="Mode_clb.Items" xml:space="preserve"><value>Rejim A</value></data>
+  <data name="Mode_clb.Items1" xml:space="preserve"><value>Rejim C</value></data>
+  <data name="Mode_clb.Items2" xml:space="preserve"><value>Rejim S</value></data>
+  <data name="Mode_clb.Items3" xml:space="preserve"><value>1090ES ADS-B OUT</value></data>
+  <data name="tabTransponder.Text" xml:space="preserve"><value>Transponder</value></data>
+  <data name="tabServo.Text" xml:space="preserve"><value>Servo/rele</value></data>
+  <data name="tabAuxFunction.Text" xml:space="preserve"><value>Köməkçi funksiya</value></data>
+  <data name="BUT_GimbalVideo.Text" xml:space="preserve"><value>Video idarəetməsi</value></data>
+  <data name="groupBoxRoll.Text" xml:space="preserve"><value>Kren</value></data>
+  <data name="groupBoxYaw.Text" xml:space="preserve"><value>Üfüqi dönmə</value></data>
+  <data name="BUT_resetGimbalPos.Text" xml:space="preserve"><value>Mövqeyi sıfırla</value></data>
+  <data name="groupBoxPitch.Text" xml:space="preserve"><value>Şaquli meyil</value></data>
+  <data name="tabPayload.Text" xml:space="preserve"><value>Faydalı yük idarəetməsi</value></data>
+  <data name="BUT_speed10.Text" xml:space="preserve"><value>10x</value></data>
+  <data name="BUT_speed5.Text" xml:space="preserve"><value>5x</value></data>
+  <data name="BUT_speed2.Text" xml:space="preserve"><value>2x</value></data>
+  <data name="BUT_speed1.Text" xml:space="preserve"><value>1x</value></data>
+  <data name="lbl_playbackspeed.Text" xml:space="preserve"><value>x 1.0</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>Şəkilləri coğrafi bağla</value></data>
+  <data name="BUT_logbrowse.Text" xml:space="preserve"><value>Jurnala bax</value></data>
+  <data name="but_bintolog.Text" xml:space="preserve"><value>.Bin faylını .Log-a çevir</value></data>
+  <data name="tablogbrowse.Text" xml:space="preserve"><value>DataFlash jurnalları</value></data>
+  <data name="flyToCoordsToolStripMenuItem.Text" xml:space="preserve"><value>Koordinatlara uç</value></data>
+  <data name="poiatcoordsToolStripMenuItem.Text" xml:space="preserve"><value>Koordinatlar</value></data>
+  <data name="triggerCameraToolStripMenuItem.Text" xml:space="preserve"><value>Kameranı İNDİ işə sal</value></data>
+  <data name="setEKFHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>EKF başlanğıcını burada təyin et</value></data>
+  <data name="setHomeHereToolStripMenuItem1.Text" xml:space="preserve"><value>Ev mövqeyini burada təyin et</value></data>
+  <data name="jumpToTagToolStripMenuItem.Text" xml:space="preserve"><value>Etiketə keç</value></data>
+  <data name="gimbalVideoFullSizedToolStripMenuItem.Text" xml:space="preserve"><value>Tam ölçülü</value></data>
+  <data name="gimbalVideoMiniToolStripMenuItem.Text" xml:space="preserve"><value>Kiçik</value></data>
+  <data name="gimbalVideoPopOutToolStripMenuItem.Text" xml:space="preserve"><value>Ayrı pəncərədə aç</value></data>
+  <data name="gimbalVideoToolStripMenuItem.Text" xml:space="preserve"><value>Asqı kamerasının videosu</value></data>
+  <data name="lbl_hdop.Text" xml:space="preserve"><value>hdop: 0</value></data>
+  <data name="lbl_hdop.ToolTip" xml:space="preserve"><value>GPS HDOP</value></data>
+  <data name="lbl_sats.Text" xml:space="preserve"><value>Peyklər: 0</value></data>
+  <data name="CHK_autopan.Text" xml:space="preserve"><value>Avtomatik sürüşdürmə</value></data>
+  <data name="CB_tuning.Text" xml:space="preserve"><value>Sazlama</value></data>
+  <data name="openScriptDialog.Filter" xml:space="preserve"><value>Python faylları|*.py|Bütün fayllar|*.*</value></data>
 </root>

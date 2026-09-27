@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Sie können der Befehlsauswahl in der Missionstabelle des Flugplaners MAVLink-Befehle hinzufügen.
+Dazu müssen Sie die Befehls-ID kennen. Ist die ID bereits in den MAVLink-Bibliotheken definiert,
+wird der Name automatisch ergänzt. Sie können auch eine noch nicht definierte ID hinzufügen.
+In diesem Fall müssen Sie auch den Namen angeben. Das Hinzufügen eines Befehls bedeutet nicht,
+dass der Autopilot ihn akzeptiert oder ausführt. Verwenden Sie diese Funktion daher nur mit
+den entsprechenden Fachkenntnissen.</value></data>
+</root>

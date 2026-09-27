@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,7 +124,7 @@
     <value>ここまで飛行</value>
   </data>
   <data name="enterUTMCoordToolStripMenuItem.Text" xml:space="preserve">
-    <value>UTM コードの入力</value>
+    <value>UTM座標を入力</value>
   </data>
   <data name="lbl_homedist.Text" xml:space="preserve">
     <value>ホーム</value>
@@ -160,7 +160,7 @@
     <value>P4</value>
   </data>
   <data name="loitertimeToolStripMenuItem.Text" xml:space="preserve">
-    <value>タイム</value>
+    <value>時間</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>高度 警告</value>
@@ -184,7 +184,7 @@
     <value>スプライン</value>
   </data>
   <data name="autoWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>オート WP</value>
+    <value>ウェイポイント自動生成</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>経度</value>
@@ -196,7 +196,7 @@
     <value>高さの検証</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>高度 (絶対値)</value>
+    <value>海抜高度</value>
   </data>
   <data name="mapToolToolStripMenuItem.Text" xml:space="preserve">
     <value>マップ･ツール</value>
@@ -205,7 +205,7 @@
     <value>アップロード</value>
   </data>
   <data name="loiterForeverToolStripMenuItem.Text" xml:space="preserve">
-    <value>永遠に</value>
+    <value>無期限</value>
   </data>
   <data name="Alt.HeaderText" xml:space="preserve">
     <value>高度</value>
@@ -214,19 +214,19 @@
     <value>DO_SET_ROI</value>
   </data>
   <data name="BUT_saveWPFile.Text" xml:space="preserve">
-    <value>WPファイルの保存</value>
+    <value>ファイルを保存</value>
   </data>
   <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
     <value>上</value>
   </data>
   <data name="CMB_altmode.Text" xml:space="preserve">
-    <value>相対的</value>
+    <value>相対高度</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>ホームロケーション</value>
   </data>
   <data name="BUT_loadwpfile.Text" xml:space="preserve">
-    <value>WPファイル読込</value>
+    <value>ファイル読込</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>ロイター半径</value>
@@ -235,10 +235,10 @@
     <value>WPファイルのロード</value>
   </data>
   <data name="jumpstartToolStripMenuItem.Text" xml:space="preserve">
-    <value>スタート</value>
+    <value>開始</value>
   </data>
   <data name="BUT_read.Text" xml:space="preserve">
-    <value>WPを読込む</value>
+    <value>読込</value>
   </data>
   <data name="loadPolygonToolStripMenuItem.Text" xml:space="preserve">
     <value>ポリゴンをロード</value>
@@ -274,7 +274,7 @@
     <value>帰還場所のセット</value>
   </data>
   <data name="panelMap.Text" xml:space="preserve">
-    <value>パネル6</value>
+    <value>panel6</value>
   </data>
   <data name="clearPolygonToolStripMenuItem.Text" xml:space="preserve">
     <value>ポリゴンのクリア</value>
@@ -307,22 +307,22 @@
     <value>ポリゴン点の追加</value>
   </data>
   <data name="loiterToolStripMenuItem.Text" xml:space="preserve">
-    <value>ロイター</value>
+    <value>Loiter</value>
   </data>
   <data name="Command.ToolTipText" xml:space="preserve">
-    <value>APMのコマンド</value>
+    <value>コマンド</value>
   </data>
   <data name="setRallyPointToolStripMenuItem.Text" xml:space="preserve">
-    <value>ラリーポントのセット</value>
+    <value>ラリーポイントを設定</value>
   </data>
   <data name="rallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>ラリーポント</value>
+    <value>ラリーポイント</value>
   </data>
   <data name="BUT_Add.Text" xml:space="preserve">
     <value>下に追加</value>
   </data>
   <data name="areaToolStripMenuItem.Text" xml:space="preserve">
-    <value>エリア</value>
+    <value>面積</value>
   </data>
   <data name="lbl_distance.Text" xml:space="preserve">
     <value>距離</value>
@@ -331,13 +331,13 @@
     <value>一行下に移動</value>
   </data>
   <data name="BUT_write.Text" xml:space="preserve">
-    <value>WPの書込み</value>
+    <value>書込</value>
   </data>
   <data name="modifyAltToolStripMenuItem.Text" xml:space="preserve">
     <value>高度の修正</value>
   </data>
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
-    <value>下がる</value>
+    <value>下</value>
   </data>
   <data name="Lon.HeaderText" xml:space="preserve">
     <value>経度</value>
@@ -346,7 +346,7 @@
     <value>...</value>
   </data>
   <data name="polygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>ポリゴンを描画</value>
+    <value>ポリゴン</value>
   </data>
   <data name="createSplineCircleToolStripMenuItem.Text" xml:space="preserve">
     <value>スプライン・サークルを生成</value>
@@ -394,7 +394,7 @@
     <value>削除</value>
   </data>
   <data name="loitercirclesToolStripMenuItem.Text" xml:space="preserve">
-    <value>サークル</value>
+    <value>旋回数</value>
   </data>
   <data name="jumpwPToolStripMenuItem.Text" xml:space="preserve">
     <value>WP #</value>
@@ -403,16 +403,16 @@
     <value>WPを削除</value>
   </data>
   <data name="panelWaypoints.Text" xml:space="preserve">
-    <value>ウェイポインﾄ</value>
+    <value>ウェイポイント</value>
   </data>
   <data name="getRallyPointsToolStripMenuItem.Text" xml:space="preserve">
     <value>ダウンロード</value>
   </data>
   <data name="switchDockingToolStripMenuItem.Text" xml:space="preserve">
-    <value>スイッチ ドッキング</value>
+    <value>ドッキングを切替</value>
   </data>
   <data name="Grad.HeaderText" xml:space="preserve">
-    <value>Grad %</value>
+    <value>勾配 %</value>
   </data>
   <data name="loadFromFileToolStripMenuItem.Text" xml:space="preserve">
     <value>ファイルからロード</value>
@@ -424,7 +424,7 @@
     <value>ミッションのクリア</value>
   </data>
   <data name="BUT_Add.ToolTip" xml:space="preserve">
-    <value>下のグリッドに線を追加</value>
+    <value>下の表に行を追加します</value>
   </data>
   <data name="clearRallyPointsToolStripMenuItem.Text" xml:space="preserve">
     <value>ラリーポイントのクリア</value>
@@ -468,4 +468,42 @@
   <data name="currentPositionToolStripMenuItem.Text" xml:space="preserve">
     <value>現在の位置に</value>
   </data>
+  <data name="but_writewpfast.Text" xml:space="preserve"><value>高速書込</value></data>
+  <data name="chk_usemavftp.Text" xml:space="preserve"><value>MAVFTP</value></data>
+  <data name="Frame.HeaderText" xml:space="preserve"><value>座標系</value></data>
+  <data name="coordZone.HeaderText" xml:space="preserve"><value>ゾーン</value></data>
+  <data name="coordEasting.HeaderText" xml:space="preserve"><value>東距</value></data>
+  <data name="coordNorthing.HeaderText" xml:space="preserve"><value>北距</value></data>
+  <data name="MGRS.HeaderText" xml:space="preserve"><value>MGRS</value></data>
+  <data name="Angle.HeaderText" xml:space="preserve"><value>角度</value></data>
+  <data name="TagData.HeaderText" xml:space="preserve"><value>タグデータ</value></data>
+  <data name="BUT_InjectCustomMap.Text" xml:space="preserve"><value>カスタム地図を追加</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>ズームレベルの変更</value></data>
+  <data name="cmb_missiontype.Items" xml:space="preserve"><value>ミッション</value></data>
+  <data name="cmb_missiontype.Items1" xml:space="preserve"><value>フェンス</value></data>
+  <data name="cmb_missiontype.Items2" xml:space="preserve"><value>ラリー</value></data>
+  <data name="addPolygonPointToolStripMenuItem2.Text" xml:space="preserve"><value>ポリゴン点の追加</value></data>
+  <data name="clearPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>ポリゴンのクリア</value></data>
+  <data name="savePolygonToolStripMenuItem2.Text" xml:space="preserve"><value>ポリゴンの保存</value></data>
+  <data name="loadPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>ポリゴンをロード</value></data>
+  <data name="fromSHPToolStripMenuItem2.Text" xml:space="preserve"><value>SHPから</value></data>
+  <data name="fromCurrentWaypointsToolStripMenuItem.Text" xml:space="preserve"><value>現在のウェイポイントから</value></data>
+  <data name="offsetPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>ポリゴンをオフセット</value></data>
+  <data name="areaToolStripMenuItem2.Text" xml:space="preserve"><value>面積</value></data>
+  <data name="clearToolStripMenuItem.Text" xml:space="preserve"><value>クリア</value></data>
+  <data name="areaToolStripMenuItem1.Text" xml:space="preserve"><value>面積</value></data>
+  <data name="textToolStripMenuItem.Text" xml:space="preserve"><value>テキスト</value></data>
+  <data name="createCircleSurveyToolStripMenuItem.Text" xml:space="preserve"><value>円形測量ルートを作成</value></data>
+  <data name="surveyGridToolStripMenuItem.Text" xml:space="preserve"><value>測量（グリッド）</value></data>
+  <data name="gDALOpacityToolStripMenuItem.Text" xml:space="preserve"><value>GDAL不透明度</value></data>
+  <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>ホームをここにセット</value></data>
+  <data name="fenceInclusionToolStripMenuItem.Text" xml:space="preserve"><value>飛行許可フェンス</value></data>
+  <data name="fenceExclusionToolStripMenuItem.Text" xml:space="preserve"><value>飛行禁止フェンス</value></data>
+  <data name="convertWPToPolygonToolStripMenuItem.Text" xml:space="preserve"><value>現在のウェイポイントから</value></data>
+  <data name="offsetPolygonToolStripMenuItem.Text" xml:space="preserve"><value>ポリゴンをオフセット</value></data>
+  <data name="drawAPolygonToolStripMenuItem.Text" xml:space="preserve"><value>ポリゴン点の追加</value></data>
+  <data name="testToolStripMenuItem.Text" xml:space="preserve"><value>テスト</value></data>
+  <data name="zoomToVehicleToolStripMenuItem.Text" xml:space="preserve"><value>機体にズーム</value></data>
+  <data name="zoomToMissionToolStripMenuItem.Text" xml:space="preserve"><value>ミッションにズーム</value></data>
+  <data name="zoomToHomeToolStripMenuItem.Text" xml:space="preserve"><value>ホームにズーム</value></data>
 </root>

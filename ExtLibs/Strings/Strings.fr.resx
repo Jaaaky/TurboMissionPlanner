@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BadCoords" xml:space="preserve"><value>Latitude/longitude incorrecte</value></data>
+  <data name="CannotGraphField" xml:space="preserve"><value>Impossible de tracer ce champ</value></data>
+  <data name="CommandFailed" xml:space="preserve"><value>Échec de l’exécution de la commande
+</value></data>
+  <data name="ERROR" xml:space="preserve"><value>Erreur</value></data>
+  <data name="ErrorClosingLogFile" xml:space="preserve"><value>Erreur de fermeture des fichiers journaux</value></data>
+  <data name="ErrorCommunicating" xml:space="preserve"><value>Erreur de communication avec le pilote automatique</value></data>
+  <data name="ErrorConnecting" xml:space="preserve"><value>Erreur de connexion
+</value></data>
+  <data name="ErrorFeatureNotEnabled" xml:space="preserve"><value>Cette fonction n’est pas activée dans votre micrologiciel.</value></data>
+  <data name="ErrorFirmwareFile" xml:space="preserve"><value>Erreur de chargement du fichier du micrologiciel</value></data>
+  <data name="ErrorLogList" xml:space="preserve"><value>Erreur de réception de la liste des journaux</value></data>
+  <data name="ErrorNoResponse" xml:space="preserve"><value>Erreur : aucune réponse du véhicule</value></data>
+  <data name="ErrorNotConnected" xml:space="preserve"><value>Vous n’êtes pas connecté.</value></data>
+  <data name="ErrorReceivingParams" xml:space="preserve"><value>Erreur de réception de la liste
+</value></data>
+  <data name="ErrorRejectedByMAV" xml:space="preserve"><value>Erreur : commande rejetée par le véhicule</value></data>
+  <data name="ErrorRenameFile" xml:space="preserve"><value>Erreur lors du renommage du fichier</value></data>
+  <data name="ErrorSettingParameter" xml:space="preserve"><value>Erreur de définition du paramètre </value></data>
+  <data name="ErrorSetValueFailed" xml:space="preserve"><value>Échec du réglage de {0}</value></data>
+  <data name="InvalidAlt" xml:space="preserve"><value>Altitude invalide</value></data>
+  <data name="InvalidBaudRate" xml:space="preserve"><value>Débit en bauds invalide</value></data>
+  <data name="InvalidField" xml:space="preserve"><value>Champ invalide</value></data>
+  <data name="InvalidFileName" xml:space="preserve"><value>Nom de fichier invalide</value></data>
+  <data name="InvalidNumberEntered" xml:space="preserve"><value>Nombre saisi invalide
+</value></data>
+  <data name="InvalidPanRange" xml:space="preserve"><value>Plage d’azimut invalide</value></data>
+  <data name="InvalidPortName" xml:space="preserve"><value>Nom de port invalide</value></data>
+  <data name="InvalidTiltRange" xml:space="preserve"><value>Plage d’inclinaison invalide</value></data>
+  <data name="InvalidUpdateRate" xml:space="preserve"><value>Fréquence d’actualisation invalide</value></data>
+  <data name="NoFMTMessage" xml:space="preserve"><value>Aucun message FMT pour </value></data>
+  <data name="PleaseConnect" xml:space="preserve"><value>Connectez-vous d’abord</value></data>
+  <data name="PleaseLoadValidFile" xml:space="preserve"><value>Chargez un fichier valide</value></data>
+  <data name="PleaseSelectCell" xml:space="preserve"><value>Sélectionnez d’abord une cellule</value></data>
+  <data name="SelectComport" xml:space="preserve"><value>Sélectionnez un port COM</value></data>
+  <data name="WarningLogBrowseFMTMissing" xml:space="preserve"><value>La consultation des journaux ne fonctionnera pas correctement sans messages FMT.
+Ces messages semblent absents de votre journal.</value></data>
+  <data name="WarningUpdateParamList" xml:space="preserve"><value>Actualiser les paramètres
+NE PAS EFFECTUER CETTE OPÉRATION EN VOL
+</value></data>
+  <data name="Checking" xml:space="preserve"><value>Vérification de </value></data>
+  <data name="DownloadedFromInternet" xml:space="preserve"><value>Téléchargé depuis Internet</value></data>
+  <data name="Getting" xml:space="preserve"><value>Récupération de </value></data>
+  <data name="GettingUpdatedParams" xml:space="preserve"><value>Récupération des paramètres actualisés</value></data>
+  <data name="AdvancedParams" xml:space="preserve"><value>Paramètres avancés</value></data>
+  <data name="BasicTuning" xml:space="preserve"><value>Réglages de base</value></data>
+  <data name="Desc" xml:space="preserve"><value>Description : </value></data>
+  <data name="ExtendedTuning" xml:space="preserve"><value>Réglages étendus</value></data>
+  <data name="FlightModes" xml:space="preserve"><value>Modes de vol</value></data>
+  <data name="FullParameterList" xml:space="preserve"><value>Liste complète des paramètres</value></data>
+  <data name="FullParameterTree" xml:space="preserve"><value>Arborescence complète des paramètres</value></data>
+  <data name="GeoFence" xml:space="preserve"><value>Barrière virtuelle</value></data>
+  <data name="StandardParams" xml:space="preserve"><value>Paramètres standard</value></data>
+  <data name="Units" xml:space="preserve"><value>Unités : {0}{1}</value></data>
+  <data name="ProgrammedOK" xml:space="preserve"><value>Programmation réussie</value></data>
+  <data name="CONNECTc" xml:space="preserve"><value>CONNECTER</value></data>
+  <data name="Disconnect" xml:space="preserve"><value>Déconnecter</value></data>
+  <data name="DISCONNECTc" xml:space="preserve"><value>DÉCONNECTER</value></data>
+  <data name="Failclog" xml:space="preserve"><value>Impossible de créer le journal de la station sol : cette session ne sera pas enregistrée</value></data>
+  <data name="NewFirmware" xml:space="preserve"><value>Nouveau micrologiciel</value></data>
+  <data name="NewFirmwareA" xml:space="preserve"><value>Nouveau micrologiciel disponible
+</value></data>
+  <data name="Pleaseup" xml:space="preserve"><value>
+Veuillez effectuer la mise à jour</value></data>
+  <data name="Stillmoving" xml:space="preserve"><value>Votre appareil est encore en mouvement. Voulez-vous vraiment vous déconnecter ?</value></data>
+  <data name="Timeout" xml:space="preserve"><value>Délai de détection automatique dépassé/aucun périphérique MAVLink connecté</value></data>
+  <data name="ConnectFailed" xml:space="preserve"><value>Échec de la connexion</value></data>
+  <data name="ConnectingMavlink" xml:space="preserve"><value>Connexion MAVLink</value></data>
+  <data name="Done" xml:space="preserve"><value>Terminé</value></data>
+  <data name="GettingParams" xml:space="preserve"><value>Récupération des paramètres</value></data>
+  <data name="GettingParamsD" xml:space="preserve"><value>Récupération des paramètres…</value></data>
+  <data name="Gotparam" xml:space="preserve"><value>Paramètre reçu : </value></data>
+  <data name="MavlinkConnecting" xml:space="preserve"><value>Connexion MAVLink…</value></data>
+  <data name="Only1Hb" xml:space="preserve"><value>Un seul message de présence reçu</value></data>
+  <data name="Only1HbD" xml:space="preserve"><value>Un seul message de présence MAVLink a été reçu sur ce port. Vérifiez la configuration du matériel.
+Mission Planner attend deux messages de présence valides avant de se connecter.</value></data>
+  <data name="Trying" xml:space="preserve"><value>Tentative de connexion.
+Expiration dans {0}</value></data>
+  <data name="CantDetectBoardVersion" xml:space="preserve"><value>Impossible de détecter la version de votre carte. Vérifiez le câblage.</value></data>
+  <data name="CheckPortSettingsOr" xml:space="preserve"><value>Vérifiez les paramètres du port. Le port est-il déjà utilisé ?</value></data>
+  <data name="CommunicationErrorNoConnection" xml:space="preserve"><value>Erreur de communication : aucune connexion</value></data>
+  <data name="DetectedA" xml:space="preserve"><value>Détection : </value></data>
+  <data name="DetectingBoardVersion" xml:space="preserve"><value>Détection de la version de la carte</value></data>
+  <data name="DownloadingFromInternet" xml:space="preserve"><value>Téléchargement depuis Internet</value></data>
+  <data name="EppromChanged" xml:space="preserve"><value>L’EEPROM a changé. Tous vos réglages seront perdus lors de la mise à jour.
+Voulez-vous continuer ?</value></data>
+  <data name="EppromFormatChanged" xml:space="preserve"><value>Format EEPROM modifié ({0) au lieu de {1})</value></data>
+  <data name="FailedDownload" xml:space="preserve"><value>Échec du téléchargement</value></data>
+  <data name="FailedReadHEX" xml:space="preserve"><value>Échec de lecture HEX</value></data>
+  <data name="FailedToReadHex" xml:space="preserve"><value>Impossible de lire firmware.hex :</value></data>
+  <data name="FailedUpload" xml:space="preserve"><value>Échec du transfert</value></data>
+  <data name="GettingFWList" xml:space="preserve"><value>Récupération de la liste des micrologiciels</value></data>
+  <data name="GettingFWVersion" xml:space="preserve"><value>Récupération de la version du micrologiciel</value></data>
+  <data name="InvalidBoardType" xml:space="preserve"><value>Type de carte invalide</value></data>
+  <data name="PleaseConnectAndBackupConfig" xml:space="preserve"><value>Connectez-vous et sauvegardez votre configuration dans l’onglet de configuration.</value></data>
+  <data name="ReadingHexFile" xml:space="preserve"><value>Lecture du fichier HEX</value></data>
+  <data name="ReceivedList" xml:space="preserve"><value>Liste reçue</value></data>
+  <data name="UploadComplete" xml:space="preserve"><value>Transfert terminé</value></data>
+  <data name="UploadingBytesToBoard" xml:space="preserve"><value>Transfert de {0} octets vers la carte :</value></data>
+  <data name="VerifyComplete" xml:space="preserve"><value>Vérification terminée</value></data>
+  <data name="VerifyFirmware" xml:space="preserve"><value>Vérifier le micrologiciel</value></data>
+  <data name="UploadSucceededButVerifyFailed" xml:space="preserve"><value>Transfert réussi, mais échec de la vérification : attendu {0}, reçu {1} à </value></data>
+  <data name="ReadingHex" xml:space="preserve"><value>Lecture HEX</value></data>
+  <data name="Warningrallypointdistance" xml:space="preserve"><value>Attention : des points de ralliement se trouvent au-delà de RALLY_LIMIT_KM</value></data>
+  <data name="Warning" xml:space="preserve"><value>Attention</value></data>
+  <data name="WarningAC32" xml:space="preserve"><value>Attention : si vous installez AC 3.2 pour la première fois, vous DEVEZ refaire l’étalonnage du compas.</value></data>
+  <data name="WarningAC31" xml:space="preserve"><value>Attention : depuis AC 3.1, les moteurs tournent à l’armement. Ce comportement se règle via MOT_SPIN_ARMED.</value></data>
+  <data name="MagCalibMsg" xml:space="preserve"><value>Cliquez sur OK, puis faites tourner le pilote automatique autour de chacun de ses axes.</value></data>
+  <data name="MissingDataPoints" xml:space="preserve"><value>Des points de mesure sont manquants. Voulez-vous tout de même lancer l’étalonnage ?</value></data>
+  <data name="RunAnyway" xml:space="preserve"><value>Lancer quand même</value></data>
+  <data name="UpdateFound" xml:space="preserve"><value>Mise à jour disponible
+
+Voulez-vous effectuer la mise à jour maintenant ? </value></data>
+  <data name="UpdateNow" xml:space="preserve"><value>Mettre à jour maintenant</value></data>
+  <data name="RawParamWarning" xml:space="preserve"><value>Avertissement sur les paramètres bruts</value></data>
+  <data name="RawParamWarningi" xml:space="preserve"><value>Les valeurs de cet écran ne sont pas contrôlées par rapport aux limites min/max. Vérifiez soigneusement votre saisie.
+Utilisez les paramètres standard/avancés pour des réglages sécurisés.</value></data>
+  <data name="ShowMeAgain" xml:space="preserve"><value>Afficher à nouveau ?</value></data>
+  <data name="OK" xml:space="preserve"><value>OK</value></data>
+  <data name="LinkStats" xml:space="preserve"><value>Statistiques de liaison</value></data>
+  <data name="Stop" xml:space="preserve"><value>Arrêter</value></data>
+  <data name="Connect" xml:space="preserve"><value>Connecter</value></data>
+  <data name="Start" xml:space="preserve"><value>Démarrer</value></data>
+  <data name="AreYouSureYouWantToUpload" xml:space="preserve"><value>Voulez-vous vraiment transférer </value></data>
+  <data name="Beta" xml:space="preserve"><value>Bêta</value></data>
+  <data name="BetaWarning" xml:space="preserve"><value>Ces micrologiciels sont en version bêta. Utilisation à vos risques et périls !</value></data>
+  <data name="CanNotConnectToComPortAnd" xml:space="preserve"><value>Impossible de se connecter au port COM et de détecter le type de carte</value></data>
+  <data name="Continue" xml:space="preserve"><value>Continuer</value></data>
+  <data name="ErrorUploadingFirmware" xml:space="preserve"><value>Erreur de transfert du micrologiciel</value></data>
+  <data name="Trunk" xml:space="preserve"><value>Branche de développement</value></data>
+  <data name="TrunkWarning" xml:space="preserve"><value>Ces micrologiciels proviennent de la dernière branche de développement. Utilisation à vos risques et périls !</value></data>
+  <data name="BadGPSHealth" xml:space="preserve"><value>Signal GPS défaillant</value></data>
+  <data name="BadAirspeed" xml:space="preserve"><value>Vitesse air défaillante</value></data>
+  <data name="BadGyroHealth" xml:space="preserve"><value>Gyroscope défaillant</value></data>
+  <data name="BadAccelHealth" xml:space="preserve"><value>Accéléromètre défaillant</value></data>
+  <data name="BadCompassHealth" xml:space="preserve"><value>Compas défaillant</value></data>
+  <data name="BadBaroHealth" xml:space="preserve"><value>Baromètre défaillant</value></data>
+  <data name="BadLiDARHealth" xml:space="preserve"><value>LiDAR défaillant</value></data>
+  <data name="BadOptFlowHealth" xml:space="preserve"><value>Flux optique défaillant</value></data>
+  <data name="BadorNoTerrainData" xml:space="preserve"><value>Données de terrain absentes ou invalides</value></data>
+  <data name="GeofenceBreach" xml:space="preserve"><value>Franchissement de la barrière virtuelle</value></data>
+  <data name="BadAHRS" xml:space="preserve"><value>AHRS défaillant</value></data>
+  <data name="NORCReceiver" xml:space="preserve"><value>AUCUN récepteur RC</value></data>
+  <data name="AutoWP" xml:space="preserve"><value>Points de passage automatiques</value></data>
+  <data name="EnsurePropsNotOn" xml:space="preserve"><value>Vérifiez que les hélices sont retirées de l’avion/du quadrirotor</value></data>
+  <data name="FailSafe" xml:space="preserve"><value>Sécurité intégrée</value></data>
+  <data name="Error_binding" xml:space="preserve"><value>Erreur d’appairage</value></data>
+  <data name="Put_the_transmitter_in_bind_mode__Receiver_is_waiting" xml:space="preserve"><value>Activez le mode appairage de l’émetteur. Le récepteur est en attente.</value></data>
+  <data name="Completed" xml:space="preserve"><value>Terminé</value></data>
+  <data name="Click_when_Done" xml:space="preserve"><value>Cliquez une fois terminé</value></data>
+  <data name="Saving" xml:space="preserve"><value>Enregistrement</value></data>
+  <data name="InvalidCert" xml:space="preserve"><value>Certificat invalide</value></data>
+  <data name="Note" xml:space="preserve"><value>Remarque</value></data>
+  <data name="PleaseUnplugTheBoardAnd" xml:space="preserve"><value>Débranchez la carte, puis cliquez sur OK et rebranchez-la.
+Mission Planner recherchera la carte pendant 30 secondes.</value></data>
+  <data name="ThisBoardHasBeenRetired" xml:space="preserve"><value>Cette carte n’est plus prise en charge. Mission Planner y installera la dernière version disponible (AC 3.2.1/AP 3.4.0).</value></data>
+  <data name="YouAreUsingUnsupportedHardware" xml:space="preserve"><value>Vous utilisez un matériel non pris en charge.
+Cette carte ne contient pas de certificat d’authenticité valide.
+Contactez votre fournisseur pour faire signer votre matériel.</value></data>
+  <data name="NoNeedToUpload" xml:space="preserve"><value>Aucun transfert nécessaire : déjà présent sur la carte</value></data>
+  <data name="PleaseWaitForTheMusicalTones" xml:space="preserve"><value>Attendez la fin des signaux sonores avant de cliquer sur OK</value></data>
+  <data name="ObtainFromModule" xml:space="preserve"><value>Lire depuis le module</value></data>
+  <data name="SetHere" xml:space="preserve"><value>Définir ici</value></data>
+  <data name="TrackerHome" xml:space="preserve"><value>Point de départ du suiveur</value></data>
+  <data name="velocity_variance" xml:space="preserve"><value>Variance de vitesse</value></data>
+  <data name="compass_variance" xml:space="preserve"><value>Variance du compas</value></data>
+  <data name="pos_horiz_variance" xml:space="preserve"><value>Variance de position horizontale</value></data>
+  <data name="pos_vert_variance" xml:space="preserve"><value>Variance de position verticale</value></data>
+  <data name="terrain_alt_variance" xml:space="preserve"><value>Variance d’altitude du terrain</value></data>
+  <data name="ChangeThrottle" xml:space="preserve"><value>Modifier les gaz</value></data>
+  <data name="Invalid_home_location" xml:space="preserve"><value>Point de départ invalide</value></data>
+  <data name="Converting_bin_to_log" xml:space="preserve"><value>Conversion du fichier bin en log</value></data>
+  <data name="UpdateNotFound" xml:space="preserve"><value>Aucune mise à jour disponible.</value></data>
+  <data name="Failed_to_connect_to_SITL_instance" xml:space="preserve"><value>Échec de la connexion à l’instance SITL</value></data>
+  <data name="Scanning_File" xml:space="preserve"><value>Analyse du fichier</value></data>
+  <data name="Zoom_to_the_center_or_the_loaded_file" xml:space="preserve"><value>Zoomer sur le centre ou sur le fichier chargé ?</value></data>
+  <data name="Zoom_To" xml:space="preserve"><value>Zoomer sur</value></data>
+  <data name="Do_you_want_to_load_this_into_the_flight_data_screen" xml:space="preserve"><value>Voulez-vous charger ces données dans l’écran des données de vol ?</value></data>
+  <data name="Load_data" xml:space="preserve"><value>Charger les données</value></data>
+  <data name="Bad_KML_File" xml:space="preserve"><value>Fichier KML invalide :</value></data>
+  <data name="No_valid_heartbeats_read_from_port" xml:space="preserve"><value>Aucun message de présence valide reçu sur le port</value></data>
+  <data name="Bad_Vision_Position" xml:space="preserve"><value>Position par vision défaillante</value></data>
+  <data name="BadLogging" xml:space="preserve"><value>Journalisation défaillante</value></data>
+  <data name="ParamRefreshRequired" xml:space="preserve"><value>Actualisation des paramètres requise : appuyez sur F5
+ancien n° {0}  nouveau n° {1}</value></data>
+  <data name="Failed_to_download_the_SITL_image" xml:space="preserve"><value>Échec du téléchargement de l’image SITL.</value></data>
+  <data name="Not_available_when_used_as_a_windows_store_app" xml:space="preserve"><value>Indisponible dans la version Windows Store</value></data>
+  <data name="No_firmware_available_for_this_board" xml:space="preserve"><value>Aucun micrologiciel disponible pour cette carte !</value></data>
+  <data name="OnboardOSD" xml:space="preserve"><value>OSD embarqué</value></data>
+  <data name="User_Params" xml:space="preserve"><value>Paramètres utilisateur</value></data>
+  <data name="Planner" xml:space="preserve"><value>Planificateur</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Annuler</value></data>
+  <data name="No_valid_sik_radio" xml:space="preserve"><value>Aucune radio SiK valide</value></data>
+  <data name="MAVFtp" xml:space="preserve"><value>MAVFtp</value></data>
+  <data name="Bad_Battery" xml:space="preserve"><value>Batterie défaillante</value></data>
+  <data name="Bad_Proximity" xml:space="preserve"><value>Capteur de proximité défaillant</value></data>
+  <data name="Bad_SatCom" xml:space="preserve"><value>Communication satellite défaillante</value></data>
+  <data name="Prearm_check_failed" xml:space="preserve"><value>Échec des contrôles avant armement : consultez les messages</value></data>
+  <data name="Invalid_Location" xml:space="preserve"><value>Position invalide</value></data>
+  <data name="Loading" xml:space="preserve"><value>Chargement</value></data>
+  <data name="ZeroAltWarningCopter" xml:space="preserve"><value>Le point n° {0} a une altitude nulle, ce qui signifie aucun changement d’altitude ! Si vous souhaitez une altitude nulle, saisissez 0.01. Voulez-vous poursuivre ou annuler le transfert des points ?</value></data>
+  <data name="ZeroAltWarningTitle" xml:space="preserve"><value>Avertissement : altitude nulle</value></data>
+  <data name="ZeroAltWarningPlane" xml:space="preserve"><value>Le point n° {0} a une altitude nulle. Si vous souhaitez réellement une altitude nulle, saisissez plutôt 0.01 pour obtenir un comportement prévisible.
+
+ArduPlane peut interpréter une altitude nulle de deux façons : altitude réellement nulle ou maintien de l’altitude actuelle. Les commandes WAYPOINT respectent généralement l’altitude nulle, tandis que les commandes LOITER l’interprètent généralement comme « utiliser l’altitude actuelle », mais uniquement avec une référence d’altitude « relative ». D’autres exceptions sont possibles et ce comportement peut changer dans les versions futures.
+
+NE RÉGLEZ L’ALTITUDE À ZÉRO QUE SI VOUS COMPRENEZ EXACTEMENT LE COMPORTEMENT DANS VOTRE CAS (vérifiez avec un simulateur).[link;https://ardupilot.org/plane/docs/common-mavlink-mission-command-messages-mav_cmd.html;Documentation des commandes]</value></data>
+</root>

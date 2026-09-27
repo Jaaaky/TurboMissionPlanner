@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -408,7 +408,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>82</value>
   </data>
   <data name="RMAX_FREQ.ToolTip" xml:space="preserve">
-    <value>kHz 단위 최대 주파수</value>
+    <value>최대 주파수(kHz) </value>
   </data>
   <data name="&gt;&gt;RMAX_FREQ.Name" xml:space="preserve">
     <value>RMAX_FREQ</value>
@@ -492,7 +492,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>83</value>
   </data>
   <data name="RNUM_CHANNELS.ToolTip" xml:space="preserve">
-    <value>주파수 도약 채널 수</value>
+    <value>주파수 도약 채널 수 </value>
   </data>
   <data name="&gt;&gt;RNUM_CHANNELS.Name" xml:space="preserve">
     <value>RNUM_CHANNELS</value>
@@ -651,7 +651,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>86</value>
   </data>
   <data name="RMIN_FREQ.ToolTip" xml:space="preserve">
-    <value>kHz 단위 최소 주파수</value>
+    <value>최소 주파수(kHz) </value>
   </data>
   <data name="&gt;&gt;RMIN_FREQ.Name" xml:space="preserve">
     <value>RMIN_FREQ</value>
@@ -708,8 +708,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>119</value>
   </data>
   <data name="RGPO1_1R_COUT.ToolTip" xml:space="preserve">
-    <value>OPPRESEND는 "우발적 재전송" 기능을 활용하거나 중단합니다. 이 기능을 활용할 경우 무선 통신 수행시 직렬 입력 버퍼 길이가 256 바이트 이내일 경우 패킷을 두번 보냅니다. 앞서 보낸 패킷에 문제가 없다면, 두번째 보낸 패킷을 "재전송" 패킷으로 간주하고, 수신 측에서 무시합니다. 이 정책으로 하여금 연결 품질, 특히 업링크 명령에 큰 차이를 보여줍니다. 
-</value>
+    <value>GPI1_1R/COUT: GPIO 1.1을 R/C(PPM) 출력으로 설정합니다</value>
   </data>
   <data name="&gt;&gt;RGPO1_1R_COUT.Name" xml:space="preserve">
     <value>RGPO1_1R_COUT</value>
@@ -739,8 +738,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>115</value>
   </data>
   <data name="RGPI1_1R_CIN.ToolTip" xml:space="preserve">
-    <value>OPPRESEND는 "우발적 재전송" 기능을 활용하거나 중단합니다. 이 기능을 활용할 경우 무선 통신 수행시 직렬 입력 버퍼 길이가 256 바이트 이내일 경우 패킷을 두번 보냅니다. 앞서 보낸 패킷에 문제가 없다면, 두번째 보낸 패킷을 "재전송" 패킷으로 간주하고, 수신 측에서 무시합니다. 이 정책으로 하여금 연결 품질, 특히 업링크 명령에 큰 차이를 보여줍니다. 
-</value>
+    <value>GPI1_1R/CIN: GPIO 1.1을 R/C(PPM) 입력으로 설정합니다</value>
   </data>
   <data name="&gt;&gt;RGPI1_1R_CIN.Name" xml:space="preserve">
     <value>RGPI1_1R_CIN</value>
@@ -861,7 +859,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>113</value>
   </data>
   <data name="RAIR_SPEED.ToolTip" xml:space="preserve">
-    <value>AIR_SPEED 는 kbps로 단위 매김한 무선 신호간 데이터 전송율입니다. 128 은 128kbps 입니다. 최대값은 192, 최소값은 2 입니다. 16 미만 값은 주파수 단계 값이며, TDM 동기화 시간이 길어지므로 추천하지 않습니다.</value>
+    <value>AIR_SPEED는 무선 모뎀 간 데이터 전송 속도이며 반올림한 kbps 단위로 표시합니다. 128은 128kbps입니다. 최댓값은 192, 최솟값은 2입니다. 16 미만이면 주파수 도약과 TDM 동기화에 너무 오래 걸리므로 권장하지 않습니다. </value>
   </data>
   <data name="&gt;&gt;RAIR_SPEED.Name" xml:space="preserve">
     <value>RAIR_SPEED</value>
@@ -978,7 +976,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>114</value>
   </data>
   <data name="RNETID.ToolTip" xml:space="preserve">
-    <value>NETID는 16비트 '네트워크 ID' 입니다. 주파수 도약 시퀀스를 방출하고 적절한 무선 신호로 오는 패킷을 식별하는 용도로 활용합니다. 같은 영역에서 동일한 무선 신호 환경을 다른 누군가가 사용할 경우 서로 다른 NETID를 사용중인지 확인하십시오. </value>
+    <value>NETID는 16비트 네트워크 ID입니다. 주파수 도약 순서를 생성하는 시드로 사용하며, 올바른 무선 모뎀에서 온 패킷인지 식별합니다. 같은 지역에서 같은 종류의 무선 모뎀을 사용하는 다른 사람과 NETID가 겹치지 않도록 하십시오. </value>
   </data>
   <data name="&gt;&gt;RNETID.Name" xml:space="preserve">
     <value>RNETID</value>
@@ -1091,7 +1089,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>120</value>
   </data>
   <data name="ROPPRESEND.ToolTip" xml:space="preserve">
-    <value>OPPRESEND는 "우발적 재전송" 기능을 활용하거나 중단합니다. 이 기능을 활용할 경우 무선 통신 수행시 직렬 입력 버퍼 길이가 256 바이트 이내일 경우 패킷을 두번 보냅니다. 앞서 보낸 패킷에 문제가 없다면, 두번째 보낸 패킷을 "재전송" 패킷으로 간주하고, 수신 측에서 무시합니다. 이 정책으로 하여금 연결 품질, 특히 업링크 명령에 큰 차이를 보여줍니다. 
+    <value>OPPRESEND는 ‘기회적 재전송’을 켜거나 끕니다. 활성화하면 직렬 입력 버퍼에 256바이트 미만의 데이터가 있을 때 무선 모뎀이 패킷을 두 번 전송합니다. 두 번째 패킷에는 재전송 표시가 붙으며, 첫 번째 패킷을 정상 수신한 경우 수신 모뎀이 이를 버립니다. 특히 상향 제어 명령의 연결 품질을 크게 높일 수 있습니다. 
 </value>
   </data>
   <data name="&gt;&gt;ROPPRESEND.Name" xml:space="preserve">
@@ -1296,7 +1294,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>82</value>
   </data>
   <data name="MAX_FREQ.ToolTip" xml:space="preserve">
-    <value>kHz 단위 최대 주파수</value>
+    <value>최대 주파수(kHz) </value>
   </data>
   <data name="&gt;&gt;MAX_FREQ.Name" xml:space="preserve">
     <value>MAX_FREQ</value>
@@ -1380,7 +1378,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>83</value>
   </data>
   <data name="NUM_CHANNELS.ToolTip" xml:space="preserve">
-    <value>주파수 도약 채널 수</value>
+    <value>주파수 도약 채널 수 </value>
   </data>
   <data name="&gt;&gt;NUM_CHANNELS.Name" xml:space="preserve">
     <value>NUM_CHANNELS</value>
@@ -1491,7 +1489,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>86</value>
   </data>
   <data name="MIN_FREQ.ToolTip" xml:space="preserve">
-    <value>kHz 단위 최소 주파수</value>
+    <value>최소 주파수(kHz) </value>
   </data>
   <data name="&gt;&gt;MIN_FREQ.Name" xml:space="preserve">
     <value>MIN_FREQ</value>
@@ -1578,8 +1576,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>129</value>
   </data>
   <data name="GPO1_1R_COUT.ToolTip" xml:space="preserve">
-    <value>OPPRESEND는 "우발적 재전송" 기능을 활용하거나 중단합니다. 이 기능을 활용할 경우 무선 통신 수행시 직렬 입력 버퍼 길이가 256 바이트 이내일 경우 패킷을 두번 보냅니다. 앞서 보낸 패킷에 문제가 없다면, 두번째 보낸 패킷을 "재전송" 패킷으로 간주하고, 수신 측에서 무시합니다. 이 정책으로 하여금 연결 품질, 특히 업링크 명령에 큰 차이를 보여줍니다. 
-</value>
+    <value>GPI1_1R/COUT: GPIO 1.1을 R/C(PPM) 출력으로 설정합니다</value>
   </data>
   <data name="&gt;&gt;GPO1_1R_COUT.Name" xml:space="preserve">
     <value>GPO1_1R_COUT</value>
@@ -1609,8 +1606,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>127</value>
   </data>
   <data name="GPI1_1R_CIN.ToolTip" xml:space="preserve">
-    <value>OPPRESEND는 "우발적 재전송" 기능을 활용하거나 중단합니다. 이 기능을 활용할 경우 무선 통신 수행시 직렬 입력 버퍼 길이가 256 바이트 이내일 경우 패킷을 두번 보냅니다. 앞서 보낸 패킷에 문제가 없다면, 두번째 보낸 패킷을 "재전송" 패킷으로 간주하고, 수신 측에서 무시합니다. 이 정책으로 하여금 연결 품질, 특히 업링크 명령에 큰 차이를 보여줍니다.
-</value>
+    <value>GPI1_1R/CIN: GPIO 1.1을 R/C(PPM) 입력으로 설정합니다</value>
   </data>
   <data name="&gt;&gt;GPI1_1R_CIN.Name" xml:space="preserve">
     <value>GPI1_1R_CIN</value>
@@ -1637,7 +1633,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>126</value>
   </data>
   <data name="MAVLINK.ToolTip" xml:space="preserve">
-    <value>AIR_SPEED 는 kbps로 단위 매김한 무선 신호간 데이터 전송율입니다. 128 은 128kbps 입니다. 최대값은 192, 최소값은 2 입니다. 16 미만 값은 주파수 단계 값이며, TDM 동기화 시간이 길어지므로 추천하지 않습니다.</value>
+    <value>MAVLink</value>
   </data>
   <data name="&gt;&gt;MAVLINK.Name" xml:space="preserve">
     <value>MAVLINK</value>
@@ -1758,7 +1754,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>115</value>
   </data>
   <data name="AIR_SPEED.ToolTip" xml:space="preserve">
-    <value>AIR_SPEED 는 kbps로 단위 매김한 무선 신호간 데이터 전송율입니다. 128 은 128kbps 입니다. 최대값은 192, 최소값은 2 입니다. 16 미만 값은 주파수 단계 값이며, TDM 동기화 시간이 길어지므로 추천하지 않습니다. </value>
+    <value>AIR_SPEED는 무선 모뎀 간 데이터 전송 속도이며 반올림한 kbps 단위로 표시합니다. 128은 128kbps입니다. 최댓값은 192, 최솟값은 2입니다. 16 미만이면 주파수 도약과 TDM 동기화에 너무 오래 걸리므로 권장하지 않습니다. </value>
   </data>
   <data name="&gt;&gt;AIR_SPEED.Name" xml:space="preserve">
     <value>AIR_SPEED</value>
@@ -1875,7 +1871,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>117</value>
   </data>
   <data name="NETID.ToolTip" xml:space="preserve">
-    <value>NETID는 16비트 '네트워크 ID' 입니다. 주파수 도약 시퀀스를 방출하고 적절한 무선 신호로 오는 패킷을 식별하는 용도로 활용합니다. 같은 영역에서 동일한 무선 신호 환경을 다른 누군가가 사용할 경우 서로 다른 NETID를 사용중인지 확인하십시오.</value>
+    <value>NETID는 16비트 네트워크 ID입니다. 주파수 도약 순서를 생성하는 시드로 사용하며, 올바른 무선 모뎀에서 온 패킷인지 식별합니다. 같은 지역에서 같은 종류의 무선 모뎀을 사용하는 다른 사람과 NETID가 겹치지 않도록 하십시오. </value>
   </data>
   <data name="&gt;&gt;NETID.Name" xml:space="preserve">
     <value>NETID</value>
@@ -1988,7 +1984,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>124</value>
   </data>
   <data name="OPPRESEND.ToolTip" xml:space="preserve">
-    <value>OPPRESEND는 "우발적 재전송" 기능을 활용하거나 중단합니다. 이 기능을 활용할 경우 무선 통신 수행시 직렬 입력 버퍼 길이가 256 바이트 이내일 경우 패킷을 두번 보냅니다. 앞서 보낸 패킷에 문제가 없다면, 두번째 보낸 패킷을 "재전송" 패킷으로 간주하고, 수신 측에서 무시합니다. 이 정책으로 하여금 연결 품질, 특히 업링크 명령에 큰 차이를 보여줍니다. 
+    <value>OPPRESEND는 ‘기회적 재전송’을 켜거나 끕니다. 활성화하면 직렬 입력 버퍼에 256바이트 미만의 데이터가 있을 때 무선 모뎀이 패킷을 두 번 전송합니다. 두 번째 패킷에는 재전송 표시가 붙으며, 첫 번째 패킷을 정상 수신한 경우 수신 모뎀이 이를 버립니다. 특히 상향 제어 명령의 연결 품질을 크게 높일 수 있습니다. 
 </value>
   </data>
   <data name="&gt;&gt;OPPRESEND.Name" xml:space="preserve">
@@ -2118,7 +2114,8 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>3</value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
-    <value>참고: 무선 통신 연결이 끊어지지 않는지 확인할 때 항상 "요구값 원격으로 복사"를 누르십시오</value>
+    <value>참고: 설정을 변경할 때는 항상 ‘필수 설정을 원격에 복사’를 누르십시오
+무선 연결이 끊어지는 것을 방지합니다</value>
   </data>
   <data name="&gt;&gt;lbl_status.Name" xml:space="preserve">
     <value>lbl_status</value>
@@ -2937,7 +2934,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>112</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>비트 전송율</value>
+    <value>전송 속도</value>
   </data>
   <data name="FORMAT.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 83</value>
@@ -2964,7 +2961,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>116</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>항속</value>
+    <value>무선 전송 속도</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4284,7 +4281,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>122</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>비트 전송율</value>
+    <value>전송 속도</value>
   </data>
   <data name="label30.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4302,7 +4299,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>124</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>항속</value>
+    <value>무선 전송 속도</value>
   </data>
   <data name="label31.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4749,7 +4746,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>86</value>
   </data>
   <data name="BUT_SetPPMFailSafe.Text" xml:space="preserve">
-    <value>PPM 안전 장치값 설정</value>
+    <value>PPM 페일세이프 설정</value>
   </data>
   <data name="BUT_SetPPMFailSafe.ToolTip" xml:space="preserve">
     <value>(기체 측에서) PPM 출력시 기본 PPM 스트림을 기록합니다</value>
@@ -4779,7 +4776,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>85</value>
   </data>
   <data name="BUT_loadcustom.Text" xml:space="preserve">
-    <value>펌웨어 업로드</value>
+    <value>펌웨어 업로드(사용자 지정)</value>
   </data>
   <data name="&gt;&gt;BUT_loadcustom.Name" xml:space="preserve">
     <value>BUT_loadcustom</value>
@@ -4806,7 +4803,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>84</value>
   </data>
   <data name="BUT_resettodefault.Text" xml:space="preserve">
-    <value>기본값으로 초기화</value>
+    <value>기본값 설정</value>
   </data>
   <data name="&gt;&gt;BUT_resettodefault.Name" xml:space="preserve">
     <value>BUT_resettodefault</value>
@@ -4836,7 +4833,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>21</value>
   </data>
   <data name="BUT_savesettings.Text" xml:space="preserve">
-    <value>설정값 저장</value>
+    <value>설정 저장</value>
   </data>
   <data name="&gt;&gt;BUT_savesettings.Name" xml:space="preserve">
     <value>BUT_savesettings</value>
@@ -4890,7 +4887,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>0</value>
   </data>
   <data name="BUT_upload.Text" xml:space="preserve">
-    <value>펌웨어 업로드(로컬)</value>
+    <value>펌웨어 업로드(표준)</value>
   </data>
   <data name="&gt;&gt;BUT_upload.Name" xml:space="preserve">
     <value>BUT_upload</value>
@@ -4920,7 +4917,7 @@ ecc: 유효 패킷 CRC 결과를 내며
     <value>78</value>
   </data>
   <data name="BUT_Syncoptions.Text" xml:space="preserve">
-    <value>요구값 원격으로 복사</value>
+    <value>필수 설정을 원격에 복사</value>
   </data>
   <data name="&gt;&gt;BUT_Syncoptions.Name" xml:space="preserve">
     <value>BUT_Syncoptions</value>
@@ -4958,4 +4955,66 @@ ecc: 유효 패킷 CRC 결과를 내며
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="ENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>AES 암호화 수준</value></data>
+  <data name="RENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>AES 암호화 수준</value></data>
+  <data name="FSFRAMELOSS.ToolTip" xml:space="preserve"><value>페일세이프 진입 기준이 되는 SBUS 또는 PPM 출력 프레임 누락 횟수입니다.</value></data>
+  <data name="RFSFRAMELOSS.ToolTip" xml:space="preserve"><value>페일세이프 진입 기준이 되는 SBUS 또는 PPM 출력 프레임 누락 횟수입니다.</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>페일세이프 프레임 누락 수</value></data>
+  <data name="lblGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>국가:</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>전송 속도/주파수 대역</value></data>
+  <data name="lblSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="lblGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblNETID.Text" xml:space="preserve"><value>네트워크 ID</value></data>
+  <data name="lblTXPOWER.Text" xml:space="preserve"><value>송신 출력</value></data>
+  <data name="lblECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblOPPRESEND.Text" xml:space="preserve"><value>기회적 재전송</value></data>
+  <data name="lblMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblENCRYPTION_LEVEL.Text" xml:space="preserve"><value>AES 암호화</value></data>
+  <data name="lblRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblMAX_WINDOW.Text" xml:space="preserve"><value>최대 윈도(ms)</value></data>
+  <data name="lblMIN_FREQ.Text" xml:space="preserve"><value>최소 주파수</value></data>
+  <data name="lblLBT_RSSI.Text" xml:space="preserve"><value>LBT RSSI</value></data>
+  <data name="lblDUTY_CYCLE.Text" xml:space="preserve"><value>듀티 사이클</value></data>
+  <data name="lblNUM_CHANNELS.Text" xml:space="preserve"><value>채널 수</value></data>
+  <data name="lblMAX_FREQ.Text" xml:space="preserve"><value>최대 주파수</value></data>
+  <data name="btnRemoteLoadFromFile.Text" xml:space="preserve"><value>파일에서 불러오기...</value></data>
+  <data name="btnRemoteSaveToFile.Text" xml:space="preserve"><value>파일로 저장...</value></data>
+  <data name="lblRFSFRAMELOSS.Text" xml:space="preserve"><value>페일세이프 프레임 누락 수</value></data>
+  <data name="lblRGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblRGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblRGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblRGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblRGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.Text" xml:space="preserve"><value>PPM 페일세이프 설정</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.ToolTip" xml:space="preserve"><value>(기체 측에서) PPM 출력시 기본 PPM 스트림을 기록합니다</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>국가:</value></data>
+  <data name="lblRSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblRSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>전송 속도/주파수 대역</value></data>
+  <data name="lblRGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblRGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblROPPRESEND.Text" xml:space="preserve"><value>기회적 재전송</value></data>
+  <data name="lblRMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblRECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblRTXPOWER.Text" xml:space="preserve"><value>송신 출력</value></data>
+  <data name="lblRNETID.Text" xml:space="preserve"><value>네트워크 ID</value></data>
+  <data name="lblRENCRYPTION_LEVEL.Text" xml:space="preserve"><value>AES 암호화</value></data>
+  <data name="lblRRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblRMAX_WINDOW.Text" xml:space="preserve"><value>최대 윈도(ms)</value></data>
+  <data name="lblRMIN_FREQ.Text" xml:space="preserve"><value>최소 주파수</value></data>
+  <data name="lblRMAX_FREQ.Text" xml:space="preserve"><value>최대 주파수</value></data>
+  <data name="lblRNUM_CHANNELS.Text" xml:space="preserve"><value>채널 수</value></data>
+  <data name="lblRDUTY_CYCLE.Text" xml:space="preserve"><value>듀티 사이클</value></data>
+  <data name="lblRLBT_RSSI.Text" xml:space="preserve"><value>LBT RSSI</value></data>
+  <data name="dlgSave.Filter" xml:space="preserve"><value>INI 파일|*.ini</value></data>
+  <data name="dlgOpen.Filter" xml:space="preserve"><value>INI 파일|*.ini</value></data>
+  <data name="btnSaveToFile.Text" xml:space="preserve"><value>파일로 저장...</value></data>
+  <data name="btnLoadFromFile.Text" xml:space="preserve"><value>파일에서 불러오기...</value></data>
 </root>

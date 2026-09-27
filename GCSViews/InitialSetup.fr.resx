@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="backstageViewPageaccel.Text" xml:space="preserve">
-    <value>Calibration accéléromètre</value>
+    <value>Étalonnage de l’accéléromètre</value>
   </data>
   <data name="backstageViewPageInitialParams.Text" xml:space="preserve">
     <value>Paramètres de réglage initial</value>
@@ -68,22 +68,22 @@
     <value>Vitesse air</value>
   </data>
   <data name="backstageViewPageAntTrack.Text" xml:space="preserve">
-    <value>Suivi d'antenne</value>
+    <value>Suiveur d’antenne</value>
   </data>
   <data name="backstageViewPagebatmon.Text" xml:space="preserve">
-    <value>Moniteur batterie</value>
+    <value>Surveillance de la batterie</value>
   </data>
   <data name="backstageViewPageBatt2.Text" xml:space="preserve">
-    <value>Moniteur batterie 2</value>
+    <value>Surveillance de la batterie 2</value>
   </data>
   <data name="backstageViewPagecompass.Text" xml:space="preserve">
     <value>Compas</value>
   </data>
   <data name="backstageViewPagecompassmot.Text" xml:space="preserve">
-    <value>Calib. compas/moteur</value>
+    <value>Étalonnage compas/moteurs</value>
   </data>
   <data name="backstageViewPageESC.Text" xml:space="preserve">
-    <value>Calibration ESC</value>
+    <value>Étalonnage des ESC</value>
   </data>
   <data name="backstageViewPageESP.Text" xml:space="preserve">
     <value>Configuration ESP8266</value>
@@ -98,28 +98,28 @@
     <value>Sécurité intégrée</value>
   </data>
   <data name="backstageViewPagefw.Text" xml:space="preserve">
-    <value>Installer le firmware</value>
+    <value>Installer un micrologiciel</value>
   </data>
   <data name="backstageViewPagefwdisabled.Text" xml:space="preserve">
-    <value>Installer le firmware</value>
+    <value>Installer un micrologiciel</value>
   </data>
   <data name="backstageViewPagegimbal.Text" xml:space="preserve">
-    <value>Nacelle caméra</value>
+    <value>Nacelle de caméra</value>
   </data>
   <data name="backstageViewPagehwbt.Text" xml:space="preserve">
     <value>Configuration Bluetooth</value>
   </data>
   <data name="backstageViewPageinstfw.Text" xml:space="preserve">
-    <value>Installer le firmware</value>
+    <value>Installer un micrologiciel</value>
   </data>
   <data name="backstageViewPagemand.Text" xml:space="preserve">
     <value>Matériel obligatoire</value>
   </data>
   <data name="backstageViewPageMotorTest.Text" xml:space="preserve">
-    <value>Test moteur</value>
+    <value>Test des moteurs</value>
   </data>
   <data name="backstageViewPageopt.Text" xml:space="preserve">
-    <value>Matériel optionnel</value>
+    <value>Matériel facultatif</value>
   </data>
   <data name="backstageViewPageoptflow.Text" xml:space="preserve">
     <value>Flux optique</value>
@@ -134,16 +134,16 @@
     <value>PX4Flow</value>
   </data>
   <data name="backstageViewPageradio.Text" xml:space="preserve">
-    <value>Calibration radio</value>
+    <value>Étalonnage de la radio</value>
   </data>
   <data name="backstageViewPageSikradio.Text" xml:space="preserve">
-    <value>Radio Sik</value>
+    <value>Radio SiK</value>
   </data>
   <data name="backstageViewPagesonar.Text" xml:space="preserve">
     <value>Télémètre</value>
   </data>
   <data name="backstageViewPagetradheli.Text" xml:space="preserve">
-    <value>Configuration hélico</value>
+    <value>Configuration de l’hélicoptère</value>
   </data>
   <data name="backstageViewPagewizard.Text" xml:space="preserve">
     <value>Assistant</value>

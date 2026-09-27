@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="ARMED" xml:space="preserve"><value>ОЗБРОЄНО</value></data>
+  <data name="AS" xml:space="preserve"><value>ПШ </value></data>
+  <data name="Bat" xml:space="preserve"><value>АКБ</value></data>
+  <data name="Cell" xml:space="preserve"><value>Комірка</value></data>
+  <data name="DISARMED" xml:space="preserve"><value>РОЗЗБРОЄНО</value></data>
+  <data name="E" xml:space="preserve"><value>Сх</value></data>
+  <data name="FAILSAFE" xml:space="preserve"><value>АВАРІЙНИЙ РЕЖИМ</value></data>
+  <data name="GPS0" xml:space="preserve"><value>GPS: відсутній</value></data>
+  <data name="GPS1" xml:space="preserve"><value>GPS: немає фіксації</value></data>
+  <data name="GPS2" xml:space="preserve"><value>GPS: 2D-фіксація</value></data>
+  <data name="GPS3" xml:space="preserve"><value>GPS: 3D-фіксація</value></data>
+  <data name="GPS4" xml:space="preserve"><value>GPS: 3D DGPS</value></data>
+  <data name="GPS5" xml:space="preserve"><value>GPS: RTK Float</value></data>
+  <data name="GPS6" xml:space="preserve"><value>GPS: RTK Fixed</value></data>
+  <data name="GS" xml:space="preserve"><value>ШЗ </value></data>
+  <data name="N" xml:space="preserve"><value>Пн</value></data>
+  <data name="NE" xml:space="preserve"><value>ПнСх</value></data>
+  <data name="NotReadyToArm" xml:space="preserve"><value>Не готовий до озброєння</value></data>
+  <data name="NW" xml:space="preserve"><value>ПнЗх</value></data>
+  <data name="ReadyToArm" xml:space="preserve"><value>Готовий до озброєння</value></data>
+  <data name="S" xml:space="preserve"><value>Пд</value></data>
+  <data name="SAFE" xml:space="preserve"><value>БЕЗПЕЧНО</value></data>
+  <data name="SE" xml:space="preserve"><value>ПдСх</value></data>
+  <data name="SW" xml:space="preserve"><value>ПдЗх</value></data>
+  <data name="W" xml:space="preserve"><value>Зх</value></data>
+</root>

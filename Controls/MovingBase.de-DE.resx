@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,14 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>What this does.
-1. gets the current gps coords from a nmea gps.
-2. sends a guided mode WP to the AP every 2 seconds.
+    <value>Funktionsweise:
+1. Liest die aktuellen Koordinaten eines NMEA-GPS-Empfängers.
+2. Aktualisiert den Startpunkt auf der Karte, nicht jedoch im Fahrzeug.
 
-How to use it
-1. connect to ap.
-2. take off, test guided mode is working.
-3. open this and pick your comport, and baud rate for your nmea gps.
-4. it should now be following you.</value>
+Anwendung:
+1. Mit dem Autopiloten verbinden.
+2. Dieses Fenster öffnen und COM-Port sowie Baudrate des NMEA-GPS-Empfängers wählen.
+3. Der Startpunkt sollte nun laufend aktualisiert werden.</value>
   </data>
 </root>

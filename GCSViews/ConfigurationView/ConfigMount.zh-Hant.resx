@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -127,79 +127,79 @@
     <value>Wiki</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>平移</value>
+    <value>水平旋轉</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>角度限制</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>舵機限制</value>
+    <value>伺服機行程限制</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>角度限制</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>舵機限制</value>
+    <value>伺服機行程限制</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>角度限制</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>舵機限制</value>
+    <value>伺服機行程限制</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>遙控通道</value>
+    <value>輸入通道</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>遙控通道</value>
+    <value>輸入通道</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>遙控通道</value>
+    <value>輸入通道</value>
   </data>
   <data name="mavlinkCheckBoxTR.Text" xml:space="preserve">
-    <value>舵機反向</value>
+    <value>反向</value>
   </data>
   <data name="mavlinkCheckBoxPR.Text" xml:space="preserve">
-    <value>舵機反向</value>
+    <value>反向</value>
   </data>
   <data name="mavlinkCheckBoxRR.Text" xml:space="preserve">
-    <value>舵機反向</value>
+    <value>反向</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
     <value>Z</value>
@@ -211,7 +211,7 @@
     <value>X</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>回縮位置(固定翼用)</value>
+    <value>收回角度</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Z</value>
@@ -223,7 +223,7 @@
     <value>X</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>雲台初始位置</value>
+    <value>中立角度</value>
   </data>
   <data name="label31.Text" xml:space="preserve">
     <value>Z</value>
@@ -238,39 +238,41 @@
     <value>遙桿控制(地面站)</value>
   </data>
   <data name="CHK_stab_tilt.Text" xml:space="preserve">
-    <value>俯仰 自動修正</value>
+    <value>俯仰穩定</value>
   </data>
   <data name="CHK_stab_roll.Text" xml:space="preserve">
-    <value>橫滾 自動修正</value>
+    <value>橫滾穩定</value>
   </data>
   <data name="CHK_stab_pan.Text" xml:space="preserve">
     <value>平移 自動修正</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>快門控制</value>
+    <value>快門</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
-    <value>舵機限制</value>
+    <value>伺服機行程限制</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>未按快門</value>
+    <value>未按下</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>按下快門</value>
+    <value>已按下</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label41.Text" xml:space="preserve">
     <value>快門</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>觸發時間 (1/10th sec)</value>
+    <value>持續時間 (1/10 秒)</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
-    <value>請使用遙控器的通道7，做為快門觸發開關</value>
+    <value>請將 Ch7 選項設為相機觸發</value>
   </data>
+  <data name="label43.Text" xml:space="preserve"><value>類型</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>注意：雲台類型將在下次重新啟動飛控後生效</value></data>
 </root>

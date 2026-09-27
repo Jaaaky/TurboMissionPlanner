@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,9 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_connect.Text" xml:space="preserve">
-    <value>Əlaqə</value>
+    <value>Qoşul</value>
   </data>
   <data name="chk_write.Text" xml:space="preserve">
-    <value>Girişləri yaz</value>
+    <value>Yazma icazəsi</value>
   </data>
+  <data name="Type.HeaderText" xml:space="preserve"><value>Növ</value></data>
+  <data name="Direction.HeaderText" xml:space="preserve"><value>İstiqamət</value></data>
+  <data name="Port.HeaderText" xml:space="preserve"><value>Port</value></data>
+  <data name="Extra.HeaderText" xml:space="preserve"><value>Host/bod sürəti</value></data>
+  <data name="Write.HeaderText" xml:space="preserve"><value>Yaz</value></data>
+  <data name="Go.HeaderText" xml:space="preserve"><value>Başlat</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Ardıcıl çıxış - MAVLink</value></data>
 </root>

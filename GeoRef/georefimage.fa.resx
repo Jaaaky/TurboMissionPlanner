@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>اختلاف زمانی به ثانیه</value></data>
+  <data name="BUT_Geotagimages.Text" xml:space="preserve"><value>برچسب‌گذاری جغرافیایی تصاویر</value></data>
+  <data name="BUT_estoffset.Text" xml:space="preserve"><value>برآورد اختلاف زمانی</value></data>
+  <data name="BUT_doit.Text" xml:space="preserve"><value>پیش‌پردازش</value></data>
+  <data name="BUT_browsedir.Text" xml:space="preserve"><value>انتخاب تصاویر</value></data>
+  <data name="BUT_browselog.Text" xml:space="preserve"><value>انتخاب گزارش</value></data>
+  <data name="BUT_networklinkgeoref.Text" xml:space="preserve"><value>KML موقعیت</value></data>
+  <data name="RDIO_TimeOffset.Text" xml:space="preserve"><value>اختلاف زمانی</value></data>
+  <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve"><value>پیام CAM</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>چرخش</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>میدان دید عرضی</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>میدان دید طولی</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>کمینهٔ زمان شاتر (s) (CAM)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>حذف تصویر از انتها</value></data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>حذف تصویر از ابتدا</value></data>
+  <data name="chk_usegps2.Text" xml:space="preserve"><value>استفاده از GPS2</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>مبنای ارتفاع نسبی</value></data>
+  <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve"><value>استفاده از ارتفاع AMSL</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>تأخیر شاتر (ms)</value></data>
+  <data name="chk_cammsg.Text" xml:space="preserve"><value>استفاده از پیام‌های CAM</value></data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve"><value>پیام تحریک شاتر</value></data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve"><value>استفاده از ارتفاع GPS</value></data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve"><value>استفاده از ارتفاع GPS</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>زمین‌مرجع کردن تصاویر</value></data>
+</root>

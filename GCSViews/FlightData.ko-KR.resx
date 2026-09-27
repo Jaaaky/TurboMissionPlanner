@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -147,7 +147,7 @@
     <value>187, 22</value>
   </data>
   <data name="recordHudToAVIToolStripMenuItem.Text" xml:space="preserve">
-    <value>AVI로 투영 영상 녹화</value>
+    <value>HUD를 AVI로 녹화</value>
   </data>
   <data name="stopRecordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 22</value>
@@ -207,7 +207,7 @@
     <value>159, 22</value>
   </data>
   <data name="russianHudToolStripMenuItem.Text" xml:space="preserve">
-    <value>러시아식 투영 영상</value>
+    <value>러시아식 HUD</value>
   </data>
   <data name="swapWithMapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 22</value>
@@ -307,7 +307,7 @@
     <value>154, 22</value>
   </data>
   <data name="setViewCountToolStripMenuItem.Text" xml:space="preserve">
-    <value>뷰 카운트 설정</value>
+    <value>표시 항목 수 설정</value>
   </data>
   <data name="contextMenuStripQuickView.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 26</value>
@@ -607,7 +607,7 @@
     <value>착륙 중단</value>
   </data>
   <data name="BUT_abortland.ToolTip" xml:space="preserve">
-    <value>비행체 전용입니다</value>
+    <value>고정익 전용</value>
   </data>
   <data name="&gt;&gt;BUT_abortland.Name" xml:space="preserve">
     <value>BUT_abortland</value>
@@ -634,7 +634,7 @@
     <value>85</value>
   </data>
   <data name="BUT_resumemis.Text" xml:space="preserve">
-    <value>임무재개</value>
+    <value>임무 재개</value>
   </data>
   <data name="&gt;&gt;BUT_resumemis.Name" xml:space="preserve">
     <value>BUT_resumemis</value>
@@ -712,10 +712,10 @@
     <value>79</value>
   </data>
   <data name="BUT_ARM.Text" xml:space="preserve">
-    <value>시동/종료</value>
+    <value>시동/시동 해제</value>
   </data>
   <data name="BUT_ARM.ToolTip" xml:space="preserve">
-    <value>Mav 동력을 연결합니다</value>
+    <value>MAV 시동 켜기</value>
   </data>
   <data name="&gt;&gt;BUT_ARM.Name" xml:space="preserve">
     <value>BUT_ARM</value>
@@ -802,10 +802,10 @@
     <value>75</value>
   </data>
   <data name="BUT_quickrtl.Text" xml:space="preserve">
-    <value>회귀</value>
+    <value>복귀(RTL)</value>
   </data>
   <data name="BUT_quickrtl.ToolTip" xml:space="preserve">
-    <value>회귀 모드로 전환합니다</value>
+    <value>복귀(RTL) 모드로 전환합니다</value>
   </data>
   <data name="&gt;&gt;BUT_quickrtl.Name" xml:space="preserve">
     <value>BUT_quickrtl</value>
@@ -886,7 +886,7 @@
     <value>73</value>
   </data>
   <data name="BUT_setwp.Text" xml:space="preserve">
-    <value>경로설정</value>
+    <value>경유점 설정</value>
   </data>
   <data name="BUT_setwp.ToolTip" xml:space="preserve">
     <value>현재 대상 경로 지점을 바꿉니다</value>
@@ -967,7 +967,7 @@
     <value>52</value>
   </data>
   <data name="BUT_clear_track.Text" xml:space="preserve">
-    <value>기록 삭제</value>
+    <value>비행 궤적 지우기</value>
   </data>
   <data name="BUT_clear_track.ToolTip" xml:space="preserve">
     <value>지도에 기록한 경로를 지웁니다</value>
@@ -1018,7 +1018,7 @@
     <value>69</value>
   </data>
   <data name="BUT_Homealt.Text" xml:space="preserve">
-    <value>원점 고도</value>
+    <value>홈 고도 설정</value>
   </data>
   <data name="BUT_Homealt.ToolTip" xml:space="preserve">
     <value>현재 화면 고도를 0으로 설정합니다. 예: 원점 고도를 0으로 표시</value>
@@ -1051,7 +1051,7 @@
     <value>센서보기</value>
   </data>
   <data name="BUT_RAWSensor.ToolTip" xml:space="preserve">
-    <value>각가속, 가속, 무선신호 입출력 원시값을 봅니다</value>
+    <value>자이로 및 가속도계 원시값과 조종기 입력/서보 출력 원시값을 봅니다</value>
   </data>
   <data name="&gt;&gt;BUT_RAWSensor.Name" xml:space="preserve">
     <value>BUT_RAWSensor</value>
@@ -1078,7 +1078,7 @@
     <value>63</value>
   </data>
   <data name="BUTrestartmission.Text" xml:space="preserve">
-    <value>임무재개</value>
+    <value>임무 처음부터 시작</value>
   </data>
   <data name="BUTrestartmission.ToolTip" xml:space="preserve">
     <value>임무를 처음부터 다시 시작합니다</value>
@@ -1246,10 +1246,10 @@
     <value>78</value>
   </data>
   <data name="myButton2.Text" xml:space="preserve">
-    <value>복귀</value>
+    <value>복귀(RTL)</value>
   </data>
   <data name="myButton2.ToolTip" xml:space="preserve">
-    <value>복귀 모드로 전환합니다</value>
+    <value>복귀(RTL) 모드로 전환합니다</value>
   </data>
   <data name="&gt;&gt;myButton2.Name" xml:space="preserve">
     <value>myButton2</value>
@@ -3146,7 +3146,7 @@
     <value>3</value>
   </data>
   <data name="tabTLogs.Text" xml:space="preserve">
-    <value>원격 로그</value>
+    <value>텔레메트리 로그</value>
   </data>
   <data name="&gt;&gt;tabTLogs.Name" xml:space="preserve">
     <value>tabTLogs</value>
@@ -3173,7 +3173,7 @@
     <value>13</value>
   </data>
   <data name="BUT_georefimage.Text" xml:space="preserve">
-    <value>지리 참조 이미지</value>
+    <value>이미지 지리 참조</value>
   </data>
   <data name="&gt;&gt;BUT_georefimage.Name" xml:space="preserve">
     <value>BUT_georefimage</value>
@@ -3653,7 +3653,7 @@
     <value>8</value>
   </data>
   <data name="tabPagemessages.Text" xml:space="preserve">
-    <value>메세지</value>
+    <value>메시지</value>
   </data>
   <data name="&gt;&gt;tabPagemessages.Name" xml:space="preserve">
     <value>tabPagemessages</value>
@@ -3761,7 +3761,7 @@
     <value>6</value>
   </data>
   <data name="groupBoxRoll.Text" xml:space="preserve">
-    <value>좌우 회전</value>
+    <value>롤</value>
   </data>
   <data name="&gt;&gt;groupBoxRoll.Name" xml:space="preserve">
     <value>groupBoxRoll</value>
@@ -3830,7 +3830,7 @@
     <value>5</value>
   </data>
   <data name="groupBoxYaw.Text" xml:space="preserve">
-    <value>좌우 이동</value>
+    <value>팬</value>
   </data>
   <data name="&gt;&gt;groupBoxYaw.Name" xml:space="preserve">
     <value>groupBoxYaw</value>
@@ -3929,7 +3929,7 @@
     <value>4</value>
   </data>
   <data name="groupBoxPitch.Text" xml:space="preserve">
-    <value>상하 이동</value>
+    <value>틸트</value>
   </data>
   <data name="&gt;&gt;groupBoxPitch.Name" xml:space="preserve">
     <value>groupBoxPitch</value>
@@ -4154,7 +4154,7 @@
     <value>195, 22</value>
   </data>
   <data name="addPoiToolStripMenuItem.Text" xml:space="preserve">
-    <value>위치 정보 추가</value>
+    <value>관심 지점 추가</value>
   </data>
   <data name="pointCameraHereToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
@@ -4190,13 +4190,13 @@
     <value>176, 22</value>
   </data>
   <data name="setHomeHereToolStripMenuItem1.Text" xml:space="preserve">
-    <value>이곳으로 원점 지정</value>
+    <value>이곳을 홈으로 설정</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>이곳으로 원점 지정</value>
+    <value>이곳을 홈으로 설정</value>
   </data>
   <data name="takeOffToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
@@ -4208,7 +4208,7 @@
     <value>195, 22</value>
   </data>
   <data name="onOffCameraOverlapToolStripMenuItem.Text" xml:space="preserve">
-    <value>카메라 오버래핑</value>
+    <value>영상 중복 영역</value>
   </data>
   <data name="contextMenuStripMap.Size" type="System.Drawing.Size, System.Drawing">
     <value>196, 268</value>
@@ -4643,7 +4643,7 @@
     <value>조정</value>
   </data>
   <data name="CB_tuning.ToolTip" xml:space="preserve">
-    <value>대상 고도와 실제 고도를 나타내는 조정 그래프 표시</value>
+    <value>목표 자세와 실제 자세를 비교하는 튜닝 그래프 표시</value>
   </data>
   <data name="&gt;&gt;CB_tuning.Name" xml:space="preserve">
     <value>CB_tuning</value>
@@ -5038,4 +5038,36 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.MyUserControl, MissionPlanner.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="setBatteryCellCountToolStripMenuItem.Text" xml:space="preserve"><value>배터리 셀 전압</value></data>
+  <data name="showIconsToolStripMenuItem.Text" xml:space="preserve"><value>아이콘 표시</value></data>
+  <data name="multiLineToolStripMenuItem.Text" xml:space="preserve"><value>여러 줄</value></data>
+  <data name="undockToolStripMenuItem.Text" xml:space="preserve"><value>창 분리</value></data>
+  <data name="BUT_SendMSG.Text" xml:space="preserve"><value>메시지</value></data>
+  <data name="BUT_SendMSG.ToolTip" xml:space="preserve"><value>기체 로그에 저장할 메시지 전송</value></data>
+  <data name="NACp_lbl.Text" xml:space="preserve"><value>NACp</value></data>
+  <data name="NIC_lbl.Text" xml:space="preserve"><value>NIC</value></data>
+  <data name="fault_clb.Items" xml:space="preserve"><value>정비 필요</value></data>
+  <data name="fault_clb.Items1" xml:space="preserve"><value>GPS 사용 불가</value></data>
+  <data name="fault_clb.Items2" xml:space="preserve"><value>GPS 위치 미확정</value></data>
+  <data name="fault_clb.Items3" xml:space="preserve"><value>송신 시스템 장애</value></data>
+  <data name="fault_clb.Items4" xml:space="preserve"><value>지상</value></data>
+  <data name="XPDRConnect_btn.Text" xml:space="preserve"><value>트랜스폰더 연결</value></data>
+  <data name="Squawk_label.Text" xml:space="preserve"><value>스쿼크 코드</value></data>
+  <data name="FlightID_label.Text" xml:space="preserve"><value>비행 ID</value></data>
+  <data name="IDENT_btn.Text" xml:space="preserve"><value>IDENT</value></data>
+  <data name="ALT_btn.Text" xml:space="preserve"><value>ALT</value></data>
+  <data name="STBY_btn.Text" xml:space="preserve"><value>대기</value></data>
+  <data name="ON_btn.Text" xml:space="preserve"><value>켜짐</value></data>
+  <data name="Mode_clb.Items" xml:space="preserve"><value>모드 A</value></data>
+  <data name="Mode_clb.Items1" xml:space="preserve"><value>모드 C</value></data>
+  <data name="Mode_clb.Items2" xml:space="preserve"><value>모드 S</value></data>
+  <data name="Mode_clb.Items3" xml:space="preserve"><value>1090ES ADS-B OUT</value></data>
+  <data name="tabTransponder.Text" xml:space="preserve"><value>트랜스폰더</value></data>
+  <data name="tabAuxFunction.Text" xml:space="preserve"><value>보조 기능</value></data>
+  <data name="BUT_GimbalVideo.Text" xml:space="preserve"><value>영상 제어</value></data>
+  <data name="jumpToTagToolStripMenuItem.Text" xml:space="preserve"><value>태그로 이동</value></data>
+  <data name="gimbalVideoFullSizedToolStripMenuItem.Text" xml:space="preserve"><value>전체 크기</value></data>
+  <data name="gimbalVideoMiniToolStripMenuItem.Text" xml:space="preserve"><value>소형</value></data>
+  <data name="gimbalVideoPopOutToolStripMenuItem.Text" xml:space="preserve"><value>별도 창</value></data>
+  <data name="gimbalVideoToolStripMenuItem.Text" xml:space="preserve"><value>짐벌 영상</value></data>
 </root>

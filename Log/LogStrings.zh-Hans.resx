@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>正在下载日志文件，是否取消？</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>确定要继续吗？</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>正在为 {0} 创建 KML</value></data>
+  <data name="Done" xml:space="preserve"><value>完成</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>正在将日志文件下载到：{0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>擦除需要 30–90 秒，请稍候！</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>处理文件时出错。请确认文件未被占用。</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>正在获取日志文件 {0}...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>正在获取日志文件列表...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>无法创建日志文件目录：{0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>没有可下载的日志</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>请连接飞行器</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>请勾选列表中的日志</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>正在处理 {0}</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>找到 {0} 个日志文件。注意：显示的大小仅为估算值。</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>错误：</value></data>
+</root>

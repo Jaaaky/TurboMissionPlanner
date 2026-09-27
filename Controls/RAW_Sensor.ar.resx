@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CMB_rawupdaterate.Text" xml:space="preserve">
-    <value>تحديث السرعة</value>
+    <value>معدل التحديث</value>
   </data>
   <data name="tabRadio.Text" xml:space="preserve">
-    <value>راديو التحكم</value>
+    <value>التحكم اللاسلكي</value>
   </data>
   <data name="tabOrientation.Text" xml:space="preserve">
     <value>بيانات الرحلة</value>
@@ -129,4 +129,17 @@
   <data name="BUT_savecsv.Text" xml:space="preserve">
     <value>حفظ CSV</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>مخارج السيرفو/المحركات</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>مدخل التحكم اللاسلكي</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>ملاحظة: يوجد تأخير 
+عند العرض عبر Xbee
+بتردد 50hz</value></data>
+  <data name="chkax.Text" xml:space="preserve"><value>التسارع X</value></data>
+  <data name="chkay.Text" xml:space="preserve"><value>التسارع Y</value></data>
+  <data name="chkaz.Text" xml:space="preserve"><value>التسارع Z</value></data>
+  <data name="chkgx.Text" xml:space="preserve"><value>الجيروسكوب X</value></data>
+  <data name="chkgy.Text" xml:space="preserve"><value>الجيروسكوب Y</value></data>
+  <data name="chkgz.Text" xml:space="preserve"><value>الجيروسكوب Z</value></data>
+  <data name="tabRawSensor.Text" xml:space="preserve"><value>بيانات المستشعرات الخام</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>بيانات المستشعرات الخام</value></data>
 </root>

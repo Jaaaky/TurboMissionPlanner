@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,13 +121,13 @@
     <value>下載所有記錄</value>
   </data>
   <data name="BUT_DLthese.Text" xml:space="preserve">
-    <value>下載選中記錄</value>
+    <value>下載所選記錄</value>
   </data>
   <data name="BUT_clearlogs.Text" xml:space="preserve">
-    <value>清空記錄</value>
+    <value>清除記錄</value>
   </data>
   <data name="BUT_redokml.Text" xml:space="preserve">
-    <value>重建 KML</value>
+    <value>建立 KML</value>
   </data>
   <data name="BUT_firstperson.Text" xml:space="preserve">
     <value>第一人稱 KML</value>
@@ -210,6 +210,16 @@
     </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>記錄</value>
+    <value>記錄下載工具</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>記錄檔：</value></data>
+  <data name="LabelStatus.Text" xml:space="preserve"><value>注意：提出技術支援需求時，請附上 .bin 檔案</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>輸出：</value></data>
+  <data name="labelBytes.Text" xml:space="preserve"><value>label3</value></data>
+  <data name="BUT_clearlogs.ToolTip" xml:space="preserve"><value>刪除已連線無人機上的所有記錄。</value></data>
+  <data name="BUT_firstperson.ToolTip" xml:space="preserve"><value>將記錄檔轉換為第一人稱視角 KML 格式。</value></data>
+  <data name="BUT_DLthese.ToolTip" xml:space="preserve"><value>下載上方清單中勾選的記錄。</value></data>
+  <data name="BUT_bintolog.Text" xml:space="preserve"><value>.bin 轉 .log</value></data>
+  <data name="BUT_bintolog.ToolTip" xml:space="preserve"><value>將二進位記錄檔 (.bin) 轉換為文字格式 (.log)。</value></data>
+  <data name="BUT_redokml.ToolTip" xml:space="preserve"><value>將記錄檔轉換為 KML 格式。</value></data>
 </root>

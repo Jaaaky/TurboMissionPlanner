@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_forcecal_accel.Text" xml:space="preserve"><value>Forza calibrazione accelerometro</value></data>
+  <data name="BUT_forcecal_mag.Text" xml:space="preserve"><value>Forza calibrazione bussola</value></data>
+  <data name="but_apjtool.Text" xml:space="preserve"><value>Strumento APJ</value></data>
+  <data name="BUT_CoT.Text" xml:space="preserve"><value>CoT</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>Prossimità</value></data>
+  <data name="but_followswarm.Text" xml:space="preserve"><value>Segui sciame</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Configurazione firma MAVLink 2</value></data>
+  <data name="but_lockup.Text" xml:space="preserve"><value>Blocca autopilota</value></data>
+  <data name="but_td.Text" xml:space="preserve"><value>Recupera threads.txt</value></data>
+  <data name="but_gpsinj.Text" xml:space="preserve"><value>Estrai gps_inject</value></data>
+  <data name="but_dem.Text" xml:space="preserve"><value>DEM</value></data>
+  <data name="BUT_magfit2.Text" xml:space="preserve"><value>Log calibrazione magnetometro</value></data>
+  <data name="but_GDAL.Text" xml:space="preserve"><value>GDAL personalizzato</value></data>
+  <data name="but_sortlogs.Text" xml:space="preserve"><value>Riordina tutti i log</value></data>
+  <data name="but_optflowcalib.Text" xml:space="preserve"><value>Calibrazione flusso ottico</value></data>
+  <data name="but_logdlscp.Text" xml:space="preserve"><value>Scarica log via SCP</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>Firma</value></data>
+  <data name="but_acbarohight.Text" xml:space="preserve"><value>Regola quota barometrica aeromobile</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>Dividi log DataFlash</value></data>
+  <data name="but_driverclean.Text" xml:space="preserve"><value>Rimuovi driver</value></data>
+  <data name="but_agemapdata.Text" xml:space="preserve"><value>Elimina dati mappa obsoleti</value></data>
+  <data name="but_packetbytes.Text" xml:space="preserve"><value>Analizza byte pacchetto</value></data>
+  <data name="myButton_vlc.Text" xml:space="preserve"><value>VLC</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>Crea file dati di ingresso DashWare</value></data>
+  <data name="but_trimble.Text" xml:space="preserve"><value>Sequenza sciame</value></data>
+  <data name="but_hwids.Text" xml:space="preserve"><value>Decodifica ID hardware</value></data>
+  <data name="BUT_QNH.Text" xml:space="preserve"><value>QNH</value></data>
+  <data name="but_reboot.Text" xml:space="preserve"><value>Riavvia Pixhawk</value></data>
+  <data name="but_3dmap.Text" xml:space="preserve"><value>Mappa 3D</value></data>
+  <data name="but_messageinterval.Text" xml:space="preserve"><value>Intervallo messaggi</value></data>
+  <data name="but_blupdate.Text" xml:space="preserve"><value>Aggiorna bootloader</value></data>
+  <data name="BUT_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="but_disablearmswitch.Text" xml:space="preserve"><value>Commuta interruttore di sicurezza</value></data>
+  <data name="but_paramrestore.Text" xml:space="preserve"><value>Ripristina parametri</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>Analizzatore MAVLink</value></data>
+  <data name="but_sitl_comb.Text" xml:space="preserve"><value>Combinatore flussi SITL</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>Anonimizza log</value></data>
+  <data name="but_dashware.Text" xml:space="preserve"><value>DashWare</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Esplora Tlog</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>Crea mappe JPG per tutti i Tlog in una cartella</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Esegui algoritmo di puntamento gimbal</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Quad: arma e decolla</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Test velocità conversione strutture</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Cancella immagini personalizzate</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Aggiungi immagini personalizzate a Mission Planner</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Scarica tutti i firmware attuali</value></data>
+  <data name="butlogindex.Text" xml:space="preserve"><value>Indice log</value></data>
+  <data name="but_armandtakeoff.Text" xml:space="preserve"><value>Arma e decolla</value></data>
+  <data name="but_maplogs.Text" xml:space="preserve"><value>Mappa log</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Ordina i Tlog in cartelle per tipo e ID sistema</value></data>
+  <data name="but_gimbaltest.Text" xml:space="preserve"><value>Test gimbal</value></data>
+  <data name="but_structtest.Text" xml:space="preserve"><value>Test strutture</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Crea un collegamento diretto esclusivo al GPS (porta 500)</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Sciame con inseguimento capofila</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Interfaccia sciame multiveicolo</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Converti file SHP in file poligono</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Mostra sulla mappa un'icona aggiuntiva della posizione attuale.</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Sovrapponi l'HUD ai video registrati</value></data>
+  <data name="BUT_clearcustommaps.Text" xml:space="preserve"><value>Cancella mappe personalizzate</value></data>
+  <data name="but_getfw.Text" xml:space="preserve"><value>Estrai tutti i firmware</value></data>
+  <data name="BUT_geinjection.Text" xml:space="preserve"><value>Importa GE</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Editor traduzioni</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Rigenera le informazioni sui parametri utilizzate da Mission Planner</value></data>
+  <data name="BUT_sorttlogs.Text" xml:space="preserve"><value>Ordina Tlog</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Replica il flusso MAVLink ricevuto da Mission Planner</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Invia la posizione del veicolo in formato Microdrone</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Invia la posizione del veicolo in formato NMEA</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Usa un GPS NMEA per la modalità Seguimi</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Crea avvisi sonori personalizzati</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="BUT_outputMD.Text" xml:space="preserve"><value>MicroDrone</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>Georeferenzia immagini</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Gestione avvisi</value></data>
+  <data name="BUT_lang_edit.Text" xml:space="preserve"><value>Modifica lingue</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>Seguimi</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>Genera parametri</value></data>
+  <data name="but_osdvideo.Text" xml:space="preserve"><value>Video OSD</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>Base mobile</value></data>
+  <data name="BUT_shptopoly.Text" xml:space="preserve"><value>Da SHP a poligono</value></data>
+  <data name="BUT_swarm.Text" xml:space="preserve"><value>Sciame</value></data>
+  <data name="BUT_followleader.Text" xml:space="preserve"><value>Segui il capofila</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Spostato nella scheda DataFlash</value></data>
+  <data name="but_mavserialport.Text" xml:space="preserve"><value>Passaggio seriale MAVLink</value></data>
+  <data name="but_hexmavlink.Text" xml:space="preserve"><value>Decodifica MAVLink esadecimale</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Ricava offset magnetometro da un log</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Mostra le immagini del sensore di flusso ottico PX4</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Rimuovi i driver installati</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Premi virtualmente il pulsante di sicurezza</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>Imposta intervalli personalizzati per i messaggi</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>Analizza tutti i pacchetti MAVLink trasmessi</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>Aggiorna il bootloader</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>Test mappa 3D</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Mostra informazioni sull'ID hardware inserito</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Analizza un pacchetto MAVLink espresso come stringa esadecimale</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Modifica la quota di riferimento barometrica</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Provoca il blocco dell'autopilota</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Mostra informazioni sui DEM attualmente caricati</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>Scarica log tramite SCP - SSH (APSync)</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>Riordina tutti i log nella cartella dei log di Mission Planner</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Carica una sorgente personalizzata di tasselli mappa tramite GDAL</value></data>
+  <data name="label47.Text" xml:space="preserve"><value>Riavvia l'autopilota</value></data>
+  <data name="label48.Text" xml:space="preserve"><value>Regola il QNH</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>label49</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>Mostra flusso video tramite VLC - usare invece GStreamer</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>Rimuovi tasselli immagine più vecchi di 30 giorni</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>Dividi il log DataFlash in x parti</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>Estrai dati RTCM da Tlog</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>Mostra l'interfaccia di prossimità</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>Stile sciame</value></data>
+  <data name="but_remotedflogger.Text" xml:space="preserve"><value>Avvia registrazione DataFlash remota</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Invia dati Cursor-on-Target</value></data>
+  <data name="but_ManageCMDList.Text" xml:space="preserve"><value>Gestisci elenco comandi</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Gestisci elenco comandi della pianificazione</value></data>
+  <data name="but_dfumode.Text" xml:space="preserve"><value>Modalità DFU</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>Modalità DFU</value></data>
+  <data name="label57.Text" xml:space="preserve"><value>Segna accelerometro come calibrato dopo il ripristino parametri</value></data>
+  <data name="label58.Text" xml:space="preserve"><value>Segna magnetometro come calibrato dopo il ripristino parametri</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Temporaneo</value></data>
+</root>

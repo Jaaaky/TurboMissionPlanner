@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="RSSI.ToolTip" xml:space="preserve"><value>RSSIとdBmの関係を示すグラフは仕様書を参照してください。末尾の数値の意味：
+txe：送信エラー数（送信タイムアウトなど）
+rxe：受信エラー数（CRCエラー、フレーミングエラーなど）
+stx：シリアル送信オーバーフロー数
+rrx：シリアル受信オーバーフロー数
+ecc：Golay符号で正常に訂正され、パケットCRCが有効になった
+12ビットワードの数
+</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>状態LED</value></data>
+  <data name="linkLabel1.ToolTip" xml:space="preserve"><value>3DR無線機には赤と緑の2つの状態LEDがあります。
+緑の点滅：接続先の無線機を検索中
+緑の点灯：接続先の無線機とのリンク確立
+赤の点滅：データ送信中
+赤の点灯：ファームウェア更新モード</value></data>
+  <data name="RRTSCTS.ToolTip" xml:space="preserve"><value>ハードウェアフロー制御を有効／無効にします</value></data>
+  <data name="RMAX_FREQ.ToolTip" xml:space="preserve"><value>最大周波数 (kHz) </value></data>
+  <data name="RNUM_CHANNELS.ToolTip" xml:space="preserve"><value>周波数ホッピングのチャンネル数 </value></data>
+  <data name="RDUTY_CYCLE.ToolTip" xml:space="preserve"><value>送信を許可する時間の割合</value></data>
+  <data name="RLBT_RSSI.ToolTip" xml:space="preserve"><value>送信前キャリア検出（LBT）のしきい値</value></data>
+  <data name="RMIN_FREQ.ToolTip" xml:space="preserve"><value>最小周波数 (kHz) </value></data>
+  <data name="RGPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT：GPIO 1.1をRC（PPM）出力に設定します</value></data>
+  <data name="RGPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN：GPIO 1.1をRC（PPM）入力に設定します</value></data>
+  <data name="RSERIAL_SPEED.ToolTip" xml:space="preserve"><value>シリアルボーレートを丸めたkbps値で指定します。例：57は57600です。
+</value></data>
+  <data name="RAIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEEDは無線機間のデータレートを丸めたkbps値です。128は128 kbpsを意味します。最大192、最小2です。16未満では周波数ホッピングとTDM同期の時間が長くなるため、推奨しません。 </value></data>
+  <data name="RNETID.ToolTip" xml:space="preserve"><value>NETIDは16ビットのネットワークIDです。周波数ホッピングの系列の生成と、正しい無線機からのパケットの識別に使用します。同じ地域で同種の無線機を使用するほかの利用者とは異なるNETIDを設定してください。 </value></data>
+  <data name="RTXPOWER.ToolTip" xml:space="preserve"><value>TXPOWERは送信出力 (dBm) です。20 dBmは100 mWです。近距離でのテストでは低い値に設定すると有効です。
+</value></data>
+  <data name="RECC.ToolTip" xml:space="preserve"><value>ECCはGolay誤り訂正符号の有効／無効を設定します。既定では無効です。有効にすると送信バイト数が2倍になり、実効通信帯域は半分になりますが、12ビットあたり最大3ビットの誤りを訂正できます。長距離通信で、通常は低い無線データレートと併用します。Golay復号には送信1バイトあたり20マイクロ秒（ユーザーデータ1バイトあたり40マイクロ秒）かかるため、高データレートではCPU性能による制約も生じます。通常は128 kbps以下で使用します。
+</value></data>
+  <data name="ROPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESENDは「空き時間の再送」を有効／無効にします。有効にすると、シリアル入力バッファが256バイト未満のとき、同じパケットを2回送信します。2回目には再送の印が付き、最初のパケットを正常に受信していれば受信側で破棄されます。特にアップリンクコマンドの通信品質を大きく改善します。
+</value></data>
+  <data name="RTSCTS.ToolTip" xml:space="preserve"><value>ハードウェアフロー制御を有効／無効にします</value></data>
+  <data name="MAX_FREQ.ToolTip" xml:space="preserve"><value>最大周波数 (kHz) </value></data>
+  <data name="NUM_CHANNELS.ToolTip" xml:space="preserve"><value>周波数ホッピングのチャンネル数 </value></data>
+  <data name="LBT_RSSI.ToolTip" xml:space="preserve"><value>送信前キャリア検出（LBT）のしきい値</value></data>
+  <data name="MIN_FREQ.ToolTip" xml:space="preserve"><value>最小周波数 (kHz) </value></data>
+  <data name="DUTY_CYCLE.ToolTip" xml:space="preserve"><value>送信を許可する時間の割合</value></data>
+  <data name="GPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT：GPIO 1.1をRC（PPM）出力に設定します</value></data>
+  <data name="GPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN：GPIO 1.1をRC（PPM）入力に設定します</value></data>
+  <data name="MAVLINK.ToolTip" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="SERIAL_SPEED.ToolTip" xml:space="preserve"><value>シリアルボーレートを丸めたkbps値で指定します。例：57は57600です。
+</value></data>
+  <data name="AIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEEDは無線機間のデータレートを丸めたkbps値です。128は128 kbpsを意味します。最大192、最小2です。16未満では周波数ホッピングとTDM同期の時間が長くなるため、推奨しません。 </value></data>
+  <data name="NETID.ToolTip" xml:space="preserve"><value>NETIDは16ビットのネットワークIDです。周波数ホッピングの系列の生成と、正しい無線機からのパケットの識別に使用します。同じ地域で同種の無線機を使用するほかの利用者とは異なるNETIDを設定してください。 </value></data>
+  <data name="TXPOWER.ToolTip" xml:space="preserve"><value>TXPOWERは送信出力 (dBm) です。20 dBmは100 mWです。近距離でのテストでは低い値に設定すると有効です。
+</value></data>
+  <data name="ECC.ToolTip" xml:space="preserve"><value>ECCはGolay誤り訂正符号の有効／無効を設定します。既定では無効です。有効にすると送信バイト数が2倍になり、実効通信帯域は半分になりますが、12ビットあたり最大3ビットの誤りを訂正できます。長距離通信で、通常は低い無線データレートと併用します。Golay復号には送信1バイトあたり20マイクロ秒（ユーザーデータ1バイトあたり40マイクロ秒）かかるため、高データレートではCPU性能による制約も生じます。通常は128 kbps以下で使用します。
+</value></data>
+  <data name="OPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESENDは「空き時間の再送」を有効／無効にします。有効にすると、シリアル入力バッファが256バイト未満のとき、同じパケットを2回送信します。2回目には再送の印が付き、最初のパケットを正常に受信していれば受信側で破棄されます。特にアップリンクコマンドの通信品質を大きく改善します。
+</value></data>
+  <data name="ENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>AES暗号化レベル</value></data>
+  <data name="RENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>AES暗号化レベル</value></data>
+  <data name="FSFRAMELOSS.ToolTip" xml:space="preserve"><value>フェイルセーフに入るまでに許容するSBUSまたはPPM出力フレームの欠落数。</value></data>
+  <data name="RFSFRAMELOSS.ToolTip" xml:space="preserve"><value>フェイルセーフに入るまでに許容するSBUSまたはPPM出力フレームの欠落数。</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>バージョン</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>RSSI</value></data>
+  <data name="lbl_status.Text" xml:space="preserve"><value>注意：変更時には必ず「必須設定をリモートへコピー」をクリックしてください
+無線リンクの喪失を防ぎます</value></data>
+  <data name="groupBoxLocal.Text" xml:space="preserve"><value>ローカル</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>フェイルセーフ欠落フレーム数</value></data>
+  <data name="lblGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>国：</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>レート／周波数帯</value></data>
+  <data name="lblSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="btnRandom.Text" xml:space="preserve"><value>ランダム</value></data>
+  <data name="lblRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblDESTID.Text" xml:space="preserve"><value>宛先ID</value></data>
+  <data name="lblNODEID.Text" xml:space="preserve"><value>ノードID</value></data>
+  <data name="lblGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>形式</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>ボーレート</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>無線データレート</value></data>
+  <data name="lblNETID.Text" xml:space="preserve"><value>ネットワークID</value></data>
+  <data name="lblTXPOWER.Text" xml:space="preserve"><value>送信出力</value></data>
+  <data name="lblECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblOPPRESEND.Text" xml:space="preserve"><value>空き時間の再送</value></data>
+  <data name="lblMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblANT_MODE.Text" xml:space="preserve"><value>アンテナモード</value></data>
+  <data name="lblSER_BRK_DETMS.Text" xml:space="preserve"><value>ブレーク検出</value></data>
+  <data name="lblGLOBAL_RETRIES.Text" xml:space="preserve"><value>全体の再試行回数</value></data>
+  <data name="lblMAX_RETRIES.Text" xml:space="preserve"><value>最大再試行回数</value></data>
+  <data name="lblMAX_DATA.Text" xml:space="preserve"><value>最大データ量</value></data>
+  <data name="lblENCRYPTION_LEVEL.Text" xml:space="preserve"><value>AES暗号化</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>AESキー</value></data>
+  <data name="lblRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="linkLabel_mavlink.Text" xml:space="preserve"><value>標準MAVLink用の設定</value></data>
+  <data name="linkLabel_lowlatency.Text" xml:space="preserve"><value>低遅延用の設定</value></data>
+  <data name="lblMAX_WINDOW.Text" xml:space="preserve"><value>最大ウィンドウ (ms)</value></data>
+  <data name="lblMIN_FREQ.Text" xml:space="preserve"><value>最小周波数</value></data>
+  <data name="lblLBT_RSSI.Text" xml:space="preserve"><value>LBT RSSI</value></data>
+  <data name="lblDUTY_CYCLE.Text" xml:space="preserve"><value>デューティ比</value></data>
+  <data name="lblNUM_CHANNELS.Text" xml:space="preserve"><value>チャンネル数</value></data>
+  <data name="lblMAX_FREQ.Text" xml:space="preserve"><value>最大周波数</value></data>
+  <data name="btnRemoteLoadFromFile.Text" xml:space="preserve"><value>ファイルから読込...</value></data>
+  <data name="btnRemoteSaveToFile.Text" xml:space="preserve"><value>ファイルに保存...</value></data>
+  <data name="lblRFSFRAMELOSS.Text" xml:space="preserve"><value>フェイルセーフ欠落フレーム数</value></data>
+  <data name="lblRGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblRGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblRGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblRGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblRGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.Text" xml:space="preserve"><value>PPMフェイルセーフを設定</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.ToolTip" xml:space="preserve"><value>PPM出力用の既定PPMストリームを記録します（機体側）</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>国：</value></data>
+  <data name="lblRSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblRSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>レート／周波数帯</value></data>
+  <data name="lblRRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblRTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblRDESTID.Text" xml:space="preserve"><value>宛先ID</value></data>
+  <data name="lblRNODEID.Text" xml:space="preserve"><value>ノードID</value></data>
+  <data name="lblRGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblRGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblROPPRESEND.Text" xml:space="preserve"><value>空き時間の再送</value></data>
+  <data name="lblRMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblRECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblRTXPOWER.Text" xml:space="preserve"><value>送信出力</value></data>
+  <data name="lblRNETID.Text" xml:space="preserve"><value>ネットワークID</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>ボーレート</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>無線データレート</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>形式</value></data>
+  <data name="lblRANT_MODE.Text" xml:space="preserve"><value>アンテナモード</value></data>
+  <data name="lblRSER_BRK_DETMS.Text" xml:space="preserve"><value>ブレーク検出</value></data>
+  <data name="lblRGLOBAL_RETRIES.Text" xml:space="preserve"><value>全体の再試行回数</value></data>
+  <data name="lblRMAX_RETRIES.Text" xml:space="preserve"><value>最大再試行回数</value></data>
+  <data name="lblRMAX_DATA.Text" xml:space="preserve"><value>最大データ量</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>AESキー</value></data>
+  <data name="lblRENCRYPTION_LEVEL.Text" xml:space="preserve"><value>AES暗号化</value></data>
+  <data name="lblRRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblRMAX_WINDOW.Text" xml:space="preserve"><value>最大ウィンドウ (ms)</value></data>
+  <data name="lblRMIN_FREQ.Text" xml:space="preserve"><value>最小周波数</value></data>
+  <data name="lblRMAX_FREQ.Text" xml:space="preserve"><value>最大周波数</value></data>
+  <data name="lblRNUM_CHANNELS.Text" xml:space="preserve"><value>チャンネル数</value></data>
+  <data name="lblRDUTY_CYCLE.Text" xml:space="preserve"><value>デューティ比</value></data>
+  <data name="lblRLBT_RSSI.Text" xml:space="preserve"><value>LBT RSSI</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>バージョン</value></data>
+  <data name="groupBoxRemote.Text" xml:space="preserve"><value>リモート</value></data>
+  <data name="dlgSave.Filter" xml:space="preserve"><value>INIファイル|*.ini</value></data>
+  <data name="dlgOpen.Filter" xml:space="preserve"><value>INIファイル|*.ini</value></data>
+  <data name="BUT_loadcustom.Text" xml:space="preserve"><value>ファームウェア書込（カスタム）</value></data>
+  <data name="BUT_resettodefault.Text" xml:space="preserve"><value>既定値に戻す</value></data>
+  <data name="BUT_SetPPMFailSafe.Text" xml:space="preserve"><value>PPMフェイルセーフを設定</value></data>
+  <data name="BUT_SetPPMFailSafe.ToolTip" xml:space="preserve"><value>PPM出力用の既定PPMストリームを記録します（機体側）</value></data>
+  <data name="BUT_savesettings.Text" xml:space="preserve"><value>設定保存</value></data>
+  <data name="BUT_getcurrent.Text" xml:space="preserve"><value>設定を読込</value></data>
+  <data name="BUT_upload.Text" xml:space="preserve"><value>ファームウェア書込（標準）</value></data>
+  <data name="BUT_Syncoptions.Text" xml:space="preserve"><value>必須設定をリモートへコピー</value></data>
+  <data name="btnSaveToFile.Text" xml:space="preserve"><value>ファイルに保存...</value></data>
+  <data name="btnLoadFromFile.Text" xml:space="preserve"><value>ファイルから読込...</value></data>
+</root>

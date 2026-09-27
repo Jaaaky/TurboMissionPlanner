@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,13 +121,13 @@
     <value>IMAX</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Tingkat Maksimal</value>
+    <value>Laju Maks</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="mavlinkCheckBox1.Text" xml:space="preserve">
-    <value>Membalikkan</value>
+    <value>Balik</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>D</value>
@@ -136,7 +136,7 @@
     <value>P</value>
   </data>
   <data name="mavlinkCheckBox2.Text" xml:space="preserve">
-    <value>Membalikkan</value>
+    <value>Balik</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>Netral</value>
@@ -145,67 +145,67 @@
     <value>IMAX</value>
   </data>
   <data name="BUT_test_pitch.Text" xml:space="preserve">
-    <value>Menguji</value>
+    <value>Uji</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Neutral</value>
+    <value>Netral</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
-    <value>Yaw Gain</value>
+    <value>Penguatan Yaw</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>D</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>Lapangan Gain</value>
+    <value>Penguatan Pitch</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Yaw Rentang Gerakan</value>
+    <value>Rentang Gerak Yaw</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Jarak (deg)</value>
+    <value>Rentang (derajat)</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Lapangan Rentang Gerakan</value>
+    <value>Rentang Gerak Pitch</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Jarak (deg)</value>
+    <value>Min (derajat)</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Lapangan Servo</value>
+    <value>Servo Pitch</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Jenis Servo</value>
+    <value>Sumber Ketinggian</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Tingkat Max</value>
+    <value>Laju Maks</value>
   </data>
   <data name="label90.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks</value>
   </data>
   <data name="label91.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="groupBox25.Text" xml:space="preserve">
-    <value>Yaw Servo</value>
+    <value>Servo Yaw</value>
   </data>
   <data name="groupBox22.Text" xml:space="preserve">
-    <value>Papan Orientasi</value>
+    <value>Orientasi Papan</value>
   </data>
   <data name="BUT_test_yaw.Text" xml:space="preserve">
-    <value>Menguji</value>
+    <value>Uji</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
     <value>Menulis parameter</value>
@@ -216,4 +216,7 @@
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
     <value>Refresh Parameter</value>
   </data>
+  <data name="label16.Text" xml:space="preserve"><value>Jenis</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Jenis</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Maks (derajat)</value></data>
 </root>

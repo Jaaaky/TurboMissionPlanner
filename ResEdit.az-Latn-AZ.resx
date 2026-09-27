@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>Fayl</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>Daxili</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>İngilis dili</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>Digər dil</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>Saxla</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>İstifadə qaydası:
+İlk dəfə yükləyirsinizsə, aşağıdan dilinizi seçib redaktə edin. Saxla düyməsini basın.
+
+Sonrakı istifadələrdə dilinizi seçin, həmin dil üçün mövcud tərcümələr avtomatik yüklənəcək.
+
+İşi yarımçıq saxlamısınızsa, Tərcüməni yüklə düyməsini basın.
+
+QEYD: avtomatik yükləmə yalnız Michael dili planlaşdırıcıya əlavə etdikdən sonra işləyir. Əks halda Tərcüməni yüklə düyməsindən istifadə etməlisiniz.
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Tərcüməni yüklə</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>Mübadilə buferinə köçür</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Dil redaktoru</value></data>
+</root>

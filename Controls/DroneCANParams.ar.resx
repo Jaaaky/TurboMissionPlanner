@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,31 +121,32 @@
     <value>القيمة</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>كل الوحدات في الصيغة الخام بدون قياس</value>
+    <value>جميع الوحدات بصيغتها الخام 
+دون تحجيم</value>
   </data>
   <data name="BUT_load.Text" xml:space="preserve">
-    <value>استيراد من ملف</value>
+    <value>تحميل من ملف</value>
   </data>
   <data name="Units.HeaderText" xml:space="preserve">
     <value>الوحدات</value>
   </data>
   <data name="Command.HeaderText" xml:space="preserve">
-    <value>الأوامر</value>
+    <value>الأمر</value>
   </data>
   <data name="Desc.HeaderText" xml:space="preserve">
     <value>الوصف</value>
   </data>
   <data name="BUT_save.Text" xml:space="preserve">
-    <value>حفظ الى ملف</value>
+    <value>حفظ إلى ملف</value>
   </data>
   <data name="Options.HeaderText" xml:space="preserve">
     <value>الخيارات</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>ارسال المعاملات</value>
+    <value>كتابة المعاملات</value>
   </data>
   <data name="BUT_reset_params.Text" xml:space="preserve">
-    <value>استعادة الإفتراضي</value>
+    <value>استعادة الإعدادات الافتراضية</value>
   </data>
   <data name="BUT_compare.Text" xml:space="preserve">
     <value>مقارنة المعاملات</value>
@@ -156,4 +157,11 @@
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
     <value>تحديث المعاملات</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>بحث</value></data>
+  <data name="BUT_commitToFlash.Text" xml:space="preserve"><value>تثبيت المعاملات في الذاكرة</value></data>
+  <data name="chk_modified.Text" xml:space="preserve"><value>المعدّلة</value></data>
+  <data name="Min.HeaderText" xml:space="preserve"><value>الأدنى</value></data>
+  <data name="Max.HeaderText" xml:space="preserve"><value>الأقصى</value></data>
+  <data name="Default.HeaderText" xml:space="preserve"><value>الافتراضي</value></data>
+  <data name="Fav.HeaderText" xml:space="preserve"><value>المفضلة</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>kritisch</value>
+    <value>Kritisch</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Swash-Servo Position</value>
+    <value>Taumelscheiben-Servoposition</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
     <value>Oben</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Swash Travel</value>
+    <value>Kollektiver Pitchweg</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Servomodus</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>Roll Max</value>
+    <value>Niedrige Leistung</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>Pitch Max</value>
+    <value>Leerlauf</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Min</value>
+    <value>Null</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Externen Kreisel</value>
+    <value>Heckrotortyp</value>
   </data>
   <data name="groupBox12.Text" xml:space="preserve">
     <value>V-Kurve</value>
@@ -151,12 +151,54 @@
     <value>Kurve</value>
   </data>
   <data name="groupBox11.Text" xml:space="preserve">
-    <value>Gas Ausgang</value>
+    <value>Gasausgang</value>
   </data>
   <data name="myButtonH_SV_MAN.Text" xml:space="preserve">
-    <value>aktiv</value>
+    <value>Aktiv</value>
   </data>
   <data name="label41.Text" xml:space="preserve">
-    <value>Basis</value>
+    <value>Unten</value>
   </data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Taumelscheibentyp</value></data>
+  <data name="fbl_modeFBL.Text" xml:space="preserve"><value>Flybarless</value></data>
+  <data name="H_SWASH_TYPE.Text" xml:space="preserve"><value>H1</value></data>
+  <data name="CCPM.Text" xml:space="preserve"><value>CCPM</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Heckrotordrehzahl</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>Verstärkung</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Max</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Umkehren</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>Trimmung</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Trimmung</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Umkehren</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Position</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Seitenruderausschlag</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Kollektive Vorsteuerung</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>RSC-Rampenrate</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Hochlauf (s)</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Rate (s)</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>Modus-1-Sollwert</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>Rotordrehzahlregelung</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Servotest beim Einschalten</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Rollwinkel im Schwebeflug</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Pirouettenkompensation</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Zyklischer Pitchweg</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Kollektiver Landepitch</value></data>
+  <data name="myButtonH_SV_MANtest.Text" xml:space="preserve"><value>Test</value></data>
+  <data name="myButtonH_SV_MANmin.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="myButtonH_SV_MANzero.Text" xml:space="preserve"><value>Null</value></data>
+  <data name="myButtonH_SV_MANmax.Text" xml:space="preserve"><value>Max</value></data>
+  <data name="myButtonH_SV_MANmanual.Text" xml:space="preserve"><value>Manuell</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Phasenwinkel</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Umkehren</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Max</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Hohe Leistung</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Acro-Expo</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Stab 4</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Stab 3</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Stab 2</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Stab 1</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,10 +121,10 @@
     <value>Зберегти</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Розпізнавання польоту:</value>
+    <value>Ідентифікатор польоту:</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Реєстрація ЛА</value>
+    <value>Реєстрація повітряного судна</value>
   </data>
   <data name="but_saveflid.Text" xml:space="preserve">
     <value>Зберегти</value>
@@ -133,7 +133,7 @@
     <value>Знайти</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Параметри запису</value>
+    <value>Записати параметри</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
     <value>Оновити параметри</value>

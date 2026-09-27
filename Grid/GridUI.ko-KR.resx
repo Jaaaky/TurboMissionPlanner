@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -445,7 +445,7 @@
     <value>20</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>상태</value>
+    <value>통계</value>
   </data>
   <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
     <value>groupBox5</value>
@@ -709,7 +709,7 @@
     <value>12</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>자취:</value>
+    <value>촬영 범위:</value>
   </data>
   <data name="lbl_strips.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -763,7 +763,7 @@
     <value>9</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>스트립 번호:</value>
+    <value>촬영 코스 수:</value>
   </data>
   <data name="label34.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1309,7 +1309,7 @@
     <value>38</value>
   </data>
   <data name="chk_stopstart.Text" xml:space="preserve">
-    <value>Breakup starts</value>
+    <value>구간 시작점 분리</value>
   </data>
   <data name="label18.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1345,7 +1345,7 @@
     <value>36</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>회전 시간 [s]</value>
+    <value>주기 [s]</value>
   </data>
   <data name="label16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1723,7 +1723,7 @@
     <value>67</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
-    <value>계측 값</value>
+    <value>계산값</value>
   </data>
   <data name="label19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1987,7 +1987,7 @@
     <value>9</value>
   </data>
   <data name="LBL_Alternating_lanes.Text" xml:space="preserve">
-    <value>대체 레인</value>
+    <value>교대 비행 코스</value>
   </data>
   <data name="&gt;&gt;LBL_Alternating_lanes.Name" xml:space="preserve">
     <value>LBL_Alternating_lanes</value>
@@ -2017,7 +2017,7 @@
     <value>8</value>
   </data>
   <data name="LBL_Lane_Dist.Text" xml:space="preserve">
-    <value>최소 레인 구분</value>
+    <value>최소 코스 간격</value>
   </data>
   <data name="&gt;&gt;LBL_Lane_Dist.Name" xml:space="preserve">
     <value>LBL_Lane_Dist</value>
@@ -2089,7 +2089,7 @@
     <value>63</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>비행체 옵션</value>
+    <value>고정익 옵션</value>
   </data>
   <data name="&gt;&gt;groupBox7.Name" xml:space="preserve">
     <value>groupBox7</value>
@@ -2122,7 +2122,7 @@
     <value>63</value>
   </data>
   <data name="chk_spline.Text" xml:space="preserve">
-    <value>Spline Exit/Entrys</value>
+    <value>곡선 진입/이탈</value>
   </data>
   <data name="&gt;&gt;chk_spline.Name" xml:space="preserve">
     <value>chk_spline</value>
@@ -2302,7 +2302,7 @@
     <value>3</value>
   </data>
   <data name="LBL_copter_delay.Text" xml:space="preserve">
-    <value>경로 지점 지연 (초)</value>
+    <value>경유점 대기 시간(초)</value>
   </data>
   <data name="&gt;&gt;LBL_copter_delay.Name" xml:space="preserve">
     <value>LBL_copter_delay</value>
@@ -2347,7 +2347,7 @@
     <value>2</value>
   </data>
   <data name="groupBox_copter.Text" xml:space="preserve">
-    <value>콥터 옵션 </value>
+    <value>콥터 옵션</value>
   </data>
   <data name="&gt;&gt;groupBox_copter.Name" xml:space="preserve">
     <value>groupBox_copter</value>
@@ -2521,7 +2521,7 @@
     <value>61</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>LeadIn [m]</value>
+    <value>진입 거리 [m]</value>
   </data>
   <data name="&gt;&gt;label32.Name" xml:space="preserve">
     <value>label32</value>
@@ -2623,7 +2623,7 @@
     <value>51</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>오버래핑 [%]</value>
+    <value>종중복도 [%]</value>
   </data>
   <data name="&gt;&gt;label8.Name" xml:space="preserve">
     <value>label8</value>
@@ -2653,7 +2653,7 @@
     <value>11</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>StartFrom</value>
+    <value>시작 위치</value>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
@@ -2683,7 +2683,7 @@
     <value>52</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Sidelap [%]</value>
+    <value>횡중복도 [%]</value>
   </data>
   <data name="&gt;&gt;label15.Name" xml:space="preserve">
     <value>label15</value>
@@ -2902,7 +2902,7 @@
     <value>26</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>촬영 시간 간격 [m]</value>
+    <value>촬영 거리 간격 [m]</value>
   </data>
   <data name="label3.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -3305,7 +3305,7 @@ Control-O: 파일 로드</value>
     <value>64</value>
   </data>
   <data name="CHK_toandland_RTL.Text" xml:space="preserve">
-    <value>회귀 사용</value>
+    <value>복귀(RTL) 사용</value>
   </data>
   <data name="CHK_toandland.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3569,7 +3569,7 @@ Control-O: 파일 로드</value>
     <value>4</value>
   </data>
   <data name="CHK_footprints.Text" xml:space="preserve">
-    <value>자취</value>
+    <value>촬영 범위</value>
   </data>
   <data name="CHK_internals.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3605,7 +3605,7 @@ Control-O: 파일 로드</value>
     <value>2</value>
   </data>
   <data name="CHK_grid.Text" xml:space="preserve">
-    <value>그리드</value>
+    <value>격자</value>
   </data>
   <data name="CHK_markers.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3659,7 +3659,7 @@ Control-O: 파일 로드</value>
     <value>22</value>
   </data>
   <data name="BUT_Accept.Text" xml:space="preserve">
-    <value>허용</value>
+    <value>수락</value>
   </data>
   <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Right</value>
@@ -3746,7 +3746,7 @@ Control-O: 파일 로드</value>
     <value>1008, 537</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Survey (Grid)</value>
+    <value>측량(격자)</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>GridUI</value>
@@ -3754,4 +3754,10 @@ Control-O: 파일 로드</value>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="LBL_laps.Text" xml:space="preserve"><value>회전 수</value></data>
+  <data name="CHK_match_spiral_perimeter.Text" xml:space="preserve"><value>외곽선을 다각형에 맞춤</value></data>
+  <data name="LBL_clockwise_laps.Text" xml:space="preserve"><value>시계 방향 회전 수</value></data>
+  <data name="LBL_clockwise_laps1.Text" xml:space="preserve"><value>(시계 방향 나선은 -1)</value></data>
+  <data name="groupBoxSpiral.Text" xml:space="preserve"><value>나선 옵션</value></data>
+  <data name="chk_optimize_for_distance.Text" xml:space="preserve"><value>거리 최적화</value></data>
 </root>

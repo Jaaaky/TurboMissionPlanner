@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,21 +121,31 @@
     <value>الاختبارات</value>
   </data>
   <data name="BUT_ConnectAPM.Text" xml:space="preserve">
-    <value>إتصال</value>
+    <value>اتصال</value>
   </data>
   <data name="Logs.Text" xml:space="preserve">
-    <value>تحميل السجل</value>
+    <value>تنزيل السجلات</value>
   </data>
   <data name="BUTradiosetup.Text" xml:space="preserve">
-    <value>اعدادات الراديو</value>
+    <value>إعداد الراديو</value>
   </data>
   <data name="BUT_disconnect.Text" xml:space="preserve">
-    <value>قطع الإتصال</value>
+    <value>قطع الاتصال</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
-    <value>استعراض السجل</value>
+    <value>استعراض السجلات</value>
   </data>
   <data name="BUTsetupshow.Text" xml:space="preserve">
     <value>عرض الإعدادات</value>
   </data>
+  <data name="TXT_terminal.Text" xml:space="preserve"><value>*ملاحظة* يُرجى النقر على اتصال أعلاه
+تعمل واجهة CLI عند توصيل الطاقة للمرة الأولى فقط، ويكون تنزيل السجلات عبر USB فقط
+الإصدارات الأحدث تدعم تنزيل السجلات عبر MAVLink فقط. راجع بيانات الرحلة &gt; سجلات DataFlash
+</value></data>
+  <data name="CMB_boardtype.Items" xml:space="preserve"><value>APM</value></data>
+  <data name="CMB_boardtype.Items1" xml:space="preserve"><value>PX4/PIXHAWK</value></data>
+  <data name="CMB_boardtype.Items2" xml:space="preserve"><value>VRX/VRBRAIN</value></data>
+  <data name="CMB_boardtype.Items3" xml:space="preserve"><value>NSH</value></data>
+  <data name="CMB_boardtype.Items4" xml:space="preserve"><value>SSH</value></data>
+  <data name="CMB_boardtype.Text" xml:space="preserve"><value>APM</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -131,7 +131,7 @@
     <value>自动获取磁偏角</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>指南针</value>
+    <value>罗盘</value>
   </data>
   <data name="linkLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 12</value>
@@ -209,13 +209,13 @@
     <value>65, 12</value>
   </data>
   <data name="LBL_primary_compass.Text" xml:space="preserve">
-    <value>主指南针：</value>
+    <value>主罗盘：</value>
   </data>
   <data name="CHK_compass_learn.Text" xml:space="preserve">
     <value>自动学习偏移量</value>
   </data>
   <data name="groupBoxGeneralSettings.Text" xml:space="preserve">
-    <value>常规指南针设置</value>
+    <value>罗盘常规设置</value>
   </data>
   <data name="LBL_compass1_mot.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -233,10 +233,10 @@
     <value>外部安装</value>
   </data>
   <data name="CHK_compass1_use.Text" xml:space="preserve">
-    <value>使用这个指南针</value>
+    <value>使用此罗盘</value>
   </data>
   <data name="groupBoxCompass1.Text" xml:space="preserve">
-    <value>指南针 #1</value>
+    <value>罗盘 #1</value>
   </data>
   <data name="LBL_compass2_mot.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -254,10 +254,10 @@
     <value>外部安装</value>
   </data>
   <data name="CHK_compass2_use.Text" xml:space="preserve">
-    <value>使用这个指南针</value>
+    <value>使用此罗盘</value>
   </data>
   <data name="groupBoxCompass2.Text" xml:space="preserve">
-    <value>指南针 #2</value>
+    <value>罗盘 #2</value>
   </data>
   <data name="LBL_compass3_mot.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
@@ -275,9 +275,24 @@
     <value>外部安装</value>
   </data>
   <data name="CHK_compass3_use.Text" xml:space="preserve">
-    <value>使用这个指南针</value>
+    <value>使用此罗盘</value>
   </data>
   <data name="groupBoxCompass3.Text" xml:space="preserve">
-    <value>指南针 #3</value>
+    <value>罗盘 #3</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>校准失败时放宽拟合标准</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>拟合度</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>磁力计 3</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>磁力计 2</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>磁力计 1</value></data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve"><value>机载罗盘校准</value></data>
+  <data name="groupBoxmpcalib.Text" xml:space="preserve"><value>Mission Planner 罗盘校准</value></data>
+  <data name="LBL_compass1_mot.Text" xml:space="preserve"><value>电机干扰补偿</value></data>
+  <data name="LBL_compass1_offset.Text" xml:space="preserve"><value>偏移量</value></data>
+  <data name="LBL_compass2_mot.Text" xml:space="preserve"><value>电机干扰补偿</value></data>
+  <data name="LBL_compass2_offset.Text" xml:space="preserve"><value>偏移量</value></data>
+  <data name="LBL_compass3_mot.Text" xml:space="preserve"><value>电机干扰补偿</value></data>
+  <data name="LBL_compass3_offset.Text" xml:space="preserve"><value>偏移量</value></data>
+  <data name="buttonQuickPixhawk.Text" xml:space="preserve"><value>Pixhawk/PX4</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>大型飞行器罗盘校准</value></data>
 </root>

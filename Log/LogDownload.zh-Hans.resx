@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -127,7 +127,7 @@
     <value>重新创建KML</value>
   </data>
   <data name="BUT_DLthese.Text" xml:space="preserve">
-    <value>下载这些日志</value>
+    <value>下载所选日志</value>
   </data>
   <data name="BUT_clearlogs.Text" xml:space="preserve">
     <value>清除日志</value>
@@ -136,9 +136,10 @@
     <value>第一人称KML</value>
   </data>
   <data name="BUT_dumpdf.Text" xml:space="preserve">
-    <value>(adv)丢弃全部闪存数据</value>
+    <value>（高级）导出全部 DataFlash 数据</value>
   </data>
   <data name="BUT_bintolog.Text" xml:space="preserve">
     <value>.bin 至 .log</value>
   </data>
+  <data name="TXT_seriallog.Text" xml:space="preserve"><value>飞行器已解锁，无法清除日志。请先锁定！</value></data>
 </root>

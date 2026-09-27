@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>پىلان كۆرۈنۈشىدىكى ۋەزىپە جەدۋىلىنىڭ بۇيرۇق تىزىملىكىگە MAVLink بۇيرۇقلىرىنى قوشالايسىز.
+بۇيرۇق قوشۇش ئۈچۈن ئۇنىڭ ID سىنى بىلىشىڭىز كېرەك. ID MAVLink كۈتۈپخانىلىرىدا
+ئېنىقلانغان بولسا، نامى ئاپتوماتىك تولدۇرۇلىدۇ. تېخى ئېنىقلانمىغان ID نىمۇ قوشالايسىز.
+بۇنداق ئەھۋالدا نامىنىمۇ كىرگۈزۈشىڭىز كېرەك. بۇ يەرگە بۇيرۇق قوشۇش ئاپتوماتىك ئۇچقۇچنىڭ
+ئۇنى قوبۇل قىلىدىغانلىقى ياكى ئىجرا قىلىدىغانلىقىدىن دېرەك بەرمەيدۇ. شۇڭا مەشغۇلاتىڭىزنى چۈشىنىشىڭىز كېرەك.</value></data>
+</root>

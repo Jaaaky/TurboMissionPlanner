@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,44 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label22.Text" xml:space="preserve"><value>Motor tipi</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Maks. gaz (%)</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Min. gaz (%)</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Gaz ve motorlar</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Seyir hızı</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Seyir gazı</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Fren</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Maks. ivme (m/s/s)</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox14.Text" xml:space="preserve"><value>Hız/gaz</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>Parametreleri yaz</value></data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>Parametreleri yenile</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Rota noktası hızı</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Yanal ivme kontrolü sönümlemesi</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Yanal ivme kontrolü periyodu</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Rota noktası aşımı</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Rota noktası yarıçapı</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Maks. dönüş G değeri</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Seyrüsefer</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>FF</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Direksiyon açısal hızı</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Sonar doğrulama sayısı</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Dönüş süresi</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Dönüş açısı</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Tetikleme mesafesi (cm)</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Engelden kaçınma</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Dönüş yarıçapı</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Direksiyon modu</value></data>
+  <data name="BUT_refreshpart.Text" xml:space="preserve"><value>Ekranı yenile</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>RC7 seçeneği</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>RC8 seçeneği</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>RC9 seçeneği</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>RC10 seçeneği</value></data>
 </root>

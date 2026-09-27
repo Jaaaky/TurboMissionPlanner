@@ -68,10 +68,10 @@
     <value>Rechercher</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Immatriculation aéronef</value>
+    <value>Immatriculation de l’aéronef</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Identification de vol :</value>
+    <value>Identifiant de vol :</value>
   </data>
   <data name="but_saveacreg.Text" xml:space="preserve">
     <value>Enregistrer</value>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label44.Text" xml:space="preserve"><value>کمینهٔ سرعت شاتر:</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>ارتفاع زمین:</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>قطر گردش (در ۴۵ درجه):</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>فاصلهٔ زمانی عکس‌ها (تخمینی):</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>زمان پرواز (تخمینی):</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>فاصلهٔ خطوط:</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>پوشش زمینی تصویر:</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>تعداد نوارها:</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>تصاویر:</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>تفکیک‌پذیری زمینی: </value></data>
+  <data name="label27.Text" xml:space="preserve"><value>فاصلهٔ تصاویر: </value></data>
+  <data name="label23.Text" xml:space="preserve"><value>فاصله: </value></data>
+  <data name="label22.Text" xml:space="preserve"><value>مساحت: </value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>آمار</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>سروو</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>PWM بالا</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>PWM پایین</value></data>
+  <data name="rad_do_set_servo.Text" xml:space="preserve"><value>DO_SET_SERVO</value></data>
+  <data name="chk_stopstart.Text" xml:space="preserve"><value>جداسازی نقطه‌های شروع</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>PWM</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>زمان چرخه [s]</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>سروو</value></data>
+  <data name="rad_digicam.Text" xml:space="preserve"><value>DO_DIGICAM_CONTROL</value></data>
+  <data name="rad_repeatservo.Text" xml:space="preserve"><value>DO_REPEAT_SERVO</value></data>
+  <data name="rad_trigdist.Text" xml:space="preserve"><value>CAM_TRIGG_DIST</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>روش تحریک شاتر</value></data>
+  <data name="BUT_samplephoto.Text" xml:space="preserve"><value>بارگذاری عکس نمونه</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>مقادیر محاسبه‌شده</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>میدان دید عمودی [m]</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>میدان دید افقی [m]</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>cm/pixel</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>ارتفاع حسگر [mm]</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>عرض حسگر [mm]</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>ارتفاع تصویر [پیکسل]</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>عرض تصویر [پیکسل]</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>فاصلهٔ کانونی [mm]</value></data>
+  <data name="BUT_save.Text" xml:space="preserve"><value>ذخیره</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>گزینه‌های دوربین</value></data>
+  <data name="tabCamera.Text" xml:space="preserve"><value>پیکربندی دوربین</value></data>
+  <data name="LBL_laps.Text" xml:space="preserve"><value>تعداد دورها</value></data>
+  <data name="CHK_match_spiral_perimeter.Text" xml:space="preserve"><value>تطبیق محیط با چندضلعی</value></data>
+  <data name="LBL_clockwise_laps.Text" xml:space="preserve"><value>تعداد دورهای ساعت‌گرد</value></data>
+  <data name="LBL_clockwise_laps1.Text" xml:space="preserve"><value>(-1 برای مارپیچ ساعت‌گرد)</value></data>
+  <data name="groupBoxSpiral.Text" xml:space="preserve"><value>گزینه‌های مارپیچ</value></data>
+  <data name="chk_optimize_for_distance.Text" xml:space="preserve"><value>بهینه‌سازی بر اساس مسافت</value></data>
+  <data name="LBL_Alternating_lanes.Text" xml:space="preserve"><value>خطوط یک‌درمیان</value></data>
+  <data name="LBL_Lane_Dist.Text" xml:space="preserve"><value>کمینهٔ جدایی خطوط</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>گزینه‌های هواپیما</value></data>
+  <data name="chk_spline.Text" xml:space="preserve"><value>ورود/خروج اسپلاین</value></data>
+  <data name="CHK_copter_headingholdlock.Text" xml:space="preserve"><value>آزاد کردن از شبکه</value></data>
+  <data name="CHK_copter_headinghold.Text" xml:space="preserve"><value>حفظ سمت</value></data>
+  <data name="LBL_copter_delay.Text" xml:space="preserve"><value>مکث در نقطهٔ مسیر (ثانیه)</value></data>
+  <data name="groupBox_copter.Text" xml:space="preserve"><value>گزینه‌های کوپتر</value></data>
+  <data name="chk_spiral.Text" xml:space="preserve"><value>مارپیچ</value></data>
+  <data name="chk_Corridor.Text" xml:space="preserve"><value>کریدور</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>عرض کریدور [m]</value></data>
+  <data name="chk_crossgrid.Text" xml:space="preserve"><value>شبکهٔ متقاطع</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>امتداد ورودی [m]</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>هم‌پوشانی طولی [٪]</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>شروع از</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>هم‌پوشانی عرضی [٪]</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>امتداد خروجی [m]</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>فاصلهٔ خطوط [m]</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>گزینه‌های شبکه</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>عکس‌برداری هر [m]</value></data>
+  <data name="tabGrid.Text" xml:space="preserve"><value>گزینه‌های شبکه</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Control-S برای ذخیره در فایل
+Control-O برای بارگذاری از فایل</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>تقسیم به x بخش</value></data>
+  <data name="CHK_usespeed.Text" xml:space="preserve"><value>استفاده از سرعت تعیین‌شده برای این مأموریت</value></data>
+  <data name="CHK_toandland_RTL.Text" xml:space="preserve"><value>استفاده از RTL</value></data>
+  <data name="CHK_toandland.Text" xml:space="preserve"><value>افزودن نقاط برخاست و فرود</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>سرعت پرواز (تخمینی)</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>دوربین</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>زاویه [درجه]</value></data>
+  <data name="CHK_camdirection.Text" xml:space="preserve"><value>بالای دوربین رو به جلو</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>ارتفاع</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>گزینه‌های ساده</value></data>
+  <data name="CHK_advanced.Text" xml:space="preserve"><value>گزینه‌های پیشرفته</value></data>
+  <data name="CHK_footprints.Text" xml:space="preserve"><value>پوشش‌های زمینی تصاویر</value></data>
+  <data name="CHK_internals.Text" xml:space="preserve"><value>خطوط داخلی</value></data>
+  <data name="CHK_grid.Text" xml:space="preserve"><value>شبکه</value></data>
+  <data name="CHK_markers.Text" xml:space="preserve"><value>نشانگرها</value></data>
+  <data name="CHK_boundary.Text" xml:space="preserve"><value>مرز</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>نمایش</value></data>
+  <data name="BUT_Accept.Text" xml:space="preserve"><value>پذیرش</value></data>
+  <data name="tabSimple.Text" xml:space="preserve"><value>ساده</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>برداشت (شبکه‌ای)</value></data>
+</root>

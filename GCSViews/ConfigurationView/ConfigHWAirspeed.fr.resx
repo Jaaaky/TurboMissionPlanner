@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -127,7 +127,7 @@
     <value>Activ. Boussole</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Mode de vol 2</value>
+    <value>Vitesse air</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Mode de vol 2</value>
@@ -136,7 +136,7 @@
     <value>en degrés eg 2° 3' W est -2.3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Mode de vol 1</value>
+    <value>Type</value>
   </data>
   <data name="label100.Text" xml:space="preserve">
     <value>Déclination</value>
@@ -154,7 +154,7 @@
     <value>Live Calibration</value>
   </data>
   <data name="CHK_enableairspeed.Text" xml:space="preserve">
-    <value>Activ. Vitesse air</value>
+    <value>Activer</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Ratio</value>
@@ -174,4 +174,6 @@
   <data name="label10.Text" xml:space="preserve">
     <value>Type</value>
   </data>
+  <data name="CHK_airspeeduse.Text" xml:space="preserve"><value>Utiliser la vitesse air</value></data>
+  <data name="lbl_airspeed_pin.Text" xml:space="preserve"><value>Broche</value></data>
 </root>

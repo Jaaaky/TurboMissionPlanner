@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,85 +118,85 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="groupBoxSpiral.Text" xml:space="preserve">
-    <value>Спіральні можливості</value>
+    <value>Параметри спіралі</value>
   </data>
   <data name="tabGrid.Text" xml:space="preserve">
     <value>Параметри сітки</value>
   </data>
   <data name="chk_spline.Text" xml:space="preserve">
-    <value>Цей сплайн вийшов/запис</value>
+    <value>Сплайнові входи/виходи</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Ширина датчика [mm]</value>
+    <value>Ширина матриці [мм]</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Ширина зображення [Pixels]</value>
+    <value>Ширина зображення [пікселі]</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Фокусна відстань [mm]</value>
+    <value>Фокусна відстань [мм]</value>
   </data>
   <data name="chk_stopstart.Text" xml:space="preserve">
-    <value>Розрив починається</value>
+    <value>Переривати знімання між проходами</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Висота зображення [Pixels]</value>
+    <value>Висота зображення [пікселі]</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Опитування (сітка)</value>
+    <value>Знімання (сітка)</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Час циклу [s]</value>
+    <value>Час циклу [с]</value>
   </data>
   <data name="CHK_copter_headinghold.Text" xml:space="preserve">
-    <value>Заголовок</value>
+    <value>Утримання курсу</value>
   </data>
   <data name="tabCamera.Text" xml:space="preserve">
     <value>Налаштування камери</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
-    <value>Поле перегляду вертикального [m]</value>
+    <value>Вертикальне поле зору [м]</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
-    <value>Поле зору горизонтально [m]</value>
+    <value>Горизонтальне поле зору [м]</value>
   </data>
   <data name="groupBox_copter.Text" xml:space="preserve">
-    <value>Параметри Коптера</value>
+    <value>Параметри коптера</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
-    <value>Розрахункові значення</value>
+    <value>Розраховані значення</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
     <value>Площа: </value>
   </data>
   <data name="LBL_Lane_Dist.Text" xml:space="preserve">
-    <value>Мінімальна відстань між лініями</value>
+    <value>Мін. розділення проходів</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
     <value>Відстань: </value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>Літаюча швидкість (найкраща)</value>
+    <value>Швидкість польоту (оцінка)</value>
   </data>
   <data name="chk_optimize_for_distance.Text" xml:space="preserve">
-    <value>Оптимізація для відстані</value>
+    <value>Мінімізувати відстань</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Відстань між лініями [m]</value>
+    <value>Відстань між проходами [м]</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>Відст. між рядками:</value>
+    <value>Відстань між проходами:</value>
   </data>
   <data name="chk_spiral.Text" xml:space="preserve">
     <value>Спіраль</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Робити фото кожні [m]</value>
+    <value>Робити знімок кожні [м]</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
     <value>Камера</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>Відст. між зображеннями: </value>
+    <value>Відстань між знімками: </value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Висота</value>
@@ -205,43 +205,43 @@
     <value>Прості параметри</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
-    <value>Заземлена роздільність: </value>
+    <value>Наземна роздільність: </value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>Параметри площини</value>
+    <value>Параметри літака</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Відображати</value>
+    <value>Відображення</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Кут [deg]</value>
+    <value>Кут [°]</value>
   </data>
   <data name="LBL_clockwise_laps.Text" xml:space="preserve">
-    <value>Кількість за годинниковою стрілкою</value>
+    <value>Кількість витків за годинниковою стрілкою</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
     <value>Статистика</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Володіння [m]</value>
+    <value>Вихід за межі [м]</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Опції Камери</value>
+    <value>Параметри камери</value>
   </data>
   <data name="CHK_boundary.Text" xml:space="preserve">
     <value>Межа</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Метод виклику</value>
+    <value>Спосіб спуску затвора</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Перекриття [%]</value>
+    <value>Поздовжнє перекриття [%]</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Параметри сітки</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Висота датчика [mm]</value>
+    <value>Висота матриці [мм]</value>
   </data>
   <data name="BUT_Accept.Text" xml:space="preserve">
     <value>Прийняти</value>
@@ -250,74 +250,74 @@
     <value>Сітка</value>
   </data>
   <data name="LBL_clockwise_laps1.Text" xml:space="preserve">
-    <value>(-1 для кругової за годинниковою стрілкою)</value>
+    <value>(-1 для спіралі за годинниковою стрілкою)</value>
   </data>
   <data name="CHK_advanced.Text" xml:space="preserve">
-    <value>Розширені налаштування</value>
+    <value>Розширені параметри</value>
   </data>
   <data name="BUT_samplephoto.Text" xml:space="preserve">
-    <value>Завантажити приклад фото</value>
+    <value>Завантажити зразок знімка</value>
   </data>
   <data name="tabSimple.Text" xml:space="preserve">
-    <value>Просте</value>
+    <value>Простий</value>
   </data>
   <data name="CHK_copter_headingholdlock.Text" xml:space="preserve">
-    <value>Розблокувати з сітки</value>
+    <value>Відв’язати від сітки</value>
   </data>
   <data name="LBL_laps.Text" xml:space="preserve">
-    <value>Кількість Laps</value>
+    <value>Кількість витків</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>Розташування:</value>
+    <value>Проєкція кадру:</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>Лідери [m]</value>
+    <value>Захід на прохід [м]</value>
   </data>
   <data name="label31.Text" xml:space="preserve">
-    <value>Час політу (найкраще):</value>
+    <value>Час польоту (оцінка):</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>Зображення:</value>
+    <value>Знімків:</value>
   </data>
   <data name="LBL_Alternating_lanes.Text" xml:space="preserve">
-    <value>Альтернативні лінії</value>
+    <value>Чергувати проходи</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>№ маршрутів:</value>
+    <value>Кількість проходів:</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
-    <value>Увімкнути Дію (о 45д):</value>
+    <value>Діаметр розвороту (за 45°):</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>Фото кожні (найкраще):</value>
+    <value>Інтервал знімків (оцінка):</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>Контроль - S для збереження у файл
-Control-O для завантаження файлу форми</value>
+    <value>Control-S — зберегти у файл
+Control-O — завантажити з файлу</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>Розділити на сегменти x</value>
+    <value>Розділити на x сегментів</value>
   </data>
   <data name="rad_trigdist.Text" xml:space="preserve">
-    <value>Дата відкриття угоди</value>
+    <value>CAM_TRIGG_DIST</value>
   </data>
   <data name="CHK_footprints.Text" xml:space="preserve">
-    <value>Місця розташування</value>
+    <value>Проєкції кадрів</value>
   </data>
   <data name="CHK_usespeed.Text" xml:space="preserve">
-    <value>Швидкість для цієї місії</value>
+    <value>Використовувати задану швидкість для цієї місії</value>
   </data>
   <data name="BUT_save.Text" xml:space="preserve">
     <value>Зберегти</value>
   </data>
   <data name="CHK_toandland.Text" xml:space="preserve">
-    <value>Додати Зліт та Злиття</value>
+    <value>Додати точки зльоту та посадки</value>
   </data>
   <data name="CHK_camdirection.Text" xml:space="preserve">
-    <value>Рух камери у напрямку вперед</value>
+    <value>Верх камери спрямований уперед</value>
   </data>
   <data name="CHK_match_spiral_perimeter.Text" xml:space="preserve">
-    <value>Матч Периметр за Полігоном</value>
+    <value>Узгодити периметр із багатокутником</value>
   </data>
   <data name="chk_Corridor.Text" xml:space="preserve">
     <value>Коридор</value>
@@ -326,27 +326,37 @@ Control-O для завантаження файлу форми</value>
     <value>Маркери</value>
   </data>
   <data name="rad_digicam.Text" xml:space="preserve">
-    <value>ПОВЕРНИЙ КОНТРОЛЬ</value>
+    <value>DO_DIGICAM_CONTROL</value>
   </data>
   <data name="rad_repeatservo.Text" xml:space="preserve">
-    <value>ПОВЕРНУТИ ПЕРЕВЕРДИ</value>
+    <value>DO_REPEAT_SERVO</value>
   </data>
   <data name="rad_do_set_servo.Text" xml:space="preserve">
-    <value>Виберіть SEO для завантаження</value>
+    <value>DO_SET_SERVO</value>
   </data>
   <data name="CHK_internals.Text" xml:space="preserve">
-    <value>Міжрядкові</value>
+    <value>Внутрішні лінії</value>
   </data>
   <data name="chk_crossgrid.Text" xml:space="preserve">
-    <value>Крос-сітка</value>
+    <value>Перехресна сітка</value>
   </data>
   <data name="LBL_copter_delay.Text" xml:space="preserve">
-    <value>Затримка на WP (сек)</value>
+    <value>Затримка в точці (с)</value>
   </data>
   <data name="label44.Text" xml:space="preserve">
-    <value>Мінімальна швидкість затвору:</value>
+    <value>Мін. витримка:</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
-    <value>Висота землі:</value>
+    <value>Висота місцевості:</value>
   </data>
+  <data name="label42.Text" xml:space="preserve"><value>Сервопривід</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>Верхній ШІМ</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Нижній ШІМ</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>ШІМ</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Сервопривід</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>см/піксель</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Ширина коридору [м]</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Починати з</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Поперечне перекриття [%]</value></data>
+  <data name="CHK_toandland_RTL.Text" xml:space="preserve"><value>Використовувати RTL</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,18 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>NOTA: POR FAVOR SEGURE SEU UAV</value>
+    <value>NOTA: MANTENHA O UAV FIRMEMENTE IMOBILIZADO
+Este teste verifica o funcionamento dos motores.
+Os motores são testados no sentido horário,
+começando pelo dianteiro direito.</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Duração (s)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Acelerador %</value>
+    <value>Aceleração (%)</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Teste do Motor</value>
+    <value>Teste dos motores</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Clique aqui para ver o número do motor,</value>
+    <value>Clique aqui para ver a numeração dos motores
+e avance até ao fim da página</value>
   </data>
+  <data name="FrameType.Text" xml:space="preserve"><value>Tipo: desconhecido</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>Classe: desconhecida</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Definir a percentagem mínima de saída durante o voo</value></data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve"><value>Definir rotação mínima do motor</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Definir a percentagem mínima de saída quando armado, mas ainda no solo</value></data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve"><value>Definir rotação do motor ao armar</value></data>
 </root>

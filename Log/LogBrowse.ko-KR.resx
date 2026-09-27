@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -667,7 +667,7 @@
     <value>39</value>
   </data>
   <data name="chk_time.Text" xml:space="preserve">
-    <value>시간 표시</value>
+    <value>시간</value>
   </data>
   <data name="&gt;&gt;chk_time.Name" xml:space="preserve">
     <value>chk_time</value>
@@ -1067,7 +1067,7 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Log Browse</value>
+    <value>로그 탐색</value>
   </data>
   <data name="&gt;&gt;exportVisibleToolStripMenuItem.Name" xml:space="preserve">
     <value>exportVisibleToolStripMenuItem</value>
@@ -1081,4 +1081,6 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="exportFilesToolStripMenuItem.Text" xml:space="preserve"><value>파일 내보내기</value></data>
+  <data name="chk_params.Text" xml:space="preserve"><value>매개변수 표시</value></data>
 </root>

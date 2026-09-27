@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -121,13 +121,13 @@
     <value>Min</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Limites servo</value>
+    <value>Limites des servos</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>Max</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Limites d'angle</value>
+    <value>Limites angulaires</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>Max</value>
@@ -136,13 +136,13 @@
     <value>Min</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Limites servo</value>
+    <value>Limites des servos</value>
   </data>
   <data name="LBL_Error.Text" xml:space="preserve">
     <value>Message d'erreur</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Panoramique</value>
+    <value>Azimut</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
     <value>Max</value>
@@ -157,22 +157,22 @@
     <value>Min</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Canal entrée</value>
+    <value>Voie d’entrée</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Canal entrée</value>
+    <value>Voie d’entrée</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>Canal entrée</value>
+    <value>Voie d’entrée</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Limites servo</value>
+    <value>Limites des servos</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Max</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Limites d'angle</value>
+    <value>Limites angulaires</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Roulis</value>
@@ -190,7 +190,7 @@
     <value>Min</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Limites d'angle</value>
+    <value>Limites angulaires</value>
   </data>
   <data name="mavlinkCheckBoxRR.Text" xml:space="preserve">
     <value>Inverser</value>
@@ -214,7 +214,7 @@
     <value>X</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Angles de rétraction</value>
+    <value>Angles de repli</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Z</value>
@@ -226,10 +226,10 @@
     <value>X</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Angles neutres</value>
+    <value>Angles au neutre</value>
   </data>
   <data name="CHK_stab_tilt.Text" xml:space="preserve">
-    <value>Stabiliser l'inclinaison</value>
+    <value>Stabiliser l’inclinaison</value>
   </data>
   <data name="CHK_stab_roll.Text" xml:space="preserve">
     <value>Stabiliser le roulis</value>
@@ -238,13 +238,13 @@
     <value>Obturateur</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
-    <value>Limites servo</value>
+    <value>Limites des servos</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>Non appuyé</value>
+    <value>Relâché</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>Appuyé</value>
+    <value>Enfoncé</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
     <value>Max</value>
@@ -256,15 +256,15 @@
     <value>Obturateur</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>Durée (1/10ème sec)</value>
+    <value>Durée (1/10 s)</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
-    <value>Veuillez régler l'option Ch7 sur Déclencheur caméra</value>
+    <value>Réglez l’option Ch7 sur le déclenchement de la caméra</value>
   </data>
   <data name="label43.Text" xml:space="preserve">
     <value>Type</value>
   </data>
   <data name="label44.Text" xml:space="preserve">
-    <value>NOTE : le type de nacelle prend effet au prochain redémarrage du contrôleur de vol</value>
+    <value>REMARQUE : le type de nacelle prend effet au prochain redémarrage du contrôleur de vol</value>
   </data>
 </root>

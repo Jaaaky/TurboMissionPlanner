@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUTradiosetup.Text" xml:space="preserve">
-    <value>數傳設定</value>
+    <value>無線電設定</value>
   </data>
   <data name="BUTsetupshow.Text" xml:space="preserve">
     <value>顯示設定</value>
@@ -133,7 +133,7 @@
     <value>中斷連線</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
-    <value>記錄檔瀏覽</value>
+    <value>瀏覽記錄</value>
   </data>
   <data name="CMB_boardtype.Items" xml:space="preserve">
     <value>APM</value>
@@ -145,9 +145,15 @@
     <value>APM</value>
   </data>
   <data name="Logs.Text" xml:space="preserve">
-    <value>記錄檔下載</value>
+    <value>下載記錄</value>
   </data>
   <data name="TXT_terminal.Text" xml:space="preserve">
-    <value>*注意* 記錄檔下載只能使用 USB 連線時的 CLI 模式</value>
+    <value>注意：請按上方的「連線」
+CLI 僅在上電後首次連線時可用，記錄下載僅支援 USB
+較新版本僅支援透過 MAVLink 下載記錄，請至「飛行資料 &gt; DataFlash 記錄」
+</value>
   </data>
+  <data name="CMB_boardtype.Items2" xml:space="preserve"><value>VRX/VRBRAIN</value></data>
+  <data name="CMB_boardtype.Items3" xml:space="preserve"><value>NSH</value></data>
+  <data name="CMB_boardtype.Items4" xml:space="preserve"><value>SSH</value></data>
 </root>

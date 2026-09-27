@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,7 +121,7 @@
     <value>Habilitar compasso</value>
   </data>
   <data name="BUT_OBmagcalstart.Text" xml:space="preserve">
-    <value>Inicio</value>
+    <value>Iniciar</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Graus</value>
@@ -130,78 +130,93 @@
     <value>Minutos</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Selecione o dispositivo para configuração rápida:</value>
+    <value>Selecione o dispositivo para configurar rapidamente os parâmetros:</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Afrouxar ajuste se a calibração falhar</value>
+    <value>Reduzir o rigor do ajuste se a calibração falhar</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Calib. do Mag na placa</value>
   </data>
   <data name="CHK_compass1_use.Text" xml:space="preserve">
-    <value>Use esse compasso</value>
+    <value>Usar esta bússola</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
     <value>Mission Planner calibração Mag </value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Compasso</value>
+    <value>Bússola</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
-    <value>WebSite de declinação</value>
+    <value>Site de declinação</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Exemplo YouTube</value>
+    <value>Exemplo no YouTube</value>
   </data>
   <data name="CHK_compass3_external.Text" xml:space="preserve">
     <value>Montagem externa</value>
   </data>
   <data name="BUT_MagCalibrationLive.Text" xml:space="preserve">
-    <value>Calibrar Agora</value>
+    <value>Calibração em tempo real</value>
   </data>
   <data name="BUT_OBmagcalcancel.Text" xml:space="preserve">
-    <value>Cancela</value>
+    <value>Cancelar</value>
   </data>
   <data name="buttonAPMExternal.Text" xml:space="preserve">
-    <value>APM e compasso externo</value>
+    <value>APM e bússola externa</value>
   </data>
   <data name="CHK_compass3_use.Text" xml:space="preserve">
-    <value>Use esse compasso</value>
+    <value>Usar esta bússola</value>
   </data>
   <data name="CHK_compass2_use.Text" xml:space="preserve">
-    <value>Use esse compasso</value>
+    <value>Usar esta bússola</value>
   </data>
   <data name="BUT_OBmagcalaccept.Text" xml:space="preserve">
     <value>Aceitar</value>
   </data>
   <data name="groupBoxCompass3.Text" xml:space="preserve">
-    <value>Compasso #3</value>
+    <value>Bússola n.º 3</value>
   </data>
   <data name="CHK_compass_learn.Text" xml:space="preserve">
-    <value>Descobrir offset automaticamente</value>
+    <value>Aprender desvios automaticamente</value>
   </data>
   <data name="groupBoxCompass1.Text" xml:space="preserve">
-    <value>Compasso #1</value>
+    <value>Bússola n.º 1</value>
   </data>
   <data name="CHK_autodec.Text" xml:space="preserve">
     <value>Obter declinação automaticamente</value>
   </data>
   <data name="QuickAPM25.Text" xml:space="preserve">
-    <value>APM2.5 (Compasso internos)</value>
+    <value>APM2.5 (bússola interna)</value>
   </data>
   <data name="groupBoxCompass2.Text" xml:space="preserve">
-    <value>Compasso #2</value>
+    <value>Bússola n.º 2</value>
   </data>
   <data name="CHK_compass1_external.Text" xml:space="preserve">
-    <value>Montado externamente</value>
+    <value>Montagem externa</value>
   </data>
   <data name="LBL_primary_compass.Text" xml:space="preserve">
-    <value>Compasso Primario</value>
+    <value>Bússola primária:</value>
   </data>
   <data name="groupBoxGeneralSettings.Text" xml:space="preserve">
-    <value>Ajuste geral Compasso</value>
+    <value>Configurações gerais da bússola</value>
   </data>
   <data name="CHK_compass2_external.Text" xml:space="preserve">
-    <value>Montado externamente</value>
+    <value>Montagem externa</value>
   </data>
+  <data name="label10.Text" xml:space="preserve"><value>Qualidade do ajuste</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Mag. 3</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Mag. 2</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Mag. 1</value></data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve"><value>Calibração integrada do magnetómetro</value></data>
+  <data name="groupBoxmpcalib.Text" xml:space="preserve"><value>Calibração do magnetómetro pelo Mission Planner</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>OU</value></data>
+  <data name="LBL_compass1_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass1_offset.Text" xml:space="preserve"><value>DESVIO</value></data>
+  <data name="LBL_compass2_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass2_offset.Text" xml:space="preserve"><value>DESVIO</value></data>
+  <data name="LBL_compass3_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass3_offset.Text" xml:space="preserve"><value>DESVIO</value></data>
+  <data name="buttonQuickPixhawk.Text" xml:space="preserve"><value>Pixhawk/PX4</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>Calibração do magnetómetro para veículos grandes</value></data>
 </root>

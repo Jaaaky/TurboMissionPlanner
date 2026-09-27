@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_zero_press.ToolTip" xml:space="preserve">
-    <value>가속도 보정을 지금 하세요.</value>
+    <value>지금 가속도계를 보정합니다.</value>
   </data>
   <data name="BUT_zero_att.ToolTip" xml:space="preserve">
-    <value>가속도 보정을 지금 하세요.</value>
+    <value>지금 가속도계를 보정합니다.</value>
   </data>
   <data name="BUT_zero_press.Text" xml:space="preserve">
-    <value>Zero Pressure</value>
+    <value>기압 영점 설정</value>
   </data>
   <data name="BUT_zero_att.Text" xml:space="preserve">
-    <value>Zero Attitude</value>
+    <value>자세 영점 설정</value>
   </data>
 </root>

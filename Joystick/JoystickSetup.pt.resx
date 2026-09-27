@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label14.Text" xml:space="preserve">
-    <value>Carregar config para</value>
+    <value>Configuração carregada para</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Acelerador</value>
@@ -127,10 +127,10 @@
     <value>Leme</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Controlar eixo</value>
+    <value>Eixo do controlador</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Reverso</value>
+    <value>Inverter</value>
   </data>
   <data name="BUT_save.Text" xml:space="preserve">
     <value>Salvar</value>
@@ -160,6 +160,13 @@
     <value>Auto detectar</value>
   </data>
   <data name="BUT_enable.Text" xml:space="preserve">
-    <value>Habilitar</value>
+    <value>Ativar</value>
   </data>
+  <data name="label5.Text" xml:space="preserve"><value>Joystick</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Exponencial</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Saída</value></data>
+  <data name="CHK_elevons.Text" xml:space="preserve"><value>Elevons</value></data>
+  <data name="chk_manualcontrol.Text" xml:space="preserve"><value>Controlo manual</value></data>
+  <data name="but_export.Text" xml:space="preserve"><value>Exportar</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>Importar</value></data>
 </root>

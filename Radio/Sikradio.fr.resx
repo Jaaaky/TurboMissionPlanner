@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -122,11 +122,11 @@
 </value>
   </data>
   <data name="linkLabel1.ToolTip" xml:space="preserve">
-    <value>The 3DR Radios have 2 status LEDs, one red and one green.
-green LED blinking - searching for another radio 
-green LED solid - link is established with another radio 
-red LED flashing - transmitting data 
-red LED solid - in firmware update mode</value>
+    <value>Les radios 3DR disposent de deux voyants d’état, un rouge et un vert.
+Vert clignotant : recherche d’une autre radio
+Vert fixe : liaison établie avec une autre radio
+Rouge clignotant : émission de données
+Rouge fixe : mode de mise à jour du micrologiciel</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>RSSI</value>
@@ -148,7 +148,7 @@ red LED solid - in firmware update mode</value>
     <value>AIR_SPEED is the inter-radio data rate in rounded kbps. So 128 means 128kbps. Max is 192, min is 2. I would not recommend values below 16 as the frequency hopping and tdm sync times get too long. </value>
   </data>
   <data name="BUT_Syncoptions.Text" xml:space="preserve">
-    <value>Copy Required Items to Remote</value>
+    <value>Copier les réglages requis vers la radio distante</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>Max Freq</value>
@@ -160,7 +160,7 @@ red LED solid - in firmware update mode</value>
     <value># of Channels</value>
   </data>
   <data name="BUT_savesettings.Text" xml:space="preserve">
-    <value>Save Settings</value>
+    <value>Enregistrer les réglages</value>
   </data>
   <data name="S11.ToolTip" xml:space="preserve">
     <value>the percentage of time to allow transmit</value>
@@ -190,7 +190,7 @@ red LED solid - in firmware update mode</value>
     <value>Op Resend</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Air Speed</value>
+    <value>Débit radio</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
     <value>Mavlink</value>
@@ -199,7 +199,7 @@ red LED solid - in firmware update mode</value>
     <value>ECC</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Baud</value>
+    <value>Débit en bauds</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Tx Power</value>
@@ -246,7 +246,7 @@ red LED solid - in firmware update mode</value>
     <value>number of frequency hopping channels </value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Status Leds</value>
+    <value>Voyants d’état</value>
   </data>
   <data name="RS1.ToolTip" xml:space="preserve">
     <value>Serial baud rate in rounded kbps. So 57 means 57600. 
@@ -266,10 +266,10 @@ red LED solid - in firmware update mode</value>
     <value>minimum frequency in kHz </value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>Air Speed</value>
+    <value>Débit radio</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>Baud</value>
+    <value>Débit en bauds</value>
   </data>
   <data name="label31.Text" xml:space="preserve">
     <value>Format</value>
@@ -290,10 +290,10 @@ red LED solid - in firmware update mode</value>
 </value>
   </data>
   <data name="BUT_upload.Text" xml:space="preserve">
-    <value>Upload Firmware (Local)</value>
+    <value>Transférer le micrologiciel standard</value>
   </data>
   <data name="BUT_getcurrent.Text" xml:space="preserve">
-    <value>Load Settings</value>
+    <value>Charger les réglages</value>
   </data>
   <data name="S4.ToolTip" xml:space="preserve">
     <value>TXPOWER is the transmit power in dBm. 20dBm is 100mW. It is useful to set this to lower levels for short range testing.
@@ -309,13 +309,13 @@ red LED solid - in firmware update mode</value>
     <value>AIR_SPEED is the inter-radio data rate in rounded kbps. So 128 means 128kbps. Max is 192, min is 2. I would not recommend values below 16 as the frequency hopping and tdm sync times get too long. </value>
   </data>
   <data name="RSSI.ToolTip" xml:space="preserve">
-    <value>see the spec for a RSSI to dBm graph. The numbers at the end are: 
-txe: number of transmit errors (eg. transmit timeouts) 
-rxe: number of receive errors (crc error, framing error etc) 
-stx: number of serial transmit overflows 
-rrx: number of serial receive overflows 
-ecc: number of 12 bit words successfully corrected by the golay code
-which result in a valid packet CRC 
+    <value>Consultez la documentation pour le graphique de conversion RSSI vers dBm. Les nombres à la fin indiquent : 
+txe : nombre d’erreurs d’émission (par exemple, délais dépassés) 
+rxe : nombre d’erreurs de réception (CRC, trame, etc.) 
+stx : nombre de débordements en émission série 
+rrx : nombre de débordements en réception série 
+ecc : nombre de mots de 12 bits corrigés avec succès par le code de Golay
+aboutissant à un CRC de paquet valide 
 </value>
   </data>
   <data name="RS12.ToolTip" xml:space="preserve">
@@ -327,4 +327,134 @@ which result in a valid packet CRC
   <data name="RS11.ToolTip" xml:space="preserve">
     <value>the percentage of time to allow transmit</value>
   </data>
+  <data name="RRTSCTS.ToolTip" xml:space="preserve"><value>Activer ou désactiver le contrôle de flux matériel</value></data>
+  <data name="RMAX_FREQ.ToolTip" xml:space="preserve"><value>Fréquence maximale en kHz </value></data>
+  <data name="RNUM_CHANNELS.ToolTip" xml:space="preserve"><value>Nombre de canaux de saut de fréquence </value></data>
+  <data name="RDUTY_CYCLE.ToolTip" xml:space="preserve"><value>Pourcentage du temps pendant lequel l’émission est autorisée</value></data>
+  <data name="RLBT_RSSI.ToolTip" xml:space="preserve"><value>Seuil d’écoute avant émission</value></data>
+  <data name="RMIN_FREQ.ToolTip" xml:space="preserve"><value>Fréquence minimale en kHz </value></data>
+  <data name="RGPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT configure GPIO 1.1 en sortie R/C (PPM)</value></data>
+  <data name="RGPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN configure GPIO 1.1 en entrée R/C (PPM)</value></data>
+  <data name="RSERIAL_SPEED.ToolTip" xml:space="preserve"><value>Débit série arrondi en kbit/s. Ainsi, 57 correspond à 57 600 bit/s. 
+</value></data>
+  <data name="RAIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEED est le débit entre radios, arrondi en kbit/s. Ainsi, 128 correspond à 128 kbit/s. Maximum : 192 ; minimum : 2. Les valeurs inférieures à 16 sont déconseillées, car les délais de saut de fréquence et de synchronisation TDM deviennent trop longs. </value></data>
+  <data name="RNETID.ToolTip" xml:space="preserve"><value>NETID est un identifiant réseau sur 16 bits. Il initialise la séquence de saut de fréquence et permet de vérifier que les paquets proviennent de la bonne radio. Utilisez un NETID différent de celui des autres utilisateurs du même type de radio à proximité. </value></data>
+  <data name="RTXPOWER.ToolTip" xml:space="preserve"><value>TXPOWER est la puissance d’émission en dBm. 20 dBm correspondent à 100 mW. Une puissance réduite est utile pour les essais à courte portée.
+</value></data>
+  <data name="RECC.ToolTip" xml:space="preserve"><value>ECC active ou désactive le code correcteur de Golay. Il est désactivé par défaut. Son activation double le nombre d’octets à transmettre et réduit donc de moitié la bande passante radio utile, mais permet de corriger jusqu’à 3 bits erronés sur 12 bits de données. Utilisez-le à longue portée, généralement avec un débit radio réduit. Le décodage Golay prend 20 microsecondes par octet transmis (40 microsecondes par octet utile), ce qui peut aussi limiter les performances du processeur aux débits radio les plus élevés. On l’utilise donc généralement à 128 kbit/s ou moins. 
+</value></data>
+  <data name="ROPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESEND active ou désactive la retransmission opportuniste. Lorsqu’elle est activée, la radio envoie deux fois un paquet si le tampon d’entrée série contient moins de 256 octets. Le second envoi est marqué comme retransmission et ignoré par la radio réceptrice si le premier paquet a été correctement reçu. Cela améliore nettement la qualité de la liaison, en particulier pour les commandes montantes. 
+</value></data>
+  <data name="RTSCTS.ToolTip" xml:space="preserve"><value>Activer ou désactiver le contrôle de flux matériel</value></data>
+  <data name="MAX_FREQ.ToolTip" xml:space="preserve"><value>Fréquence maximale en kHz </value></data>
+  <data name="NUM_CHANNELS.ToolTip" xml:space="preserve"><value>Nombre de canaux de saut de fréquence </value></data>
+  <data name="LBT_RSSI.ToolTip" xml:space="preserve"><value>Seuil d’écoute avant émission</value></data>
+  <data name="MIN_FREQ.ToolTip" xml:space="preserve"><value>Fréquence minimale en kHz </value></data>
+  <data name="DUTY_CYCLE.ToolTip" xml:space="preserve"><value>Pourcentage du temps pendant lequel l’émission est autorisée</value></data>
+  <data name="GPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT configure GPIO 1.1 en sortie R/C (PPM)</value></data>
+  <data name="GPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN configure GPIO 1.1 en entrée R/C (PPM)</value></data>
+  <data name="MAVLINK.ToolTip" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="SERIAL_SPEED.ToolTip" xml:space="preserve"><value>Débit série arrondi en kbit/s. Ainsi, 57 correspond à 57 600 bit/s. 
+</value></data>
+  <data name="AIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEED est le débit entre radios, arrondi en kbit/s. Ainsi, 128 correspond à 128 kbit/s. Maximum : 192 ; minimum : 2. Les valeurs inférieures à 16 sont déconseillées, car les délais de saut de fréquence et de synchronisation TDM deviennent trop longs. </value></data>
+  <data name="NETID.ToolTip" xml:space="preserve"><value>NETID est un identifiant réseau sur 16 bits. Il initialise la séquence de saut de fréquence et permet de vérifier que les paquets proviennent de la bonne radio. Utilisez un NETID différent de celui des autres utilisateurs du même type de radio à proximité. </value></data>
+  <data name="TXPOWER.ToolTip" xml:space="preserve"><value>TXPOWER est la puissance d’émission en dBm. 20 dBm correspondent à 100 mW. Une puissance réduite est utile pour les essais à courte portée.
+</value></data>
+  <data name="ECC.ToolTip" xml:space="preserve"><value>ECC active ou désactive le code correcteur de Golay. Il est désactivé par défaut. Son activation double le nombre d’octets à transmettre et réduit donc de moitié la bande passante radio utile, mais permet de corriger jusqu’à 3 bits erronés sur 12 bits de données. Utilisez-le à longue portée, généralement avec un débit radio réduit. Le décodage Golay prend 20 microsecondes par octet transmis (40 microsecondes par octet utile), ce qui peut aussi limiter les performances du processeur aux débits radio les plus élevés. On l’utilise donc généralement à 128 kbit/s ou moins. 
+</value></data>
+  <data name="OPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESEND active ou désactive la retransmission opportuniste. Lorsqu’elle est activée, la radio envoie deux fois un paquet si le tampon d’entrée série contient moins de 256 octets. Le second envoi est marqué comme retransmission et ignoré par la radio réceptrice si le premier paquet a été correctement reçu. Cela améliore nettement la qualité de la liaison, en particulier pour les commandes montantes. 
+</value></data>
+  <data name="ENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>Niveau de chiffrement AES</value></data>
+  <data name="RENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>Niveau de chiffrement AES</value></data>
+  <data name="FSFRAMELOSS.ToolTip" xml:space="preserve"><value>Nombre de trames de sortie SBUS ou PPM manquantes avant activation de la sécurité.</value></data>
+  <data name="RFSFRAMELOSS.ToolTip" xml:space="preserve"><value>Nombre de trames de sortie SBUS ou PPM manquantes avant activation de la sécurité.</value></data>
+  <data name="lbl_status.Text" xml:space="preserve"><value>REMARQUE : cliquez toujours sur « Copier les réglages requis vers la radio distante » après une modification
+pour éviter de perdre la liaison radio</value></data>
+  <data name="groupBoxLocal.Text" xml:space="preserve"><value>Locale</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>Trames perdues avant sécurité</value></data>
+  <data name="lblGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>Pays :</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>Débit/bande de fréquences</value></data>
+  <data name="lblSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="btnRandom.Text" xml:space="preserve"><value>Aléatoire</value></data>
+  <data name="lblRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblDESTID.Text" xml:space="preserve"><value>ID de destination</value></data>
+  <data name="lblNODEID.Text" xml:space="preserve"><value>ID du nœud</value></data>
+  <data name="lblGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblNETID.Text" xml:space="preserve"><value>ID réseau</value></data>
+  <data name="lblTXPOWER.Text" xml:space="preserve"><value>Puissance d’émission</value></data>
+  <data name="lblECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblOPPRESEND.Text" xml:space="preserve"><value>Retransmission opportuniste</value></data>
+  <data name="lblMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblANT_MODE.Text" xml:space="preserve"><value>Mode d’antenne</value></data>
+  <data name="lblSER_BRK_DETMS.Text" xml:space="preserve"><value>Détection de rupture</value></data>
+  <data name="lblGLOBAL_RETRIES.Text" xml:space="preserve"><value>Tentatives globales</value></data>
+  <data name="lblMAX_RETRIES.Text" xml:space="preserve"><value>Tentatives max</value></data>
+  <data name="lblMAX_DATA.Text" xml:space="preserve"><value>Données max</value></data>
+  <data name="lblENCRYPTION_LEVEL.Text" xml:space="preserve"><value>Chiffrement AES</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>Clé AES</value></data>
+  <data name="lblRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="linkLabel_mavlink.Text" xml:space="preserve"><value>Réglages MAVLink standard</value></data>
+  <data name="linkLabel_lowlatency.Text" xml:space="preserve"><value>Réglages à faible latence</value></data>
+  <data name="lblMAX_WINDOW.Text" xml:space="preserve"><value>Fenêtre max (ms)</value></data>
+  <data name="lblMIN_FREQ.Text" xml:space="preserve"><value>Fréquence min</value></data>
+  <data name="lblLBT_RSSI.Text" xml:space="preserve"><value>Seuil RSSI LBT</value></data>
+  <data name="lblDUTY_CYCLE.Text" xml:space="preserve"><value>Rapport cyclique</value></data>
+  <data name="lblNUM_CHANNELS.Text" xml:space="preserve"><value>Nombre de canaux</value></data>
+  <data name="lblMAX_FREQ.Text" xml:space="preserve"><value>Fréquence max</value></data>
+  <data name="btnRemoteLoadFromFile.Text" xml:space="preserve"><value>Charger depuis un fichier…</value></data>
+  <data name="btnRemoteSaveToFile.Text" xml:space="preserve"><value>Enregistrer dans un fichier…</value></data>
+  <data name="lblRFSFRAMELOSS.Text" xml:space="preserve"><value>Trames perdues avant sécurité</value></data>
+  <data name="lblRGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblRGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblRGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblRGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblRGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.Text" xml:space="preserve"><value>Régler la sécurité PPM</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.ToolTip" xml:space="preserve"><value>Enregistrer le flux PPM par défaut pour la sortie PPM (côté véhicule)</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>Pays :</value></data>
+  <data name="lblRSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblRSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>Débit/bande de fréquences</value></data>
+  <data name="lblRRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblRTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblRDESTID.Text" xml:space="preserve"><value>ID de destination</value></data>
+  <data name="lblRNODEID.Text" xml:space="preserve"><value>ID du nœud</value></data>
+  <data name="lblRGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblRGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblROPPRESEND.Text" xml:space="preserve"><value>Retransmission opportuniste</value></data>
+  <data name="lblRMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblRECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblRTXPOWER.Text" xml:space="preserve"><value>Puissance d’émission</value></data>
+  <data name="lblRNETID.Text" xml:space="preserve"><value>ID réseau</value></data>
+  <data name="lblRANT_MODE.Text" xml:space="preserve"><value>Mode d’antenne</value></data>
+  <data name="lblRSER_BRK_DETMS.Text" xml:space="preserve"><value>Détection de rupture</value></data>
+  <data name="lblRGLOBAL_RETRIES.Text" xml:space="preserve"><value>Tentatives globales</value></data>
+  <data name="lblRMAX_RETRIES.Text" xml:space="preserve"><value>Tentatives max</value></data>
+  <data name="lblRMAX_DATA.Text" xml:space="preserve"><value>Données max</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Clé AES</value></data>
+  <data name="lblRENCRYPTION_LEVEL.Text" xml:space="preserve"><value>Chiffrement AES</value></data>
+  <data name="lblRRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblRMAX_WINDOW.Text" xml:space="preserve"><value>Fenêtre max (ms)</value></data>
+  <data name="lblRMIN_FREQ.Text" xml:space="preserve"><value>Fréquence min</value></data>
+  <data name="lblRMAX_FREQ.Text" xml:space="preserve"><value>Fréquence max</value></data>
+  <data name="lblRNUM_CHANNELS.Text" xml:space="preserve"><value>Nombre de canaux</value></data>
+  <data name="lblRDUTY_CYCLE.Text" xml:space="preserve"><value>Rapport cyclique</value></data>
+  <data name="lblRLBT_RSSI.Text" xml:space="preserve"><value>Seuil RSSI LBT</value></data>
+  <data name="groupBoxRemote.Text" xml:space="preserve"><value>Distante</value></data>
+  <data name="dlgSave.Filter" xml:space="preserve"><value>Fichiers INI|*.ini</value></data>
+  <data name="dlgOpen.Filter" xml:space="preserve"><value>Fichiers INI|*.ini</value></data>
+  <data name="BUT_loadcustom.Text" xml:space="preserve"><value>Transférer un micrologiciel personnalisé</value></data>
+  <data name="BUT_resettodefault.Text" xml:space="preserve"><value>Rétablir les valeurs par défaut</value></data>
+  <data name="BUT_SetPPMFailSafe.Text" xml:space="preserve"><value>Régler la sécurité PPM</value></data>
+  <data name="BUT_SetPPMFailSafe.ToolTip" xml:space="preserve"><value>Enregistrer le flux PPM par défaut pour la sortie PPM (côté véhicule)</value></data>
+  <data name="btnSaveToFile.Text" xml:space="preserve"><value>Enregistrer dans un fichier…</value></data>
+  <data name="btnLoadFromFile.Text" xml:space="preserve"><value>Charger depuis un fichier…</value></data>
 </root>

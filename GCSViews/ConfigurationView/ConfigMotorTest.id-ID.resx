@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>CATATAN: MOHON TAHAN BAWAH UAV ANDA ini akan menguji kerja motor anda. motor di uji dalam rotasi searah jarum jam mulai dari kanan depan. </value>
+    <value>CATATAN: TAHAN UAV ANDA DENGAN KUAT
+Ini akan menguji fungsi motor Anda.
+Motor diuji berurutan searah jarum jam
+dimulai dari kanan depan.</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Durasi (s)</value>
+    <value>Durasi (dtk)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Mencekik %</value>
+    <value>Throttle %</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Silahkan klik di sini untuk melihat nomor motor Anda, gulir ke bawah halaman</value>
+    <value>Klik di sini untuk melihat nomor motor Anda,
+gulir ke bagian bawah halaman</value>
   </data>
+  <data name="FrameType.Text" xml:space="preserve"><value>Jenis: tidak diketahui</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>Kelas: tidak diketahui</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Tetapkan persentase keluaran minimum saat terbang</value></data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve"><value>Atur Putaran Minimum Motor</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Tetapkan persentase keluaran minimum saat armed tetapi masih di tanah</value></data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve"><value>Atur Putaran Motor Saat Arm</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Uji Motor</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,54 +118,61 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>Geo Ref goruntuleri</value>
+    <value>Görüntülere coğrafi referans ekle</value>
   </data>
   <data name="chk_usegps2.Text" xml:space="preserve">
-    <value>GPS2 kullan</value>
+    <value>GPS2'yi kullan</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>Deklansor gecikmesi (мс)</value>
+    <value>Deklanşör gecikmesi (ms)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Saniye degisimi</value>
+    <value>Saniye cinsinden ofset</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>Yukseklik. rel. Veritabanlari</value>
+    <value>Göreli irtifa tabanı</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Dondur</value>
+    <value>Dönüş</value>
   </data>
   <data name="chk_cammsg.Text" xml:space="preserve">
-    <value>Mesajlarini Kullanma</value>
+    <value>CAM mesajlarını kullan</value>
   </data>
   <data name="BUT_doit.Text" xml:space="preserve">
-    <value>Onceki. Isleme</value>
+    <value>Ön işle</value>
   </data>
   <data name="BUT_browsedir.Text" xml:space="preserve">
-    <value>Просмотр фото</value>
+    <value>Fotoğraflara gözat</value>
   </data>
   <data name="BUT_networklinkgeoref.Text" xml:space="preserve">
-    <value>Kml'nin yeri</value>
+    <value>Konum KML</value>
   </data>
   <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve">
-    <value>AMSL HIGH kullanın</value>
+    <value>Deniz seviyesine göre irtifayı kullan</value>
   </data>
   <data name="BUT_browselog.Text" xml:space="preserve">
-    <value>Gecmisi goruntuleme</value>
+    <value>Günlüğe gözat</value>
   </data>
   <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve">
-    <value>CAM Mesajlarini Senkronize Etme (Sadece DF Kaydi)</value>
+    <value>CAM mesajı</value>
   </data>
   <data name="RDIO_TimeOffset.Text" xml:space="preserve">
-    <value>Zaman ofset</value>
+    <value>Zaman ofseti</value>
   </data>
   <data name="BUT_Geotagimages.Text" xml:space="preserve">
-    <value>GeoTag Resimleri</value>
+    <value>Görüntülere konum etiketi ekle</value>
   </data>
   <data name="RDIO_trigmsg.Text" xml:space="preserve">
-    <value>Baslangıc mesaji</value>
+    <value>Tetikleme mesajı</value>
   </data>
   <data name="BUT_estoffset.Text" xml:space="preserve">
-    <value>Ofset Hesaplamasi</value>
+    <value>Ofseti tahmin et</value>
   </data>
+  <data name="label8.Text" xml:space="preserve"><value>Enine görüş alanı</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Boyuna görüş alanı</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Min. deklanşör aralığı (sn) (CAM)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Sondaki görüntüyü atla</value></data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>Baştaki görüntüyü atla</value></data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve"><value>GPS irtifasını kullan</value></data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve"><value>GPS irtifasını kullan</value></data>
 </root>

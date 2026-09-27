@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>بۇ ئىقتىدارنىڭ رولى:
+1. NMEA GPS دىن نۆۋەتتىكى GPS كوئوردېناتىنى ئالىدۇ.
+2. سىز بەلگىلىگەن Hz بويىچە ئاپتوماتىك ئۇچقۇچقا يېتەكلەش ھالىتىدىكى يول نۇقتىسىنى ئەۋەتىدۇ. (چاستوتا ئىشلىتىۋاتقان GPS بىلەن چەكلىنىدۇ.)
+
+ئىشلىتىش ئۇسۇلى:
+1. ئاپتوماتىك ئۇچقۇچقا ئۇلاڭ.
+2. ئۇچۇپ، يېتەكلەش ھالىتىنىڭ ئىشلەيدىغانلىقىنى سىناڭ.
+3. بۇ كۆزنەكنى ئېچىپ، NMEA GPS نىڭ ئارقىمۇئارقا ئېغىزى ۋە بود نىسبىتىنى تاللاڭ.
+4. ئۇچقۇ ھازىر سىزگە ئەگىشىشى كېرەك.
+ئەسكەرتىش: ئاپتوماتىك ئۇچقۇچنى يېتەكلەش ھالىتىگە قولدا ئالماشتۇرۇشىڭىز كېرەك.</value></data>
+</root>

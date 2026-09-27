@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>MAVlink Verbindung aktiv. Es kann keine Firmware geladen werden. Verbindung "Trennen" wählen, danach kann Firmware installiert werden.</value>
+    <value>Bei bestehender MAVLink-Verbindung kann keine neue Firmware geladen werden.
+
+Klicken Sie oben rechts auf „Trennen“, um die aktuelle MAVLink-Sitzung zu beenden und die Firmwareinstallation freizugeben.</value>
   </data>
+  <data name="but_bootloaderupdate.Text" xml:space="preserve"><value>Bootloader-Aktualisierung</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Bootloader Ihrer Hardware auf die neueste verfügbare Version aktualisieren.</value></data>
 </root>

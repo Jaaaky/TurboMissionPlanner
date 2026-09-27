@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -127,18 +127,52 @@
     <value>دقائق</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>بوصلة</value>
+    <value>البوصلة</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
-    <value>موقع تحديد الانحراف</value>
+    <value>موقع الانحراف المغناطيسي</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>مثال اليوتيوب</value>
+    <value>مثال على YouTube</value>
   </data>
   <data name="BUT_MagCalibrationLive.Text" xml:space="preserve">
-    <value>المعايرة المباشرة</value>
+    <value>معايرة مباشرة</value>
   </data>
   <data name="CHK_autodec.Text" xml:space="preserve">
-    <value>الحصول على الانحراف بشكل آلي</value>
+    <value>تحديد الانحراف المغناطيسي تلقائيًا</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>اختر الجهاز لإعداد المعاملات سريعًا:</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>تخفيف معيار المطابقة إذا فشلت المعايرة</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>جودة المطابقة</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>مقياس المغناطيسية 3</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>مقياس المغناطيسية 2</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>مقياس المغناطيسية 1</value></data>
+  <data name="BUT_OBmagcalaccept.Text" xml:space="preserve"><value>قبول</value></data>
+  <data name="BUT_OBmagcalcancel.Text" xml:space="preserve"><value>إلغاء</value></data>
+  <data name="BUT_OBmagcalstart.Text" xml:space="preserve"><value>بدء</value></data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve"><value>معايرة المغناطيسية على متن المركبة</value></data>
+  <data name="groupBoxmpcalib.Text" xml:space="preserve"><value>معايرة المغناطيسية باستخدام Mission Planner</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>أو</value></data>
+  <data name="LBL_primary_compass.Text" xml:space="preserve"><value>البوصلة الأساسية:</value></data>
+  <data name="CHK_compass_learn.Text" xml:space="preserve"><value>تعلّم الإزاحات تلقائيًا</value></data>
+  <data name="groupBoxGeneralSettings.Text" xml:space="preserve"><value>إعدادات البوصلة العامة</value></data>
+  <data name="LBL_compass1_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass1_offset.Text" xml:space="preserve"><value>الإزاحة</value></data>
+  <data name="CHK_compass1_external.Text" xml:space="preserve"><value>مثبتة خارجيًا</value></data>
+  <data name="CHK_compass1_use.Text" xml:space="preserve"><value>استخدام هذه البوصلة</value></data>
+  <data name="groupBoxCompass1.Text" xml:space="preserve"><value>البوصلة رقم 1</value></data>
+  <data name="LBL_compass2_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass2_offset.Text" xml:space="preserve"><value>الإزاحة</value></data>
+  <data name="CHK_compass2_external.Text" xml:space="preserve"><value>مثبتة خارجيًا</value></data>
+  <data name="CHK_compass2_use.Text" xml:space="preserve"><value>استخدام هذه البوصلة</value></data>
+  <data name="groupBoxCompass2.Text" xml:space="preserve"><value>البوصلة رقم 2</value></data>
+  <data name="LBL_compass3_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass3_offset.Text" xml:space="preserve"><value>الإزاحة</value></data>
+  <data name="CHK_compass3_external.Text" xml:space="preserve"><value>مثبتة خارجيًا</value></data>
+  <data name="CHK_compass3_use.Text" xml:space="preserve"><value>استخدام هذه البوصلة</value></data>
+  <data name="groupBoxCompass3.Text" xml:space="preserve"><value>البوصلة رقم 3</value></data>
+  <data name="buttonAPMExternal.Text" xml:space="preserve"><value>APM وبوصلة خارجية</value></data>
+  <data name="QuickAPM25.Text" xml:space="preserve"><value>APM2.5 (بوصلة داخلية)</value></data>
+  <data name="buttonQuickPixhawk.Text" xml:space="preserve"><value>Pixhawk/PX4</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>معايرة المغناطيسية للمركبات الكبيرة</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,12 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>Anleitung:1. Autopilot mit USB-Kabel verbinden (wichtig)2. RC Kalibrierung durchführen.4. Propeller entfernen, Batterie abhängen.5. RC Gas auf "Vollgas" stellen.6. Batterie einstecken.7. "Safety" Knopf drücken (falls vorhanden). Warten auf ESC Tonfolge, sowie 2 zusätliche Beeps.8. RC Gas auf Leerlauf zurück.9. Batterie ausstecken und wieder einstecken.10. Mit "Arm" scharfstellen, kontrollieren ob die Motoren drehen.11. Batterie ausstecken. Propeller montieren.</value>
+    <value>Propeller entfernen!
+Nach dem Drücken dieser Schaltfläche:
+- USB und Akku trennen
+- Akku anschließen
+- Sobald die LEDs blinken, Sicherheitsschalter drücken (falls vorhanden)
+- Die ESCs sollten die Kalibrierung mit Signaltönen bestätigen
+- Flugcontroller anschließend normal neu starten</value>
   </data>
   <data name="buttonStart.Text" xml:space="preserve">
-    <value>Start</value>
+    <value>ESCs kalibrieren</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>ESC Kalibrierung (AC3.3+)</value>
+    <value>ESC-Kalibrierung (AC3.3+)</value>
   </data>
+  <data name="label3.Text" xml:space="preserve"><value>ESC-Typ:</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Min. Ausgangs-PWM</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Max. Ausgangs-PWM</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Drehzahl bei Scharfschaltung</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Minimale Drehzahl</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Maximale Drehzahl</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Auf 0 belassen, um den Empfänger-Eingangsbereich zu verwenden</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Auf 0 belassen, um den Empfänger-Eingangsbereich zu verwenden</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Motordrehzahl bei Scharfschaltung und Gas auf null (Leerlauf)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Minimale Motordrehzahl im Flug (etwas höher als „Drehzahl bei Scharfschaltung“)</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Maximale Motordrehzahl im Flug (fast alle ESCs haben am oberen Ende eine Totzone)</value></data>
 </root>

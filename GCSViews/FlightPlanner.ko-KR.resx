@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -255,7 +255,7 @@
     <value>True</value>
   </data>
   <data name="coordEasting.HeaderText" xml:space="preserve">
-    <value>동향</value>
+    <value>동향 좌표</value>
   </data>
   <data name="coordEasting.MinimumWidth" type="System.Int32, mscorlib">
     <value>60</value>
@@ -270,7 +270,7 @@
     <value>True</value>
   </data>
   <data name="coordNorthing.HeaderText" xml:space="preserve">
-    <value>북향</value>
+    <value>북향 좌표</value>
   </data>
   <data name="coordNorthing.MinimumWidth" type="System.Int32, mscorlib">
     <value>60</value>
@@ -362,7 +362,7 @@
     <value>True</value>
   </data>
   <data name="Grad.HeaderText" xml:space="preserve">
-    <value>변화도 %</value>
+    <value>경사도 %</value>
   </data>
   <data name="Grad.MinimumWidth" type="System.Int32, mscorlib">
     <value>30</value>
@@ -536,7 +536,7 @@
     <value>18</value>
   </data>
   <data name="LBL_WPRad.Text" xml:space="preserve">
-    <value>지점 반경</value>
+    <value>경유점 반경</value>
   </data>
   <data name="&gt;&gt;LBL_WPRad.Name" xml:space="preserve">
     <value>LBL_WPRad</value>
@@ -752,7 +752,7 @@
     <value>6</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>원점 위치</value>
+    <value>홈 위치</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
@@ -941,7 +941,7 @@
     <value>4</value>
   </data>
   <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
-    <value>상</value>
+    <value>위로</value>
   </data>
   <data name="dataGridViewImageColumn1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -955,7 +955,7 @@
     <value>20</value>
   </data>
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
-    <value>하</value>
+    <value>아래로</value>
   </data>
   <data name="dataGridViewImageColumn2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1200,7 +1200,7 @@
     <value>172, 17</value>
   </data>
   <data name="BUT_Add.ToolTip" xml:space="preserve">
-    <value>하단 격자에 선을 추가합니다</value>
+    <value>아래 표에 행을 추가합니다</value>
   </data>
   <data name="&gt;&gt;BUT_Add.Name" xml:space="preserve">
     <value>BUT_Add</value>
@@ -1230,7 +1230,7 @@
     <value>49</value>
   </data>
   <data name="panelWaypoints.Text" xml:space="preserve">
-    <value>경로 지점</value>
+    <value>경유점</value>
   </data>
   <data name="&gt;&gt;panelWaypoints.Name" xml:space="preserve">
     <value>panelWaypoints</value>
@@ -1434,7 +1434,7 @@
     <value>46</value>
   </data>
   <data name="BUT_loadwpfile.Text" xml:space="preserve">
-    <value>파일 로드</value>
+    <value>파일 불러오기</value>
   </data>
   <data name="&gt;&gt;BUT_loadwpfile.Name" xml:space="preserve">
     <value>BUT_loadwpfile</value>
@@ -1590,7 +1590,7 @@
     <value>50</value>
   </data>
   <data name="lbl_homedist.Text" xml:space="preserve">
-    <value>원점</value>
+    <value>홈</value>
   </data>
   <data name="&gt;&gt;lbl_homedist.Name" xml:space="preserve">
     <value>lbl_homedist</value>
@@ -1707,7 +1707,7 @@
     <value>140, 22</value>
   </data>
   <data name="deleteWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>경로 지점 삭제</value>
+    <value>경유점 삭제</value>
   </data>
   <data name="currentPositionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 22</value>
@@ -1719,7 +1719,7 @@
     <value>140, 22</value>
   </data>
   <data name="insertWpToolStripMenuItem.Text" xml:space="preserve">
-    <value>경로 지점 삽입</value>
+    <value>경유점 삽입</value>
   </data>
   <data name="insertSplineWPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
@@ -1743,7 +1743,7 @@
     <value>113, 22</value>
   </data>
   <data name="loitercirclesToolStripMenuItem.Text" xml:space="preserve">
-    <value>원형</value>
+    <value>회전 수</value>
   </data>
   <data name="loiterToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
@@ -1761,7 +1761,7 @@
     <value>102, 22</value>
   </data>
   <data name="jumpwPToolStripMenuItem.Text" xml:space="preserve">
-    <value>경로 지점 번호</value>
+    <value>경유점 번호</value>
   </data>
   <data name="jumpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
@@ -1773,13 +1773,13 @@
     <value>140, 22</value>
   </data>
   <data name="rTLToolStripMenuItem.Text" xml:space="preserve">
-    <value>회귀</value>
+    <value>복귀(RTL)</value>
   </data>
   <data name="landToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
   </data>
   <data name="landToolStripMenuItem.Text" xml:space="preserve">
-    <value>지상</value>
+    <value>착륙</value>
   </data>
   <data name="takeoffToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
@@ -1860,7 +1860,7 @@
     <value>177, 22</value>
   </data>
   <data name="setReturnLocationToolStripMenuItem.Text" xml:space="preserve">
-    <value>회귀 위치 설정</value>
+    <value>복귀 위치 설정</value>
   </data>
   <data name="loadFromFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 22</value>
@@ -1878,7 +1878,7 @@
     <value>177, 22</value>
   </data>
   <data name="clearToolStripMenuItem.Text" xml:space="preserve">
-    <value>지우기</value>
+    <value>화면 비우기</value>
   </data>
   <data name="geoFenceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
@@ -1950,25 +1950,25 @@
     <value>179, 22</value>
   </data>
   <data name="textToolStripMenuItem.Text" xml:space="preserve">
-    <value>Text</value>
+    <value>텍스트</value>
   </data>
   <data name="createCircleSurveyToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 22</value>
   </data>
   <data name="createCircleSurveyToolStripMenuItem.Text" xml:space="preserve">
-    <value>원형 조사구역 생성</value>
+    <value>원형 측량 경로 생성</value>
   </data>
   <data name="surveyGridToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 22</value>
   </data>
   <data name="surveyGridToolStripMenuItem.Text" xml:space="preserve">
-    <value>조사 (격자)</value>
+    <value>측량(격자)</value>
   </data>
   <data name="autoWPToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
   </data>
   <data name="autoWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>경로 지점 자동</value>
+    <value>자동 경유점</value>
   </data>
   <data name="ContextMeasure.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 22</value>
@@ -1986,19 +1986,19 @@
     <value>167, 22</value>
   </data>
   <data name="zoomToToolStripMenuItem.Text" xml:space="preserve">
-    <value>지정 지점으로 확대</value>
+    <value>대상 지점 확대</value>
   </data>
   <data name="prefetchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 22</value>
   </data>
   <data name="prefetchToolStripMenuItem.Text" xml:space="preserve">
-    <value>예비 추출</value>
+    <value>지도 미리 받기</value>
   </data>
   <data name="prefetchWPPathToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 22</value>
   </data>
   <data name="prefetchWPPathToolStripMenuItem.Text" xml:space="preserve">
-    <value>경로 예비 추출</value>
+    <value>경유점 경로 지도 미리 받기</value>
   </data>
   <data name="kMLOverlayToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 22</value>
@@ -2082,13 +2082,13 @@
     <value>140, 22</value>
   </data>
   <data name="pOIToolStripMenuItem.Text" xml:space="preserve">
-    <value>지점 정보</value>
+    <value>관심 지점</value>
   </data>
   <data name="trackerHomeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
   </data>
   <data name="trackerHomeToolStripMenuItem.Text" xml:space="preserve">
-    <value>트랙커 원점</value>
+    <value>트래커 홈</value>
   </data>
   <data name="modifyAltToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
@@ -2106,13 +2106,13 @@
     <value>140, 22</value>
   </data>
   <data name="switchDockingToolStripMenuItem.Text" xml:space="preserve">
-    <value>결합체 전환</value>
+    <value>도킹 전환</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 22</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>이곳을 원점으로 설정</value>
+    <value>이곳을 홈으로 설정</value>
   </data>
   <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>141, 494</value>
@@ -2193,13 +2193,13 @@
     <value>133, 22</value>
   </data>
   <data name="fenceInclusionToolStripMenuItem.Text" xml:space="preserve">
-    <value>구역 제한 포함</value>
+    <value>비행 허용 구역</value>
   </data>
   <data name="fenceExclusionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 22</value>
   </data>
   <data name="fenceExclusionToolStripMenuItem.Text" xml:space="preserve">
-    <value>구역 제한 제외</value>
+    <value>비행 금지 구역</value>
   </data>
   <data name="panelBASE.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -2277,7 +2277,7 @@
     <value>164, 22</value>
   </data>
   <data name="zoomToHomeToolStripMenuItem.Text" xml:space="preserve">
-    <value>원점으로 확대</value>
+    <value>홈으로 확대</value>
   </data>
   <data name="contextMenuStripZoom.Size" type="System.Drawing.Size, System.Drawing">
     <value>165, 70</value>
@@ -2954,4 +2954,12 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.MyUserControl, MissionPlanner.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="chk_usemavftp.Text" xml:space="preserve"><value>MAVFTP</value></data>
+  <data name="BUT_InjectCustomMap.Text" xml:space="preserve"><value>사용자 지도 추가</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>확대 수준을 바꿉니다</value></data>
+  <data name="fromCurrentWaypointsToolStripMenuItem.Text" xml:space="preserve"><value>현재 경유점에서 생성</value></data>
+  <data name="offsetPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>다각형 오프셋</value></data>
+  <data name="gDALOpacityToolStripMenuItem.Text" xml:space="preserve"><value>GDAL 불투명도</value></data>
+  <data name="convertWPToPolygonToolStripMenuItem.Text" xml:space="preserve"><value>현재 경유점에서 생성</value></data>
+  <data name="offsetPolygonToolStripMenuItem.Text" xml:space="preserve"><value>다각형 오프셋</value></data>
 </root>

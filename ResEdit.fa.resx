@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>فایل</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>داخلی</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>انگلیسی</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>زبان دیگر</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>ذخیره</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>روش استفاده:
+در نخستین بارگذاری، زبان خود را از پایین انتخاب کنید، متن‌ها را ویرایش کنید و ذخیره را بزنید.
+
+در دفعات بعد، زبان خود را انتخاب کنید تا ترجمه‌های موجود آن به‌طور خودکار بارگذاری شوند.
+
+اگر کار را نیمه‌تمام گذاشته‌اید، دکمهٔ بارگذاری ترجمه را بزنید.
+
+نکته: بارگذاری خودکار فقط پس از اضافه شدن ترجمه به برنامه توسط Michael کار می‌کند؛ در غیر این صورت باید از بارگذاری ترجمه استفاده کنید.
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>بارگذاری ترجمه</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>کپی در بریده‌دان</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>ویرایشگر زبان</value></data>
+</root>

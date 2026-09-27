@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -263,76 +263,80 @@
     <value>失控保護</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Radio IN</value>
+    <value>遙控器輸入</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Servo/Motor OUT</value>
+    <value>伺服機/馬達輸出</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>失控保護的  Pwm</value>
+    <value>失效保護 PWM</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>電池低電壓</value>
+    <value>低電量</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Reserved MAH</value>
+    <value>保留電量 (mAh)</value>
   </data>
   <data name="lbl_armed.Text" xml:space="preserve">
-    <value>關閉</value>
+    <value>已上鎖</value>
   </data>
   <data name="lbl_currentmode.Text" xml:space="preserve">
     <value>手動</value>
   </data>
   <data name="lbl_gpslock.Text" xml:space="preserve">
-    <value>No Lock</value>
+    <value>未定位</value>
   </data>
   <data name="LNK_wiki.Text" xml:space="preserve">
     <value>Wiki</value>
   </data>
   <data name="mavlinkCheckBoxFS_GCS_ENABLE.Text" xml:space="preserve">
-    <value>啟用地面站的失控保護</value>
+    <value>啟用地面站失效保護</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.Text" xml:space="preserve">
-    <value>地面站的失控保護</value>
+    <value>地面站失效保護</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.ToolTip" xml:space="preserve">
-    <value>當沒有地面站訊號時觸發失控保護</value>
+    <value>與地面站通訊中斷時啟用失效保護</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.Text" xml:space="preserve">
-    <value>FailSafe Long (20 sec)</value>
+    <value>長時間失效保護 (20 秒)</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.ToolTip" xml:space="preserve">
-    <value>Off, no Action, On, RTL</value>
+    <value>關閉：不動作；開啟：返航</value>
   </data>
   <data name="mavlinkCheckBoxshort_fs.Text" xml:space="preserve">
-    <value>FailSafe Short (1 sec)</value>
+    <value>短時間失效保護 (1 秒)</value>
   </data>
   <data name="mavlinkCheckBoxshort_fs.ToolTip" xml:space="preserve">
-    <value>Off, no Action, On, RTL</value>
+    <value>關閉：不動作；開啟：返航</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.Text" xml:space="preserve">
-    <value>油門失控保護</value>
+    <value>油門失效保護</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.ToolTip" xml:space="preserve">
-    <value>當油門的 Pwm 過低時觸發失控保護</value>
+    <value>油門 PWM 過低時啟用失效保護</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs_action.Text" xml:space="preserve">
-    <value>油門失控保護動作</value>
+    <value>油門失效保護動作</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs_action.ToolTip" xml:space="preserve">
-    <value>Arducopter Auto: Off, no Action, On, RTL
-Arducopter Other: if have gps, RTL, Otherwise Land</value>
+    <value>ArduCopter 自動模式：關閉時不動作，開啟時返航
+ArduCopter 其他模式：有 GPS 時返航，否則降落</value>
   </data>
   <data name="mavlinkComboBox_fs_thr_enable.ToolTip" xml:space="preserve">
-    <value>較低 Pwm要時的失控保護</value>
+    <value>低 PWM 時的失效保護模式</value>
   </data>
   <data name="mavlinkNumericUpDownfs_thr_value.ToolTip" xml:space="preserve">
-    <value>觸發油門的 Pwm</value>
+    <value>觸發油門 PWM</value>
   </data>
   <data name="mavlinkNumericUpDownlow_voltage.ToolTip" xml:space="preserve">
-    <value>低電壓觸發</value>
+    <value>低電壓觸發門檻</value>
   </data>
   <data name="mavlinkNumericUpDownthr_fs_value.ToolTip" xml:space="preserve">
-    <value>觸發油門的 Pwm</value>
+    <value>觸發油門 PWM</value>
   </data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>遙控器</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>地面站</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>低電量計時器</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>電池</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -127,6 +127,6 @@
     <value>パラメータ書込</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>パラメータリフレッシュ</value>
+    <value>パラメータ再取得</value>
   </data>
 </root>

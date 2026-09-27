@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,19 +121,19 @@
     <value>クルーズ速度</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>ターン距離</value>
+    <value>旋回時の最大G</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>ダンピング</value>
+    <value>横加速度制御の減衰</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>ターンスピード</value>
+    <value>旋回半径</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>INT_MAX</value>
+    <value>IMAX</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>P</value>
@@ -142,7 +142,7 @@
     <value>D</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>期間</value>
+    <value>横加速度制御の周期</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>ターン角度</value>
@@ -154,40 +154,40 @@
     <value>ターン時間</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大スロットル (%)</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小スロットル (%)</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>ローバー</value>
+    <value>航法</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>デバウンス</value>
+    <value>ソナーのデバウンス</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>ステア 2 サーボ</value>
+    <value>操舵レート</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>FS値</value>
+    <value>WP速度</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>L1 コントロール - 旋回コントロール</value>
+    <value>操舵モード</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>スロットル 0-100%</value>
+    <value>スロットルとモーター</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>クルーズ</value>
+    <value>巡航スロットル</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>ソナー</value>
+    <value>障害物回避</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>WP 半径</value>
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
-    <value>スピード 2 スロットル</value>
+    <value>速度／スロットル</value>
   </data>
   <data name="label74.Text" xml:space="preserve">
     <value>D</value>
@@ -199,7 +199,7 @@
     <value>I</value>
   </data>
   <data name="label73.Text" xml:space="preserve">
-    <value>INT_MAX</value>
+    <value>IMAX</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
     <value>パラメータ書込</value>
@@ -208,6 +208,15 @@
     <value>画面リフレッシュ</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>パラメータリフレッシュ</value>
+    <value>パラメータ再取得</value>
   </data>
+  <data name="label22.Text" xml:space="preserve"><value>モーター種類</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>ブレーキ</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>最大加速度 (m/s/s)</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>WPオーバーシュート</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>FF</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Ch7オプション</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>RC8オプション</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>RC9オプション</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>RC10オプション</value></data>
 </root>

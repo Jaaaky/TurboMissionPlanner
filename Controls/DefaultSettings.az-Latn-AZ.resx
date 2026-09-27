@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,9 +121,9 @@
     <value>Yüklənir</value>
   </data>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>Standart çərçivə növləri üçün standart parametrləri yükləyin</value>
+    <value>Standart gövdə növləri üçün ilkin parametrləri yüklə</value>
   </data>
   <data name="BUT_paramfileload.Text" xml:space="preserve">
-    <value>Yüklənmiş Parametrlər</value>
+    <value>Parametrləri yüklə</value>
   </data>
 </root>

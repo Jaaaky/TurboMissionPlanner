@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="groupBox3.Text" xml:space="preserve"><value>گاز ۰ تا ۱۰۰٪</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>مقدار ایمنی اضطراری</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>بیشینه</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>کمینه</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>کروز</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>PID سرووی رول</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>حد انتگرال</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>حد توان کنترلی</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>PID سرووی پیچ</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>حد انتگرال</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>حد توان کنترلی</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>ارتفاع انرژی</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>بازهٔ ارتفاع انرژی</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>حد انتگرال</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>حد توان کنترلی</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>سمت به رول</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>حد انتگرال</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>حد توان کنترلی</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>سرعت هوایی به پیچ</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>حد انتگرال</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>حد توان کنترلی</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>PID سرووی یاو</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>حد نرخ یاو</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>مسیر و گردش مداری</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>شعاع پیش‌فرض</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>بهرهٔ گردش مداری</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>زاویهٔ ورود</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>بهرهٔ مسیر</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>زاویه‌های ناوبری</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>کمینهٔ پیچ</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>بیشینهٔ پیچ</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>کمینهٔ زاویهٔ بانک</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>بیشینهٔ زاویهٔ بانک</value></data>
+  <data name="groupBox10.Text" xml:space="preserve"><value>تنظیمات ارتفاع‌سنج</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>in Hg</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>ارتفاع محل</value></data>
+  <data name="groupBox11.Text" xml:space="preserve"><value>برخاست / فرود</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>سرعت تقرب</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>کمینهٔ پیچ برخاست</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>سرعت هوایی m/s</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>بیشینهٔ سرعت هوایی</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>کمینهٔ سرعت هوایی</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>کروز</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>رول به سکان افقی</value></data>
+  <data name="BUT_read_flash.Text" xml:space="preserve"><value>خواندن حافظهٔ فلش</value></data>
+  <data name="BUT_write_flash.Text" xml:space="preserve"><value>نوشتن حافظهٔ فلش</value></data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>بازخوانی پارامترها</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>نوشتن پارامترها</value></data>
+</root>

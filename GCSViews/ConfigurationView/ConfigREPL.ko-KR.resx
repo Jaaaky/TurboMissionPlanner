@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -193,7 +193,7 @@
     <value>8</value>
   </data>
   <data name="BUT_disconnect.Text" xml:space="preserve">
-    <value>연결 해제</value>
+    <value>연결 끊기</value>
   </data>
   <data name="&gt;&gt;BUT_disconnect.Name" xml:space="preserve">
     <value>BUT_disconnect</value>

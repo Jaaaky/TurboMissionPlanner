@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>这是什么。 1. 从nmea gps获得当前gps记录。 2. 以你选的频率发送引导模式航点至APM。 （记住这限制了你用什么gps) 如何使用 1. 连接APM。 2. 起飞，测试引导模式正常工作。 3. 打开这个然后为你的nmea gps选择COM口和波特率。 4. 它现在就回跟着你了</value>
+    <value>功能说明
+1. 从 NMEA GPS 获取当前坐标。
+2. 按指定频率向飞控发送引导模式航点（实际频率受所用 GPS 限制）。
+
+使用方法
+1. 连接飞控。
+2. 起飞，确认引导模式正常工作。
+3. 打开此窗口，选择 NMEA GPS 的串口和波特率。
+4. 飞行器应开始跟随您。
+注意：必须手动将飞控切换到引导模式。</value>
   </data>
 </root>

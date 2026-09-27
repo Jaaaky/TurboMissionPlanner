@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Aşağıdakı səhifələr yalnız ətraflı konfiqurasiya üçündür. Ehtiyatla istifadə edin</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>MAVLink müfəttişi</value></data>
+  <data name="but_warningmanager.Text" xml:space="preserve"><value>Xəbərdarlıq idarəetməsi</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>Yaxınlıq</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>MAVLink imzalama</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>MAVLink əksləmə</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Bağlantını dəstək mühəndisi ilə paylaş</value></data>
+  <data name="BUT_supportproxy.Text" xml:space="preserve"><value>Dəstək proksisi</value></data>
+  <data name="BUT_spect.Text" xml:space="preserve"><value>Spektroqram</value></data>
+  <data name="but_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Aparatın mövqeyini NMEA sətri kimi çıxar</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>MAVLink-i xarici ünvana əkslə. Monitorinq və ya idarəetmə üçün</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Aparatla rabitəni qorumaq üçün MAVLink imzalamasını aktiv et</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>360 dərəcəlik lidarın məlumatlarına bax</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Şərtlər toplusuna əsaslanan fərdi xəbərdarlıqları aktiv et</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Göndərilən və alınan MAVLink məlumatlarının dekodlaşdırılmış məzmununa bax</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>bin və ya tlog faylındakı enlik/uzunluğu anonimləşdir</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>Məni izlə</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Xarici NMEA GPS istifadə et və onun mövqeyinə əsasən aparata GUIDED rejimi üçün marşrut nöqtələri göndər</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Mission Planner daxilində istifadə olunan parametr məlumatını yenidən yarat</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>Parametr yaratma</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Cari mövqeyiniz üçün xəritədə əlavə nişan göstər.</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>Hərəkətli baza</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>Anonim jurnal</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Jurnaldan FFT qrafiki çək</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Jurnaldan FFT qrafiki çək</value></data>
+</root>

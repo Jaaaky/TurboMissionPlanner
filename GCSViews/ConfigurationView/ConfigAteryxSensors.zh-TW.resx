@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -260,15 +260,15 @@
     <value>79, 13</value>
   </data>
   <data name="BUT_zero_att.Text" xml:space="preserve">
-    <value>零高度</value>
+    <value>姿態歸零</value>
   </data>
   <data name="BUT_zero_att.ToolTip" xml:space="preserve">
-    <value>加速度計校準。</value>
+    <value>立即校正加速度計。</value>
   </data>
   <data name="BUT_zero_press.Text" xml:space="preserve">
-    <value>零氣壓</value>
+    <value>氣壓歸零</value>
   </data>
   <data name="BUT_zero_press.ToolTip" xml:space="preserve">
-    <value>加速度計校準。</value>
+    <value>立即校正加速度計。</value>
   </data>
 </root>

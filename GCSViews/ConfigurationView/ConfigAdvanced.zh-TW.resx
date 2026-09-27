@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>以下頁面僅供進階設定，請謹慎使用</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>MAVLink 檢視器</value></data>
+  <data name="but_warningmanager.Text" xml:space="preserve"><value>警告管理員</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>近距離感測</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>MAVLink 簽章</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>MAVLink 鏡像</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>與支援工程師共用連線</value></data>
+  <data name="BUT_supportproxy.Text" xml:space="preserve"><value>技術支援代理連線</value></data>
+  <data name="BUT_spect.Text" xml:space="preserve"><value>頻譜圖</value></data>
+  <data name="but_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>將載具位置輸出為 NMEA 字串</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>將 MAVLink 鏡像傳送至外部位置，供監控或控制使用</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>啟用 MAVLink 簽章，保護與載具之間的通訊</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>檢視 360 度光達資料</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>依指定條件啟用自訂警告</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>檢視傳送與接收的 MAVLink 解碼資料</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>對 bin 或 tlog 中的經緯度進行匿名化處理</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>跟隨我</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>使用外接 NMEA GPS，依其位置將導引模式航點傳送至載具</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>重新產生 Mission Planner 使用的參數資訊</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>產生參數資訊</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>在地圖上顯示代表您目前位置的額外圖示。</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>移動基站</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>記錄匿名化</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>從記錄繪製 FFT 圖</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>從記錄繪製 FFT 圖</value></data>
+</root>

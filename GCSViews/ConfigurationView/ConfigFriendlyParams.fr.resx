@@ -68,6 +68,6 @@
     <value>Rechercher</value>
   </data>
   <data name="chk_advview.Text" xml:space="preserve">
-    <value>Vue menu avancé</value>
+    <value>Afficher les menus avancés</value>
   </data>
 </root>

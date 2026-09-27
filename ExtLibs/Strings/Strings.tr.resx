@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,13 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BadCoords" xml:space="preserve">
-    <value>Kötü Shire / Dol</value>
+    <value>Geçersiz enlem/boylam</value>
   </data>
   <data name="CannotGraphField" xml:space="preserve">
-    <value>Bu alan grafikle gosterilemiyor</value>
+    <value>Bu alanın grafiği çizilemiyor</value>
   </data>
   <data name="CommandFailed" xml:space="preserve">
-    <value>Komut başarısız oldu</value>
+    <value>Komut çalıştırılamadı
+</value>
   </data>
   <data name="ERROR" xml:space="preserve">
     <value>Hata</value>
@@ -133,379 +134,393 @@
     <value>Günlük dosyaları kapatılırken hata oluştu</value>
   </data>
   <data name="ErrorCommunicating" xml:space="preserve">
-    <value>Otomatik pilot ile iletişim hatası</value>
+    <value>Otopilotla iletişim kurulurken hata oluştu</value>
   </data>
   <data name="ErrorConnecting" xml:space="preserve">
-    <value>Bağlantı hatası</value>
+    <value>Bağlantı hatası
+</value>
   </data>
   <data name="ErrorFeatureNotEnabled" xml:space="preserve">
-    <value>Bu özellik ürün yazılımınıza dahil değildir.</value>
+    <value>Bu özellik donanım yazılımınızda etkin değil.</value>
   </data>
   <data name="ErrorFirmwareFile" xml:space="preserve">
-    <value>Firmware dosyası yüklenirken hata oluştu</value>
+    <value>Donanım yazılımı dosyası yüklenirken hata oluştu</value>
   </data>
   <data name="ErrorLogList" xml:space="preserve">
-    <value>Günlüklerin listesi alınırken hata oluştu</value>
+    <value>Günlük listesi alınırken hata oluştu</value>
   </data>
   <data name="ErrorNoResponse" xml:space="preserve">
-    <value>Hata: MAV'den yanıt yok</value>
+    <value>Hata: Araç yanıt vermiyor</value>
   </data>
   <data name="ErrorNotConnected" xml:space="preserve">
-    <value>Bağlanmadınız.</value>
+    <value>Bağlı değilsiniz.</value>
   </data>
   <data name="ErrorReceivingParams" xml:space="preserve">
-    <value>Alınan hataların listesi</value>
+    <value>Liste alınırken hata oluştu
+</value>
   </data>
   <data name="ErrorRejectedByMAV" xml:space="preserve">
-    <value>Hata: komut, MAV tarafından reddedildi</value>
+    <value>Hata: Komut araç tarafından reddedildi</value>
   </data>
   <data name="ErrorRenameFile" xml:space="preserve">
     <value>Dosya yeniden adlandırılırken hata oluştu</value>
   </data>
   <data name="ErrorSettingParameter" xml:space="preserve">
-    <value>Parametre ayarlanırken hata oluştu</value>
+    <value>Parametre ayarlanırken hata oluştu: </value>
   </data>
   <data name="InvalidAlt" xml:space="preserve">
-    <value>Geçersiz yükseklik</value>
+    <value>Geçersiz irtifa</value>
   </data>
   <data name="InvalidBaudRate" xml:space="preserve">
-    <value>Geçersiz BaudRate</value>
+    <value>Geçersiz baud hızı</value>
   </data>
   <data name="InvalidField" xml:space="preserve">
-    <value>Geçersiz bölge</value>
+    <value>Geçersiz alan</value>
   </data>
   <data name="InvalidFileName" xml:space="preserve">
     <value>Geçersiz dosya adı</value>
   </data>
   <data name="InvalidNumberEntered" xml:space="preserve">
-    <value>Geçersiz sayı girildi</value>
+    <value>Geçersiz sayı girildi
+</value>
   </data>
   <data name="InvalidPanRange" xml:space="preserve">
-    <value>Gecersiz PAN Aralıgı</value>
+    <value>Geçersiz yatay dönüş aralığı</value>
   </data>
   <data name="InvalidPortName" xml:space="preserve">
-    <value>Geçersiz bağlantı noktası</value>
+    <value>Geçersiz port adı</value>
   </data>
   <data name="InvalidTiltRange" xml:space="preserve">
-    <value>Geçersiz eğim aralığı</value>
+    <value>Geçersiz dikey eğim aralığı</value>
   </data>
   <data name="InvalidUpdateRate" xml:space="preserve">
     <value>Geçersiz güncelleme hızı</value>
   </data>
   <data name="NoFMTMessage" xml:space="preserve">
-    <value>FMT mesajı yok</value>
+    <value>Şunun için FMT mesajı yok: </value>
   </data>
   <data name="PleaseConnect" xml:space="preserve">
-    <value>Once bağlan</value>
+    <value>Lütfen önce bağlanın</value>
   </data>
   <data name="PleaseLoadValidFile" xml:space="preserve">
-    <value>Doğru dosyayı indirin</value>
+    <value>Lütfen geçerli bir dosya yükleyin</value>
   </data>
   <data name="PleaseSelectCell" xml:space="preserve">
-    <value>Bir hücre seçin</value>
+    <value>Lütfen önce bir hücre seçin</value>
   </data>
   <data name="SelectComport" xml:space="preserve">
-    <value>Baglantı noktası secin</value>
+    <value>Lütfen bir COM portu seçin</value>
   </data>
   <data name="WarningLogBrowseFMTMissing" xml:space="preserve">
-    <value>Gunluk görunumu, gunlugunuzde FMT mesajları olmadan duzgun şekilde calısmayacaktır. Günlüklerinde değil gibi görünüyor.</value>
+    <value>Günlüğünüzde FMT mesajları olmadan günlük tarayıcısı düzgün çalışmaz.
+Bu mesajlar günlüğünüzde eksik görünüyor.</value>
   </data>
   <data name="WarningUpdateParamList" xml:space="preserve">
-    <value>Güncelleme ayarları AIR'DE</value>
+    <value>Parametreleri güncelle
+UÇUŞ SIRASINDA BUNU YAPMAYIN
+</value>
   </data>
   <data name="Checking" xml:space="preserve">
-    <value>Dogrulama</value>
+    <value>Kontrol ediliyor: </value>
   </data>
   <data name="DownloadedFromInternet" xml:space="preserve">
-    <value>Internetten Indir</value>
+    <value>İnternetten indirildi</value>
   </data>
   <data name="Getting" xml:space="preserve">
-    <value>Ayrılma</value>
+    <value>Alınıyor: </value>
   </data>
   <data name="GettingUpdatedParams" xml:space="preserve">
-    <value>Güncellenmiş ayarları alma</value>
+    <value>Güncellenmiş parametreler alınıyor</value>
   </data>
   <data name="AdvancedParams" xml:space="preserve">
-    <value>Gelismis Seçenekler</value>
+    <value>Gelişmiş parametreler</value>
   </data>
   <data name="BasicTuning" xml:space="preserve">
     <value>Temel ayarlar</value>
   </data>
   <data name="Desc" xml:space="preserve">
-    <value>Tanım:</value>
+    <value>Açıklama: </value>
   </data>
   <data name="ExtendedTuning" xml:space="preserve">
-    <value>Gelişmiş Kurulum</value>
+    <value>Ayrıntılı ayarlar</value>
   </data>
   <data name="FlightModes" xml:space="preserve">
     <value>Uçuş modları</value>
   </data>
   <data name="FullParameterList" xml:space="preserve">
-    <value>Parametre listesi</value>
+    <value>Tüm parametreler listesi</value>
   </data>
   <data name="FullParameterTree" xml:space="preserve">
-    <value>Parametre Secenekleri</value>
+    <value>Tüm parametreler ağacı</value>
   </data>
   <data name="StandardParams" xml:space="preserve">
-    <value>Standart ayarlar</value>
+    <value>Standart parametreler</value>
   </data>
   <data name="ProgrammedOK" xml:space="preserve">
-    <value>Basarıyla programlandı</value>
+    <value>Başarıyla programlandı</value>
   </data>
   <data name="CONNECTc" xml:space="preserve">
-    <value>BAGLAN</value>
+    <value>BAĞLAN</value>
   </data>
   <data name="Disconnect" xml:space="preserve">
-    <value>Baglantıyı Kes</value>
+    <value>Bağlantıyı kes</value>
   </data>
   <data name="DISCONNECTc" xml:space="preserve">
-    <value>Baglantıyı Kes</value>
+    <value>BAĞLANTIYI KES</value>
   </data>
   <data name="Failclog" xml:space="preserve">
-    <value>Kayıt oluşturulamadı, bu oturum kaydedilmedi</value>
+    <value>Yer istasyonu günlüğü oluşturulamadı; bu oturum kaydedilmeyecek</value>
   </data>
   <data name="NewFirmware" xml:space="preserve">
-    <value>Yeni firmware</value>
+    <value>Yeni donanım yazılımı</value>
   </data>
   <data name="NewFirmwareA" xml:space="preserve">
-    <value>Yeni bir firmware sürümü mevcut</value>
+    <value>Yeni donanım yazılımı mevcut
+</value>
   </data>
   <data name="Pleaseup" xml:space="preserve">
-    <value>Lütfen güncelleyin</value>
+    <value>
+Lütfen yükseltin</value>
   </data>
   <data name="Stillmoving" xml:space="preserve">
-    <value>Modelin hala hareket ediyor, baglantiyi kesmek istediğine emin misin?</value>
+    <value>Aracınız hâlâ hareket ediyor. Bağlantıyı kesmek istediğinizden emin misiniz?</value>
   </data>
   <data name="Timeout" xml:space="preserve">
-    <value>Otomatik algılama süresi sona erdi / mavlink aygıtı bağlı değil</value>
+    <value>Otomatik tarama beklenirken zaman aşımı oluştu / MAVLink cihazı bağlı değil</value>
   </data>
   <data name="ConnectFailed" xml:space="preserve">
-    <value>Bağlantı başarısız</value>
+    <value>Bağlantı kurulamadı</value>
   </data>
   <data name="ConnectingMavlink" xml:space="preserve">
-    <value>Mavlink Bağlama</value>
+    <value>MAVLink bağlantısı kuruluyor</value>
   </data>
   <data name="Done" xml:space="preserve">
-    <value>Tamam</value>
+    <value>Bitti</value>
   </data>
   <data name="GettingParams" xml:space="preserve">
-    <value>Parametre Baslangıcı</value>
+    <value>Parametreler alınıyor</value>
   </data>
   <data name="GettingParamsD" xml:space="preserve">
-    <value>Parametreler Alınıyor ...</value>
+    <value>Parametreler alınıyor...</value>
   </data>
   <data name="Gotparam" xml:space="preserve">
-    <value>Alınan parametreler</value>
+    <value>Parametre alındı: </value>
   </data>
   <data name="MavlinkConnecting" xml:space="preserve">
-    <value> Mavlink Baglantısı...</value>
+    <value>MAVLink bağlantısı kuruluyor...</value>
   </data>
   <data name="Only1Hb" xml:space="preserve">
-    <value>Sadece Bir Heatbeat alındı</value>
+    <value>Yalnızca 1 heartbeat alındı</value>
   </data>
   <data name="Only1HbD" xml:space="preserve">
-    <value>Bu porttan sadece 1 Mavlink Heartbeat Packets okundu. Ekipmanınızın doğru kurulduğunu kontrol edin. Planlayıcı 2'yi bağlamadan önce geçerli sinyal bekleniyor</value>
+    <value>Bu porttan yalnızca 1 MAVLink heartbeat paketi okundu. Donanımınızın doğru kurulduğunu doğrulayın.
+Mission Planner bağlanmadan önce 2 geçerli heartbeat paketi bekler.</value>
   </data>
   <data name="Trying" xml:space="preserve">
-    <value>Bağlanmaya çalış. Zaman aşımı{0}</value>
+    <value>Bağlanmaya çalışılıyor.
+Zaman aşımına kalan süre: {0}</value>
   </data>
   <data name="CantDetectBoardVersion" xml:space="preserve">
-    <value>Kontrolör versiyonu belirlenemedi. Bağlantıyı kontrol et!</value>
+    <value>Kart sürümünüz algılanamıyor. Lütfen kablo bağlantılarınızı kontrol edin.</value>
   </data>
   <data name="CheckPortSettingsOr" xml:space="preserve">
-    <value>Bağlantı noktası numarasını veya ayarlarını kontrol et</value>
+    <value>Port ayarlarını kontrol edin. Port kullanımda olabilir mi?</value>
   </data>
   <data name="CommunicationErrorNoConnection" xml:space="preserve">
     <value>İletişim hatası - bağlantı yok</value>
   </data>
   <data name="DetectedA" xml:space="preserve">
-    <value>Tespit</value>
+    <value>Algılanan: </value>
   </data>
   <data name="DetectingBoardVersion" xml:space="preserve">
-    <value>Kart sürümü algılama</value>
+    <value>Kart sürümü algılanıyor</value>
   </data>
   <data name="DownloadingFromInternet" xml:space="preserve">
-    <value>Internetten indir</value>
+    <value>İnternetten indiriliyor</value>
   </data>
   <data name="EppromChanged" xml:space="preserve">
-    <value>Eeprom değişecek, yükseltme sırasında tüm ayarlarınız kaybolacak. Devam etmek istiyor musun?</value>
+    <value>EEPROM değişti. Güncelleme sırasında tüm ayarlarınız kaybolacak.
+Devam etmek istiyor musunuz?</value>
   </data>
   <data name="EppromFormatChanged" xml:space="preserve">
-    <value>Epprom formatı değişti ({0) vs {1})</value>
+    <value>EEPROM biçimi değişti ({0) ile {1})</value>
   </data>
   <data name="FailedDownload" xml:space="preserve">
-    <value>Indirme Hatasi</value>
+    <value>İndirme başarısız</value>
   </data>
   <data name="FailedReadHEX" xml:space="preserve">
     <value>HEX okunamadı</value>
   </data>
   <data name="FailedToReadHex" xml:space="preserve">
-    <value>Firmware.hex okunamadı:</value>
+    <value>firmware.hex okunamadı:</value>
   </data>
   <data name="FailedUpload" xml:space="preserve">
-    <value>Yükleme hatası</value>
+    <value>Yükleme başarısız</value>
   </data>
   <data name="GettingFWList" xml:space="preserve">
-    <value>FW Listesi alınıyor </value>
+    <value>Donanım yazılımı listesi alınıyor</value>
   </data>
   <data name="GettingFWVersion" xml:space="preserve">
-    <value>FW sürümünü alma</value>
+    <value>Donanım yazılımı sürümü alınıyor</value>
   </data>
   <data name="InvalidBoardType" xml:space="preserve">
-    <value>Geçersiz pano türü</value>
+    <value>Geçersiz kart tipi</value>
   </data>
   <data name="PleaseConnectAndBackupConfig" xml:space="preserve">
-    <value>Yapılandırma sekmesinde, yapılandırmanızın bir yedeğini bağlayın ve oluşturun.</value>
+    <value>Lütfen bağlanın ve yapılandırma sekmesinden ayarlarınızı yedekleyin.</value>
   </data>
   <data name="ReadingHexFile" xml:space="preserve">
-    <value>HEX Dosyasi Okuma</value>
+    <value>Hex dosyası okunuyor</value>
   </data>
   <data name="ReceivedList" xml:space="preserve">
-    <value>Liste al</value>
+    <value>Liste alındı</value>
   </data>
   <data name="UploadComplete" xml:space="preserve">
-    <value>Yükleme Tamamlandı</value>
+    <value>Yükleme tamamlandı</value>
   </data>
   <data name="UploadingBytesToBoard" xml:space="preserve">
-    <value>{0} baytını Denetleyiciye yükleme:</value>
+    <value>Karta {0} bayt yükleniyor:</value>
   </data>
   <data name="VerifyComplete" xml:space="preserve">
     <value>Doğrulama tamamlandı</value>
   </data>
   <data name="VerifyFirmware" xml:space="preserve">
-    <value>Test firmware</value>
+    <value>Donanım yazılımını doğrula</value>
   </data>
   <data name="UploadSucceededButVerifyFailed" xml:space="preserve">
-    <value>İndirme başarılı oldu, ancak test başarısız oldu: exp {0}, alm{1}</value>
+    <value>Yükleme başarılı, ancak doğrulama başarısız: beklenen {0}, alınan {1}, konum: </value>
   </data>
   <data name="ReadingHex" xml:space="preserve">
-    <value>Hex okuma</value>
+    <value>Hex okunuyor</value>
   </data>
   <data name="Warningrallypointdistance" xml:space="preserve">
-    <value>Dönüş noktaları ralli bulunan daha RALLY_LİMİT_KM</value>
+    <value>Uyarı: Toplanma noktalarının uzaklığı RALLY_LIMIT_KM değerini aşıyor</value>
   </data>
   <data name="Warning" xml:space="preserve">
-    <value>Dikkat</value>
+    <value>Uyarı</value>
   </data>
   <data name="WarningAC32" xml:space="preserve">
-    <value>Uyarı. AC 3.2'yi ilk kez ayarlarsanız, pusula kalibrasyonunu tekrarlamanız GEREKİR.</value>
+    <value>Uyarı: AC 3.2'yi ilk kez kuruyorsanız pusula kalibrasyonunu MUTLAKA yeniden yapmalısınız.</value>
   </data>
   <data name="WarningAC31" xml:space="preserve">
-    <value>Uyarı, AC motorları MOT_SPIN_ARMED parametresi kullanılarak "silahlı" olduklarında dönecektir.</value>
+    <value>Uyarı: AC 3.1'den itibaren arm edildiğinde motorlar döner. Bu davranış MOT_SPIN_ARMED parametresiyle ayarlanabilir.</value>
   </data>
   <data name="MagCalibMsg" xml:space="preserve">
-    <value>OK düğmesine basın ve dairesel hareketle otopilotun etrafındaki tüm eksenleri hareket ettirin.</value>
+    <value>Lütfen Tamam'a tıklayın ve otopilotu tüm eksenlerde dairesel hareketlerle döndürün</value>
   </data>
   <data name="MissingDataPoints" xml:space="preserve">
-    <value>Yeterli veri yok. hala kalibrasyonu başlatmak istiyor musunuz?</value>
+    <value>Eksik veri noktaları var. Yine de kalibrasyonu çalıştırmak istiyor musunuz?</value>
   </data>
   <data name="RunAnyway" xml:space="preserve">
-    <value>yine de başla</value>
+    <value>Yine de çalıştır</value>
   </data>
   <data name="UpdateFound" xml:space="preserve">
-    <value>Güncelleme bulundu. Şimdi mi yükseltmek istiyorsun?</value>
+    <value>Güncelleme bulundu
+
+Şimdi güncellemek istiyor musunuz? </value>
   </data>
   <data name="UpdateNow" xml:space="preserve">
-    <value>Simdi güncelle</value>
+    <value>Şimdi güncelle</value>
   </data>
   <data name="RawParamWarning" xml:space="preserve">
-    <value>İşlenmemiş parametre uyarısı</value>
+    <value>Ham parametre uyarısı</value>
   </data>
   <data name="RawParamWarningi" xml:space="preserve">
-    <value> Bu ekrandaki tüm değerler min / maks. Lütfen girişinizi iki kez kontrol edin. Güvenli ayarlar için lütfen standart / gelişmiş ayarları kullanın</value>
+    <value>Bu ekrandaki değerlerde min./maks. sınır kontrolü yapılmaz. Girdilerinizi dikkatle kontrol edin.
+Güvenli ayarlar için Standart/Gelişmiş Parametreler ekranını kullanın.</value>
   </data>
   <data name="ShowMeAgain" xml:space="preserve">
-    <value>Tekrar göster?</value>
+    <value>Tekrar gösterilsin mi?</value>
   </data>
   <data name="LinkStats" xml:space="preserve">
-    <value>Bağlantı İstatistikleri</value>
+    <value>Bağlantı istatistikleri</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>Durdur</value>
   </data>
   <data name="Connect" xml:space="preserve">
-    <value>Baglan</value>
+    <value>Bağlan</value>
   </data>
   <data name="Start" xml:space="preserve">
-    <value>Start</value>
+    <value>Başlat</value>
   </data>
   <data name="AreYouSureYouWantToUpload" xml:space="preserve">
-    <value>Indirmek istediğinize emin misiniz?</value>
+    <value>Şunu yüklemek istediğinizden emin misiniz: </value>
   </data>
   <data name="Beta" xml:space="preserve">
-    <value>Bета</value>
+    <value>Beta</value>
   </data>
   <data name="BetaWarning" xml:space="preserve">
-    <value>Bu,kendi riskinizde kullanılan bellenimin beta sürümüdür!!!</value>
+    <value>Bunlar beta donanım yazılımlarıdır. Tüm risk size aittir!</value>
   </data>
   <data name="CanNotConnectToComPortAnd" xml:space="preserve">
-    <value>COM bağlantı noktasına bağlanamıyor ve kart tipini belirleyemiyor</value>
+    <value>COM portuna bağlanılamıyor ve kart tipi algılanamıyor</value>
   </data>
   <data name="Continue" xml:space="preserve">
-    <value>Devam</value>
+    <value>Devam et</value>
   </data>
   <data name="ErrorUploadingFirmware" xml:space="preserve">
-    <value>Urün yazılımı yüklenirken hata oluştu</value>
+    <value>Donanım yazılımı yüklenirken hata oluştu</value>
   </data>
   <data name="Trunk" xml:space="preserve">
-    <value>Lastik</value>
+    <value>Geliştirme sürümü</value>
   </data>
   <data name="TrunkWarning" xml:space="preserve">
-    <value>Bu yeni firmware, kendi riskiniz !!!</value>
+    <value>Bunlar en yeni geliştirme sürümleridir. Tüm risk size aittir!</value>
   </data>
   <data name="BadGPSHealth" xml:space="preserve">
-    <value>Kötü GPS verileri</value>
+    <value>GPS sinyali sağlıksız</value>
   </data>
   <data name="BadGyroHealth" xml:space="preserve">
-    <value>Kötü gyro verileri</value>
+    <value>Jiroskop sağlıksız</value>
   </data>
   <data name="BadAccelHealth" xml:space="preserve">
-    <value>Kotu Ivmeolcer okumalari</value>
+    <value>İvmeölçer sağlıksız</value>
   </data>
   <data name="BadCompassHealth" xml:space="preserve">
-    <value>Kötü pusula verileri</value>
+    <value>Pusula sağlıksız</value>
   </data>
   <data name="BadBaroHealth" xml:space="preserve">
-    <value>Kötü Barometre Verileri</value>
+    <value>Barometre sağlıksız</value>
   </data>
   <data name="BadLiDARHealth" xml:space="preserve">
-    <value>Kotu veri LiDARа</value>
+    <value>LiDAR sağlıksız</value>
   </data>
   <data name="BadOptFlowHealth" xml:space="preserve">
-    <value>Kötü OptFlow okumaları</value>
+    <value>Optik akış sensörü sağlıksız</value>
   </data>
   <data name="BadorNoTerrainData" xml:space="preserve">
-    <value>Zayıf veya arazi verisi yok</value>
+    <value>Arazi verileri geçersiz veya eksik</value>
   </data>
   <data name="GeofenceBreach" xml:space="preserve">
-    <value>Geofence Kesintisi</value>
+    <value>Sanal çit ihlali</value>
   </data>
   <data name="BadAHRS" xml:space="preserve">
-    <value>Kotu AHRS</value>
+    <value>AHRS sağlıksız</value>
   </data>
   <data name="NORCReceiver" xml:space="preserve">
-    <value>rc alıcısı yok</value>
+    <value>RC alıcısı YOK</value>
   </data>
   <data name="AutoWP" xml:space="preserve">
-    <value>Oto МТ</value>
+    <value>Otomatik rota noktaları</value>
   </data>
   <data name="EnsurePropsNotOn" xml:space="preserve">
-    <value>Vites(ler)in motor(lar)ın üzerinde OLMADIĞINDAN emin olun</value>
+    <value>Uçağın/çok rotorlu aracın pervanelerinin söküldüğünden emin olun</value>
   </data>
   <data name="Error_binding" xml:space="preserve">
-    <value>Bağlama Hatası</value>
+    <value>Eşleştirme hatası</value>
   </data>
   <data name="Put_the_transmitter_in_bind_mode__Receiver_is_waiting" xml:space="preserve">
-    <value>Vericiyi moduna bağlama. Alıcı bekliyor.</value>
+    <value>Vericiyi eşleştirme moduna alın. Alıcı bekliyor.</value>
   </data>
   <data name="Completed" xml:space="preserve">
-    <value>tamamlanan</value>
+    <value>Tamamlandı</value>
   </data>
   <data name="Click_when_Done" xml:space="preserve">
-    <value>Tamamlamak için tıklayın.</value>
+    <value>Bitince tıklayın</value>
   </data>
   <data name="Saving" xml:space="preserve">
-    <value>Kaydet</value>
+    <value>Kaydediliyor</value>
   </data>
   <data name="InvalidCert" xml:space="preserve">
     <value>Geçersiz sertifika</value>
@@ -514,93 +529,123 @@
     <value>Not</value>
   </data>
   <data name="PleaseUnplugTheBoardAnd" xml:space="preserve">
-    <value>Lütfen kartı PC'den çıkarın, ardından Tamam'a tıklayın ve yeniden bağlayın. Görev planlayıcısı bulmak için 30 saniye arayacak.</value>
+    <value>Lütfen kartı çıkarın, Tamam'a basın ve tekrar takın.
+Mission Planner kartı bulmak için 30 saniye boyunca arama yapacak.</value>
   </data>
   <data name="ThisBoardHasBeenRetired" xml:space="preserve">
-    <value>Bu kart desteklenmez, Görev Zamanlayıcısı seçtiğiniz en yeni sürümü indirir.(AC 3.2.1 / AP 3.4.0)</value>
+    <value>Bu kartın desteği sona erdi. Mission Planner kartınıza son kullanılabilir sürümü yükleyecek (AC 3.2.1/AP 3.4.0).</value>
   </data>
   <data name="YouAreUsingUnsupportedHardware" xml:space="preserve">
-    <value>Desteklenmeyen donanım kullanıyorsunuz. Bu kart geçerli bir kimlik sertifikası içermiyor. Ekipmanınızı imzalama hakkında bilgi için donanım satıcınıza başvurun.</value>
+    <value>Desteklenmeyen donanım kullanıyorsunuz.
+Bu kartta geçerli bir özgünlük sertifikası bulunmuyor.
+Donanımınızın imzalanması için lütfen donanım satıcınızla iletişime geçin.</value>
   </data>
   <data name="NoNeedToUpload" xml:space="preserve">
-    <value>İndirmenize gerek yok. zaten anakart üzerinde</value>
+    <value>Yüklemeye gerek yok. Zaten kartta mevcut.</value>
   </data>
   <data name="PleaseWaitForTheMusicalTones" xml:space="preserve">
-    <value>Tamam'a basmadan önce müzik melodisi bitene kadar bekleyin.</value>
+    <value>Tamam'a tıklamadan önce lütfen melodinin bitmesini bekleyin</value>
   </data>
   <data name="ObtainFromModule" xml:space="preserve">
-    <value>Modülden Alın</value>
+    <value>Modülden al</value>
   </data>
   <data name="SetHere" xml:space="preserve">
-    <value>Buradan yukleyin</value>
+    <value>Buraya ayarla</value>
   </data>
   <data name="TrackerHome" xml:space="preserve">
-    <value>Baslangıc Noktasi </value>
+    <value>Takip anteni ev konumu</value>
   </data>
   <data name="velocity_variance" xml:space="preserve">
-    <value>Hiz dagilimi</value>
+    <value>Hız varyansı</value>
   </data>
   <data name="compass_variance" xml:space="preserve">
-    <value>pusula varyansı</value>
+    <value>Pusula varyansı</value>
   </data>
   <data name="pos_horiz_variance" xml:space="preserve">
-    <value>yatay varyans</value>
+    <value>Yatay konum varyansı</value>
   </data>
   <data name="pos_vert_variance" xml:space="preserve">
-    <value>dikey dağılım</value>
+    <value>Dikey konum varyansı</value>
   </data>
   <data name="terrain_alt_variance" xml:space="preserve">
-    <value>yükseklik farkı</value>
+    <value>Arazi irtifası varyansı</value>
   </data>
   <data name="ChangeThrottle" xml:space="preserve">
-    <value>Gazı degistir</value>
+    <value>Gazı değiştir</value>
   </data>
   <data name="Invalid_home_location" xml:space="preserve">
-    <value>Geçersiz konum</value>
+    <value>Geçersiz ev konumu</value>
   </data>
   <data name="Converting_bin_to_log" xml:space="preserve">
-    <value>Verileri bir gunluge donusturme</value>
+    <value>BIN dosyası LOG biçimine dönüştürülüyor</value>
   </data>
   <data name="UpdateNotFound" xml:space="preserve">
     <value>Güncelleme yok.</value>
   </data>
   <data name="Failed_to_connect_to_SITL_instance" xml:space="preserve">
-    <value>SITL bağlanılamadı</value>
+    <value>SITL örneğine bağlanılamadı</value>
   </data>
   <data name="Scanning_File" xml:space="preserve">
-    <value>Dosya tarama</value>
+    <value>Dosya taranıyor</value>
   </data>
   <data name="Zoom_to_the_center_or_the_loaded_file" xml:space="preserve">
-    <value>Merkeze veya indirilen dosyaya mı?</value>
+    <value>Merkeze mi yoksa yüklenen dosyaya mı yakınlaştırılsın?</value>
   </data>
   <data name="Zoom_To" xml:space="preserve">
-    <value>Zoom</value>
+    <value>Yakınlaştır</value>
   </data>
   <data name="Do_you_want_to_load_this_into_the_flight_data_screen" xml:space="preserve">
-    <value>Uçuş verileri ekranına yüklemek istiyor musunuz?</value>
+    <value>Bunu uçuş verileri ekranına yüklemek istiyor musunuz?</value>
   </data>
   <data name="Load_data" xml:space="preserve">
-    <value>Veri indir</value>
+    <value>Verileri yükle</value>
   </data>
   <data name="Bad_KML_File" xml:space="preserve">
-    <value>Kötü KML dosyası:</value>
+    <value>Geçersiz KML dosyası:</value>
   </data>
   <data name="No_valid_heartbeats_read_from_port" xml:space="preserve">
-    <value>Bağlantı noktası doğru verileri almadı</value>
+    <value>Porttan geçerli heartbeat okunamadı</value>
   </data>
   <data name="Bad_Vision_Position" xml:space="preserve">
-    <value>Kötü tanımlanmış pozisyon</value>
+    <value>Görüntü tabanlı konum sağlıksız</value>
   </data>
   <data name="BadLogging" xml:space="preserve">
-    <value>Kotu Kayıt</value>
+    <value>Günlük kaydı sağlıksız</value>
   </data>
   <data name="ParamRefreshRequired" xml:space="preserve">
-    <value>Parametre güncellemesi gerekli - F5 tuşuna basıldığında # {0}, # {1} olur</value>
+    <value>Parametrelerin yenilenmesi gerekiyor. Lütfen F5'e basın.
+Eski #{0}  Yeni #{1}</value>
   </data>
   <data name="Failed_to_download_the_SITL_image" xml:space="preserve">
-    <value>SITL resmi yüklenemedi.</value>
+    <value>SITL görüntüsü indirilemedi.</value>
   </data>
   <data name="Not_available_when_used_as_a_windows_store_app" xml:space="preserve">
-    <value>Windows mağaza uygulaması olarak kullanılamıyor</value>
+    <value>Windows Mağazası uygulamasında kullanılamaz</value>
   </data>
+  <data name="ErrorSetValueFailed" xml:space="preserve"><value>{0} ayarlanamadı</value></data>
+  <data name="GeoFence" xml:space="preserve"><value>Sanal çit</value></data>
+  <data name="Units" xml:space="preserve"><value>Birimler: {0}{1}</value></data>
+  <data name="OK" xml:space="preserve"><value>Tamam</value></data>
+  <data name="BadAirspeed" xml:space="preserve"><value>Hava hızı ölçümü sağlıksız</value></data>
+  <data name="FailSafe" xml:space="preserve"><value>Emniyet modu</value></data>
+  <data name="No_firmware_available_for_this_board" xml:space="preserve"><value>Bu kart için donanım yazılımı yok!</value></data>
+  <data name="OnboardOSD" xml:space="preserve"><value>Dahili OSD</value></data>
+  <data name="User_Params" xml:space="preserve"><value>Kullanıcı parametreleri</value></data>
+  <data name="Planner" xml:space="preserve"><value>Planlayıcı</value></data>
+  <data name="Cancel" xml:space="preserve"><value>İptal</value></data>
+  <data name="No_valid_sik_radio" xml:space="preserve"><value>Geçerli SiK radyo yok</value></data>
+  <data name="MAVFtp" xml:space="preserve"><value>MAVFtp</value></data>
+  <data name="Bad_Battery" xml:space="preserve"><value>Batarya sağlıksız</value></data>
+  <data name="Bad_Proximity" xml:space="preserve"><value>Yakınlık sensörü sağlıksız</value></data>
+  <data name="Bad_SatCom" xml:space="preserve"><value>Uydu iletişimi sağlıksız</value></data>
+  <data name="Prearm_check_failed" xml:space="preserve"><value>Arm öncesi kontrol başarısız; mesajları kontrol edin</value></data>
+  <data name="Invalid_Location" xml:space="preserve"><value>Geçersiz konum</value></data>
+  <data name="Loading" xml:space="preserve"><value>Yükleniyor</value></data>
+  <data name="ZeroAltWarningCopter" xml:space="preserve"><value>{0} numaralı rota noktasının irtifası sıfır; bu, irtifanın değişmeyeceği anlamına gelir! Sıfır irtifa istiyorsanız değeri 0.01 yapın. Devam etmek mi, rota noktası yüklemesini iptal etmek mi istiyorsunuz?</value></data>
+  <data name="ZeroAltWarningTitle" xml:space="preserve"><value>Sıfır irtifa uyarısı</value></data>
+  <data name="ZeroAltWarningPlane" xml:space="preserve"><value>{0} numaralı rota noktasının irtifası sıfır. Gerçekten sıfır irtifa istiyorsanız öngörülebilir davranış için değeri 0.01 yapın.
+
+ArduPlane'de sıfır irtifa iki farklı biçimde yorumlanabilir: gerçek sıfır irtifa veya mevcut irtifayı koruma. WAYPOINT komutları genellikle sıfır irtifayı uygular; LOITER komutları ise, yalnızca irtifa referansı "göreli" olduğunda, genellikle "mevcut irtifayı kullan" olarak yorumlar. Başka istisnalar da olabilir ve bu davranış ilerideki sürümlerde değişebilir.
+
+YALNIZCA KENDİ DURUMUNUZDA TAM OLARAK NE OLACAĞINI BİLİYORSANIZ SIFIRA AYARLAYIN (emin olmak için simülatör kullanın).[link;https://ardupilot.org/plane/docs/common-mavlink-mission-command-messages-mav_cmd.html;Komut belgeleri]</value></data>
 </root>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CHK_rotate.Text" xml:space="preserve"><value>Обертати з кожною точкою даних</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Наводьте на білі точки.
+Спрямуйте автопілот на північ і обертайте його навколо
+осі тангажу до горизонтального положення.
+Потім
+поверніть автопілот на 90 градусів і обертайте навколо
+осі крену до горизонтального положення.
+
+Так ви маєте охопити всі білі точки.</value></data>
+  <data name="chk_auto.Text" xml:space="preserve"><value>Автоматично приймати</value></data>
+</root>

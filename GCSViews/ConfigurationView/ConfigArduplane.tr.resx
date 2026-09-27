@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,45 +118,90 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
     <data name="label12.Text" xml:space="preserve">
-    <value>Max Tirmanis M/S</value>
+    <value>Maks. tırmanma (m/s)</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Donem</value>
+    <value>Periyot</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks.</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Min</value>
+    <value>Min.</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>L1 Control - tur Kontrolu</value>
+    <value>L1 kontrolü - dönüş kontrolü</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Navigasyon Koseleri</value>
+    <value>Seyrüsefer açıları</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Guc 0 - 100 %</value>
+    <value>Gaz %0-100</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Ruzgar hizi m / s</value>
+    <value>Hava hızı m/s</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Kurulum</value>
+    <value>Sönümleme</value>
   </data>
   <data name="label58.Text" xml:space="preserve">
-    <value>Sonum</value>
+    <value>Sönümleme</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Islemleri Gonder</value>
+    <value>Parametreleri yaz</value>
   </data>
   <data name="label78.Text" xml:space="preserve">
-    <value>Radar entegrasyonu </value>
+    <value>İstikamet dümeni karması</value>
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
-    <value>Ekran guncelleme </value>
+    <value>Ekranı yenile</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Islemleri guncelle</value>
+    <value>Parametreleri yenile</value>
   </data>
+  <data name="label5.Text" xml:space="preserve"><value>Değişim hızı</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Seyir</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Oran</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Maks.</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Seyir</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Min. yunuslama</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Maks. yunuslama</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Maks. yatış</value></data>
+  <data name="label83.Text" xml:space="preserve"><value>Yunuslamadan gaza</value></data>
+  <data name="groupBox16.Text" xml:space="preserve"><value>Diğer karmalar</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox14.Text" xml:space="preserve"><value>Enerji/irtifa PID</value></data>
+  <data name="label69.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label70.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label71.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label72.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>Seyrüsefer yunuslama-irtifa PID</value></data>
+  <data name="label65.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label66.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label67.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label68.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>Seyrüsefer yunuslama-hava hızı PID</value></data>
+  <data name="label57.Text" xml:space="preserve"><value>Maks. integral</value></data>
+  <data name="label59.Text" xml:space="preserve"><value>İntegral</value></data>
+  <data name="label60.Text" xml:space="preserve"><value>Sapmadan yatışa</value></data>
+  <data name="groupBox10.Text" xml:space="preserve"><value>Sapma servosu</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>Yunuslama servosu PID</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>Yatış servosu PID</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Maks. alçalma (m/s)</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Zaman sabiti</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Yunuslama sönümlemesi</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Min. alçalma (m/s)</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>TECS</value></data>
 </root>

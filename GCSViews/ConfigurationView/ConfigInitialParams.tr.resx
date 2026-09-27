@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Yeni bir çok rotorlu araç kurulumunda bazı parametreleri batarya ve pervane boyutuna göre ayarlamanız gerekir.
+Buraya veri girmeden ve parametreleri güncellemeden önce şunlardan emin olun:
+
+  -- TÜM İLK KURULUMLAR TAMAMLANDI (kalibrasyonlar, gövde ayarları, motor testleri)
+  -- BATARYA GERİLİMİ İZLEME AYARLANDI VE ÇALIŞIYOR
+
+Not: INS_GYRO_FILTER değerinin 20 dışında bir değere ayarlanması isteğe bağlıdır ve muhtemelen yalnızca küçük gövdeler/pervaneler için gereklidir. Başlangıçta 20 olarak bırakabilirsiniz.</value></data>
+</root>

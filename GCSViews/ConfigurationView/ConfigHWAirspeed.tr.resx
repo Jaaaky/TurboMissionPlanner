@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
     <data name="label2.Text" xml:space="preserve">
-    <value>Ruzgar Hizi</value>
+    <value>Hava hızı</value>
   </data>
   <data name="lbl_airspeed_pin.Text" xml:space="preserve">
-    <value>Hissedilen Ruzgar Hizi</value>
+    <value>Pin</value>
   </data>
   <data name="CHK_enableairspeed.Text" xml:space="preserve">
-    <value>Etkinlestir</value>
+    <value>Etkinleştir</value>
   </data>
   <data name="CHK_airspeeduse.Text" xml:space="preserve">
-    <value>Hiz sensorunu kullan</value>
+    <value>Hava hızını kullan</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>Tür</value></data>
 </root>

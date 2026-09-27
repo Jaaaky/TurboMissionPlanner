@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -121,15 +121,15 @@
     <value />
   </data>
   <data name="CHK_showconsole.Text" xml:space="preserve">
-    <value>Afficher la console (restart)</value>
+    <value>Afficher la console (redémarrage)</value>
   </data>
   <data name="BUT_updatecheck.Text" xml:space="preserve">
-    <value>Mettre a niveau</value>
+    <value>Rechercher des mises à jour</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Journal des modifications</value>
+    <value>Historique des modifications</value>
   </data>
   <data name="BUT_betaupdate.Text" xml:space="preserve">
-    <value>Vérifier les mises à jour BETA</value>
+    <value>Rechercher des mises à jour BÊTA</value>
   </data>
 </root>

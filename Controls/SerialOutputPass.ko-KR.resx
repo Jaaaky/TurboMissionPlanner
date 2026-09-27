@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -222,7 +222,7 @@
     <value>3</value>
   </data>
   <data name="chk_write.Text" xml:space="preserve">
-    <value>접근 기록</value>
+    <value>쓰기 권한</value>
   </data>
   <data name="&gt;&gt;chk_write.Name" xml:space="preserve">
     <value>chk_write</value>
@@ -330,4 +330,10 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Type.HeaderText" xml:space="preserve"><value>형식</value></data>
+  <data name="Direction.HeaderText" xml:space="preserve"><value>방향</value></data>
+  <data name="Port.HeaderText" xml:space="preserve"><value>포트</value></data>
+  <data name="Extra.HeaderText" xml:space="preserve"><value>호스트/전송 속도</value></data>
+  <data name="Write.HeaderText" xml:space="preserve"><value>쓰기</value></data>
+  <data name="Go.HeaderText" xml:space="preserve"><value>실행</value></data>
 </root>

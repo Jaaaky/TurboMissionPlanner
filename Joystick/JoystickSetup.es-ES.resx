@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -145,7 +145,7 @@
     <value>Alabeo</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Expo</value>
+    <value>Exponencial</value>
   </data>
   <data name="expo_ch1.Text" xml:space="preserve">
     <value>30</value>
@@ -169,7 +169,7 @@
     <value>0</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Controlador Ejes</value>
+    <value>Eje del controlador</value>
   </data>
   <data name="expo_ch6.Text" xml:space="preserve">
     <value>0</value>
@@ -190,7 +190,7 @@
     <value>Auto Detectar</value>
   </data>
   <data name="CHK_elevons.Text" xml:space="preserve">
-    <value>Elevons</value>
+    <value>Elevones</value>
   </data>
   <data name="BUT_detch7.Text" xml:space="preserve">
     <value>Auto Detectar</value>
@@ -216,4 +216,8 @@
   <data name="BUT_enable.Text" xml:space="preserve">
     <value>Habilitar</value>
   </data>
+  <data name="label14.Text" xml:space="preserve"><value>Configuración cargada para</value></data>
+  <data name="chk_manualcontrol.Text" xml:space="preserve"><value>Control manual</value></data>
+  <data name="but_export.Text" xml:space="preserve"><value>Exportar</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>Importar</value></data>
 </root>

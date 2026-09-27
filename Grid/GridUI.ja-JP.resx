@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label44.Text" xml:space="preserve"><value>最小シャッター速度：</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>地表標高：</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>旋回直径（45度時）：</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>撮影間隔（推定）：</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>飛行時間（推定）：</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>コース間隔：</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>撮影範囲：</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>コース数：</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>画像数：</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>地上解像度： </value></data>
+  <data name="label27.Text" xml:space="preserve"><value>撮影地点間隔： </value></data>
+  <data name="label23.Text" xml:space="preserve"><value>距離: </value></data>
+  <data name="label22.Text" xml:space="preserve"><value>面積： </value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>統計</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>サーボ</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>PWM高</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>PWM低</value></data>
+  <data name="rad_do_set_servo.Text" xml:space="preserve"><value>DO_SET_SERVO</value></data>
+  <data name="chk_stopstart.Text" xml:space="preserve"><value>開始点で分割</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>PWM</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>周期 [秒]</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>サーボ</value></data>
+  <data name="rad_digicam.Text" xml:space="preserve"><value>DO_DIGICAM_CONTROL</value></data>
+  <data name="rad_repeatservo.Text" xml:space="preserve"><value>DO_REPEAT_SERVO</value></data>
+  <data name="rad_trigdist.Text" xml:space="preserve"><value>CAM_TRIGG_DIST</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>トリガー方式</value></data>
+  <data name="BUT_samplephoto.Text" xml:space="preserve"><value>サンプル写真を読込</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>計算値</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>縦方向の撮影範囲 [m]</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>横方向の撮影範囲 [m]</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>cm/ピクセル</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>センサー高さ [mm]</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>センサー幅 [mm]</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>画像高さ [ピクセル]</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>画像幅 [ピクセル]</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>焦点距離 [mm]</value></data>
+  <data name="BUT_save.Text" xml:space="preserve"><value>保存</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>カメラオプション</value></data>
+  <data name="tabCamera.Text" xml:space="preserve"><value>カメラ設定</value></data>
+  <data name="LBL_laps.Text" xml:space="preserve"><value>周回数</value></data>
+  <data name="CHK_match_spiral_perimeter.Text" xml:space="preserve"><value>外周をポリゴンに合わせる</value></data>
+  <data name="LBL_clockwise_laps.Text" xml:space="preserve"><value>時計回りの周回数</value></data>
+  <data name="LBL_clockwise_laps1.Text" xml:space="preserve"><value>（時計回りのらせんは -1）</value></data>
+  <data name="groupBoxSpiral.Text" xml:space="preserve"><value>らせんオプション</value></data>
+  <data name="chk_optimize_for_distance.Text" xml:space="preserve"><value>距離を最適化</value></data>
+  <data name="LBL_Alternating_lanes.Text" xml:space="preserve"><value>コースを交互に飛行</value></data>
+  <data name="LBL_Lane_Dist.Text" xml:space="preserve"><value>最小コース間隔</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>固定翼オプション</value></data>
+  <data name="chk_spline.Text" xml:space="preserve"><value>スプラインで進入／退出</value></data>
+  <data name="CHK_copter_headingholdlock.Text" xml:space="preserve"><value>グリッドとの連動を解除</value></data>
+  <data name="CHK_copter_headinghold.Text" xml:space="preserve"><value>機首方位を維持</value></data>
+  <data name="LBL_copter_delay.Text" xml:space="preserve"><value>WPでの待機時間 (秒)</value></data>
+  <data name="groupBox_copter.Text" xml:space="preserve"><value>コプターオプション</value></data>
+  <data name="chk_spiral.Text" xml:space="preserve"><value>らせん</value></data>
+  <data name="chk_Corridor.Text" xml:space="preserve"><value>回廊</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>回廊幅 [m]</value></data>
+  <data name="chk_crossgrid.Text" xml:space="preserve"><value>クロスグリッド</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>進入距離 [m]</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>前後オーバーラップ [%]</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>開始位置</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>左右オーバーラップ [%]</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>通過後の延長距離 [m]</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>コース間隔 [m]</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>グリッドオプション</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>撮影間隔 [m]</value></data>
+  <data name="tabGrid.Text" xml:space="preserve"><value>グリッドオプション</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Ctrl+Sでファイルに保存
+Ctrl+Oでファイルから読込</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>x個の区間に分割</value></data>
+  <data name="CHK_usespeed.Text" xml:space="preserve"><value>このミッションで指定速度を使用</value></data>
+  <data name="CHK_toandland_RTL.Text" xml:space="preserve"><value>RTLを使用</value></data>
+  <data name="CHK_toandland.Text" xml:space="preserve"><value>離陸・着陸WPを追加</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>飛行速度（推定）</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>カメラ</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>角度 [度]</value></data>
+  <data name="CHK_camdirection.Text" xml:space="preserve"><value>カメラ上部を前方に向ける</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>高度</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>基本オプション</value></data>
+  <data name="CHK_advanced.Text" xml:space="preserve"><value>詳細オプション</value></data>
+  <data name="CHK_footprints.Text" xml:space="preserve"><value>撮影範囲</value></data>
+  <data name="CHK_internals.Text" xml:space="preserve"><value>内部線</value></data>
+  <data name="CHK_grid.Text" xml:space="preserve"><value>グリッド</value></data>
+  <data name="CHK_markers.Text" xml:space="preserve"><value>マーカー</value></data>
+  <data name="CHK_boundary.Text" xml:space="preserve"><value>境界</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>表示</value></data>
+  <data name="BUT_Accept.Text" xml:space="preserve"><value>承認</value></data>
+  <data name="tabSimple.Text" xml:space="preserve"><value>基本</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>測量（グリッド）</value></data>
+</root>

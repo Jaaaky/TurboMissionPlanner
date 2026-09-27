@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,37 +124,37 @@
     <value>Terbang ke sini</value>
   </data>
   <data name="enterUTMCoordToolStripMenuItem.Text" xml:space="preserve">
-    <value>Masukan UTM Coord</value>
+    <value>Masukkan Koordinat UTM</value>
   </data>
   <data name="lbl_homedist.Text" xml:space="preserve">
-    <value>Rumah</value>
+    <value>Titik Asal</value>
   </data>
   <data name="trackerHomeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pelacak Rumah</value>
+    <value>Titik Asal Pelacak</value>
   </data>
   <data name="poiaddToolStripMenuItem.Text" xml:space="preserve">
-    <value>Add</value>
+    <value>Tambah</value>
   </data>
   <data name="GeoFencedownloadToolStripMenuItem.Text" xml:space="preserve">
-    <value>Download</value>
+    <value>Unduh</value>
   </data>
   <data name="loadFromFileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Memuat Rally dari File</value>
+    <value>Muat Titik Berkumpul dari Berkas</value>
   </data>
   <data name="lbl_prevdist.Text" xml:space="preserve">
-    <value>Prev</value>
+    <value>Sebelumnya</value>
   </data>
   <data name="loadAndAppendToolStripMenuItem.Text" xml:space="preserve">
-    <value>Muat dan Lampirkan</value>
+    <value>Muat dan Tambahkan</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Zoom</value>
+    <value>Perbesaran</value>
   </data>
   <data name="TXT_loiterrad.Text" xml:space="preserve">
     <value>45</value>
   </data>
   <data name="comboBoxMapType.ToolTip" xml:space="preserve">
-    <value>Mengubah arus jenis peta</value>
+    <value>Ubah jenis peta saat ini</value>
   </data>
   <data name="Param4.HeaderText" xml:space="preserve">
     <value>P4</value>
@@ -163,10 +163,10 @@
     <value>Waktu</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Peringatkan Alt</value>
+    <value>Peringatan Ketinggian</value>
   </data>
   <data name="LBL_defalutalt.Text" xml:space="preserve">
-    <value>Default Alt</value>
+    <value>Ketinggian Bawaan</value>
   </data>
   <data name="Param2.HeaderText" xml:space="preserve">
     <value>P2</value>
@@ -175,46 +175,46 @@
     <value>Putar Peta</value>
   </data>
   <data name="kMLOverlayToolStripMenuItem.Text" xml:space="preserve">
-    <value>KML Overlay</value>
+    <value>Lapisan KML</value>
   </data>
   <data name="Lat.HeaderText" xml:space="preserve">
-    <value>Lat</value>
+    <value>Lintang</value>
   </data>
   <data name="CHK_splinedefault.Text" xml:space="preserve">
     <value>Spline</value>
   </data>
   <data name="autoWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>WP Otomatis</value>
+    <value>Titik Lintasan Otomatis</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Panjang</value>
+    <value>Bujur</value>
   </data>
   <data name="insertSplineWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>Insert Spline WP</value>
+    <value>Sisipkan Titik Lintasan Spline</value>
   </data>
   <data name="CHK_verifyheight.Text" xml:space="preserve">
-    <value>Verifikasi ketinggian</value>
+    <value>Verifikasi Tinggi</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Alt (abs)</value>
+    <value>ASL</value>
   </data>
   <data name="mapToolToolStripMenuItem.Text" xml:space="preserve">
     <value>Alat Peta</value>
   </data>
   <data name="saveRallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Upload</value>
+    <value>Unggah</value>
   </data>
   <data name="loiterForeverToolStripMenuItem.Text" xml:space="preserve">
-    <value>Selamanya</value>
+    <value>Tanpa Batas</value>
   </data>
   <data name="Alt.HeaderText" xml:space="preserve">
-    <value>Alt</value>
+    <value>Ketinggian</value>
   </data>
   <data name="setROIToolStripMenuItem.Text" xml:space="preserve">
     <value>DO_SET_ROI</value>
   </data>
   <data name="BUT_saveWPFile.Text" xml:space="preserve">
-    <value>SImpan Berkas WP</value>
+    <value>Simpan Berkas</value>
   </data>
   <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
     <value>Naik</value>
@@ -223,67 +223,67 @@
     <value>Relatif</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Lokasi Rumah</value>
+    <value>Lokasi Titik Asal</value>
   </data>
   <data name="BUT_loadwpfile.Text" xml:space="preserve">
-    <value>Memuat Berkas WP</value>
+    <value>Muat Berkas</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Loiter Radius</value>
+    <value>Radius Loiter</value>
   </data>
   <data name="loadWPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Memuat Berkas WP</value>
+    <value>Muat Berkas Titik Lintasan</value>
   </data>
   <data name="jumpstartToolStripMenuItem.Text" xml:space="preserve">
     <value>Mulai</value>
   </data>
   <data name="BUT_read.Text" xml:space="preserve">
-    <value>Baca WPs</value>
+    <value>Baca</value>
   </data>
   <data name="loadPolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Memuat Polygon</value>
+    <value>Muat Poligon</value>
   </data>
   <data name="prefetchToolStripMenuItem.Text" xml:space="preserve">
-    <value>Prefetch</value>
+    <value>Unduh Awal</value>
   </data>
   <data name="textToolStripMenuItem.Text" xml:space="preserve">
-    <value>Text</value>
+    <value>Teks</value>
   </data>
   <data name="GeoFenceuploadToolStripMenuItem.Text" xml:space="preserve">
-    <value>Upload</value>
+    <value>Unggah</value>
   </data>
   <data name="LBL_WPRad.Text" xml:space="preserve">
-    <value>WP Radius</value>
+    <value>Radius Titik Lintasan</value>
   </data>
   <data name="zoomToToolStripMenuItem.Text" xml:space="preserve">
-    <value>Zoom To</value>
+    <value>Perbesar ke</value>
   </data>
   <data name="saveToFileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Simpan Rally ke File</value>
+    <value>Simpan Titik Berkumpul ke Berkas</value>
   </data>
   <data name="Command.HeaderText" xml:space="preserve">
     <value>Perintah</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>Lat</value>
+    <value>Lintang</value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
     <value>Status</value>
   </data>
   <data name="Dist.HeaderText" xml:space="preserve">
-    <value>Dist</value>
+    <value>Jarak</value>
   </data>
   <data name="setReturnLocationToolStripMenuItem.Text" xml:space="preserve">
-    <value>Set Kembali Lokasi</value>
+    <value>Tetapkan Lokasi Kembali</value>
   </data>
   <data name="panelMap.Text" xml:space="preserve">
     <value>panel6</value>
   </data>
   <data name="clearPolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hapus Polygon</value>
+    <value>Hapus Poligon</value>
   </data>
   <data name="loadKMLFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Memuat Berkas KML</value>
+    <value>Muat Berkas KML</value>
   </data>
   <data name="panelAction.Text" xml:space="preserve">
     <value>Tindakan</value>
@@ -292,7 +292,7 @@
     <value>P1</value>
   </data>
   <data name="chk_grid.Text" xml:space="preserve">
-    <value>Grid</value>
+    <value>Kisi</value>
   </data>
   <data name="Delete.ToolTipText" xml:space="preserve">
     <value>Hapus baris</value>
@@ -301,67 +301,67 @@
     <value>POI</value>
   </data>
   <data name="prefetchWPPathToolStripMenuItem.Text" xml:space="preserve">
-    <value>Jalur WP Prefetch</value>
+    <value>Unduh Awal Jalur Titik Lintasan</value>
   </data>
   <data name="takeoffToolStripMenuItem.Text" xml:space="preserve">
     <value>Lepas Landas</value>
   </data>
   <data name="addPolygonPointToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tambah titik Polygon</value>
+    <value>Gambar Poligon</value>
   </data>
   <data name="loiterToolStripMenuItem.Text" xml:space="preserve">
-    <value>Berkeliaran</value>
+    <value>Loiter</value>
   </data>
   <data name="Command.ToolTipText" xml:space="preserve">
-    <value>komando APM</value>
+    <value>Perintah</value>
   </data>
   <data name="setRallyPointToolStripMenuItem.Text" xml:space="preserve">
-    <value>Set Titik Temu</value>
+    <value>Tetapkan Titik Berkumpul</value>
   </data>
   <data name="rallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Rally Poin</value>
+    <value>Titik Berkumpul</value>
   </data>
   <data name="BUT_Add.Text" xml:space="preserve">
-    <value>Tambahkan Below</value>
+    <value>Tambah di Bawah</value>
   </data>
   <data name="areaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Daerah</value>
+    <value>Luas</value>
   </data>
   <data name="lbl_distance.Text" xml:space="preserve">
     <value>Jarak</value>
   </data>
   <data name="Down.ToolTipText" xml:space="preserve">
-    <value>Pindahkan Baris Bawah</value>
+    <value>Pindahkan baris ke bawah</value>
   </data>
   <data name="BUT_write.Text" xml:space="preserve">
-    <value>Menulis WPs</value>
+    <value>Tulis</value>
   </data>
   <data name="modifyAltToolStripMenuItem.Text" xml:space="preserve">
-    <value>Memodifikasi Alt</value>
+    <value>Ubah Ketinggian</value>
   </data>
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
     <value>Turun</value>
   </data>
   <data name="Lon.HeaderText" xml:space="preserve">
-    <value>Lon</value>
+    <value>Bujur</value>
   </data>
   <data name="lbl_wpfile.Text" xml:space="preserve">
     <value>...</value>
   </data>
   <data name="polygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Menggambar Polygon</value>
+    <value>Poligon</value>
   </data>
   <data name="createSplineCircleToolStripMenuItem.Text" xml:space="preserve">
     <value>Buat Lingkaran Spline</value>
   </data>
   <data name="jumpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Melompat</value>
+    <value>Lompat</value>
   </data>
   <data name="landToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tanah</value>
+    <value>Mendarat</value>
   </data>
   <data name="fileLoadSaveToolStripMenuItem.Text" xml:space="preserve">
-    <value>Menyimpan/menyimpan Beban</value>
+    <value>Muat/Simpan Berkas</value>
   </data>
   <data name="TXT_altwarn.Text" xml:space="preserve">
     <value>0</value>
@@ -370,22 +370,22 @@
     <value>100</value>
   </data>
   <data name="geoFenceToolStripMenuItem.Text" xml:space="preserve">
-    <value>Geo-Fence</value>
+    <value>Pagar Geografis</value>
   </data>
   <data name="saveWPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Simpan Berkas WP</value>
+    <value>Simpan Berkas Titik Lintasan</value>
   </data>
   <data name="saveToFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Simpan ke Berkas</value>
   </data>
   <data name="insertWpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Masukan Wp</value>
+    <value>Sisipkan Titik Lintasan</value>
   </data>
   <data name="TXT_WPRad.Text" xml:space="preserve">
     <value>30</value>
   </data>
   <data name="Up.ToolTipText" xml:space="preserve">
-    <value>Pindah ke Baris Atas</value>
+    <value>Pindahkan baris ke ATAS</value>
   </data>
   <data name="poideleteToolStripMenuItem.Text" xml:space="preserve">
     <value>Hapus</value>
@@ -397,40 +397,40 @@
     <value>Hapus</value>
   </data>
   <data name="loitercirclesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Lingkaran</value>
+    <value>Putaran</value>
   </data>
   <data name="jumpwPToolStripMenuItem.Text" xml:space="preserve">
-    <value>WP #</value>
+    <value>Titik Lintasan #</value>
   </data>
   <data name="deleteWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hapus WP</value>
+    <value>Hapus Titik Lintasan</value>
   </data>
   <data name="panelWaypoints.Text" xml:space="preserve">
-    <value>Waypoints</value>
+    <value>Titik Lintasan</value>
   </data>
   <data name="getRallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Download</value>
+    <value>Unduh</value>
   </data>
   <data name="switchDockingToolStripMenuItem.Text" xml:space="preserve">
-    <value>Beralih Dermaga</value>
+    <value>Alihkan Penambatan Panel</value>
   </data>
   <data name="Grad.HeaderText" xml:space="preserve">
-    <value>Grad %</value>
+    <value>Kemiringan %</value>
   </data>
   <data name="loadFromFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Memuat dari Berkas</value>
+    <value>Muat dari Berkas</value>
   </data>
   <data name="rTLToolStripMenuItem.Text" xml:space="preserve">
     <value>RTL</value>
   </data>
   <data name="clearMissionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Menghapus Misi</value>
+    <value>Hapus Misi</value>
   </data>
   <data name="BUT_Add.ToolTip" xml:space="preserve">
-    <value>Menambahkan baris ke bawah jaringan</value>
+    <value>Tambahkan baris ke tabel di bawah</value>
   </data>
   <data name="clearRallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hapus Rally Poin</value>
+    <value>Hapus Titik Berkumpul</value>
   </data>
   <data name="AZ.HeaderText" xml:space="preserve">
     <value>AZ</value>
@@ -442,13 +442,13 @@
     <value>Kompleks</value>
   </data>
   <data name="savePolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Simpan Polygon</value>
+    <value>Simpan Poligon</value>
   </data>
   <data name="createWpCircleToolStripMenuItem.Text" xml:space="preserve">
-    <value>Membuat lingkaran Wp</value>
+    <value>Buat Lingkaran Titik Lintasan</value>
   </data>
   <data name="ContextMeasure.Text" xml:space="preserve">
-    <value>Mengukur Jarak</value>
+    <value>Ukur Jarak</value>
   </data>
   <data name="poieditToolStripMenuItem.Text" xml:space="preserve">
     <value>Edit</value>
@@ -460,15 +460,52 @@
     <value>Bawah</value>
   </data>
   <data name="lnk_kml.Text" xml:space="preserve">
-    <value>Melihat KML</value>
+    <value>Lihat KML</value>
   </data>
   <data name="loadSHPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Memuat Berkas SHP</value>
+    <value>Muat Berkas SHP</value>
   </data>
   <data name="reverseWPsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Mmbalikan WPs</value>
+    <value>Balik Urutan Titik Lintasan</value>
   </data>
   <data name="Angle.HeaderText" xml:space="preserve">
-    <value>Angle</value>
+    <value>Sudut</value>
   </data>
+  <data name="but_writewpfast.Text" xml:space="preserve"><value>Tulis Cepat</value></data>
+  <data name="chk_usemavftp.Text" xml:space="preserve"><value>MAVFTP</value></data>
+  <data name="Frame.HeaderText" xml:space="preserve"><value>Kerangka</value></data>
+  <data name="coordZone.HeaderText" xml:space="preserve"><value>Zona</value></data>
+  <data name="coordEasting.HeaderText" xml:space="preserve"><value>Koordinat Timur</value></data>
+  <data name="coordNorthing.HeaderText" xml:space="preserve"><value>Koordinat Utara</value></data>
+  <data name="MGRS.HeaderText" xml:space="preserve"><value>MGRS</value></data>
+  <data name="TagData.HeaderText" xml:space="preserve"><value>Data Tag</value></data>
+  <data name="BUT_InjectCustomMap.Text" xml:space="preserve"><value>Sisipkan Peta Khusus</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>Ubah Tingkat Perbesaran</value></data>
+  <data name="cmb_missiontype.Items" xml:space="preserve"><value>Misi</value></data>
+  <data name="cmb_missiontype.Items1" xml:space="preserve"><value>Pagar</value></data>
+  <data name="cmb_missiontype.Items2" xml:space="preserve"><value>Titik Berkumpul</value></data>
+  <data name="currentPositionToolStripMenuItem.Text" xml:space="preserve"><value>Di Posisi Saat Ini</value></data>
+  <data name="addPolygonPointToolStripMenuItem2.Text" xml:space="preserve"><value>Gambar Poligon</value></data>
+  <data name="clearPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Hapus Poligon</value></data>
+  <data name="savePolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Simpan Poligon</value></data>
+  <data name="loadPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Muat Poligon</value></data>
+  <data name="fromSHPToolStripMenuItem2.Text" xml:space="preserve"><value>Dari SHP</value></data>
+  <data name="fromCurrentWaypointsToolStripMenuItem.Text" xml:space="preserve"><value>Dari Titik Lintasan Saat Ini</value></data>
+  <data name="offsetPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Geser Poligon</value></data>
+  <data name="areaToolStripMenuItem2.Text" xml:space="preserve"><value>Luas</value></data>
+  <data name="clearToolStripMenuItem.Text" xml:space="preserve"><value>Bersihkan</value></data>
+  <data name="areaToolStripMenuItem1.Text" xml:space="preserve"><value>Luas</value></data>
+  <data name="createCircleSurveyToolStripMenuItem.Text" xml:space="preserve"><value>Buat Survei Lingkaran</value></data>
+  <data name="surveyGridToolStripMenuItem.Text" xml:space="preserve"><value>Survei (Kisi)</value></data>
+  <data name="gDALOpacityToolStripMenuItem.Text" xml:space="preserve"><value>Opasitas GDAL</value></data>
+  <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>Tetapkan Titik Asal di Sini</value></data>
+  <data name="fenceInclusionToolStripMenuItem.Text" xml:space="preserve"><value>Pagar Inklusi</value></data>
+  <data name="fenceExclusionToolStripMenuItem.Text" xml:space="preserve"><value>Pagar Eksklusi</value></data>
+  <data name="convertWPToPolygonToolStripMenuItem.Text" xml:space="preserve"><value>Dari Titik Lintasan Saat Ini</value></data>
+  <data name="offsetPolygonToolStripMenuItem.Text" xml:space="preserve"><value>Geser Poligon</value></data>
+  <data name="drawAPolygonToolStripMenuItem.Text" xml:space="preserve"><value>Gambar Poligon</value></data>
+  <data name="testToolStripMenuItem.Text" xml:space="preserve"><value>uji</value></data>
+  <data name="zoomToVehicleToolStripMenuItem.Text" xml:space="preserve"><value>Perbesar ke Wahana</value></data>
+  <data name="zoomToMissionToolStripMenuItem.Text" xml:space="preserve"><value>Perbesar ke Misi</value></data>
+  <data name="zoomToHomeToolStripMenuItem.Text" xml:space="preserve"><value>Perbesar ke Titik Asal</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -142,7 +142,7 @@
     <value>Automatisch erkennen</value>
   </data>
   <data name="CHK_elevons.Text" xml:space="preserve">
-    <value>Höhenruder</value>
+    <value>Elevons</value>
   </data>
   <data name="BUT_detch7.Text" xml:space="preserve">
     <value>Automatisch erkennen</value>
@@ -168,4 +168,11 @@
   <data name="BUT_enable.Text" xml:space="preserve">
     <value>Aktivieren</value>
   </data>
+  <data name="label5.Text" xml:space="preserve"><value>Joystick</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Expo</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Ausgabe</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Konfiguration geladen für</value></data>
+  <data name="chk_manualcontrol.Text" xml:space="preserve"><value>Manuelle Steuerung</value></data>
+  <data name="but_export.Text" xml:space="preserve"><value>Exportieren</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>Importieren</value></data>
 </root>

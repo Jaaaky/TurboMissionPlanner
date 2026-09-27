@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,36 +118,39 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label10.Text" xml:space="preserve">
-    <value>Max time between packets (ms)</value>
+    <value>Jeda maksimum antarpaket (ms)</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Bytes/s</value>
+    <value>Byte/dtk</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Packets</value>
+    <value>Paket</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Bytes</value>
+    <value>Byte</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Total Bytes</value>
+    <value>Total Byte</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Bytes/s</value>
+    <value>Byte/dtk</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Pkts Lost</value>
+    <value>Paket Hilang</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Quality</value>
+    <value>Kualitas</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Upload</value>
+    <value>Unggah</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Packets/s</value>
+    <value>Paket/dtk</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Download</value>
+    <value>Unduh</value>
   </data>
+  <data name="chk_signing.Text" xml:space="preserve"><value>Penandatanganan</value></data>
+  <data name="chk_mavlink2.Text" xml:space="preserve"><value>Mavlink 2</value></data>
+  <data name="but_reset.Text" xml:space="preserve"><value>Atur Ulang</value></data>
 </root>

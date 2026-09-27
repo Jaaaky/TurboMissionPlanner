@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="lbl_status1.Text" xml:space="preserve"><value>9999 bps</value></data>
+  <data name="chk_rtcmmsg.Text" xml:space="preserve"><value>注入消息类型</value></data>
+  <data name="chk_rtcmmsg.ToolTip" xml:space="preserve"><value>此选项取决于飞控固件版本。若支持，请保持启用，因为新消息类型能更好地应对数据损坏。</value></data>
+  <data name="lbl_svin.Text" xml:space="preserve"><value>基站自测定位</value></data>
+  <data name="lbl_svin.ToolTip" xml:space="preserve"><value>基站自测定位信息
+Valid：自测定位结果是否有效
+InProgress：是否正在进行自测定位
+Duration：已进行自测定位的秒数
+Obs：用于自测定位的观测数量
+Acc：当前自测定位点的精度
+</value></data>
+  <data name="chk_autoconfig.Text" xml:space="preserve"><value>自动配置接收机</value></data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve"><value>自动配置连接到所选端口的接收机，使其输出差分改正消息。</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>连接后，接收机将开始“自测定位”，以确定精确的 GPS 位置。
+当 RTCM 基站位置不再变化时，自测定位完成。
+根据位置和信号情况，此过程可能需要几分钟。
+
+自测定位完成后即可使用。
+</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>RTCM 星座设置</value></data>
+  <data name="label21.ToolTip" xml:space="preserve"><value>选择接收机输出哪些卫星星座的差分改正数据。星座越多，数据速率越高。</value></data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve"><value>启用或禁用 Galileo RTCM 消息输出。</value></data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve"><value>北斗</value></data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve"><value>启用或禁用北斗 RTCM 消息输出。</value></data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve"><value>启用或禁用 GLONASS RTCM 消息输出。</value></data>
+  <data name="chk_septentriogps.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve"><value>启用或禁用 GPS RTCM 消息输出。</value></data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve"><value>设置间隔</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>RTCM 消息间隔（s）</value></data>
+  <data name="label20.ToolTip" xml:space="preserve"><value>选择接收机输出 RTCM 消息的频率。数值越小，数据速率越高。</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>RTCM 消息详细程度</value></data>
+  <data name="label19.ToolTip" xml:space="preserve"><value>选择 RTCM 消息的详细程度。数值越大，数据速率越高。</value></data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve"><value>精简</value></data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve"><value>基本</value></data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve"><value>完整</value></data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve"><value>固定位置</value></data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve"><value>输入基站天线的固定位置，而不是让接收机自动测定。这可以提高差分改正的精度。
+</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>纬度（WGS84）</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>经度（WGS84）</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>高度（m）</value></data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve"><value>设置位置</value></data>
+  <data name="but_restartsvin.Text" xml:space="preserve"><value>重启</value></data>
+  <data name="but_restartsvin.ToolTip" xml:space="preserve"><value>保存自测定位得到的当前基站位置</value></data>
+  <data name="chk_m8p_130p.Text" xml:space="preserve"><value>M8P 固件 130+/F9P</value></data>
+  <data name="chk_m8p_130p.ToolTip" xml:space="preserve"><value>如果基站和移动站均使用 u-blox 1.30 或更高版本固件，请勾选此项</value></data>
+  <data name="but_save_basepos.Text" xml:space="preserve"><value>保存当前位置</value></data>
+  <data name="but_save_basepos.ToolTip" xml:space="preserve"><value>保存自测定位得到的当前基站位置</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>纬度/ECEFX</value></data>
+  <data name="Long.HeaderText" xml:space="preserve"><value>经度/ECEFY</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>高度/ECEFZ</value></data>
+  <data name="BaseName1.HeaderText" xml:space="preserve"><value>名称</value></data>
+  <data name="Use.HeaderText" xml:space="preserve"><value>使用</value></data>
+  <data name="Delete.HeaderText" xml:space="preserve"><value>删除</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>时间（s）</value></data>
+  <data name="txt_surveyinAcc.ToolTip" xml:space="preserve"><value>自测定位精度阈值，误差必须低于此值</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>自测定位精度（m）</value></data>
+  <data name="label1.ToolTip" xml:space="preserve"><value>必须同时满足精度和时长要求，自测定位才能完成。
+例如：误差小于 2 米，且观测时长大于 60 秒。</value></data>
+  <data name="txt_surveyinDur.ToolTip" xml:space="preserve"><value>自测定位最短时长，实际时长必须大于此值</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>基站自测定位</value></data>
+  <data name="label10.ToolTip" xml:space="preserve"><value>基站自测定位信息
+Valid：自测定位结果是否有效
+InProgress：是否正在进行自测定位
+Duration：已进行自测定位的秒数
+Obs：用于自测定位的观测数量
+Acc：当前自测定位点的精度
+</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>基站自测定位</value></data>
+  <data name="label7.ToolTip" xml:space="preserve"><value>基站自测定位信息
+Valid：自测定位结果是否有效
+InProgress：是否正在进行自测定位
+Duration：已进行自测定位的秒数
+Obs：用于自测定位的观测数量
+Acc：当前自测定位点的精度
+</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>基站自测定位</value></data>
+  <data name="label9.ToolTip" xml:space="preserve"><value>基站自测定位信息
+Valid：自测定位结果是否有效
+InProgress：是否正在进行自测定位
+Duration：已进行自测定位的秒数
+Obs：用于自测定位的观测数量
+Acc：当前自测定位点的精度
+</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>基站自测定位</value></data>
+  <data name="label8.ToolTip" xml:space="preserve"><value>基站自测定位信息
+Valid：自测定位结果是否有效
+InProgress：是否正在进行自测定位
+Duration：已进行自测定位的秒数
+Obs：用于自测定位的观测数量
+Acc：当前自测定位点的精度
+</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>基站自测定位</value></data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve"><value>自动配置选项</value></data>
+  <data name="chk_sendgga.Text" xml:space="preserve"><value>发送 NTRIP GGA？（VRS/Smart）</value></data>
+  <data name="chk_sendgga.ToolTip" xml:space="preserve"><value>此选项取决于飞控固件版本。若支持，请保持启用，因为新消息类型能更好地应对数据损坏。</value></data>
+  <data name="check_sendntripv1.Text" xml:space="preserve"><value>使用 NTRIP 1.0 协议？</value></data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve"><value>部分较旧的 NTRIP 服务端（如 RTKLIB）不支持 NTRIP 2.0 协议。勾选此项可改用 1.0 协议。</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>输入数据速率</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>输出数据速率</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>RTCM 基站 </value></data>
+  <data name="label6.Text" xml:space="preserve"><value>已接收消息</value></data>
+  <data name="labelmsgseen.Text" xml:space="preserve"><value>rtcm0000
+rtcm0000</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>基站</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>北斗</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>RTCM</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>链路状态</value></data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve"><value>u-blox M8P/F9P</value></data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve"><value>Septentrio</value></data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve"><value>和芯星通 UM982</value></data>
+  <data name="BUT_connect.Text" xml:space="preserve"><value>连接</value></data>
+</root>

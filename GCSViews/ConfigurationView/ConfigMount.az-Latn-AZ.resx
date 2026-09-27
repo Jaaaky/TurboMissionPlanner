@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,87 +118,110 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label10.Text" xml:space="preserve">
-    <value>Servo Limitləri</value>
+    <value>Servo hədləri</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Bucaq Limitləri</value>
+    <value>Bucaq hədləri</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Servo Limitləri</value>
+    <value>Servo hədləri</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Giriş Kanalı</value>
+    <value>Giriş kanalı</value>
   </data>
   <data name="CHK_stab_roll.Text" xml:space="preserve">
-    <value>Fırlanmanı sabitləşdir</value>
+    <value>Kreni sabitləşdir</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Giriş Kanalı</value>
+    <value>Giriş kanalı</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>Giriş Kanalı</value>
+    <value>Giriş kanalı</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Servo Limitləri</value>
+    <value>Servo hədləri</value>
   </data>
   <data name="CHK_stab_tilt.Text" xml:space="preserve">
-    <value>Tilt Sabitləşdir</value>
+    <value>Meyli sabitləşdir</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Bucaq Limitləri</value>
+    <value>Bucaq hədləri</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
     <value>İdarə etmə bucaqları</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Fırlanma</value>
+    <value>Kren</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Dönmə Bucaqları</value>
+    <value>Yığılma bucaqları</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
     <value>Neytral bucaqlar</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Bucaq Limitləri</value>
+    <value>Bucaq hədləri</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>Müddəti (1/10th sec)</value>
+    <value>Müddət (1/10 san)</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
-    <value>Servo Limitləri</value>
+    <value>Servo hədləri</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>Yığılma/Bağlanma</value>
+    <value>Çəkim mexanizmi</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>Sıxılan</value>
+    <value>Basılıb</value>
   </data>
   <data name="mavlinkCheckBoxRR.Text" xml:space="preserve">
-    <value>Əksinə</value>
+    <value>Tərsinə çevir</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>Basılmayan</value>
+    <value>Basılmayıb</value>
   </data>
   <data name="mavlinkCheckBoxTR.Text" xml:space="preserve">
-    <value>Əksinə</value>
+    <value>Tərsinə çevir</value>
   </data>
   <data name="mavlinkCheckBoxPR.Text" xml:space="preserve">
-    <value>Əksinə</value>
+    <value>Tərsinə çevir</value>
   </data>
   <data name="CHK_stab_pan.Text" xml:space="preserve">
     <value>Pan stabilləşməsi</value>
   </data>
   <data name="label44.Text" xml:space="preserve">
-    <value>Qeyd: gimbal tipi mübarizə kontrolörünün növbəti rebootunda təsir göstərir</value>
+    <value>QEYD: asqı növü uçuş kontrolleri növbəti dəfə başladıqda qüvvəyə minir</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
-    <value>Zəhmət olmasa Kamera yonlendirmesi ucun 7 ci Kanali secin</value>
+    <value>Ch7 seçimini Kamera tətikləməsi kimi təyin edin</value>
   </data>
   <data name="label43.Text" xml:space="preserve">
     <value>Növ</value>
   </data>
   <data name="label41.Text" xml:space="preserve">
-    <value>Jaluz</value>
+    <value>Çəkim mexanizmi</value>
   </data>
+  <data name="label5.Text" xml:space="preserve"><value>Şaquli meyil</value></data>
+  <data name="LNK_wiki.Text" xml:space="preserve"><value>Viki</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Üfüqi dönmə</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Z</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Y</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>X</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Z</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Y</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>X</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Min</value></data>
 </root>

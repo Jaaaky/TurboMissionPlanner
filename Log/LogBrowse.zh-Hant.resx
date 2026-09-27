@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="exportVisibleToolStripMenuItem.Text" xml:space="preserve"><value>匯出可見項目</value></data>
+  <data name="exportFilesToolStripMenuItem.Text" xml:space="preserve"><value>匯出檔案</value></data>
+  <data name="BUT_Graphit.Text" xml:space="preserve"><value>繪製至左軸</value></data>
+  <data name="BUT_cleargraph.Text" xml:space="preserve"><value>清除圖表</value></data>
+  <data name="BUT_loadlog.Text" xml:space="preserve"><value>載入記錄</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>GPSB</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>POS</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>GPS2</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_params.Text" xml:space="preserve"><value>顯示參數</value></data>
+  <data name="chk_events.Text" xml:space="preserve"><value>事件</value></data>
+  <data name="chk_datagrid.Text" xml:space="preserve"><value>資料表格</value></data>
+  <data name="chk_msg.Text" xml:space="preserve"><value>MSG</value></data>
+  <data name="chk_errors.Text" xml:space="preserve"><value>錯誤</value></data>
+  <data name="chk_mode.Text" xml:space="preserve"><value>模式</value></data>
+  <data name="BUT_Graphit_R.Text" xml:space="preserve"><value>繪製至右軸</value></data>
+  <data name="chk_time.Text" xml:space="preserve"><value>時間</value></data>
+  <data name="CHK_map.Text" xml:space="preserve"><value>地圖</value></data>
+  <data name="BUT_removeitem.Text" xml:space="preserve"><value>移除項目</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>瀏覽記錄</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -125,7 +125,7 @@
     <value>117, 22</value>
   </data>
   <data name="renameToolStripMenuItem.Text" xml:space="preserve">
-    <value>이름변경</value>
+    <value>이름 변경</value>
   </data>
   <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 26</value>

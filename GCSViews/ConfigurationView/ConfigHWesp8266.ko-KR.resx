@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -217,7 +217,7 @@
     <value>79</value>
   </data>
   <data name="BUT_espsettings.Text" xml:space="preserve">
-    <value>설정값 저장</value>
+    <value>설정 저장</value>
   </data>
   <data name="&gt;&gt;BUT_espsettings.Name" xml:space="preserve">
     <value>BUT_espsettings</value>
@@ -373,7 +373,7 @@
     <value>84</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>전송율</value>
+    <value>전송 속도</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>

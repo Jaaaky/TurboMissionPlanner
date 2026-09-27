@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label5.Text" xml:space="preserve"><value>باشقۇرۇش تايىقى</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>ئېكسپونېنت</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>چىقىرىش</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>كونتروللىغۇچ ئوقى</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>تەتۈر يۆنىلىش</value></data>
+  <data name="CHK_elevons.Text" xml:space="preserve"><value>ئېلېۋونلار</value></data>
+  <data name="BUT_enable.Text" xml:space="preserve"><value>قوزغىتىش</value></data>
+  <data name="BUT_save.Text" xml:space="preserve"><value>ساقلاش</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>يۈكلەنگەن سەپلىمە:</value></data>
+  <data name="chk_manualcontrol.Text" xml:space="preserve"><value>قولدا كونترول قىلىش</value></data>
+  <data name="but_export.Text" xml:space="preserve"><value>چىقىرىش</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>كىرگۈزۈش</value></data>
+</root>

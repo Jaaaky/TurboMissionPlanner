@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BadCoords" xml:space="preserve"><value>كەڭلىك/ئۇزۇنلۇق خاتا</value></data>
+  <data name="CannotGraphField" xml:space="preserve"><value>بۇ مەيداننى گرافىكتا كۆرسەتكىلى بولمايدۇ</value></data>
+  <data name="CommandFailed" xml:space="preserve"><value>بۇيرۇق ئىجرا بولمىدى
+</value></data>
+  <data name="ERROR" xml:space="preserve"><value>خاتالىق</value></data>
+  <data name="ErrorClosingLogFile" xml:space="preserve"><value>خاتىرە ھۆججەتلىرىنى تاقاشتا خاتالىق كۆرۈلدى</value></data>
+  <data name="ErrorCommunicating" xml:space="preserve"><value>ئاپتوماتىك ئۇچقۇچ بىلەن ئالاقە قىلىشتا خاتالىق كۆرۈلدى</value></data>
+  <data name="ErrorConnecting" xml:space="preserve"><value>ئۇلىنىشتا خاتالىق كۆرۈلدى
+</value></data>
+  <data name="ErrorFeatureNotEnabled" xml:space="preserve"><value>بۇ ئىقتىدار مۇقىم دېتالىڭىزدا قوزغىتىلمىغان.</value></data>
+  <data name="ErrorFirmwareFile" xml:space="preserve"><value>مۇقىم دېتال ھۆججىتىنى يۈكلەشتە خاتالىق كۆرۈلدى</value></data>
+  <data name="ErrorLogList" xml:space="preserve"><value>خاتىرە تىزىملىكىنى قوبۇل قىلىشتا خاتالىق كۆرۈلدى</value></data>
+  <data name="ErrorNoResponse" xml:space="preserve"><value>خاتالىق: ئۇچقۇدىن جاۋاب كەلمىدى</value></data>
+  <data name="ErrorNotConnected" xml:space="preserve"><value>ئۇلانمىدىڭىز.</value></data>
+  <data name="ErrorReceivingParams" xml:space="preserve"><value>تىزىملىكنى قوبۇل قىلىشتا خاتالىق كۆرۈلدى
+</value></data>
+  <data name="ErrorRejectedByMAV" xml:space="preserve"><value>خاتالىق: ئۇچقۇ بۇيرۇقنى رەت قىلدى</value></data>
+  <data name="ErrorRenameFile" xml:space="preserve"><value>ھۆججەت نامىنى ئۆزگەرتىشتە خاتالىق كۆرۈلدى</value></data>
+  <data name="ErrorSettingParameter" xml:space="preserve"><value>پارامېتىرنى تەڭشەشتە خاتالىق كۆرۈلدى </value></data>
+  <data name="ErrorSetValueFailed" xml:space="preserve"><value>{0} نى تەڭشەش مەغلۇپ بولدى</value></data>
+  <data name="InvalidAlt" xml:space="preserve"><value>ئېگىزلىك ئىناۋەتسىز</value></data>
+  <data name="InvalidBaudRate" xml:space="preserve"><value>بود نىسبىتى ئىناۋەتسىز</value></data>
+  <data name="InvalidField" xml:space="preserve"><value>مەيدان ئىناۋەتسىز</value></data>
+  <data name="InvalidFileName" xml:space="preserve"><value>ھۆججەت نامى ئىناۋەتسىز</value></data>
+  <data name="InvalidNumberEntered" xml:space="preserve"><value>كىرگۈزۈلگەن سان ئىناۋەتسىز
+</value></data>
+  <data name="InvalidPanRange" xml:space="preserve"><value>توغرىسىغا بۇرۇش دائىرىسى ئىناۋەتسىز</value></data>
+  <data name="InvalidPortName" xml:space="preserve"><value>ئېغىز نامى ئىناۋەتسىز</value></data>
+  <data name="InvalidTiltRange" xml:space="preserve"><value>يانتۇ قىلىش دائىرىسى ئىناۋەتسىز</value></data>
+  <data name="InvalidUpdateRate" xml:space="preserve"><value>يېڭىلاش چاستوتىسى ئىناۋەتسىز</value></data>
+  <data name="NoFMTMessage" xml:space="preserve"><value>بۇنىڭ FMT ئۇچۇرى يوق: </value></data>
+  <data name="PleaseConnect" xml:space="preserve"><value>ئاۋۋال ئۇلاڭ</value></data>
+  <data name="PleaseLoadValidFile" xml:space="preserve"><value>ئىناۋەتلىك ھۆججەت يۈكلەڭ</value></data>
+  <data name="PleaseSelectCell" xml:space="preserve"><value>ئاۋۋال بىر كاتەكچە تاللاڭ</value></data>
+  <data name="SelectComport" xml:space="preserve"><value>ئارقىمۇئارقا ئېغىز تاللاڭ</value></data>
+  <data name="WarningLogBrowseFMTMissing" xml:space="preserve"><value>خاتىرىدە FMT ئۇچۇرلىرى بولمىسا، خاتىرە كۆرگۈچ توغرا ئىشلىمەيدۇ.
+خاتىرىڭىزدە بۇ ئۇچۇرلار يوقتەك قىلىدۇ.</value></data>
+  <data name="WarningUpdateParamList" xml:space="preserve"><value>پارامېتىرلارنى يېڭىلاش
+ئۇچۇۋاتقاندا بۇ مەشغۇلاتنى قىلماڭ
+</value></data>
+  <data name="Checking" xml:space="preserve"><value>تەكشۈرۈۋاتىدۇ </value></data>
+  <data name="DownloadedFromInternet" xml:space="preserve"><value>توردىن چۈشۈرۈلدى</value></data>
+  <data name="Getting" xml:space="preserve"><value>ئېلىۋاتىدۇ </value></data>
+  <data name="GettingUpdatedParams" xml:space="preserve"><value>يېڭىلانغان پارامېتىرلارنى ئېلىۋاتىدۇ</value></data>
+  <data name="AdvancedParams" xml:space="preserve"><value>ئىلغار پارامېتىرلار</value></data>
+  <data name="BasicTuning" xml:space="preserve"><value>ئاساسىي تەڭشەش</value></data>
+  <data name="Desc" xml:space="preserve"><value>چۈشەندۈرۈش: </value></data>
+  <data name="ExtendedTuning" xml:space="preserve"><value>كېڭەيتىلگەن تەڭشەش</value></data>
+  <data name="FlightModes" xml:space="preserve"><value>ئۇچۇش ھالەتلىرى</value></data>
+  <data name="FullParameterList" xml:space="preserve"><value>تولۇق پارامېتىر تىزىملىكى</value></data>
+  <data name="FullParameterTree" xml:space="preserve"><value>تولۇق پارامېتىر دەرىخى</value></data>
+  <data name="GeoFence" xml:space="preserve"><value>جۇغراپىيەلىك قورشاۋ</value></data>
+  <data name="StandardParams" xml:space="preserve"><value>ئۆلچەملىك پارامېتىرلار</value></data>
+  <data name="Units" xml:space="preserve"><value>بىرلىك: {0}{1}</value></data>
+  <data name="ProgrammedOK" xml:space="preserve"><value>پىروگرامما مۇۋەپپەقىيەتلىك يېزىلدى</value></data>
+  <data name="CONNECTc" xml:space="preserve"><value>ئۇلاش</value></data>
+  <data name="Disconnect" xml:space="preserve"><value>ئۈزۈش</value></data>
+  <data name="DISCONNECTc" xml:space="preserve"><value>ئۈزۈش</value></data>
+  <data name="Failclog" xml:space="preserve"><value>يەر يۈزى پونكىتى خاتىرىسىنى قۇرغىلى بولمىدى — بۇ قېتىمقى مەشغۇلات خاتىرىلەنمەيدۇ</value></data>
+  <data name="NewFirmware" xml:space="preserve"><value>يېڭى مۇقىم دېتال</value></data>
+  <data name="NewFirmwareA" xml:space="preserve"><value>يېڭى مۇقىم دېتال بار
+</value></data>
+  <data name="Pleaseup" xml:space="preserve"><value>
+يېڭىلاڭ</value></data>
+  <data name="Stillmoving" xml:space="preserve"><value>ئۇچقۇڭىز يەنىلا ھەرىكەت قىلىۋاتىدۇ، ئۇلىنىشنى ئۈزمەكچىمۇ؟</value></data>
+  <data name="Timeout" xml:space="preserve"><value>ئاپتوماتىك ئىزدەشنى كۈتۈش ۋاقتى توشتى/ئۇلانغان MAVLink ئۈسكۈنىسى يوق</value></data>
+  <data name="ConnectFailed" xml:space="preserve"><value>ئۇلاش مەغلۇپ بولدى</value></data>
+  <data name="ConnectingMavlink" xml:space="preserve"><value>MAVLink ئۇلىنىۋاتىدۇ</value></data>
+  <data name="Done" xml:space="preserve"><value>تامام</value></data>
+  <data name="GettingParams" xml:space="preserve"><value>پارامېتىرلار ئېلىنىۋاتىدۇ</value></data>
+  <data name="GettingParamsD" xml:space="preserve"><value>پارامېتىرلار ئېلىنىۋاتىدۇ...</value></data>
+  <data name="Gotparam" xml:space="preserve"><value>پارامېتىر ئېلىندى </value></data>
+  <data name="MavlinkConnecting" xml:space="preserve"><value>MAVLink ئۇلىنىۋاتىدۇ...</value></data>
+  <data name="Only1Hb" xml:space="preserve"><value>پەقەت 1 قېتىم ھاياتلىق سىگنالى قوبۇل قىلىندى</value></data>
+  <data name="Only1HbD" xml:space="preserve"><value>بۇ ئېغىزدىن پەقەت 1 دانە MAVLink ھاياتلىق بولىقى ئوقۇلدى — قاتتىق دېتالىڭىزنىڭ توغرا تەڭشەلگەنلىكىنى تەكشۈرۈڭ
+Mission Planner ئۇلىنىشتىن بۇرۇن 2 ئىناۋەتلىك ھاياتلىق بولىقىنى كۈتىدۇ</value></data>
+  <data name="Trying" xml:space="preserve"><value>ئۇلاشنى سىناۋاتىدۇ.
+{0} دىن كېيىن كۈتۈش ۋاقتى توشىدۇ</value></data>
+  <data name="CantDetectBoardVersion" xml:space="preserve"><value>تاختا نەشرىڭىزنى بايقىغىلى بولمىدى. سىم ئۇلىنىشىڭىزنى تەكشۈرۈڭ</value></data>
+  <data name="CheckPortSettingsOr" xml:space="preserve"><value>ئېغىز تەڭشەكلىرىنى تەكشۈرۈڭ، ئېغىز ئىشلىتىلىۋاتامدۇ؟</value></data>
+  <data name="CommunicationErrorNoConnection" xml:space="preserve"><value>ئالاقە خاتالىقى — ئۇلىنىش يوق</value></data>
+  <data name="DetectedA" xml:space="preserve"><value>بايقالدى: </value></data>
+  <data name="DetectingBoardVersion" xml:space="preserve"><value>تاختا نەشرى بايقىلىۋاتىدۇ</value></data>
+  <data name="DownloadingFromInternet" xml:space="preserve"><value>توردىن چۈشۈرۈۋاتىدۇ</value></data>
+  <data name="EppromChanged" xml:space="preserve"><value>EEPROM ئۆزگەردى، يېڭىلاش جەريانىدا بارلىق تەڭشەكلىرىڭىز يوقىلىدۇ،
+داۋاملاشتۇرامسىز؟</value></data>
+  <data name="EppromFormatChanged" xml:space="preserve"><value>EEPROM فورماتى ئۆزگەردى ({0) بىلەن {1})</value></data>
+  <data name="FailedDownload" xml:space="preserve"><value>چۈشۈرۈش مەغلۇپ بولدى</value></data>
+  <data name="FailedReadHEX" xml:space="preserve"><value>HEX ئوقۇش مەغلۇپ بولدى</value></data>
+  <data name="FailedToReadHex" xml:space="preserve"><value>firmware.hex نى ئوقۇغىلى بولمىدى:</value></data>
+  <data name="FailedUpload" xml:space="preserve"><value>يۈكلەش مەغلۇپ بولدى</value></data>
+  <data name="GettingFWList" xml:space="preserve"><value>مۇقىم دېتال تىزىملىكى ئېلىنىۋاتىدۇ</value></data>
+  <data name="GettingFWVersion" xml:space="preserve"><value>مۇقىم دېتال نەشرى ئېلىنىۋاتىدۇ</value></data>
+  <data name="InvalidBoardType" xml:space="preserve"><value>تاختا تىپى ئىناۋەتسىز</value></data>
+  <data name="PleaseConnectAndBackupConfig" xml:space="preserve"><value>ئۇلاپ، سەپلىمە بەتكۈچىدە تەڭشەكلىرىڭىزنى زاپاسلاڭ.</value></data>
+  <data name="ReadingHexFile" xml:space="preserve"><value>Hex ھۆججىتى ئوقۇلۇۋاتىدۇ</value></data>
+  <data name="ReceivedList" xml:space="preserve"><value>تىزىملىك قوبۇل قىلىندى</value></data>
+  <data name="UploadComplete" xml:space="preserve"><value>يۈكلەش تاماملاندى</value></data>
+  <data name="UploadingBytesToBoard" xml:space="preserve"><value>تاختىغا {0} بايت يۈكلىنىۋاتىدۇ:</value></data>
+  <data name="VerifyComplete" xml:space="preserve"><value>دەلىللەش تاماملاندى</value></data>
+  <data name="VerifyFirmware" xml:space="preserve"><value>مۇقىم دېتالنى دەلىللەش</value></data>
+  <data name="UploadSucceededButVerifyFailed" xml:space="preserve"><value>يۈكلەش مۇۋەپپەقىيەتلىك، ئەمما دەلىللەش مەغلۇپ بولدى: كۈتۈلگىنى {0}، ئېرىشىلگىنى {1}، ئورنى </value></data>
+  <data name="ReadingHex" xml:space="preserve"><value>Hex ئوقۇلۇۋاتىدۇ</value></data>
+  <data name="Warningrallypointdistance" xml:space="preserve"><value>ئاگاھلاندۇرۇش: يىغىلىش نۇقتىلىرى RALLY_LIMIT_KM دىن يىراق</value></data>
+  <data name="Warning" xml:space="preserve"><value>ئاگاھلاندۇرۇش</value></data>
+  <data name="WarningAC32" xml:space="preserve"><value>ئاگاھلاندۇرۇش: AC 3.2 نى تۇنجى قېتىم قاچىلىسىڭىز، كومپاسنى قايتا كالىبرلىشىڭىز شەرت.</value></data>
+  <data name="WarningAC31" xml:space="preserve"><value>ئاگاھلاندۇرۇش: AC 3.1 دىن باشلاپ، قوزغىتىلغاندا موتورلار ئايلىنىدۇ؛ MOT_SPIN_ARMED پارامېتىرى ئارقىلىق تەڭشىگىلى بولىدۇ</value></data>
+  <data name="MagCalibMsg" xml:space="preserve"><value>جەزملەشنى چېكىپ، ئاپتوماتىك ئۇچقۇچنى بارلىق ئوقلار ئەتراپىدا چەمبەر شەكلىدە ئايلاندۇرۇڭ</value></data>
+  <data name="MissingDataPoints" xml:space="preserve"><value>بەزى سانلىق مەلۇمات نۇقتىلىرى كەم. شۇنداقتىمۇ كالىبرلامسىز؟</value></data>
+  <data name="RunAnyway" xml:space="preserve"><value>يەنىلا ئىجرا قىلىش</value></data>
+  <data name="UpdateFound" xml:space="preserve"><value>يېڭىلانما تېپىلدى
+
+ھازىر يېڭىلامسىز؟ </value></data>
+  <data name="UpdateNow" xml:space="preserve"><value>ھازىر يېڭىلاش</value></data>
+  <data name="RawParamWarning" xml:space="preserve"><value>خام پارامېتىر ئاگاھلاندۇرۇشى</value></data>
+  <data name="RawParamWarningi" xml:space="preserve"><value>بۇ ئېكراندىكى قىممەتلەرنىڭ تۆۋەن/يۇقىرى چېكى تەكشۈرۈلمەيدۇ. كىرگۈزگەنلىرىڭىزنى قايتا تەكشۈرۈڭ.
+بىخەتەر تەڭشەش ئۈچۈن ئۆلچەملىك/ئىلغار پارامېتىرلارنى ئىشلىتىڭ</value></data>
+  <data name="ShowMeAgain" xml:space="preserve"><value>قايتا كۆرسىتىلسۇنمۇ؟</value></data>
+  <data name="OK" xml:space="preserve"><value>جەزملەش</value></data>
+  <data name="LinkStats" xml:space="preserve"><value>ئۇلىنىش ستاتىستىكىسى</value></data>
+  <data name="Stop" xml:space="preserve"><value>توختىتىش</value></data>
+  <data name="Connect" xml:space="preserve"><value>ئۇلاش</value></data>
+  <data name="Start" xml:space="preserve"><value>باشلاش</value></data>
+  <data name="AreYouSureYouWantToUpload" xml:space="preserve"><value>يۈكلەشنى جەزملەمسىز: </value></data>
+  <data name="Beta" xml:space="preserve"><value>سىناق نەشرى</value></data>
+  <data name="BetaWarning" xml:space="preserve"><value>بۇلار سىناق مۇقىم دېتاللىرى، خەتەرنى ئۆزىڭىز ئۈستىڭىزگە ئېلىپ ئىشلىتىڭ!!!</value></data>
+  <data name="CanNotConnectToComPortAnd" xml:space="preserve"><value>COM ئېغىزىغا ئۇلاش ۋە تاختا تىپىنى بايقاش مۇمكىن بولمىدى</value></data>
+  <data name="Continue" xml:space="preserve"><value>داۋاملاشتۇرۇش</value></data>
+  <data name="ErrorUploadingFirmware" xml:space="preserve"><value>مۇقىم دېتالنى يۈكلەشتە خاتالىق كۆرۈلدى</value></data>
+  <data name="Trunk" xml:space="preserve"><value>ئېچىش تارمىقى</value></data>
+  <data name="TrunkWarning" xml:space="preserve"><value>بۇلار ئېچىش تارمىقىنىڭ ئەڭ يېڭى مۇقىم دېتاللىرى، خەتەرنى ئۆزىڭىز ئۈستىڭىزگە ئېلىپ ئىشلىتىڭ!!!</value></data>
+  <data name="BadGPSHealth" xml:space="preserve"><value>GPS سىگنالى نورمال ئەمەس</value></data>
+  <data name="BadAirspeed" xml:space="preserve"><value>ھاۋا سۈرئىتى سېنزورى نورمال ئەمەس</value></data>
+  <data name="BadGyroHealth" xml:space="preserve"><value>گىروسكوپ نورمال ئەمەس</value></data>
+  <data name="BadAccelHealth" xml:space="preserve"><value>تېزلىنىش ئۆلچىگۈچ نورمال ئەمەس</value></data>
+  <data name="BadCompassHealth" xml:space="preserve"><value>كومپاس نورمال ئەمەس</value></data>
+  <data name="BadBaroHealth" xml:space="preserve"><value>بارومېتىر نورمال ئەمەس</value></data>
+  <data name="BadLiDARHealth" xml:space="preserve"><value>LiDAR نورمال ئەمەس</value></data>
+  <data name="BadOptFlowHealth" xml:space="preserve"><value>ئوپتىكىلىق ئېقىم نورمال ئەمەس</value></data>
+  <data name="BadorNoTerrainData" xml:space="preserve"><value>يەر شەكلى سانلىق مەلۇماتى خاتا ياكى يوق</value></data>
+  <data name="GeofenceBreach" xml:space="preserve"><value>جۇغراپىيەلىك قورشاۋ چېگراسىدىن چىقىپ كەتتى</value></data>
+  <data name="BadAHRS" xml:space="preserve"><value>AHRS نورمال ئەمەس</value></data>
+  <data name="NORCReceiver" xml:space="preserve"><value>RC قوبۇللىغۇچ يوق</value></data>
+  <data name="AutoWP" xml:space="preserve"><value>ئاپتوماتىك يول نۇقتىسى</value></data>
+  <data name="EnsurePropsNotOn" xml:space="preserve"><value>ئايروپىلان/تۆت پىرقىرىغۇچلۇق ئۇچقۇنىڭ پىرقىرىغۇچلىرىنى ئېلىۋەتكەنلىكىڭىزنى جەزملەشتۈرۈڭ</value></data>
+  <data name="FailSafe" xml:space="preserve"><value>كاشىلا قوغداش</value></data>
+  <data name="Error_binding" xml:space="preserve"><value>جۈپلەشتە خاتالىق كۆرۈلدى</value></data>
+  <data name="Put_the_transmitter_in_bind_mode__Receiver_is_waiting" xml:space="preserve"><value>ئۇزاتقۇچنى جۈپلەش ھالىتىگە قويۇڭ. قوبۇللىغۇچ كۈتۈۋاتىدۇ.</value></data>
+  <data name="Completed" xml:space="preserve"><value>تاماملاندى</value></data>
+  <data name="Click_when_Done" xml:space="preserve"><value>تاماملانغاندا چېكىڭ</value></data>
+  <data name="Saving" xml:space="preserve"><value>ساقلىنىۋاتىدۇ</value></data>
+  <data name="InvalidCert" xml:space="preserve"><value>گۇۋاھنامە ئىناۋەتسىز</value></data>
+  <data name="Note" xml:space="preserve"><value>ئەسكەرتىش</value></data>
+  <data name="PleaseUnplugTheBoardAnd" xml:space="preserve"><value>تاختىنى ئۈزۈڭ، ئاندىن جەزملەشنى بېسىپ قايتا ئۇلاڭ.
+Mission Planner تاختىنى 30 سېكۇنت ئىزدەيدۇ</value></data>
+  <data name="ThisBoardHasBeenRetired" xml:space="preserve"><value>بۇ تاختا قوللاشتىن قالدۇرۇلغان، Mission Planner تاختىڭىزغا ئەڭ ئاخىرقى نەشرىنى يۈكلەيدۇ (AC 3.2.1/AP 3.4.0)</value></data>
+  <data name="YouAreUsingUnsupportedHardware" xml:space="preserve"><value>قوللىمايدىغان قاتتىق دېتال ئىشلىتىۋاتىسىز.
+بۇ تاختىدا ئىناۋەتلىك ئەسلىلىك گۇۋاھنامىسى يوق.
+قاتتىق دېتالىڭىزنى ئىمزالاش توغرىسىدا ساتقۇچىڭىز بىلەن ئالاقىلىشىڭ.</value></data>
+  <data name="NoNeedToUpload" xml:space="preserve"><value>يۈكلەش ھاجەتسىز، تاختىدا بار</value></data>
+  <data name="PleaseWaitForTheMusicalTones" xml:space="preserve"><value>جەزملەشنى چېكىشتىن بۇرۇن مۇزىكىلىق ئاۋازلارنىڭ ئاخىرلىشىشىنى كۈتۈڭ</value></data>
+  <data name="ObtainFromModule" xml:space="preserve"><value>مودۇلدىن ئېلىش</value></data>
+  <data name="SetHere" xml:space="preserve"><value>بۇ يەرگە تەڭشەش</value></data>
+  <data name="TrackerHome" xml:space="preserve"><value>ئىزلىگۈچنىڭ باشلىنىش نۇقتىسى</value></data>
+  <data name="velocity_variance" xml:space="preserve"><value>تېزلىك ۋارىيانسى</value></data>
+  <data name="compass_variance" xml:space="preserve"><value>كومپاس ۋارىيانسى</value></data>
+  <data name="pos_horiz_variance" xml:space="preserve"><value>توغرىسىغا ئورۇن ۋارىيانسى</value></data>
+  <data name="pos_vert_variance" xml:space="preserve"><value>تىك ئورۇن ۋارىيانسى</value></data>
+  <data name="terrain_alt_variance" xml:space="preserve"><value>يەر شەكلى ئېگىزلىكى ۋارىيانسى</value></data>
+  <data name="ChangeThrottle" xml:space="preserve"><value>گازنى ئۆزگەرتىش</value></data>
+  <data name="Invalid_home_location" xml:space="preserve"><value>باشلىنىش ئورنى ئىناۋەتسىز</value></data>
+  <data name="Converting_bin_to_log" xml:space="preserve"><value>bin دىن log غا ئايلاندۇرۇۋاتىدۇ</value></data>
+  <data name="UpdateNotFound" xml:space="preserve"><value>يېڭىلانما يوق.</value></data>
+  <data name="Failed_to_connect_to_SITL_instance" xml:space="preserve"><value>SITL نۇسخىسىغا ئۇلاش مەغلۇپ بولدى</value></data>
+  <data name="Scanning_File" xml:space="preserve"><value>ھۆججەت تەكشۈرۈلۈۋاتىدۇ</value></data>
+  <data name="Zoom_to_the_center_or_the_loaded_file" xml:space="preserve"><value>مەركەزگە ياكى يۈكلەنگەن ھۆججەتكە يېقىنلاشتۇرامسىز؟</value></data>
+  <data name="Zoom_To" xml:space="preserve"><value>يېقىنلاشتۇرۇش</value></data>
+  <data name="Do_you_want_to_load_this_into_the_flight_data_screen" xml:space="preserve"><value>بۇنى ئۇچۇش سانلىق مەلۇماتى ئېكرانىغا يۈكلەمسىز؟</value></data>
+  <data name="Load_data" xml:space="preserve"><value>سانلىق مەلۇمات يۈكلەش</value></data>
+  <data name="Bad_KML_File" xml:space="preserve"><value>KML ھۆججىتى خاتا:</value></data>
+  <data name="No_valid_heartbeats_read_from_port" xml:space="preserve"><value>ئېغىزدىن ئىناۋەتلىك ھاياتلىق سىگنالى ئوقۇلمىدى</value></data>
+  <data name="Bad_Vision_Position" xml:space="preserve"><value>كۆرۈش ئارقىلىق ئورۇن بېكىتىش خاتا</value></data>
+  <data name="BadLogging" xml:space="preserve"><value>خاتىرىلەش نورمال ئەمەس</value></data>
+  <data name="ParamRefreshRequired" xml:space="preserve"><value>پارامېتىرلارنى يېڭىلاش كېرەك — F5 نى بېسىڭ
+كونا #{0}  يېڭى #{1}</value></data>
+  <data name="Failed_to_download_the_SITL_image" xml:space="preserve"><value>SITL تەسۋىرىنى چۈشۈرۈش مەغلۇپ بولدى.</value></data>
+  <data name="Not_available_when_used_as_a_windows_store_app" xml:space="preserve"><value>Windows دۇكىنى ئەپى سۈپىتىدە ئىشلىتىلگەندە بۇ ئىقتىدار يوق</value></data>
+  <data name="No_firmware_available_for_this_board" xml:space="preserve"><value>بۇ تاختىغا ماس مۇقىم دېتال يوق!</value></data>
+  <data name="OnboardOSD" xml:space="preserve"><value>ئۇچقۇدىكى OSD</value></data>
+  <data name="User_Params" xml:space="preserve"><value>ئىشلەتكۈچى پارامېتىرلىرى</value></data>
+  <data name="Planner" xml:space="preserve"><value>پىلانلىغۇچ</value></data>
+  <data name="Cancel" xml:space="preserve"><value>بىكار قىلىش</value></data>
+  <data name="No_valid_sik_radio" xml:space="preserve"><value>ئىناۋەتلىك SiK رادىيوسى يوق</value></data>
+  <data name="MAVFtp" xml:space="preserve"><value>MAVFtp</value></data>
+  <data name="Bad_Battery" xml:space="preserve"><value>باتارېيە نورمال ئەمەس</value></data>
+  <data name="Bad_Proximity" xml:space="preserve"><value>يېقىنلىق سېنزورى نورمال ئەمەس</value></data>
+  <data name="Bad_SatCom" xml:space="preserve"><value>سۈنئىي ھەمراھ ئالاقىسى نورمال ئەمەس</value></data>
+  <data name="Prearm_check_failed" xml:space="preserve"><value>قوزغىتىشتىن بۇرۇنقى تەكشۈرۈشتىن ئۆتمىدى — ئۇچۇرلارنى تەكشۈرۈڭ</value></data>
+  <data name="Invalid_Location" xml:space="preserve"><value>ئورۇن ئىناۋەتسىز</value></data>
+  <data name="Loading" xml:space="preserve"><value>يۈكلىنىۋاتىدۇ</value></data>
+  <data name="ZeroAltWarningCopter" xml:space="preserve"><value>يول نۇقتىسى #{0} نىڭ ئېگىزلىكى نۆل، بۇ ئېگىزلىك ئۆزگەرمەيدۇ دېگەنلىك! نۆل ئېگىزلىك لازىم بولسا، 0.01 گە ئۆزگەرتىڭ. يول نۇقتىلىرىنى يۈكلەشنى داۋاملاشتۇرامسىز ياكى بىكار قىلامسىز؟</value></data>
+  <data name="ZeroAltWarningTitle" xml:space="preserve"><value>نۆل ئېگىزلىك ئاگاھلاندۇرۇشى</value></data>
+  <data name="ZeroAltWarningPlane" xml:space="preserve"><value>يول نۇقتىسى #{0} نىڭ ئېگىزلىكى نۆل. راستىنلا نۆل ئېگىزلىك لازىم بولسا، نەتىجىنى ئالدىن بىلىش ئۈچۈن 0.01 گە ئۆزگەرتىڭ.
+
+ArduPlane دا نۆل ئېگىزلىك ئىككى خىل چۈشەندۈرۈلۈشى مۇمكىن: ھەقىقىي نۆل ئېگىزلىك ياكى نۆۋەتتىكى ئېگىزلىكنى ساقلاش. WAYPOINT بۇيرۇقلىرى ئادەتتە نۆل ئېگىزلىكنى قوللىنىدۇ؛ LOITER بۇيرۇقلىرى ئادەتتە «نۆۋەتتىكى ئېگىزلىكنى ئىشلىتىش» دەپ چۈشىنىدۇ، ئەمما بۇ پەقەت ئېگىزلىك رامكىسى «نىسپىي» بولغاندىلا شۇنداق. باشقا ئالاھىدە ئەھۋاللارمۇ بولۇشى ۋە بۇ كېيىنكى نەشرلەردە ئۆزگىرىشى مۇمكىن.
+
+ئۆز ئەھۋالىڭىزدا نېمە بولىدىغانلىقىنى تولۇق چۈشەنگەندىلا نۆل قىلىڭ (تەقلىدلىگۈچتە جەزملەشتۈرۈڭ).[link;https://ardupilot.org/plane/docs/common-mavlink-mission-command-messages-mav_cmd.html;بۇيرۇق قوللانمىسى]</value></data>
+</root>

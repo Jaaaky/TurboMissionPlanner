@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="lbl_status.Text" xml:space="preserve"><value>وضعیت</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>تصاویر از Max Levine</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>برای «نسخه‌های پروازی» روی تصاویر بالا کلیک کنید</value></data>
+  <data name="CMB_history_label.Text" xml:space="preserve"><value>انتخاب میان‌افزار قبلی</value></data>
+  <data name="lbl_Custom_firmware_label.Text" xml:space="preserve"><value>بارگذاری میان‌افزار سفارشی</value></data>
+  <data name="lbl_devfw.Text" xml:space="preserve"><value>میان‌افزارهای بتا</value></data>
+  <data name="lbl_dlfw.Text" xml:space="preserve"><value>بارگیری میان‌افزارها</value></data>
+  <data name="lbl_px4bl.Text" xml:space="preserve"><value>ورود اجباری به بوت‌لودر</value></data>
+  <data name="lbl_licence.Text" xml:space="preserve"><value>ArduPilot نرم‌افزار آزاد است. برای خواندن مجوز میان‌افزار متن‌باز اینجا کلیک کنید.</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>تنظیم موتورهای کوپتر</value></data>
+</root>

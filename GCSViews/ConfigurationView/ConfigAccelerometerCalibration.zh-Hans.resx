@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -131,8 +131,8 @@
     <value>353, 24</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>水平放置您的自驾仪，设置加速度计的默认最小/最大值（3轴）。
-这会要求您将自驾仪的每一面都放置一次。</value>
+    <value>将飞控水平放置，以设置加速度计三轴的默认最小值/最大值。
+随后将提示您依次以各个面放置飞控。</value>
   </data>
   <data name="BUT_calib_accell.Text" xml:space="preserve">
     <value>校准加速度计</value>
@@ -147,7 +147,10 @@
     <value>377, 24</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>水平放置您的自驾仪，设置加速度计的默认偏移（1轴/航姿系统平衡）
-这需要您将自驾仪放置在水平的平面上。</value>
+    <value>将飞控水平放置，以设置加速度计的默认偏移量（单轴/AHRS 微调）。
+需要将飞控平放在水平面上。</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>将飞控水平放置，以设置平飞时的加速度计默认比例因子（单轴）。
+需要将飞控平放在水平面上。</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>简易加速度计校准</value></data>
 </root>

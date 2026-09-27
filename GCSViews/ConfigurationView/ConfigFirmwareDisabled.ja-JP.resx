@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -122,4 +122,6 @@
 
 右上端部の切断ボタンを押して、現在のMAVLinkセッションを終了してから再度ファームウェアのロード画面を表示してください。</value>
   </data>
+  <data name="but_bootloaderupdate.Text" xml:space="preserve"><value>ブートローダー更新</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>ハードウェアのブートローダーを利用可能な最新版に更新します。</value></data>
 </root>

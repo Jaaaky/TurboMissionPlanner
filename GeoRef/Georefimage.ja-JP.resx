@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -136,7 +136,7 @@
     <value>経度</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Geo レフ イメージ</value>
+    <value>画像に位置情報を付与</value>
   </data>
   <data name="txt_basealt.Text" xml:space="preserve">
     <value>0</value>
@@ -172,31 +172,31 @@
     <value>ピッチ</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>緯度</value>
+    <value>末尾の画像を除外</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>ロール</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>経度</value>
+    <value>最小撮影間隔 (秒) (CAM)</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
     <value>GPS Week</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>シャッター遅れ(ms)</value>
+    <value>シャッター遅延 (ms)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>セカンドオフセット</value>
+    <value>オフセット (秒)</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>Rel Alt ベース</value>
+    <value>相対高度の基準</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>ATT メッセージオフセット</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Dir fov</value>
+    <value>進行方向の画角</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>高度</value>
@@ -205,42 +205,47 @@
     <value>Head</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Cross fov</value>
+    <value>横方向の画角</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>回転</value>
   </data>
   <data name="chk_cammsg.Text" xml:space="preserve">
-    <value>Cam メッセージを使う</value>
+    <value>CAMメッセージを使用</value>
   </data>
   <data name="BUT_doit.Text" xml:space="preserve">
-    <value>プリ プロセス</value>
+    <value>前処理</value>
   </data>
   <data name="BUT_browsedir.Text" xml:space="preserve">
-    <value>画像のブラウズ</value>
+    <value>画像を参照</value>
   </data>
   <data name="BUT_networklinkgeoref.Text" xml:space="preserve">
-    <value>ロケーション Kml</value>
+    <value>位置情報KML</value>
   </data>
   <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve">
-    <value>AMSL Altを使う</value>
+    <value>平均海面高度を使用</value>
   </data>
   <data name="BUT_browselog.Text" xml:space="preserve">
-    <value>ログのブラウズ</value>
+    <value>ログを参照</value>
   </data>
   <data name="TXT_shutterLag.Text" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve">
-    <value>CAMメッセージの同期</value>
+    <value>CAMメッセージ</value>
   </data>
   <data name="RDIO_TimeOffset.Text" xml:space="preserve">
-    <value>タイム オフセット</value>
+    <value>時刻オフセット</value>
   </data>
   <data name="BUT_Geotagimages.Text" xml:space="preserve">
-    <value>GeoTag イメージ</value>
+    <value>画像にジオタグ付与</value>
   </data>
   <data name="BUT_estoffset.Text" xml:space="preserve">
-    <value>予測オフセット</value>
+    <value>オフセットを推定</value>
   </data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>先頭の画像を除外</value></data>
+  <data name="chk_usegps2.Text" xml:space="preserve"><value>GPS2を使用</value></data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve"><value>トリガーメッセージ</value></data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve"><value>GPS高度を使用</value></data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve"><value>GPS高度を使用</value></data>
 </root>

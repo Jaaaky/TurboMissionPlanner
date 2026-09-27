@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Planlaşdırıcı görünüşünün tapşırıq cədvəlindəki əmr seçiminə MAVLink əmrləri əlavə edə bilərsiniz. 
+Əmr əlavə etmək üçün onun identifikatorunu bilməlisiniz. İdentifikator MAVLink kitabxanalarında
+artıq müəyyən edilibsə, ad avtomatik doldurulur. Hələ müəyyən edilməmiş identifikator da əlavə edə bilərsiniz.
+Bu halda adı da daxil etməlisiniz. Buraya əmr əlavə edilməsi avtopilotun onu
+qəbul edəcəyi və ya icra edəcəyi demək deyil. Buna görə nə etdiyinizi bilməlisiniz.</value></data>
+</root>

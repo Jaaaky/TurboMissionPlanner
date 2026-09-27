@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>Limite comando</value>
   </data>
   <data name="label49.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>Limite comando</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>P</value>
@@ -130,16 +130,16 @@
     <value>D</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>Limite integratore</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>Limite integratore</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>Limite comando</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>P</value>
@@ -154,10 +154,10 @@
     <value>P</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>Limite integratore</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>Limite comando</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
     <value>D</value>
@@ -166,37 +166,37 @@
     <value>I</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>Limite integratore</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>Limite comando</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>EH Range</value>
+    <value>Intervallo quota energetica</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
-    <value>Servo Roll Pid</value>
+    <value>PID servo rollio</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>Pitch Min</value>
+    <value>Beccheggio min</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>Angoli Navigazione</value>
+    <value>Angoli di navigazione</value>
   </data>
   <data name="label52.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>Limite integratore</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>Raggio di Default </value>
+    <value>Raggio predefinito</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
-    <value>Servo Yaw Pid</value>
+    <value>PID servo imbardata</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Max</value>
@@ -205,7 +205,7 @@
     <value>Guadagno orbita</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>Traccia e Orbita</value>
+    <value>Rotta e orbita</value>
   </data>
   <data name="label50.Text" xml:space="preserve">
     <value>D</value>
@@ -214,97 +214,97 @@
     <value>Min</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Heading to Roll</value>
+    <value>Prua → rollio</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>D</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Sensore velocità to Pitch</value>
+    <value>Velocità all'aria → beccheggio</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Valore FS </value>
+    <value>Valore failsafe</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Livello Energia</value>
+    <value>Quota energetica</value>
   </data>
   <data name="label51.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Throttle 0-100%</value>
+    <value>Gas 0-100%</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Cruise</value>
+    <value>Crociera</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Servo Pitch Pid</value>
+    <value>PID servo beccheggio</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="groupBox12.Text" xml:space="preserve">
-    <value>Velocità (Airspeed) m/s</value>
+    <value>Velocità all'aria m/s</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>Yaw Rate Limit</value>
+    <value>Limite velocità imbardata</value>
   </data>
   <data name="groupBox10.Text" xml:space="preserve">
-    <value>Impostazioni Altimetro</value>
+    <value>Impostazioni altimetro</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
-    <value>Roll to Elev</value>
+    <value>Rollio → elevatore</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>Entry Angle</value>
+    <value>Angolo d'ingresso</value>
   </data>
   <data name="label31.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="groupBox11.Text" xml:space="preserve">
-    <value>Decollo / Atterraggio</value>
+    <value>Decollo / atterraggio</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>Pitch Max</value>
+    <value>Beccheggio max</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>Track Gain</value>
+    <value>Guadagno rotta</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
-    <value>Bank Max</value>
+    <value>Inclinazione laterale max</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>Bank Min</value>
+    <value>Inclinazione laterale min</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>Field Elev</value>
+    <value>Elevazione campo</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
     <value>in Hg</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>Velocità d'approccio</value>
+    <value>Velocità di avvicinamento</value>
   </data>
   <data name="BUT_write_flash.Text" xml:space="preserve">
-    <value>Scrivi Flash</value>
+    <value>Scrivi flash</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Scrivi Parametri</value>
+    <value>Scrivi parametri</value>
   </data>
   <data name="BUT_read_flash.Text" xml:space="preserve">
-    <value>Leggi Flash</value>
+    <value>Leggi flash</value>
   </data>
   <data name="label44.Text" xml:space="preserve">
-    <value>Cruise</value>
+    <value>Crociera</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
-    <value>Max Velocità (Airspeed)</value>
+    <value>Velocità all'aria max</value>
   </data>
   <data name="label43.Text" xml:space="preserve">
-    <value>Min Velocità (Airspeed)</value>
+    <value>Velocità all'aria min</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
-    <value>Min TO Pitch</value>
+    <value>Beccheggio min al decollo</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
     <value>Aggiorna parametri</value>

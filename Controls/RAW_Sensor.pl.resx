@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,22 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="tabRawSensor.Text" xml:space="preserve">
-    <value>Surowy czujnik</value>
+    <value>Surowe dane czujników</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Surowy czujnik</value>
+    <value>Surowe dane czujników</value>
   </data>
   <data name="CMB_rawupdaterate.Text" xml:space="preserve">
-    <value>Aktualizuj prędkość</value>
+    <value>Częstotliwość odświeżania</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>WYJ Serwa/Silnika</value>
+    <value>Wyjścia serw/silników</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Uwaga: Występuje opóźnienie przy podglądzie przez Xbee na 50Hz</value>
+    <value>Uwaga: podczas podglądu
+przez Xbee przy 50 Hz
+występuje opóźnienie</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>WEJ Radia</value>
+    <value>Wejścia RC</value>
   </data>
   <data name="chkax.Text" xml:space="preserve">
     <value>Przysp. X</value>
@@ -148,18 +150,18 @@
     <value>Radio</value>
   </data>
   <data name="tabOrientation.Text" xml:space="preserve">
-    <value>Parametry lotu</value>
+    <value>Dane lotu</value>
   </data>
   <data name="BUT_savecsv.Text" xml:space="preserve">
     <value>Zapisz CSV</value>
   </data>
   <data name="chkgz.Text" xml:space="preserve">
-    <value>Żyro Z</value>
+    <value>Żyroskop Z</value>
   </data>
   <data name="chkgx.Text" xml:space="preserve">
-    <value>Żyro X</value>
+    <value>Żyroskop X</value>
   </data>
   <data name="chkgy.Text" xml:space="preserve">
-    <value>Żyro Y</value>
+    <value>Żyroskop Y</value>
   </data>
 </root>

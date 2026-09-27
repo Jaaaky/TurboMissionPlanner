@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_osdrates.Text" xml:space="preserve">
-    <value>Abilità Telemetria</value>
+    <value>Abilita telemetria</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>OSD</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Utilizzare solo se avete problemi con l'OSD</value>
+    <value>Usare questa opzione solo se l'OSD non si aggiorna correttamente</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,33 +121,43 @@
     <value>Dəyər</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Danışıq</value>
+    <value>Axtar</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Bütün dəyərlər dəqiq deyil, heç bir miqyaslı format yoxdur</value>
+    <value>Bütün vahidlər miqyaslandırılmamış
+xam formatdadır</value>
   </data>
   <data name="BUT_load.Text" xml:space="preserve">
-    <value>Filedan yüklə</value>
+    <value>Fayldan yüklə</value>
   </data>
   <data name="Units.HeaderText" xml:space="preserve">
-    <value>Hissə</value>
+    <value>Vahidlər</value>
   </data>
   <data name="Command.HeaderText" xml:space="preserve">
-    <value>Əmr</value>
+    <value>Ad</value>
   </data>
   <data name="BUT_save.Text" xml:space="preserve">
-    <value>Filea yaz</value>
+    <value>Faylda saxla</value>
   </data>
   <data name="Options.HeaderText" xml:space="preserve">
-    <value>Tənzimləmələr</value>
+    <value>Seçimlər</value>
   </data>
   <data name="BUT_reset_params.Text" xml:space="preserve">
-    <value>Varsayılana sıfırla</value>
+    <value>İlkin dəyərə qaytar</value>
   </data>
   <data name="BUT_compare.Text" xml:space="preserve">
-    <value>Parametrləri müqayısə et</value>
+    <value>Parametrləri müqayisə et</value>
   </data>
   <data name="BUT_paramfileload.Text" xml:space="preserve">
-    <value>Yükləndi</value>
+    <value>Əvvəl saxlanılmışı yüklə</value>
   </data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>Parametrləri yenilə</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>Parametrləri yaz</value></data>
+  <data name="BUT_commitToFlash.Text" xml:space="preserve"><value>Parametrləri tətbiq et</value></data>
+  <data name="chk_modified.Text" xml:space="preserve"><value>Dəyişdirilib</value></data>
+  <data name="BUT_refreshTable.Text" xml:space="preserve"><value>Cədvəli yenilə</value></data>
+  <data name="chk_none_default.Text" xml:space="preserve"><value>İlkin olmayanlar</value></data>
+  <data name="Default_value.HeaderText" xml:space="preserve"><value>İlkin dəyər</value></data>
+  <data name="Desc.HeaderText" xml:space="preserve"><value>Təsvir</value></data>
+  <data name="Fav.HeaderText" xml:space="preserve"><value>Seçilmiş</value></data>
 </root>

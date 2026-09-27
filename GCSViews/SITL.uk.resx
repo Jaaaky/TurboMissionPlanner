@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -125,7 +125,7 @@
     <value>30, 13</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>ДКА</value>
+    <value>Наземний апарат</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>353, 120</value>
@@ -140,7 +140,7 @@
     <value>43, 13</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Коптер</value>
+    <value>Гелікоптер</value>
   </data>
   <data name="pictureBoxheli.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1733,10 +1733,10 @@
 </value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Дом.точка - Перетягніть мене</value>
+    <value>Домашня точка — перетягніть</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Оберіть прошивку для роботи</value>
+    <value>Виберіть прошивку для запуску</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 13</value>
@@ -1754,10 +1754,10 @@
     <value>Не завантажувати</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Опції</value>
+    <value>Параметри</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Для досвідчених користувачів</value>
+    <value>Лише для досвідчених користувачів</value>
   </data>
   <data name="but_swarmrover.Location" type="System.Drawing.Point, System.Drawing">
     <value>313, 42</value>
@@ -1766,7 +1766,7 @@
     <value>96, 28</value>
   </data>
   <data name="but_swarmrover.Text" xml:space="preserve">
-    <value>Swarm ДКА - Багатоканальний</value>
+    <value>Рій наземних апаратів — кілька каналів</value>
   </data>
   <data name="but_swarmplane.Location" type="System.Drawing.Point, System.Drawing">
     <value>213, 42</value>
@@ -1775,7 +1775,7 @@
     <value>96, 28</value>
   </data>
   <data name="but_swarmplane.Text" xml:space="preserve">
-    <value>Swarm Літаків - Багатоканальний</value>
+    <value>Рій літаків — кілька каналів</value>
   </data>
   <data name="but_swarmseq.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 42</value>
@@ -1784,7 +1784,7 @@
     <value>99, 28</value>
   </data>
   <data name="but_swarmseq.Text" xml:space="preserve">
-    <value>Swarm Коптерів - Одноканальний</value>
+    <value>Рій коптерів — один канал</value>
   </data>
   <data name="but_swarmlink.Location" type="System.Drawing.Point, System.Drawing">
     <value>111, 42</value>
@@ -1793,7 +1793,7 @@
     <value>99, 28</value>
   </data>
   <data name="but_swarmlink.Text" xml:space="preserve">
-    <value>Swarm Коптерів - Багатоканальний</value>
+    <value>Рій коптерів — кілька каналів</value>
   </data>
   <data name="chk_wipe.Location" type="System.Drawing.Point, System.Drawing">
     <value>643, 19</value>
@@ -1811,7 +1811,7 @@
     <value>97, 13</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Командний рядок</value>
+    <value>Додаткові аргументи командного рядка</value>
   </data>
   <data name="txt_cmdline.Location" type="System.Drawing.Point, System.Drawing">
     <value>406, 21</value>
@@ -1835,10 +1835,41 @@
     <value>77, 26</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Швидкість
-моделювання</value>
+    <value>Швидкість симуляції</value>
   </data>
   <data name="num_simspeed.Location" type="System.Drawing.Point, System.Drawing">
     <value>83, 18</value>
   </data>
+  <data name="cmb_model.Items1" xml:space="preserve"><value>quadplane</value></data>
+  <data name="cmb_model.Items2" xml:space="preserve"><value>xplane</value></data>
+  <data name="cmb_model.Items3" xml:space="preserve"><value>xplane-heli</value></data>
+  <data name="cmb_model.Items4" xml:space="preserve"><value>firefly</value></data>
+  <data name="cmb_model.Items6" xml:space="preserve"><value>quad</value></data>
+  <data name="cmb_model.Items7" xml:space="preserve"><value>copter</value></data>
+  <data name="cmb_model.Items8" xml:space="preserve"><value>x</value></data>
+  <data name="cmb_model.Items9" xml:space="preserve"><value>hexa</value></data>
+  <data name="cmb_model.Items10" xml:space="preserve"><value>octa</value></data>
+  <data name="cmb_model.Items11" xml:space="preserve"><value>tri</value></data>
+  <data name="cmb_model.Items12" xml:space="preserve"><value>y6</value></data>
+  <data name="cmb_model.Items13" xml:space="preserve"><value>heli</value></data>
+  <data name="cmb_model.Items14" xml:space="preserve"><value>heli-dual</value></data>
+  <data name="cmb_model.Items15" xml:space="preserve"><value>heli-compound</value></data>
+  <data name="cmb_model.Items16" xml:space="preserve"><value>singlecopter</value></data>
+  <data name="cmb_model.Items17" xml:space="preserve"><value>coaxcopter</value></data>
+  <data name="cmb_model.Items18" xml:space="preserve"><value>rover</value></data>
+  <data name="cmb_model.Items19" xml:space="preserve"><value>crrcsim</value></data>
+  <data name="cmb_model.Items20" xml:space="preserve"><value>jsbsim</value></data>
+  <data name="cmb_model.Items21" xml:space="preserve"><value>flightaxis</value></data>
+  <data name="cmb_model.Items22" xml:space="preserve"><value>gazebo</value></data>
+  <data name="cmb_model.Items23" xml:space="preserve"><value>last_letter</value></data>
+  <data name="cmb_model.Items24" xml:space="preserve"><value>tracker</value></data>
+  <data name="cmb_model.Items25" xml:space="preserve"><value>balloon</value></data>
+  <data name="cmb_model.Items26" xml:space="preserve"><value>plane</value></data>
+  <data name="cmb_model.Items27" xml:space="preserve"><value>calibration</value></data>
+  <data name="cmb_model.Items28" xml:space="preserve"><value>plane-jet</value></data>
+  <data name="cmb_model.Items29" xml:space="preserve"><value>sailboat</value></data>
+  <data name="cmb_model.Items30" xml:space="preserve"><value>motorboat</value></data>
+  <data name="cmb_model.Items31" xml:space="preserve"><value>morse-rover</value></data>
+  <data name="cmb_model.Items32" xml:space="preserve"><value>rover-skid</value></data>
+  <data name="cmb_model.Items33" xml:space="preserve"><value>plane-3d</value></data>
 </root>

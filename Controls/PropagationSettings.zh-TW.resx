@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="chk_ele.Text" xml:space="preserve"><value>海拔</value></data>
+  <data name="chk_terrain.Text" xml:space="preserve"><value>地形</value></data>
+  <data name="chk_rf.Text" xml:space="preserve"><value>射頻涵蓋圖</value></data>
+  <data name="chk_dronedist.Text" xml:space="preserve"><value>載具剩餘距離</value></data>
+  <data name="chk_homedist.Text" xml:space="preserve"><value>返航點剩餘距離</value></data>
+  <data name="cb_showscale.Text" xml:space="preserve"><value>顯示比例尺</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>高度篩選</value></data>
+  <data name="label91.Text" xml:space="preserve"><value>海拔</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>最大高度</value></data>
+  <data name="label89.Text" xml:space="preserve"><value>淨空高度 [m]</value></data>
+  <data name="label100.Text" xml:space="preserve"><value>傳播</value></data>
+  <data name="label113.Text" xml:space="preserve"><value>剩餘公里數</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>最小高度</value></data>
+  <data name="label109.Text" xml:space="preserve"><value>方位角步進</value></data>
+  <data name="label90.Text" xml:space="preserve"><value>解析度</value></data>
+  <data name="label110.Text" xml:space="preserve"><value>收斂</value></data>
+  <data name="label111.Text" xml:space="preserve"><value>範圍 [Km]</value></data>
+  <data name="label112.Text" xml:space="preserve"><value>基地高度 [m]</value></data>
+  <data name="label114.Text" xml:space="preserve"><value>容許誤差</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>地圖疊加圖層</value></data>
+  <data name="chk_setalt.Text" xml:space="preserve"><value>高度篩選</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>傳播設定</value></data>
+</root>

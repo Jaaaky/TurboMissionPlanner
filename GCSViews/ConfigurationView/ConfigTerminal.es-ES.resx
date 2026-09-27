@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,21 +118,32 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUTtests.Text" xml:space="preserve">
-    <value>Tests</value>
+    <value>Pruebas</value>
   </data>
   <data name="Logs.Text" xml:space="preserve">
-    <value>Descargar Log</value>
+    <value>Descargar registros</value>
   </data>
   <data name="BUTradiosetup.Text" xml:space="preserve">
-    <value>Ajustar Radio</value>
+    <value>Configurar radio</value>
   </data>
   <data name="TXT_terminal.Text" xml:space="preserve">
-    <value />
+    <value>NOTA: pulse Conectar arriba
+La CLI solo funciona tras conectar la alimentación por primera vez; los registros solo se descargan por USB.
+Las versiones más recientes solo permiten descargar registros mediante MAVLink. Consulte Datos de vuelo &gt; Registros DataFlash.
+</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
-    <value>Buscar Log</value>
+    <value>Examinar registros</value>
   </data>
   <data name="BUTsetupshow.Text" xml:space="preserve">
-    <value>Mostrar Ajustes</value>
+    <value>Mostrar ajustes</value>
   </data>
+  <data name="BUT_ConnectAPM.Text" xml:space="preserve"><value>Conectar</value></data>
+  <data name="BUT_disconnect.Text" xml:space="preserve"><value>Desconectar</value></data>
+  <data name="CMB_boardtype.Items" xml:space="preserve"><value>APM</value></data>
+  <data name="CMB_boardtype.Items1" xml:space="preserve"><value>PX4/PIXHAWK</value></data>
+  <data name="CMB_boardtype.Items2" xml:space="preserve"><value>VRX/VRBRAIN</value></data>
+  <data name="CMB_boardtype.Items3" xml:space="preserve"><value>NSH</value></data>
+  <data name="CMB_boardtype.Items4" xml:space="preserve"><value>SSH</value></data>
+  <data name="CMB_boardtype.Text" xml:space="preserve"><value>APM</value></data>
 </root>

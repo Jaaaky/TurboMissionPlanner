@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>Jurnal faylı endirilir. Ləğv etmək istəyirsiniz?</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>Əminsiniz?</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>{0} üçün KML yaradılır</value></data>
+  <data name="Done" xml:space="preserve"><value>Hazırdır</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>Jurnal faylları buraya endirilir: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>!!Silinmə üçün 30-90 saniyə gözləyin</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>Faylı emal edərkən xəta. Faylın istifadədə olmadığından əmin olun</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>{0} jurnal faylı alınır...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>Jurnal fayllarının siyahısı alınır...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>Jurnal qovluğu yaradıla bilmədi: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>Endiriləcək jurnal yoxdur</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>PUA-nı qoşun</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>Siyahıdakı xanaları işarələməklə jurnalları seçin</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>{0} emal olunur</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>{0} jurnal faylı tapıldı. Qeyd: göstərilən ölçülər təxminidir.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>Xəta:</value></data>
+</root>

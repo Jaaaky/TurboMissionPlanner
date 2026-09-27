@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_betaupdate.Text" xml:space="preserve">
-    <value>Periksa BETA Update</value>
+    <value>Periksa Pembaruan BETA</value>
   </data>
   <data name="richTextBox1.Text" xml:space="preserve">
     <value />
   </data>
   <data name="CHK_showconsole.Text" xml:space="preserve">
-    <value>Tampilkan Console Window (restart)</value>
+    <value>Tampilkan Jendela Konsol (mulai ulang)</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Perubahan Log</value>
+    <value>Riwayat Perubahan</value>
   </data>
   <data name="BUT_updatecheck.Text" xml:space="preserve">
-    <value>Check untuk Updates</value>
+    <value>Periksa Pembaruan</value>
   </data>
 </root>

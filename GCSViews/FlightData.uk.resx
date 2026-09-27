@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -122,7 +122,7 @@
     <value>246, 22</value>
   </data>
   <data name="recordHudToAVIToolStripMenuItem.Text" xml:space="preserve">
-    <value>Запис HUD до AVI</value>
+    <value>Записувати HUD у AVI</value>
   </data>
   <data name="stopRecordToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
@@ -134,19 +134,19 @@
     <value>246, 22</value>
   </data>
   <data name="setMJPEGSourceToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити MJPEG джерело</value>
+    <value>Задати джерело MJPEG</value>
   </data>
   <data name="startCameraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="startCameraToolStripMenuItem.Text" xml:space="preserve">
-    <value>Увімкнути камеру</value>
+    <value>Запустити камеру</value>
   </data>
   <data name="setGStreamerSourceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
   </data>
   <data name="setGStreamerSourceToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити джерело GStreamer</value>
+    <value>Задати джерело GStreamer</value>
   </data>
   <data name="hereLinkVideoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>246, 22</value>
@@ -170,7 +170,7 @@
     <value>268, 22</value>
   </data>
   <data name="setAspectRatioToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити Співвідношення сторін</value>
+    <value>Задати співвідношення сторін</value>
   </data>
   <data name="userItemsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>268, 22</value>
@@ -182,7 +182,7 @@
     <value>268, 22</value>
   </data>
   <data name="russianHudToolStripMenuItem.Text" xml:space="preserve">
-    <value>HUD радянського зразку</value>
+    <value>HUD російського типу</value>
   </data>
   <data name="swapWithMapToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>268, 22</value>
@@ -200,13 +200,13 @@
     <value>268, 22</value>
   </data>
   <data name="setBatteryCellCountToolStripMenuItem.Text" xml:space="preserve">
-    <value>Напруга батареї</value>
+    <value>Напруга комірки акумулятора</value>
   </data>
   <data name="showIconsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>268, 22</value>
   </data>
   <data name="showIconsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Показати іконки</value>
+    <value>Показувати значки</value>
   </data>
   <data name="contextMenuStripHud.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 180</value>
@@ -224,13 +224,13 @@
     <value>220, 22</value>
   </data>
   <data name="customizeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Персоналізувати</value>
+    <value>Налаштувати</value>
   </data>
   <data name="multiLineToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>220, 22</value>
   </data>
   <data name="multiLineToolStripMenuItem.Text" xml:space="preserve">
-    <value>Розмістити в багато рядків</value>
+    <value>Кілька рядків</value>
   </data>
   <data name="contextMenuStripactionstab.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 48</value>
@@ -242,13 +242,13 @@
     <value>237, 22</value>
   </data>
   <data name="setViewCountToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити кількість виглядів</value>
+    <value>Задати кількість показників</value>
   </data>
   <data name="undockToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>237, 22</value>
   </data>
   <data name="undockToolStripMenuItem.Text" xml:space="preserve">
-    <value>Відстикувати</value>
+    <value>Відкріпити</value>
   </data>
   <data name="contextMenuStripQuickView.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 48</value>
@@ -272,13 +272,13 @@
     <value />
   </data>
   <data name="quickView1.ToolTip" xml:space="preserve">
-    <value>Двічі натисніть на мене, щоб змінити</value>
+    <value>Двічі клацніть, щоб змінити</value>
   </data>
   <data name="tableLayoutPanelQuick.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="tabQuick.Text" xml:space="preserve">
-    <value>Швидкий доступ</value>
+    <value>Швидкий огляд</value>
   </data>
   <data name="tabQuick.ToolTip" xml:space="preserve">
     <value />
@@ -287,31 +287,31 @@
     <value>Повідомлення</value>
   </data>
   <data name="BUT_SendMSG.ToolTip" xml:space="preserve">
-    <value>Відправити повідомлення для збееження в журналі трансп.засобу</value>
+    <value>Надіслати повідомлення для збереження в журналі апарата</value>
   </data>
   <data name="BUT_abortland.Text" xml:space="preserve">
     <value>Перервати посадку</value>
   </data>
   <data name="BUT_abortland.ToolTip" xml:space="preserve">
-    <value>Доступно лише для літаків</value>
+    <value>Лише для літака</value>
   </data>
   <data name="modifyandSetLoiterRad.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_clear_track.Text" xml:space="preserve">
-    <value>Стерти маршрут</value>
+    <value>Очистити слід</value>
   </data>
   <data name="BUT_clear_track.ToolTip" xml:space="preserve">
-    <value>Стерти записаний шлях з карти</value>
+    <value>Очистити записану траєкторію на мапі</value>
   </data>
   <data name="CMB_action.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUTactiondo.Text" xml:space="preserve">
-    <value>Виконати</value>
+    <value>Виконати дію</value>
   </data>
   <data name="BUTactiondo.ToolTip" xml:space="preserve">
-    <value>Виконати</value>
+    <value>Виконати дію, вибрану ліворуч</value>
   </data>
   <data name="BUT_resumemis.Text" xml:space="preserve">
     <value>Продовжити місію</value>
@@ -329,76 +329,76 @@
     <value />
   </data>
   <data name="BUT_ARM.Text" xml:space="preserve">
-    <value>Армувати/Деармувати</value>
+    <value>Озброїти / роззброїти</value>
   </data>
   <data name="BUT_ARM.ToolTip" xml:space="preserve">
-    <value>Розблокувати М-БпЛА</value>
+    <value>Озброїти апарат</value>
   </data>
   <data name="BUT_mountmode.Text" xml:space="preserve">
-    <value>Встановити монтування</value>
+    <value>Налаштувати підвіс</value>
   </data>
   <data name="BUT_mountmode.ToolTip" xml:space="preserve">
-    <value>Встановити новий режим</value>
+    <value>Увімкнути режим, вибраний ліворуч</value>
   </data>
   <data name="BUT_joystick.Text" xml:space="preserve">
     <value>Джойстик</value>
   </data>
   <data name="BUT_joystick.ToolTip" xml:space="preserve">
-    <value>Налаштувати та активувати джойстик</value>
+    <value>Налаштувати й увімкнути джойстик</value>
   </data>
   <data name="BUT_RAWSensor.Text" xml:space="preserve">
-    <value>Перегляд сенсорів</value>
+    <value>Сирі дані датчиків</value>
   </data>
   <data name="BUT_RAWSensor.ToolTip" xml:space="preserve">
-    <value>Переглянути необроблені показники Гіроскопа, Прискорення або входів/виходів Радіо</value>
+    <value>Переглянути сирі значення гіроскопа й акселерометра та входи/виходи радіокерування</value>
   </data>
   <data name="BUT_Homealt.Text" xml:space="preserve">
-    <value>Встановити висоту дом.точки</value>
+    <value>Задати висоту дому</value>
   </data>
   <data name="BUT_Homealt.ToolTip" xml:space="preserve">
-    <value>Встановити поточну висоту на 0, тобто висота дом.точки буде показана як 0</value>
+    <value>Прийняти поточну відображувану висоту за 0, тобто показувати висоту дому як 0</value>
   </data>
   <data name="BUTrestartmission.Text" xml:space="preserve">
-    <value>Перезапустити місію</value>
+    <value>Почати місію заново</value>
   </data>
   <data name="BUTrestartmission.ToolTip" xml:space="preserve">
-    <value>Перезапустити місію з самого початку</value>
+    <value>Перезапустити місію з початку</value>
   </data>
   <data name="CMB_mountmode.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_quickrtl.Text" xml:space="preserve">
-    <value>RTL (Повернення додому)</value>
+    <value>RTL</value>
   </data>
   <data name="BUT_quickrtl.ToolTip" xml:space="preserve">
-    <value>Виконати RTL (Повернення додому)</value>
+    <value>Перейти в режим RTL</value>
   </data>
   <data name="BUT_quickmanual.Text" xml:space="preserve">
-    <value>Віраж</value>
+    <value>Loiter</value>
   </data>
   <data name="BUT_quickmanual.ToolTip" xml:space="preserve">
-    <value>Перевести в Режим Ручний/Стабілізація</value>
+    <value>Перейти в режим Manual/Stabilize</value>
   </data>
   <data name="BUT_setwp.Text" xml:space="preserve">
-    <value>Встановити ППМ</value>
+    <value>Задати точку</value>
   </data>
   <data name="BUT_setwp.ToolTip" xml:space="preserve">
-    <value>Змінити цільовий ППМ</value>
+    <value>Змінити поточну цільову маршрутну точку</value>
   </data>
   <data name="CMB_modes.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_quickauto.Text" xml:space="preserve">
-    <value>Авто</value>
+    <value>Auto</value>
   </data>
   <data name="BUT_quickauto.ToolTip" xml:space="preserve">
-    <value>Встановити режим Авто</value>
+    <value>Перейти в режим Auto</value>
   </data>
   <data name="BUT_setmode.Text" xml:space="preserve">
-    <value>Встановити режим</value>
+    <value>Установити режим</value>
   </data>
   <data name="BUT_setmode.ToolTip" xml:space="preserve">
-    <value>Встановити новий режим</value>
+    <value>Увімкнути режим, вибраний ліворуч</value>
   </data>
   <data name="tableLayoutPanel1.ToolTip" xml:space="preserve">
     <value />
@@ -419,22 +419,22 @@
     <value />
   </data>
   <data name="myButton1.Text" xml:space="preserve">
-    <value>Віраж</value>
+    <value>Loiter</value>
   </data>
   <data name="myButton1.ToolTip" xml:space="preserve">
-    <value>Встановити Режим Ручний/Стабілізація</value>
+    <value>Перейти в режим Manual/Stabilize</value>
   </data>
   <data name="myButton2.Text" xml:space="preserve">
-    <value>RTL (Повернення додому)</value>
+    <value>RTL</value>
   </data>
   <data name="myButton2.ToolTip" xml:space="preserve">
-    <value>Перевести в режим RTL (Повернення додому)</value>
+    <value>Перейти в режим RTL</value>
   </data>
   <data name="myButton3.Text" xml:space="preserve">
-    <value>Авто</value>
+    <value>Auto</value>
   </data>
   <data name="myButton3.ToolTip" xml:space="preserve">
-    <value>Встановити режим Авто</value>
+    <value>Перейти в режим Auto</value>
   </data>
   <data name="tabActionsSimple.Text" xml:space="preserve">
     <value>Дії</value>
@@ -1245,7 +1245,7 @@
 </value>
   </data>
   <data name="Gspeed.ToolTip" xml:space="preserve">
-    <value>Двічі натисніть на мене, щоб змінити Макс.значення</value>
+    <value>Двічі клацніть, щоб змінити максимум</value>
   </data>
   <data name="tabGauges.Text" xml:space="preserve">
     <value>Прилади</value>
@@ -1275,7 +1275,7 @@
     <value />
   </data>
   <data name="XPDRConnect_btn.Text" xml:space="preserve">
-    <value>Під'єднатися до транспондера</value>
+    <value>Під’єднатися до транспондера</value>
   </data>
   <data name="XPDRConnect_btn.ToolTip" xml:space="preserve">
     <value />
@@ -1287,7 +1287,7 @@
     <value>61, 13</value>
   </data>
   <data name="FlightID_label.Text" xml:space="preserve">
-    <value>ID польоту</value>
+    <value>Ідентифікатор польоту</value>
   </data>
   <data name="FlightID_label.ToolTip" xml:space="preserve">
     <value />
@@ -1302,7 +1302,7 @@
     <value />
   </data>
   <data name="ON_btn.Text" xml:space="preserve">
-    <value>УВІМК</value>
+    <value>ON</value>
   </data>
   <data name="ON_btn.ToolTip" xml:space="preserve">
     <value />
@@ -1410,7 +1410,7 @@
     <value />
   </data>
   <data name="tabServo.Text" xml:space="preserve">
-    <value>Серво/Реле</value>
+    <value>Сервопривід/реле</value>
   </data>
   <data name="tabServo.ToolTip" xml:space="preserve">
     <value />
@@ -1440,7 +1440,7 @@
     <value />
   </data>
   <data name="tabAuxFunction.Text" xml:space="preserve">
-    <value>Aux Функції</value>
+    <value>Допоміжна функція</value>
   </data>
   <data name="tabAuxFunction.ToolTip" xml:space="preserve">
     <value />
@@ -1449,13 +1449,13 @@
     <value>186, 17</value>
   </data>
   <data name="checkBoxRedirectOutput.Text" xml:space="preserve">
-    <value>Перенаправити вивід програми</value>
+    <value>Перенаправляти вивід програми</value>
   </data>
   <data name="checkBoxRedirectOutput.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_edit_selected.Text" xml:space="preserve">
-    <value>Редагувати обраний сценарій</value>
+    <value>Редагувати вибраний сценарій</value>
   </data>
   <data name="BUT_edit_selected.ToolTip" xml:space="preserve">
     <value />
@@ -1464,19 +1464,19 @@
     <value>127, 13</value>
   </data>
   <data name="labelSelectedScript.Text" xml:space="preserve">
-    <value>Обраний скрипт: немає</value>
+    <value>Вибраний сценарій: немає</value>
   </data>
   <data name="labelSelectedScript.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_run_script.Text" xml:space="preserve">
-    <value>Запустити скрипт</value>
+    <value>Запустити сценарій</value>
   </data>
   <data name="BUT_run_script.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_abort_script.Text" xml:space="preserve">
-    <value>Перервати запущений скрипт</value>
+    <value>Перервати сценарій</value>
   </data>
   <data name="BUT_abort_script.ToolTip" xml:space="preserve">
     <value />
@@ -1485,19 +1485,19 @@
     <value>170, 13</value>
   </data>
   <data name="labelScriptStatus.Text" xml:space="preserve">
-    <value>Стан скрипту: немає запущених</value>
+    <value>Стан сценарію: нічого не виконується</value>
   </data>
   <data name="labelScriptStatus.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_select_script.Text" xml:space="preserve">
-    <value>Оберіть скрипт</value>
+    <value>Вибрати сценарій</value>
   </data>
   <data name="BUT_select_script.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="tabScripts.Text" xml:space="preserve">
-    <value>Скрипти</value>
+    <value>Сценарії</value>
   </data>
   <data name="tabScripts.ToolTip" xml:space="preserve">
     <value />
@@ -1527,13 +1527,13 @@
     <value />
   </data>
   <data name="groupBoxYaw.Text" xml:space="preserve">
-    <value>Рискання</value>
+    <value>Поворот</value>
   </data>
   <data name="groupBoxYaw.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_resetGimbalPos.Text" xml:space="preserve">
-    <value>Скинути позицію</value>
+    <value>Скинути положення</value>
   </data>
   <data name="BUT_resetGimbalPos.ToolTip" xml:space="preserve">
     <value />
@@ -1566,25 +1566,25 @@
     <value />
   </data>
   <data name="BUT_speed10.Text" xml:space="preserve">
-    <value>10х</value>
+    <value>10x</value>
   </data>
   <data name="BUT_speed10.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_speed5.Text" xml:space="preserve">
-    <value>5х</value>
+    <value>5x</value>
   </data>
   <data name="BUT_speed5.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_speed2.Text" xml:space="preserve">
-    <value>2х</value>
+    <value>2x</value>
   </data>
   <data name="BUT_speed2.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_speed1.Text" xml:space="preserve">
-    <value>1х</value>
+    <value>1x</value>
   </data>
   <data name="BUT_speed1.ToolTip" xml:space="preserve">
     <value />
@@ -1608,7 +1608,7 @@
     <value />
   </data>
   <data name="lbl_playbackspeed.Text" xml:space="preserve">
-    <value>х 1.0</value>
+    <value>x 1.0</value>
   </data>
   <data name="lbl_playbackspeed.ToolTip" xml:space="preserve">
     <value />
@@ -1620,13 +1620,13 @@
     <value />
   </data>
   <data name="BUT_log2kml.Text" xml:space="preserve">
-    <value>Tlog &gt; Kml або Графік</value>
+    <value>Tlog → KML або графік</value>
   </data>
   <data name="BUT_log2kml.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_playlog.Text" xml:space="preserve">
-    <value>Відтворити/Призупинити</value>
+    <value>Відтворення/пауза</value>
   </data>
   <data name="BUT_playlog.ToolTip" xml:space="preserve">
     <value />
@@ -1644,13 +1644,13 @@
     <value />
   </data>
   <data name="BUT_DFMavlink.Text" xml:space="preserve">
-    <value>Завантажити Журнал DataFlash через MAVLink</value>
+    <value>Завантажити журнал DataFlash через MAVLink</value>
   </data>
   <data name="BUT_DFMavlink.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_georefimage.Text" xml:space="preserve">
-    <value>Файли геореференції</value>
+    <value>Геоприв’язка знімків</value>
   </data>
   <data name="BUT_georefimage.ToolTip" xml:space="preserve">
     <value />
@@ -1662,26 +1662,25 @@
     <value />
   </data>
   <data name="BUT_matlab.Text" xml:space="preserve">
-    <value>Створити Matlab файл</value>
+    <value>Створити файл MATLAB</value>
   </data>
   <data name="BUT_matlab.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="but_bintolog.Text" xml:space="preserve">
-    <value>Перетворити
-.Bin в .Log</value>
+    <value>Перетворити .Bin на .Log</value>
   </data>
   <data name="but_bintolog.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="but_dflogtokml.Text" xml:space="preserve">
-    <value>Створити KML + gpx</value>
+    <value>Створити KML + GPX</value>
   </data>
   <data name="but_dflogtokml.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_loganalysis.Text" xml:space="preserve">
-    <value>Авто-аналіз</value>
+    <value>Автоматичний аналіз</value>
   </data>
   <data name="BUT_loganalysis.ToolTip" xml:space="preserve">
     <value />
@@ -1720,19 +1719,19 @@
     <value>261, 22</value>
   </data>
   <data name="goHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Летіти на Цю Висоту</value>
+    <value>Летіти сюди</value>
   </data>
   <data name="flyToHereAltToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 22</value>
   </data>
   <data name="flyToHereAltToolStripMenuItem.Text" xml:space="preserve">
-    <value>Летіти на Цю Висоту</value>
+    <value>Висота польоту сюди</value>
   </data>
   <data name="flyToCoordsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 22</value>
   </data>
   <data name="flyToCoordsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Летіти за Координатами</value>
+    <value>Летіти за координатами</value>
   </data>
   <data name="deleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 22</value>
@@ -1744,7 +1743,7 @@
     <value>177, 22</value>
   </data>
   <data name="saveFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Зберегти Файл</value>
+    <value>Зберегти файл</value>
   </data>
   <data name="loadFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>177, 22</value>
@@ -1768,43 +1767,43 @@
     <value>261, 22</value>
   </data>
   <data name="pointCameraHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Навести Камеру Сюди</value>
+    <value>Навести камеру сюди</value>
   </data>
   <data name="PointCameraCoordsToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 22</value>
   </data>
   <data name="PointCameraCoordsToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Навести Камеру за Координатами</value>
+    <value>Навести камеру за координатами</value>
   </data>
   <data name="triggerCameraToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 22</value>
   </data>
   <data name="triggerCameraToolStripMenuItem.Text" xml:space="preserve">
-    <value>Активувати камеру ЗАРАЗ</value>
+    <value>Спустити затвор ЗАРАЗ</value>
   </data>
   <data name="flightPlannerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 22</value>
   </data>
   <data name="flightPlannerToolStripMenuItem.Text" xml:space="preserve">
-    <value>Планувальник польоту</value>
+    <value>Планування польоту</value>
   </data>
   <data name="setEKFHomeHereToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>258, 22</value>
   </data>
   <data name="setEKFHomeHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити Вихідну точку EKF Тут</value>
+    <value>Задати початок координат EKF тут</value>
   </data>
   <data name="setHomeHereToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>258, 22</value>
   </data>
   <data name="setHomeHereToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Встановити Дом.точку Тут</value>
+    <value>Задати домашню точку тут</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 22</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Встановити Дом.точку Тут</value>
+    <value>Задати домашню точку тут</value>
   </data>
   <data name="takeOffToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 22</value>
@@ -1816,13 +1815,13 @@
     <value>261, 22</value>
   </data>
   <data name="onOffCameraOverlapToolStripMenuItem.Text" xml:space="preserve">
-    <value>Перекриття Камери</value>
+    <value>Перекриття знімків</value>
   </data>
   <data name="jumpToTagToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 22</value>
   </data>
   <data name="jumpToTagToolStripMenuItem.Text" xml:space="preserve">
-    <value>Перейти до Тегу</value>
+    <value>Перейти до мітки</value>
   </data>
   <data name="contextMenuStripMap.Size" type="System.Drawing.Size, System.Drawing">
     <value>262, 268</value>
@@ -1834,7 +1833,7 @@
     <value>38, 13</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Мштб.</value>
+    <value>Масштаб</value>
   </data>
   <data name="label1.ToolTip" xml:space="preserve">
     <value />
@@ -1846,7 +1845,7 @@
     <value />
   </data>
   <data name="Zoomlevel.ToolTip" xml:space="preserve">
-    <value>Змінити рівень масштабування</value>
+    <value>Змінити масштаб</value>
   </data>
   <data name="distanceBar1.ToolTip" xml:space="preserve">
     <value />
@@ -1864,7 +1863,7 @@
     <value>76, 13</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>GPS (Чорний)</value>
+    <value>Слід GPS (чорний)</value>
   </data>
   <data name="label6.ToolTip" xml:space="preserve">
     <value />
@@ -1885,7 +1884,7 @@
     <value>90, 13</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Прямий до ППМ</value>
+    <value>Напрямок до поточної точки</value>
   </data>
   <data name="label3.ToolTip" xml:space="preserve">
     <value />
@@ -1903,13 +1902,13 @@
     <value>HDOP: 0</value>
   </data>
   <data name="lbl_hdop.ToolTip" xml:space="preserve">
-    <value>HDOP (Горизонтальне погіршення точності) GPS</value>
+    <value>HDOP GPS</value>
   </data>
   <data name="lbl_sats.Text" xml:space="preserve">
     <value>Супутники: 0</value>
   </data>
   <data name="lbl_sats.ToolTip" xml:space="preserve">
-    <value>Кулькість супутників</value>
+    <value>Кількість супутників</value>
   </data>
   <data name="gMapControl1.ToolTip" xml:space="preserve">
     <value />
@@ -1927,10 +1926,10 @@
     <value>117, 17</value>
   </data>
   <data name="CHK_autopan.Text" xml:space="preserve">
-    <value>Авто-центрування</value>
+    <value>Автопереміщення</value>
   </data>
   <data name="CHK_autopan.ToolTip" xml:space="preserve">
-    <value>Змушує карту автоматично центруватися на поточному місцезнаходженні</value>
+    <value>Автоматично переміщувати мапу за поточним розташуванням</value>
   </data>
   <data name="CB_tuning.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 17</value>
@@ -1939,7 +1938,7 @@
     <value>Налаштування</value>
   </data>
   <data name="CB_tuning.ToolTip" xml:space="preserve">
-    <value>Показати графік для налаштування - зі значеннями цільової висоти проти фактичної</value>
+    <value>Показувати графік налаштування з цільовими та фактичними кутами орієнтації</value>
   </data>
   <data name="panel1.ToolTip" xml:space="preserve">
     <value />
@@ -1956,4 +1955,26 @@
   <data name="$this.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="CMB_setwp.Items" xml:space="preserve"><value>0 (Дім)</value></data>
+  <data name="NACp_lbl.Text" xml:space="preserve"><value>NACp</value></data>
+  <data name="NIC_lbl.Text" xml:space="preserve"><value>NIC</value></data>
+  <data name="fault_clb.Items" xml:space="preserve"><value>Потрібне ТО</value></data>
+  <data name="fault_clb.Items1" xml:space="preserve"><value>GPS недоступний</value></data>
+  <data name="fault_clb.Items2" xml:space="preserve"><value>Немає фіксації GPS</value></data>
+  <data name="fault_clb.Items3" xml:space="preserve"><value>Збій передавача</value></data>
+  <data name="fault_clb.Items4" xml:space="preserve"><value>На землі</value></data>
+  <data name="Squawk_label.Text" xml:space="preserve"><value>Код відповідача</value></data>
+  <data name="IDENT_btn.Text" xml:space="preserve"><value>IDENT</value></data>
+  <data name="ALT_btn.Text" xml:space="preserve"><value>ALT</value></data>
+  <data name="STBY_btn.Text" xml:space="preserve"><value>STBY</value></data>
+  <data name="Mode_clb.Items" xml:space="preserve"><value>Режим A</value></data>
+  <data name="Mode_clb.Items1" xml:space="preserve"><value>Режим C</value></data>
+  <data name="Mode_clb.Items2" xml:space="preserve"><value>Режим S</value></data>
+  <data name="Mode_clb.Items3" xml:space="preserve"><value>1090ES ADS-B OUT</value></data>
+  <data name="BUT_GimbalVideo.Text" xml:space="preserve"><value>Керування відео</value></data>
+  <data name="gimbalVideoFullSizedToolStripMenuItem.Text" xml:space="preserve"><value>Повний розмір</value></data>
+  <data name="gimbalVideoMiniToolStripMenuItem.Text" xml:space="preserve"><value>Міні</value></data>
+  <data name="gimbalVideoPopOutToolStripMenuItem.Text" xml:space="preserve"><value>В окремому вікні</value></data>
+  <data name="gimbalVideoToolStripMenuItem.Text" xml:space="preserve"><value>Відео підвісу</value></data>
+  <data name="openScriptDialog.Filter" xml:space="preserve"><value>Файли Python|*.py|Усі файли|*.*</value></data>
 </root>

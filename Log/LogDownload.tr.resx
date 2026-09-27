@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,18 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
     <data name="$this.Text" xml:space="preserve">
-    <value>Kayit</value>
+    <value>Günlük</value>
   </data>
   <data name="BUT_DLall.Text" xml:space="preserve">
-    <value>Tum kayıtlari indir</value>
+    <value>Tüm günlükleri indir</value>
   </data>
   <data name="BUT_redokml.Text" xml:space="preserve">
-    <value>KML'yi yeniden olustur</value>
+    <value>KML'yi yeniden oluştur</value>
   </data>
   <data name="BUT_DLthese.Text" xml:space="preserve">
-    <value>Kayıtlari indir</value>
+    <value>Bu günlükleri indir</value>
   </data>
   <data name="BUT_clearlogs.Text" xml:space="preserve">
-    <value>Kayit defterini temizle</value>
+    <value>Günlükleri sil</value>
   </data>
+  <data name="TXT_seriallog.Text" xml:space="preserve"><value>İHA arm durumundayken günlükler silinemez. Lütfen disarm edin!</value></data>
+  <data name="BUT_firstperson.Text" xml:space="preserve"><value>Birinci şahıs KML</value></data>
+  <data name="BUT_dumpdf.Text" xml:space="preserve"><value>(Gelişmiş) Tüm DataFlash belleğini aktar</value></data>
+  <data name="BUT_bintolog.Text" xml:space="preserve"><value>.bin dosyasını .log biçimine dönüştür</value></data>
 </root>

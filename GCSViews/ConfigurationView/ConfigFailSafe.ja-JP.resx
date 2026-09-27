@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -125,13 +125,13 @@ Arducopter Other: GPS有:RTL, GPS無:LAND</value>
     <value>電池</value>
   </data>
   <data name="lbl_armed.Text" xml:space="preserve">
-    <value>Disarmed</value>
+    <value>ディスアーム済み</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.ToolTip" xml:space="preserve">
-    <value>有効：　GCSとの通信切断によるフェールセーフ</value>
+    <value>GCSとの通信途絶時にフェイルセーフを有効化</value>
   </data>
   <data name="mavlinkComboBox_fs_thr_enable.ToolTip" xml:space="preserve">
-    <value>低いpwmによるフェールセーフ･モード</value>
+    <value>PWM低下時のフェイルセーフモード</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>FS Pwm</value>
@@ -140,7 +140,7 @@ Arducopter Other: GPS有:RTL, GPS無:LAND</value>
     <value>GCS</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.Text" xml:space="preserve">
-    <value>GCS　フェールセーフ</value>
+    <value>GCSフェイルセーフ</value>
   </data>
   <data name="mavlinkCheckBoxFS_GCS_ENABLE.Text" xml:space="preserve">
     <value>GCS FS有効</value>
@@ -155,25 +155,25 @@ Arducopter Other: GPS有:RTL, GPS無:LAND</value>
     <value>マニュアル</value>
   </data>
   <data name="lbl_gpslock.Text" xml:space="preserve">
-    <value>No Lock</value>
+    <value>未測位</value>
   </data>
   <data name="mavlinkCheckBoxshort_fs.ToolTip" xml:space="preserve">
-    <value>Off, ノーアクション, On, RTL</value>
+    <value>オフ：動作なし、オン：RTL</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.ToolTip" xml:space="preserve">
-    <value>Off, ノーアクション, On, RTL</value>
+    <value>オフ：動作なし、オン：RTL</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>ラジオ</value>
+    <value>RC送受信機</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>ラジオ入力</value>
+    <value>RC入力</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>リザーブされた MAH</value>
+    <value>残容量しきい値 (mAh)</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>サーボ/モーター　出力</value>
+    <value>サーボ／モーター出力</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs_action.Text" xml:space="preserve">
     <value>スロットル フェイルセーフ　動作</value>
@@ -188,15 +188,16 @@ Arducopter Other: GPS有:RTL, GPS無:LAND</value>
     <value>Wiki</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.ToolTip" xml:space="preserve">
-    <value>有効：低いスロットルpwmによるフェールセーフ</value>
+    <value>スロットルPWM低下時にフェイルセーフを有効化</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.Text" xml:space="preserve">
     <value>スロットル フェイルセーフ</value>
   </data>
   <data name="mavlinkCheckBoxshort_fs.Text" xml:space="preserve">
-    <value>フェールセーフ　ショート (1秒)</value>
+    <value>短時間フェイルセーフ（1秒）</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.Text" xml:space="preserve">
-    <value>フェールセーフ　ロング (20秒)</value>
+    <value>長時間フェイルセーフ（20秒）</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>低電圧判定時間</value></data>
 </root>

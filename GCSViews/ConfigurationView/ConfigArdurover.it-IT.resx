@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Velocita di crociera</value>
+    <value>Velocità di crociera</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Turn Dist</value>
+    <value>Accelerazione max in virata (g)</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Turn Speed</value>
+    <value>Raggio di sterzata</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>INT_MAX</value>
+    <value>IMAX</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>P</value>
@@ -142,43 +142,43 @@
     <value>Gain (cm)</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Turn Angle</value>
+    <value>Angolo di sterzata</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Trigger cm</value>
+    <value>Distanza di attivazione (cm)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Turn Time</value>
+    <value>Tempo di sterzata</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Gas max (%)</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Min</value>
+    <value>Gas min (%)</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Rover</value>
+    <value>Navigazione</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Antirimbalzo</value>
+    <value>Filtro antirimbalzo sonar</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Steer 2 Servo</value>
+    <value>Velocità di sterzata</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>FS Value</value>
+    <value>Velocità WP</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Throttle 0-100%</value>
+    <value>Gas e motori</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Cruise</value>
+    <value>Gas di crociera</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Sonar</value>
+    <value>Evitamento ostacoli</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Raggio WP </value>
+    <value>Raggio WP</value>
   </data>
   <data name="label64.Text" xml:space="preserve">
     <value>P</value>
@@ -193,7 +193,7 @@
     <value>I</value>
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
-    <value>Speed 2 Throttle</value>
+    <value>Velocità/gas</value>
   </data>
   <data name="groupBox15.Text" xml:space="preserve">
     <value>Xtrack Pids</value>
@@ -211,15 +211,28 @@
     <value>I</value>
   </data>
   <data name="label73.Text" xml:space="preserve">
-    <value>INT_MAX</value>
+    <value>IMAX</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Scrivi Parametri</value>
+    <value>Scrivi parametri</value>
   </data>
   <data name="label79.Text" xml:space="preserve">
     <value>Angolo di ingresso</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Aggiorna Parametri</value>
+    <value>Aggiorna parametri</value>
   </data>
+  <data name="label22.Text" xml:space="preserve"><value>Tipo di motore</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Freno</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Accel. max (m/s/s)</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Smorzamento controllo accel. laterale</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Periodo controllo accel. laterale</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Superamento WP</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>FF</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Modalità sterzata</value></data>
+  <data name="BUT_refreshpart.Text" xml:space="preserve"><value>Aggiorna schermata</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Opzione RC7</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>Opzione RC8</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Opzione RC9</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Opzione RC10</value></data>
 </root>

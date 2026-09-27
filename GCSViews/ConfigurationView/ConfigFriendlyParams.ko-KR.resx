@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -250,7 +250,7 @@
     <value>76</value>
   </data>
   <data name="chk_advview.Text" xml:space="preserve">
-    <value>고급 메뉴 보기 </value>
+    <value>고급 메뉴 보기</value>
   </data>
   <data name="&gt;&gt;chk_advview.Name" xml:space="preserve">
     <value>chk_advview</value>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label22.Text" xml:space="preserve"><value>Tipo de motor</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Acelerador máx. (%)</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Acelerador mín. (%)</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Acelerador y motores</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Velocidad de crucero</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Acelerador de crucero</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Freno</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Acel. máx. (m/s/s)</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox14.Text" xml:space="preserve"><value>Velocidad/acelerador</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>Escribir parámetros</value></data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>Actualizar parámetros</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Velocidad entre puntos</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Amort. del control de acel. lateral</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Periodo del control de acel. lateral</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Sobrepaso del punto de ruta</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Radio del punto de ruta</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>G máx. en viraje</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Navegación</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>FF</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Velocidad de dirección</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Antirrebote del sonar</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Tiempo de giro</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Ángulo de giro</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Distancia de activación (cm)</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Evitación de obstáculos</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Radio de giro</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Modo de dirección</value></data>
+  <data name="BUT_refreshpart.Text" xml:space="preserve"><value>Actualizar pantalla</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Función RC7</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>Función RC8</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Función RC9</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Función RC10</value></data>
+</root>

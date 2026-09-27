@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>以下页面仅用于高级配置，请谨慎操作</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>MAVLink 检查器</value></data>
+  <data name="but_warningmanager.Text" xml:space="preserve"><value>警告管理器</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>接近传感器</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>MAVLink 签名</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>MAVLink 镜像</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>与技术支持工程师共享连接</value></data>
+  <data name="BUT_supportproxy.Text" xml:space="preserve"><value>技术支持代理</value></data>
+  <data name="BUT_spect.Text" xml:space="preserve"><value>频谱图</value></data>
+  <data name="but_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>以 NMEA 语句输出飞行器位置</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>将 MAVLink 数据镜像到外部端点，用于监视或控制</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>启用 MAVLink 签名，保护与飞行器的通信</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>查看 360 度激光雷达的数据</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>根据指定条件启用自定义警告</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>查看收发的已解码 MAVLink 数据</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>对 bin 或 tlog 日志中的经纬度进行脱敏处理</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>跟随我</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>使用外部 NMEA GPS，根据其位置向飞行器发送引导模式航点</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>重新生成 Mission Planner 内部使用的参数信息</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>生成参数信息</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>在地图上额外显示一个图标，标示您的当前位置。</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>移动基站</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>日志匿名化</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>根据日志绘制 FFT 频谱</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>根据日志绘制 FFT 频谱</value></data>
+</root>

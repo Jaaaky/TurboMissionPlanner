@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>Datei</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>Intern</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>Englisch</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>Andere Sprache</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>Speichern</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>Anleitung:
+Bei der ersten Verwendung unten die gewünschte Sprache auswählen, Texte bearbeiten und auf „Speichern“ klicken.
+
+Bei späterer Verwendung die Sprache auswählen; vorhandene Übersetzungen werden automatisch geladen.
+
+Zum Fortsetzen einer begonnenen Übersetzung auf „Übersetzung laden“ klicken.
+
+HINWEIS: Das automatische Laden funktioniert erst, wenn Michael die Sprache in Mission Planner aufgenommen hat. Andernfalls „Übersetzung laden“ verwenden.
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Übersetzung laden</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>In Zwischenablage kopieren</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Übersetzungseditor</value></data>
+</root>

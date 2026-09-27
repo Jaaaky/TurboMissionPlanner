@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -184,7 +184,7 @@
     <value>1</value>
   </data>
   <data name="backstageViewPageairspeed.Text" xml:space="preserve">
-    <value>항속</value>
+    <value>대기속도</value>
   </data>
   <data name="backstageViewPageairspeed.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -238,7 +238,7 @@
     <value>3</value>
   </data>
   <data name="backstageViewPagebatmon.Text" xml:space="preserve">
-    <value>배터리 감시자</value>
+    <value>배터리 모니터</value>
   </data>
   <data name="backstageViewPagebatmon.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -265,7 +265,7 @@
     <value>4</value>
   </data>
   <data name="backstageViewPageBatt2.Text" xml:space="preserve">
-    <value>배타리 감시자 2</value>
+    <value>배터리 모니터 2</value>
   </data>
   <data name="backstageViewPageBatt2.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -454,7 +454,7 @@
     <value>11</value>
   </data>
   <data name="backstageViewPagefs.Text" xml:space="preserve">
-    <value>안전 장치</value>
+    <value>페일세이프</value>
   </data>
   <data name="backstageViewPagefs.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -805,7 +805,7 @@
     <value>24</value>
   </data>
   <data name="backstageViewPageradio.Text" xml:space="preserve">
-    <value>무선 조종 보정</value>
+    <value>조종기 보정</value>
   </data>
   <data name="backstageViewPageradio.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -832,7 +832,7 @@
     <value>25</value>
   </data>
   <data name="backstageViewPageSikradio.Text" xml:space="preserve">
-    <value>Sik 무선 신호</value>
+    <value>SiK 무선 모뎀</value>
   </data>
   <data name="backstageViewPageSikradio.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -945,4 +945,6 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.MyUserControl, MissionPlanner.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="backstageViewPageInitialParams.Text" xml:space="preserve"><value>초기 튜닝 매개변수</value></data>
+  <data name="backstageViewPageSerial.Text" xml:space="preserve"><value>직렬 포트</value></data>
 </root>

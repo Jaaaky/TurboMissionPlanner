@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,18 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_calib_accell.Text" xml:space="preserve">
-    <value>mengkalibrasi Accel</value>
+    <value>Kalibrasi Akselerometer</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Tingkat Autopilot Anda untuk mengatur standar accelerometer offset ( 1 sumbu / AHRS trims ) .</value>
+    <value>Ratakan autopilot untuk mengatur offset akselerometer bawaan (1 sumbu/trim AHRS).
+Autopilot harus diletakkan datar dan rata.</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Tingkat Autopilot Anda untuk mengatur accelerometer standar Min / Max ( 3 axis ) .</value>
+    <value>Ratakan autopilot untuk mengatur Min/Maks akselerometer bawaan (3 sumbu).
+Anda akan diminta meletakkan autopilot pada setiap sisinya.</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>mengkalibrasi accelerometer</value>
+    <value>Kalibrasi Akselerometer</value>
   </data>
   <data name="BUT_level.Text" xml:space="preserve">
-    <value>Kalibrasi Tingkat</value>
+    <value>Kalibrasi Kerataan</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>Ratakan autopilot untuk mengatur faktor skala akselerometer bawaan bagi penerbangan mendatar (1 sumbu).
+Autopilot harus diletakkan datar dan rata.</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>Kalibrasi Akselerometer Sederhana</value></data>
 </root>

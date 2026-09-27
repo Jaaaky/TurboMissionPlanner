@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>Images by Max Levine</value>
+    <value>Imágenes de Max Levine</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Por favor, haga clic en las imágenes de arriba para "versiones de vuelo"</value>
+    <value>Pulse las imágenes de arriba para seleccionar las versiones de vuelo</value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
     <value>Estado</value>
@@ -129,4 +129,11 @@
   <data name="BUT_setup.Text" xml:space="preserve">
     <value>APM programa de instalación (plano y quad</value>
   </data>
+  <data name="CMB_history_label.Text" xml:space="preserve"><value>Seleccionar firmware anterior</value></data>
+  <data name="lbl_Custom_firmware_label.Text" xml:space="preserve"><value>Cargar firmware personalizado</value></data>
+  <data name="lbl_devfw.Text" xml:space="preserve"><value>Firmwares beta</value></data>
+  <data name="lbl_dlfw.Text" xml:space="preserve"><value>Descargar firmwares</value></data>
+  <data name="lbl_px4bl.Text" xml:space="preserve"><value>Forzar cargador de arranque</value></data>
+  <data name="lbl_licence.Text" xml:space="preserve"><value>ArduPilot es software libre. Pulse aquí para leer la licencia de código abierto del firmware.</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>Configuración de motores de Copter</value></data>
 </root>

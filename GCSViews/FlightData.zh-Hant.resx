@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -146,28 +146,28 @@
     <value>74, 17</value>
   </data>
   <data name="BUTactiondo.Text" xml:space="preserve">
-    <value>執行</value>
+    <value>執行動作</value>
   </data>
   <data name="BUTrestartmission.Text" xml:space="preserve">
-    <value>重重開始任務</value>
+    <value>重新開始任務</value>
   </data>
   <data name="BUT_ARM.Text" xml:space="preserve">
-    <value>解鎖/ 上鎖</value>
+    <value>解鎖/上鎖</value>
   </data>
   <data name="BUT_clear_track.Text" xml:space="preserve">
-    <value>清除軌跡</value>
+    <value>清除航跡</value>
   </data>
   <data name="BUT_joystick.Text" xml:space="preserve">
-    <value>遙桿</value>
+    <value>搖桿</value>
   </data>
   <data name="BUT_joystick.ToolTip" xml:space="preserve">
-    <value>設定及啟用遙桿</value>
+    <value>設定並啟用搖桿</value>
   </data>
   <data name="BUT_loadtelem.Text" xml:space="preserve">
-    <value>載入 Log</value>
+    <value>載入記錄</value>
   </data>
   <data name="BUT_loganalysis.Text" xml:space="preserve">
-    <value>Log 分析</value>
+    <value>自動分析</value>
   </data>
   <data name="BUT_playlog.Text" xml:space="preserve">
     <value>播放/暫停</value>
@@ -179,22 +179,22 @@
     <value>返航</value>
   </data>
   <data name="BUT_run_script.Text" xml:space="preserve">
-    <value>執行腳本</value>
+    <value>執行指令碼</value>
   </data>
   <data name="BUT_select_script.Text" xml:space="preserve">
-    <value>選擇腳本</value>
+    <value>選擇指令碼</value>
   </data>
   <data name="CMB_setwp.Items" xml:space="preserve">
-    <value>家高度=0</value>
+    <value>0 (返航點)</value>
   </data>
   <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
     <value>刪除</value>
   </data>
   <data name="flightPlannerToolStripMenuItem.Text" xml:space="preserve">
-    <value>飛行計畫</value>
+    <value>飛行規劃器</value>
   </data>
   <data name="goHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>飛到航點</value>
+    <value>飛到此處</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>速度</value>
@@ -209,33 +209,159 @@
     <value>儲存檔案</value>
   </data>
   <data name="stopRecordToolStripMenuItem.Text" xml:space="preserve">
-    <value>停止記錄</value>
+    <value>停止錄製</value>
   </data>
   <data name="tabActions.Text" xml:space="preserve">
-    <value>執行</value>
+    <value>動作</value>
   </data>
   <data name="tabActionsSimple.Text" xml:space="preserve">
-    <value>執行</value>
+    <value>動作</value>
   </data>
   <data name="tablogbrowse.Text" xml:space="preserve">
-    <value>飛行記錄</value>
+    <value>DataFlash 記錄</value>
   </data>
   <data name="tabPagemessages.Text" xml:space="preserve">
     <value>訊息</value>
   </data>
   <data name="tabQuick.Text" xml:space="preserve">
-    <value>儀錶板</value>
+    <value>快速檢視</value>
   </data>
   <data name="tabScripts.Text" xml:space="preserve">
-    <value>腳本</value>
+    <value>指令碼</value>
   </data>
   <data name="tabServo.Text" xml:space="preserve">
-    <value>舵機</value>
+    <value>伺服機/繼電器</value>
   </data>
   <data name="tabStatus.Text" xml:space="preserve">
     <value>狀態</value>
   </data>
   <data name="tabTLogs.Text" xml:space="preserve">
-    <value>數傳記錄</value>
+    <value>遙測記錄</value>
   </data>
+  <data name="recordHudToAVIToolStripMenuItem.Text" xml:space="preserve"><value>將 HUD 錄製為 AVI</value></data>
+  <data name="setMJPEGSourceToolStripMenuItem.Text" xml:space="preserve"><value>設定 MJPEG 來源</value></data>
+  <data name="startCameraToolStripMenuItem.Text" xml:space="preserve"><value>啟動攝影機</value></data>
+  <data name="setGStreamerSourceToolStripMenuItem.Text" xml:space="preserve"><value>設定 GStreamer 來源</value></data>
+  <data name="hereLinkVideoToolStripMenuItem.Text" xml:space="preserve"><value>HereLink 視訊</value></data>
+  <data name="gStreamerStopToolStripMenuItem.Text" xml:space="preserve"><value>停止 GStreamer</value></data>
+  <data name="videoToolStripMenuItem.Text" xml:space="preserve"><value>視訊</value></data>
+  <data name="setAspectRatioToolStripMenuItem.Text" xml:space="preserve"><value>設定長寬比</value></data>
+  <data name="userItemsToolStripMenuItem.Text" xml:space="preserve"><value>使用者項目</value></data>
+  <data name="russianHudToolStripMenuItem.Text" xml:space="preserve"><value>俄式 HUD</value></data>
+  <data name="swapWithMapToolStripMenuItem.Text" xml:space="preserve"><value>與地圖互換</value></data>
+  <data name="groundColorToolStripMenuItem.Text" xml:space="preserve"><value>地面顏色</value></data>
+  <data name="setBatteryCellCountToolStripMenuItem.Text" xml:space="preserve"><value>電池單芯電壓</value></data>
+  <data name="showIconsToolStripMenuItem.Text" xml:space="preserve"><value>顯示圖示</value></data>
+  <data name="customizeToolStripMenuItem.Text" xml:space="preserve"><value>自訂</value></data>
+  <data name="multiLineToolStripMenuItem.Text" xml:space="preserve"><value>多行</value></data>
+  <data name="setViewCountToolStripMenuItem.Text" xml:space="preserve"><value>設定檢視數量</value></data>
+  <data name="undockToolStripMenuItem.Text" xml:space="preserve"><value>解除停駐</value></data>
+  <data name="quickView1.ToolTip" xml:space="preserve"><value>按兩下即可變更</value></data>
+  <data name="BUT_SendMSG.Text" xml:space="preserve"><value>訊息</value></data>
+  <data name="BUT_SendMSG.ToolTip" xml:space="preserve"><value>傳送訊息並儲存至載具記錄</value></data>
+  <data name="BUT_abortland.Text" xml:space="preserve"><value>中止降落</value></data>
+  <data name="BUT_abortland.ToolTip" xml:space="preserve"><value>僅限固定翼</value></data>
+  <data name="BUT_clear_track.ToolTip" xml:space="preserve"><value>清除地圖上已記錄的航跡</value></data>
+  <data name="BUTactiondo.ToolTip" xml:space="preserve"><value>執行左側動作</value></data>
+  <data name="BUT_resumemis.Text" xml:space="preserve"><value>繼續任務</value></data>
+  <data name="BUT_ARM.ToolTip" xml:space="preserve"><value>解鎖載具</value></data>
+  <data name="BUT_mountmode.Text" xml:space="preserve"><value>設定雲台</value></data>
+  <data name="BUT_mountmode.ToolTip" xml:space="preserve"><value>切換至左側選定的模式</value></data>
+  <data name="BUT_RAWSensor.Text" xml:space="preserve"><value>感測器原始資料檢視</value></data>
+  <data name="BUT_RAWSensor.ToolTip" xml:space="preserve"><value>檢視陀螺儀、加速度計及遙控輸入/輸出的原始數值</value></data>
+  <data name="BUT_Homealt.Text" xml:space="preserve"><value>設定返航點高度</value></data>
+  <data name="BUT_Homealt.ToolTip" xml:space="preserve"><value>將目前顯示高度設為 0，亦即返航點高度顯示為 0</value></data>
+  <data name="BUTrestartmission.ToolTip" xml:space="preserve"><value>從頭重新開始任務</value></data>
+  <data name="BUT_quickrtl.ToolTip" xml:space="preserve"><value>切換至返航模式</value></data>
+  <data name="BUT_quickmanual.Text" xml:space="preserve"><value>定點盤旋</value></data>
+  <data name="BUT_quickmanual.ToolTip" xml:space="preserve"><value>切換至手動/自穩模式</value></data>
+  <data name="BUT_setwp.Text" xml:space="preserve"><value>設定航點</value></data>
+  <data name="BUT_setwp.ToolTip" xml:space="preserve"><value>變更目前的目標航點</value></data>
+  <data name="BUT_quickauto.ToolTip" xml:space="preserve"><value>切換至自動模式</value></data>
+  <data name="BUT_setmode.Text" xml:space="preserve"><value>設定模式</value></data>
+  <data name="BUT_setmode.ToolTip" xml:space="preserve"><value>切換至左側選定的模式</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>定點盤旋</value></data>
+  <data name="myButton1.ToolTip" xml:space="preserve"><value>切換至手動/自穩模式</value></data>
+  <data name="myButton2.ToolTip" xml:space="preserve"><value>切換至返航模式</value></data>
+  <data name="myButton3.ToolTip" xml:space="preserve"><value>切換至自動模式</value></data>
+  <data name="tabPagePreFlight.Text" xml:space="preserve"><value>飛行前檢查</value></data>
+  <data name="Gspeed.ToolTip" xml:space="preserve"><value>按兩下即可變更最大值</value></data>
+  <data name="tabGauges.Text" xml:space="preserve"><value>儀表</value></data>
+  <data name="NACp_lbl.Text" xml:space="preserve"><value>NACp</value></data>
+  <data name="NIC_lbl.Text" xml:space="preserve"><value>NIC</value></data>
+  <data name="fault_clb.Items" xml:space="preserve"><value>需要維護</value></data>
+  <data name="fault_clb.Items1" xml:space="preserve"><value>GPS 無法使用</value></data>
+  <data name="fault_clb.Items2" xml:space="preserve"><value>GPS 未定位</value></data>
+  <data name="fault_clb.Items3" xml:space="preserve"><value>發射系統故障</value></data>
+  <data name="fault_clb.Items4" xml:space="preserve"><value>在地面上</value></data>
+  <data name="XPDRConnect_btn.Text" xml:space="preserve"><value>連線至航空應答機</value></data>
+  <data name="Squawk_label.Text" xml:space="preserve"><value>應答碼</value></data>
+  <data name="FlightID_label.Text" xml:space="preserve"><value>飛航識別碼</value></data>
+  <data name="IDENT_btn.Text" xml:space="preserve"><value>IDENT</value></data>
+  <data name="ALT_btn.Text" xml:space="preserve"><value>ALT</value></data>
+  <data name="STBY_btn.Text" xml:space="preserve"><value>STBY</value></data>
+  <data name="ON_btn.Text" xml:space="preserve"><value>ON</value></data>
+  <data name="Mode_clb.Items" xml:space="preserve"><value>Mode A</value></data>
+  <data name="Mode_clb.Items1" xml:space="preserve"><value>Mode C</value></data>
+  <data name="Mode_clb.Items2" xml:space="preserve"><value>Mode S</value></data>
+  <data name="Mode_clb.Items3" xml:space="preserve"><value>1090ES ADS-B OUT</value></data>
+  <data name="tabTransponder.Text" xml:space="preserve"><value>航空應答機</value></data>
+  <data name="tabAuxFunction.Text" xml:space="preserve"><value>輔助功能</value></data>
+  <data name="checkBoxRedirectOutput.Text" xml:space="preserve"><value>重新導向程式輸出</value></data>
+  <data name="BUT_edit_selected.Text" xml:space="preserve"><value>編輯所選指令碼</value></data>
+  <data name="labelSelectedScript.Text" xml:space="preserve"><value>所選指令碼：無</value></data>
+  <data name="BUT_abort_script.Text" xml:space="preserve"><value>中止執行中的指令碼</value></data>
+  <data name="labelScriptStatus.Text" xml:space="preserve"><value>指令碼狀態：無指令碼執行中</value></data>
+  <data name="BUT_GimbalVideo.Text" xml:space="preserve"><value>視訊控制</value></data>
+  <data name="groupBoxRoll.Text" xml:space="preserve"><value>橫滾</value></data>
+  <data name="groupBoxYaw.Text" xml:space="preserve"><value>水平旋轉</value></data>
+  <data name="BUT_resetGimbalPos.Text" xml:space="preserve"><value>重設位置</value></data>
+  <data name="groupBoxPitch.Text" xml:space="preserve"><value>俯仰</value></data>
+  <data name="tabPayload.Text" xml:space="preserve"><value>酬載控制</value></data>
+  <data name="BUT_speed10.Text" xml:space="preserve"><value>10x</value></data>
+  <data name="BUT_speed5.Text" xml:space="preserve"><value>5x</value></data>
+  <data name="BUT_speed2.Text" xml:space="preserve"><value>2x</value></data>
+  <data name="BUT_speed1.Text" xml:space="preserve"><value>1x</value></data>
+  <data name="lbl_playbackspeed.Text" xml:space="preserve"><value>x 1.0</value></data>
+  <data name="BUT_log2kml.Text" xml:space="preserve"><value>Tlog 轉 KML 或圖表</value></data>
+  <data name="BUT_DFMavlink.Text" xml:space="preserve"><value>透過 MAVLink 下載 DataFlash 記錄</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>為影像加入地理參考</value></data>
+  <data name="BUT_logbrowse.Text" xml:space="preserve"><value>檢視記錄</value></data>
+  <data name="BUT_matlab.Text" xml:space="preserve"><value>建立 MATLAB 檔案</value></data>
+  <data name="but_bintolog.Text" xml:space="preserve"><value>將 .Bin 轉換為 .Log</value></data>
+  <data name="but_dflogtokml.Text" xml:space="preserve"><value>建立 KML + GPX</value></data>
+  <data name="flyToHereAltToolStripMenuItem.Text" xml:space="preserve"><value>設定飛到此處的高度</value></data>
+  <data name="flyToCoordsToolStripMenuItem.Text" xml:space="preserve"><value>飛到指定座標</value></data>
+  <data name="loadFileToolStripMenuItem.Text" xml:space="preserve"><value>載入檔案</value></data>
+  <data name="poiatcoordsToolStripMenuItem.Text" xml:space="preserve"><value>座標</value></data>
+  <data name="addPoiToolStripMenuItem.Text" xml:space="preserve"><value>新增興趣點</value></data>
+  <data name="pointCameraHereToolStripMenuItem.Text" xml:space="preserve"><value>相機指向此處</value></data>
+  <data name="PointCameraCoordsToolStripMenuItem1.Text" xml:space="preserve"><value>相機指向指定座標</value></data>
+  <data name="triggerCameraToolStripMenuItem.Text" xml:space="preserve"><value>立即觸發相機</value></data>
+  <data name="setEKFHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>將此處設為 EKF 原點</value></data>
+  <data name="setHomeHereToolStripMenuItem1.Text" xml:space="preserve"><value>將此處設為返航點</value></data>
+  <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>將此處設為返航點</value></data>
+  <data name="takeOffToolStripMenuItem.Text" xml:space="preserve"><value>起飛</value></data>
+  <data name="onOffCameraOverlapToolStripMenuItem.Text" xml:space="preserve"><value>影像重疊率</value></data>
+  <data name="jumpToTagToolStripMenuItem.Text" xml:space="preserve"><value>跳至標籤</value></data>
+  <data name="gimbalVideoFullSizedToolStripMenuItem.Text" xml:space="preserve"><value>完整尺寸</value></data>
+  <data name="gimbalVideoMiniToolStripMenuItem.Text" xml:space="preserve"><value>迷你</value></data>
+  <data name="gimbalVideoPopOutToolStripMenuItem.Text" xml:space="preserve"><value>獨立視窗</value></data>
+  <data name="gimbalVideoToolStripMenuItem.Text" xml:space="preserve"><value>雲台視訊</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>縮放</value></data>
+  <data name="but_disablejoystick.Text" xml:space="preserve"><value>停用搖桿</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>變更縮放層級</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>GPS 航跡 (黑色)</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>目標航向</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>直飛目前航點</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>目前航向</value></data>
+  <data name="lbl_hdop.Text" xml:space="preserve"><value>HDOP：0</value></data>
+  <data name="lbl_hdop.ToolTip" xml:space="preserve"><value>GPS HDOP</value></data>
+  <data name="lbl_sats.Text" xml:space="preserve"><value>衛星數：0</value></data>
+  <data name="lbl_sats.ToolTip" xml:space="preserve"><value>衛星數量</value></data>
+  <data name="CHK_autopan.Text" xml:space="preserve"><value>自動平移</value></data>
+  <data name="CHK_autopan.ToolTip" xml:space="preserve"><value>依目前位置自動平移地圖</value></data>
+  <data name="CB_tuning.Text" xml:space="preserve"><value>調校</value></data>
+  <data name="CB_tuning.ToolTip" xml:space="preserve"><value>顯示調校圖表，比較目標姿態與實際姿態</value></data>
+  <data name="openScriptDialog.Filter" xml:space="preserve"><value>Python 檔案|*.py|所有檔案|*.*</value></data>
 </root>

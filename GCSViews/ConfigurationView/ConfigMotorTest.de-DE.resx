@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,7 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>HINWEIS: UAV NACH UNTEN DREHEN. Dies führt einen Motorentest durch. Motoren werden im Uhrzeigersinn, beginnend mit Motor vorne rechts getestet.</value>
+    <value>HINWEIS: HALTEN SIE DAS UAV SICHER FEST.
+Hiermit wird die Funktion der Motoren geprüft.
+Die Motoren werden im Uhrzeigersinn getestet,
+beginnend vorne rechts.</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Dauer (s)</value>
@@ -127,6 +130,14 @@
     <value>Gas %</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>hier klicken um Motornummer einzusehen. Zum Seitenende scrollen.</value>
+    <value>Hier klicken, um die Motornummerierung anzuzeigen.
+Scrollen Sie bis zum Seitenende.</value>
   </data>
+  <data name="FrameType.Text" xml:space="preserve"><value>Typ: unbekannt</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>Klasse: unbekannt</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Minimalen Ausgabewert in % während des Fluges festlegen</value></data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve"><value>Minimale Motordrehzahl festlegen</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Minimalen Ausgabewert in % bei Scharfschaltung am Boden festlegen</value></data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve"><value>Motordrehzahl bei Scharfschaltung festlegen</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Motortest</value></data>
 </root>

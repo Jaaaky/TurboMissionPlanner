@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -310,7 +310,7 @@
     <value>32</value>
   </data>
   <data name="CHK_elevons.Text" xml:space="preserve">
-    <value>방향타 보조익</value>
+    <value>엘레본</value>
   </data>
   <data name="&gt;&gt;CHK_elevons.Name" xml:space="preserve">
     <value>CHK_elevons</value>
@@ -391,7 +391,7 @@
     <value>57</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>설정 로드 대상: </value>
+    <value>설정 로드 대상:</value>
   </data>
   <data name="&gt;&gt;label14.Name" xml:space="preserve">
     <value>label14</value>
@@ -535,4 +535,6 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="but_export.Text" xml:space="preserve"><value>내보내기</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>가져오기</value></data>
 </root>

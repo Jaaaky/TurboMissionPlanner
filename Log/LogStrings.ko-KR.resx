@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>로그 파일을 다운로드 중입니다. 취소하시겠습니까?</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>계속하시겠습니까?</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>{0}의 KML 생성 중</value></data>
+  <data name="Done" xml:space="preserve"><value>완료</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>로그 파일 다운로드 위치: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>!!삭제에 30~90초가 걸립니다</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>파일 처리 오류. 다른 프로그램에서 파일을 사용 중인지 확인하십시오</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>로그 파일 {0} 가져오는 중...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>로그 파일 목록 가져오는 중...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>로그 파일 디렉터리를 만들 수 없습니다: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>다운로드할 로그가 없습니다</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>기체를 연결하십시오</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>목록에서 체크박스를 선택하여 다운로드할 로그를 지정하십시오</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>{0} 처리 중</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>로그 파일 {0}개를 찾았습니다. 참고: 표시된 크기는 추정값입니다.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>오류:</value></data>
+</root>

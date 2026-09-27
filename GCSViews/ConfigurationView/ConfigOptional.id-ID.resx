@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>The following pages are OPTIONAL configure them if you have aditional hardware, or other requirements.</value>
+    <value>Halaman berikut bersifat OPSIONAL. Konfigurasikan jika Anda memiliki perangkat keras tambahan atau kebutuhan lain.</value>
   </data>
 </root>

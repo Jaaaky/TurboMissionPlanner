@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="TXT_terminal.Text" xml:space="preserve"><value>*نکته* روی اتصال در بالا کلیک کنید
+CLI فقط در نخستین اتصال پس از روشن شدن کار می‌کند؛ بارگیری گزارش فقط از طریق USB است
+نسخه‌های جدیدتر فقط از بارگیری گزارش از طریق MAVLink پشتیبانی می‌کنند؛ به داده‌های پرواز &gt; گزارش‌های DataFlash بروید
+</value></data>
+  <data name="BUTsetupshow.Text" xml:space="preserve"><value>نمایش تنظیمات</value></data>
+  <data name="BUTradiosetup.Text" xml:space="preserve"><value>تنظیم رادیو</value></data>
+  <data name="BUTtests.Text" xml:space="preserve"><value>آزمایش‌ها</value></data>
+  <data name="Logs.Text" xml:space="preserve"><value>بارگیری گزارش</value></data>
+  <data name="BUT_logbrowse.Text" xml:space="preserve"><value>مرور گزارش</value></data>
+  <data name="BUT_ConnectAPM.Text" xml:space="preserve"><value>اتصال</value></data>
+  <data name="BUT_disconnect.Text" xml:space="preserve"><value>قطع اتصال</value></data>
+  <data name="CMB_boardtype.Items" xml:space="preserve"><value>APM</value></data>
+  <data name="CMB_boardtype.Items1" xml:space="preserve"><value>PX4/PIXHAWK</value></data>
+  <data name="CMB_boardtype.Items2" xml:space="preserve"><value>VRX/VRBRAIN</value></data>
+  <data name="CMB_boardtype.Items3" xml:space="preserve"><value>NSH</value></data>
+  <data name="CMB_boardtype.Items4" xml:space="preserve"><value>SSH</value></data>
+  <data name="CMB_boardtype.Text" xml:space="preserve"><value>APM</value></data>
+</root>

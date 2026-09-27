@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -223,7 +223,8 @@
     <value>Max</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Modo de Vuelo 2</value>
+    <value>Nivele el piloto automático para establecer los factores de escala predeterminados del acelerómetro para vuelo nivelado (1 eje).
+Debe colocar el piloto automático en posición horizontal y nivelada.</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>Alabeo Max</value>
@@ -238,7 +239,8 @@
     <value>por ejemplo, en grados 2 ° 3 'W es -2,3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Modo de Vuelo 1</value>
+    <value>Nivele el piloto automático para establecer las compensaciones predeterminadas del acelerómetro (1 eje/ajustes de AHRS).
+Debe colocar el piloto automático en posición horizontal y nivelada.</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Nivel tu quad para establecer las compensaciones por defecto acel</value>
@@ -268,10 +270,11 @@
     <value>1500</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Modo de Vuelo 4</value>
+    <value>Nivele el piloto automático para establecer los mínimos/máximos predeterminados del acelerómetro (3 ejes).
+Se le pedirá que coloque el piloto automático sobre cada una de sus caras.</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Modo de Vuelo 5</value>
+    <value>Calibración del acelerómetro</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Gyro</value>
@@ -312,4 +315,7 @@
   <data name="label30.Text" xml:space="preserve">
     <value>Monitor</value>
   </data>
+  <data name="BUT_calib_accell.Text" xml:space="preserve"><value>Calibrar acelerómetro</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>Calibración simple del acelerómetro</value></data>
+  <data name="BUT_level.Text" xml:space="preserve"><value>Calibrar nivel</value></data>
 </root>

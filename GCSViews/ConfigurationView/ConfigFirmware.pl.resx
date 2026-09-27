@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,12 +121,19 @@
     <value>Grafika: Max Levine</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Kliknij obrazy powyżej żeby zobaczyć "Wersje oprogramowania"</value>
+    <value>Kliknij powyższe obrazy, aby wybrać wersję do lotu</value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
-    <value>Status</value>
+    <value>Stan</value>
   </data>
   <data name="BUT_setup.Text" xml:space="preserve">
     <value>Ustawienia APM (Plane i Quad)</value>
   </data>
+  <data name="CMB_history_label.Text" xml:space="preserve"><value>Wybierz starsze oprogramowanie</value></data>
+  <data name="lbl_Custom_firmware_label.Text" xml:space="preserve"><value>Wczytaj własne oprogramowanie</value></data>
+  <data name="lbl_devfw.Text" xml:space="preserve"><value>Oprogramowanie beta</value></data>
+  <data name="lbl_dlfw.Text" xml:space="preserve"><value>Pobierz oprogramowanie</value></data>
+  <data name="lbl_px4bl.Text" xml:space="preserve"><value>Wymuś bootloader</value></data>
+  <data name="lbl_licence.Text" xml:space="preserve"><value>ArduPilot jest wolnym oprogramowaniem. Kliknij tutaj, aby przeczytać licencję oprogramowania o otwartym kodzie źródłowym.</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>Konfiguracja silników Coptera</value></data>
 </root>

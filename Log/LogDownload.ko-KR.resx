@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -136,7 +136,7 @@
     <value>1</value>
   </data>
   <data name="TXT_seriallog.Text" xml:space="preserve">
-    <value>동력 인가 상태에서는 로그를 기록할 수 없습니다. 동력을 차단하십시오!</value>
+    <value>기체 시동이 켜져 있으면 로그를 삭제할 수 없습니다. 시동을 해제하십시오!</value>
   </data>
   <data name="&gt;&gt;TXT_seriallog.Name" xml:space="preserve">
     <value>TXT_seriallog</value>

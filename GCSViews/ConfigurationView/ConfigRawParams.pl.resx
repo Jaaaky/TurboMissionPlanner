@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_compare.Text" xml:space="preserve"><value>Porównaj parametry</value></data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>Odśwież parametry</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>Zapisz parametry</value></data>
+  <data name="BUT_save.Text" xml:space="preserve"><value>Zapisz do pliku</value></data>
+  <data name="BUT_load.Text" xml:space="preserve"><value>Wczytaj z pliku</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Wszystkie wartości są surowe,
+bez skalowania</value></data>
+  <data name="BUT_paramfileload.Text" xml:space="preserve"><value>Wczytaj zapisane</value></data>
+  <data name="BUT_reset_params.Text" xml:space="preserve"><value>Przywróć domyślne</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Szukaj</value></data>
+  <data name="BUT_commitToFlash.Text" xml:space="preserve"><value>Zatwierdź parametry</value></data>
+  <data name="chk_modified.Text" xml:space="preserve"><value>Zmienione</value></data>
+  <data name="BUT_refreshTable.Text" xml:space="preserve"><value>Odśwież tabelę</value></data>
+  <data name="chk_none_default.Text" xml:space="preserve"><value>Brak wartości domyślnej</value></data>
+  <data name="Command.HeaderText" xml:space="preserve"><value>Nazwa</value></data>
+  <data name="Value.HeaderText" xml:space="preserve"><value>Wartość</value></data>
+  <data name="Default_value.HeaderText" xml:space="preserve"><value>Domyślna</value></data>
+  <data name="Units.HeaderText" xml:space="preserve"><value>Jednostki</value></data>
+  <data name="Options.HeaderText" xml:space="preserve"><value>Opcje</value></data>
+  <data name="Desc.HeaderText" xml:space="preserve"><value>Opis</value></data>
+  <data name="Fav.HeaderText" xml:space="preserve"><value>Ulubione</value></data>
+</root>

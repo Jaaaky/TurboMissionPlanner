@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Retract: złóż gimbal do zadanych pozycji
+Neutral: ustaw pozycję domyślną, np. do przodu
+Mavlink_targeting: ustaw odebrane kąty przechylenia, pochylenia i odchylenia
+rc_targeting: steruj osiami za pomocą kanałów RC
+gps_point: śledź wskazany punkt na ziemi</value></data>
+</root>

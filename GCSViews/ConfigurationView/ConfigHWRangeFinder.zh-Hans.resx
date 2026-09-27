@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,7 +121,7 @@
     <value>启用</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>声呐</value>
+    <value>测距仪</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
@@ -136,4 +136,8 @@
   <data name="label2.Text" xml:space="preserve">
     <value>距离: </value>
   </data>
+  <data name="CMB_sonartype.Items" xml:space="preserve"><value>XL-EZ0 / XL-EZ4</value></data>
+  <data name="CMB_sonartype.Items1" xml:space="preserve"><value>LV-EZ0</value></data>
+  <data name="CMB_sonartype.Items2" xml:space="preserve"><value>XL-EZL0</value></data>
+  <data name="CMB_sonartype.Items3" xml:space="preserve"><value>HRLV</value></data>
 </root>

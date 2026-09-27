@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,24 +121,33 @@
     <value>Testler</value>
   </data>
   <data name="BUT_ConnectAPM.Text" xml:space="preserve">
-    <value>Iletisim</value>
+    <value>Bağlan</value>
   </data>
   <data name="Logs.Text" xml:space="preserve">
-    <value>Kayit indir</value>
+    <value>Günlük indirme</value>
   </data>
   <data name="BUTradiosetup.Text" xml:space="preserve">
-    <value>Radyo ayarlari</value>
+    <value>Kumandayı ayarla</value>
   </data>
   <data name="BUT_disconnect.Text" xml:space="preserve">
-    <value>Baglantıyı Kes</value>
+    <value>Bağlantıyı kes</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
-    <value>Kayit defterini inceleyin</value>
+    <value>Günlük tarayıcısı</value>
   </data>
   <data name="BUTsetupshow.Text" xml:space="preserve">
-    <value>Ayarları goruntule</value>
+    <value>Ayarları göster</value>
   </data>
   <data name="TXT_terminal.Text" xml:space="preserve">
-    <value>UYARI! Diğer sekmelerle çalışmak için anahtarı yeniden bağlamanız ve taşımanız gerekir.</value>
+    <value>*NOT* Lütfen yukarıdaki Bağlan düğmesine tıklayın.
+CLI yalnızca güç verildikten sonraki ilk bağlantıda çalışır; günlükler yalnızca USB üzerinden indirilebilir.
+Yeni sürümler günlük indirmeyi yalnızca MAVLink üzerinden destekler. Uçuş verileri &gt; DataFlash günlükleri bölümüne bakın.
+</value>
   </data>
+  <data name="CMB_boardtype.Items" xml:space="preserve"><value>APM</value></data>
+  <data name="CMB_boardtype.Items1" xml:space="preserve"><value>PX4/PIXHAWK</value></data>
+  <data name="CMB_boardtype.Items2" xml:space="preserve"><value>VRX/VRBRAIN</value></data>
+  <data name="CMB_boardtype.Items3" xml:space="preserve"><value>NSH</value></data>
+  <data name="CMB_boardtype.Items4" xml:space="preserve"><value>SSH</value></data>
+  <data name="CMB_boardtype.Text" xml:space="preserve"><value>APM</value></data>
 </root>

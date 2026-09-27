@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="ARMED" xml:space="preserve"><value>ARMATO</value></data>
+  <data name="AS" xml:space="preserve"><value>AS </value></data>
+  <data name="Bat" xml:space="preserve"><value>Batt.</value></data>
+  <data name="Cell" xml:space="preserve"><value>Cella</value></data>
+  <data name="DISARMED" xml:space="preserve"><value>DISARMATO</value></data>
+  <data name="E" xml:space="preserve"><value>E</value></data>
+  <data name="FAILSAFE" xml:space="preserve"><value>FAILSAFE</value></data>
+  <data name="GPS0" xml:space="preserve"><value>GPS: assente</value></data>
+  <data name="GPS1" xml:space="preserve"><value>GPS: nessun fix</value></data>
+  <data name="GPS2" xml:space="preserve"><value>GPS: fix 2D</value></data>
+  <data name="GPS3" xml:space="preserve"><value>GPS: fix 3D</value></data>
+  <data name="GPS4" xml:space="preserve"><value>GPS: DGPS 3D</value></data>
+  <data name="GPS5" xml:space="preserve"><value>GPS: RTK float</value></data>
+  <data name="GPS6" xml:space="preserve"><value>GPS: RTK fisso</value></data>
+  <data name="GS" xml:space="preserve"><value>GS </value></data>
+  <data name="N" xml:space="preserve"><value>N</value></data>
+  <data name="NE" xml:space="preserve"><value>NE</value></data>
+  <data name="NotReadyToArm" xml:space="preserve"><value>Non pronto all'armamento</value></data>
+  <data name="NW" xml:space="preserve"><value>NO</value></data>
+  <data name="ReadyToArm" xml:space="preserve"><value>Pronto all'armamento</value></data>
+  <data name="S" xml:space="preserve"><value>S</value></data>
+  <data name="SAFE" xml:space="preserve"><value>SICURO</value></data>
+  <data name="SE" xml:space="preserve"><value>SE</value></data>
+  <data name="SW" xml:space="preserve"><value>SO</value></data>
+  <data name="W" xml:space="preserve"><value>O</value></data>
+</root>

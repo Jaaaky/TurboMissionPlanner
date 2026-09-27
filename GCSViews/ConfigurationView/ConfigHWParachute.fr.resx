@@ -62,13 +62,13 @@
     <value>Parachute</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>PWM repos</value>
+    <value>PWM au repos</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Num. servo</value>
+    <value>N° de servo</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>PWM déploiement</value>
+    <value>PWM de déploiement</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Type</value>
@@ -79,4 +79,10 @@
   <data name="mavlinkCheckBoxEnable.Text" xml:space="preserve">
     <value>Activer (AC3.3+)</value>
   </data>
+  <data name="mavlinkComboBoxServoNum.Items3" xml:space="preserve"><value>RC12</value></data>
+  <data name="mavlinkComboBoxServoNum.Items1" xml:space="preserve"><value>RC10</value></data>
+  <data name="mavlinkComboBoxServoNum.Items5" xml:space="preserve"><value>RC14</value></data>
+  <data name="mavlinkComboBoxServoNum.Items" xml:space="preserve"><value>RC9</value></data>
+  <data name="mavlinkComboBoxServoNum.Items2" xml:space="preserve"><value>RC11</value></data>
+  <data name="mavlinkComboBoxServoNum.Items4" xml:space="preserve"><value>RC13</value></data>
 </root>

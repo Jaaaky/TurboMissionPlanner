@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -135,14 +135,13 @@
     <value>783, 175</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Зніміть Гвинти!
- Після натискання на цю кнопку:
-- Від'єднайте USB та батарею
-- Під'єднайте батарею
-- Коли LED-и засвітяться, натисніть на запобіжний вимикач (якщо присутній)
-- ESC будуть подавати звукові сигналі під час калібрування
-- Перезавантажте контрольор польоту в звичайному режимі
-</value>
+    <value>Зніміть пропелери!
+Після натискання цієї кнопки:
+- від’єднайте USB та акумулятор;
+- під’єднайте акумулятор;
+- коли світлодіоди заблимають, натисніть кнопку безпеки (за наявності);
+- ESC мають подати звукові сигнали калібрування;
+- перезапустіть польотний контролер у звичайному режимі.</value>
   </data>
   <data name="buttonStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -176,7 +175,7 @@
     <value>130, 25</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Мін. вихід PWM</value>
+    <value>Мін. вихідний ШІМ</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -185,7 +184,7 @@
     <value>130, 25</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Макс. вихід PWM</value>
+    <value>Макс. вихідний ШІМ</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -194,7 +193,7 @@
     <value>130, 64</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Швидкість обертання коли армуваний</value>
+    <value>Обертання після озброєння</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -206,7 +205,7 @@
     <value>130, 50</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Мін.швидкість обертання</value>
+    <value>Мін. обертання</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -218,7 +217,7 @@
     <value>130, 25</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Макс.швидкість обертання</value>
+    <value>Макс. обертання</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
     <value>210, 193</value>
@@ -227,7 +226,7 @@
     <value>591, 25</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Залиште нуль, щоб використовувати вхідний діапазон RX</value>
+    <value>Залиште 0, щоб використовувати діапазон входу приймача</value>
   </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
     <value>210, 219</value>
@@ -236,7 +235,7 @@
     <value>591, 25</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Залиште нуль, щоб використовувати вхідний діапазон RX</value>
+    <value>Залиште 0, щоб використовувати діапазон входу приймача</value>
   </data>
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>210, 250</value>
@@ -248,7 +247,7 @@
     <value>580, 50</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Швидкість на момент, коли мотори армувані, але газ на нулі (холостий хід)</value>
+    <value>Швидкість двигунів після озброєння за нульового газу (холостий хід)</value>
   </data>
   <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
     <value>210, 284</value>
@@ -260,7 +259,7 @@
     <value>358, 100</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>Мінімальна швидкість моторів у польоті (трішки вище за значення "Швидкість обертання коли армуваний")</value>
+    <value>Мінімальна швидкість двигунів у польоті (трохи вища за обертання після озброєння)</value>
   </data>
   <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
     <value>210, 324</value>
@@ -272,7 +271,7 @@
     <value>379, 75</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Максимальна швидкість моторів у польоті (майже в усіх ESC в верхній частині є мертва зона)</value>
+    <value>Максимальна швидкість двигунів у польоті (майже всі ESC мають мертву зону у верхній частині діапазону)</value>
   </data>
   <data name="mavlinkNumericUpDown5.Location" type="System.Drawing.Point, System.Drawing">
     <value>143, 322</value>

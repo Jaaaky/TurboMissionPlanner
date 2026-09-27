@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,35 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="tabRawSensor.Text" xml:space="preserve">
-    <value>Необроблений датчик</value>
+    <value>Сирі дані датчиків</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>RAW Сенсор</value>
+    <value>Сирі дані датчиків</value>
   </data>
   <data name="CMB_rawupdaterate.Text" xml:space="preserve">
-    <value>Оновити швидкість</value>
+    <value>Частота оновлення</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Серво/ДУМНА ПО</value>
+    <value>Виходи сервоприводів/двигунів</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Примітка: Існує затримка 
-при перегляді через Xbee
-@ 50Гц</value>
+    <value>Примітка: під час перегляду
+через XBee на частоті 50 Гц
+виникає затримка</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Радіо У</value>
+    <value>Входи радіокерування</value>
   </data>
   <data name="chkax.Text" xml:space="preserve">
-    <value>Аксель X</value>
+    <value>Акселерометр X</value>
   </data>
   <data name="tabRadio.Text" xml:space="preserve">
-    <value>Радіомодуль</value>
+    <value>Радіокерування</value>
   </data>
   <data name="tabOrientation.Text" xml:space="preserve">
-    <value>Політ даних</value>
+    <value>Польотні дані</value>
   </data>
   <data name="BUT_savecsv.Text" xml:space="preserve">
     <value>Зберегти CSV</value>
   </data>
+  <data name="chkay.Text" xml:space="preserve"><value>Акселерометр Y</value></data>
+  <data name="chkaz.Text" xml:space="preserve"><value>Акселерометр Z</value></data>
+  <data name="chkgx.Text" xml:space="preserve"><value>Гіроскоп X</value></data>
+  <data name="chkgy.Text" xml:space="preserve"><value>Гіроскоп Y</value></data>
+  <data name="chkgz.Text" xml:space="preserve"><value>Гіроскоп Z</value></data>
 </root>

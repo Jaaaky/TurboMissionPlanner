@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,60 +118,65 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lbldrpstart.Text" xml:space="preserve">
-    <value>Перетягніть зображення в старт</value>
+    <value>Відкинути знімок на початку</value>
   </data>
   <data name="chk_usegps2.Text" xml:space="preserve">
     <value>Використовувати GPS2</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Видалити зображення в кінці</value>
+    <value>Відкинути знімок наприкінці</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Зсув секунд</value>
+    <value>Зсув у секундах</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>Основа Рель-Альта</value>
+    <value>База відносної висоти</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Велетенський хрест</value>
+    <value>Поперечне поле зору</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Поворот екрану</value>
+    <value>Поворот</value>
   </data>
   <data name="chk_cammsg.Text" xml:space="preserve">
-    <value>Використовувати Камерські повідомлення</value>
+    <value>Використовувати повідомлення CAM</value>
   </data>
   <data name="BUT_doit.Text" xml:space="preserve">
-    <value>Попередній процес</value>
+    <value>Попередня обробка</value>
   </data>
   <data name="BUT_browsedir.Text" xml:space="preserve">
-    <value>Перегляд зображень</value>
+    <value>Вибрати знімки</value>
   </data>
   <data name="BUT_networklinkgeoref.Text" xml:space="preserve">
-    <value>Розташування Kml</value>
+    <value>KML розташування</value>
   </data>
   <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve">
-    <value>Використовувати AMSL Alt</value>
+    <value>Використовувати висоту над рівнем моря</value>
   </data>
   <data name="chk_trigusergpsalt.Text" xml:space="preserve">
-    <value>Використовувати GPSAlt</value>
+    <value>Використовувати висоту GPS</value>
   </data>
   <data name="BUT_browselog.Text" xml:space="preserve">
-    <value>Перегляд журналу подій</value>
+    <value>Вибрати журнал</value>
   </data>
   <data name="chk_camusegpsalt.Text" xml:space="preserve">
-    <value>Використовувати GPSAlt</value>
+    <value>Використовувати висоту GPS</value>
   </data>
   <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve">
-    <value>CAM повідомлення</value>
+    <value>Повідомлення CAM</value>
   </data>
   <data name="RDIO_TimeOffset.Text" xml:space="preserve">
     <value>Часовий зсув</value>
   </data>
   <data name="RDIO_trigmsg.Text" xml:space="preserve">
-    <value>Тригер повідомлення</value>
+    <value>Повідомлення спуску затвора</value>
   </data>
   <data name="BUT_estoffset.Text" xml:space="preserve">
-    <value>Орієнтовне зміщення</value>
+    <value>Оцінити зсув</value>
   </data>
+  <data name="BUT_Geotagimages.Text" xml:space="preserve"><value>Додати геомітки до знімків</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Поздовжнє поле зору</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Мін. інтервал затвора (с) (CAM)</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Затримка затвора (мс)</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Геоприв’язка знімків</value></data>
 </root>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>خلبان خودکار را تراز کنید تا آفست‌های پیش‌فرض شتاب‌سنج تنظیم شوند (یک محور/تریم‌های AHRS).
+برای این کار باید خلبان خودکار را صاف و تراز قرار دهید.</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>خلبان خودکار را تراز کنید تا کمینه/بیشینهٔ پیش‌فرض شتاب‌سنج تنظیم شود (سه محور).
+از شما خواسته می‌شود خلبان خودکار را روی هر وجه قرار دهید.</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>خلبان خودکار را تراز کنید تا ضرایب مقیاس پیش‌فرض شتاب‌سنج برای پرواز تراز تنظیم شوند (یک محور).
+برای این کار باید خلبان خودکار را صاف و تراز قرار دهید.</value></data>
+  <data name="BUT_calib_accell.Text" xml:space="preserve"><value>کالیبراسیون شتاب‌سنج</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>کالیبراسیون سادهٔ شتاب‌سنج</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>کالیبراسیون شتاب‌سنج</value></data>
+  <data name="BUT_level.Text" xml:space="preserve"><value>کالیبراسیون تراز</value></data>
+</root>

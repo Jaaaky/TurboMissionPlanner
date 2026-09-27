@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -163,7 +163,7 @@
     <value>17</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>비행체</value>
+    <value>고정익</value>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
@@ -193,7 +193,7 @@
     <value>16</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>탐사선</value>
+    <value>로버</value>
   </data>
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
@@ -1987,7 +1987,7 @@
     <value>2</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>원점 위치 - 끌어 이동하십시오</value>
+    <value>홈 위치 - 끌어서 이동</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -2044,7 +2044,7 @@
     <value>1</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>방위</value>
+    <value>기수방위</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -2263,14 +2263,14 @@
     <value />
   </data>
   <data name="cmb_model.Items1" xml:space="preserve">
-    <value>쿼드플레인</value>
+    <value>quadplane</value>
   </data>
   <data name="cmb_model.Items2" xml:space="preserve">
-    <value>엑스플레인</value>
+    <value>xplane</value>
     <comment>모의 시험 프로그램 이름. 음역 가능.</comment>
   </data>
   <data name="cmb_model.Items3" xml:space="preserve">
-    <value>엑스플레인-헬리</value>
+    <value>xplane-heli</value>
   </data>
   <data name="cmb_model.Items4" xml:space="preserve">
     <value>firefly</value>
@@ -2280,51 +2280,51 @@
     <value>+</value>
   </data>
   <data name="cmb_model.Items6" xml:space="preserve">
-    <value>쿼드</value>
+    <value>quad</value>
   </data>
   <data name="cmb_model.Items7" xml:space="preserve">
-    <value>콥터</value>
+    <value>copter</value>
   </data>
   <data name="cmb_model.Items8" xml:space="preserve">
     <value>x</value>
   </data>
   <data name="cmb_model.Items9" xml:space="preserve">
-    <value>헥사</value>
+    <value>hexa</value>
   </data>
   <data name="cmb_model.Items10" xml:space="preserve">
-    <value>옥타</value>
+    <value>octa</value>
   </data>
   <data name="cmb_model.Items11" xml:space="preserve">
-    <value>트리</value>
+    <value>tri</value>
   </data>
   <data name="cmb_model.Items12" xml:space="preserve">
     <value>y6</value>
     <comment>고유 명칭. 번역하지 말것</comment>
   </data>
   <data name="cmb_model.Items13" xml:space="preserve">
-    <value>헬리</value>
+    <value>heli</value>
   </data>
   <data name="cmb_model.Items14" xml:space="preserve">
-    <value>헬리-듀얼</value>
+    <value>heli-dual</value>
   </data>
   <data name="cmb_model.Items15" xml:space="preserve">
-    <value>헬리-복합</value>
+    <value>heli-compound</value>
   </data>
   <data name="cmb_model.Items16" xml:space="preserve">
-    <value>단일콥터</value>
+    <value>singlecopter</value>
   </data>
   <data name="cmb_model.Items17" xml:space="preserve">
-    <value>동축콥터</value>
+    <value>coaxcopter</value>
   </data>
   <data name="cmb_model.Items18" xml:space="preserve">
-    <value>로버</value>
+    <value>rover</value>
   </data>
   <data name="cmb_model.Items19" xml:space="preserve">
-    <value>CRRCSim</value>
+    <value>crrcsim</value>
     <comment>모의 시험 프로그램 이름. 고유 명칭. 대소문자 살릴것</comment>
   </data>
   <data name="cmb_model.Items20" xml:space="preserve">
-    <value>JSBSim</value>
+    <value>jsbsim</value>
     <comment>모의 시험 프로그램 이름. 고유 명칭. 대소문자 살릴것</comment>
   </data>
   <data name="cmb_model.Items21" xml:space="preserve">
@@ -2332,7 +2332,7 @@
     <comment>고유 명칭. 번역하지 말것</comment>
   </data>
   <data name="cmb_model.Items22" xml:space="preserve">
-    <value>가제보</value>
+    <value>gazebo</value>
     <comment>모의 시험 프로그램 이름. 음역 가능.</comment>
   </data>
   <data name="cmb_model.Items23" xml:space="preserve">
@@ -2340,25 +2340,25 @@
     <comment>고유 명칭. 번역하지 말것</comment>
   </data>
   <data name="cmb_model.Items24" xml:space="preserve">
-    <value>트래커</value>
+    <value>tracker</value>
   </data>
   <data name="cmb_model.Items25" xml:space="preserve">
-    <value>열기구</value>
+    <value>balloon</value>
   </data>
   <data name="cmb_model.Items26" xml:space="preserve">
-    <value>비행체</value>
+    <value>plane</value>
   </data>
   <data name="cmb_model.Items27" xml:space="preserve">
-    <value>보정</value>
+    <value>calibration</value>
   </data>
   <data name="cmb_model.Items28" xml:space="preserve">
-    <value>제트기</value>
+    <value>plane-jet</value>
   </data>
   <data name="cmb_model.Items29" xml:space="preserve">
-    <value>범선</value>
+    <value>sailboat</value>
   </data>
   <data name="cmb_model.Items30" xml:space="preserve">
-    <value>모터보트</value>
+    <value>motorboat</value>
   </data>
   <data name="cmb_model.Items31" xml:space="preserve">
     <value>morse-rover</value>
@@ -2469,4 +2469,8 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.MyUserControl, MissionPlanner.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="but_swarmrover.Text" xml:space="preserve"><value>로버 군집 - 다중 연결</value></data>
+  <data name="but_swarmplane.Text" xml:space="preserve"><value>고정익 군집 - 다중 연결</value></data>
+  <data name="cmb_model.Items32" xml:space="preserve"><value>rover-skid</value></data>
+  <data name="cmb_model.Items33" xml:space="preserve"><value>plane-3d</value></data>
 </root>

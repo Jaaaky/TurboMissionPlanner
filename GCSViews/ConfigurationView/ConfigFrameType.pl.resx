@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -226,13 +226,13 @@
     <value>Max</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Tryb lotu 2</value>
+    <value>„Plus”</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>Max przechylenie</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Tryb lotu 3</value>
+    <value>„X”, „Y6A”</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
     <value>Max pochylenie</value>
@@ -241,13 +241,13 @@
     <value>w stopniech np. 2° 3' W to -2.3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Tryb lotu 1</value>
+    <value>„H”</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Wypoziomuj quada żeby stawić domyśle offsety przysp.</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Tryb lotu 6</value>
+    <value>„V”</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
     <value>Pojemność</value>
@@ -259,7 +259,7 @@
     <value>Włącz sonar</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>PWM 1231 - 1360</value>
+    <value>UWAGA: układ Y6B różni się kierunkami obrotu śmigieł od starszego Y6A</value>
   </data>
   <data name="tabRadioIn.Text" xml:space="preserve">
     <value>Wejścia radia</value>
@@ -271,10 +271,10 @@
     <value>1500</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Tryb lotu 4</value>
+    <value>UWAGA: układy X i H NIE są zamienne — różnią się kierunkami obrotu śmigieł</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Tryb lotu 5</value>
+    <value>„Y6B”</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Żyro</value>
@@ -286,7 +286,7 @@
     <value>Hardware</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>PWM 1491 - 1620</value>
+    <value>„V Tail”</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
     <value>Strona www deklinacji</value>
@@ -315,4 +315,6 @@
   <data name="label30.Text" xml:space="preserve">
     <value>Monitor</value>
   </data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Ustawienia domyślne</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Typ ramy</value></data>
 </root>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>برای راه‌اندازی کوپتر جدید باید برخی پارامترها را بر اساس باتری و اندازهٔ ملخ تنظیم کنید.
+پیش از ورود داده و به‌روزرسانی پارامترها در اینجا، مطمئن شوید:
+
+  -- همهٔ تنظیمات اولیه انجام شده‌اند (کالیبراسیون‌ها، تنظیمات بدنه، آزمایش موتورها)
+  -- پایش ولتاژ باتری تنظیم شده و کار می‌کند
+
+نکته: مقدار غیر از 20 برای INS_GYRO_FILTER اختیاری است و احتمالاً فقط برای بدنه‌ها/ملخ‌های کوچک مناسب است. در ابتدا می‌توانید آن را روی 20 نگه دارید</value></data>
+</root>

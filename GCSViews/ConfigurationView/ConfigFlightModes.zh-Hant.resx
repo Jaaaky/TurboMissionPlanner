@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -161,43 +161,43 @@
     <value>64, 13</value>
   </data>
   <data name="BUT_SaveModes.Text" xml:space="preserve">
-    <value>保存模式</value>
+    <value>儲存模式</value>
   </data>
   <data name="CB_simple1.Text" xml:space="preserve">
-    <value>簡單模式</value>
+    <value>簡易模式</value>
   </data>
   <data name="CB_simple2.Text" xml:space="preserve">
-    <value>簡單模式</value>
+    <value>簡易模式</value>
   </data>
   <data name="CB_simple3.Text" xml:space="preserve">
-    <value>簡單模式</value>
+    <value>簡易模式</value>
   </data>
   <data name="CB_simple4.Text" xml:space="preserve">
-    <value>簡單模式</value>
+    <value>簡易模式</value>
   </data>
   <data name="CB_simple5.Text" xml:space="preserve">
-    <value>簡單模式</value>
+    <value>簡易模式</value>
   </data>
   <data name="CB_simple6.Text" xml:space="preserve">
-    <value>簡單模式</value>
+    <value>簡易模式</value>
   </data>
   <data name="chk_ss1.Text" xml:space="preserve">
-    <value>Super Simple Mode</value>
+    <value>超級簡易模式</value>
   </data>
   <data name="chk_ss2.Text" xml:space="preserve">
-    <value>Super Simple Mode</value>
+    <value>超級簡易模式</value>
   </data>
   <data name="chk_ss3.Text" xml:space="preserve">
-    <value>Super Simple Mode</value>
+    <value>超級簡易模式</value>
   </data>
   <data name="chk_ss4.Text" xml:space="preserve">
-    <value>Super Simple Mode</value>
+    <value>超級簡易模式</value>
   </data>
   <data name="chk_ss5.Text" xml:space="preserve">
-    <value>Super Simple Mode</value>
+    <value>超級簡易模式</value>
   </data>
   <data name="chk_ss6.Text" xml:space="preserve">
-    <value>Super Simple Mode</value>
+    <value>超級簡易模式</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>PWM 1621 - 1749</value>
@@ -209,10 +209,10 @@
     <value>PWM 0 - 1230</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>當前模式:</value>
+    <value>目前模式：</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>當前 PWM:</value>
+    <value>目前 PWM：</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>PWM 1231 - 1360</value>
@@ -242,9 +242,10 @@
     <value>飛行模式 6</value>
   </data>
   <data name="lbl_currentmode.Text" xml:space="preserve">
-    <value>Manual</value>
+    <value>手動</value>
   </data>
   <data name="LBL_flightmodepwm.Text" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="linkLabel1_ss.Text" xml:space="preserve"><value>簡易模式與超級簡易模式說明</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -118,30 +118,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>"+"</value>
+    <value>Mettez le pilote automatique à niveau pour définir les facteurs d’échelle de l’accéléromètre en vol horizontal (1 axe).
+Le pilote automatique doit être posé à plat et à l’horizontale.</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>"X"</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Configuration Chassis</value>
+    <value>Mettez le pilote automatique à niveau pour définir les décalages par défaut de l’accéléromètre (1 axe/corrections AHRS).
+Le pilote automatique doit être posé à plat et à l’horizontale.</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Mettre l'appareil de niveau avant de calibrer</value>
+    <value>Mettez le pilote automatique à niveau pour définir les minima/maxima de l’accéléromètre (3 axes).
+Vous devrez ensuite le placer sur chacune de ses faces.</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Calibration des accéléromètres</value>
+    <value>Étalonnage de l’accéléromètre</value>
   </data>
   <data name="BUT_levelac2.Text" xml:space="preserve">
     <value>Calibrer</value>
   </data>
   <data name="BUT_calib_accell.Text" xml:space="preserve">
-    <value>Calibrer l'accéléromètre</value>
+    <value>Étalonner l’accéléromètre</value>
   </data>
   <data name="BUT_simpleAccelCal.Text" xml:space="preserve">
-    <value>Calibration simple accéléromètre</value>
+    <value>Étalonnage simple de l’accéléromètre</value>
   </data>
   <data name="BUT_level.Text" xml:space="preserve">
-    <value>Calibrer le niveau</value>
+    <value>Étalonner le niveau</value>
   </data>
 </root>

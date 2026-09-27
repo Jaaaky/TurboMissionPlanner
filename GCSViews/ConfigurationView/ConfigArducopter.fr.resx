@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -121,70 +121,70 @@
     <value>P</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Taux de gaz (VVit. vers accél.)</value>
+    <value>Régulation verticale (vitesse vers accél.)</value>
   </data>
   <data name="CHK_lockrollpitch.Text" xml:space="preserve">
-    <value>Verrouiller les valeurs de tangage et roulis</value>
+    <value>Lier les valeurs de tangage et de roulis</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>Vitesse montée</value>
+    <value>Vitesse de montée</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Vitesse flâner</value>
+    <value>Vitesse en Loiter</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Vitesse descente</value>
+    <value>Vitesse de descente</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>Rayon</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Vitesse</value>
+    <value>Vitesse </value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>WPNav (cm)</value>
+    <value>Navigation par points (cm)</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>Maintien d'altitude (Alt vers taux montée)</value>
+    <value>Maintien d’altitude (alt. vers taux de montée)</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>TC ENTRÉE</value>
+    <value>Constante de temps d’entrée</value>
   </data>
   <data name="label31.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="groupBox19.Text" xml:space="preserve">
-    <value>Position XY (Distance vers vitesse)</value>
+    <value>Position XY (distance vers vitesse)</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
-    <value>ACCÉL MAX</value>
+    <value>ACCÉL. MAX</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="groupBox20.Text" xml:space="preserve">
-    <value>Stabilisation lacet (Erreur vers taux)</value>
+    <value>Stabilisation du lacet (erreur vers vitesse angulaire)</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
-    <value>ACCÉL MAX</value>
+    <value>ACCÉL. MAX</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="groupBox21.Text" xml:space="preserve">
-    <value>Stabilisation tangage (Erreur vers taux)</value>
+    <value>Stabilisation du tangage (erreur vers vitesse angulaire)</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
-    <value>ACCÉL MAX</value>
+    <value>ACCÉL. MAX</value>
   </data>
   <data name="label46.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="groupBox22.Text" xml:space="preserve">
-    <value>Stabilisation roulis (Erreur vers taux)</value>
+    <value>Stabilisation du roulis (erreur vers vitesse angulaire)</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
     <value>FLTT</value>
@@ -208,7 +208,7 @@
     <value>P</value>
   </data>
   <data name="groupBox23.Text" xml:space="preserve">
-    <value>Taux de lacet</value>
+    <value>Vitesse de lacet</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
     <value>FLTT</value>
@@ -232,7 +232,7 @@
     <value>P</value>
   </data>
   <data name="groupBox24.Text" xml:space="preserve">
-    <value>Taux de tangage</value>
+    <value>Vitesse de tangage</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>FLTT</value>
@@ -256,7 +256,7 @@
     <value>P</value>
   </data>
   <data name="groupBox25.Text" xml:space="preserve">
-    <value>Taux de roulis</value>
+    <value>Vitesse de roulis</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>D</value>
@@ -271,7 +271,7 @@
     <value>P</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Vélocité XY (Vitesse vers accél.)</value>
+    <value>Vitesse XY (vitesse vers accél.)</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
     <value>Actualiser les paramètres</value>
@@ -301,10 +301,10 @@
     <value>P</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Accél. des gaz (Accél. vers moteur)</value>
+    <value>Accélération verticale (accél. vers moteur)</value>
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
-    <value>Actualiser l'écran</value>
+    <value>Actualiser l’écran</value>
   </data>
   <data name="myLabel4.Text" xml:space="preserve">
     <value>Option RC8</value>
@@ -364,7 +364,7 @@
     <value>Activé</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
-    <value>Filtre coupe-bande statique</value>
+    <value>Filtre coupe-bande fixe</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
     <value>Options</value>
@@ -373,9 +373,10 @@
     <value>Masque</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
-    <value>Journaux de filtre</value>
+    <value>Journaux des filtres</value>
   </data>
   <data name="label52.Text" xml:space="preserve">
     <value>Option RC6</value>
   </data>
+  <data name="lblUnitWarning.Text" xml:space="preserve"><value>Attention : changement incompatible</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,6 +121,7 @@
     <value>Telemetrie aktivieren</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Option nur nötig, falls OSD nicht richtig aktualisiert.</value>
+    <value>Nur erforderlich, wenn die OSD-Anzeige nicht aktualisiert wird</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>OSD</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,24 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblMAX_DATA.Text" xml:space="preserve">
-    <value>Максимум даних</value>
+    <value>Макс. обсяг даних</value>
   </data>
   <data name="linkLabel1.ToolTip" xml:space="preserve">
-    <value>3DR Radios має 2 світлодіоди, один червоний та один зелений.
-зелений LED Миготує - пошук іншого радіо 
-зеленого цілого світлодіода - посилання встановлено на інше радіо- 
-червоним LED миготуванням - передачу даних 
-червоний світлодіод - в режимі оновлення прошивки</value>
+    <value>Радіомодеми 3DR мають два світлодіоди стану: червоний і зелений.
+Зелений блимає — пошук іншого радіомодема.
+Зелений світиться постійно — зв’язок з іншим радіомодемом установлено.
+Червоний блимає — передавання даних.
+Червоний світиться постійно — режим оновлення прошивки.</value>
   </data>
   <data name="RTXPOWER.ToolTip" xml:space="preserve">
-    <value>TXPOWER це потужність передачі в dBm. 20 dBm 100mW. Встановити це на нижчі рівні для короткого тестування діапазону.
+    <value>TXPOWER — потужність передавання в dBm. 20 dBm відповідає 100 мВт. Для випробувань на малій відстані доцільно зменшити це значення.
 </value>
   </data>
   <data name="RNETID.ToolTip" xml:space="preserve">
-    <value>NETID це 16 біт 'мережевий ID'. Це використовується для відправлення послідовності частоти стрибків і визначення пакетів, що надходять з правильного радіо. Переконайтеся, що ви використовуєте іншу мережу NETID від усіх, хто використовує такі ж радіоприймачі в цьому районі. </value>
+    <value>NETID — 16-бітовий ідентифікатор мережі. Він задає послідовність перебудови частоти й дає змогу визначати пакети від потрібного радіомодема. Використовуйте NETID, відмінний від ідентифікаторів інших таких радіомодемів поблизу. </value>
   </data>
   <data name="AIR_SPEED.ToolTip" xml:space="preserve">
-    <value>AIR_SPEED це частота міжрадіо-даних у заокруглених Кбіт/с, тобто 128 означає 128Кб/с. Макс. дорівнює 192, хв дорівнює 2. Я не рекомендую значення нижче 16 як періодична стрибок і час синхронізації tdm дуже довгий. </value>
+    <value>AIR_SPEED — швидкість обміну між радіомодемами в округлених кбіт/с. Наприклад, 128 означає 128 кбіт/с. Максимум — 192, мінімум — 2. Значення нижче 16 не рекомендовані: перебудова частоти та синхронізація TDM триватимуть надто довго. </value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>Мінімальна частота</value>
@@ -147,13 +147,13 @@
     <value>Версія</value>
   </data>
   <data name="RAIR_SPEED.ToolTip" xml:space="preserve">
-    <value>AIR_SPEED це частота міжрадіо-даних у заокруглених Кбіт/с, тобто 128 означає 128Кб/с. Макс. дорівнює 192, хв дорівнює 2. Я не рекомендую значення нижче 16 як періодична стрибок і час синхронізації tdm дуже довгий. </value>
+    <value>AIR_SPEED — швидкість обміну між радіомодемами в округлених кбіт/с. Наприклад, 128 означає 128 кбіт/с. Максимум — 192, мінімум — 2. Значення нижче 16 не рекомендовані: перебудова частоти та синхронізація TDM триватимуть надто довго. </value>
   </data>
   <data name="lblNODEID.Text" xml:space="preserve">
     <value>ID вузла</value>
   </data>
   <data name="BUT_Syncoptions.Text" xml:space="preserve">
-    <value>Копіювати необхідне для віддаленого</value>
+    <value>Копіювати необхідне на віддалений</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>Макс Фрек</value>
@@ -162,22 +162,22 @@
     <value>Режим антени</value>
   </data>
   <data name="NUM_CHANNELS.ToolTip" xml:space="preserve">
-    <value>кількість частотних перестрибуючих каналів </value>
+    <value>кількість каналів перебудови частоти </value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value># каналів</value>
   </data>
   <data name="LBT_RSSI.ToolTip" xml:space="preserve">
-    <value>Слухайте перед порогом Talk</value>
+    <value>Поріг прослуховування перед передаванням (LBT)</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
     <value>Максимальне вікно (мс)</value>
   </data>
   <data name="BUT_savesettings.Text" xml:space="preserve">
-    <value>Зберегти Налаштування</value>
+    <value>Зберегти налаштування</value>
   </data>
   <data name="lblDESTID.Text" xml:space="preserve">
-    <value>Найкращий ID</value>
+    <value>ID призначення</value>
   </data>
   <data name="RMAVLINK.ToolTip" xml:space="preserve">
     <value>AIR_SPEED це частота міжрадіо-даних у заокруглених Кбіт/с, тобто 128 означає 128Кб/с. Макс. дорівнює 192, хв дорівнює 2. Я не рекомендую значення нижче 16 як періодична стрибок і час синхронізації tdm дуже довгий. </value>
@@ -186,7 +186,7 @@
     <value>Митний цикл</value>
   </data>
   <data name="NETID.ToolTip" xml:space="preserve">
-    <value>NETID це 16 біт 'мережевий ID'. Це використовується для відправлення послідовності частоти стрибків і визначення пакетів, що надходять з правильного радіо. Переконайтеся, що ви використовуєте іншу мережу NETID від усіх, хто використовує такі ж радіоприймачі в цьому районі. </value>
+    <value>NETID — 16-бітовий ідентифікатор мережі. Він задає послідовність перебудови частоти й дає змогу визначати пакети від потрібного радіомодема. Використовуйте NETID, відмінний від ідентифікаторів інших таких радіомодемів поблизу. </value>
   </data>
   <data name="label22.Text" xml:space="preserve">
     <value># каналів</value>
@@ -198,28 +198,28 @@
     <value>Мінімальна частота</value>
   </data>
   <data name="OPPRESEND.ToolTip" xml:space="preserve">
-    <value>OPPRESEND enables/вимикає "перенавчання опортунізму". Якщо включено, радіо буде відправляти пакет двічі, якщо буфер серійного вводу має менше 256 байт. Друге повідомлення помічено у вигляді повторного відправлення і відкинуто радіо, якщо в ньому є перший пакет ОК. Це має велике значення для якості посилання, особливо для команд з uplink 
-.</value>
+    <value>OPPRESEND вмикає або вимикає повторне передавання за наявності вільного ресурсу. Якщо ввімкнено й у вхідному буфері послідовного порту менше 256 байтів, радіомодем надсилає пакет двічі. Друге надсилання позначається як повторне; приймач відкидає його, якщо перший пакет отримано успішно. Це суттєво покращує якість зв’язку, особливо для команд, що передаються на борт.
+</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Форматувати</value>
+    <value>Формат</value>
   </data>
   <data name="linkLabel_mavlink.Text" xml:space="preserve">
-    <value>Налаштування для Standard Mavlink</value>
+    <value>Налаштування для стандартного MAVLink</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Швидкість у Повітрі</value>
+    <value>Швидкість радіообміну</value>
   </data>
   <data name="SERIAL_SPEED.ToolTip" xml:space="preserve">
-    <value>Швидкість послідовної бокси округлених Кб/с. Отже, 57 означає 57600. 
+    <value>Швидкість послідовного порту в округлених кбіт/с. Наприклад, 57 означає 57600 біт/с.
 </value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Потужність Tx</value>
   </data>
   <data name="ROPPRESEND.ToolTip" xml:space="preserve">
-    <value>OPPRESEND enables/вимикає "перенавчання опортунізму". Якщо включено, радіо буде відправляти пакет двічі, якщо буфер серійного вводу має менше 256 байт. Друге повідомлення помічено у вигляді повторного відправлення і відкинуто радіо, якщо в ньому є перший пакет ОК. Це має велике значення для якості посилання, особливо для команд з uplink 
-.</value>
+    <value>OPPRESEND вмикає або вимикає повторне передавання за наявності вільного ресурсу. Якщо ввімкнено й у вхідному буфері послідовного порту менше 256 байтів, радіомодем надсилає пакет двічі. Друге надсилання позначається як повторне; приймач відкидає його, якщо перший пакет отримано успішно. Це суттєво покращує якість зв’язку, особливо для команд, що передаються на борт.
+</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Потужність Tx</value>
@@ -228,65 +228,64 @@
     <value>Випадковий</value>
   </data>
   <data name="BUT_resettodefault.Text" xml:space="preserve">
-    <value>Відновити параметри за замовчуванням</value>
+    <value>Відновити типові налаштування</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Версія</value>
   </data>
   <data name="lblRSER_BRK_DETMS.Text" xml:space="preserve">
-    <value>Перерва виявлення</value>
+    <value>Виявлення сигналу Break</value>
   </data>
   <data name="MIN_FREQ.ToolTip" xml:space="preserve">
     <value>мінімальна частота в кГц </value>
   </data>
   <data name="RSERIAL_SPEED.ToolTip" xml:space="preserve">
-    <value>Швидкість послідовної бокси округлених Кб/с. Отже, 57 означає 57600. 
+    <value>Швидкість послідовного порту в округлених кбіт/с. Наприклад, 57 означає 57600 біт/с.
 </value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
-    <value>ПРИМІТКА: Завжди натисніть кнопку "Копіювати необхідне до видалення" під час зміни
-це гарантує втрату радіо-посилання</value>
+    <value>ПРИМІТКА: після зміни параметрів завжди натискайте «Копіювати необхідне на віддалений»,
+щоб не втратити радіозв’язок</value>
   </data>
   <data name="RGPI1_1R_CIN.ToolTip" xml:space="preserve">
-    <value>OPPRESEND enables/вимикає "перенавчання опортунізму". Якщо включено, радіо буде відправляти пакет двічі, якщо буфер серійного вводу має менше 256 байт. Друге повідомлення помічено у вигляді повторного відправлення і відкинуто радіо, якщо в ньому є перший пакет ОК. Це має велике значення для якості посилання, особливо для команд з uplink 
-.</value>
+    <value>GPI1_1R/CIN налаштовує GPIO 1.1 як вхід R/C (PPM)</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Статус Leds</value>
+    <value>Світлодіоди стану</value>
   </data>
   <data name="MAX_WINDOW.ToolTip" xml:space="preserve">
     <value>Ідентифікатор вузла. Базовий вузол 0. Один вузол повинен діяти в якості основи для мережевого середовища для роботи. </value>
   </data>
   <data name="RNUM_CHANNELS.ToolTip" xml:space="preserve">
-    <value>кількість частотних перестрибуючих каналів </value>
+    <value>кількість каналів перебудови частоти </value>
   </data>
   <data name="groupBoxRemote.Text" xml:space="preserve">
-    <value>Пульт</value>
+    <value>Віддалений</value>
   </data>
   <data name="lblGLOBAL_RETRIES.Text" xml:space="preserve">
-    <value>Глобальні спроби</value>
+    <value>Загальні повторні спроби</value>
   </data>
   <data name="lblRDESTID.Text" xml:space="preserve">
-    <value>Найкращий ID</value>
+    <value>ID призначення</value>
   </data>
   <data name="lblSER_BRK_DETMS.Text" xml:space="preserve">
-    <value>Перерва виявлення</value>
+    <value>Виявлення сигналу Break</value>
   </data>
   <data name="groupBoxLocal.Text" xml:space="preserve">
-    <value>Місцевий</value>
+    <value>Локальний</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>Швидкість у Повітрі</value>
+    <value>Швидкість радіообміну</value>
   </data>
   <data name="linkLabel_lowlatency.Text" xml:space="preserve">
-    <value>Налаштування для низької затримки</value>
+    <value>Налаштування для малої затримки</value>
   </data>
   <data name="ECC.ToolTip" xml:space="preserve">
-    <value>ЕКС має вкл/вимк модуля корекції помилок голью. За умовчанням, це вимкнено. Якщо ви активуєте його, пакети можуть зайняти вдвічі більше байтів, так що ви втрачаєте половину ширини вашого повітря, але він може виправити до 3 бітових помилок на 12 бітів даних. Це використовується для великого діапазону, як правило, у поєднанні з нижчою частотою повітря. golay декод займає 20 мікросекунд за передавання байту (40 мікросекунд на дані користувача), що також означає, що ви будете бітом ЦП, обмеженим за найвищими показниками повітряних даних. Так що ви зазвичай використовуєте голью на 128Кбіт/с або менше 
+    <value>ECC вмикає або вимикає виправлення помилок кодом Голея. Типово вимкнено. Після ввімкнення передавання пакетів потребує вдвічі більше байтів, тому корисна пропускна здатність радіоканалу зменшується вдвічі. Натомість можна виправити до 3 бітових помилок на кожні 12 бітів даних. Використовуйте для великих відстаней, зазвичай разом зі зниженою швидкістю радіообміну. Декодування коду Голея займає 20 мкс на переданий байт (40 мкс на байт даних користувача), тому на найвищих швидкостях обмеженням також стає продуктивність процесора. Зазвичай код Голея використовують на швидкості 128 кбіт/с або нижчій.
 </value>
   </data>
   <data name="label31.Text" xml:space="preserve">
-    <value>Форматувати</value>
+    <value>Формат</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
     <value>Максимальне вікно (мс)</value>
@@ -298,7 +297,7 @@
     <value>Ключ AES</value>
   </data>
   <data name="lblRGLOBAL_RETRIES.Text" xml:space="preserve">
-    <value>Глобальні спроби</value>
+    <value>Загальні повторні спроби</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
     <value>Ключ AES</value>
@@ -307,94 +306,159 @@
     <value>AES шифрування</value>
   </data>
   <data name="lblRMAX_DATA.Text" xml:space="preserve">
-    <value>Максимум даних</value>
+    <value>Макс. обсяг даних</value>
   </data>
   <data name="DUTY_CYCLE.ToolTip" xml:space="preserve">
-    <value>відсоток часу, що дозволить передачі</value>
+    <value>відсоток часу, протягом якого дозволено передавання</value>
   </data>
   <data name="RMIN_FREQ.ToolTip" xml:space="preserve">
     <value>мінімальна частота в кГц </value>
   </data>
   <data name="GPI1_1R_CIN.ToolTip" xml:space="preserve">
-    <value>OPPRESEND enables/вимикає "перенавчання опортунізму". Якщо включено, радіо буде відправляти пакет двічі, якщо буфер серійного вводу має менше 256 байт. Друге повідомлення помічено у вигляді повторного відправлення і відкинуто радіо, якщо в ньому є перший пакет ОК. Це має велике значення для якості посилання, особливо для команд з uplink 
-.</value>
+    <value>GPI1_1R/CIN налаштовує GPIO 1.1 як вхід R/C (PPM)</value>
   </data>
   <data name="BUT_loadcustom.Text" xml:space="preserve">
-    <value>Завантажити прошивку</value>
+    <value>Установити прошивку (власну)</value>
   </data>
   <data name="BUT_upload.Text" xml:space="preserve">
-    <value>Завантажити прошивку (локально)</value>
+    <value>Установити прошивку (стандартну)</value>
   </data>
   <data name="lblRNODEID.Text" xml:space="preserve">
     <value>ID вузла</value>
   </data>
   <data name="lblRMAX_RETRIES.Text" xml:space="preserve">
-    <value>Кількість спроб</value>
+    <value>Макс. повторних спроб</value>
   </data>
   <data name="RDUTY_CYCLE.ToolTip" xml:space="preserve">
-    <value>відсоток часу, що дозволить передачі</value>
+    <value>відсоток часу, протягом якого дозволено передавання</value>
   </data>
   <data name="RMAX_WINDOW.ToolTip" xml:space="preserve">
     <value>Ідентифікатор вузла. Базовий вузол 0. Один вузол повинен діяти в якості основи для мережевого середовища для роботи. </value>
   </data>
   <data name="lblMAX_RETRIES.Text" xml:space="preserve">
-    <value>Кількість спроб</value>
+    <value>Макс. повторних спроб</value>
   </data>
   <data name="RMAX_FREQ.ToolTip" xml:space="preserve">
     <value>максимальна частота в кГц </value>
   </data>
   <data name="BUT_getcurrent.Text" xml:space="preserve">
-    <value>Параметри завантаження</value>
+    <value>Завантажити налаштування</value>
   </data>
   <data name="BUT_SetPPMFailSafe.Text" xml:space="preserve">
-    <value>Установити PPM безпечне блокування</value>
+    <value>Задати аварійні значення PPM</value>
   </data>
   <data name="lblANT_MODE.Text" xml:space="preserve">
     <value>Режим антени</value>
   </data>
   <data name="RGPO1_1R_COUT.ToolTip" xml:space="preserve">
-    <value>OPPRESEND enables/вимикає "перенавчання опортунізму". Якщо включено, радіо буде відправляти пакет двічі, якщо буфер серійного вводу має менше 256 байт. Друге повідомлення помічено у вигляді повторного відправлення і відкинуто радіо, якщо в ньому є перший пакет ОК. Це має велике значення для якості посилання, особливо для команд з uplink 
-.</value>
+    <value>GPI1_1R/COUT налаштовує GPIO 1.1 як вихід R/C (PPM)</value>
   </data>
   <data name="RECC.ToolTip" xml:space="preserve">
-    <value>ЕКС має вкл/вимк модуля корекції помилок голью. За умовчанням, це вимкнено. Якщо ви активуєте його, пакети можуть зайняти вдвічі більше байтів, так що ви втрачаєте половину ширини вашого повітря, але він може виправити до 3 бітових помилок на 12 бітів даних. Це використовується для великого діапазону, як правило, у поєднанні з нижчою частотою повітря. golay декод займає 20 мікросекунд за передавання байту (40 мікросекунд на дані користувача), що також означає, що ви будете бітом ЦП, обмеженим за найвищими показниками повітряних даних. Так що ви зазвичай використовуєте голью на 128Кбіт/с або менше 
+    <value>ECC вмикає або вимикає виправлення помилок кодом Голея. Типово вимкнено. Після ввімкнення передавання пакетів потребує вдвічі більше байтів, тому корисна пропускна здатність радіоканалу зменшується вдвічі. Натомість можна виправити до 3 бітових помилок на кожні 12 бітів даних. Використовуйте для великих відстаней, зазвичай разом зі зниженою швидкістю радіообміну. Декодування коду Голея займає 20 мкс на переданий байт (40 мкс на байт даних користувача), тому на найвищих швидкостях обмеженням також стає продуктивність процесора. Зазвичай код Голея використовують на швидкості 128 кбіт/с або нижчій.
 </value>
   </data>
   <data name="BUT_SetPPMFailSafe.ToolTip" xml:space="preserve">
-    <value>Запис потоку PPM за замовчуванням для виводу PPM (на стороні автомобіля)</value>
+    <value>Записати типовий потік PPM для виходу PPM (на борту апарата)</value>
   </data>
   <data name="RLBT_RSSI.ToolTip" xml:space="preserve">
-    <value>Слухайте перед порогом Talk</value>
+    <value>Поріг прослуховування перед передаванням (LBT)</value>
   </data>
   <data name="MAX_FREQ.ToolTip" xml:space="preserve">
     <value>максимальна частота в кГц </value>
   </data>
   <data name="RSSI.ToolTip" xml:space="preserve">
-    <value>перевірте специфікацію для RSSI на dBm графік. Числа в кінці: 
-txe: кількість помилок передачі (наприклад. transmit тайм-аути) 
-rx: кількість помилок (crc error, помилка формування тощо) 
-stx: кількість послідовного передачі 
-rx: кількість послідовного отримання розширень 
-екск 
- слів: кількість з 12 бітових слів успішно виправлена золотим кодом
-що призводить до правильного пакета CRC 
+    <value>Графік відповідності RSSI і dBm наведено у специфікації. Числа наприкінці означають:
+txe: кількість помилок передавання (наприклад, перевищення часу очікування)
+rxe: кількість помилок приймання (CRC, кадрування тощо)
+stx: кількість переповнень послідовного буфера передавання
+rrx: кількість переповнень послідовного буфера приймання
+ecc: кількість 12-бітових слів, успішно виправлених кодом Голея,
+після чого пакет має коректну CRC
 </value>
   </data>
   <data name="GPO1_1R_COUT.ToolTip" xml:space="preserve">
-    <value>OPPRESEND enables/вимикає "перенавчання опортунізму". Якщо включено, радіо буде відправляти пакет двічі, якщо буфер серійного вводу має менше 256 байт. Друге повідомлення помічено у вигляді повторного відправлення і відкинуто радіо, якщо в ньому є перший пакет ОК. Це має велике значення для якості посилання, особливо для команд з uplink 
-.</value>
+    <value>GPI1_1R/COUT налаштовує GPIO 1.1 як вихід R/C (PPM)</value>
   </data>
   <data name="RRTSCTS.ToolTip" xml:space="preserve">
-    <value>Увімкнення або вимкнення керування апаратним потоком</value>
+    <value>Увімкнути або вимкнути апаратне керування потоком</value>
   </data>
   <data name="MAVLINK.ToolTip" xml:space="preserve">
-    <value>AIR_SPEED це частота міжрадіо-даних у заокруглених Кбіт/с, тобто 128 означає 128Кб/с. Макс. дорівнює 192, хв дорівнює 2. Я не рекомендую значення нижче 16 як періодична стрибок і час синхронізації tdm дуже довгий. </value>
+    <value>MAVLink</value>
   </data>
   <data name="TXPOWER.ToolTip" xml:space="preserve">
-    <value>TXPOWER це потужність передачі в dBm. 20 dBm 100mW. Встановити це на нижчі рівні для короткого тестування діапазону.
+    <value>TXPOWER — потужність передавання в dBm. 20 dBm відповідає 100 мВт. Для випробувань на малій відстані доцільно зменшити це значення.
 </value>
   </data>
   <data name="RTSCTS.ToolTip" xml:space="preserve">
-    <value>Увімкнення або вимкнення керування апаратним потоком</value>
+    <value>Увімкнути або вимкнути апаратне керування потоком</value>
   </data>
+  <data name="ENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>Рівень шифрування AES</value></data>
+  <data name="RENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>Рівень шифрування AES</value></data>
+  <data name="FSFRAMELOSS.ToolTip" xml:space="preserve"><value>Кількість пропущених вихідних кадрів SBUS або PPM до переходу в аварійний режим.</value></data>
+  <data name="RFSFRAMELOSS.ToolTip" xml:space="preserve"><value>Кількість пропущених вихідних кадрів SBUS або PPM до переходу в аварійний режим.</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>RSSI</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>Втрата кадрів до аварійного режиму</value></data>
+  <data name="lblGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>Країна:</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>Швидкість/діапазон частот</value></data>
+  <data name="lblSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="lblRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Швидкість обміну</value></data>
+  <data name="lblNETID.Text" xml:space="preserve"><value>ID мережі</value></data>
+  <data name="lblTXPOWER.Text" xml:space="preserve"><value>Потужність передавача</value></data>
+  <data name="lblECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblOPPRESEND.Text" xml:space="preserve"><value>Повторне передавання</value></data>
+  <data name="lblMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblENCRYPTION_LEVEL.Text" xml:space="preserve"><value>Шифрування AES</value></data>
+  <data name="lblRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblMAX_WINDOW.Text" xml:space="preserve"><value>Макс. вікно (мс)</value></data>
+  <data name="lblMIN_FREQ.Text" xml:space="preserve"><value>Мін. частота</value></data>
+  <data name="lblLBT_RSSI.Text" xml:space="preserve"><value>RSSI для LBT</value></data>
+  <data name="lblDUTY_CYCLE.Text" xml:space="preserve"><value>Робочий цикл</value></data>
+  <data name="lblNUM_CHANNELS.Text" xml:space="preserve"><value>Кількість каналів</value></data>
+  <data name="lblMAX_FREQ.Text" xml:space="preserve"><value>Макс. частота</value></data>
+  <data name="btnRemoteLoadFromFile.Text" xml:space="preserve"><value>Завантажити з файлу...</value></data>
+  <data name="btnRemoteSaveToFile.Text" xml:space="preserve"><value>Зберегти у файл...</value></data>
+  <data name="lblRFSFRAMELOSS.Text" xml:space="preserve"><value>Втрата кадрів до аварійного режиму</value></data>
+  <data name="lblRGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblRGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblRGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblRGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblRGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.Text" xml:space="preserve"><value>Задати аварійні значення PPM</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.ToolTip" xml:space="preserve"><value>Записати типовий потік PPM для виходу PPM (на борту апарата)</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>Країна:</value></data>
+  <data name="lblRSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblRSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>Швидкість/діапазон частот</value></data>
+  <data name="lblRRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblRTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblRGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblRGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblROPPRESEND.Text" xml:space="preserve"><value>Повторне передавання</value></data>
+  <data name="lblRMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblRECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblRTXPOWER.Text" xml:space="preserve"><value>Потужність передавача</value></data>
+  <data name="lblRNETID.Text" xml:space="preserve"><value>ID мережі</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>Швидкість обміну</value></data>
+  <data name="lblRENCRYPTION_LEVEL.Text" xml:space="preserve"><value>Шифрування AES</value></data>
+  <data name="lblRRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblRMAX_WINDOW.Text" xml:space="preserve"><value>Макс. вікно (мс)</value></data>
+  <data name="lblRMIN_FREQ.Text" xml:space="preserve"><value>Мін. частота</value></data>
+  <data name="lblRMAX_FREQ.Text" xml:space="preserve"><value>Макс. частота</value></data>
+  <data name="lblRNUM_CHANNELS.Text" xml:space="preserve"><value>Кількість каналів</value></data>
+  <data name="lblRDUTY_CYCLE.Text" xml:space="preserve"><value>Робочий цикл</value></data>
+  <data name="lblRLBT_RSSI.Text" xml:space="preserve"><value>RSSI для LBT</value></data>
+  <data name="dlgSave.Filter" xml:space="preserve"><value>Файли INI|*.ini</value></data>
+  <data name="dlgOpen.Filter" xml:space="preserve"><value>Файли INI|*.ini</value></data>
+  <data name="btnSaveToFile.Text" xml:space="preserve"><value>Зберегти у файл...</value></data>
+  <data name="btnLoadFromFile.Text" xml:space="preserve"><value>Завантажити з файлу...</value></data>
 </root>

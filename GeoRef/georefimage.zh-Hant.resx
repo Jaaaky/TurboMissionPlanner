@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -187,7 +187,7 @@
     <value>7</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>秒誤差</value>
+    <value>偏移秒數</value>
   </data>
   <data name="BUT_Geotagimages.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -202,7 +202,7 @@
     <value>9</value>
   </data>
   <data name="BUT_Geotagimages.Text" xml:space="preserve">
-    <value>地理標籤圖片</value>
+    <value>為影像加上地理標籤</value>
   </data>
   <data name="BUT_estoffset.Location" type="System.Drawing.Point, System.Drawing">
     <value>240, 18</value>
@@ -214,7 +214,7 @@
     <value>8</value>
   </data>
   <data name="BUT_estoffset.Text" xml:space="preserve">
-    <value>預估誤差</value>
+    <value>估算偏移量</value>
   </data>
   <data name="BUT_doit.Location" type="System.Drawing.Point, System.Drawing">
     <value>139, 435</value>
@@ -226,7 +226,7 @@
     <value>5</value>
   </data>
   <data name="BUT_doit.Text" xml:space="preserve">
-    <value>執行</value>
+    <value>前置處理</value>
   </data>
   <data name="BUT_browsedir.Location" type="System.Drawing.Point, System.Drawing">
     <value>520, 44</value>
@@ -250,7 +250,7 @@
     <value>0</value>
   </data>
   <data name="BUT_browselog.Text" xml:space="preserve">
-    <value>瀏覽 Log</value>
+    <value>瀏覽記錄</value>
   </data>
   <data name="NUM_latpos.Location" type="System.Drawing.Point, System.Drawing">
     <value>237, 92</value>
@@ -301,7 +301,7 @@
     <value>14</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Lat</value>
+    <value>捨棄末尾影像</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -316,7 +316,7 @@
     <value>15</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Lon</value>
+    <value>最短快門間隔 (s) (CAM)</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -358,7 +358,7 @@
     <value>19</value>
   </data>
   <data name="BUT_networklinkgeoref.Text" xml:space="preserve">
-    <value>定位 Kml</value>
+    <value>位置 KML</value>
   </data>
   <data name="NUM_time.Location" type="System.Drawing.Point, System.Drawing">
     <value>237, 49</value>
@@ -442,7 +442,7 @@
     <value>30</value>
   </data>
   <data name="RDIO_TimeOffset.Text" xml:space="preserve">
-    <value>時間誤差</value>
+    <value>時間偏移</value>
   </data>
   <data name="RDIO_CAMMsgSynchro.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -460,7 +460,7 @@
     <value>31</value>
   </data>
   <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve">
-    <value>CAM 訊息同步</value>
+    <value>CAM 訊息</value>
   </data>
   <data name="PANEL_TIME_OFFSET.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 130</value>
@@ -892,7 +892,7 @@
     <value>39</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Rotation</value>
+    <value>旋轉</value>
   </data>
   <data name="num_camerarotation.Location" type="System.Drawing.Point, System.Drawing">
     <value>311, 25</value>
@@ -919,7 +919,7 @@
     <value>37</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Cross fov</value>
+    <value>橫向視角</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -937,7 +937,7 @@
     <value>36</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Dir fov</value>
+    <value>航向視角</value>
   </data>
   <data name="num_hfov.Location" type="System.Drawing.Point, System.Drawing">
     <value>258, 26</value>
@@ -979,7 +979,7 @@
     <value>40</value>
   </data>
   <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve">
-    <value>使用 AMSL 高度</value>
+    <value>使用平均海平面高度</value>
   </data>
   <data name="TXT_shutterLag.Location" type="System.Drawing.Point, System.Drawing">
     <value>128, 19</value>
@@ -1029,4 +1029,12 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>665, 692</value>
   </data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>捨棄開頭影像</value></data>
+  <data name="chk_usegps2.Text" xml:space="preserve"><value>使用 GPS2</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>相對高度基準</value></data>
+  <data name="chk_cammsg.Text" xml:space="preserve"><value>使用 CAM 訊息</value></data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve"><value>觸發訊息</value></data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve"><value>使用 GPS 高度</value></data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve"><value>使用 GPS 高度</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>影像地理參考</value></data>
 </root>

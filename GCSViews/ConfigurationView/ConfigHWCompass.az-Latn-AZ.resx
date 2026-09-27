@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,81 +121,96 @@
     <value>Kompaslari aktivləşdir</value>
   </data>
   <data name="BUT_OBmagcalstart.Text" xml:space="preserve">
-    <value>Başla</value>
+    <value>Başlat</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Dərəcələr</value>
+    <value>Dərəcə</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Dəqiqələr</value>
+    <value>Dəqiqə</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Parametrləri sürətli konfiqurasiya etmək üçün cihaz seçin:</value>
+    <value>Parametrləri cəld sazlamaq üçün cihaz seçin:</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Kalibrləmə başarısız olursa fitnessi serbes burax</value>
+    <value>Kalibrləmə alınmadıqda uyğunluq tələbini yumşalt</value>
   </data>
   <data name="CHK_compass1_use.Text" xml:space="preserve">
-    <value>Kompasi istifade et</value>
+    <value>Bu kompası istifadə et</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Kompass</value>
+    <value>Kompas</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
-    <value>Veb sayt yönəlməsi</value>
+    <value>Maqnit meyillənməsi saytı</value>
   </data>
   <data name="groupBoxonboardcalib.Text" xml:space="preserve">
-    <value>Mag Kalibirləmə göyərtəsi</value>
+    <value>Bortda maqnitometr kalibrləməsi</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Youtube Nümünəsi</value>
+    <value>YouTube nümunəsi</value>
   </data>
   <data name="CHK_compass3_external.Text" xml:space="preserve">
-    <value>Xarici quraşdırılma</value>
+    <value>Xaricdə quraşdırılıb</value>
   </data>
   <data name="BUT_MagCalibrationLive.Text" xml:space="preserve">
-    <value>Canlı Kalibirləmə</value>
+    <value>Canlı kalibrləmə</value>
   </data>
   <data name="BUT_OBmagcalcancel.Text" xml:space="preserve">
-    <value>Ləgv et</value>
+    <value>Ləğv et</value>
   </data>
   <data name="buttonAPMExternal.Text" xml:space="preserve">
-    <value>APM və Xarici Kompass</value>
+    <value>APM və xarici kompas</value>
   </data>
   <data name="CHK_compass3_use.Text" xml:space="preserve">
-    <value>Bu Kompası istifadə et</value>
+    <value>Bu kompası istifadə et</value>
   </data>
   <data name="CHK_compass2_use.Text" xml:space="preserve">
-    <value>Bu Kompası istifadə et</value>
+    <value>Bu kompası istifadə et</value>
   </data>
   <data name="BUT_OBmagcalaccept.Text" xml:space="preserve">
     <value>Qəbul et</value>
   </data>
   <data name="groupBoxCompass3.Text" xml:space="preserve">
-    <value>Kompass #3</value>
+    <value>Kompas №3</value>
   </data>
   <data name="CHK_compass_learn.Text" xml:space="preserve">
-    <value>Avtomatik olaraq öyrən offsets</value>
+    <value>Sürüşmələri avtomatik öyrən</value>
   </data>
   <data name="groupBoxCompass1.Text" xml:space="preserve">
-    <value>Kompass #1</value>
+    <value>Kompas №1</value>
   </data>
   <data name="CHK_autodec.Text" xml:space="preserve">
-    <value>Avtomatik olaraq meyllilik əldə edin</value>
+    <value>Maqnit meyillənməsini avtomatik al</value>
   </data>
   <data name="groupBoxCompass2.Text" xml:space="preserve">
-    <value>Kompass #2</value>
+    <value>Kompas №2</value>
   </data>
   <data name="LBL_primary_compass.Text" xml:space="preserve">
-    <value>Əsas Kompass:</value>
+    <value>Əsas kompas:</value>
   </data>
   <data name="groupBoxmpcalib.Text" xml:space="preserve">
-    <value>Mission Planner Mag Kalibrasyonu</value>
+    <value>Mission Planner maqnitometr kalibrləməsi</value>
   </data>
   <data name="groupBoxGeneralSettings.Text" xml:space="preserve">
-    <value>Ümumi Kompass tənzimləmələri</value>
+    <value>Ümumi kompas parametrləri</value>
   </data>
   <data name="CHK_compass2_external.Text" xml:space="preserve">
-    <value>Xarici quraşdırılmışdır</value>
+    <value>Xaricdə quraşdırılıb</value>
   </data>
+  <data name="label10.Text" xml:space="preserve"><value>Uyğunluq</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Maqnitometr 3</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Maqnitometr 2</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Maqnitometr 1</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>VƏ YA</value></data>
+  <data name="LBL_compass1_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass1_offset.Text" xml:space="preserve"><value>SÜRÜŞMƏ</value></data>
+  <data name="CHK_compass1_external.Text" xml:space="preserve"><value>Xaricdə quraşdırılıb</value></data>
+  <data name="LBL_compass2_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass2_offset.Text" xml:space="preserve"><value>SÜRÜŞMƏ</value></data>
+  <data name="LBL_compass3_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass3_offset.Text" xml:space="preserve"><value>SÜRÜŞMƏ</value></data>
+  <data name="QuickAPM25.Text" xml:space="preserve"><value>APM2.5 (daxili kompas)</value></data>
+  <data name="buttonQuickPixhawk.Text" xml:space="preserve"><value>Pixhawk/PX4</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>İri aparat üçün maqnitometr kalibrləməsi</value></data>
 </root>

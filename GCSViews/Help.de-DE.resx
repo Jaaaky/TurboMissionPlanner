@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,12 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_betaupdate.Text" xml:space="preserve">
-    <value>Auf BETA Updates prüfen</value>
+    <value>Nach Beta-Updates suchen</value>
   </data>
   <data name="CHK_showconsole.Text" xml:space="preserve">
-    <value>Eingabe Fenster zeigen (Neustart)</value>
+    <value>Konsolenfenster anzeigen (Neustart)</value>
   </data>
   <data name="BUT_updatecheck.Text" xml:space="preserve">
-    <value>Auf Updates prüfen</value>
+    <value>Nach Updates suchen</value>
   </data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>Änderungsprotokoll</value></data>
 </root>

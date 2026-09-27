@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -217,7 +217,7 @@
     <value>73</value>
   </data>
   <data name="CHK_airspeeduse.Text" xml:space="preserve">
-    <value>항속 사용</value>
+    <value>대기속도 사용</value>
   </data>
   <data name="&gt;&gt;CHK_airspeeduse.Name" xml:space="preserve">
     <value>CHK_airspeeduse</value>
@@ -247,7 +247,7 @@
     <value>70</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>항속</value>
+    <value>대기속도</value>
   </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>

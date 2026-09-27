@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -163,7 +163,7 @@
     <value>79</value>
   </data>
   <data name="BUT_paramfileload.Text" xml:space="preserve">
-    <value>매개변수 로드</value>
+    <value>매개변수 불러오기</value>
   </data>
   <data name="&gt;&gt;BUT_paramfileload.Name" xml:space="preserve">
     <value>BUT_paramfileload</value>

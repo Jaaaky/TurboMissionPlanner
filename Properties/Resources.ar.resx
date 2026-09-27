@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="help_text" xml:space="preserve"><value>{\rtf1\ansi\ansicpg1252\deff0\deflang3081\deflangfe3081{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\nowidctlpar\sa200\sl276\slmult1\f0\fs22\par
+\tab \u1605?\u1585?\u1581?\u1576?\u1611?\u1575? \u1576?\u1603? \u1601?\u1610? \b Mission Planner (Turbo)\b0 \u1548? \u1604?\u1578?\u1582?\u1591?\u1610?\u1591? \u1605?\u1607?\u1575?\u1605? \u1575?\u1604?\u1591?\u1575?\u1574?\u1585?\u1575?\u1578? \u1583?\u1608?\u1606? \u1591?\u1610?\u1575?\u1585? (\b UAV\b0 ).\par
+\pard\nowidctlpar\fi720\b \u1575?\u1604?\u1605?\u1587?\u1575?\u1593?\u1583?\u1577?:\par
+Arduplane: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/plane"}}{\fldrslt{\ul\cf1 http://ardupilot.org/plane}}}\f0\fs22\par
+ArduCopter: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/copter"}}{\fldrslt{\ul\cf1 http://ardupilot.org/copter}}}\f0\fs22\par
+ArduRover: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/rover"}}{\fldrslt{\ul\cf1 http://ardupilot.org/rover}}}\f0\fs22\par
+\par
+\pard\nowidctlpar\sa200\sl276\slmult1\tab \u1610?\u1615?\u1585?\u1580?\u1609? \u1586?\u1610?\u1575?\u1585?\u1577? {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/planner"}}{\fldrslt{\ul\cf1 http://ardupilot.org/planner}}}\f0\fs22  \u1604?\u1605?\u1586?\u1610?\u1583? \u1605?\u1606? \u1575?\u1604?\u1605?\u1593?\u1604?\u1608?\u1605?\u1575?\u1578?.\b0\par
+\pard\nowidctlpar\b\tab \u1575?\u1604?\u1605?\u1591?\u1608?\u1617?\u1585? \u1575?\u1604?\u1585?\u1574?\u1610?\u1587?\u1610?:\b0  Michael Oborne\par
+\tab\b \u1575?\u1604?\u1578?\u1589?\u1605?\u1610?\u1605?:\b0  Samantha Nelson\par
+\tab\b \u1605?\u1587?\u1575?\u1607?\u1605?\u1575?\u1578? \u1605?\u1606?:\b0  Andrew Radford,  Marooned, Ryan Beall, Tom Pittenger \u1608?{\field{\*\fldinst{HYPERLINK "https://github.com/ArduPilot/MissionPlanner/graphs/contributors"}}{\fldrslt{\ul\cf1 https://github.com/ArduPilot/MissionPlanner/graphs/contributors}}}\f0\fs22\par
+\pard\nowidctlpar\fi720\b \u1585?\u1587?\u1608?\u1605? ArduCopter:\b0  Max Levine\par
+\b \u1575?\u1604?\u1605?\u1603?\u1578?\u1576?\u1575?\u1578?:\b0  Gmap.net, Sharpkml, SharpZipLib, IronPython, KMLib, OpenTK, ZedGraph, alglib, BouncyCastle, DotSpatial, LibVLC, netDXF\par
+\par
+\b \u1575?\u1604?\u1588?\u1585?\u1603?\u1575?\u1578? \u1575?\u1604?\u1578?\u1610? \u1587?\u1575?\u1607?\u1605?\u1578? \u1601?\u1610? \u1578?\u1591?\u1608?\u1610?\u1585? Mission Planner: \b0 3D Robotics, Falcon Unmanned, UAV Solutions\b\par
+\par
+\u1575?\u1582?\u1578?\u1589?\u1575?\u1585?\u1575?\u1578? \u1604?\u1608?\u1581?\u1577? \u1575?\u1604?\u1605?\u1601?\u1575?\u1578?\u1610?\u1581?\par
+\par
+\u1575?\u1604?\u1588?\u1575?\u1588?\u1577? \u1575?\u1604?\u1585?\u1574?\u1610?\u1587?\u1610?\u1577?\par
+F2 - \u1576?\u1610?\u1575?\u1606?\u1575?\u1578? \u1575?\u1604?\u1585?\u1581?\u1604?\u1577?\par
+F3 - \u1605?\u1582?\u1591?\u1617?\u1591? \u1575?\u1604?\u1585?\u1581?\u1604?\u1577?\par
+F4 - \u1575?\u1604?\u1590?\u1576?\u1591?\par
+F5 - \u1578?\u1581?\u1583?\u1610?\u1579? \u1602?\u1575?\u1574?\u1605?\u1577? \u1575?\u1604?\u1605?\u1593?\u1575?\u1605?\u1604?\u1575?\u1578? \u1575?\u1604?\u1603?\u1575?\u1605?\u1604?\u1577?\par
+Control-F - \u1575?\u1604?\u1588?\u1575?\u1588?\u1577? \u1575?\u1604?\u1605?\u1572?\u1602?\u1578?\u1577?\par
+Control-T - \u1575?\u1578?\u1589?\u1575?\u1604? \u1583?\u1608?\u1606? \u1578?\u1581?\u1602?\u1602?\par
+\par
+\u1576?\u1610?\u1575?\u1606?\u1575?\u1578? \u1575?\u1604?\u1585?\u1581?\u1604?\u1577?\par
+Control-1 - \u1593?\u1604?\u1575?\u1605?\u1577? \u1575?\u1604?\u1578?\u1576?\u1608?\u1610?\u1576? 1\par
+Control-2 - \u1593?\u1604?\u1575?\u1605?\u1577? \u1575?\u1604?\u1578?\u1576?\u1608?\u1610?\u1576? 2\par
+Control-3 - \u1593?\u1604?\u1575?\u1605?\u1577? \u1575?\u1604?\u1578?\u1576?\u1608?\u1610?\u1576? 3\par
+Control-4 - \u1593?\u1604?\u1575?\u1605?\u1577? \u1575?\u1604?\u1578?\u1576?\u1608?\u1610?\u1576? 4\par
+Control-5 - \u1593?\u1604?\u1575?\u1605?\u1577? \u1575?\u1604?\u1578?\u1576?\u1608?\u1610?\u1576? 5\par
+Control-6 - \u1593?\u1604?\u1575?\u1605?\u1577? \u1575?\u1604?\u1578?\u1576?\u1608?\u1610?\u1576? 6\par
+Control-7 - \u1593?\u1604?\u1575?\u1605?\u1577? \u1575?\u1604?\u1578?\u1576?\u1608?\u1610?\u1576? 7\par
+Control-8 - \u1593?\u1604?\u1575?\u1605?\u1577? \u1575?\u1604?\u1578?\u1576?\u1608?\u1610?\u1576? 8\par
+Control-9 - \u1593?\u1604?\u1575?\u1605?\u1577? \u1575?\u1604?\u1578?\u1576?\u1608?\u1610?\u1576? 9\par
+Control-0 - \u1593?\u1604?\u1575?\u1605?\u1577? \u1575?\u1604?\u1578?\u1576?\u1608?\u1610?\u1576? 10\par
+\par
+\u1605?\u1582?\u1591?\u1617?\u1591? \u1575?\u1604?\u1585?\u1581?\u1604?\u1577?\par
+Control-Z - \u1578?\u1585?\u1575?\u1580?\u1593?\par
+Control-O - \u1601?\u1578?\u1581? \u1605?\u1604?\u1601? \u1606?\u1602?\u1575?\u1591? \u1575?\u1604?\u1605?\u1587?\u1575?\u1585?\par
+Control-S - \u1581?\u1601?\u1592? \u1605?\u1604?\u1601? \u1606?\u1602?\u1575?\u1591? \u1575?\u1604?\u1605?\u1587?\u1575?\u1585?\par
+\par
+\u1588?\u1576?\u1603?\u1577? \u1606?\u1602?\u1575?\u1591? \u1575?\u1604?\u1605?\u1587?\u1575?\u1585? \u1575?\u1604?\u1578?\u1604?\u1602?\u1575?\u1574?\u1610?\u1577?\par
+Control-O - \u1601?\u1578?\u1581? \u1605?\u1604?\u1601? \u1575?\u1604?\u1588?\u1576?\u1603?\u1577?\par
+Control-S - \u1581?\u1601?\u1592? \u1605?\u1604?\u1601? \u1575?\u1604?\u1588?\u1576?\u1603?\u1577?\par
+\par
+}</value></data>
+</root>

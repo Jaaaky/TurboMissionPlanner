@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>이 기능이 하는 일.
-1. NMEA GPS에서 현재 GPS 좌표 정보를 가져옵니다.
-2. 지도상의 원점을 업데이트합니다. (MAV의 원점을 업데이트하는건 아님)
+    <value>기능
+1. NMEA GPS에서 현재 GPS 좌표를 가져옵니다.
+2. 지도의 홈 위치를 갱신합니다(기체의 홈 위치는 갱신하지 않습니다).
 
-사용법
-1. 비행체에 연결하십시오.
-2. 이 창을 열어 원하는 NMEA GPS용 통신 포트, 전송율을 선택하십시오.
-3. 이제 원점의 정보가 바뀌어야 합니다.</value>
+사용 방법
+1. 오토파일럿에 연결합니다.
+2. 이 창을 열고 NMEA GPS의 COM 포트와 전송 속도를 선택합니다.
+3. 이제 홈 위치가 갱신됩니다.</value>
   </data>
 </root>

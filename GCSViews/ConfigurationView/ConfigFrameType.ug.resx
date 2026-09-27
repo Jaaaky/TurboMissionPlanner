@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label6.Text" xml:space="preserve"><value>'V'</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>'X' , 'Y6A'</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>'Y6B'</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>ئەسكەرتىش: بۇ Y6B، پىرقىرىغۇچنىڭ ئايلىنىش يۆنىلىشى كونا Y6A دىن پەرقلىنىدۇ</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>'V قۇيرۇق'</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>'Plus'</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>'H'</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>كۆڭۈلدىكى تەڭشەكلەر</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>گەۋدە تىپى</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>ئەسكەرتىش: X بىلەن H نى ئالمىشىپ ئىشلىتىشكە بولمايدۇ، پىرقىرىغۇچنىڭ ئايلىنىش يۆنىلىشى ئوخشىمايدۇ</value></data>
+</root>

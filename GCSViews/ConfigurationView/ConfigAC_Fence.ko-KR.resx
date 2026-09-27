@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -169,7 +169,7 @@
     <value>94</value>
   </data>
   <data name="label2rtlalt.Text" xml:space="preserve">
-    <value>회귀 고도</value>
+    <value>복귀 고도</value>
   </data>
   <data name="&gt;&gt;label2rtlalt.Name" xml:space="preserve">
     <value>label2rtlalt</value>
@@ -534,4 +534,5 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.MyUserControl, MissionPlanner.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="label8minalt.Text" xml:space="preserve"><value>최소 고도</value></data>
 </root>

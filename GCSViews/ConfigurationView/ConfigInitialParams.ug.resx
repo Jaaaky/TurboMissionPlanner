@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>يېڭى كۆپ پىرقىرىغۇچلۇق ئۇچقۇنى تەڭشىگەندە باتارېيە ۋە پىرقىرىغۇچ چوڭلۇقىغا ئاساسەن بەزى پارامېتىرلارنى بەلگىلىشىڭىز كېرەك.
+بۇ يەرگە سانلىق مەلۇمات كىرگۈزۈش ۋە پارامېتىرلارنى يېڭىلاشتىن بۇرۇن تۆۋەندىكىلەرنى جەزملەشتۈرۈڭ:
+
+  -- بارلىق دەسلەپكى تەڭشەكلەر تاماملانغان (كالىبرلاش، گەۋدە تەڭشىكى، موتور سىنىقى)
+  -- باتارېيە بېسىمىنى كۆزىتىش تەڭشەلگەن ۋە ئىشلەۋاتقان
+
+ئەسكەرتىش: INS_GYRO_FILTER نى 20 دىن باشقا قىممەتكە تەڭشەش ئىختىيارىي بولۇپ، بەلكىم كىچىك گەۋدە/پىرقىرىغۇچلارغىلا ماس كېلىدۇ. دەسلەپتە 20 پېتى قالدۇرسىڭىز بولىدۇ</value></data>
+</root>

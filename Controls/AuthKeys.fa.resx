@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="FName.HeaderText" xml:space="preserve"><value>نام نمایشی</value></data>
+  <data name="Use.HeaderText" xml:space="preserve"><value>استفاده</value></data>
+  <data name="Key.HeaderText" xml:space="preserve"><value>کلید</value></data>
+  <data name="but_save.Text" xml:space="preserve"><value>ذخیره</value></data>
+  <data name="but_add.Text" xml:space="preserve"><value>افزودن</value></data>
+  <data name="but_disablesigning.Text" xml:space="preserve"><value>غیرفعال کردن امضا</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>کلیدهای احراز هویت</value></data>
+</root>

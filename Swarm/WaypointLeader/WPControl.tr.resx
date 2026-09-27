@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>Nasil kullanlir:
-1. Tum Dronlari Baglayın (Sag Ust Icon "Baglanti Secenekleri")
-2. Dogru araci secin ve "Veritabani Sihirbazi Yukle" butonuna tiklayin.
-3. Dogru araci secin ve "Air Master'i Yukle" dugmesine tiklayin
-4. ana drone'a giden yolu yükleyin.
-5. Secenekleri ve olasi secenekleri ayarla
-6. Dronlarin GPS kilidi almasina izin verin ve kalibre edin. (Bunu yapmamak, ön kontroller yapamayacağı anlamına gelir, bu sorunsuz bir çalışma sağlamak için kontrol edilebilir)
-7. Hazir ve ucus yolunda beklediginden emin olun
-8. Baslat Bas</value>
+    <value>Kullanımı:
+1. Liderler dâhil tüm İHA'ları bağlayın (üst simge çubuğuna sağ tıklayın, "Bağlantı seçenekleri").
+2. Doğru aracı seçip yer lideri olarak ayarlayın.
+3. Doğru aracı seçip hava lideri olarak ayarlayın.
+4. Güzergâhı hava lideri İHA'ya yükleyin.
+5. Ayrılma mesafesi ve önden gitme seçeneklerini ayarlayın.
+6. Tüm İHA'ların GPS kilidi almasını bekleyin ve kalibrasyonlarını yapın. (Aksi halde arm öncesi kontroller başarısız olabilir. Sorunsuz çalışma için bunu önceden test edebilirsiniz.)
+7. Yer liderinin uçuş güzergâhında hazır beklediğinden emin olun.
+8. Başlat'a tıklayın.</value>
   </data>
 </root>

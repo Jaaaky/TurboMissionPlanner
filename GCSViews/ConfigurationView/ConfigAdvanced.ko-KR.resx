@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -595,7 +595,7 @@
     <value>98</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>위도/경도 정보를 bin 또는 tlog 형식으로 내보냅니다.</value>
+    <value>bin 또는 tlog의 위도/경도 익명화</value>
   </data>
   <data name="&gt;&gt;label11.Name" xml:space="preserve">
     <value>label11</value>
@@ -628,7 +628,7 @@
     <value>105</value>
   </data>
   <data name="BUT_follow_me.Text" xml:space="preserve">
-    <value>Follow Me</value>
+    <value>나를 따라오기</value>
   </data>
   <data name="&gt;&gt;BUT_follow_me.Name" xml:space="preserve">
     <value>BUT_follow_me</value>
@@ -793,7 +793,7 @@
     <value>109</value>
   </data>
   <data name="BUT_movingbase.Text" xml:space="preserve">
-    <value>기준점 이동</value>
+    <value>이동 기준국</value>
   </data>
   <data name="&gt;&gt;BUT_movingbase.Name" xml:space="preserve">
     <value>BUT_movingbase</value>
@@ -912,4 +912,8 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.MyUserControl, MissionPlanner.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="label14.Text" xml:space="preserve"><value>지원 엔지니어와 연결 공유</value></data>
+  <data name="BUT_supportproxy.Text" xml:space="preserve"><value>지원 프록시</value></data>
+  <data name="BUT_spect.Text" xml:space="preserve"><value>스펙트로그램</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>로그 데이터 기반 고속 푸리에 변환 차트를 그립니다.</value></data>
 </root>

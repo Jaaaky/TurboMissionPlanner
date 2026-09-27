@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>ファイル</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>内部</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>英語</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>他の言語</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>保存</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>使い方：
+初回は下部で言語を選択し、編集して「保存」をクリックしてください。
+
+次回以降は言語を選択すると、既存の翻訳が自動的に読み込まれます。
+
+途中までの翻訳を読み込む場合は「翻訳を読込」をクリックしてください。
+
+注意：自動読込はMichaelが翻訳をPlannerに追加した後にのみ機能します。それ以外の場合は「翻訳を読込」を使用してください。
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>翻訳を読込</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>クリップボードにコピー</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>言語エディター</value></data>
+</root>

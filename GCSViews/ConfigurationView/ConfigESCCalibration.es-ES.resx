@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Calibración de ESC (AC3.3+)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>¡Retire las hélices!
+Después de pulsar este botón:
+-Desconecte el USB y la batería
+-Conecte la batería
+-Cuando parpadeen los LED, pulse el interruptor de seguridad (si existe)
+-Los ESC deberían emitir pitidos al calibrarse
+-Reinicie la controladora de vuelo con normalidad</value></data>
+  <data name="buttonStart.Text" xml:space="preserve"><value>Calibrar ESC</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Tipo de ESC:</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>PWM mínimo de salida</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>PWM máximo de salida</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Giro al armar</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Giro mínimo</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Giro máximo</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Déjelo en 0 para usar el rango de entrada del receptor</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Déjelo en 0 para usar el rango de entrada del receptor</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Velocidad con los motores armados y el acelerador a cero (ralentí)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Velocidad mínima de los motores en vuelo (ligeramente superior a «Giro al armar»)</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Velocidad máxima de los motores en vuelo (casi todos los ESC tienen una zona muerta en el extremo superior)</value></data>
+</root>

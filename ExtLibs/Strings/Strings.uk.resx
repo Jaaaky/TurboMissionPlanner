@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BadCoords" xml:space="preserve">
-    <value>Невірні Широта/Довгота</value>
+    <value>Некоректна широта/довгота</value>
   </data>
   <data name="CannotGraphField" xml:space="preserve">
-    <value>Неможливо створити графік цього поля</value>
+    <value>Неможливо побудувати графік цього поля</value>
   </data>
   <data name="CommandFailed" xml:space="preserve">
     <value>Не вдалося виконати команду
@@ -131,96 +131,96 @@
     <value>Помилка</value>
   </data>
   <data name="ErrorClosingLogFile" xml:space="preserve">
-    <value>Помилка при закритті лог-файлів</value>
+    <value>Помилка закриття файлів журналів</value>
   </data>
   <data name="ErrorCommunicating" xml:space="preserve">
-    <value>Помилка зв'язку з автопілотом</value>
+    <value>Помилка зв’язку з автопілотом</value>
   </data>
   <data name="ErrorConnecting" xml:space="preserve">
-    <value>Помилка під'єднання
+    <value>Помилка під’єднання
 </value>
   </data>
   <data name="ErrorFeatureNotEnabled" xml:space="preserve">
-    <value>Ця функція не активована у вашій прошивці.</value>
+    <value>Цю функцію не ввімкнено у вашій прошивці.</value>
   </data>
   <data name="ErrorFirmwareFile" xml:space="preserve">
-    <value>Помилка при завантаженні файлу прошивки</value>
+    <value>Помилка завантаження файлу прошивки</value>
   </data>
   <data name="ErrorLogList" xml:space="preserve">
-    <value>Помилка при отриманні списку лог-файлів</value>
+    <value>Помилка отримання списку журналів</value>
   </data>
   <data name="ErrorNoResponse" xml:space="preserve">
-    <value>Помилка: М-БпЛА не відповідає</value>
+    <value>Помилка: апарат не відповідає</value>
   </data>
   <data name="ErrorNotConnected" xml:space="preserve">
-    <value>Ви не під'єднані.</value>
+    <value>Немає з’єднання.</value>
   </data>
   <data name="ErrorReceivingParams" xml:space="preserve">
-    <value>Помилка при отриманні списку
+    <value>Помилка отримання списку
 </value>
   </data>
   <data name="ErrorRejectedByMAV" xml:space="preserve">
-    <value>Помилка: М-БпЛА відхилив команду</value>
+    <value>Помилка: апарат відхилив команду</value>
   </data>
   <data name="ErrorRenameFile" xml:space="preserve">
     <value>Помилка перейменування файлу</value>
   </data>
   <data name="ErrorSettingParameter" xml:space="preserve">
-    <value>Помилка при встановленні параметру </value>
+    <value>Помилка встановлення параметра </value>
   </data>
   <data name="ErrorSetValueFailed" xml:space="preserve">
     <value>Не вдалося встановити {0}</value>
   </data>
   <data name="InvalidAlt" xml:space="preserve">
-    <value>Невірна висота</value>
+    <value>Некоректна висота</value>
   </data>
   <data name="InvalidBaudRate" xml:space="preserve">
-    <value>Невірна швидкість передачі даних</value>
+    <value>Некоректна швидкість обміну</value>
   </data>
   <data name="InvalidField" xml:space="preserve">
-    <value>Невірне Поле</value>
+    <value>Некоректне поле</value>
   </data>
   <data name="InvalidFileName" xml:space="preserve">
-    <value>Невірна назва файлу</value>
+    <value>Некоректна назва файлу</value>
   </data>
   <data name="InvalidNumberEntered" xml:space="preserve">
-    <value>Невірне введене число
+    <value>Введено некоректне число
 </value>
   </data>
   <data name="InvalidPanRange" xml:space="preserve">
-    <value>Невірний діапазон Панорамування</value>
+    <value>Некоректний діапазон повороту</value>
   </data>
   <data name="InvalidPortName" xml:space="preserve">
-    <value>Невірна назва порта</value>
+    <value>Некоректна назва порту</value>
   </data>
   <data name="InvalidTiltRange" xml:space="preserve">
-    <value>Невірний діапазон Нахилу</value>
+    <value>Некоректний діапазон нахилу</value>
   </data>
   <data name="InvalidUpdateRate" xml:space="preserve">
-    <value>Невірна частота оновлень</value>
+    <value>Некоректна частота оновлення</value>
   </data>
   <data name="NoFMTMessage" xml:space="preserve">
-    <value>Немає FMT-повідомлення для </value>
+    <value>Немає повідомлення FMT для </value>
   </data>
   <data name="PleaseConnect" xml:space="preserve">
-    <value>Спочатку під'єднайтесь, будь ласка</value>
+    <value>Спочатку під’єднайтеся</value>
   </data>
   <data name="PleaseLoadValidFile" xml:space="preserve">
-    <value>Завантажте дійсний файл, будь ласка</value>
+    <value>Завантажте коректний файл</value>
   </data>
   <data name="PleaseSelectCell" xml:space="preserve">
-    <value>Спочатку оберіть клітинку, будь ласка</value>
+    <value>Спочатку виберіть клітинку</value>
   </data>
   <data name="SelectComport" xml:space="preserve">
-    <value>Оберіть COM-порт, будь ласка</value>
+    <value>Виберіть COM-порт</value>
   </data>
   <data name="WarningLogBrowseFMTMissing" xml:space="preserve">
-    <value>Перегляд журналу не може працювати належним чином без FMT-повідомлень у
-вашому журналі. Здається, що вони відсутні у вашому журналі.</value>
+    <value>Перегляд журналу не працюватиме належним чином без повідомлень FMT.
+Схоже, у вашому журналі їх немає.</value>
   </data>
   <data name="WarningUpdateParamList" xml:space="preserve">
-    <value>Оновити Параметри
-НЕ РОБІТЬ ЦЬОГО У ПОВІТРІ
+    <value>Оновлення параметрів
+НЕ РОБІТЬ ЦЬОГО В ПОЛЬОТІ
 </value>
   </data>
   <data name="Checking" xml:space="preserve">
@@ -239,7 +239,7 @@
     <value>Розширені параметри</value>
   </data>
   <data name="BasicTuning" xml:space="preserve">
-    <value>Базове Налаштування</value>
+    <value>Базове налаштування</value>
   </data>
   <data name="Desc" xml:space="preserve">
     <value>Опис: </value>
@@ -251,13 +251,13 @@
     <value>Режими польоту</value>
   </data>
   <data name="FullParameterList" xml:space="preserve">
-    <value>Список параметрів</value>
+    <value>Повний список параметрів</value>
   </data>
   <data name="FullParameterTree" xml:space="preserve">
-    <value>Дерево параметрів</value>
+    <value>Повне дерево параметрів</value>
   </data>
   <data name="GeoFence" xml:space="preserve">
-    <value>Геозона</value>
+    <value>Геоогорожа</value>
   </data>
   <data name="StandardParams" xml:space="preserve">
     <value>Стандартні параметри</value>
@@ -266,20 +266,19 @@
     <value>Одиниці: {0}{1}</value>
   </data>
   <data name="ProgrammedOK" xml:space="preserve">
-    <value>Програмування успішне</value>
+    <value>Програмування успішно завершено</value>
   </data>
   <data name="CONNECTc" xml:space="preserve">
-    <value>ПІД'ЄДНАТИСЬ</value>
+    <value>ПІД’ЄДНАТИСЯ</value>
   </data>
   <data name="Disconnect" xml:space="preserve">
-    <value>Роз'єднатись</value>
+    <value>Від’єднатися</value>
   </data>
   <data name="DISCONNECTc" xml:space="preserve">
-    <value>РОЗ'ЄДНАТИСЬ</value>
+    <value>ВІД’ЄДНАТИСЯ</value>
   </data>
   <data name="Failclog" xml:space="preserve">
-    <value>Не вдалося створити журнал наземної станції - тому дані
-про цю сесію не будуть записуватись</value>
+    <value>Не вдалося створити журнал наземної станції — цей сеанс не записуватиметься</value>
   </data>
   <data name="NewFirmware" xml:space="preserve">
     <value>Нова прошивка</value>
@@ -290,19 +289,19 @@
   </data>
   <data name="Pleaseup" xml:space="preserve">
     <value>
-Будь ласка, зробіть апгрейд</value>
+Оновіть прошивку</value>
   </data>
   <data name="Stillmoving" xml:space="preserve">
-    <value>Ваш апарат ДОСІ РУХАЄТЬСЯ - ви впевнені, що хочете РОЗ'ЄДНАТИСЬ?</value>
+    <value>Апарат ще рухається. Справді від’єднатися?</value>
   </data>
   <data name="Timeout" xml:space="preserve">
-    <value>Час очікування на автосканер вийшов/Пристрій MAVLink не під'єднаний</value>
+    <value>Час очікування автопошуку вичерпано / пристрій MAVLink не під’єднано</value>
   </data>
   <data name="ConnectFailed" xml:space="preserve">
-    <value>Не вдалося під'єднатись</value>
+    <value>Не вдалося під’єднатися</value>
   </data>
   <data name="ConnectingMavlink" xml:space="preserve">
-    <value>Під'єднується MAVLink</value>
+    <value>Під’єднання MAVLink</value>
   </data>
   <data name="Done" xml:space="preserve">
     <value>Готово</value>
@@ -314,58 +313,58 @@
     <value>Отримання параметрів...</value>
   </data>
   <data name="Gotparam" xml:space="preserve">
-    <value>Отримав параметр </value>
+    <value>Отримано параметр </value>
   </data>
   <data name="MavlinkConnecting" xml:space="preserve">
-    <value>MAVLink під'єднується...</value>
+    <value>Під’єднання MAVLink...</value>
   </data>
   <data name="Only1Hb" xml:space="preserve">
-    <value>Отримано лише 1 серцебиття</value>
+    <value>Отримано лише один пакет Heartbeat</value>
   </data>
   <data name="Only1HbD" xml:space="preserve">
-    <value>Було зчитано лише 1 серцебиття MAVLink з порта. Переконайтеся, що ваше обладнання вірно налаштовано.
-MissionPlanner очікує на дійсних 2 серцебиття перед під'єднанням</value>
+    <value>З цього порту отримано лише один пакет Heartbeat MAVLink. Перевірте налаштування обладнання.
+Перед під’єднанням Mission Planner очікує два коректні пакети Heartbeat.</value>
   </data>
   <data name="Trying" xml:space="preserve">
-    <value>Спроба під'єднатись
-Час очікування {0}</value>
+    <value>Спроба під’єднання.
+Час очікування спливе через {0}</value>
   </data>
   <data name="CantDetectBoardVersion" xml:space="preserve">
-    <value>Не вдається визначити версію Вашої плати. Перевірте кабель.</value>
+    <value>Не вдалося визначити версію плати. Перевірте кабелі.</value>
   </data>
   <data name="CheckPortSettingsOr" xml:space="preserve">
-    <value>Налаштування невірні або порт вже використовується?</value>
+    <value>Перевірте налаштування порту. Можливо, порт зайнятий?</value>
   </data>
   <data name="CommunicationErrorNoConnection" xml:space="preserve">
-    <value>Помилка зв'язку - немає під'єднання</value>
+    <value>Помилка зв’язку — немає з’єднання</value>
   </data>
   <data name="DetectedA" xml:space="preserve">
-    <value>Визначено </value>
+    <value>Виявлено </value>
   </data>
   <data name="DetectingBoardVersion" xml:space="preserve">
     <value>Визначення версії плати</value>
   </data>
   <data name="DownloadingFromInternet" xml:space="preserve">
-    <value>Завантаження з Інтернету</value>
+    <value>Завантаження з інтернету</value>
   </data>
   <data name="EppromChanged" xml:space="preserve">
-    <value>EEPROM змінено. Під час оновлення будуть втрачені усі ваші налаштування.
-Бажаєте продовжити?</value>
+    <value>Формат EEPROM змінився. Під час оновлення всі ваші налаштування буде втрачено.
+Продовжити?</value>
   </data>
   <data name="EppromFormatChanged" xml:space="preserve">
-    <value>Формат EEPROM змінено ({0) проти {1})</value>
+    <value>Формат EEPROM змінився ({0) замість {1})</value>
   </data>
   <data name="FailedDownload" xml:space="preserve">
     <value>Не вдалося завантажити</value>
   </data>
   <data name="FailedReadHEX" xml:space="preserve">
-    <value>Не вдалося зчитати HEX-файл</value>
+    <value>Не вдалося прочитати HEX</value>
   </data>
   <data name="FailedToReadHex" xml:space="preserve">
-    <value>Не вдалося зчитати файл firmware.hex :</value>
+    <value>Не вдалося прочитати firmware.hex :</value>
   </data>
   <data name="FailedUpload" xml:space="preserve">
-    <value>Не вдалося завантажити</value>
+    <value>Не вдалося передати</value>
   </data>
   <data name="GettingFWList" xml:space="preserve">
     <value>Отримання списку прошивок</value>
@@ -374,211 +373,208 @@ MissionPlanner очікує на дійсних 2 серцебиття пере�
     <value>Отримання версії прошивки</value>
   </data>
   <data name="InvalidBoardType" xml:space="preserve">
-    <value>Невірний тип плати</value>
+    <value>Некоректний тип плати</value>
   </data>
   <data name="PleaseConnectAndBackupConfig" xml:space="preserve">
-    <value>Будь ласка, під'єднайтесь та створіть резервну копію конфігурації на вкладці конфігурації.</value>
+    <value>Під’єднайтеся та збережіть резервну копію конфігурації на вкладці налаштування.</value>
   </data>
   <data name="ReadingHexFile" xml:space="preserve">
-    <value>Зчитання HEX-файлу</value>
+    <value>Читання файлу HEX</value>
   </data>
   <data name="ReceivedList" xml:space="preserve">
     <value>Список отримано</value>
   </data>
   <data name="UploadComplete" xml:space="preserve">
-    <value>Завантаження завершено</value>
+    <value>Передавання завершено</value>
   </data>
   <data name="UploadingBytesToBoard" xml:space="preserve">
-    <value>Завантаження {0} байт на Плату:</value>
+    <value>Передавання {0} байтів на плату:</value>
   </data>
   <data name="VerifyComplete" xml:space="preserve">
     <value>Перевірку завершено</value>
   </data>
   <data name="VerifyFirmware" xml:space="preserve">
-    <value>Перевірка прошивки</value>
+    <value>Перевірити прошивку</value>
   </data>
   <data name="UploadSucceededButVerifyFailed" xml:space="preserve">
-    <value>Завантаження успішне, але перевірка невдала: очікував {0} отримав {1} у </value>
+    <value>Передавання успішне, але перевірка не вдалася: очікувалося {0}, отримано {1} за адресою </value>
   </data>
   <data name="ReadingHex" xml:space="preserve">
-    <value>Зчитання HEX</value>
+    <value>Читання HEX</value>
   </data>
   <data name="Warningrallypointdistance" xml:space="preserve">
-    <value>ПОПЕРЕДЖЕННЯ! Точки пунктів збору розташовані вище ніж обмеження RALLY_LIMIT_KM</value>
+    <value>Увага: точки збору розташовані далі, ніж RALLY_LIMIT_KM</value>
   </data>
   <data name="Warning" xml:space="preserve">
-    <value>ПОПЕРЕДЖЕННЯ</value>
+    <value>Увага</value>
   </data>
   <data name="WarningAC32" xml:space="preserve">
-    <value>ПОПЕРЕДЖЕННЯ! Якщо ви встановлюєте AC 3.2 вперше, то ви ПОВИННІ повторити калібрування компасу.</value>
+    <value>Увага: якщо ви вперше встановлюєте AC 3.2, ОБОВ’ЯЗКОВО повторіть калібрування компаса.</value>
   </data>
   <data name="WarningAC31" xml:space="preserve">
-    <value>ПОПЕРЕДЖЕННЯ! Починаючи з версії AC 3.1, мотори обертатимуться коли розблоковані. Це можна налаштувати
-через параметр MOT_SPIN_ARMED</value>
+    <value>Увага: починаючи з AC 3.1, двигуни обертаються після озброєння. Це налаштовується параметром MOT_SPIN_ARMED.</value>
   </data>
   <data name="MagCalibMsg" xml:space="preserve">
-    <value>Будь ласка, натисніть OK та перемістіть автопілот круговими рухами навколо всіх осей</value>
+    <value>Натисніть «OK» і обертайте автопілот навколо всіх осей</value>
   </data>
   <data name="MissingDataPoints" xml:space="preserve">
-    <value>Ви не вказали точок даних. Ви все одно хочете запустити калібрацію?</value>
+    <value>Бракує точок даних. Усе одно виконати калібрування?</value>
   </data>
   <data name="RunAnyway" xml:space="preserve">
-    <value>все одно запустити</value>
+    <value>Виконати попри це</value>
   </data>
   <data name="UpdateFound" xml:space="preserve">
-    <value>Знайдено оновленя
+    <value>Знайдено оновлення
 
-Чи хочете оновитись зараз? </value>
+Оновити зараз? </value>
   </data>
   <data name="UpdateNow" xml:space="preserve">
-    <value>Оновитись зараз</value>
+    <value>Оновити зараз</value>
   </data>
   <data name="RawParamWarning" xml:space="preserve">
-    <value>ПОПЕРЕДЖЕННЯ про параметри, які не перевірятимуться</value>
+    <value>Попередження щодо сирих параметрів</value>
   </data>
   <data name="RawParamWarningi" xml:space="preserve">
-    <value>Усі значення на цьому екрані не перевірятимуться на перевищення мін/макс обмежень.
-Тому, будь ласка, двічи перевірте введені дані. Радимо використовувати Стандартні
-чи Розширені параметри для безпечних налаштувань.</value>
+    <value>Значення на цьому екрані не перевіряються на допустимі межі. Ретельно перевірте введені дані.
+Для безпечного налаштування використовуйте стандартні або розширені параметри.</value>
   </data>
   <data name="ShowMeAgain" xml:space="preserve">
-    <value>Показувати ще раз?</value>
+    <value>Показувати знову?</value>
   </data>
   <data name="OK" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="LinkStats" xml:space="preserve">
-    <value>Статистика під'єднання</value>
+    <value>Статистика зв’язку</value>
   </data>
   <data name="Stop" xml:space="preserve">
-    <value>Стоп</value>
+    <value>Зупинити</value>
   </data>
   <data name="Connect" xml:space="preserve">
-    <value>Під'єднатись</value>
+    <value>Під’єднатися</value>
   </data>
   <data name="Start" xml:space="preserve">
-    <value>Старт</value>
+    <value>Почати</value>
   </data>
   <data name="AreYouSureYouWantToUpload" xml:space="preserve">
-    <value>Чи ви впевнені, що хочете завантажити </value>
+    <value>Справді передати </value>
   </data>
   <data name="Beta" xml:space="preserve">
-    <value>Beta</value>
+    <value>Бета</value>
   </data>
   <data name="BetaWarning" xml:space="preserve">
-    <value>Ця прошивка - у Beta-версії, використовуйте на власний ризик!!!</value>
+    <value>Це бета-версії прошивки. Використовуйте на власний ризик!!!</value>
   </data>
   <data name="CanNotConnectToComPortAnd" xml:space="preserve">
-    <value>Не вдається під'єднатись до COM-порта та визначити тип плати</value>
+    <value>Не вдалося під’єднатися до COM-порту та визначити тип плати</value>
   </data>
   <data name="Continue" xml:space="preserve">
     <value>Продовжити</value>
   </data>
   <data name="ErrorUploadingFirmware" xml:space="preserve">
-    <value>Помилка при завантаженні прошивки</value>
+    <value>Помилка передавання прошивки</value>
   </data>
   <data name="QuestionMark" xml:space="preserve">
     <value>?</value>
   </data>
   <data name="Trunk" xml:space="preserve">
-    <value>trunk</value>
+    <value>Гілка розробки</value>
   </data>
   <data name="TrunkWarning" xml:space="preserve">
-    <value>Це trunk-версія прошивки та може містити найновіший та непротестований код,
-використовуйте на власний ризик!!!</value>
+    <value>Це найновіші прошивки з гілки розробки. Використовуйте на власний ризик!!!</value>
   </data>
   <data name="BadGPSHealth" xml:space="preserve">
-    <value>Неякісні дані GPS</value>
+    <value>Ненадійний сигнал GPS</value>
   </data>
   <data name="BadAirspeed" xml:space="preserve">
-    <value>Несправний сенсор Повітр. швидкості</value>
+    <value>Несправність датчика повітряної швидкості</value>
   </data>
   <data name="BadGyroHealth" xml:space="preserve">
-    <value>Несправний Гіроскоп</value>
+    <value>Несправність гіроскопа</value>
   </data>
   <data name="BadAccelHealth" xml:space="preserve">
-    <value>Несправний Аксел.</value>
+    <value>Несправність акселерометра</value>
   </data>
   <data name="BadCompassHealth" xml:space="preserve">
-    <value>Несправний компас</value>
+    <value>Несправність компаса</value>
   </data>
   <data name="BadBaroHealth" xml:space="preserve">
-    <value>Несправний барометр</value>
+    <value>Несправність барометра</value>
   </data>
   <data name="BadLiDARHealth" xml:space="preserve">
-    <value>Несправний ЛІДАР</value>
+    <value>Несправність лідара</value>
   </data>
   <data name="BadOptFlowHealth" xml:space="preserve">
-    <value>Несправний Оптичний потік</value>
+    <value>Несправність датчика оптичного потоку</value>
   </data>
   <data name="BadorNoTerrainData" xml:space="preserve">
-    <value>Дані про ландшафт недійсні або їх немає</value>
+    <value>Дані рельєфу відсутні або некоректні</value>
   </data>
   <data name="GeofenceBreach" xml:space="preserve">
-    <value>Порушення Геозони</value>
+    <value>Порушення геоогорожі</value>
   </data>
   <data name="BadAHRS" xml:space="preserve">
-    <value>Несправна курсовертикаль</value>
+    <value>Несправність AHRS</value>
   </data>
   <data name="NORCReceiver" xml:space="preserve">
-    <value>НЕМАЄ RC-приймача</value>
+    <value>Немає приймача радіокерування</value>
   </data>
   <data name="AutoWP" xml:space="preserve">
-    <value>Автом.пункт маршр.</value>
+    <value>Автоматичні маршрутні точки</value>
   </data>
   <data name="EnsurePropsNotOn" xml:space="preserve">
-    <value>ПЕРЕКОНАЙТЕСЯ, що на М-БпЛА НЕ встановлені гвинти</value>
+    <value>Переконайтеся, що пропелери знято з літака/квадрокоптера</value>
   </data>
   <data name="FailSafe" xml:space="preserve">
-    <value>Failsafe</value>
+    <value>Аварійний захист</value>
   </data>
   <data name="Error_binding" xml:space="preserve">
-    <value>Помилка прив'язки</value>
+    <value>Помилка прив’язування</value>
   </data>
   <data name="Put_the_transmitter_in_bind_mode__Receiver_is_waiting" xml:space="preserve">
-    <value>Переведіть передавач у режим прив'язки. Приймач чекає.</value>
+    <value>Переведіть передавач у режим прив’язування. Приймач очікує.</value>
   </data>
   <data name="Completed" xml:space="preserve">
     <value>Завершено</value>
   </data>
   <data name="Click_when_Done" xml:space="preserve">
-    <value>Клікніть після Завершення</value>
+    <value>Натисніть після завершення</value>
   </data>
   <data name="Saving" xml:space="preserve">
     <value>Збереження</value>
   </data>
   <data name="InvalidCert" xml:space="preserve">
-    <value>Невірний сертифікат</value>
+    <value>Недійсний сертифікат</value>
   </data>
   <data name="Note" xml:space="preserve">
     <value>Примітка</value>
   </data>
   <data name="PleaseUnplugTheBoardAnd" xml:space="preserve">
-    <value>Будь ласка, фізично від'єднайте плату та натисніть OK, потім
-знов приєднайте її. Програма спробує знайти плату протягом 30 секунд.</value>
+    <value>Від’єднайте плату, натисніть «OK» і під’єднайте її знову.
+Mission Planner шукатиме плату протягом 30 секунд.</value>
   </data>
   <data name="ThisBoardHasBeenRetired" xml:space="preserve">
-    <value>Ця плата була знята з експлуатації. Програма завантажить найновішу версію на вашу плату (AC 3.2.1/AP 3.4.0)</value>
+    <value>Підтримку цієї плати припинено. Mission Planner встановить останню доступну для неї версію (AC 3.2.1/AP 3.4.0).</value>
   </data>
   <data name="YouAreUsingUnsupportedHardware" xml:space="preserve">
     <value>Ви використовуєте непідтримуване обладнання.
-Ця плата не містить дійсного сертифікату автентичності.
-Зв'яжіться зі своїм постачальником з цього питання.</value>
+Ця плата не має дійсного сертифіката автентичності.
+Зверніться до постачальника щодо підписування обладнання.</value>
   </data>
   <data name="NoNeedToUpload" xml:space="preserve">
-    <value>Немає потреби у завантаженні - тому що вже є на платі</value>
+    <value>Передавання не потрібне: цю версію вже встановлено на платі</value>
   </data>
   <data name="PleaseWaitForTheMusicalTones" xml:space="preserve">
-    <value>Перш ніж натискати OK, спочатку дочекайтеся доки музична мелодія не закінчиться</value>
+    <value>Дочекайтеся завершення звукових сигналів, перш ніж натиснути «OK»</value>
   </data>
   <data name="ObtainFromModule" xml:space="preserve">
-    <value>Завантажити з модуля</value>
+    <value>Отримати з модуля</value>
   </data>
   <data name="SetHere" xml:space="preserve">
-    <value>Вказати тут</value>
+    <value>Установити тут</value>
   </data>
   <data name="TrackerHome" xml:space="preserve">
-    <value>Tracker Home</value>
+    <value>Домашня точка трекера</value>
   </data>
   <data name="velocity_variance" xml:space="preserve">
     <value>дисперсія швидкості</value>
@@ -587,71 +583,71 @@ MissionPlanner очікує на дійсних 2 серцебиття пере�
     <value>дисперсія компаса</value>
   </data>
   <data name="pos_horiz_variance" xml:space="preserve">
-    <value>дисперсія по горизонталі</value>
+    <value>дисперсія горизонтального положення</value>
   </data>
   <data name="pos_vert_variance" xml:space="preserve">
-    <value>дисперсія по вертикалі</value>
+    <value>дисперсія вертикального положення</value>
   </data>
   <data name="terrain_alt_variance" xml:space="preserve">
-    <value>дисперсія висот ландшафту</value>
+    <value>дисперсія висоти рельєфу</value>
   </data>
   <data name="ChangeThrottle" xml:space="preserve">
     <value>Змінити газ</value>
   </data>
   <data name="Invalid_home_location" xml:space="preserve">
-    <value>Невірне місце для дом.точки</value>
+    <value>Некоректна домашня точка</value>
   </data>
   <data name="Converting_bin_to_log" xml:space="preserve">
-    <value>Перетворення даних у журнал</value>
+    <value>Перетворення bin на log</value>
   </data>
   <data name="UpdateNotFound" xml:space="preserve">
-    <value>Немає доступного оновлення.</value>
+    <value>Оновлень немає.</value>
   </data>
   <data name="Failed_to_connect_to_SITL_instance" xml:space="preserve">
-    <value>Не вдалося під'єднатись до екземпляру SITL</value>
+    <value>Не вдалося під’єднатися до екземпляра SITL</value>
   </data>
   <data name="Scanning_File" xml:space="preserve">
     <value>Сканування файлу</value>
   </data>
   <data name="Zoom_to_the_center_or_the_loaded_file" xml:space="preserve">
-    <value>Збільшити центр чи завантажений файл?</value>
+    <value>Масштабувати до центра чи до завантаженого файлу?</value>
   </data>
   <data name="Zoom_To" xml:space="preserve">
-    <value>Збільшити точку</value>
+    <value>Масштабувати до</value>
   </data>
   <data name="Do_you_want_to_load_this_into_the_flight_data_screen" xml:space="preserve">
-    <value>Бажаєте завантажити це на екран даних польоту?</value>
+    <value>Завантажити це на екран польотних даних?</value>
   </data>
   <data name="Load_data" xml:space="preserve">
     <value>Завантажити дані</value>
   </data>
   <data name="Bad_KML_File" xml:space="preserve">
-    <value>Невірний KML-файл :</value>
+    <value>Некоректний файл KML :</value>
   </data>
   <data name="No_valid_heartbeats_read_from_port" xml:space="preserve">
-    <value>З порта не було зчитано жодного дійсного серцебиття</value>
+    <value>З порту не отримано коректних пакетів Heartbeat</value>
   </data>
   <data name="Bad_Vision_Position" xml:space="preserve">
-    <value>Невірне положення для візуального позиціювання</value>
+    <value>Помилка візуального позиціювання</value>
   </data>
   <data name="BadLogging" xml:space="preserve">
-    <value>Журнал записів невірний</value>
+    <value>Помилка журналювання</value>
   </data>
   <data name="ParamRefreshRequired" xml:space="preserve">
-    <value>"Потребується оновлення параметру - натисніть F5.
-було #{0}  стало #{1}"</value>
+    <value>Потрібно оновити параметри — натисніть F5
+попередня кількість: {0}, нова: {1}</value>
   </data>
   <data name="Failed_to_download_the_SITL_image" xml:space="preserve">
     <value>Не вдалося завантажити образ SITL.</value>
   </data>
   <data name="Not_available_when_used_as_a_windows_store_app" xml:space="preserve">
-    <value>Недоступно коли використовується як Windows Store додаток</value>
+    <value>Недоступно у версії з Windows Store</value>
   </data>
   <data name="No_firmware_available_for_this_board" xml:space="preserve">
     <value>Для цієї плати немає прошивки!</value>
   </data>
   <data name="OnboardOSD" xml:space="preserve">
-    <value>Екранний дисплей</value>
+    <value>Бортове OSD</value>
   </data>
   <data name="User_Params" xml:space="preserve">
     <value>Параметри користувача</value>
@@ -663,34 +659,38 @@ MissionPlanner очікує на дійсних 2 серцебиття пере�
     <value>Скасувати</value>
   </data>
   <data name="No_valid_sik_radio" xml:space="preserve">
-    <value>Немає дійсної SiK-радіостанції</value>
+    <value>Не знайдено придатного радіомодема SiK</value>
   </data>
   <data name="MAVFtp" xml:space="preserve">
     <value>MAVFtp</value>
   </data>
   <data name="Bad_Battery" xml:space="preserve">
-    <value>Несправна батарея</value>
+    <value>Несправність акумулятора</value>
   </data>
   <data name="Bad_Proximity" xml:space="preserve">
-    <value>Невірне значення близькості</value>
+    <value>Несправність датчика наближення</value>
   </data>
   <data name="Bad_SatCom" xml:space="preserve">
-    <value>Несправний зв'язок зі супутником</value>
+    <value>Несправність супутникового зв’язку</value>
   </data>
   <data name="Prearm_check_failed" xml:space="preserve">
-    <value>Попередня перевірка безпеки при розблокуванні НЕВДАЛА
-- перегляньте повідомлення</value>
+    <value>Перевірку перед озброєнням не пройдено — перегляньте повідомлення</value>
   </data>
   <data name="Invalid_Location" xml:space="preserve">
-    <value>Невірне значення місцезнаходження</value>
+    <value>Некоректне розташування</value>
   </data>
   <data name="Loading" xml:space="preserve">
     <value>Завантаження</value>
   </data>
   <data name="ZeroAltWarningCopter" xml:space="preserve">
-    <value>WP# {0} має нульову висоту, це означає відсутність змін висоти! Якщо вам потрібна нульова висота, змініть її на 0,01 м. Продовжити чи скасувати завантаження wp?</value>
+    <value>Маршрутна точка № {0} має нульову висоту, що означає збереження поточної висоти! Якщо потрібна саме нульова висота, задайте 0.01. Продовжити чи скасувати передавання точок?</value>
   </data>
   <data name="ZeroAltWarningTitle" xml:space="preserve">
     <value>Попередження про нульову висоту</value>
   </data>
+  <data name="ZeroAltWarningPlane" xml:space="preserve"><value>Маршрутна точка № {0} має нульову висоту. Якщо потрібна саме нульова висота, задайте 0.01 для передбачуваної поведінки.
+
+В ArduPlane нульова висота може означати як фактичну нульову висоту, так і збереження поточної. Команди WAYPOINT зазвичай використовують фактичний нуль, а команди LOITER — поточну висоту, але лише за відносної системи відліку висоти. Можливі й інші винятки, а в майбутніх версіях поведінка може змінитися.
+
+УСТАНОВЛЮЙТЕ НУЛЬ ЛИШЕ ЯКЩО ТОЧНО РОЗУМІЄТЕ ПОВЕДІНКУ У ВАШОМУ ВИПАДКУ (перевірте в симуляторі).[link;https://ardupilot.org/plane/docs/common-mavlink-mission-command-messages-mav_cmd.html;Документація команд]</value></data>
 </root>

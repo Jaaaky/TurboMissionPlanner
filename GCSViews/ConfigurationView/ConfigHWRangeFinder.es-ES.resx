@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -223,7 +223,7 @@
     <value>Max</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Modo de Vuelo 2</value>
+    <value>Distancia: </value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>Alabeo Max</value>
@@ -238,7 +238,7 @@
     <value>por ejemplo, en grados 2 ° 3 'W es -2,3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Modo de Vuelo 1</value>
+    <value>Telémetro</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Nivel tu quad para establecer las compensaciones por defecto acel</value>
@@ -268,7 +268,7 @@
     <value>1500</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Modo de Vuelo 4</value>
+    <value>Tensión: </value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Modo de Vuelo 5</value>
@@ -312,4 +312,8 @@
   <data name="label30.Text" xml:space="preserve">
     <value>Monitor</value>
   </data>
+  <data name="CMB_sonartype.Items" xml:space="preserve"><value>XL-EZ0 / XL-EZ4</value></data>
+  <data name="CMB_sonartype.Items1" xml:space="preserve"><value>LV-EZ0</value></data>
+  <data name="CMB_sonartype.Items2" xml:space="preserve"><value>XL-EZL0</value></data>
+  <data name="CMB_sonartype.Items3" xml:space="preserve"><value>HRLV</value></data>
 </root>

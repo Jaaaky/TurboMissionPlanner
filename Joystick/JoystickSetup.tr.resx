@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,7 +130,7 @@
     <value>Kanal 6</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Icin yuklenen yapılandirma </value>
+    <value>Yapılandırması yüklenen:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Cubuk Kontrolu</value>
@@ -139,10 +139,10 @@
     <value>Gaz</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Denetleyici</value>
+    <value>Kontrolcü ekseni</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Ters</value>
+    <value>Ters çevir</value>
   </data>
   <data name="BUT_save.Text" xml:space="preserve">
     <value>Kaydet</value>
@@ -172,13 +172,19 @@
     <value>Otomatik bulma</value>
   </data>
   <data name="BUT_enable.Text" xml:space="preserve">
-    <value>Aktivasyon</value>
+    <value>Etkinleştir</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Dumen</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Cikti</value>
+    <value>Çıkış</value>
   </data>
 
+  <data name="label5.Text" xml:space="preserve"><value>Oyun çubuğu</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Expo</value></data>
+  <data name="CHK_elevons.Text" xml:space="preserve"><value>Elevonlar</value></data>
+  <data name="chk_manualcontrol.Text" xml:space="preserve"><value>Manuel kontrol</value></data>
+  <data name="but_export.Text" xml:space="preserve"><value>Dışa aktar</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>İçe aktar</value></data>
 </root>

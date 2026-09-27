@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="linkLabelmagdec.Text" xml:space="preserve"><value>وب‌سایت میل مغناطیسی</value></data>
+  <data name="CHK_autodec.Text" xml:space="preserve"><value>دریافت خودکار میل مغناطیسی</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>قطب‌نما</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>نمونه در YouTube</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>انتخاب دستگاه برای پیکربندی سریع پارامترها:</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>درجه</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>دقیقه</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>کاهش سخت‌گیری برازش در صورت شکست کالیبراسیون</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>برازش</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>مغناطیس‌سنج ۳</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>مغناطیس‌سنج ۲</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>مغناطیس‌سنج ۱</value></data>
+  <data name="BUT_OBmagcalaccept.Text" xml:space="preserve"><value>پذیرش</value></data>
+  <data name="BUT_OBmagcalcancel.Text" xml:space="preserve"><value>لغو</value></data>
+  <data name="BUT_OBmagcalstart.Text" xml:space="preserve"><value>شروع</value></data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve"><value>کالیبراسیون مغناطیس‌سنج روی برد</value></data>
+  <data name="BUT_MagCalibrationLive.Text" xml:space="preserve"><value>کالیبراسیون زنده</value></data>
+  <data name="groupBoxmpcalib.Text" xml:space="preserve"><value>کالیبراسیون مغناطیس‌سنج با Mission Planner</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>یا</value></data>
+  <data name="LBL_primary_compass.Text" xml:space="preserve"><value>قطب‌نمای اصلی:</value></data>
+  <data name="CHK_compass_learn.Text" xml:space="preserve"><value>یادگیری خودکار آفست‌ها</value></data>
+  <data name="groupBoxGeneralSettings.Text" xml:space="preserve"><value>تنظیمات عمومی قطب‌نما</value></data>
+  <data name="LBL_compass1_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass1_offset.Text" xml:space="preserve"><value>آفست</value></data>
+  <data name="CHK_compass1_external.Text" xml:space="preserve"><value>نصب خارجی</value></data>
+  <data name="CHK_compass1_use.Text" xml:space="preserve"><value>استفاده از این قطب‌نما</value></data>
+  <data name="groupBoxCompass1.Text" xml:space="preserve"><value>قطب‌نمای شمارهٔ ۱</value></data>
+  <data name="LBL_compass2_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass2_offset.Text" xml:space="preserve"><value>آفست</value></data>
+  <data name="CHK_compass2_external.Text" xml:space="preserve"><value>نصب خارجی</value></data>
+  <data name="CHK_compass2_use.Text" xml:space="preserve"><value>استفاده از این قطب‌نما</value></data>
+  <data name="groupBoxCompass2.Text" xml:space="preserve"><value>قطب‌نمای شمارهٔ ۲</value></data>
+  <data name="LBL_compass3_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass3_offset.Text" xml:space="preserve"><value>آفست</value></data>
+  <data name="CHK_compass3_external.Text" xml:space="preserve"><value>نصب خارجی</value></data>
+  <data name="CHK_compass3_use.Text" xml:space="preserve"><value>استفاده از این قطب‌نما</value></data>
+  <data name="groupBoxCompass3.Text" xml:space="preserve"><value>قطب‌نمای شمارهٔ ۳</value></data>
+  <data name="buttonAPMExternal.Text" xml:space="preserve"><value>APM و قطب‌نمای خارجی</value></data>
+  <data name="QuickAPM25.Text" xml:space="preserve"><value>APM2.5 (قطب‌نمای داخلی)</value></data>
+  <data name="buttonQuickPixhawk.Text" xml:space="preserve"><value>Pixhawk/PX4</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>کالیبراسیون مغناطیس‌سنج پرندهٔ بزرگ</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -129,7 +129,7 @@
     <value>0</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>오토파일럿을 동작하기 전 설정해야 할 페이지입니다. 설정 항목 모두가 동작하게 하십시오.</value>
+    <value>오토파일럿을 사용하기 전에 다음 페이지의 설정을 모두 완료하십시오.</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>

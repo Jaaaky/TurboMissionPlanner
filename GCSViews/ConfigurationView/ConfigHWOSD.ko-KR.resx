@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -214,7 +214,7 @@
     <value>79</value>
   </data>
   <data name="BUT_osdrates.Text" xml:space="preserve">
-    <value>원격 측정 활성</value>
+    <value>텔레메트리 활성화</value>
   </data>
   <data name="&gt;&gt;BUT_osdrates.Name" xml:space="preserve">
     <value>BUT_osdrates</value>

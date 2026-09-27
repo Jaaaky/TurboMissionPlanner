@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,91 +118,104 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="chk_m8p_130p.ToolTip" xml:space="preserve">
-    <value>Ublox firmware 1.30 veya üzeri bir temel ve mobil sürümünüz varsa, bu kutuyu işaretleyin</value>
+    <value>Baz ve gezici alıcınızın ikisinde de u-blox 1.30 veya üzeri donanım yazılımı varsa bu kutuyu işaretleyin</value>
   </data>
   <data name="txt_surveyinAcc.ToolTip" xml:space="preserve">
-    <value>tetikleyici böyle hassas olmalı</value>
+    <value>Konum belirleme doğruluk eşiği. Bu değerin altına inilmelidir.</value>
   </data>
   <data name="BaseName1.HeaderText" xml:space="preserve">
-    <value>Adi</value>
+    <value>Ad</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Röportaj Giriş</value>
+    <value>Konum belirleme ölçümü</value>
   </data>
   <data name="Use.HeaderText" xml:space="preserve">
-    <value>Kullanma</value>
+    <value>Kullan</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Glonass</value>
+    <value>GLONASS</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Taban</value>
+    <value>Baz</value>
   </data>
   <data name="chk_rtcmmsg.ToolTip" xml:space="preserve">
-    <value>Yeni mesaj otomatik olarak veriyi işlediğinden, eğer mümkünse, açık kalsın, otopilotunuzdaki bellenimin sürümüne bağlıdır.</value>
+    <value>Bu, otopilotunuzdaki donanım yazılımının sürümüne bağlıdır. Yeni mesaj veri bozulmalarını çok daha iyi yönettiği için mümkünse etkin bırakın.</value>
   </data>
   <data name="but_restartsvin.ToolTip" xml:space="preserve">
-    <value>Kullanılan geçerli konumunu bir baz istasyonu olarak kaydet</value>
+    <value>Mevcut baz istasyonu konumunu ölçüldüğü haliyle kaydetmek için kullanılır</value>
   </data>
   <data name="label1.ToolTip" xml:space="preserve">
-    <value>Anketi tamamlamak için hem doğruluk hem de süreyi karşılamalıdır. yani doğruluk 2 m'den az ve 60 saniyeden fazla gözlem</value>
+    <value>Konum belirleme ölçümünün tamamlanması için hem doğruluk hem süre koşulu sağlanmalıdır.
+Örneğin doğruluk 2 m'den iyi, gözlem süresi ise 60 saniyeden uzun olmalıdır.</value>
   </data>
   <data name="label9.ToolTip" xml:space="preserve">
-    <value>Bilgilere genel bakış. Gerçekten: bu gerçek bir anket. InProgress: Şu anda pozisyonlarımızı tutuyor muyuz? Süre: Girişi sorguladığımız saniye sayısı. Obs: giriş anketimizde kullanılan anket sayısı. Acc: Anketimizin şu andaki doğruluğu.</value>
+    <value>Konum belirleme ölçümü bilgileri
+Valid: Ölçüm geçerli mi
+InProgress: Konum ölçümü sürüyor mu
+Duration: Ölçümün sürdüğü saniye sayısı
+Obs: Ölçümde kullanılan gözlem sayısı
+Acc: Ölçülen noktanın mevcut doğruluğu
+</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Zaman(с)</value>
+    <value>Süre (sn)</value>
   </data>
   <data name="chk_m8pautoconfig.Text" xml:space="preserve">
     <value>M8P otomatik ayar</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Giriş Hızı</value>
+    <value>Giriş veri hızı</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Alınan Mesajlar</value>
+    <value>Görülen mesajlar</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>giriş anketi</value>
+    <value>Konum belirleme ölçümü</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Veri aktarım hızı</value>
+    <value>Çıkış veri hızı</value>
   </data>
   <data name="chk_m8pautoconfig.ToolTip" xml:space="preserve">
     <value>Ublox m8p yapılandırmasını otomatik olarak yapılandır</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>RTCM tabanı</value>
+    <value>RTCM baz istasyonu </value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Bağlantı durumu</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>giriş anketi</value>
+    <value>Konum belirleme ölçümü</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>giriş anketi</value>
+    <value>Konum belirleme ölçümü</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>giriş anketi</value>
+    <value>Konum belirleme ölçümü</value>
   </data>
   <data name="lbl_svin.Text" xml:space="preserve">
-    <value>giriş anketi</value>
+    <value>Konum belirleme ölçümü</value>
   </data>
   <data name="chk_rtcmmsg.Text" xml:space="preserve">
-    <value>MSG Giriş Türü</value>
+    <value>İletilecek mesaj tipi</value>
   </data>
   <data name="but_save_basepos.ToolTip" xml:space="preserve">
-    <value>Temel istasyonun mevcut konumunu bir anket olarak saklamak için kullanılır</value>
+    <value>Mevcut baz istasyonu konumunu ölçüldüğü haliyle kaydetmek için kullanılır</value>
   </data>
   <data name="label7.ToolTip" xml:space="preserve">
-    <value>Bilgilere genel bakış. Gerçekten: bu gerçek bir anket. InProgress: Şu anda pozisyonlarımızı tutuyor muyuz? Süre: Girişi sorguladığımız saniye sayısı. Obs: giriş anketimizde kullanılan anket sayısı. Acc: Anketimizin şu andaki doğruluğu.</value>
+    <value>Konum belirleme ölçümü bilgileri
+Valid: Ölçüm geçerli mi
+InProgress: Konum ölçümü sürüyor mu
+Duration: Ölçümün sürdüğü saniye sayısı
+Obs: Ölçümde kullanılan gözlem sayısı
+Acc: Ölçülen noktanın mevcut doğruluğu
+</value>
   </data>
   <data name="but_restartsvin.Text" xml:space="preserve">
-    <value>yeniden başlatma</value>
+    <value>Yeniden başlat</value>
   </data>
   <data name="BUT_connect.Text" xml:space="preserve">
-    <value>Baglan</value>
+    <value>Bağlan</value>
   </data>
   <data name="but_save_basepos.Text" xml:space="preserve">
     <value>Mevcut konumu kaydet</value>
@@ -211,18 +224,89 @@
     <value>Sil</value>
   </data>
   <data name="txt_surveyinDur.ToolTip" xml:space="preserve">
-    <value>Asgari zamanda denetim. Bu numaradan daha büyük olmalı</value>
+    <value>Minimum konum belirleme süresi. Bu sayıdan büyük olmalıdır.</value>
   </data>
   <data name="lbl_svin.ToolTip" xml:space="preserve">
-    <value>Bilgilere genel bakış. Gerçekten: bu gerçek bir anket. InProgress: Şu anda pozisyonlarımızı tutuyor muyuz? Süre: Girişi sorguladığımız saniye sayısı. Obs: giriş anketimizde kullanılan anket sayısı. Acc: Anketimizin şu andaki doğruluğu.</value>
+    <value>Konum belirleme ölçümü bilgileri
+Valid: Ölçüm geçerli mi
+InProgress: Konum ölçümü sürüyor mu
+Duration: Ölçümün sürdüğü saniye sayısı
+Obs: Ölçümde kullanılan gözlem sayısı
+Acc: Ölçülen noktanın mevcut doğruluğu
+</value>
   </data>
   <data name="label10.ToolTip" xml:space="preserve">
-    <value>Bilgilere genel bakış. Gerçekten: bu gerçek bir anket. InProgress: Şu anda pozisyonlarımızı tutuyor muyuz? Süre: Girişi sorguladığımız saniye sayısı. Obs: giriş anketimizde kullanılan anket sayısı. Acc: Anketimizin şu andaki doğruluğu.</value>
+    <value>Konum belirleme ölçümü bilgileri
+Valid: Ölçüm geçerli mi
+InProgress: Konum ölçümü sürüyor mu
+Duration: Ölçümün sürdüğü saniye sayısı
+Obs: Ölçümde kullanılan gözlem sayısı
+Acc: Ölçülen noktanın mevcut doğruluğu
+</value>
   </data>
   <data name="chk_movingbase.Text" xml:space="preserve">
     <value>Перемещение базы</value>
   </data>
   <data name="label8.ToolTip" xml:space="preserve">
-    <value>Bilgilere genel bakış. Gerçekten: bu gerçek bir anket. InProgress: Şu anda pozisyonlarımızı tutuyor muyuz? Süre: Girişi sorguladığımız saniye sayısı. Obs: giriş anketimizde kullanılan anket sayısı. Acc: Anketimizin şu andaki doğruluğu.</value>
+    <value>Konum belirleme ölçümü bilgileri
+Valid: Ölçüm geçerli mi
+InProgress: Konum ölçümü sürüyor mu
+Duration: Ölçümün sürdüğü saniye sayısı
+Obs: Ölçümde kullanılan gözlem sayısı
+Acc: Ölçülen noktanın mevcut doğruluğu
+</value>
   </data>  
+  <data name="lbl_status1.Text" xml:space="preserve"><value>9999 bps</value></data>
+  <data name="chk_autoconfig.Text" xml:space="preserve"><value>Alıcıyı otomatik yapılandır</value></data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve"><value>Seçilen porta bağlı alıcıyı düzeltme mesajları üretecek şekilde otomatik yapılandır.</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>Bağlantı kurulduğunda alıcı, hassas GPS konumunu belirlemek için bir konum belirleme ölçümü başlatır.
+RTCM baz konumu artık değişmediğinde ölçüm tamamlanır.
+Konuma ve sinyale bağlı olarak birkaç dakika sürebilir.
+
+Ölçüm tamamlandığında kullanıma hazırsınız.
+</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>RTCM uydu sistemi kullanımı</value></data>
+  <data name="label21.ToolTip" xml:space="preserve"><value>Alıcının hangi uydu sistemleri için düzeltme üreteceğini seçin. Daha fazla sistem, daha yüksek veri hızına yol açar.</value></data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve"><value>Galileo RTCM mesaj çıkışını aç/kapat.</value></data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve"><value>BeiDou RTCM mesaj çıkışını aç/kapat.</value></data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve"><value>GLONASS RTCM mesaj çıkışını aç/kapat.</value></data>
+  <data name="chk_septentriogps.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve"><value>GPS RTCM mesaj çıkışını aç/kapat.</value></data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve"><value>Aralığı ayarla</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>RTCM mesaj aralığı (sn)</value></data>
+  <data name="label20.ToolTip" xml:space="preserve"><value>Alıcının RTCM mesajlarını ne sıklıkla üreteceğini seçin. Düşük değerler daha yüksek veri hızına yol açar.</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>RTCM mesaj ayrıntı düzeyi</value></data>
+  <data name="label19.ToolTip" xml:space="preserve"><value>RTCM mesajlarındaki ayrıntı düzeyini seçin. Yüksek değerler daha yüksek veri hızına yol açar.</value></data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve"><value>Hafif</value></data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve"><value>Temel</value></data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve"><value>Tam</value></data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve"><value>Sabit konum</value></data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve"><value>Alıcının otomatik belirlemesi yerine baz istasyonu anteni için sabit bir konum girin. Bu, düzeltmelerin hassasiyetini artırabilir.
+</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Enlem (WGS84)</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Boylam (WGS84)</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>İrtifa (m)</value></data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve"><value>Konumu ayarla</value></data>
+  <data name="chk_m8p_130p.Text" xml:space="preserve"><value>M8P fw 130+/F9P</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>Enlem/ECEFX</value></data>
+  <data name="Long.HeaderText" xml:space="preserve"><value>Boylam/ECEFY</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>İrtifa/ECEFZ</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Ölçüm doğruluğu (m)</value></data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve"><value>Otomatik yapılandırma seçenekleri</value></data>
+  <data name="chk_sendgga.Text" xml:space="preserve"><value>NTRIP GGA gönderilsin mi? (VRS/Smart)</value></data>
+  <data name="chk_sendgga.ToolTip" xml:space="preserve"><value>Bu, otopilotunuzdaki donanım yazılımının sürümüne bağlıdır. Yeni mesaj veri bozulmalarını çok daha iyi yönettiği için mümkünse etkin bırakın.</value></data>
+  <data name="check_sendntripv1.Text" xml:space="preserve"><value>NTRIP protokolü v1.0 kullanılsın mı?</value></data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve"><value>RTKLIB gibi bazı eski NTRIP sunucuları v2.0 protokolünü desteklemez. v1.0 protokolüne dönmek için kutuyu işaretleyin.</value></data>
+  <data name="labelmsgseen.Text" xml:space="preserve"><value>rtcm0000
+rtcm0000</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>RTCM</value></data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve"><value>u-blox M8P/F9P</value></data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve"><value>Septentrio</value></data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve"><value>Unicore UM982</value></data>
 </root>

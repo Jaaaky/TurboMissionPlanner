@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_forcecal_accel.Text" xml:space="preserve"><value>کالیبراسیون اجباری شتاب‌سنج</value></data>
+  <data name="BUT_forcecal_mag.Text" xml:space="preserve"><value>کالیبراسیون اجباری قطب‌نما</value></data>
+  <data name="but_apjtool.Text" xml:space="preserve"><value>ابزار APJ</value></data>
+  <data name="BUT_CoT.Text" xml:space="preserve"><value>CoT</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>مجاورت</value></data>
+  <data name="but_followswarm.Text" xml:space="preserve"><value>دنبال کردن گروه</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>پیکربندی امضای MAVLink 2</value></data>
+  <data name="but_lockup.Text" xml:space="preserve"><value>قفل کردن پرنده</value></data>
+  <data name="but_td.Text" xml:space="preserve"><value>دریافت threads.txt</value></data>
+  <data name="but_gpsinj.Text" xml:space="preserve"><value>استخراج gps_inject</value></data>
+  <data name="but_dem.Text" xml:space="preserve"><value>DEM</value></data>
+  <data name="BUT_magfit2.Text" xml:space="preserve"><value>گزارش کالیبراسیون مغناطیس‌سنج</value></data>
+  <data name="but_GDAL.Text" xml:space="preserve"><value>GDAL سفارشی</value></data>
+  <data name="but_sortlogs.Text" xml:space="preserve"><value>مرتب‌سازی دوبارهٔ همهٔ گزارش‌ها</value></data>
+  <data name="but_optflowcalib.Text" xml:space="preserve"><value>کالیبراسیون جریان نوری</value></data>
+  <data name="but_logdlscp.Text" xml:space="preserve"><value>بارگیری گزارش با SCP</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>امضای دیجیتال</value></data>
+  <data name="but_acbarohight.Text" xml:space="preserve"><value>تنظیم ارتفاع فشارسنجی هواگرد</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>تقسیم گزارش DataFlash</value></data>
+  <data name="but_driverclean.Text" xml:space="preserve"><value>پاک‌سازی درایورها</value></data>
+  <data name="but_agemapdata.Text" xml:space="preserve"><value>پاک‌سازی داده‌های قدیمی نقشه</value></data>
+  <data name="but_packetbytes.Text" xml:space="preserve"><value>تجزیهٔ بایت‌های بسته</value></data>
+  <data name="myButton_vlc.Text" xml:space="preserve"><value>VLC</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>ایجاد فایل ورودی دادهٔ DashWare</value></data>
+  <data name="but_trimble.Text" xml:space="preserve"><value>توالی حرکت گروه</value></data>
+  <data name="but_hwids.Text" xml:space="preserve"><value>رمزگشایی شناسه‌های سخت‌افزار</value></data>
+  <data name="BUT_QNH.Text" xml:space="preserve"><value>QNH</value></data>
+  <data name="but_reboot.Text" xml:space="preserve"><value>راه‌اندازی مجدد Pixhawk</value></data>
+  <data name="but_3dmap.Text" xml:space="preserve"><value>نقشهٔ سه‌بعدی</value></data>
+  <data name="but_messageinterval.Text" xml:space="preserve"><value>فاصلهٔ زمانی پیام‌ها</value></data>
+  <data name="but_blupdate.Text" xml:space="preserve"><value>ارتقای بوت‌لودر</value></data>
+  <data name="BUT_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="but_disablearmswitch.Text" xml:space="preserve"><value>تغییر وضعیت کلید ایمنی</value></data>
+  <data name="but_paramrestore.Text" xml:space="preserve"><value>بازیابی پارامترها</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>بازرس MAVLink</value></data>
+  <data name="but_sitl_comb.Text" xml:space="preserve"><value>ترکیب‌کنندهٔ جریان SITL</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>ناشناس‌سازی گزارش</value></data>
+  <data name="but_dashware.Text" xml:space="preserve"><value>DashWare</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>مرورگر tlog</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>ایجاد نقشه‌های JPG برای همهٔ TLogهای یک پوشه</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>اجرای الگوریتم نشانه‌روی گیمبال</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>کواد: مسلح کردن و برخاست</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>آزمایش سرعت تبدیل ساختار</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>پاک کردن تصاویر سفارشی</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>افزودن تصاویر سفارشی به MP</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>بارگیری همهٔ میان‌افزارهای فعلی</value></data>
+  <data name="butlogindex.Text" xml:space="preserve"><value>نمایهٔ گزارش</value></data>
+  <data name="but_armandtakeoff.Text" xml:space="preserve"><value>مسلح کردن و برخاست</value></data>
+  <data name="but_maplogs.Text" xml:space="preserve"><value>نمایش گزارش‌ها روی نقشه</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>مرتب‌سازی TLogها در پوشه‌های نوع و sysid مربوطه</value></data>
+  <data name="but_gimbaltest.Text" xml:space="preserve"><value>آزمایش گیمبال</value></data>
+  <data name="but_structtest.Text" xml:space="preserve"><value>آزمایش ساختار</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>ایجاد گذرگاه مستقیم اختصاصی به GPS (درگاه 500)</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>گروه دنبال‌کنندهٔ رهبر</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>رابط گروه چندپرنده‌ای</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>تبدیل فایل SHP به فایل چندضلعی</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>نمایش نماد دیگری از موقعیت فعلی شما روی نقشه.</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>افزودن لایهٔ HUD به ویدئوهای ضبط‌شده</value></data>
+  <data name="BUT_clearcustommaps.Text" xml:space="preserve"><value>پاک کردن نقشه‌های سفارشی</value></data>
+  <data name="but_getfw.Text" xml:space="preserve"><value>دریافت همهٔ میان‌افزارها</value></data>
+  <data name="BUT_geinjection.Text" xml:space="preserve"><value>افزودن GE</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>ویرایشگر زبان ترجمه</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>بازسازی اطلاعات پارامترهای مورد استفاده در MP</value></data>
+  <data name="BUT_sorttlogs.Text" xml:space="preserve"><value>مرتب‌سازی TLogها</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>بازتاب جریان MAVLink دریافتی MP</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>خروجی موقعیت پرنده در قالب Microdrone</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>خروجی موقعیت پرنده در قالب NMEA</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>استفاده از GPS با خروجی NMEA برای دنبال کردن من</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>ایجاد هشدارهای صوتی سفارشی</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="BUT_outputMD.Text" xml:space="preserve"><value>MicroDrone</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>زمین‌مرجع کردن تصاویر</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>مدیریت هشدارها</value></data>
+  <data name="BUT_lang_edit.Text" xml:space="preserve"><value>ویرایش زبان</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>دنبال کردن من</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>تولید اطلاعات پارامتر</value></data>
+  <data name="but_osdvideo.Text" xml:space="preserve"><value>ویدئوی OSD</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>پایهٔ متحرک</value></data>
+  <data name="BUT_shptopoly.Text" xml:space="preserve"><value>تبدیل SHP به چندضلعی</value></data>
+  <data name="BUT_swarm.Text" xml:space="preserve"><value>گروه پرنده‌ها</value></data>
+  <data name="BUT_followleader.Text" xml:space="preserve"><value>دنبال کردن رهبر</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>به زبانهٔ DataFlash منتقل شده است</value></data>
+  <data name="but_mavserialport.Text" xml:space="preserve"><value>گذرگاه MAVSerial</value></data>
+  <data name="but_hexmavlink.Text" xml:space="preserve"><value>رمزگشایی MAVLink هگز</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>دریافت آفست‌های مغناطیس‌سنج از گزارش</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>نمایش دادهٔ تصویری حسگر جریان نوری PX4</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>حذف درایورهای نصب‌شده</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>فشردن مجازی دکمهٔ ایمنی</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>تنظیم فاصله‌های زمانی سفارشی برای پیام‌ها</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>بازرسی همهٔ بسته‌های MAVLink در حال ارسال</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>به‌روزرسانی بوت‌لودر</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>آزمایش نقشهٔ سه‌بعدی</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>نمایش اطلاعات شناسهٔ سخت‌افزاری واردشده</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>اشکال‌زدایی بستهٔ MAVLink به‌صورت رشتهٔ هگز</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>تغییر ارتفاع مرجع ارتفاع‌سنج فشارسنجی</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>وادار کردن خلبان خودکار به قفل شدن</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>نمایش اطلاعات مدل‌های رقومی ارتفاع بارگذاری‌شده</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>بارگیری گزارش از طریق SCP - SSH (apsync)</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>مرتب‌سازی دوبارهٔ همهٔ گزارش‌های پوشهٔ گزارش MP</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>بارگذاری منبع سفارشی کاشی نقشه از طریق GDAL</value></data>
+  <data name="label47.Text" xml:space="preserve"><value>راه‌اندازی مجدد خلبان خودکار</value></data>
+  <data name="label48.Text" xml:space="preserve"><value>تنظیم QNH</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>label49</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>نمایش جریان ویدئو با VLC؛ به‌جای آن از GStreamer استفاده کنید</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>حذف کاشی‌های تصویری قدیمی‌تر از ۳۰ روز</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>تقسیم گزارش DataFlash به x بخش</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>استخراج داده‌های RTCM از tlog</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>نمایش رابط حسگر مجاورت</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>سبک حرکت گروه</value></data>
+  <data name="but_remotedflogger.Text" xml:space="preserve"><value>شروع ثبت گزارش DataFlash راه دور</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>خروجی Cursor-on-Target</value></data>
+  <data name="but_ManageCMDList.Text" xml:space="preserve"><value>مدیریت فهرست فرمان‌ها</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>مدیریت فهرست فرمان‌های برنامه‌ریز</value></data>
+  <data name="but_dfumode.Text" xml:space="preserve"><value>حالت DFU</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>حالت DFU</value></data>
+  <data name="label57.Text" xml:space="preserve"><value>علامت‌گذاری شتاب‌سنج به‌عنوان کالیبره‌شده پس از بازیابی پارامترها</value></data>
+  <data name="label58.Text" xml:space="preserve"><value>علامت‌گذاری مغناطیس‌سنج به‌عنوان کالیبره‌شده پس از بازیابی پارامترها</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>موقت</value></data>
+</root>

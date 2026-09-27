@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve"><value>ضع الطيار الآلي في وضع مستوٍ لتعيين إزاحات مقياس التسارع الافتراضية (محور واحد/ضبط تعادل AHRS).
+يتطلب ذلك وضع الطيار الآلي أفقيًا ومستويًا.</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>ضع الطيار الآلي في وضع مستوٍ لتعيين الحدود الدنيا والعليا الافتراضية لمقياس التسارع (3 محاور).
+سيُطلب منك وضع الطيار الآلي على كل جانب.</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>ضع الطيار الآلي في وضع مستوٍ لتعيين معاملات تحجيم مقياس التسارع الافتراضية للطيران المستوي (محور واحد).
+يتطلب ذلك وضع الطيار الآلي أفقيًا ومستويًا.</value></data>
+  <data name="BUT_calib_accell.Text" xml:space="preserve"><value>معايرة مقياس التسارع</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>معايرة مبسّطة لمقياس التسارع</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>معايرة مقياس التسارع</value></data>
+  <data name="BUT_level.Text" xml:space="preserve"><value>معايرة الاستواء</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,45 +118,69 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CHK_speechbattery.Text" xml:space="preserve">
-    <value>MP Alert on Low Battery</value>
+    <value>Peringatan MP Saat Baterai Lemah</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>mAh</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>4. Measured current:</value>
+    <value>4. Arus terukur:</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>APM Ver</value>
+    <value>Versi Perangkat Keras</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
-    <value>Battery Capacity</value>
+    <value>Kapasitas Baterai</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Calibration</value>
+    <value>Kalibrasi</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>5. Current (Calced)</value>
+    <value>5. Arus (dihitung)</value>
   </data>
   <data name="TXT_battcapacity.Text" xml:space="preserve">
     <value>2200</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>Monitor</value>
+    <value>Pemantau</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>1. Measured battery voltage:</value>
+    <value>1. Tegangan baterai terukur:</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>3. Voltage divider (Calced):</value>
+    <value>3. Pembagi tegangan (dihitung):</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>2. Battery voltage (Calced):</value>
+    <value>2. Tegangan baterai (dihitung):</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>6. Amperes per volt:</value>
+    <value>6. Ampere per volt:</value>
   </data>
   <data name="label47.Text" xml:space="preserve">
     <value>Sensor</value>
   </data>
+  <data name="CMB_batmonsensortype.Items" xml:space="preserve"><value>0: Lainnya</value></data>
+  <data name="CMB_batmonsensortype.Items1" xml:space="preserve"><value>1: AttoPilot 45A</value></data>
+  <data name="CMB_batmonsensortype.Items2" xml:space="preserve"><value>2: AttoPilot 90A</value></data>
+  <data name="CMB_batmonsensortype.Items3" xml:space="preserve"><value>3: AttoPilot 180A</value></data>
+  <data name="CMB_batmonsensortype.Items4" xml:space="preserve"><value>4: Modul Daya 3DR</value></data>
+  <data name="CMB_batmonsensortype.Items5" xml:space="preserve"><value>5: ESC 4-in-1 3DR</value></data>
+  <data name="CMB_batmonsensortype.Items6" xml:space="preserve"><value>6: Modul Daya HV 3DR APM</value></data>
+  <data name="CMB_batmonsensortype.Items7" xml:space="preserve"><value>7: Modul Daya HV Cube</value></data>
+  <data name="CMB_batmonsensortype.Items8" xml:space="preserve"><value>8: CUAV HV PM</value></data>
+  <data name="CMB_batmonsensortype.Items9" xml:space="preserve"><value>9: Modul Daya Holybro</value></data>
+  <data name="CMB_batmontype.Items" xml:space="preserve"><value>0: Nonaktif</value></data>
+  <data name="CMB_batmontype.Items1" xml:space="preserve"><value>3: Tegangan Baterai</value></data>
+  <data name="CMB_batmontype.Items2" xml:space="preserve"><value>4: Tegangan dan Arus</value></data>
+  <data name="CMB_HWVersion.Items" xml:space="preserve"><value>0: CUAV V5/Pixhawk4 atau APM1</value></data>
+  <data name="CMB_HWVersion.Items1" xml:space="preserve"><value>1: APM2 - 2.5 non 3DR</value></data>
+  <data name="CMB_HWVersion.Items2" xml:space="preserve"><value>2: APM2.5+/ZealotF427 - Modul Daya 3DR</value></data>
+  <data name="CMB_HWVersion.Items3" xml:space="preserve"><value>3: PX4</value></data>
+  <data name="CMB_HWVersion.Items4" xml:space="preserve"><value>4: The Cube atau Pixhawk</value></data>
+  <data name="CMB_HWVersion.Items5" xml:space="preserve"><value>5: VR Brain 4.5 - 5</value></data>
+  <data name="CMB_HWVersion.Items6" xml:space="preserve"><value>6: VR Micro Brain 5</value></data>
+  <data name="CMB_HWVersion.Items7" xml:space="preserve"><value>7: VR Brain 4</value></data>
+  <data name="CMB_HWVersion.Items8" xml:space="preserve"><value>8: Cube Orange</value></data>
+  <data name="CMB_HWVersion.Items9" xml:space="preserve"><value>9: Durandal/ZealotH743</value></data>
+  <data name="CMB_HWVersion.Items10" xml:space="preserve"><value>10: Pixhawk 6C/Pix32 v6</value></data>
 </root>

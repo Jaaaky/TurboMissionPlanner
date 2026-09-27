@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
     <data name="mavlinkCheckBoxthr_fs_action.Text" xml:space="preserve">
-    <value>Guvenlik modu olustu</value>
+    <value>Gaz emniyet modu eylemi</value>
   </data>
   <data name="lbl_currentmode.Text" xml:space="preserve">
-    <value>Manuel </value>
+    <value>Manuel</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.Text" xml:space="preserve">
-    <value>Guvenlik Etkinlestirme icin 20 sn </value>
+    <value>Uzun süreli emniyet modu (20 sn)</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.Text" xml:space="preserve">
-    <value>Itıs Guvenlik</value>
+    <value>Gaz emniyet modu</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Radyo sinyal girisi</value>
+    <value>Kumanda girişi</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.ToolTip" xml:space="preserve">
-    <value>Yer istasyonu bağlantısı kesilirse emniyet ve güvenlik modunun etkinleştirilmesi.</value>
+    <value>Yer istasyonuyla iletişim kesildiğinde emniyet modunu etkinleştir</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Pil</value>
+    <value>Batarya</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Pil Zayif</value>
+    <value>Düşük batarya</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Amper Sakli</value>
+    <value>Yedek kapasite (mAh)</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Radyo</value>
@@ -151,33 +151,41 @@
     <value>Yer istasyonu</value>
   </data>
   <data name="mavlinkNumericUpDownlow_voltage.ToolTip" xml:space="preserve">
-    <value>Dusuk gerilim gostergesi</value>
+    <value>Düşük gerilim eşiği</value>
   </data>
   <data name="lbl_gpslock.Text" xml:space="preserve">
-    <value>GPS kilit yok</value>
+    <value>Konum kilidi yok</value>
   </data>
   <data name="mavlinkCheckBoxshort_fs.Text" xml:space="preserve">
-    <value>Kisa guvenlik (1 saniye)</value>
+    <value>Kısa süreli emniyet modu (1 sn)</value>
   </data>
   <data name="mavlinkNumericUpDownfs_thr_value.ToolTip" xml:space="preserve">
-    <value>Mukavemet Endeksi PWM</value>
+    <value>Gaz PWM tetikleme eşiği</value>
   </data>
   <data name="mavlinkCheckBoxFS_GCS_ENABLE.Text" xml:space="preserve">
-    <value>Yer istasyonunun guvenlik modunu etkinlestirin</value>
+    <value>Yer istasyonu emniyet modunu etkinleştir</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.ToolTip" xml:space="preserve">
-    <value>Dusuk momentumda emniyet modunun etkinlestirilmesi PWM</value>
+    <value>Düşük gaz PWM değerinde emniyet modunu etkinleştir</value>
   </data>
   <data name="lbl_armed.Text" xml:space="preserve">
-    <value>Etkinligi iptal et</value>
+    <value>Disarm edildi</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.Text" xml:space="preserve">
-    <value>Yer istasyonu guvenligi</value>
+    <value>Yer istasyonu emniyet modu</value>
   </data>
   <data name="mavlinkNumericUpDownthr_fs_value.ToolTip" xml:space="preserve">
-    <value>Mukavemet Endeksi PWM</value>
+    <value>Gaz PWM tetikleme eşiği</value>
   </data>
   <data name="mavlinkComboBox_fs_thr_enable.ToolTip" xml:space="preserve">
-    <value>Guvenlik Modu durumunda  PWM  düşük</value>
+    <value>Düşük PWM'de emniyet modu</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>Servo/motor çıkışı</value></data>
+  <data name="LNK_wiki.Text" xml:space="preserve"><value>Wiki</value></data>
+  <data name="mavlinkCheckBoxlong_fs.ToolTip" xml:space="preserve"><value>Kapalı: eylem yok, Açık: RTL</value></data>
+  <data name="mavlinkCheckBoxshort_fs.ToolTip" xml:space="preserve"><value>Kapalı: eylem yok, Açık: RTL</value></data>
+  <data name="mavlinkCheckBoxthr_fs_action.ToolTip" xml:space="preserve"><value>ArduCopter Auto: Kapalı: eylem yok, Açık: RTL
+ArduCopter diğer modlar: GPS varsa RTL, yoksa iniş</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Emniyet modu PWM</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Düşük seviye süresi</value></data>
 </root>

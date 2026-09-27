@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CHK_rotate.Text" xml:space="preserve"><value>Obracaj z każdym punktem danych</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Celuj w białe punkty.
+Skieruj autopilot na północ i obracaj go wokół
+osi pochylenia aż do wypoziomowania.
+Następnie
+obróć autopilot o 90 stopni i obracaj wokół
+osi przechylenia aż do wypoziomowania.
+
+Ta metoda powinna pozwolić dotrzeć do wszystkich białych punktów.</value></data>
+  <data name="chk_auto.Text" xml:space="preserve"><value>Akceptuj automatycznie</value></data>
+</root>

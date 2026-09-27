@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>گاز %</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>ئەسكەرتىش: ئۇچقۇڭىزنى مەھكەم بېسىپ تۇرۇڭ
+بۇ سىناق موتورلارنىڭ ئىشلەيدىغانلىقىنى تەكشۈرىدۇ.
+موتورلار ئالدى ئوڭ تەرەپتىن باشلاپ
+سائەت يۆنىلىشى بويىچە سىنىلىدۇ.</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>موتور نومۇرلىرىنى كۆرۈش ئۈچۈن بۇ يەرنى چېكىپ،
+بەتنىڭ ئاستىغا سىيرىڭ</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>داۋاملىشىش ۋاقتى (s)</value></data>
+  <data name="FrameType.Text" xml:space="preserve"><value>تىپ: نامەلۇم</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>تۈر: نامەلۇم</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>ئۇچۇش جەريانىدا چىقىرىلىدىغان ئەڭ تۆۋەن پىرسەنتنى بەلگىلەش</value></data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve"><value>موتورنىڭ ئەڭ تۆۋەن ئايلىنىشىنى تەڭشەش</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>قوزغىتىلغان، ئەمما يەردە تۇرغاندا چىقىرىلىدىغان ئەڭ تۆۋەن پىرسەنتنى بەلگىلەش</value></data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve"><value>قوزغىتىلغان موتورنىڭ ئايلىنىشىنى تەڭشەش</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>موتور سىنىقى</value></data>
+</root>

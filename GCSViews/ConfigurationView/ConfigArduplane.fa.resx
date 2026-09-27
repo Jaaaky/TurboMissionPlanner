@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label5.Text" xml:space="preserve"><value>نرخ تغییر</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>بیشینه</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>کمینه</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>کروز</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>گاز ۰ تا ۱۰۰٪</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>نسبت</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>بیشینه</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>کمینه</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>کروز</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>سرعت هوایی m/s</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>کمینهٔ پیچ</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>بیشینهٔ پیچ</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>بیشینهٔ زاویهٔ بانک</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>زاویه‌های ناوبری</value></data>
+  <data name="label83.Text" xml:space="preserve"><value>پیچ به گاز</value></data>
+  <data name="label78.Text" xml:space="preserve"><value>میکس سکان سمت</value></data>
+  <data name="groupBox16.Text" xml:space="preserve"><value>سایر میکس‌ها</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox14.Text" xml:space="preserve"><value>PID انرژی/ارتفاع</value></data>
+  <data name="label69.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label70.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label71.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label72.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>PID پیچ ناوبری برای ارتفاع</value></data>
+  <data name="label65.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label66.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label67.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label68.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>PID پیچ ناوبری برای سرعت هوایی</value></data>
+  <data name="label57.Text" xml:space="preserve"><value>بیشینهٔ انتگرال‌گیر</value></data>
+  <data name="label58.Text" xml:space="preserve"><value>میرایی</value></data>
+  <data name="label59.Text" xml:space="preserve"><value>انتگرال</value></data>
+  <data name="label60.Text" xml:space="preserve"><value>یاو به رول</value></data>
+  <data name="groupBox10.Text" xml:space="preserve"><value>سرووی یاو</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>PID سرووی پیچ</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>PID سرووی رول</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>نوشتن پارامترها</value></data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>بازخوانی پارامترها</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>میرایی</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>دوره</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>کنترل L1 - کنترل گردش</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>بیشینهٔ نرخ نزول (m/s)</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>ثابت زمانی</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>میرایی پیچ</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>کمینهٔ نرخ نزول (m/s)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>بیشینهٔ نرخ صعود (m/s)</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>TECS</value></data>
+  <data name="BUT_refreshpart.Text" xml:space="preserve"><value>بازخوانی صفحه</value></data>
+</root>

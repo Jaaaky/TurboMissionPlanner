@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>Fichier</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>Interne</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>Anglais</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>Autre langue</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>Enregistrer</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>Utilisation :
+Au premier chargement, choisissez votre langue en bas, modifiez les textes, puis cliquez sur Enregistrer.
+
+Ensuite, choisissez votre langue pour charger automatiquement sa traduction existante.
+
+Pour reprendre une traduction en cours, cliquez sur Charger la traduction.
+
+REMARQUE : le chargement automatique ne fonctionne qu’une fois la traduction intégrée au planificateur par Michael. Sinon, utilisez Charger la traduction.
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Charger la traduction</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>Copier dans le presse-papiers</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Éditeur de traduction</value></data>
+</root>

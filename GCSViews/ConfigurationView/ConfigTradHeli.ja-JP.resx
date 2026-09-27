@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -148,16 +148,16 @@
     <value>最大</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>サーボモード</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>ロール最大</value>
+    <value>低出力</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>ボトム %</value>
+    <value>位相角</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>ピッチ最大</value>
+    <value>アイドル</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
     <value>モード1 セットポイント</value>
@@ -166,7 +166,7 @@
     <value>ローター スピード コントロール</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>ゼロ</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
     <value>Stabilize コレクティブ 最小/最大</value>
@@ -190,7 +190,7 @@
     <value>1500</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>トップ %</value>
+    <value>着陸時コレクティブ</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
     <value>スワッシュタイプ</value>
@@ -217,10 +217,10 @@
     <value>60</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>リバース</value>
+    <value>反転</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>ポジション</value>
+    <value>位置</value>
   </data>
   <data name="fbl_modeFBL.Text" xml:space="preserve">
     <value>フライバーレス</value>
@@ -262,7 +262,7 @@
     <value>ラダー</value>
   </data>
   <data name="label43.Text" xml:space="preserve">
-    <value>リバース</value>
+    <value>反転</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
     <value>最小</value>
@@ -270,4 +270,28 @@
   <data name="label41.Text" xml:space="preserve">
     <value>ボトム</value>
   </data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>サーボ</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>臨界値</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>起動時サーボテスト</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>ホバリング時ロール</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>ピルエット補正</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>サイクリック可動範囲</value></data>
+  <data name="myButtonH_SV_MANtest.Text" xml:space="preserve"><value>テスト</value></data>
+  <data name="myButtonH_SV_MANmin.Text" xml:space="preserve"><value>最小</value></data>
+  <data name="myButtonH_SV_MANzero.Text" xml:space="preserve"><value>ゼロ</value></data>
+  <data name="myButtonH_SV_MANmax.Text" xml:space="preserve"><value>最大</value></data>
+  <data name="myButtonH_SV_MANmanual.Text" xml:space="preserve"><value>マニュアル</value></data>
+  <data name="myButtonH_SV_MAN.Text" xml:space="preserve"><value>有効</value></data>
+  <data name="groupBox11.Text" xml:space="preserve"><value>スロットル出力</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>反転</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>最大</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>最小</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>Vカーブ</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>高出力</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>カーブ</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Acroエクスポ</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Stab 4</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Stab 3</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Stab 2</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Stab 1</value></data>
 </root>

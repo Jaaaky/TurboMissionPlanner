@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -127,7 +127,7 @@
     <value>PWM 0 - 1230</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>PWM 1621 - 1749</value>
+    <value>Calidad de ajuste</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>Modo actual:</value>
@@ -223,13 +223,13 @@
     <value>Max</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Modo de Vuelo 2</value>
+    <value>Grados</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>Alabeo Max</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Modo de Vuelo 3</value>
+    <value>Minutos</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
     <value>Cabeceo Max</value>
@@ -238,13 +238,13 @@
     <value>por ejemplo, en grados 2 ° 3 'W es -2,3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Modo de Vuelo 1</value>
+    <value>Seleccione el dispositivo para configurar rápidamente sus parámetros:</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Nivel tu quad para establecer las compensaciones por defecto acel</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Modo de Vuelo 6</value>
+    <value>Reducir exigencia de ajuste si falla la calibración</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
     <value>Capacidad</value>
@@ -256,7 +256,7 @@
     <value>Activar Sonar</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>PWM 1231 - 1360</value>
+    <value>Mag 1</value>
   </data>
   <data name="tabRadioIn.Text" xml:space="preserve">
     <value>Entrada Radio</value>
@@ -268,25 +268,25 @@
     <value>1500</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Modo de Vuelo 4</value>
+    <value>O</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Modo de Vuelo 5</value>
+    <value>Brújula</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Gyro</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>PWM 1361 - 1490</value>
+    <value>Mag 2</value>
   </data>
   <data name="tabHardware.Text" xml:space="preserve">
     <value>Hardware</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>PWM 1491 - 1620</value>
+    <value>Mag 3</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
-    <value>Sitio Web Declinación</value>
+    <value>Web de declinación</value>
   </data>
   <data name="HS4_MAX.Text" xml:space="preserve">
     <value>1500</value>
@@ -312,4 +312,34 @@
   <data name="label30.Text" xml:space="preserve">
     <value>Monitor</value>
   </data>
+  <data name="CHK_autodec.Text" xml:space="preserve"><value>Obtener declinación automáticamente</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>Ejemplo en YouTube</value></data>
+  <data name="BUT_OBmagcalaccept.Text" xml:space="preserve"><value>Aceptar</value></data>
+  <data name="BUT_OBmagcalcancel.Text" xml:space="preserve"><value>Cancelar</value></data>
+  <data name="BUT_OBmagcalstart.Text" xml:space="preserve"><value>Iniciar</value></data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve"><value>Calibración de magnetómetro a bordo</value></data>
+  <data name="BUT_MagCalibrationLive.Text" xml:space="preserve"><value>Calibración en directo</value></data>
+  <data name="groupBoxmpcalib.Text" xml:space="preserve"><value>Calibración de magnetómetro con Mission Planner</value></data>
+  <data name="LBL_primary_compass.Text" xml:space="preserve"><value>Brújula principal:</value></data>
+  <data name="CHK_compass_learn.Text" xml:space="preserve"><value>Aprender compensaciones automáticamente</value></data>
+  <data name="groupBoxGeneralSettings.Text" xml:space="preserve"><value>Ajustes generales de brújula</value></data>
+  <data name="LBL_compass1_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass1_offset.Text" xml:space="preserve"><value>COMPENSACIÓN</value></data>
+  <data name="CHK_compass1_external.Text" xml:space="preserve"><value>Montaje externo</value></data>
+  <data name="CHK_compass1_use.Text" xml:space="preserve"><value>Usar esta brújula</value></data>
+  <data name="groupBoxCompass1.Text" xml:space="preserve"><value>Brújula n.º 1</value></data>
+  <data name="LBL_compass2_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass2_offset.Text" xml:space="preserve"><value>COMPENSACIÓN</value></data>
+  <data name="CHK_compass2_external.Text" xml:space="preserve"><value>Montaje externo</value></data>
+  <data name="CHK_compass2_use.Text" xml:space="preserve"><value>Usar esta brújula</value></data>
+  <data name="groupBoxCompass2.Text" xml:space="preserve"><value>Brújula n.º 2</value></data>
+  <data name="LBL_compass3_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass3_offset.Text" xml:space="preserve"><value>COMPENSACIÓN</value></data>
+  <data name="CHK_compass3_external.Text" xml:space="preserve"><value>Montaje externo</value></data>
+  <data name="CHK_compass3_use.Text" xml:space="preserve"><value>Usar esta brújula</value></data>
+  <data name="groupBoxCompass3.Text" xml:space="preserve"><value>Brújula n.º 3</value></data>
+  <data name="buttonAPMExternal.Text" xml:space="preserve"><value>APM y brújula externa</value></data>
+  <data name="QuickAPM25.Text" xml:space="preserve"><value>APM2.5 (brújula interna)</value></data>
+  <data name="buttonQuickPixhawk.Text" xml:space="preserve"><value>Pixhawk/PX4</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>Calibración magnética de vehículos grandes</value></data>
 </root>

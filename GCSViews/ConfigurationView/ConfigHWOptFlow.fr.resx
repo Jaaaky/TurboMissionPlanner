@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -121,22 +121,22 @@
     <value>Log Calibration</value>
   </data>
   <data name="CHK_enableoptflow.Text" xml:space="preserve">
-    <value>Activ. capteur optique</value>
+    <value>Activer</value>
   </data>
   <data name="CHK_enablecompass.Text" xml:space="preserve">
     <value>Activ. Boussole</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Mode de vol 2</value>
+    <value>Orientation en lacet</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Mode de vol 2</value>
+    <value>Flux optique  </value>
   </data>
   <data name="label27.Text" xml:space="preserve">
     <value>en degrés eg 2° 3' W est -2.3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Mode de vol 1</value>
+    <value>Type</value>
   </data>
   <data name="label100.Text" xml:space="preserve">
     <value>Déclination</value>
@@ -145,7 +145,7 @@
     <value>Activer Sonar</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Mode de vol 5</value>
+    <value>Échelle FY</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
     <value>Site Web Déclination</value>
@@ -169,10 +169,10 @@
     <value>Position Z</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>degrés, relatif au véhicule</value>
+    <value>degrés, par rapport au véhicule</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>mètres vers l'avant</value>
+    <value>mètres vers l’avant</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>mètres vers la droite</value>
@@ -181,15 +181,15 @@
     <value>mètres vers le bas</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Position du capteur, relative à l'IMU</value>
+    <value>Position du capteur par rapport à l’IMU</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Facteurs d'échelle</value>
+    <value>Facteurs d’échelle</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Forcer la hauteur</value>
+    <value>Hauteur imposée</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>mètres du sol</value>
+    <value>mètres au-dessus du sol</value>
   </data>
 </root>

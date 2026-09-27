@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,25 +121,25 @@
     <value>Time</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Immagini Geo Ref </value>
+    <value>Georeferenzia immagini</value>
   </data>
   <data name="TXT_offsetseconds.Text" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Lat</value>
+    <value>Scarta immagine finale</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Lon</value>
+    <value>Intervallo min scatto (s) (CAM)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Offset Secondi</value>
+    <value>Offset in secondi</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Log Offsets</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Dir fov</value>
+    <value>FOV longitudinale</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Alt</value>
@@ -148,27 +148,38 @@
     <value>Heading</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Cross fov</value>
+    <value>FOV trasversale</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Rotazione</value>
   </data>
   <data name="BUT_doit.Text" xml:space="preserve">
-    <value>Facciamo</value>
+    <value>Preelabora</value>
   </data>
   <data name="BUT_browsedir.Text" xml:space="preserve">
-    <value>Sfoglia Cartella</value>
+    <value>Sfoglia immagini</value>
   </data>
   <data name="BUT_networklinkgeoref.Text" xml:space="preserve">
-    <value>Localizazzione Kml</value>
+    <value>Posizioni KML</value>
   </data>
   <data name="BUT_browselog.Text" xml:space="preserve">
-    <value>Sfolgia Log</value>
+    <value>Sfoglia log</value>
   </data>
   <data name="BUT_Geotagimages.Text" xml:space="preserve">
-    <value>Immagini GeoTag</value>
+    <value>Geolocalizza immagini</value>
   </data>
   <data name="BUT_estoffset.Text" xml:space="preserve">
-    <value>Estimate Offset</value>
+    <value>Stima offset</value>
   </data>
+  <data name="RDIO_TimeOffset.Text" xml:space="preserve"><value>Offset temporale</value></data>
+  <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve"><value>Messaggio CAM</value></data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>Scarta immagine iniziale</value></data>
+  <data name="chk_usegps2.Text" xml:space="preserve"><value>Usa GPS2</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Base quota relativa</value></data>
+  <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve"><value>Usa quota AMSL</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Ritardo scatto (ms)</value></data>
+  <data name="chk_cammsg.Text" xml:space="preserve"><value>Usa messaggi CAM</value></data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve"><value>Messaggio di scatto</value></data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve"><value>Usa quota GPS</value></data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve"><value>Usa quota GPS</value></data>
 </root>

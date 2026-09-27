@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -466,7 +466,7 @@
     <value>90</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>참고: X와 H는 프로펠러 회전 변경시 상호 운용할 수 없습니다</value>
+    <value>참고: X와 H는 프로펠러 회전 방향이 달라 서로 바꿔 사용할 수 없습니다</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
@@ -763,7 +763,7 @@
     <value>30</value>
   </data>
   <data name="radioButtonTri.Text" xml:space="preserve">
-    <value>트리</value>
+    <value>트라이콥터</value>
   </data>
   <data name="radioButtonTri.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomLeft</value>
@@ -1012,7 +1012,7 @@
     <value>24</value>
   </data>
   <data name="radioButtonUndef.Text" xml:space="preserve">
-    <value>지정 안 함 </value>
+    <value>지정 안 함</value>
   </data>
   <data name="radioButtonUndef.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomLeft</value>
@@ -1068,4 +1068,5 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.MyUserControl, MissionPlanner.Controls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="radio_type_other.Text" xml:space="preserve"><value>기타</value></data>
 </root>

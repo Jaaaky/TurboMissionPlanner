@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>Un journal est en cours de téléchargement. Voulez-vous annuler ?</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>Confirmez-vous ?</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>Création du KML pour {0}</value></data>
+  <data name="Done" xml:space="preserve"><value>Terminé</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>Téléchargement des journaux vers : {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>Prévoyez 30 à 90 secondes pour l’effacement !</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>Erreur de traitement du fichier. Vérifiez qu’il n’est pas utilisé.</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>Récupération du journal {0}…</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>Récupération de la liste des journaux…</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>Impossible de créer le dossier des journaux : {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>Aucun journal à télécharger</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>Connectez votre drone</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>Sélectionnez des journaux en cochant les cases de la liste</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>Traitement de {0}</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>{0} fichiers journaux trouvés. Remarque : les tailles sont estimatives.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>Erreur :</value></data>
+</root>

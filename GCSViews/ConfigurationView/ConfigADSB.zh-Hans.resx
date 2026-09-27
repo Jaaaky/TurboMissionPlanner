@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>刷新参数</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>写入参数</value></data>
+  <data name="BUT_Find.Text" xml:space="preserve"><value>查找</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>航空器登记号</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>航班标识：</value></data>
+  <data name="but_saveacreg.Text" xml:space="preserve"><value>保存</value></data>
+  <data name="but_saveflid.Text" xml:space="preserve"><value>保存</value></data>
+</root>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="lbl_status1.Text" xml:space="preserve"><value>9999 bps</value></data>
+  <data name="chk_rtcmmsg.Text" xml:space="preserve"><value>注入訊息類型</value></data>
+  <data name="chk_rtcmmsg.ToolTip" xml:space="preserve"><value>這取決於飛控的韌體版本。若可以，請保持啟用，因為新版訊息對資料損毀的處理能力較佳</value></data>
+  <data name="lbl_svin.Text" xml:space="preserve"><value>基站位置測定</value></data>
+  <data name="lbl_svin.ToolTip" xml:space="preserve"><value>基站位置測定資訊
+有效：測定結果是否有效
+進行中：是否正在測定目前位置
+持續時間：已測定的秒數
+觀測數：測定所使用的觀測次數
+精度：目前測定點的精度
+</value></data>
+  <data name="chk_autoconfig.Text" xml:space="preserve"><value>自動設定接收機</value></data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve"><value>自動將連接至所選連接埠的接收機設為輸出修正訊息。</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>連線時，接收機會開始「基站位置測定」，以確定精確的 GPS 位置。
+當 RTCM 基站位置不再變動時，即完成測定。
+依位置及訊號狀況，可能需要數分鐘。
+
+測定完成後即可使用。
+</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>RTCM 衛星系統設定</value></data>
+  <data name="label21.ToolTip" xml:space="preserve"><value>選擇接收機要輸出哪些衛星系統的修正資料。選擇越多系統，資料傳輸量越大。</value></data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve"><value>切換 Galileo RTCM 訊息輸出。</value></data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve"><value>切換 BeiDou RTCM 訊息輸出。</value></data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve"><value>切換 GLONASS RTCM 訊息輸出。</value></data>
+  <data name="chk_septentriogps.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve"><value>切換 GPS RTCM 訊息輸出。</value></data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve"><value>設定間隔</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>RTCM 訊息間隔 (s)</value></data>
+  <data name="label20.ToolTip" xml:space="preserve"><value>選擇接收機輸出 RTCM 訊息的頻率。數值越低，資料傳輸量越大。</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>RTCM 訊息詳細程度</value></data>
+  <data name="label19.ToolTip" xml:space="preserve"><value>選擇 RTCM 訊息的詳細程度。數值越高，資料傳輸量越大。</value></data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve"><value>精簡</value></data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve"><value>基本</value></data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve"><value>完整</value></data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve"><value>固定位置</value></data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve"><value>手動輸入基站天線的固定位置，取代接收機自動測定的位置，可提升修正資料的精度。
+</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>緯度 (WGS84)</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>經度 (WGS84)</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>高度 (m)</value></data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve"><value>設定位置</value></data>
+  <data name="but_restartsvin.Text" xml:space="preserve"><value>重新啟動</value></data>
+  <data name="but_restartsvin.ToolTip" xml:space="preserve"><value>儲存目前測定的基站位置</value></data>
+  <data name="chk_m8p_130p.Text" xml:space="preserve"><value>M8P 韌體 130+/F9P</value></data>
+  <data name="chk_m8p_130p.ToolTip" xml:space="preserve"><value>若基站與移動站皆使用 u-blox 1.30 或更新版韌體，請勾選此項</value></data>
+  <data name="but_save_basepos.Text" xml:space="preserve"><value>儲存目前位置</value></data>
+  <data name="but_save_basepos.ToolTip" xml:space="preserve"><value>儲存目前測定的基站位置</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>緯度/ECEFX</value></data>
+  <data name="Long.HeaderText" xml:space="preserve"><value>經度/ECEFY</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>高度/ECEFZ</value></data>
+  <data name="BaseName1.HeaderText" xml:space="preserve"><value>名稱</value></data>
+  <data name="Use.HeaderText" xml:space="preserve"><value>使用</value></data>
+  <data name="Delete.HeaderText" xml:space="preserve"><value>刪除</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>時間 (s)</value></data>
+  <data name="txt_surveyinAcc.ToolTip" xml:space="preserve"><value>基站位置測定精度門檻，誤差必須低於此值</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>測定精度 (m)</value></data>
+  <data name="label1.ToolTip" xml:space="preserve"><value>精度與持續時間必須同時符合條件，才能完成基站位置測定
+例如：精度誤差小於 2 公尺，且觀測時間超過 60 秒</value></data>
+  <data name="txt_surveyinDur.ToolTip" xml:space="preserve"><value>基站位置測定的最短時間，必須超過此值</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>基站位置測定</value></data>
+  <data name="label10.ToolTip" xml:space="preserve"><value>基站位置測定資訊
+有效：測定結果是否有效
+進行中：是否正在測定目前位置
+持續時間：已測定的秒數
+觀測數：測定所使用的觀測次數
+精度：目前測定點的精度
+</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>基站位置測定</value></data>
+  <data name="label7.ToolTip" xml:space="preserve"><value>基站位置測定資訊
+有效：測定結果是否有效
+進行中：是否正在測定目前位置
+持續時間：已測定的秒數
+觀測數：測定所使用的觀測次數
+精度：目前測定點的精度
+</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>基站位置測定</value></data>
+  <data name="label9.ToolTip" xml:space="preserve"><value>基站位置測定資訊
+有效：測定結果是否有效
+進行中：是否正在測定目前位置
+持續時間：已測定的秒數
+觀測數：測定所使用的觀測次數
+精度：目前測定點的精度
+</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>基站位置測定</value></data>
+  <data name="label8.ToolTip" xml:space="preserve"><value>基站位置測定資訊
+有效：測定結果是否有效
+進行中：是否正在測定目前位置
+持續時間：已測定的秒數
+觀測數：測定所使用的觀測次數
+精度：目前測定點的精度
+</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>基站位置測定</value></data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve"><value>自動設定選項</value></data>
+  <data name="chk_sendgga.Text" xml:space="preserve"><value>傳送 NTRIP GGA？(VRS/Smart)</value></data>
+  <data name="chk_sendgga.ToolTip" xml:space="preserve"><value>這取決於飛控的韌體版本。若可以，請保持啟用，因為新版訊息對資料損毀的處理能力較佳</value></data>
+  <data name="check_sendntripv1.Text" xml:space="preserve"><value>使用 NTRIP 1.0 協定傳送？</value></data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve"><value>部分舊版 NTRIP 轉送伺服器 (例如 RTKLIB) 不支援 NTRIP 2.0 協定。勾選此項以改用 1.0 協定</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>輸入資料率</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>輸出資料率</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>RTCM 基站 </value></data>
+  <data name="label6.Text" xml:space="preserve"><value>已收到的訊息</value></data>
+  <data name="labelmsgseen.Text" xml:space="preserve"><value>rtcm0000
+rtcm0000</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>基站</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>RTCM</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>連線狀態</value></data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve"><value>u-blox M8P/F9P</value></data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve"><value>Septentrio</value></data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve"><value>Unicore UM982</value></data>
+  <data name="BUT_connect.Text" xml:space="preserve"><value>連線</value></data>
+</root>

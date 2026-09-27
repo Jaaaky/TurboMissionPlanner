@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,21 +121,23 @@
     <value>Journal</value>
   </data>
   <data name="BUT_DLall.Text" xml:space="preserve">
-    <value>Charger les journaux</value>
+    <value>Télécharger tous les journaux</value>
   </data>
   <data name="BUT_redokml.Text" xml:space="preserve">
-    <value>Récréer KML</value>
+    <value>Recréer le KML</value>
   </data>
   <data name="BUT_DLthese.Text" xml:space="preserve">
-    <value>Charger ces journaux</value>
+    <value>Télécharger ces journaux</value>
   </data>
   <data name="BUT_clearlogs.Text" xml:space="preserve">
-    <value>Effacer journaux</value>
+    <value>Effacer les journaux</value>
   </data>
   <data name="BUT_firstperson.Text" xml:space="preserve">
-    <value>KML Première personne</value>
+    <value>KML en vue subjective</value>
   </data>
   <data name="BUT_dumpdf.Text" xml:space="preserve">
-    <value>(adv) Dump All DF</value>
+    <value>(avancé) Extraire tout DataFlash</value>
   </data>
+  <data name="TXT_seriallog.Text" xml:space="preserve"><value>Impossible d’effacer les journaux lorsque le drone est armé. Désarmez-le !</value></data>
+  <data name="BUT_bintolog.Text" xml:space="preserve"><value>.bin vers .log</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="chk_signing.Text" xml:space="preserve">
-    <value>İşarələmə</value>
+    <value>İmzalama</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Paketlər arasında maksimum vaxt (ms)</value>
@@ -127,21 +127,26 @@
     <value>Paketlər</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Baytlar</value>
+    <value>Bayt</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Ümumi Baytlar</value>
+    <value>Cəmi bayt</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Keyfiyyət</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Yükləmə</value>
+    <value>Göndər</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Paketlər/s</value>
+    <value>Paket/s</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Endir</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>Bayt/s</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>İtirilmiş paketlər</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Bayt/s</value></data>
+  <data name="chk_mavlink2.Text" xml:space="preserve"><value>MAVLink 2</value></data>
+  <data name="but_reset.Text" xml:space="preserve"><value>Sıfırla</value></data>
 </root>

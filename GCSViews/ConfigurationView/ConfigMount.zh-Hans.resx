@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -134,25 +134,25 @@
     <value>29, 12</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 12</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 12</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 12</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 20</value>
@@ -170,25 +170,25 @@
     <value>29, 12</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 12</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 12</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 12</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 20</value>
@@ -206,25 +206,25 @@
     <value>29, 12</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 12</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 12</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 12</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 20</value>
@@ -266,7 +266,7 @@
     <value>收回角度</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>中立角度</value>
+    <value>中位角度</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
     <value>控制角度</value>
@@ -275,13 +275,13 @@
     <value>72, 16</value>
   </data>
   <data name="CHK_stab_tilt.Text" xml:space="preserve">
-    <value>Tilt自稳</value>
+    <value>俯仰自稳</value>
   </data>
   <data name="CHK_stab_roll.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 16</value>
   </data>
   <data name="CHK_stab_roll.Text" xml:space="preserve">
-    <value>Roll自稳</value>
+    <value>横滚自稳</value>
   </data>
   <data name="CHK_stab_pan.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 16</value>
@@ -323,13 +323,13 @@
     <value>29, 12</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>最大</value>
+    <value>最大值</value>
   </data>
   <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
     <value>29, 12</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
-    <value>最小</value>
+    <value>最小值</value>
   </data>
   <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 20</value>
@@ -344,13 +344,24 @@
     <value>53, 28</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>持续时间
-(1/10秒)</value>
+    <value>持续时间（1/10 秒）</value>
   </data>
   <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 20</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
-    <value>请设置通道7为相机触发器</value>
+    <value>请将通道 7 选项设为相机触发</value>
   </data>
+  <data name="label5.Text" xml:space="preserve"><value>俯仰</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>横滚</value></data>
+  <data name="LNK_wiki.Text" xml:space="preserve"><value>帮助文档</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>水平旋转</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Z</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Y</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>X</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Z</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Y</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>X</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>类型</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>注意：云台类型将在下次重启飞控后生效</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,7 +121,7 @@
     <value>Pusulanin etkinlestirilmesi</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Dereceler</value>
+    <value>Derece</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Dakika</value>
@@ -130,15 +130,49 @@
     <value>Pusula</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
-    <value>Sapmayi bulun</value>
+    <value>Manyetik sapma web sitesi</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>YouTube ornegi</value>
+    <value>YouTube örneği</value>
   </data>
   <data name="BUT_MagCalibrationLive.Text" xml:space="preserve">
-    <value>Dogrudan kalibrasyon</value>
+    <value>Canlı kalibrasyon</value>
   </data>
   <data name="CHK_autodec.Text" xml:space="preserve">
-    <value>Otomatik sapma al</value>
+    <value>Manyetik sapmayı otomatik al</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>Parametreleri hızlıca yapılandırmak için cihaz seçin:</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Kalibrasyon başarısız olursa uyum eşiğini gevşet</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Uyum</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Manyetometre 3</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Manyetometre 2</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Manyetometre 1</value></data>
+  <data name="BUT_OBmagcalaccept.Text" xml:space="preserve"><value>Kabul et</value></data>
+  <data name="BUT_OBmagcalcancel.Text" xml:space="preserve"><value>İptal</value></data>
+  <data name="BUT_OBmagcalstart.Text" xml:space="preserve"><value>Başlat</value></data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve"><value>Araç üzerinde pusula kalibrasyonu</value></data>
+  <data name="groupBoxmpcalib.Text" xml:space="preserve"><value>Mission Planner pusula kalibrasyonu</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>VEYA</value></data>
+  <data name="LBL_primary_compass.Text" xml:space="preserve"><value>Birincil pusula:</value></data>
+  <data name="CHK_compass_learn.Text" xml:space="preserve"><value>Ofsetleri otomatik öğren</value></data>
+  <data name="groupBoxGeneralSettings.Text" xml:space="preserve"><value>Genel pusula ayarları</value></data>
+  <data name="LBL_compass1_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass1_offset.Text" xml:space="preserve"><value>OFSET</value></data>
+  <data name="CHK_compass1_external.Text" xml:space="preserve"><value>Harici montaj</value></data>
+  <data name="CHK_compass1_use.Text" xml:space="preserve"><value>Bu pusulayı kullan</value></data>
+  <data name="groupBoxCompass1.Text" xml:space="preserve"><value>Pusula #1</value></data>
+  <data name="LBL_compass2_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass2_offset.Text" xml:space="preserve"><value>OFSET</value></data>
+  <data name="CHK_compass2_external.Text" xml:space="preserve"><value>Harici montaj</value></data>
+  <data name="CHK_compass2_use.Text" xml:space="preserve"><value>Bu pusulayı kullan</value></data>
+  <data name="groupBoxCompass2.Text" xml:space="preserve"><value>Pusula #2</value></data>
+  <data name="LBL_compass3_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass3_offset.Text" xml:space="preserve"><value>OFSET</value></data>
+  <data name="CHK_compass3_external.Text" xml:space="preserve"><value>Harici montaj</value></data>
+  <data name="CHK_compass3_use.Text" xml:space="preserve"><value>Bu pusulayı kullan</value></data>
+  <data name="groupBoxCompass3.Text" xml:space="preserve"><value>Pusula #3</value></data>
+  <data name="buttonAPMExternal.Text" xml:space="preserve"><value>APM ve harici pusula</value></data>
+  <data name="QuickAPM25.Text" xml:space="preserve"><value>APM2.5 (dahili pusula)</value></data>
+  <data name="buttonQuickPixhawk.Text" xml:space="preserve"><value>Pixhawk/PX4</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>Büyük araç pusula kalibrasyonu</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>MAVLink vasitəsi ilə qoşulduqda yeni proqram təminatı yükləyə bilməzsiniz. Mövcud MAVLink sessiyasını sona çatdırmaq və firmware yükləmə ekranını aktivləşdirmək üçün yuxarı sağdakı Bağlantı düyməsini basın</value>
+    <value>MAVLink ilə qoşulu ikən yeni mikroproqram yükləyə bilməzsiniz. 
+
+Cari MAVLink sessiyasını bitirmək və mikroproqram yükləmə ekranını aktiv etmək üçün yuxarı sağdakı Bağlantını kəs düyməsini basın.</value>
   </data>
+  <data name="but_bootloaderupdate.Text" xml:space="preserve"><value>Yükləyicinin yenilənməsi</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Avadanlığınızdakı yükləyicini mövcud ən yeni versiyaya yeniləyin.</value></data>
 </root>

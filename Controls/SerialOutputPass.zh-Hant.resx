@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_connect.Text" xml:space="preserve"><value>連線</value></data>
+  <data name="chk_write.Text" xml:space="preserve"><value>寫入權限</value></data>
+  <data name="Type.HeaderText" xml:space="preserve"><value>類型</value></data>
+  <data name="Direction.HeaderText" xml:space="preserve"><value>方向</value></data>
+  <data name="Port.HeaderText" xml:space="preserve"><value>連接埠</value></data>
+  <data name="Extra.HeaderText" xml:space="preserve"><value>主機/鮑率</value></data>
+  <data name="Write.HeaderText" xml:space="preserve"><value>寫入</value></data>
+  <data name="Go.HeaderText" xml:space="preserve"><value>執行</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>序列輸出 - MAVLink</value></data>
+</root>

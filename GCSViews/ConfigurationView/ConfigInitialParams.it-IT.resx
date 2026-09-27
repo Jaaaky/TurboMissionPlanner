@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Per configurare un nuovo multicottero, occorre impostare alcuni parametri in base alla batteria e alle dimensioni delle eliche.
+Prima di inserire dati e aggiornare i parametri, verificare che:
+
+  -- TUTTE LE CONFIGURAZIONI INIZIALI SIANO COMPLETE (calibrazioni, telaio, test motori)
+  -- IL MONITORAGGIO DELLA TENSIONE BATTERIA SIA CONFIGURATO E FUNZIONANTE
+
+Nota: un valore di INS_GYRO_FILTER diverso da 20 è facoltativo e probabilmente utile solo per telai/eliche piccoli. Inizialmente è possibile mantenerlo a 20.</value></data>
+</root>

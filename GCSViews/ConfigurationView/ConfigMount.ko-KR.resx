@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -235,7 +235,7 @@
     <value>64</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>상하 이동</value>
+    <value>틸트</value>
   </data>
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
@@ -268,7 +268,7 @@
     <value>65</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>회전</value>
+    <value>롤</value>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
@@ -334,7 +334,7 @@
     <value>80</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>좌우 이동</value>
+    <value>팬</value>
   </data>
   <data name="&gt;&gt;label15.Name" xml:space="preserve">
     <value>label15</value>
@@ -1591,7 +1591,7 @@
     <value>129</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>Z축</value>
+    <value>Z</value>
   </data>
   <data name="&gt;&gt;label27.Name" xml:space="preserve">
     <value>label27</value>
@@ -1645,7 +1645,7 @@
     <value>127</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>Y축</value>
+    <value>Y</value>
   </data>
   <data name="&gt;&gt;label26.Name" xml:space="preserve">
     <value>label26</value>
@@ -1696,7 +1696,7 @@
     <value>125</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>X축</value>
+    <value>X</value>
   </data>
   <data name="&gt;&gt;label25.Name" xml:space="preserve">
     <value>label25</value>
@@ -1744,7 +1744,7 @@
     <value>137</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>수축각</value>
+    <value>수납 각도</value>
   </data>
   <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
     <value>groupBox4</value>
@@ -1774,7 +1774,7 @@
     <value>129</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>Z축</value>
+    <value>Z</value>
   </data>
   <data name="&gt;&gt;label28.Name" xml:space="preserve">
     <value>label28</value>
@@ -1828,7 +1828,7 @@
     <value>127</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
-    <value>Y축</value>
+    <value>Y</value>
   </data>
   <data name="&gt;&gt;label29.Name" xml:space="preserve">
     <value>label29</value>
@@ -1882,7 +1882,7 @@
     <value>125</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>X축</value>
+    <value>X</value>
   </data>
   <data name="&gt;&gt;label30.Name" xml:space="preserve">
     <value>label30</value>
@@ -2146,7 +2146,7 @@
     <value>139</value>
   </data>
   <data name="CHK_stab_tilt.Text" xml:space="preserve">
-    <value>상하 이동 안정</value>
+    <value>틸트 안정화</value>
   </data>
   <data name="&gt;&gt;CHK_stab_tilt.Name" xml:space="preserve">
     <value>CHK_stab_tilt</value>
@@ -2179,7 +2179,7 @@
     <value>140</value>
   </data>
   <data name="CHK_stab_roll.Text" xml:space="preserve">
-    <value>좌우 요동 안정</value>
+    <value>롤 안정화</value>
   </data>
   <data name="&gt;&gt;CHK_stab_roll.Name" xml:space="preserve">
     <value>CHK_stab_roll</value>

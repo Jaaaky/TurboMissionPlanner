@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>روش استفاده:
+۱. همهٔ پهپادها، از جمله رهبرها، را متصل کنید (روی نوار نمادهای بالا راست‌کلیک و «گزینه‌های اتصال» را انتخاب کنید).
+۲. وسیلهٔ درست را انتخاب کنید و تنظیم رهبر زمینی را بزنید.
+۳. پرندهٔ درست را انتخاب کنید و تنظیم رهبر هوایی را بزنید.
+۴. مسیر را در پهپاد رهبر هوایی بارگذاری کنید.
+۵. فاصلهٔ جدایی و گزینه‌های پیشروی را تنظیم کنید.
+۶. صبر کنید موقعیت GPS همهٔ پهپادها تثبیت شود و کالیبراسیون را انجام دهید. (در غیر این صورت ممکن است بررسی‌های پیش از مسلح شدن رد شوند؛ برای عملکرد روان می‌توانید این موارد را از قبل آزمایش کنید.)
+۷. مطمئن شوید رهبر زمینی آماده و در مسیر پرواز منتظر است.
+۸. شروع را بزنید.</value></data>
+</root>

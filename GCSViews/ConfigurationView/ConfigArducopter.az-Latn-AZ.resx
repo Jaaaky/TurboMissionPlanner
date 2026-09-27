@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,51 +118,123 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label13.Text" xml:space="preserve">
-    <value>SürətDn</value>
+    <value>Enmə sürəti</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Sürət</value>
+    <value>Sürət </value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>Sürətlənmək</value>
+    <value>Qalxma sürəti</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>Hündürlüyü saxlamaqla (Kalibrə)</value>
+    <value>Hündürlük saxlama (hündürlükdən qalxma sürətinə)</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Sürət XY (Vel to Accel)</value>
+    <value>XY sürəti (sürətdən təcilə)</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Loiter Sürət</value>
+    <value>Mövqe saxlama sürəti</value>
   </data>
   <data name="groupBox19.Text" xml:space="preserve">
-    <value>Mövqe XY (Sürət məsafəsi)</value>
+    <value>XY mövqeyi (məsafədən sürətə)</value>
   </data>
   <data name="groupBox24.Text" xml:space="preserve">
-    <value>Pitch dərəcəsi</value>
+    <value>Tanqaj bucaq sürəti</value>
   </data>
   <data name="groupBox25.Text" xml:space="preserve">
-    <value>Fırlanma dərəcəsi</value>
+    <value>Kren bucaq sürəti</value>
   </data>
   <data name="groupBox20.Text" xml:space="preserve">
-    <value>Stabilləşdirin Yaw (Dərəcə Xatası)</value>
+    <value>Kurs sabitləşdirməsi (xətadan bucaq sürətinə)</value>
   </data>
   <data name="groupBox21.Text" xml:space="preserve">
-    <value>Stabilləşdirin Pitch (Dərəcə Xatas)</value>
+    <value>Tanqaj sabitləşdirməsi (xətadan bucaq sürətinə)</value>
   </data>
   <data name="groupBox22.Text" xml:space="preserve">
-    <value>Stabilləşdirin Roll (Dərəcə Xatas)</value>
+    <value>Kren sabitləşdirməsi (xətadan bucaq sürətinə)</value>
   </data>
   <data name="CHK_lockrollpitch.Text" xml:space="preserve">
-    <value>Pitch və Roll dəyərlərini kilitlə</value>
+    <value>Tanqaj və kren dəyərlərini əlaqələndir</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Parametrləri Yaz</value>
+    <value>Parametrləri yaz</value>
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
-    <value>Ekranı yeniləyin</value>
+    <value>Ekranı yenilə</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Ekranı yeniləyin</value>
+    <value>Parametrləri yenilə</value>
   </data>
+  <data name="label25.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Qaz sürəti (şaquli sürətdən təcilə)</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Radius</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>WPNav (sm)</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>GİRİŞ TC</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>MAKS. TƏCİL</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>MAKS. TƏCİL</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>MAKS. TƏCİL</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>FLTE</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label47.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label77.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label82.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox23.Text" xml:space="preserve"><value>Kurs bucaq sürəti</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>FLTE</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label84.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label86.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label87.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="P_FLTD.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>FLTE</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label88.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label90.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label91.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>P</value></data>
+  <data name="myLabel3.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="myLabel2.Text" xml:space="preserve"><value>Sazla</value></data>
+  <data name="myLabel1.Text" xml:space="preserve"><value>RC7 seçimi</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Qaz təcili (təcildən mühərrikə)</value></data>
+  <data name="myLabel4.Text" xml:space="preserve"><value>RC8 seçimi</value></data>
+  <data name="myLabel5.Text" xml:space="preserve"><value>RC9 seçimi</value></data>
+  <data name="myLabel6.Text" xml:space="preserve"><value>RC10 seçimi</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Akselerometr</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Giroskop</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Əsas filtrlər</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>Harmoniklər</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>Seçimlər</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>Zolaq eni</value></data>
+  <data name="label48.Text" xml:space="preserve"><value>Zəifləmə</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>Tezlik</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>İstinad</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>Rejim</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>Aktivdir</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>Harmonik çentik filtri</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Zəifləmə</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Zolaq eni</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Tezlik</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Aktivdir</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>Sabit çentik filtri</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Seçimlər</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>Maska</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>Jurnalları filtrlə</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>RC6 seçimi</value></data>
+  <data name="lblUnitWarning.Text" xml:space="preserve"><value>Uyğunluğu pozan dəyişiklik xəbərdarlığı</value></data>
 </root>

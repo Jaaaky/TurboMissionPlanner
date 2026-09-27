@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="lbl_status.Text" xml:space="preserve"><value>ھالەت</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>رەسىملەر: Max Levine</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>«ئۇچۇش نەشرلىرى» ئۈچۈن ئۈستىدىكى رەسىملەرنى چېكىڭ</value></data>
+  <data name="CMB_history_label.Text" xml:space="preserve"><value>ئالدىنقى مۇقىم دېتالنى تاللاش</value></data>
+  <data name="lbl_Custom_firmware_label.Text" xml:space="preserve"><value>خاس مۇقىم دېتال يۈكلەش</value></data>
+  <data name="lbl_devfw.Text" xml:space="preserve"><value>سىناق مۇقىم دېتاللىرى</value></data>
+  <data name="lbl_dlfw.Text" xml:space="preserve"><value>مۇقىم دېتاللارنى چۈشۈرۈش</value></data>
+  <data name="lbl_px4bl.Text" xml:space="preserve"><value>قوزغىتىش يۈكلىگۈچىنى مەجبۇرىي قوزغىتىش</value></data>
+  <data name="lbl_licence.Text" xml:space="preserve"><value>ArduPilot ئەركىن يۇمشاق دېتال. ئوچۇق كودلۇق مۇقىم دېتال ئىجازەتنامىسىنى ئوقۇش ئۈچۈن بۇ يەرنى چېكىڭ.</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>كۆپ پىرقىرىغۇچلۇق ئۇچقۇ موتور تەڭشىكى</value></data>
+</root>

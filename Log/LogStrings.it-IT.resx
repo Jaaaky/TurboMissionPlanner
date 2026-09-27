@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>È in corso il download di un file di log. Annullarlo?</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>Confermare l'operazione?</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>Creazione KML per {0}</value></data>
+  <data name="Done" xml:space="preserve"><value>Fine</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>Download dei file di log in: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>Attendere 30-90 secondi per la cancellazione</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>Errore durante l'elaborazione del file. Verificare che non sia in uso</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>Recupero del file di log {0}...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>Recupero dell'elenco dei file di log...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>Impossibile creare la cartella dei log: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>Nessun log da scaricare</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>Connettere il drone</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>Selezionare i log tramite le caselle nell'elenco</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>Elaborazione di {0}</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>Trovati {0} file di log. Nota: le dimensioni indicate sono stimate.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>Errore:</value></data>
+</root>

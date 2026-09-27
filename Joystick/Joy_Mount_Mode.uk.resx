@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Retract: підтягнути точку монтування для передустановок
-нейтралізованих: завантажувати позицію за замовчуванням
-Mavlink_targeting: вказівник на заново проксі, тон, yaw
-rc_targeting: використовуйте rc канали для керування віссю
-gps_poin: використовується для відслідковування однієї точки землі</value>
+    <value>Retract: перевести підвіс у задане складене положення
+Neutral: установити типове положення, наприклад уперед
+Mavlink_targeting: навести за отриманими кутами крену, тангажу й рискання
+rc_targeting: керувати осями каналами радіокерування
+gps_point: відстежувати одну точку на землі</value>
   </data>
 </root>

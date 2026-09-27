@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Utilizzo:
+1. Connettere tutti i droni, inclusi i capofila (clic destro sulla barra delle icone in alto, «Opzioni connessione»).
+2. Selezionare il veicolo corretto e impostarlo come capofila a terra.
+3. Selezionare il veicolo corretto e impostarlo come capofila in volo.
+4. Caricare il percorso sul drone capofila in volo.
+5. Impostare le opzioni di separazione e anticipo.
+6. Attendere che tutti i droni acquisiscano il fix GPS e completarne la calibrazione. In caso contrario, potrebbero non superare i controlli pre-armamento; verificarli in anticipo per garantire un funzionamento regolare.
+7. Assicurarsi che il capofila a terra sia pronto e in attesa sul percorso di volo.
+8. Fare clic su Avvia.</value></data>
+</root>

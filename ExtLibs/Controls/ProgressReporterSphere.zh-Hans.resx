@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -125,18 +125,20 @@
     <value>120, 16</value>
   </data>
   <data name="CHK_rotate.Text" xml:space="preserve">
-    <value>同每个数据点旋转</value>
+    <value>随每个数据点旋转</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>305, 72</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>以白点为瞄准目标。
-请将自动驾驶仪指向北方，然后绕俯仰轴旋转直至水平。
+    <value>请对准白点。
+将飞控朝向北方，绕俯仰轴旋转，
+直至恢复水平。
 然后
-将自动驾驶仪旋转90度，然后绕横滚轴旋转直至水平。
+将飞控转动 90 度，绕横滚轴旋转，
+直至恢复水平。
 
-这个方法应该会命中每一个白点。</value>
+按此方法应能覆盖所有白点。</value>
   </data>
   <data name="chk_auto.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 16</value>

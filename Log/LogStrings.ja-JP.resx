@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>ログファイルのダウンロード中です。キャンセルしますか？</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>実行してよろしいですか？</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>{0} のKMLを生成中</value></data>
+  <data name="Done" xml:space="preserve"><value>完了</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>ログのダウンロード先：{0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>消去には30～90秒かかります</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>ファイル処理エラー。ほかで使用中でないことを確認してください</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>ログファイル {0} を取得中...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>ログファイル一覧を取得中...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>ログ保存フォルダーを作成できませんでした：{0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>ダウンロードできるログはありません</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>機体を接続してください</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>一覧のチェックボックスでログを選択してください</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>{0} を処理中</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>ログファイルが {0} 件見つかりました。サイズは概算です。</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>エラー：</value></data>
+</root>
