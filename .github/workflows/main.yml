@@ -75,6 +75,12 @@ jobs:
           elseif ((Get-PeMachine $skiaArm) -ne 0xAA64) { $fail += "$skiaArm is not an ARM64 image" }
           if (-not (Test-Path (Join-Path $out 'lib\os.py'))) { $fail += "missing lib\os.py (IronPython stdlib)" }
           if (-not (Test-Path (Join-Path $out 'MissionPlanner.exe'))) { $fail += "missing MissionPlanner.exe" }
+          foreach ($t in 'Arabic','SC','TC','JP','KR') {
+            foreach ($w in 'Regular','Bold') {
+              if (-not (Test-Path (Join-Path $out "Fonts\TurboSans$t-$w.ttf"))) { $fail += "missing Fonts\TurboSans$t-$w.ttf" }
+            }
+          }
+          if (-not (Test-Path (Join-Path $out 'Fonts\LICENSE.txt'))) { $fail += "missing Fonts\LICENSE.txt (font license)" }
           if ($fail.Count -gt 0) { $fail | ForEach-Object { Write-Host "::error::$_" }; exit 1 }
           Write-Host "Release artifacts OK"
 
