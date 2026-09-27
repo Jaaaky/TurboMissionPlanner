@@ -392,7 +392,10 @@ namespace GMap.NET.MapProviders
             return response.ContentType.Contains(responseContentType);
         }
 
-        HttpClient client = new HttpClient();
+        // Fork: 10 s, not HttpClient's default 100 s. On a captive or dead
+        // network every tile worker waited 100 s per request, so even fully
+        // cached areas stayed blank behind them. Must be set before first use.
+        HttpClient client = new HttpClient { Timeout = TimeSpan.FromSeconds(10) };
 
         protected PureImage GetTileImageUsingHttp(string url)
         {
