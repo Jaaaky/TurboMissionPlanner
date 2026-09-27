@@ -1286,18 +1286,12 @@ namespace MissionPlanner.Log
             }
             else
             {
-                List<Tuple<DFLog.DFItem, double>> list1 = null;
-                try
-                {
-                    list1 = TestPython(dflog, logdata, type.Replace(":2", ""));
-                }
-                catch (Exception ex)
-                {
-                    log.Error(ex);
-                }
-
-                if (list1 == null)
-                    list1 = DFLogScript.ProcessExpression(dflog, logdata, type);
+                // Fork: TestPython built a fresh debug IronPython engine (loading
+                // every assembly) per curve, then always failed: its script uses
+                // Python 2 print statements, which IronPython 3 rejects at parse
+                // time. DFLogScript already produced every result, so call it
+                // directly and skip the per-curve UI freeze.
+                List<Tuple<DFLog.DFItem, double>> list1 = DFLogScript.ProcessExpression(dflog, logdata, type);
                 var newlist = new PointPairList();
                 list1.ForEach(a =>
                 {
