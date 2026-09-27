@@ -213,7 +213,13 @@ namespace MissionPlanner.Comms
             {
                 var allPorts = new List<string>();
 
-                if (Directory.Exists("/dev/"))
+                // Fork: not on Windows. Under Wine "/dev/" resolves on the Z:
+                // drive, but the Microsoft SerialPort only opens COM names, so
+                // every /dev entry was listed yet could never connect. Mono on
+                // Linux/macOS reports Unix, so it still scans. This also skips
+                // the full GC.Collect() below, which under Wine ran on every
+                // enumeration (each port drop-down click) while holding the lock.
+                if (Environment.OSVersion.Platform != PlatformID.Win32NT && Directory.Exists("/dev/"))
                 {
                     // cleanup now
                     GC.Collect();
