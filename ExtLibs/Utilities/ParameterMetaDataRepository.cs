@@ -20,8 +20,26 @@ namespace MissionPlanner.Utilities
         // sequential). Swap to ConcurrentDictionary -- lock-free reads,
         // no eviction needed since the param metadata is bounded and
         // immutable for the life of the process.
-        private static readonly ConcurrentDictionary<string, string> _cache =
+        // Fork patch: replaced (not cleared) by ClearCache. Each lookup
+        // captures the instance it started with and publishes into it, so an
+        // answer computed from the old metadata lands in the discarded
+        // instance and is never visible after the swap.
+        private static ConcurrentDictionary<string, string> _cache =
             new ConcurrentDictionary<string, string>(StringComparer.Ordinal);
+
+        /// <summary>
+        /// Fork patch: drop every cached answer (hits and misses) and the
+        /// pre-composed display strings. Call whenever the underlying
+        /// metadata documents change (reset, versioned download), otherwise
+        /// the process keeps serving the old descriptions, ranges and
+        /// options until restart.
+        /// </summary>
+        public static void ClearCache()
+        {
+            System.Threading.Volatile.Write(ref _cache,
+                new ConcurrentDictionary<string, string>(StringComparer.Ordinal));
+            ParamDisplayCache.Invalidate();
+        }
 
         /// <summary>
         /// Gets the parameter meta data.
@@ -32,14 +50,15 @@ namespace MissionPlanner.Utilities
         public static string GetParameterMetaData(string nodeKey, string metaKey, string vechileType)
         {
             var key = nodeKey + "" + metaKey + "" + vechileType;
-            if (_cache.TryGetValue(key, out var cached))
+            var cache = System.Threading.Volatile.Read(ref _cache);
+            if (cache.TryGetValue(key, out var cached))
                 return cached;
 
             if (vechileType == "PX4")
             {
                 var px = ParameterMetaDataRepositoryPX4.GetParameterMetaData(nodeKey, metaKey, vechileType);
                 if (!string.IsNullOrEmpty(px))
-                    _cache.TryAdd(key, px);
+                    cache.TryAdd(key, px);
                 return px ?? string.Empty;
             }
 
@@ -54,7 +73,7 @@ namespace MissionPlanner.Utilities
             // Cache both hits AND misses. Caching misses is critical because
             // the lookup just walked four fallback repositories; without
             // this, every miss does the full four-repo retry on every call.
-            _cache.TryAdd(key, answer);
+            cache.TryAdd(key, answer);
             return answer;
         }
 

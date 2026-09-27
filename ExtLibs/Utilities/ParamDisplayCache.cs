@@ -60,6 +60,33 @@ namespace MissionPlanner.Utilities
         }
 
         /// <summary>
+        /// Fork patch: forget the pre-composed strings (the metadata changed).
+        /// Bumping the generation also stops an in-flight warm-up from
+        /// committing strings it composed from the old metadata. Lookups fall
+        /// back to live metadata until the rebuild (from the last requested
+        /// parameter set, if any) completes.
+        /// </summary>
+        public static void Invalidate()
+        {
+            string firmware;
+            string[] names;
+            lock (_gate)
+            {
+                ++_warmGen;
+                Volatile.Write(ref _cache, null);
+                Volatile.Write(ref _cacheFirmware, null);
+                Volatile.Write(ref _cacheParamCount, 0);
+                firmware = _lastFirmware;
+                names = _lastNames;
+            }
+            if (firmware != null && names != null)
+                TriggerWarm(firmware, names);
+        }
+
+        private static string _lastFirmware;
+        private static string[] _lastNames;
+
+        /// <summary>
         /// Kick off (or restart) the background warm-up. Safe to call from
         /// any thread. Coalesces rapid back-to-back calls via _warmGen.
         /// </summary>
@@ -75,6 +102,8 @@ namespace MissionPlanner.Utilities
             lock (_gate)
             {
                 gen = ++_warmGen;
+                _lastFirmware = firmware;
+                _lastNames = snap;
             }
 
             // Run on the thread pool. Cheap if cache is already hot for this
@@ -130,11 +159,16 @@ namespace MissionPlanner.Utilities
                     processed++;
                 }
 
-                // Commit only if we're still the active generation.
-                if (myGen != Volatile.Read(ref _warmGen)) return;
-                Volatile.Write(ref _cache, dst);
-                Volatile.Write(ref _cacheFirmware, firmware);
-                Volatile.Write(ref _cacheParamCount, names.Length);
+                // Commit only if we're still the active generation. Under the
+                // gate so Invalidate cannot slip between the check and the
+                // writes (that would publish strings from old metadata).
+                lock (_gate)
+                {
+                    if (myGen != _warmGen) return;
+                    Volatile.Write(ref _cache, dst);
+                    Volatile.Write(ref _cacheFirmware, firmware);
+                    Volatile.Write(ref _cacheParamCount, names.Length);
+                }
                 log.InfoFormat("ParamDisplayCache warmed: fw={0} params={1} enriched={2}",
                     firmware, names.Length, dst.Count);
             }
