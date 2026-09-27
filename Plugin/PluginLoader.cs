@@ -90,6 +90,9 @@ namespace MissionPlanner.Plugin
                 lowercaseName == "extguided.dll" ||
                 lowercaseName == "missionplanner.stats.dll" ||
                 lowercaseName == "missionplanner.simplegrid.dll" ||
+                // Fork: the "missionplanner.gridv2" dep prefix also caught
+                // the Survey (Grid) v2 plugin itself, so it could never load.
+                lowercaseName == "missionplanner.gridv2.dll" ||
                 lowercaseName == "tlogthumbnailhandler.dll")
                 return false;
 

@@ -3484,6 +3484,16 @@ namespace MissionPlanner
                         log.Info("Plugin fork defaults applied: " + disabled.Count + " disabled (all-off)");
                     }
 
+                    // Fork v0.3.0: Gridv2 used to be misclassified as a
+                    // dependency DLL, so the seed above never listed it. Now
+                    // that it can load, keep it off for existing profiles too
+                    // (all-off default). Own marker: do not re-run the seed.
+                    if (Settings.Instance["PluginsForkGridv2Off_v1"] == null)
+                    {
+                        Settings.Instance.AppendList("DisabledPlugins", "missionplanner.gridv2.dll");
+                        Settings.Instance["PluginsForkGridv2Off_v1"] = "true";
+                    }
+
                     // Phase 10p fork: seed privacy-respecting defaults if not
                     // already explicitly set by the user. analyticsoptout=true
                     // means Tracking is opted out (no Google Analytics page
