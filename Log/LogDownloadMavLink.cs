@@ -216,15 +216,22 @@ namespace MissionPlanner.Log
             // make log dir
             Directory.CreateDirectory(Path.GetDirectoryName(logfile));
 
+            // Fork: never overwrite or collide with an existing log. The
+            // "<no> <time>.bin" name repeats after an erase (ids restart), so
+            // the move failed, the new log stayed in %TEMP% and the OLD file
+            // was parsed and renamed below as if it were the new one.
+            logfile = UniqueFileName(logfile);
             log.Info("about to move " + fn + " to: " + logfile);
             try
             {
                 File.Move(fn, logfile);
             }
-            catch
+            catch (Exception ex)
             {
-                CustomMessageBox.Show(Strings.ErrorRenameFile + " " + logfile + "\nto " + logfile,
+                CustomMessageBox.Show(Strings.ErrorRenameFile + " " + fn + "\nto " + logfile + "\n" + ex.Message,
                     Strings.ERROR);
+                // keep working on the downloaded file where it is
+                logfile = fn;
             }
 
             // rename file if needed
@@ -244,6 +251,7 @@ namespace MissionPlanner.Log
                                                                  + MainV2.comPort.MAV.sysid +
                                                                  Path.DirectorySeparatorChar +
                                                                  logtime.ToString("yyyy-MM-dd HH-mm-ss") + ".bin";
+                newlogfilename = UniqueFileName(newlogfilename);
                 try
                 {
                     File.Move(logfile, newlogfilename);
@@ -282,6 +290,25 @@ namespace MissionPlanner.Log
             }
 
             base.OnClosing(e);
+        }
+
+        /// <summary>
+        /// Fork: "name.bin", or "name (1).bin", "name (2).bin"... whichever
+        /// does not exist yet.
+        /// </summary>
+        private static string UniqueFileName(string path)
+        {
+            if (!File.Exists(path))
+                return path;
+            var dir = Path.GetDirectoryName(path);
+            var stem = Path.GetFileNameWithoutExtension(path);
+            var ext = Path.GetExtension(path);
+            for (int i = 1; ; i++)
+            {
+                var candidate = Path.Combine(dir, stem + " (" + i + ")" + ext);
+                if (!File.Exists(candidate))
+                    return candidate;
+            }
         }
 
         private string MakeValidFileName(string fileName)
