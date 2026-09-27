@@ -488,8 +488,8 @@ namespace MissionPlanner
         /// <summary>
         /// Phase 10p5 fork: callable from any thread once getParamList(...)
         /// returns. If the user is currently sitting on HWConfig or SWConfig
-        /// it re-fires ShowScreen, which triggers IActivate.Activate ->
-        /// state-divergence check -> RebuildPages with gotAllParams=true.
+        /// it re-fires ShowScreen, which recreates the (non-persistent)
+        /// screen so its page list is rebuilt with gotAllParams=true.
         /// Without this the connection + params-required tabs (Servo Output,
         /// Compass, Mandatory Hardware, ...) stay built from the empty-param
         /// rebuild that fired the moment the connection opened.
@@ -1855,7 +1855,11 @@ namespace MissionPlanner
                         else
                         {
                             comPort.getParamList();
-                            TriggerPostParamsRefresh();
+                            // The showui path below already re-shows the
+                            // Config screen; a second rebuild costs a full
+                            // screen recreate now that it is non-persistent.
+                            if (!showui)
+                                TriggerPostParamsRefresh();
                         }
                     }
                     // Phase 10n fork: kick off ParamDisplayCache warm-up
@@ -3368,14 +3372,13 @@ namespace MissionPlanner
             MissionPlanner.Utilities.Profiler.Mark("AddScreen:FlightPlanner:begin");
             MyView.AddScreen(new MainSwitcher.Screen("FlightPlanner", FlightPlanner, true));
             MissionPlanner.Utilities.Profiler.Mark("AddScreen:HWConfig:begin");
-            // Phase 10h fork: persistent=true so the InitialSetup +
-            // SoftwareConfig instances and their inner BackstageView pages
-            // stay alive across tab switches. Wine pays ~2.5-3 s in
-            // Win32 CreateWindowEx per sub-page on first show; without
-            // persistence every Config-tab visit re-pays the full cost.
-            MyView.AddScreen(new MainSwitcher.Screen("HWConfig", typeof(GCSViews.InitialSetup), true));
+            // Fork v0.3.0: back to upstream's non-persistent Setup/Config
+            // screens. Persistent hosts kept inner pages alive across visits
+            // and vehicles, and many pages read MAV.param only once, so they
+            // showed stale values. Each visit now builds a fresh instance.
+            MyView.AddScreen(new MainSwitcher.Screen("HWConfig", typeof(GCSViews.InitialSetup), false));
             MissionPlanner.Utilities.Profiler.Mark("AddScreen:SWConfig:begin");
-            MyView.AddScreen(new MainSwitcher.Screen("SWConfig", typeof(GCSViews.SoftwareConfig), true));
+            MyView.AddScreen(new MainSwitcher.Screen("SWConfig", typeof(GCSViews.SoftwareConfig), false));
             MissionPlanner.Utilities.Profiler.Mark("AddScreen:rest:begin");
             // Phase 9 fork: only register Simulation when the user opted in
             // via the PluginManager (Settings.disable_simulation = false).
@@ -3588,37 +3591,6 @@ namespace MissionPlanner
                 log.Error(ex);
             }
             MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:SerialReader:done");
-
-            // Phase 10h fork: pre-construct the heavy Config tabs in the
-            // background. FlightData is already on screen by now; user sees
-            // it and starts orienting. Meanwhile we chain one preload per
-            // BeginInvoke so the UI stays responsive: user clicks always win
-            // over the preload queue (regular WM messages preempt). Each
-            // preload runs the full ctor + handle cascade for that screen
-            // (the 2.5-3s Wine bottleneck) ONCE, then ShowScreen later only
-            // toggles Visible. SoftwareConfig also kicks off BackstageView
-            // prewarm of its sub-pages once loaded.
-            this.BeginInvoke((Action) delegate
-            {
-                try
-                {
-                    MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:preload-SWConfig:begin");
-                    bool created = MyView.PreloadScreen("SWConfig");
-                    MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:preload-SWConfig:done (created=" + created + ")");
-                }
-                catch (Exception ex) { log.Warn("Preload SWConfig: " + ex.Message); }
-
-                this.BeginInvoke((Action) delegate
-                {
-                    try
-                    {
-                        MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:preload-HWConfig:begin");
-                        bool created = MyView.PreloadScreen("HWConfig");
-                        MissionPlanner.Utilities.Profiler.Mark("MainV2.Load:preload-HWConfig:done (created=" + created + ")");
-                    }
-                    catch (Exception ex) { log.Warn("Preload HWConfig: " + ex.Message); }
-                });
-            });
 
             log.Info("start adsbsender");
             try

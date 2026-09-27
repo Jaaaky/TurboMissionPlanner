@@ -224,6 +224,9 @@ namespace MissionPlanner.GCSViews.ConfigurationView
                 }
             }
 
+            // Fork: Activate runs on every visit to this page; unsubscribe
+            // first so the handler is attached once, not once per visit.
+            _timer.Tick -= timer_Tick;
             _timer.Tick += timer_Tick;
 
             _timer.Enabled = true;

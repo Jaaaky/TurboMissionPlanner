@@ -153,49 +153,12 @@ namespace MissionPlanner.GCSViews
             return null;
         }
 
-        // Phase 10p fork: track what state we built the page list for. On
-        // Windows the preload path fires Load while DISCONNECTED, building
-        // the Setup tab with most `isConnected && gotAllParams` filters
-        // false -> page list nearly empty -> tab appears blank when the
-        // user clicks it after vehicle connect. Activate now compares
-        // current state and rebuilds if diverged. Wine masks the bug
-        // because OnLoad doesn't reliably fire during off-screen preload
-        // there, so Load runs at click-time with the right state.
-        private bool? _builtForConnected;
-        private Firmwares _builtForFirmware;
-        private bool _builtForGotAllParams;
-
+        // Fork v0.3.0: the screen is non-persistent again (a fresh instance
+        // per visit), so the page list is built exactly once, in Load.
+        // MainSwitcher calls Activate before the control is parented, so
+        // building here too would build every visit twice.
         public void Activate()
         {
-            try
-            {
-                bool nowConnected = MainV2.comPort.BaseStream != null && MainV2.comPort.BaseStream.IsOpen;
-                Firmwares nowFw = nowConnected ? MainV2.comPort.MAV.cs.firmware : Firmwares.PX4;
-                bool nowGotParams = gotAllParams;
-                var msg = string.Format("InitialSetup.Activate: now=({0},{1},{2}) built=({3},{4},{5}) pages={6}",
-                    nowConnected, nowFw, nowGotParams,
-                    _builtForConnected, _builtForFirmware, _builtForGotAllParams,
-                    backstageView.Pages.Count);
-                // Phase 10p6 fork: bug fixed in 10p5; downgrade trace verbosity
-                // to Debug so it stops polluting the default WARN-level log.
-                // Profiler.Mark still fires so MP_PROFILER=1 catches it.
-                log.Debug(msg);
-                MissionPlanner.Utilities.Profiler.Mark(msg);
-                if (_builtForConnected == nowConnected
-                    && _builtForFirmware == nowFw
-                    && _builtForGotAllParams == nowGotParams
-                    && backstageView.Pages.Count > 0)
-                {
-                    log.Debug("InitialSetup.Activate: SKIP rebuild - state unchanged");
-                    return;
-                }
-                log.Debug("InitialSetup.Activate: state diverged, calling RebuildPages");
-                RebuildPages();
-            }
-            catch (Exception ex)
-            {
-                log.Warn("InitialSetup.Activate rebuild check exception: " + ex);
-            }
         }
 
         private void HardwareConfig_Load(object sender, EventArgs e)
@@ -210,20 +173,16 @@ namespace MissionPlanner.GCSViews
 
         private void RebuildPages()
         {
-            // Phase 10p fork: extracted from HardwareConfig_Load so Activate
-            // can re-run the page build when connection state changes. Uses
-            // BackstageView.SoftReset (Phase 10o) so existing Page Controls
-            // are reused on rebuild instead of disposed + reconstructed.
+            // Phase 10p fork: extracted from HardwareConfig_Load. The reset
+            // is a no-op on a fresh instance; it guards a repeated Load.
             try { backstageView.SoftReset(); }
             catch (Exception ex) { log.Warn("InitialSetup SoftReset: " + ex.Message); }
 
             ResourceManager rm = new ResourceManager(this.GetType());
 
-            _builtForConnected = MainV2.comPort.BaseStream != null && MainV2.comPort.BaseStream.IsOpen;
-            _builtForFirmware = _builtForConnected.Value ? MainV2.comPort.MAV.cs.firmware : Firmwares.PX4;
-            _builtForGotAllParams = gotAllParams;
+            bool builtForConnected = MainV2.comPort.BaseStream != null && MainV2.comPort.BaseStream.IsOpen;
             var buildMsg = string.Format("InitialSetup.RebuildPages BUILDING: connected={0} firmware={1} gotAllParams={2}",
-                _builtForConnected, _builtForFirmware, _builtForGotAllParams);
+                builtForConnected, builtForConnected ? MainV2.comPort.MAV.cs.firmware : Firmwares.PX4, gotAllParams);
             log.Debug(buildMsg);
             MissionPlanner.Utilities.Profiler.Mark(buildMsg);
 
@@ -475,14 +434,6 @@ namespace MissionPlanner.GCSViews
             }
 
             ThemeManager.ApplyThemeTo(this);
-
-            // Phase 10g fork: pre-construct every sub-page on the message
-            // pump so subsequent clicks don't pay handle-creation cost.
-            this.BeginInvoke((Action) delegate
-            {
-                try { backstageView.PrewarmAllAsync(); }
-                catch (Exception ex) { log.Warn("HWConfig prewarm: " + ex.Message); }
-            });
         }
 
         private void HardwareConfig_FormClosing(object sender, FormClosingEventArgs e)
