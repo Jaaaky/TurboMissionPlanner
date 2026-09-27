@@ -38,6 +38,12 @@ namespace MissionPlanner.Utilities
                     }
                     catch
                     {
+                        // Fork: make the failure sticky. SpeechSynthesizer
+                        // retries its lazy SAPI init (a voice-token scan plus
+                        // an exception) on every State read, and this is
+                        // polled many times a second while connected.
+                        try { _speechwindows?.Dispose(); } catch { }
+                        _speechwindows = null;
                         return false;
                     }
                     return false;
@@ -75,6 +81,22 @@ namespace MissionPlanner.Utilities
             else
             {
                 _speechwindows = new SpeechSynthesizer();
+                // Fork: the SpeechSynthesizer ctor is lazy and never throws.
+                // Probe now so "no usable voice" (common under Wine and on
+                // Windows N/Server) fails here, where callers report it,
+                // instead of silently never speaking.
+                try
+                {
+                    if (_speechwindows.GetInstalledVoices().Count == 0)
+                        throw new PlatformNotSupportedException("No speech voice installed");
+                    var probe = _speechwindows.State;
+                }
+                catch
+                {
+                    _speechwindows.Dispose();
+                    _speechwindows = null;
+                    throw;
+                }
             }
         }
 
