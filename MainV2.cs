@@ -486,6 +486,24 @@ namespace MissionPlanner
         public static ISpeech speechEngine { get; set; }
 
         /// <summary>
+        /// Fork: one-time notice on the first connection under Wine. Wine's
+        /// SetThreadExecutionState is a stub, so the host may idle-suspend
+        /// during a hands-off flight and drop the link.
+        /// </summary>
+        private void ShowWineSleepWarningOnce()
+        {
+            if (!Program.IsRunningOnWine || Settings.Instance["WineSleepWarningShown"] != null)
+                return;
+            Settings.Instance["WineSleepWarningShown"] = "true";
+            CustomMessageBox.Show(
+                "Running under Wine: Mission Planner cannot stop this computer from going to sleep, " +
+                "so an idle laptop may suspend during a flight and drop the telemetry link.\n\n" +
+                "Start Mission Planner with run-wine.sh (in the install folder) to hold a sleep lock " +
+                "while it runs, or disable automatic suspend in your desktop's power settings.",
+                "Wine: computer may sleep");
+        }
+
+        /// <summary>
         /// Phase 10p5 fork: callable from any thread once getParamList(...)
         /// returns. If the user is currently sitting on HWConfig or SWConfig
         /// it re-fires ShowScreen, which recreates the (non-persistent)
@@ -982,6 +1000,11 @@ namespace MissionPlanner
                 var previousExecutionState =
                     NativeMethods.SetThreadExecutionState(
                         NativeMethods.ES_CONTINUOUS | NativeMethods.ES_SYSTEM_REQUIRED);
+
+                // Fork: under Wine that call is a stub; the host can still
+                // idle-suspend. run-wine.sh holds a systemd-inhibit lock.
+                if (Program.IsRunningOnWine)
+                    log.Warn("Wine: cannot block host sleep from inside Wine; launch with run-wine.sh");
             }
 
             MissionPlanner.Utilities.Profiler.Mark("MainV2.ctor:before-ChangeUnits");
@@ -1961,6 +1984,8 @@ namespace MissionPlanner
                     // save the baudrate for this port
                     Settings.Instance[_connectionControl.CMB_serialport.Text.Replace(" ","_") + "_BAUD"] =
                         _connectionControl.CMB_baudrate.Text;
+
+                    ShowWineSleepWarningOnce();
 
                     this.Text = titlebar + " " + comPort.MAV.VersionString + " on " + comPort.MAV.SerialString;
 

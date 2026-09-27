@@ -32,8 +32,14 @@ Run under Wine by bootstrapping the prefix with the real Microsoft runtime (neve
 
 ```bash
 winetricks --unattended dotnet472 gdiplus windowscodecs
-wine MissionPlanner.exe
+sh run-wine.sh        # from the install folder; or: wine MissionPlanner.exe
 ```
+
+Use `run-wine.sh` for flying. Wine cannot stop the host from sleeping (its `SetThreadExecutionState` is a stub),
+so an idle laptop can suspend mid-flight and drop the telemetry link. The launcher runs Mission Planner under
+`systemd-inhibit --what=sleep:idle`, which blocks idle sleep for as long as it runs. It cannot block a forced
+suspend (lid close, critical battery, power key), so check your power settings too. Mission Planner shows a
+one-time reminder on the first connection under Wine.
 
 **Other**
 

@@ -1,0 +1,2 @@
+# Fork: the Wine launcher must keep LF endings, also on Windows CI checkouts.
+run-wine.sh text eol=lf
