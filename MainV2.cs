@@ -2841,11 +2841,12 @@ namespace MissionPlanner
             {
                 try
                 {
-                    // Fork patch: was 1ms (1000 wakeups/sec for a housekeeping
-                    // loop) -- that's pure CPU burn on Wine where each Task.Delay
-                    // round-trips through ntdll!NtDelayExecution. 50ms (20Hz) is
-                    // far more than enough for UI status + 30s speech timers.
-                    await Task.Delay(50).ConfigureAwait(false);
+                    // Fork patch: was 1ms (1000 wakeups/sec). This loop also
+                    // drains every link's receive buffer, so 50ms (tried in
+                    // v0.2) starved high-rate links and backed up the serial
+                    // buffer. 5ms (200Hz) keeps up while staying cheap on Wine;
+                    // disconnected links already add their own 100ms wait.
+                    await Task.Delay(5).ConfigureAwait(false);
 
                     try
                     {
