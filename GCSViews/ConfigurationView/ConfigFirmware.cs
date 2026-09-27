@@ -37,8 +37,13 @@ namespace MissionPlanner.GCSViews.ConfigurationView
             {
                 UpdateFWList();
                 firstrun = false;
-                MainV2.instance.DeviceChanged += Instance_DeviceChanged;
             }
+
+            // Fork: Deactivate unsubscribes on every leave, so subscribe on
+            // every Activate (not only the first), once. Board plug-in
+            // detection died after the first visit to another page.
+            MainV2.instance.DeviceChanged -= Instance_DeviceChanged;
+            MainV2.instance.DeviceChanged += Instance_DeviceChanged;
 
             if (Program.WindowsStoreApp)
             {
