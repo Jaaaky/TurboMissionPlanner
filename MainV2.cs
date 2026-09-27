@@ -485,6 +485,9 @@ namespace MissionPlanner
         /// </summary>
         public static ISpeech speechEngine { get; set; }
 
+        // Fork: set once the ctor has started WarningEngine (UI thread only).
+        private static bool _warningEngineStarted;
+
         /// <summary>
         /// Fork: one-time notice on the first connection under Wine. Wine's
         /// SetThreadExecutionState is a stub, so the host may idle-suspend
@@ -850,6 +853,8 @@ namespace MissionPlanner
             // those 336 fixme lines are pure noise that drown out genuine
             // signal in the wine debug log. With speechenable=true the user
             // explicitly opted in, so the SAPI cost is acceptable.
+            // Fork: the UI context, to attach the engine once it exists.
+            var speechUiContext = SynchronizationContext.Current;
             Task.Run(() =>
             {
                 try
@@ -865,6 +870,28 @@ namespace MissionPlanner
                         speechEngine = new Speech();
                     MAVLinkInterface.Speech = speechEngine;
                     CurrentState.Speech = speechEngine;
+
+                    // Fork: this task can finish after the ctor already applied
+                    // speechenable (a no-op while the engine was null) and
+                    // started WarningEngine without an engine, leaving speech
+                    // silently off for the session. Apply both again now.
+                    SendOrPostCallback attach = _ =>
+                    {
+                        try
+                        {
+                            speechEnable = Settings.Instance.GetBoolean("speechenable");
+                            // before the ctor starts it, the ctor passes the
+                            // engine itself; starting it here would run the
+                            // warnings before their data source is set
+                            if (_warningEngineStarted)
+                                Warnings.WarningEngine.Start(speechEnable ? speechEngine : null);
+                        }
+                        catch (Exception exAttach) { log.Warn("Speech engine attach: " + exAttach.Message); }
+                    };
+                    if (speechUiContext != null)
+                        speechUiContext.Post(attach, null);
+                    else
+                        attach(null);
                 }
                 catch (Exception ex) { log.Warn("Speech engine deferred init: " + ex.Message); }
             });
@@ -1229,6 +1256,7 @@ namespace MissionPlanner
 
             Warnings.CustomWarning.defaultsrc = comPort.MAV.cs;
             Warnings.WarningEngine.Start(speechEnable ? speechEngine : null);
+            _warningEngineStarted = true;
             Warnings.WarningEngine.WarningMessage += (sender, s) => { MainV2.comPort.MAV.cs.messageHigh = s; };
             Warnings.WarningEngine.QuickPanelColoring += WarningEngine_QuickPanelColoring;
 

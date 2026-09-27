@@ -100,13 +100,14 @@ namespace MissionPlanner.Warnings
                                 //Check item type
                                 if (item.type == CustomWarning.WarningType.SpeakAndText)
                                 {
-                                    if (_speech != null)
-                                    {
-                                        while (!_speech.IsReady)
-                                            Thread.Yield();
-
+                                    // Fork: speak only when ready. The old wait
+                                    // spun forever (holding the warnings lock)
+                                    // when no voice ever became ready, so the
+                                    // text warning never showed and the
+                                    // Warnings screen hung. Re-evaluated every
+                                    // pass, so at most one repeat is skipped.
+                                    if (_speech != null && _speech.IsReady)
                                         _speech.SpeakAsync(item.SayText());
-                                    }
 
                                     WarningMessage?.Invoke(null, item.SayText());
                                 }
