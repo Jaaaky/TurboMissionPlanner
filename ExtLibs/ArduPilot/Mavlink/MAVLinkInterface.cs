@@ -3699,7 +3699,11 @@ Mission Planner waits for 2 valid heartbeat packets before connecting
                             }
                             else
                             {
-                                textoutput = textoutput + field.Name + delimeter + fieldValue.ToString() + delimeter;
+                                // Fork: invariant culture. With the OS separator a decimal
+                                // comma (de-DE, fr-FR, ...) split one CSV cell into two.
+                                textoutput = textoutput + field.Name + delimeter +
+                                             Convert.ToString(fieldValue, System.Globalization.CultureInfo.InvariantCulture) +
+                                             delimeter;
                             }
                         }
 
