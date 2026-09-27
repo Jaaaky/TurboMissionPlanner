@@ -20,16 +20,18 @@
        (verified via Wine +loaddll trace). SkiaSharp is the rendering backend
        for HUD, the GMap map control, and the MissionPlanner.Drawing layer, so
        dropping the live-arch native breaks every SKControl (e.g. the Quick
-       tab) -- keep it. Drops arm\, arm64\, the other-bitness dir, every *.so
-       (Linux ELF, useless under Wine), and libSkiaSharp.dylib (macOS).
+       tab) -- keep it. arm64\ is kept too: on Windows on ARM the AnyCPU exe
+       runs as a native ARM64 process and loads arm64\libSkiaSharp.dll. Drops
+       arm\ (32-bit ARM), the other-bitness x86/x64 dir, every *.so (Linux
+       ELF, useless under Wine), and libSkiaSharp.dylib (macOS).
     4. gdal\                    -- entire GDAL tree (x64+x86+data+share).
        SAFE: Program.cs only inits GDAL when Directory.Exists("gdal") and
        wraps it in Task.Run + try/catch, so absence is a clean no-op. SRTM
        elevation (srtm.cs, *.hgt) has ZERO GDAL dependency and keeps working.
        Loses only GeoTIFF/DTED elevation fallback + GDAL imagery import.
-    5. lib\                     -- IronPython CPython-3.4 stdlib (.py). Keeps
-       the IronPython.dll engine; only .py scripts that import stdlib modules
-       are affected. All plugins/scripts default OFF, so no startup impact.
+    5. lib\ developer-only parts -- ensurepip, lib2to3, turtledemo and
+       pydoc_data. The rest of the IronPython stdlib stays: user scripts and
+       the Scripts tab import os/sys/etc., which failed when lib\ was gone.
 
   KEEPS: MissionPlanner.exe + core DLLs, app.config, real plugins, the
   -KeepArch native dir, Drivers\, all locale satellite assemblies,
@@ -141,7 +143,8 @@ if ($pdbs) {
 }
 
 # 3. foreign-arch native libs (keep only $KeepArch)
-$archDirs = @('x86', 'x64', 'arm', 'arm64') | Where-Object { $_ -ne $KeepArch }
+# arm64 always stays (Windows on ARM runs the AnyCPU exe as ARM64).
+$archDirs = @('x86', 'x64', 'arm') | Where-Object { $_ -ne $KeepArch }
 Remove-Target -Label "native arch dirs (drop)" -Paths ($archDirs | ForEach-Object { Join-Path $OutDir $_ })
 # stray non-Windows natives at root
 $soFiles = Get-ChildItem -LiteralPath $OutDir -Recurse -File -ErrorAction SilentlyContinue |
@@ -156,8 +159,10 @@ if ($soFiles) {
 # 4. GDAL (whole tree) -- safe per Program.cs Directory.Exists guard; SRTM unaffected
 Remove-Target -Label "gdal\ (GeoTIFF/GIS)" -Paths (Join-Path $OutDir 'gdal')
 
-# 5. IronPython stdlib (keep IronPython.dll engine)
-Remove-Target -Label "lib\ (IronPython stdlib)" -Paths (Join-Path $OutDir 'lib')
+# 5. IronPython stdlib: keep it (scripts import os/sys/...), drop only the
+#    developer-only packages that nothing in Mission Planner imports.
+Remove-Target -Label "lib\ dev-only packages" -Paths (@('ensurepip', 'lib2to3', 'turtledemo', 'pydoc_data') |
+    ForEach-Object { Join-Path (Join-Path $OutDir 'lib') $_ })
 
 $after = if ($WhatIf) { $before - $script:removed } else { Get-DirMB $OutDir }
 Write-Host ("=== {0}: {1} MB -> {2} MB  (saved ~{3} MB) ===" -f `
