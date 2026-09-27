@@ -131,6 +131,18 @@ namespace MissionPlanner.Controls
             {
                 if (port == temp.port)
                 {
+                    // Fork: leave the Setup/Config screen while the OLD vehicle
+                    // is still selected. Reload used to swap comPort/sysid
+                    // first, so pages that save on leave (ConfigOSD auto-write)
+                    // wrote the old vehicle's edits to the newly selected one.
+                    // Only non-persistent screens: ShowScreen("") disposes them
+                    // and leaves `current` set with a null Control, so the
+                    // Reload below recreates without a second deactivate, and
+                    // code that reads MyView.current (MavChanged) keeps working.
+                    var current = MainV2.View.current;
+                    if (current != null && current.Control != null && !current.Persistent)
+                        MainV2.View.ShowScreen("");
+
                     MainV2.comPort = port;
                     MainV2.comPort.sysidcurrent = temp.sysid;
                     MainV2.comPort.compidcurrent = temp.compid;
