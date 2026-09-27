@@ -308,6 +308,10 @@ namespace MissionPlanner.Utilities
         /// <param name="control"></param>
         public static void ApplyThemeTo(Control control)
         {
+            // Fork: script UI languages need their font on every control,
+            // themed or not (no-op for languages IBM Plex Sans covers).
+            AppFonts.ApplyUiFont(control);
+
             if (control is ContainerControl)
                 ((ContainerControl)control).AutoScaleMode = AutoScaleMode.None;
 

@@ -20,6 +20,12 @@ namespace MissionPlanner.MsgBox
 
         static DialogResult _state = DialogResult.None;
 
+        // Fork: set when the UI language needs a script font; the dialog is
+        // measured and drawn with it. Null keeps the system default font.
+        public static Font TextFont { get; set; }
+
+        static Font MessageFont => TextFont ?? SystemFonts.DefaultFont;
+
         public static DialogResult Show(string text)
         {
             return Show(text, string.Empty, MessageBoxButtons.OK, MessageBoxIcon.None);
@@ -96,12 +102,12 @@ namespace MissionPlanner.MsgBox
             // ensure we are always in a known state
             _state = DialogResult.None;
             
-            SizeF sz = TextRenderer.MeasureText ("The quick brown Fox", SystemFonts.DefaultFont);
+            SizeF sz = TextRenderer.MeasureText ("The quick brown Fox", MessageFont);
             var perchar = sz.Width / 20;
             // convert to nice wrapped lines.
             text = AddNewLinesToText(text, Screen.PrimaryScreen.Bounds.Width / (int)perchar);
             // get pixel width and height
-            Size textSize = TextRenderer.MeasureText(text, SystemFonts.DefaultFont);
+            Size textSize = TextRenderer.MeasureText(text, MessageFont);
             // allow for icon
             if (icon != MessageBoxIcon.None)
                 textSize.Width += SystemIcons.Question.Width;
@@ -120,6 +126,8 @@ namespace MissionPlanner.MsgBox
                 AutoScaleMode = AutoScaleMode.None,
             })
             {
+                if (TextFont != null)
+                    msgBoxFrm.Font = TextFont;
 
                 Rectangle screenRectangle = msgBoxFrm.RectangleToScreen(msgBoxFrm.ClientRectangle);
                 int titleHeight = screenRectangle.Top - msgBoxFrm.Top;
@@ -161,7 +169,7 @@ namespace MissionPlanner.MsgBox
                 if (link != "" && linktext != "")
                 {
                     linktext = AddNewLinesToText(linktext);
-                    Size textSize2 = TextRenderer.MeasureText(linktext, SystemFonts.DefaultFont);
+                    Size textSize2 = TextRenderer.MeasureText(linktext, MessageFont);
                     var linklbl = new LinkLabel
                     {
                         Left = FORM_X_MARGIN,
