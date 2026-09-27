@@ -182,6 +182,9 @@ namespace GMap.NET
 
       bool CacheTiles(int zoom, GPoint p)
       {
+         // Fork: a cached layer moves on to the next layer. It used to
+         // return success, so for multi-layer maps (hybrid = imagery +
+         // labels) only the first layer was ever prefetched.
          foreach(var pr in provider.Overlays)
          {
             Exception ex;
@@ -191,14 +194,14 @@ namespace GMap.NET
             if(pr.InvertedAxisY)
             {
                if (GMaps.Instance.CheckImageExist(pr, new GPoint(p.X, maxOfTiles.Height - p.Y), zoom, out ex))
-                  return true;
+                  continue;
                else
                   img = GMaps.Instance.GetImageFrom(pr, new GPoint(p.X, maxOfTiles.Height - p.Y), zoom, out ex);
             }
             else // ok
             {
                if (GMaps.Instance.CheckImageExist(pr, p, zoom, out ex))
-                  return true;
+                  continue;
                else
                   img = GMaps.Instance.GetImageFrom(pr, p, zoom, out ex);
             }
