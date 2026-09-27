@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Przy konfiguracji nowego wielowirnikowca ustaw parametry odpowiednio do akumulatora i rozmiaru śmigieł.
+Przed wprowadzeniem danych i aktualizacją parametrów upewnij się, że:
+
+  -- UKOŃCZONO KONFIGURACJĘ WSTĘPNĄ (kalibracje, ustawienia ramy, testy silników)
+  -- MONITOROWANIE NAPIĘCIA AKUMULATORA JEST SKONFIGUROWANE I DZIAŁA
+
+Uwaga: wartość INS_GYRO_FILTER inna niż 20 jest opcjonalna i zwykle dotyczy tylko małych ram/śmigieł. Na początek możesz pozostawić 20.</value></data>
+</root>

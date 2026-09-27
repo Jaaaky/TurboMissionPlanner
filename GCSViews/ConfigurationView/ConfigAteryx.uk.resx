@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,174 +118,181 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Еффорт Лім</value>
+    <value>Межа керувального впливу</value>
   </data>
   <data name="label49.Text" xml:space="preserve">
-    <value>Еффорт Лім</value>
+    <value>Межа керувального впливу</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Пн</value>
+    <value>P</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Ре</value>
+    <value>D</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Я</value>
+    <value>I</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Еффорт Лім</value>
+    <value>Межа керувального впливу</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Пн</value>
+    <value>P</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>Ре</value>
+    <value>D</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
-    <value>Я</value>
+    <value>I</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
-    <value>Пн</value>
+    <value>P</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Еффорт Лім</value>
+    <value>Межа керувального впливу</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Ре</value>
+    <value>D</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>Я</value>
+    <value>I</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>Пн</value>
+    <value>P</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Еффорт Лім</value>
+    <value>Межа керувального впливу</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>Пітч мін</value>
+    <value>Мін. тангаж</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>Кути навігації</value>
+    <value>Навігаційні кути</value>
   </data>
   <data name="label52.Text" xml:space="preserve">
-    <value>Пн</value>
+    <value>P</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>Радіус за замовчуванням</value>
+    <value>Типовий радіус</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
-    <value>Серво YawPid</value>
+    <value>PID сервоприводу рискання</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Макс</value>
+    <value>Макс.</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
-    <value>Вигода Орбіта</value>
+    <value>Підсилення руху по колу</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>Трек і орбіта</value>
+    <value>Траєкторія та коло</value>
   </data>
   <data name="label50.Text" xml:space="preserve">
-    <value>Ре</value>
+    <value>D</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Мін</value>
+    <value>Мін.</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Напрямок до рулон</value>
+    <value>Курс → крен</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Ре</value>
+    <value>D</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Швидкість повітряного руху до Pitch</value>
+    <value>Повітряна швидкість → тангаж</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Значення FS</value>
+    <value>Значення аварійного захисту</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Енергетична висота</value>
   </data>
   <data name="label51.Text" xml:space="preserve">
-    <value>Я</value>
+    <value>I</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Дросель 0-100%</value>
+    <value>Газ 0–100%</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Круз</value>
+    <value>Крейсерський режим</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Серво з Pitch Pid</value>
+    <value>PID сервоприводу тангажу</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Я</value>
+    <value>I</value>
   </data>
   <data name="groupBox12.Text" xml:space="preserve">
-    <value>Повітряна швидкість м/с</value>
+    <value>Повітряна швидкість, м/с</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>Ліміт частот щелепи</value>
+    <value>Межа кутової швидкості рискання</value>
   </data>
   <data name="groupBox10.Text" xml:space="preserve">
-    <value>Налаштування Altimeter</value>
+    <value>Налаштування висотоміра</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
-    <value>Ролл в Елев</value>
+    <value>Крен → кермо висоти</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>Кут матеріалу</value>
+    <value>Кут входу</value>
   </data>
   <data name="label31.Text" xml:space="preserve">
-    <value>Пн</value>
+    <value>P</value>
   </data>
   <data name="groupBox11.Text" xml:space="preserve">
-    <value>Зліт / Посадка</value>
+    <value>Зліт / посадка</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>Максимум звуку</value>
+    <value>Макс. тангаж</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>Підсилення пісні</value>
+    <value>Підсилення стеження за траєкторією</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
-    <value>Банк Макс</value>
+    <value>Макс. крен</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>Банк мін.</value>
+    <value>Мін. крен</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>Поле Елев</value>
+    <value>Висота аеродрому</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>у Hg</value>
+    <value>дюйми рт. ст.</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>Швидкість проходження</value>
+    <value>Швидкість заходу на посадку</value>
   </data>
   <data name="BUT_write_flash.Text" xml:space="preserve">
-    <value>Записати спалах</value>
+    <value>Записати флешпам’ять</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Параметри запису</value>
+    <value>Записати параметри</value>
   </data>
   <data name="BUT_read_flash.Text" xml:space="preserve">
-    <value>Читати спалах</value>
+    <value>Прочитати флешпам’ять</value>
   </data>
   <data name="label44.Text" xml:space="preserve">
-    <value>Круз</value>
+    <value>Крейсерський режим</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
-    <value>Макс. швидкість у повітрі</value>
+    <value>Макс. повітряна швидкість</value>
   </data>
   <data name="label43.Text" xml:space="preserve">
-    <value>Мін. швидкість у повітрі</value>
+    <value>Мін. повітряна швидкість</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
-    <value>Мін. висота</value>
+    <value>Мін. тангаж на зльоті</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
     <value>Оновити параметри</value>
   </data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>PID сервоприводу крену</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Межа інтегратора</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Межа інтегратора</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Діапазон енергетичної висоти</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Межа інтегратора</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Межа інтегратора</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Межа інтегратора</value></data>
 </root>

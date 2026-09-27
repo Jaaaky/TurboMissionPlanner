@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -152,7 +152,7 @@
     <value>31, 13</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>平摇</value>
+    <value>水平旋转</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 13</value>
@@ -200,7 +200,7 @@
     <value>319, 13</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>这个界面使用不当会导致舵机损坏，请谨慎使用！！！</value>
+    <value>操作不当可能损坏舵机，请谨慎使用！</value>
   </data>
   <data name="BUT_connect.Text" xml:space="preserve">
     <value>连接</value>
@@ -218,18 +218,25 @@
     <value>角度</value>
   </data>
   <data name="BUT_find.Text" xml:space="preserve">
-    <value>找到微调Pan（Sik Radio）</value>
+    <value>查找水平微调值（SiK 电台）</value>
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 13</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>中点的PWM</value>
+    <value>中位 PWM</value>
   </data>
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 13</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>中点的PWM</value>
+    <value>中位 PWM</value>
   </data>
+  <data name="CMB_interface.Items" xml:space="preserve"><value>Maestro</value></data>
+  <data name="CMB_interface.Items1" xml:space="preserve"><value>ArduTracker</value></data>
+  <data name="CMB_interface.Text" xml:space="preserve"><value>Maestro</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>速度</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>加速度</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>加速度</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>速度</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,72 +118,137 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label13.Text" xml:space="preserve">
-    <value>Menos Veloc.</value>
+    <value>Velocidade de descida</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Velocidade</value>
+    <value>Velocidade </value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>Raio</value>
   </data>
   <data name="myLabel4.Text" xml:space="preserve">
-    <value>Opc. Ch8 </value>
+    <value>Opção RC8</value>
   </data>
   <data name="myLabel2.Text" xml:space="preserve">
-    <value>Opc. Ch6</value>
+    <value>Ajustar</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>Mais Veloc.</value>
+    <value>Velocidade de subida</value>
   </data>
   <data name="myLabel1.Text" xml:space="preserve">
-    <value>Opc. Ch7</value>
+    <value>Opção RC7</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>Travar alt</value>
+    <value>Manutenção de altitude (alt. para taxa de subida)</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Taxa de Acel.</value>
+    <value>Taxa de aceleração (veloc. vertical para acel.)</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Acel. de Cruzeiro</value>
+    <value>Aceleração do motor (aceleração para motor)</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Velocidade XY</value>
+    <value>Velocidade XY (velocidade para aceleração)</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Velocidade Loiter</value>
+    <value>Velocidade de Loiter</value>
   </data>
   <data name="groupBox19.Text" xml:space="preserve">
-    <value>Posição XY (Dist p/ Vel.)</value>
+    <value>Posição XY (distância para velocidade)</value>
   </data>
   <data name="groupBox24.Text" xml:space="preserve">
-    <value>Taxa Pitch</value>
+    <value>Taxa de arfagem</value>
   </data>
   <data name="groupBox25.Text" xml:space="preserve">
-    <value>Taxa Roll</value>
+    <value>Taxa de rolagem</value>
   </data>
   <data name="groupBox20.Text" xml:space="preserve">
-    <value>Estabiizar Yaw</value>
+    <value>Estabilização de guinada (erro para taxa)</value>
   </data>
   <data name="groupBox21.Text" xml:space="preserve">
-    <value>Estabilizar Pitch</value>
+    <value>Estabilização de arfagem (erro para taxa)</value>
   </data>
   <data name="groupBox22.Text" xml:space="preserve">
-    <value>Estabilizar Roll</value>
+    <value>Estabilização de rolagem (erro para taxa)</value>
   </data>
   <data name="groupBox23.Text" xml:space="preserve">
-    <value>Taxa Yaw</value>
+    <value>Taxa de guinada</value>
   </data>
   <data name="CHK_lockrollpitch.Text" xml:space="preserve">
-    <value>Travar Pitch e Roll</value>
+    <value>Bloquear valores de arfagem e rolagem</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Gravar Parametros</value>
+    <value>Gravar parâmetros</value>
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
-    <value>Atualizar Tela</value>
+    <value>Atualizar ecrã</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Atualizar Tela</value>
+    <value>Atualizar parâmetros</value>
   </data>
+  <data name="label25.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Navegação por pontos (cm)</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Constante de tempo da entrada</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Aceleração máxima</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Aceleração máxima</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Aceleração máxima</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>FLTE</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label47.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label77.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label82.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>FLTE</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label84.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label86.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label87.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="P_FLTD.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>FLTE</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label88.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label90.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label91.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>P</value></data>
+  <data name="myLabel3.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>P</value></data>
+  <data name="myLabel5.Text" xml:space="preserve"><value>Opção RC9</value></data>
+  <data name="myLabel6.Text" xml:space="preserve"><value>Opção RC10</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Acelerómetro</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Giroscópio</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Filtros básicos</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>Harmónicas</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>Opções</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>Largura de banda</value></data>
+  <data name="label48.Text" xml:space="preserve"><value>Atenuação</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>Frequência</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Referência</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>Modo</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>Ativado</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>Filtro de rejeição de harmónicas</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Atenuação</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Largura de banda</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Frequência</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Ativado</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>Filtro de rejeição estático</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Opções</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>Máscara</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>Registos de filtros</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>Opção RC6</value></data>
+  <data name="lblUnitWarning.Text" xml:space="preserve"><value>Aviso de alteração incompatível</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -263,19 +263,19 @@
     <value>預設設定</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>機架型態</value>
+    <value>機架類型</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>'H'</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>'Plus'</value>
+    <value>'十字型'</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>'X' , 'Y6A'</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>注意: X 及 H 不需要變更螺旋槳的方向</value>
+    <value>注意：X 與 H 不可互換，兩者的螺旋槳旋轉方向不同</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>'Y6B'</value>
@@ -284,9 +284,19 @@
     <value>'V'</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>NOTE: This is the Y6B and prop rotation changes from the old Y6A</value>
+    <value>注意：此為 Y6B，其螺旋槳旋轉方向與舊版 Y6A 不同</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>'V 型尾翼'</value>
   </data>
+  <data name="radio_type_other.Text" xml:space="preserve"><value>其他</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>機架類別</value></data>
+  <data name="radioButtonOctaQuad.Text" xml:space="preserve"><value>共軸八旋翼</value></data>
+  <data name="radioButtonTri.Text" xml:space="preserve"><value>三旋翼</value></data>
+  <data name="radioButtonHeli.Text" xml:space="preserve"><value>直升機</value></data>
+  <data name="radioButtonY6.Text" xml:space="preserve"><value>Y6</value></data>
+  <data name="radioButtonOcta.Text" xml:space="preserve"><value>八旋翼</value></data>
+  <data name="radioButtonHexa.Text" xml:space="preserve"><value>六旋翼</value></data>
+  <data name="radioButtonQuad.Text" xml:space="preserve"><value>四旋翼</value></data>
+  <data name="radioButtonUndef.Text" xml:space="preserve"><value>未定義</value></data>
 </root>

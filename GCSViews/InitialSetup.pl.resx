@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="backstageViewPageaccel.Text" xml:space="preserve"><value>Kalibracja akcelerometru</value></data>
+  <data name="backstageViewPageInitialParams.Text" xml:space="preserve"><value>Parametry strojenia wstępnego</value></data>
+  <data name="backstageViewPageairspeed.Text" xml:space="preserve"><value>Prędkość powietrzna</value></data>
+  <data name="backstageViewPageAntTrack.Text" xml:space="preserve"><value>Tracker antenowy</value></data>
+  <data name="backstageViewPagebatmon.Text" xml:space="preserve"><value>Monitor akumulatora</value></data>
+  <data name="backstageViewPageBatt2.Text" xml:space="preserve"><value>Monitor akumulatora 2</value></data>
+  <data name="backstageViewPagecompass.Text" xml:space="preserve"><value>Kompas</value></data>
+  <data name="backstageViewPagecompassmot.Text" xml:space="preserve"><value>Kalibracja kompasu/silników</value></data>
+  <data name="backstageViewPageESC.Text" xml:space="preserve"><value>Kalibracja ESC</value></data>
+  <data name="backstageViewPageESP.Text" xml:space="preserve"><value>Konfiguracja ESP8266</value></data>
+  <data name="backstageViewPageflmode.Text" xml:space="preserve"><value>Tryby lotu</value></data>
+  <data name="backstageViewPageframetype.Text" xml:space="preserve"><value>Typ ramy</value></data>
+  <data name="backstageViewPagefs.Text" xml:space="preserve"><value>Tryb awaryjny</value></data>
+  <data name="backstageViewPagefw.Text" xml:space="preserve"><value>Wgraj oprogramowanie układowe</value></data>
+  <data name="backstageViewPagefwdisabled.Text" xml:space="preserve"><value>Wgraj oprogramowanie układowe</value></data>
+  <data name="backstageViewPagegimbal.Text" xml:space="preserve"><value>Gimbal kamery</value></data>
+  <data name="backstageViewPagehwbt.Text" xml:space="preserve"><value>Konfiguracja Bluetooth</value></data>
+  <data name="backstageViewPageinstfw.Text" xml:space="preserve"><value>Wgraj oprogramowanie układowe</value></data>
+  <data name="backstageViewPagemand.Text" xml:space="preserve"><value>Sprzęt wymagany</value></data>
+  <data name="backstageViewPageMotorTest.Text" xml:space="preserve"><value>Test silników</value></data>
+  <data name="backstageViewPageopt.Text" xml:space="preserve"><value>Sprzęt opcjonalny</value></data>
+  <data name="backstageViewPageoptflow.Text" xml:space="preserve"><value>Przepływ optyczny</value></data>
+  <data name="backstageViewPageosd.Text" xml:space="preserve"><value>OSD</value></data>
+  <data name="backstageViewPageParachute.Text" xml:space="preserve"><value>Spadochron</value></data>
+  <data name="backstageViewPagePX4Flow.Text" xml:space="preserve"><value>PX4Flow</value></data>
+  <data name="backstageViewPageradio.Text" xml:space="preserve"><value>Kalibracja aparatury RC</value></data>
+  <data name="backstageViewPageSikradio.Text" xml:space="preserve"><value>Radio SiK</value></data>
+  <data name="backstageViewPagesonar.Text" xml:space="preserve"><value>Dalmierz</value></data>
+  <data name="backstageViewPagetradheli.Text" xml:space="preserve"><value>Konfiguracja śmigłowca</value></data>
+  <data name="backstageViewPagewizard.Text" xml:space="preserve"><value>Kreator</value></data>
+  <data name="backstageViewPageSerial.Text" xml:space="preserve"><value>Porty szeregowe</value></data>
+</root>

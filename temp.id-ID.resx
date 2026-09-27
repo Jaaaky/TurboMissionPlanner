@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_forcecal_accel.Text" xml:space="preserve"><value>Paksa Kalibrasi Akselerometer</value></data>
+  <data name="BUT_forcecal_mag.Text" xml:space="preserve"><value>Paksa Kalibrasi Kompas</value></data>
+  <data name="but_apjtool.Text" xml:space="preserve"><value>Alat APJ</value></data>
+  <data name="BUT_CoT.Text" xml:space="preserve"><value>CoT</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>Kedekatan</value></data>
+  <data name="but_followswarm.Text" xml:space="preserve"><value>Ikuti Kawanan</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Konfigurasi Penandatanganan MAVLink 2</value></data>
+  <data name="but_lockup.Text" xml:space="preserve"><value>Bekukan MAV</value></data>
+  <data name="but_td.Text" xml:space="preserve"><value>Ambil threads.txt</value></data>
+  <data name="but_gpsinj.Text" xml:space="preserve"><value>Ekstrak gps_inject</value></data>
+  <data name="but_dem.Text" xml:space="preserve"><value>DEM</value></data>
+  <data name="BUT_magfit2.Text" xml:space="preserve"><value>Log Kalibrasi Magnetometer</value></data>
+  <data name="but_GDAL.Text" xml:space="preserve"><value>GDAL Khusus</value></data>
+  <data name="but_sortlogs.Text" xml:space="preserve"><value>Urutkan Ulang Semua Log</value></data>
+  <data name="but_optflowcalib.Text" xml:space="preserve"><value>Kalibrasi Aliran Optik</value></data>
+  <data name="but_logdlscp.Text" xml:space="preserve"><value>Unduh Log melalui SCP</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>Penandatanganan</value></data>
+  <data name="but_acbarohight.Text" xml:space="preserve"><value>Sesuaikan Ketinggian Barometrik Pesawat</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>Pisahkan DFLog</value></data>
+  <data name="but_driverclean.Text" xml:space="preserve"><value>Bersihkan Driver</value></data>
+  <data name="but_agemapdata.Text" xml:space="preserve"><value>Hapus Data Peta Lama</value></data>
+  <data name="but_packetbytes.Text" xml:space="preserve"><value>Uraikan Byte Paket</value></data>
+  <data name="myButton_vlc.Text" xml:space="preserve"><value>vlc</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>Buat Berkas Masukan Data DashWare</value></data>
+  <data name="but_trimble.Text" xml:space="preserve"><value>Kawanan Berurutan</value></data>
+  <data name="but_hwids.Text" xml:space="preserve"><value>Dekode HWID</value></data>
+  <data name="BUT_QNH.Text" xml:space="preserve"><value>QNH</value></data>
+  <data name="but_reboot.Text" xml:space="preserve"><value>Mulai Ulang Pixhawk</value></data>
+  <data name="but_3dmap.Text" xml:space="preserve"><value>Peta 3D</value></data>
+  <data name="but_messageinterval.Text" xml:space="preserve"><value>Interval Pesan</value></data>
+  <data name="but_blupdate.Text" xml:space="preserve"><value>Pembaruan Bootloader</value></data>
+  <data name="BUT_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="but_disablearmswitch.Text" xml:space="preserve"><value>Alihkan Sakelar Keselamatan</value></data>
+  <data name="but_paramrestore.Text" xml:space="preserve"><value>Pulihkan Parameter</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>Inspektur MAVLink</value></data>
+  <data name="but_sitl_comb.Text" xml:space="preserve"><value>Penggabung Aliran SITL</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>Anonimkan Log</value></data>
+  <data name="but_dashware.Text" xml:space="preserve"><value>DashWare</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Penelusur Tlog</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>Buat JPG Peta untuk Semua TLog dalam Direktori</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Jalankan Algoritma Pengarahan Gimbal</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Quad: Arm dan Lepas Landas</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Uji Kecepatan Konversi Struct</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Hapus Citra Khusus</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Tambahkan Citra Khusus ke MP</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Unduh Semua Firmware Terkini</value></data>
+  <data name="butlogindex.Text" xml:space="preserve"><value>Indeks Log</value></data>
+  <data name="but_armandtakeoff.Text" xml:space="preserve"><value>Arm dan Lepas Landas</value></data>
+  <data name="but_maplogs.Text" xml:space="preserve"><value>Petakan Log</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Kelompokkan TLog ke direktori sesuai jenis dan sysid</value></data>
+  <data name="but_gimbaltest.Text" xml:space="preserve"><value>Uji Gimbal</value></data>
+  <data name="but_structtest.Text" xml:space="preserve"><value>Uji Struct</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Buat jalur langsung eksklusif ke GPS (port 500)</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Kawanan Mengikuti Pemimpin</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Antarmuka Kawanan Multi-MAV</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Konversi berkas SHP ke berkas poligon</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Tampilkan ikon tambahan pada peta untuk lokasi Anda saat ini.</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Tumpangkan HUD pada video rekaman Anda</value></data>
+  <data name="BUT_clearcustommaps.Text" xml:space="preserve"><value>Hapus Peta Khusus</value></data>
+  <data name="but_getfw.Text" xml:space="preserve"><value>Unduh Semua Firmware</value></data>
+  <data name="BUT_geinjection.Text" xml:space="preserve"><value>Sisipkan GE</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Editor Bahasa Terjemahan</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Buat ulang informasi parameter yang digunakan di MP</value></data>
+  <data name="BUT_sorttlogs.Text" xml:space="preserve"><value>Urutkan TLog</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Cerminkan aliran MAVLink yang diterima MP</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Keluarkan lokasi MAV dalam format Microdrone</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Keluarkan lokasi MAV dalam NMEA</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Gunakan GPS NMEA untuk mengikuti saya</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Buat Peringatan Suara Khusus</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="BUT_outputMD.Text" xml:space="preserve"><value>MicroDrone</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>Georeferensi Gambar</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Pengelola Peringatan</value></data>
+  <data name="BUT_lang_edit.Text" xml:space="preserve"><value>Edit Bahasa</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>Ikuti Saya</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>Pembuat Parameter</value></data>
+  <data name="but_osdvideo.Text" xml:space="preserve"><value>Video OSD</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>Basis Bergerak</value></data>
+  <data name="BUT_shptopoly.Text" xml:space="preserve"><value>SHP ke Poligon</value></data>
+  <data name="BUT_swarm.Text" xml:space="preserve"><value>Kawanan</value></data>
+  <data name="BUT_followleader.Text" xml:space="preserve"><value>Ikuti Pemimpin</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Dipindahkan ke tab DataFlash</value></data>
+  <data name="but_mavserialport.Text" xml:space="preserve"><value>Teruskan MAVSerial</value></data>
+  <data name="but_hexmavlink.Text" xml:space="preserve"><value>Dekode Hex MAVLink</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Ambil offset magnetometer dari log</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Tampilkan data gambar dari sensor aliran optik PX4</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Hapus driver yang terpasang</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Tekan tombol keselamatan secara virtual</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>Atur interval khusus untuk pesan</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>Periksa semua paket MAVLink yang dikirim</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>Perbarui bootloader</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>Pengujian peta 3D</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Tampilkan informasi ID perangkat keras yang dimasukkan</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Debug paket MAVLink berupa string hex</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Ubah ketinggian acuan barometrik</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Buat autopilot membeku</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Tampilkan informasi DEM yang sedang dimuat</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>Unduh log melalui SCP - SSH (apsync)</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>Urutkan ulang semua log dalam folder pencatatan MP</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Muat sumber ubin peta khusus melalui GDAL</value></data>
+  <data name="label47.Text" xml:space="preserve"><value>Mulai ulang autopilot</value></data>
+  <data name="label48.Text" xml:space="preserve"><value>Sesuaikan QNH</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>label49</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>Tampilkan aliran video melalui VLC - gunakan GStreamer sebagai gantinya</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>Hapus ubin gambar yang berusia lebih dari 30 hari</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>Pisahkan DFLog menjadi x bagian</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>Ekstrak data RTCM dari Tlog</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>Tampilkan antarmuka sensor kedekatan</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>Gaya Kawanan</value></data>
+  <data name="but_remotedflogger.Text" xml:space="preserve"><value>Mulai Pencatat DF Jarak Jauh</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Keluarkan Cursor-on-Target</value></data>
+  <data name="but_ManageCMDList.Text" xml:space="preserve"><value>Kelola Daftar Perintah</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Kelola Daftar Perintah Perencana</value></data>
+  <data name="but_dfumode.Text" xml:space="preserve"><value>Mode DFU</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>Mode DFU</value></data>
+  <data name="label57.Text" xml:space="preserve"><value>Tandai akselerometer sudah dikalibrasi setelah pemulihan parameter</value></data>
+  <data name="label58.Text" xml:space="preserve"><value>Tandai magnetometer sudah dikalibrasi setelah pemulihan parameter</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Sementara</value></data>
+</root>

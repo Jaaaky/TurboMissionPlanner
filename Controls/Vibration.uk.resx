@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,27 +121,27 @@
     <value>Вібрація</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Первинний</value>
+    <value>Основний</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Ікс</value>
+    <value>X</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Вібрація</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Третинний період</value>
+    <value>Третій</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Вторинна</value>
+    <value>Другий</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>РР</value>
+    <value>Y</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Дзета</value>
+    <value>Z</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Відсікання</value>
+    <value>Насичення датчика</value>
   </data>
 </root>

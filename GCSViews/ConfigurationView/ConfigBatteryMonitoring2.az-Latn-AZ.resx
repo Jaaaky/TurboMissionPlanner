@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,36 +118,38 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CHK_speechbattery.Text" xml:space="preserve">
-    <value>MP  Zəyif batareyada xəbərdarlıq</value>
+    <value>Mission Planner-də zəif batareya xəbərdarlığı</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>4. Ölçülü cərəyan:</value>
+    <value>4. Ölçülmüş cərəyan:</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Mövcud Pin</value>
+    <value>Cərəyan pini</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
-    <value>Batareya tutumu</value>
+    <value>Batareyanın tutumu</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Kalibrləmə</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>5. Cari (Calced)</value>
+    <value>5. Cərəyan (hesablanmış)</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>1. Ölçülen batareya gərginliyi:</value>
+    <value>1. Ölçülmüş batareya gərginliyi:</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>3. Bölünən Voltaj (Calced):</value>
+    <value>3. Gərginlik bölücüsü (hesablanmış):</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>2. Batareya Voltajı (Calced):</value>
+    <value>2. Batareyanın gərginliyi (hesablanmış):</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>6. Volt başına amper:</value>
+    <value>6. Hər volta düşən amper:</value>
   </data>
   <data name="label47.Text" xml:space="preserve">
-    <value>Volt Pini</value>
+    <value>Gərginlik pini</value>
   </data>
+  <data name="label30.Text" xml:space="preserve"><value>Monitor</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>mAh</value></data>
 </root>

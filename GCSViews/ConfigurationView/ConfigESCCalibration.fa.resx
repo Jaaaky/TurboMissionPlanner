@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>کالیبراسیون اسپیدکنترل (AC3.3+)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>ملخ‌ها را جدا کنید!
+پس از زدن این دکمه:
+- USB و باتری را جدا کنید
+- باتری را وصل کنید
+- هنگامی که LEDها چشمک می‌زنند، کلید ایمنی را فشار دهید (در صورت وجود)
+- اسپیدکنترل‌ها هنگام کالیبراسیون باید بوق بزنند
+- کنترلر پرواز را به روش معمول دوباره راه‌اندازی کنید</value></data>
+  <data name="buttonStart.Text" xml:space="preserve"><value>کالیبراسیون اسپیدکنترل‌ها</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>نوع اسپیدکنترل:</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>کمینهٔ PWM خروجی</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>بیشینهٔ PWM خروجی</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>چرخش در حالت مسلح</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>کمینهٔ چرخش</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>بیشینهٔ چرخش</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>برای استفاده از بازهٔ ورودی گیرنده، روی ۰ بگذارید</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>برای استفاده از بازهٔ ورودی گیرنده، روی ۰ بگذارید</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>سرعت موتورها در حالت مسلح با گاز صفر (دور آرام)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>کمینهٔ سرعت موتورها هنگام پرواز (کمی بیشتر از «چرخش در حالت مسلح»)</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>بیشینهٔ سرعت موتورها هنگام پرواز (تقریباً همهٔ اسپیدکنترل‌ها در انتهای بالایی بازه ناحیهٔ مرده دارند)</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CMB_paramfiles.Text" xml:space="preserve">
-    <value>Carregando</value>
+    <value>A carregar</value>
   </data>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>Carregar os ajustes padrões no tipo de veiculo padrão.</value>
+    <value>Carregar as configurações padrão para os tipos de estrutura habituais</value>
   </data>
   <data name="BUT_paramfileload.Text" xml:space="preserve">
     <value>Carregar parâmetros</value>

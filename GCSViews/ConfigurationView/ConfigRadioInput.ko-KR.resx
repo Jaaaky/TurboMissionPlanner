@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -136,7 +136,7 @@
     <value>107</value>
   </data>
   <data name="CHK_mixmode.Text" xml:space="preserve">
-    <value>승강타</value>
+    <value>엘레본</value>
   </data>
   <data name="&gt;&gt;CHK_mixmode.Name" xml:space="preserve">
     <value>CHK_mixmode</value>
@@ -166,7 +166,7 @@
     <value>110</value>
   </data>
   <data name="CHK_elevonch2rev.Text" xml:space="preserve">
-    <value>승강타 CH2 반전</value>
+    <value>엘레본 CH2 반전</value>
   </data>
   <data name="&gt;&gt;CHK_elevonch2rev.Name" xml:space="preserve">
     <value>CHK_elevonch2rev</value>
@@ -196,7 +196,7 @@
     <value>108</value>
   </data>
   <data name="CHK_elevonrev.Text" xml:space="preserve">
-    <value>승강타 반전</value>
+    <value>엘레본 반전</value>
   </data>
   <data name="&gt;&gt;CHK_elevonrev.Name" xml:space="preserve">
     <value>CHK_elevonrev</value>
@@ -226,7 +226,7 @@
     <value>109</value>
   </data>
   <data name="CHK_elevonch1rev.Text" xml:space="preserve">
-    <value>승강타 CH1 반전</value>
+    <value>엘레본 CH1 반전</value>
   </data>
   <data name="&gt;&gt;CHK_elevonch1rev.Name" xml:space="preserve">
     <value>CHK_elevonch1rev</value>
@@ -250,7 +250,7 @@
     <value>125</value>
   </data>
   <data name="groupBoxElevons.Text" xml:space="preserve">
-    <value>승강타 설정</value>
+    <value>엘레본 설정</value>
   </data>
   <data name="&gt;&gt;groupBoxElevons.Name" xml:space="preserve">
     <value>groupBoxElevons</value>
@@ -358,7 +358,7 @@
     <value>120</value>
   </data>
   <data name="BUT_Calibrateradio.Text" xml:space="preserve">
-    <value>무선 조종 보정</value>
+    <value>조종기 보정</value>
   </data>
   <data name="&gt;&gt;BUT_Calibrateradio.Name" xml:space="preserve">
     <value>BUT_Calibrateradio</value>

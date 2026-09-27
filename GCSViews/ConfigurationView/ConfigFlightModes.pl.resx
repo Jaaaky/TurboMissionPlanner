@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,7 +130,7 @@
     <value>PWM 1621 - 1749</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Aktualny tryb:</value>
+    <value>Bieżący tryb:</value>
   </data>
   <data name="CHK_enableoptflow.Text" xml:space="preserve">
     <value>Włącz Optical Flow</value>
@@ -139,7 +139,7 @@
     <value>UWAGA: Obrazy są wyłącznie do prezentacji, działają jedynie z hexa, itp.</value>
   </data>
   <data name="CB_simple5.Text" xml:space="preserve">
-    <value>Tryb prosty</value>
+    <value>Tryb Simple</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>PWM 1750 +</value>
@@ -148,7 +148,7 @@
     <value>Odwr. Elevon CH1</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Aktualny PWM:</value>
+    <value>Bieżący PWM:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Ustawienia APM</value>
@@ -160,13 +160,13 @@
     <value>Włącz kompas</value>
   </data>
   <data name="CB_simple4.Text" xml:space="preserve">
-    <value>Tryb prosty</value>
+    <value>Tryb Simple</value>
   </data>
   <data name="tabArducopter.Text" xml:space="preserve">
     <value>ArduCopter2</value>
   </data>
   <data name="CB_simple1.Text" xml:space="preserve">
-    <value>Tryb prosty</value>
+    <value>Tryb Simple</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>Ustawienie ramy (+ lub x)</value>
@@ -178,10 +178,10 @@
     <value>1</value>
   </data>
   <data name="CB_simple6.Text" xml:space="preserve">
-    <value>Tryb prosty</value>
+    <value>Tryb Simple</value>
   </data>
   <data name="CB_simple3.Text" xml:space="preserve">
-    <value>Tryb prosty</value>
+    <value>Tryb Simple</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
     <value>2</value>
@@ -190,7 +190,7 @@
     <value>Tryby</value>
   </data>
   <data name="CB_simple2.Text" xml:space="preserve">
-    <value>Tryb prosty</value>
+    <value>Tryb Simple</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
     <value>3</value>
@@ -208,7 +208,7 @@
     <value>Zakres ruchu płyty sterującej</value>
   </data>
   <data name="lbl_currentmode.Text" xml:space="preserve">
-    <value>Ręczne</value>
+    <value>Ręcznie</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
     <value>Zakres steru kierunku</value>
@@ -315,4 +315,18 @@
   <data name="label30.Text" xml:space="preserve">
     <value>Monitor</value>
   </data>
+  <data name="BUT_SaveModes.Text" xml:space="preserve"><value>Zapisz tryby</value></data>
+  <data name="chk_ss1.Text" xml:space="preserve"><value>Tryb Super Simple</value></data>
+  <data name="chk_ss2.Text" xml:space="preserve"><value>Tryb Super Simple</value></data>
+  <data name="chk_ss3.Text" xml:space="preserve"><value>Tryb Super Simple</value></data>
+  <data name="chk_ss4.Text" xml:space="preserve"><value>Tryb Super Simple</value></data>
+  <data name="chk_ss5.Text" xml:space="preserve"><value>Tryb Super Simple</value></data>
+  <data name="chk_ss6.Text" xml:space="preserve"><value>Tryb Super Simple</value></data>
+  <data name="labelfm1.Text" xml:space="preserve"><value>Tryb lotu 1</value></data>
+  <data name="labelfm2.Text" xml:space="preserve"><value>Tryb lotu 2</value></data>
+  <data name="labelfm3.Text" xml:space="preserve"><value>Tryb lotu 3</value></data>
+  <data name="labelfm4.Text" xml:space="preserve"><value>Tryb lotu 4</value></data>
+  <data name="labelfm5.Text" xml:space="preserve"><value>Tryb lotu 5</value></data>
+  <data name="labelfm6.Text" xml:space="preserve"><value>Tryb lotu 6</value></data>
+  <data name="linkLabel1_ss.Text" xml:space="preserve"><value>Opis trybów Simple i Super Simple</value></data>
 </root>

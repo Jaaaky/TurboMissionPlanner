@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>می‌توانید فرمان‌های MAVLink را به فهرست فرمان‌های جدول مأموریت در نمای برنامه‌ریز اضافه کنید.
+برای افزودن فرمان، باید شناسهٔ آن را بدانید. اگر شناسه از قبل در کتابخانه‌های MAVLink
+تعریف شده باشد، نام به‌طور خودکار پر می‌شود. شناسهٔ تعریف‌نشده را نیز می‌توانید اضافه کنید.
+در این حالت باید نام را هم وارد کنید. افزودن فرمان در اینجا به معنای پذیرش یا اجرای آن
+توسط خلبان خودکار نیست؛ بنابراین باید از کاری که انجام می‌دهید آگاه باشید.</value></data>
+</root>

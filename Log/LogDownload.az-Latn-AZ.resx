@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,21 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_DLall.Text" xml:space="preserve">
-    <value>Bütün Logları endir</value>
+    <value>Bütün jurnalları endir</value>
   </data>
   <data name="BUT_redokml.Text" xml:space="preserve">
-    <value>KML yenidən qur</value>
+    <value>KML-i yenidən yarat</value>
   </data>
   <data name="BUT_DLthese.Text" xml:space="preserve">
-    <value>Bu logları endir</value>
+    <value>Bu jurnalları endir</value>
   </data>
   <data name="BUT_clearlogs.Text" xml:space="preserve">
-    <value>Logları təmizlə</value>
+    <value>Jurnalları təmizlə</value>
   </data>
   <data name="BUT_firstperson.Text" xml:space="preserve">
-    <value>KML İlk Şəxs</value>
+    <value>Birinci şəxs görünüşlü KML</value>
   </data>
   <data name="BUT_dumpdf.Text" xml:space="preserve">
-    <value>(adv) Bütün DF atıqları</value>
+    <value>(ətraflı) Bütün DF-ni çıxar</value>
   </data>
+  <data name="TXT_seriallog.Text" xml:space="preserve"><value>PUA aktivləşdirilmiş halda jurnallar silinə bilməz. Əvvəlcə deaktivləşdirin!</value></data>
+  <data name="BUT_bintolog.Text" xml:space="preserve"><value>.bin-dən .log-a</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Jurnal</value></data>
 </root>

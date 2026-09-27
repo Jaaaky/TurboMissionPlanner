@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label44.Text" xml:space="preserve"><value>ئەڭ تۆۋەن ياپقۇچ سۈرئىتى:</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>يەر يۈزى ئېگىزلىكى:</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>بۇرۇلۇش دىئامېتىرى (45 گرادۇستا):</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>سۈرەتكە تارتىش ئارىلىقى (مۆلچەر):</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>ئۇچۇش ۋاقتى (مۆلچەر):</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>سىزىقلار ئارىسىدىكى ئارىلىق:</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>يەر يۈزى قاپلاش دائىرىسى:</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>يولاق سانى:</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>رەسىملەر:</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>يەر يۈزى ئېنىقلىقى: </value></data>
+  <data name="label27.Text" xml:space="preserve"><value>رەسىملەر ئارىسىدىكى ئارىلىق: </value></data>
+  <data name="label23.Text" xml:space="preserve"><value>ئارىلىق: </value></data>
+  <data name="label22.Text" xml:space="preserve"><value>مەيدان: </value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>ستاتىستىكا</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>سېرۋو</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>يۇقىرى PWM</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>تۆۋەن PWM</value></data>
+  <data name="rad_do_set_servo.Text" xml:space="preserve"><value>DO_SET_SERVO</value></data>
+  <data name="chk_stopstart.Text" xml:space="preserve"><value>باشلىنىشلارنى ئايرىش</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>PWM</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>دەۋر ۋاقتى [s]</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>سېرۋو</value></data>
+  <data name="rad_digicam.Text" xml:space="preserve"><value>DO_DIGICAM_CONTROL</value></data>
+  <data name="rad_repeatservo.Text" xml:space="preserve"><value>DO_REPEAT_SERVO</value></data>
+  <data name="rad_trigdist.Text" xml:space="preserve"><value>CAM_TRIGG_DIST</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>قوزغىتىش ئۇسۇلى</value></data>
+  <data name="BUT_samplephoto.Text" xml:space="preserve"><value>ئۈلگە رەسىم يۈكلەش</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>ھېسابلانغان قىممەتلەر</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>تىك كۆرۈش دائىرىسى [m]</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>توغرىسىغا كۆرۈش دائىرىسى [m]</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>cm/پىكسېل</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>سېنزور ئېگىزلىكى [mm]</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>سېنزور كەڭلىكى [mm]</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>رەسىم ئېگىزلىكى [پىكسېل]</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>رەسىم كەڭلىكى [پىكسېل]</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>فوكۇس ئارىلىقى [mm]</value></data>
+  <data name="BUT_save.Text" xml:space="preserve"><value>ساقلاش</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>كامېرا تاللانمىلىرى</value></data>
+  <data name="tabCamera.Text" xml:space="preserve"><value>كامېرا سەپلىمىسى</value></data>
+  <data name="LBL_laps.Text" xml:space="preserve"><value>ئايلىنىش سانى</value></data>
+  <data name="CHK_match_spiral_perimeter.Text" xml:space="preserve"><value>سىرتقى چېگرانى كۆپ تەرەپلىككە ماسلاشتۇرۇش</value></data>
+  <data name="LBL_clockwise_laps.Text" xml:space="preserve"><value>سائەت يۆنىلىشىدىكى ئايلىنىش سانى</value></data>
+  <data name="LBL_clockwise_laps1.Text" xml:space="preserve"><value>(سائەت يۆنىلىشىدىكى بۇرمىلىق ئۈچۈن -1)</value></data>
+  <data name="groupBoxSpiral.Text" xml:space="preserve"><value>بۇرمىلىق يول تاللانمىلىرى</value></data>
+  <data name="chk_optimize_for_distance.Text" xml:space="preserve"><value>ئارىلىقنى ئەلالاشتۇرۇش</value></data>
+  <data name="LBL_Alternating_lanes.Text" xml:space="preserve"><value>ئالمىشىدىغان يولاقلار</value></data>
+  <data name="LBL_Lane_Dist.Text" xml:space="preserve"><value>يولاقلار ئارىسىدىكى ئەڭ قىسقا ئارىلىق</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>ئايروپىلان تاللانمىلىرى</value></data>
+  <data name="chk_spline.Text" xml:space="preserve"><value>سىلىق ئەگرى كىرىش/چىقىش</value></data>
+  <data name="CHK_copter_headingholdlock.Text" xml:space="preserve"><value>تورغا باغلاشنى بىكار قىلىش</value></data>
+  <data name="CHK_copter_headinghold.Text" xml:space="preserve"><value>باش يۆنىلىشىنى ساقلاش</value></data>
+  <data name="LBL_copter_delay.Text" xml:space="preserve"><value>يول نۇقتىسىدا كۈتۈش (سېكۇنت)</value></data>
+  <data name="groupBox_copter.Text" xml:space="preserve"><value>كۆپ پىرقىرىغۇچلۇق ئۇچقۇ تاللانمىلىرى</value></data>
+  <data name="chk_spiral.Text" xml:space="preserve"><value>بۇرمىلىق يول</value></data>
+  <data name="chk_Corridor.Text" xml:space="preserve"><value>كارىدور</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>كارىدور كەڭلىكى [m]</value></data>
+  <data name="chk_crossgrid.Text" xml:space="preserve"><value>كېسىشمە تور</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>كىرىش ئارىلىقى [m]</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>ئۇزۇنىسىغا قاپلىشىش [%]</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>باشلىنىش ئورنى</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>يان قاپلىشىش [%]</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>ئېشىپ ئۆتۈش [m]</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>سىزىقلار ئارىسىدىكى ئارىلىق [m]</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>تور تاللانمىلىرى</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>ھەر [m] دا رەسىمگە تارتىش</value></data>
+  <data name="tabGrid.Text" xml:space="preserve"><value>تور تاللانمىلىرى</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>ھۆججەتكە ساقلاش: Control-S
+ھۆججەتتىن يۈكلەش: Control-O</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>x بۆلەككە بۆلۈش</value></data>
+  <data name="CHK_usespeed.Text" xml:space="preserve"><value>بۇ ۋەزىپىگە بەلگىلەنگەن سۈرئەتنى ئىشلىتىش</value></data>
+  <data name="CHK_toandland_RTL.Text" xml:space="preserve"><value>RTL نى ئىشلىتىش</value></data>
+  <data name="CHK_toandland.Text" xml:space="preserve"><value>كۆتۈرۈلۈش ۋە قونۇش يول نۇقتىلىرىنى قوشۇش</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>ئۇچۇش سۈرئىتى (مۆلچەر)</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>كامېرا</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>بۇلۇڭ [گرادۇس]</value></data>
+  <data name="CHK_camdirection.Text" xml:space="preserve"><value>كامېرانىڭ ئۈستى ئالدىغا قارىتىلغان</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>ئېگىزلىك</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>ئاددىي تاللانمىلار</value></data>
+  <data name="CHK_advanced.Text" xml:space="preserve"><value>ئىلغار تاللانمىلار</value></data>
+  <data name="CHK_footprints.Text" xml:space="preserve"><value>يەر يۈزى قاپلاش دائىرىلىرى</value></data>
+  <data name="CHK_internals.Text" xml:space="preserve"><value>ئىچكى سىزىقلار</value></data>
+  <data name="CHK_grid.Text" xml:space="preserve"><value>تور</value></data>
+  <data name="CHK_markers.Text" xml:space="preserve"><value>بەلگىلەر</value></data>
+  <data name="CHK_boundary.Text" xml:space="preserve"><value>چېگرا</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>كۆرسىتىش</value></data>
+  <data name="BUT_Accept.Text" xml:space="preserve"><value>قوبۇل قىلىش</value></data>
+  <data name="tabSimple.Text" xml:space="preserve"><value>ئاددىي</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>ئۆلچەش (تور)</value></data>
+</root>

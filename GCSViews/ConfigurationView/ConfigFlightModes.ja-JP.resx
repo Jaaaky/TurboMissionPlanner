@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -127,25 +127,25 @@
     <value>現在の PWM:</value>
   </data>
   <data name="labelfm1.Text" xml:space="preserve">
-    <value>Flight モード 1</value>
+    <value>飛行モード1</value>
   </data>
   <data name="labelfm2.Text" xml:space="preserve">
-    <value>Flight モード 2</value>
+    <value>飛行モード2</value>
   </data>
   <data name="labelfm3.Text" xml:space="preserve">
-    <value>Flight モード 3</value>
+    <value>飛行モード3</value>
   </data>
   <data name="labelfm4.Text" xml:space="preserve">
-    <value>Flight モード 4</value>
+    <value>飛行モード4</value>
   </data>
   <data name="labelfm5.Text" xml:space="preserve">
-    <value>Flight モード 5</value>
+    <value>飛行モード5</value>
   </data>
   <data name="labelfm6.Text" xml:space="preserve">
-    <value>Flight モード 6</value>
+    <value>飛行モード6</value>
   </data>
   <data name="lbl_currentmode.Text" xml:space="preserve">
-    <value>手動</value>
+    <value>マニュアル</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>PWM 0 - 1230</value>

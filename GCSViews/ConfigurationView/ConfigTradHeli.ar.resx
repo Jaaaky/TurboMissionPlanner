@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,12 +118,65 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label21.Text" xml:space="preserve">
-    <value>اعلى</value>
+    <value>الأعلى</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>اقصى</value>
+    <value>الأقصى</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>وضع السيرفو</value>
   </data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>نوع صفيحة التحكم المائلة</value></data>
+  <data name="fbl_modeFBL.Text" xml:space="preserve"><value>دون قضيب موازن</value></data>
+  <data name="H_SWASH_TYPE.Text" xml:space="preserve"><value>H1</value></data>
+  <data name="CCPM.Text" xml:space="preserve"><value>CCPM</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>الأسفل</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>نوع الذيل</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>سرعة الذيل</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>الكسب</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>الصفر</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>الأدنى</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>عكس</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>ضبط التعادل</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>سيرفو</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>ضبط التعادل</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>عكس</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>الموضع</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>سيرفو</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>مدى حركة الدفة</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>مدى الخطوة الجماعية</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>موضع سيرفو صفيحة التحكم</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>التعويض المسبق للخطوة الجماعية</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>معدل تدرّج التحكم بسرعة الدوّار</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>الحرج</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>زمن بلوغ سرعة التشغيل (ث)</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>زمن التدرّج (ث)</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>القيمة المرجعية للوضع 1</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>التحكم بسرعة الدوّار</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>اختبار السيرفو عند الإقلاع</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>تدحرج التحويم</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>تعويض الدوران حول المحور الرأسي</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>مدى الخطوة الدورية</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>الخطوة الجماعية للهبوط</value></data>
+  <data name="myButtonH_SV_MANtest.Text" xml:space="preserve"><value>اختبار</value></data>
+  <data name="myButtonH_SV_MANmin.Text" xml:space="preserve"><value>الأدنى</value></data>
+  <data name="myButtonH_SV_MANzero.Text" xml:space="preserve"><value>الصفر</value></data>
+  <data name="myButtonH_SV_MANmax.Text" xml:space="preserve"><value>الأقصى</value></data>
+  <data name="myButtonH_SV_MANmanual.Text" xml:space="preserve"><value>يدوي</value></data>
+  <data name="myButtonH_SV_MAN.Text" xml:space="preserve"><value>نشط</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>زاوية الطور</value></data>
+  <data name="groupBox11.Text" xml:space="preserve"><value>خرج الخانق</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>عكس</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>الأقصى</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>الأدنى</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>منحنى V</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>القدرة العالية</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>القدرة المنخفضة</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>الخمول</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>المنحنى</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>الاستجابة الأسّية لوضع Acro</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>التثبيت 4</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>التثبيت 3</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>التثبيت 2</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>التثبيت 1</value></data>
 </root>

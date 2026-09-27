@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>لايمكنك تحميل برنامج ثابت جديد في حال الاتصال عن طريق الـ Mavlink . من فضلك اضغط على زر قطع الاتصال لانهاء الاتصال الحالي ومن ثم تفعيل واجهة تحميل البرامج الثابتة</value>
+    <value>لا يمكنك تحميل برنامج ثابت جديد أثناء الاتصال عبر MAVLink. 
+
+يُرجى الضغط على زر قطع الاتصال أعلى اليمين لإنهاء جلسة MAVLink الحالية وتفعيل شاشة تحميل البرنامج الثابت.</value>
   </data>
+  <data name="but_bootloaderupdate.Text" xml:space="preserve"><value>تحديث محمّل الإقلاع</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>تحديث محمّل الإقلاع على العتاد إلى أحدث إصدار متاح.</value></data>
 </root>

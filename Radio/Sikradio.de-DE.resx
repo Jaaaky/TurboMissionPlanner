@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,7 +121,11 @@
     <value>Ermöglicht "opportunistische Wiederholung". Wenn aktiv, sendet der Sender jedes Paket zwei mal, wenn der Serielle Eingangsbuffer weniger als 256 Bytes enthält. Diese zweite Sendung ist als solche markiert und wird vom Empfänger ignoriert, wenn das erste Paket empfangen wurde. Verbessert die Signalqualität erheblich.</value>
   </data>
   <data name="linkLabel1.ToolTip" xml:space="preserve">
-    <value>Die 3DR-Sender haben 2 LED, eine rote und eine grüne. Grüne LED blinkt - Sendersuche. Dauergrün: Verbindung hergestellt. Rot blinkt:Datenübertragung. Dauerrot: Firmware-Updatemodus.</value>
+    <value>Die 3DR-Funkmodule haben zwei Status-LEDs, eine rote und eine grüne.
+Grün blinkend: Suche nach einem anderen Funkmodul
+Grün dauerhaft: Verbindung mit einem anderen Funkmodul hergestellt
+Rot blinkend: Datenübertragung
+Rot dauerhaft: Firmware-Aktualisierungsmodus</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>RSSI</value>
@@ -142,7 +146,7 @@
     <value>AIR_SPEED ist die Datenrate in gerundeten KBPS. Minimum 2, Maximum 192 Kbps. Werte unter 16 bringen Nachteile beim Frequenzhopping und Synchronisieren.</value>
   </data>
   <data name="BUT_Syncoptions.Text" xml:space="preserve">
-    <value>Benötigte Daten auf remote gespeichert</value>
+    <value>Erforderliche Werte zur Gegenstelle kopieren</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>Max Freq</value>
@@ -184,7 +188,7 @@
     <value>Op neu senden</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Geschwindigkeit</value>
+    <value>Funkdatenrate</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
     <value>Mavlink</value>
@@ -223,7 +227,7 @@
     <value>Remote</value>
   </data>
   <data name="BUT_resettodefault.Text" xml:space="preserve">
-    <value>Einstellungen zurücksetzen</value>
+    <value>Auf Standard zurücksetzen</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Op neu senden</value>
@@ -241,7 +245,7 @@
     <value>Anzahl der für das Frequenzhopping genutzten Kanäle</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Status Leds</value>
+    <value>Status-LEDs</value>
   </data>
   <data name="RS1.ToolTip" xml:space="preserve">
     <value>Serielle Baudrate in gerundeten kbps.</value>
@@ -259,7 +263,7 @@
     <value>minimale Frequenz in kHz </value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>Geschwindigkeit</value>
+    <value>Funkdatenrate</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
     <value>Baud</value>
@@ -280,7 +284,7 @@
     <value>TXPOWER ist die Sendeleistung in dBm. 20dBm sind ca. 100mW. Sollte bei Tests mit niedrigem Abstand gesenkt werden.</value>
   </data>
   <data name="BUT_upload.Text" xml:space="preserve">
-    <value>Firmware lokal hochladen</value>
+    <value>Firmware hochladen (Standard)</value>
   </data>
   <data name="BUT_getcurrent.Text" xml:space="preserve">
     <value>Einstellungen laden</value>
@@ -298,7 +302,14 @@
     <value>AIR_SPEED ist die Datenrate in gerundeten KBPS. Minimum 2, Maximum 192 Kbps. Werte unter 16 bringen Nachteile beim Frequenzhopping und Synchronisieren.</value>
   </data>
   <data name="RSSI.ToolTip" xml:space="preserve">
-    <value>Siehe spec für einen RSSI/dBm-Graph. Die Zahlen am Ende bedeuten: txe: Sendefehler (z.B. timeouts) rxe: Empfangsfehler (CRC-Fehler, Framefehler) stx: Serielle Sendeüberläufe rrx: Serielle Empfängerüberläufe ecc: Erfolgreich durch Golay korrigierte 12bit-Pakete</value>
+    <value>Die Kennlinie zur Umrechnung von RSSI in dBm finden Sie in der Spezifikation. Die Zahlen am Ende bedeuten:
+txe: Anzahl Sendefehler (z. B. Zeitüberschreitungen)
+rxe: Anzahl Empfangsfehler (CRC-Fehler, Rahmenfehler usw.)
+stx: Anzahl Überläufe beim seriellen Senden
+rrx: Anzahl Überläufe beim seriellen Empfangen
+ecc: Anzahl erfolgreich durch den Golay-Code korrigierter 12-Bit-Wörter,
+die zu einer gültigen Paket-CRC führen
+</value>
   </data>
   <data name="RS12.ToolTip" xml:space="preserve">
     <value>Lauschen vor dem Sprechen-Schwelle</value>
@@ -309,4 +320,133 @@
   <data name="RS11.ToolTip" xml:space="preserve">
     <value>Prozentsatz der Zeit, die für Senden genutzt werden kann</value>
   </data>
+  <data name="RRTSCTS.ToolTip" xml:space="preserve"><value>Hardware-Flusssteuerung aktivieren oder deaktivieren</value></data>
+  <data name="RMAX_FREQ.ToolTip" xml:space="preserve"><value>Maximale Frequenz in kHz </value></data>
+  <data name="RNUM_CHANNELS.ToolTip" xml:space="preserve"><value>Anzahl der Frequenzsprungkanäle </value></data>
+  <data name="RDUTY_CYCLE.ToolTip" xml:space="preserve"><value>Zulässiger Sendezeitanteil in Prozent</value></data>
+  <data name="RLBT_RSSI.ToolTip" xml:space="preserve"><value>Schwellwert für Listen Before Talk</value></data>
+  <data name="RMIN_FREQ.ToolTip" xml:space="preserve"><value>Minimale Frequenz in kHz </value></data>
+  <data name="RGPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT konfiguriert GPIO 1.1 als RC-Ausgang (PPM)</value></data>
+  <data name="RGPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN konfiguriert GPIO 1.1 als RC-Eingang (PPM)</value></data>
+  <data name="RSERIAL_SPEED.ToolTip" xml:space="preserve"><value>Serielle Baudrate in gerundeten kbit/s. 57 steht somit für 57600.
+</value></data>
+  <data name="RAIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEED ist die Datenrate zwischen den Funkmodulen in gerundeten kbit/s. 128 bedeutet 128 kbit/s. Maximum: 192, Minimum: 2. Werte unter 16 werden nicht empfohlen, da Frequenzsprung- und TDM-Synchronisationszeiten zu lang werden. </value></data>
+  <data name="RNETID.ToolTip" xml:space="preserve"><value>NETID ist eine 16-Bit-Netzwerkkennung. Sie bestimmt die Frequenzsprungfolge und dient zur Zuordnung empfangener Pakete zum richtigen Funkmodul. Verwenden Sie eine andere NETID als andere Nutzer desselben Funkmodultyps in Ihrer Umgebung. </value></data>
+  <data name="RTXPOWER.ToolTip" xml:space="preserve"><value>TXPOWER ist die Sendeleistung in dBm. 20 dBm entsprechen 100 mW. Für Tests auf kurze Entfernung empfiehlt sich eine geringere Leistung.
+</value></data>
+  <data name="RECC.ToolTip" xml:space="preserve"><value>ECC aktiviert/deaktiviert die Golay-Fehlerkorrektur. Sie ist standardmäßig ausgeschaltet. Bei Aktivierung benötigen Pakete doppelt so viele Bytes; die nutzbare Funkbandbreite halbiert sich. Dafür können bis zu 3 Bitfehler je 12 Datenbits korrigiert werden. Für große Reichweiten verwenden, meist zusammen mit einer niedrigeren Funkdatenrate. Die Golay-Dekodierung benötigt 20 Mikrosekunden je übertragenem Byte (40 Mikrosekunden je Nutzdatenbyte). Bei sehr hohen Funkdatenraten begrenzt daher auch die CPU-Leistung den Durchsatz. Golay wird üblicherweise bei höchstens 128 kbit/s verwendet.
+</value></data>
+  <data name="ROPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESEND aktiviert/deaktiviert die opportunistische Sendewiederholung. Bei Aktivierung sendet das Funkmodul ein Paket zweimal, wenn sich weniger als 256 Bytes im seriellen Eingangspuffer befinden. Die zweite Übertragung wird als Wiederholung markiert und vom Empfänger verworfen, wenn das erste Paket korrekt empfangen wurde. Dies verbessert die Verbindungsqualität erheblich, insbesondere für Befehle an das Fahrzeug.
+</value></data>
+  <data name="RTSCTS.ToolTip" xml:space="preserve"><value>Hardware-Flusssteuerung aktivieren oder deaktivieren</value></data>
+  <data name="MAX_FREQ.ToolTip" xml:space="preserve"><value>Maximale Frequenz in kHz </value></data>
+  <data name="NUM_CHANNELS.ToolTip" xml:space="preserve"><value>Anzahl der Frequenzsprungkanäle </value></data>
+  <data name="LBT_RSSI.ToolTip" xml:space="preserve"><value>Schwellwert für Listen Before Talk</value></data>
+  <data name="MIN_FREQ.ToolTip" xml:space="preserve"><value>Minimale Frequenz in kHz </value></data>
+  <data name="DUTY_CYCLE.ToolTip" xml:space="preserve"><value>Zulässiger Sendezeitanteil in Prozent</value></data>
+  <data name="GPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT konfiguriert GPIO 1.1 als RC-Ausgang (PPM)</value></data>
+  <data name="GPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN konfiguriert GPIO 1.1 als RC-Eingang (PPM)</value></data>
+  <data name="MAVLINK.ToolTip" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="SERIAL_SPEED.ToolTip" xml:space="preserve"><value>Serielle Baudrate in gerundeten kbit/s. 57 steht somit für 57600.
+</value></data>
+  <data name="AIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEED ist die Datenrate zwischen den Funkmodulen in gerundeten kbit/s. 128 bedeutet 128 kbit/s. Maximum: 192, Minimum: 2. Werte unter 16 werden nicht empfohlen, da Frequenzsprung- und TDM-Synchronisationszeiten zu lang werden. </value></data>
+  <data name="NETID.ToolTip" xml:space="preserve"><value>NETID ist eine 16-Bit-Netzwerkkennung. Sie bestimmt die Frequenzsprungfolge und dient zur Zuordnung empfangener Pakete zum richtigen Funkmodul. Verwenden Sie eine andere NETID als andere Nutzer desselben Funkmodultyps in Ihrer Umgebung. </value></data>
+  <data name="TXPOWER.ToolTip" xml:space="preserve"><value>TXPOWER ist die Sendeleistung in dBm. 20 dBm entsprechen 100 mW. Für Tests auf kurze Entfernung empfiehlt sich eine geringere Leistung.
+</value></data>
+  <data name="ECC.ToolTip" xml:space="preserve"><value>ECC aktiviert/deaktiviert die Golay-Fehlerkorrektur. Sie ist standardmäßig ausgeschaltet. Bei Aktivierung benötigen Pakete doppelt so viele Bytes; die nutzbare Funkbandbreite halbiert sich. Dafür können bis zu 3 Bitfehler je 12 Datenbits korrigiert werden. Für große Reichweiten verwenden, meist zusammen mit einer niedrigeren Funkdatenrate. Die Golay-Dekodierung benötigt 20 Mikrosekunden je übertragenem Byte (40 Mikrosekunden je Nutzdatenbyte). Bei sehr hohen Funkdatenraten begrenzt daher auch die CPU-Leistung den Durchsatz. Golay wird üblicherweise bei höchstens 128 kbit/s verwendet.
+</value></data>
+  <data name="OPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESEND aktiviert/deaktiviert die opportunistische Sendewiederholung. Bei Aktivierung sendet das Funkmodul ein Paket zweimal, wenn sich weniger als 256 Bytes im seriellen Eingangspuffer befinden. Die zweite Übertragung wird als Wiederholung markiert und vom Empfänger verworfen, wenn das erste Paket korrekt empfangen wurde. Dies verbessert die Verbindungsqualität erheblich, insbesondere für Befehle an das Fahrzeug.
+</value></data>
+  <data name="ENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>AES-Verschlüsselungsstufe</value></data>
+  <data name="RENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>AES-Verschlüsselungsstufe</value></data>
+  <data name="FSFRAMELOSS.ToolTip" xml:space="preserve"><value>Anzahl ausbleibender SBUS- oder PPM-Ausgabeframes, bevor Failsafe ausgelöst wird.</value></data>
+  <data name="RFSFRAMELOSS.ToolTip" xml:space="preserve"><value>Anzahl ausbleibender SBUS- oder PPM-Ausgabeframes, bevor Failsafe ausgelöst wird.</value></data>
+  <data name="lbl_status.Text" xml:space="preserve"><value>HINWEIS: Nach Änderungen immer auf „Erforderliche Werte zur Gegenstelle kopieren“ klicken.
+So bleibt die Funkverbindung erhalten.</value></data>
+  <data name="groupBoxLocal.Text" xml:space="preserve"><value>Lokal</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>Frameverlust bis Failsafe</value></data>
+  <data name="lblGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>Land:</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>Datenrate/Frequenzband</value></data>
+  <data name="lblSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="btnRandom.Text" xml:space="preserve"><value>Zufällig</value></data>
+  <data name="lblRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblDESTID.Text" xml:space="preserve"><value>Ziel-ID</value></data>
+  <data name="lblNODEID.Text" xml:space="preserve"><value>Knoten-ID</value></data>
+  <data name="lblGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblNETID.Text" xml:space="preserve"><value>Netzwerk-ID</value></data>
+  <data name="lblTXPOWER.Text" xml:space="preserve"><value>Sendeleistung</value></data>
+  <data name="lblECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblOPPRESEND.Text" xml:space="preserve"><value>Opportunistische Wiederholung</value></data>
+  <data name="lblMAVLINK.Text" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="lblANT_MODE.Text" xml:space="preserve"><value>Antennenmodus</value></data>
+  <data name="lblSER_BRK_DETMS.Text" xml:space="preserve"><value>Break-Erkennung</value></data>
+  <data name="lblGLOBAL_RETRIES.Text" xml:space="preserve"><value>Globale Wiederholungen</value></data>
+  <data name="lblMAX_RETRIES.Text" xml:space="preserve"><value>Max. Wiederholungen</value></data>
+  <data name="lblMAX_DATA.Text" xml:space="preserve"><value>Max. Datenmenge</value></data>
+  <data name="lblENCRYPTION_LEVEL.Text" xml:space="preserve"><value>AES-Verschlüsselung</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>AES-Schlüssel</value></data>
+  <data name="lblRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="linkLabel_mavlink.Text" xml:space="preserve"><value>Einstellungen für Standard-MAVLink</value></data>
+  <data name="linkLabel_lowlatency.Text" xml:space="preserve"><value>Einstellungen für geringe Latenz</value></data>
+  <data name="lblMAX_WINDOW.Text" xml:space="preserve"><value>Max. Zeitfenster (ms)</value></data>
+  <data name="lblMIN_FREQ.Text" xml:space="preserve"><value>Min. Frequenz</value></data>
+  <data name="lblLBT_RSSI.Text" xml:space="preserve"><value>LBT-RSSI</value></data>
+  <data name="lblDUTY_CYCLE.Text" xml:space="preserve"><value>Sendezeitanteil</value></data>
+  <data name="lblNUM_CHANNELS.Text" xml:space="preserve"><value>Kanalanzahl</value></data>
+  <data name="lblMAX_FREQ.Text" xml:space="preserve"><value>Max. Frequenz</value></data>
+  <data name="btnRemoteLoadFromFile.Text" xml:space="preserve"><value>Aus Datei laden...</value></data>
+  <data name="btnRemoteSaveToFile.Text" xml:space="preserve"><value>In Datei speichern...</value></data>
+  <data name="lblRFSFRAMELOSS.Text" xml:space="preserve"><value>Frameverlust bis Failsafe</value></data>
+  <data name="lblRGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblRGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblRGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblRGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblRGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.Text" xml:space="preserve"><value>PPM-Failsafe festlegen</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.ToolTip" xml:space="preserve"><value>Standard-PPM-Datenstrom für die PPM-Ausgabe aufzeichnen (Fahrzeugseite)</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>Land:</value></data>
+  <data name="lblRSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblRSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>Datenrate/Frequenzband</value></data>
+  <data name="lblRRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblRTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblRDESTID.Text" xml:space="preserve"><value>Ziel-ID</value></data>
+  <data name="lblRNODEID.Text" xml:space="preserve"><value>Knoten-ID</value></data>
+  <data name="lblRGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblRGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblROPPRESEND.Text" xml:space="preserve"><value>Opportunistische Wiederholung</value></data>
+  <data name="lblRMAVLINK.Text" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="lblRECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblRTXPOWER.Text" xml:space="preserve"><value>Sendeleistung</value></data>
+  <data name="lblRNETID.Text" xml:space="preserve"><value>Netzwerk-ID</value></data>
+  <data name="lblRANT_MODE.Text" xml:space="preserve"><value>Antennenmodus</value></data>
+  <data name="lblRSER_BRK_DETMS.Text" xml:space="preserve"><value>Break-Erkennung</value></data>
+  <data name="lblRGLOBAL_RETRIES.Text" xml:space="preserve"><value>Globale Wiederholungen</value></data>
+  <data name="lblRMAX_RETRIES.Text" xml:space="preserve"><value>Max. Wiederholungen</value></data>
+  <data name="lblRMAX_DATA.Text" xml:space="preserve"><value>Max. Datenmenge</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>AES-Schlüssel</value></data>
+  <data name="lblRENCRYPTION_LEVEL.Text" xml:space="preserve"><value>AES-Verschlüsselung</value></data>
+  <data name="lblRRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblRMAX_WINDOW.Text" xml:space="preserve"><value>Max. Zeitfenster (ms)</value></data>
+  <data name="lblRMIN_FREQ.Text" xml:space="preserve"><value>Min. Frequenz</value></data>
+  <data name="lblRMAX_FREQ.Text" xml:space="preserve"><value>Max. Frequenz</value></data>
+  <data name="lblRNUM_CHANNELS.Text" xml:space="preserve"><value>Kanalanzahl</value></data>
+  <data name="lblRDUTY_CYCLE.Text" xml:space="preserve"><value>Sendezeitanteil</value></data>
+  <data name="lblRLBT_RSSI.Text" xml:space="preserve"><value>LBT-RSSI</value></data>
+  <data name="groupBoxRemote.Text" xml:space="preserve"><value>Gegenstelle</value></data>
+  <data name="dlgSave.Filter" xml:space="preserve"><value>INI-Dateien|*.ini</value></data>
+  <data name="dlgOpen.Filter" xml:space="preserve"><value>INI-Dateien|*.ini</value></data>
+  <data name="BUT_loadcustom.Text" xml:space="preserve"><value>Firmware hochladen (benutzerdefiniert)</value></data>
+  <data name="BUT_SetPPMFailSafe.Text" xml:space="preserve"><value>PPM-Failsafe festlegen</value></data>
+  <data name="BUT_SetPPMFailSafe.ToolTip" xml:space="preserve"><value>Standard-PPM-Datenstrom für die PPM-Ausgabe aufzeichnen (Fahrzeugseite)</value></data>
+  <data name="btnSaveToFile.Text" xml:space="preserve"><value>In Datei speichern...</value></data>
+  <data name="btnLoadFromFile.Text" xml:space="preserve"><value>Aus Datei laden...</value></data>
 </root>

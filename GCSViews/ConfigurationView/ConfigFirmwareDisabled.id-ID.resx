@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,8 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>You cannot load new firmware while connected via MAVLink. 
+    <value>Anda tidak dapat memuat firmware baru saat terhubung melalui MAVLink.
 
-Please press the Disconnect button at top right to end the current MAVLink session and enable the firmware loading screen.</value>
+Tekan tombol Putuskan di kanan atas untuk mengakhiri sesi MAVLink saat ini dan mengaktifkan layar pemuatan firmware.</value>
   </data>
+  <data name="but_bootloaderupdate.Text" xml:space="preserve"><value>Pembaruan Bootloader</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Perbarui bootloader perangkat keras Anda ke versi terbaru yang tersedia.</value></data>
 </root>

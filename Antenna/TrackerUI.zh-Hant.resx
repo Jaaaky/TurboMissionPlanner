@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -228,7 +228,7 @@
     <value>10</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Trim</value>
+    <value>微調</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -273,7 +273,7 @@
     <value>16</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Trim</value>
+    <value>微調</value>
   </data>
   <data name="TXT_tiltrange.Location" type="System.Drawing.Point, System.Drawing">
     <value>83, 177</value>
@@ -309,7 +309,7 @@
     <value>18</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Pan</value>
+    <value>水平旋轉</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -324,7 +324,7 @@
     <value>19</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Tilt</value>
+    <value>俯仰</value>
   </data>
   <data name="CHK_revpan.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -456,7 +456,7 @@
     <value>28</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>選錯介面可能會導致伺服機損壞, 請小心使用!!!</value>
+    <value>不當使用此介面可能損壞伺服機，請謹慎操作！</value>
   </data>
   <data name="BUT_connect.Location" type="System.Drawing.Point, System.Drawing">
     <value>476, 9</value>
@@ -468,7 +468,7 @@
     <value>3</value>
   </data>
   <data name="BUT_connect.Text" xml:space="preserve">
-    <value>連接</value>
+    <value>連線</value>
   </data>
   <data name="LBL_pantrim.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -510,7 +510,7 @@
     <value>31</value>
   </data>
   <data name="BUT_find.Text" xml:space="preserve">
-    <value>Find Trim Pan (Sik Radio)</value>
+    <value>尋找水平旋轉微調值 (SiK 無線電)</value>
   </data>
   <data name="BUT_find.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -556,7 +556,7 @@
     <value>32</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Center PWM</value>
+    <value>中立點 PWM</value>
   </data>
   <data name="label14.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -574,7 +574,7 @@
     <value>33</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Center PWM</value>
+    <value>中立點 PWM</value>
   </data>
   <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -585,4 +585,8 @@
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>587, 265</value>
   </data>
+  <data name="label15.Text" xml:space="preserve"><value>速度</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>加速度</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>加速度</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>速度</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -263,20 +263,23 @@
     <value>APM設置</value>
   </data>
   <data name="BUT_calib_accell.Text" xml:space="preserve">
-    <value>校準加速度計</value>
+    <value>校正加速度計</value>
   </data>
   <data name="BUT_level.Text" xml:space="preserve">
-    <value>校準水平狀態</value>
+    <value>校正水平</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Level your Plane to set default accelerometer offsets (1 axis).
-This requires you to place your autopilot flat and level.</value>
+    <value>將飛控放平，以設定預設加速度計偏移量 (單軸/AHRS 微調)。
+請將飛控放置在平坦且水平的表面上。</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Level your Plane to set default accelerometer offsets (3 axis).
-This will ask you to place your autopilot on each edge.</value>
+    <value>將飛控放平，以設定預設加速度計最小/最大值 (三軸)。
+系統將要求您將飛控依序以各面朝下放置。</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>加速度計校準</value>
+    <value>加速度計校正</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>將飛控放平，以設定水平飛行的預設加速度計比例因子 (單軸)。
+請將飛控放置在平坦且水平的表面上。</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>簡易加速度計校正</value></data>
 </root>

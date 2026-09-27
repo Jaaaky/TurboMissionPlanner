@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,9 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>نوع الجسم</value>
+    <value>نوع الهيكل</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>الاعدادات الإفتراضية</value>
+    <value>الإعدادات الافتراضية</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>'V'</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>'X' , 'Y6A'</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>'Y6B'</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>ملاحظة: هذا هو Y6B، ويختلف اتجاه دوران المراوح عن Y6A القديم</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>ذيل على شكل V</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>'Plus'</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>'H'</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>ملاحظة: لا يمكن التبديل بين X وH دون تعديل اتجاه دوران المراوح</value></data>
 </root>

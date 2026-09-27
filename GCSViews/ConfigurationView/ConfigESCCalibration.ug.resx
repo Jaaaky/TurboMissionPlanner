@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>ESC كالىبرلاش (AC3.3+)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>پىرقىرىغۇچلارنى ئېلىۋېتىڭ!
+بۇ كۇنۇپكىنى باسقاندىن كېيىن:
+- USB ۋە باتارېيەنى ئۈزۈڭ
+- باتارېيەنى ئۇلاڭ
+- LED لار چاقنىغاندا بىخەتەرلىك ئالماشتۇرغۇچىنى بېسىڭ (بار بولسا)
+- ESC لار كالىبرلىنىۋاتقاندا ئاۋاز چىقىرىشى كېرەك
+- ئۇچۇش كونتروللىغۇچنى نورمال قايتا قوزغىتىڭ</value></data>
+  <data name="buttonStart.Text" xml:space="preserve"><value>ESC لارنى كالىبرلاش</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>ESC تىپى:</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>چىقىرىش PWM تۆۋەن چېكى</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>چىقىرىش PWM يۇقىرى چېكى</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>قوزغىتىلغاندا ئايلىنىش</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>ئەڭ تۆۋەن ئايلىنىش</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>ئەڭ يۇقىرى ئايلىنىش</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>RX كىرگۈزۈش دائىرىسىنى ئىشلىتىش ئۈچۈن 0 پېتى قالدۇرۇڭ</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>RX كىرگۈزۈش دائىرىسىنى ئىشلىتىش ئۈچۈن 0 پېتى قالدۇرۇڭ</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>موتورلار قوزغىتىلغان، ئەمما گاز نۆل بولغاندىكى سۈرئەت (بىكار ئايلىنىش)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>ئۇچۇش جەريانىدىكى موتورنىڭ ئەڭ تۆۋەن سۈرئىتى («قوزغىتىلغاندا ئايلىنىش»تىن سەل يۇقىرى)</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>ئۇچۇش جەريانىدىكى موتورنىڭ ئەڭ يۇقىرى سۈرئىتى (بارلىق ESC لارنىڭ دېگۈدەك ئۈستۈنكى چېكىدە ئىنكاسسىز رايون بار)</value></data>
+</root>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="chk_ele.Text" xml:space="preserve"><value>Élévation</value></data>
+  <data name="chk_terrain.Text" xml:space="preserve"><value>Terrain</value></data>
+  <data name="chk_rf.Text" xml:space="preserve"><value>Carte radio</value></data>
+  <data name="chk_dronedist.Text" xml:space="preserve"><value>Distance drone restante</value></data>
+  <data name="chk_homedist.Text" xml:space="preserve"><value>Distance départ restante</value></data>
+  <data name="cb_showscale.Text" xml:space="preserve"><value>Afficher l’échelle</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Filtre d’altitude</value></data>
+  <data name="label91.Text" xml:space="preserve"><value>Élévation</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Alt. max</value></data>
+  <data name="label89.Text" xml:space="preserve"><value>Dégagement [m]</value></data>
+  <data name="label100.Text" xml:space="preserve"><value>Propagation</value></data>
+  <data name="label113.Text" xml:space="preserve"><value>Km restants</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Alt. min</value></data>
+  <data name="label109.Text" xml:space="preserve"><value>Pas d’azimut</value></data>
+  <data name="label90.Text" xml:space="preserve"><value>Résolution</value></data>
+  <data name="label110.Text" xml:space="preserve"><value>Convergence</value></data>
+  <data name="label111.Text" xml:space="preserve"><value>Portée [km]</value></data>
+  <data name="label112.Text" xml:space="preserve"><value>Hauteur de base [m]</value></data>
+  <data name="label114.Text" xml:space="preserve"><value>Tolérance</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Superposition cartographique</value></data>
+  <data name="chk_setalt.Text" xml:space="preserve"><value>Filtre d’altitude</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Paramètres de propagation</value></data>
+</root>

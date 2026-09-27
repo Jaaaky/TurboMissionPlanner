@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -232,7 +232,7 @@
     <value>12</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>추진력 0-100%</value>
+    <value>스로틀 0-100%</value>
   </data>
   <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
     <value>groupBox3</value>
@@ -274,7 +274,7 @@
     <value>12</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>FS 값</value>
+    <value>페일세이프 값</value>
   </data>
   <data name="THR_MAX.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 73</value>
@@ -502,7 +502,7 @@
     <value>23</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
-    <value>서보 좌우 요동 PID</value>
+    <value>롤 서보 PID</value>
   </data>
   <data name="&gt;&gt;groupBox8.Name" xml:space="preserve">
     <value>groupBox8</value>
@@ -532,7 +532,7 @@
     <value>17</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>적분 제한</value>
   </data>
   <data name="ROLL_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 131</value>
@@ -574,7 +574,7 @@
     <value>12</value>
   </data>
   <data name="label49.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>출력 제한</value>
   </data>
   <data name="ROLL_RATE_KP.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 73</value>
@@ -805,7 +805,7 @@
     <value>24</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>서보 상하 요동 PID</value>
+    <value>피치 서보 PID</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -835,7 +835,7 @@
     <value>17</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>적분 제한</value>
   </data>
   <data name="PITCH_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 131</value>
@@ -877,7 +877,7 @@
     <value>12</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>출력 제한</value>
   </data>
   <data name="PITCH_RATE_KP.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 73</value>
@@ -1189,7 +1189,7 @@
     <value>17</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>적분 제한</value>
   </data>
   <data name="EH_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 131</value>
@@ -1231,7 +1231,7 @@
     <value>12</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>출력 제한</value>
   </data>
   <data name="EH_KD.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 73</value>
@@ -1459,7 +1459,7 @@
     <value>76</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>방위각 -&gt; 좌우 요동</value>
+    <value>기수방위 → 롤</value>
   </data>
   <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
     <value>groupBox4</value>
@@ -1489,7 +1489,7 @@
     <value>17</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>적분 제한</value>
   </data>
   <data name="HDG_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 131</value>
@@ -1531,7 +1531,7 @@
     <value>12</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>출력 제한</value>
   </data>
   <data name="HDG_KD.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 73</value>
@@ -1759,7 +1759,7 @@
     <value>25</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>항속 -&gt; 상하 요동</value>
+    <value>대기속도 → 피치</value>
   </data>
   <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
     <value>groupBox5</value>
@@ -1789,7 +1789,7 @@
     <value>17</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
-    <value>Int Lim</value>
+    <value>적분 제한</value>
   </data>
   <data name="ARSPD_INT_LIM.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 131</value>
@@ -1831,7 +1831,7 @@
     <value>12</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Effort Lim</value>
+    <value>출력 제한</value>
   </data>
   <data name="ARSPD_KD.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 73</value>
@@ -1987,7 +1987,7 @@
     <value>77</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
-    <value>서보 방위각 PID</value>
+    <value>요 서보 PID</value>
   </data>
   <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
     <value>groupBox6</value>
@@ -2029,7 +2029,7 @@
     <value>14</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>방위 각속도 제한</value>
+    <value>요 각속도 제한</value>
   </data>
   <data name="YAW_RATE_KP.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 16</value>
@@ -2275,7 +2275,7 @@
     <value>14</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>장입 각도</value>
+    <value>진입각</value>
   </data>
   <data name="XTRACK_GAIN.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 16</value>
@@ -2419,7 +2419,7 @@
     <value>79</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>순항 각도</value>
+    <value>항법 각도</value>
   </data>
   <data name="&gt;&gt;groupBox9.Name" xml:space="preserve">
     <value>groupBox9</value>
@@ -2461,7 +2461,7 @@
     <value>12</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>최소 상하 요동</value>
+    <value>최소 피치</value>
   </data>
   <data name="PITCH_U_LIM.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 73</value>
@@ -2491,7 +2491,7 @@
     <value>13</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>최대 상하 요동</value>
+    <value>최대 피치</value>
   </data>
   <data name="ROLL_L_LIM.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 44</value>
@@ -2521,7 +2521,7 @@
     <value>14</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>최소 조향</value>
+    <value>최소 뱅크각</value>
   </data>
   <data name="ROLL_U_LIM.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 16</value>
@@ -2551,7 +2551,7 @@
     <value>15</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
-    <value>최대 조향</value>
+    <value>최대 뱅크각</value>
   </data>
   <data name="&gt;&gt;FLD_ATM_PRESS.Name" xml:space="preserve">
     <value>FLD_ATM_PRESS</value>
@@ -2797,7 +2797,7 @@
     <value>17</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>접근 속력</value>
+    <value>접근 속도</value>
   </data>
   <data name="T_OFF_PITCH.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 16</value>
@@ -2827,7 +2827,7 @@
     <value>15</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
-    <value>Min TO Pitch</value>
+    <value>최소 이륙 피치</value>
   </data>
   <data name="&gt;&gt;ARSPD_U_LIM.Name" xml:space="preserve">
     <value>ARSPD_U_LIM</value>
@@ -2917,7 +2917,7 @@
     <value>16</value>
   </data>
   <data name="groupBox12.Text" xml:space="preserve">
-    <value>항속 m/s</value>
+    <value>대기속도 m/s</value>
   </data>
   <data name="&gt;&gt;groupBox12.Name" xml:space="preserve">
     <value>groupBox12</value>
@@ -2959,7 +2959,7 @@
     <value>13</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
-    <value>최대 항속</value>
+    <value>최대 대기속도</value>
   </data>
   <data name="ARSPD_L_LIM.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 44</value>
@@ -2989,7 +2989,7 @@
     <value>14</value>
   </data>
   <data name="label43.Text" xml:space="preserve">
-    <value>최소 항속</value>
+    <value>최소 대기속도</value>
   </data>
   <data name="CRUISE_ARSPD.Location" type="System.Drawing.Point, System.Drawing">
     <value>148, 16</value>
@@ -3049,7 +3049,7 @@
     <value>82</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
-    <value>좌우 요동 -&gt; 고도</value>
+    <value>롤 → 승강타</value>
   </data>
   <data name="&gt;&gt;groupBox13.Name" xml:space="preserve">
     <value>groupBox13</value>

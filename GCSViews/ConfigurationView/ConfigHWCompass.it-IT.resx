@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,21 +130,56 @@
     <value>Declinazione</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Solo Configurazione Avanzata</value>
+    <value>OPPURE</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Bussola</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Orientamento</value>
+    <value>Mag 2</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
-    <value>Sito Web per la Declinazione</value>
+    <value>Sito per la declinazione</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Esempio Youtube </value>
+    <value>Esempio su YouTube</value>
   </data>
   <data name="BUT_MagCalibrationLive.Text" xml:space="preserve">
-    <value>Calibrazione </value>
+    <value>Calibrazione in tempo reale</value>
   </data>
+  <data name="CHK_autodec.Text" xml:space="preserve"><value>Calcola automaticamente la declinazione</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Selezionare il dispositivo per configurare rapidamente i parametri:</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Gradi</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Minuti</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Allenta la soglia di accettazione se la calibrazione non riesce</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Qualità adattamento</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Mag 3</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Mag 1</value></data>
+  <data name="BUT_OBmagcalaccept.Text" xml:space="preserve"><value>Accetta</value></data>
+  <data name="BUT_OBmagcalcancel.Text" xml:space="preserve"><value>Annulla</value></data>
+  <data name="BUT_OBmagcalstart.Text" xml:space="preserve"><value>Avvia</value></data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve"><value>Calibrazione magnetometro a bordo</value></data>
+  <data name="groupBoxmpcalib.Text" xml:space="preserve"><value>Calibrazione magnetometro con Mission Planner</value></data>
+  <data name="LBL_primary_compass.Text" xml:space="preserve"><value>Bussola primaria:</value></data>
+  <data name="CHK_compass_learn.Text" xml:space="preserve"><value>Apprendi automaticamente gli offset</value></data>
+  <data name="groupBoxGeneralSettings.Text" xml:space="preserve"><value>Impostazioni generali bussola</value></data>
+  <data name="LBL_compass1_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass1_offset.Text" xml:space="preserve"><value>OFFSET</value></data>
+  <data name="CHK_compass1_external.Text" xml:space="preserve"><value>Montata esternamente</value></data>
+  <data name="CHK_compass1_use.Text" xml:space="preserve"><value>Usa questa bussola</value></data>
+  <data name="groupBoxCompass1.Text" xml:space="preserve"><value>Bussola n. 1</value></data>
+  <data name="LBL_compass2_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass2_offset.Text" xml:space="preserve"><value>OFFSET</value></data>
+  <data name="CHK_compass2_external.Text" xml:space="preserve"><value>Montata esternamente</value></data>
+  <data name="CHK_compass2_use.Text" xml:space="preserve"><value>Usa questa bussola</value></data>
+  <data name="groupBoxCompass2.Text" xml:space="preserve"><value>Bussola n. 2</value></data>
+  <data name="LBL_compass3_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass3_offset.Text" xml:space="preserve"><value>OFFSET</value></data>
+  <data name="CHK_compass3_external.Text" xml:space="preserve"><value>Montata esternamente</value></data>
+  <data name="CHK_compass3_use.Text" xml:space="preserve"><value>Usa questa bussola</value></data>
+  <data name="groupBoxCompass3.Text" xml:space="preserve"><value>Bussola n. 3</value></data>
+  <data name="buttonAPMExternal.Text" xml:space="preserve"><value>APM e bussola esterna</value></data>
+  <data name="QuickAPM25.Text" xml:space="preserve"><value>APM2.5 (bussola interna)</value></data>
+  <data name="buttonQuickPixhawk.Text" xml:space="preserve"><value>Pixhawk/PX4</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>Calibrazione bussola per veicoli grandi</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_Low.Text" xml:space="preserve">
-    <value>Low</value>
+    <value>低</value>
   </data>
   <data name="BUT_Repeat.Text" xml:space="preserve">
     <value>トグル</value>
@@ -136,6 +136,6 @@
     <value>5</value>
   </data>
   <data name="BUT_High.Text" xml:space="preserve">
-    <value>High</value>
+    <value>高</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,48 +118,50 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="tabRawSensor.Text" xml:space="preserve">
-    <value>Sensori RAW</value>
+    <value>Dati sensori grezzi</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Sensori RAW</value>
+    <value>Dati sensori grezzi</value>
   </data>
   <data name="CMB_rawupdaterate.Text" xml:space="preserve">
-    <value>Aggiorna Velocità</value>
+    <value>Frequenza aggiornamento</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Uscita Servo Motore</value>
+    <value>Uscita servi/motori</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Nota: C'è un ritando quando si visualizza tramite Xbee@ 50hz</value>
+    <value>Nota: la visualizzazione tramite XBee
+a 50 Hz presenta
+un ritardo</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Radio IN</value>
+    <value>Ingresso radio</value>
   </data>
   <data name="chkax.Text" xml:space="preserve">
-    <value>Accel X</value>
+    <value>Accel. X</value>
   </data>
   <data name="chkaz.Text" xml:space="preserve">
-    <value>Accel Z</value>
+    <value>Accel. Z</value>
   </data>
   <data name="chkay.Text" xml:space="preserve">
-    <value>Accel Y</value>
+    <value>Accel. Y</value>
   </data>
   <data name="tabRadio.Text" xml:space="preserve">
     <value>Radio</value>
   </data>
   <data name="tabOrientation.Text" xml:space="preserve">
-    <value>Dati di Volo</value>
+    <value>Dati di volo</value>
   </data>
   <data name="BUT_savecsv.Text" xml:space="preserve">
     <value>Salva CSV</value>
   </data>
   <data name="chkgz.Text" xml:space="preserve">
-    <value>Gyro Z</value>
+    <value>Giroscopio Z</value>
   </data>
   <data name="chkgx.Text" xml:space="preserve">
-    <value>Gyro X</value>
+    <value>Giroscopio X</value>
   </data>
   <data name="chkgy.Text" xml:space="preserve">
-    <value>Gyro Y</value>
+    <value>Giroscopio Y</value>
   </data>
 </root>

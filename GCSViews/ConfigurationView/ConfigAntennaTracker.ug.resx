@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="groupBox22.Text" xml:space="preserve"><value>تاختا يۆنىلىشى</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>تىپ</value></data>
+  <data name="BUT_test_yaw.Text" xml:space="preserve"><value>سىناش</value></data>
+  <data name="mavlinkCheckBox1.Text" xml:space="preserve"><value>تەتۈر يۆنىلىش</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>بىتەرەپ</value></data>
+  <data name="label90.Text" xml:space="preserve"><value>ئەڭ يۇقىرى</value></data>
+  <data name="label91.Text" xml:space="preserve"><value>ئەڭ تۆۋەن</value></data>
+  <data name="groupBox25.Text" xml:space="preserve"><value>بۇرۇلۇش سېرۋوسى</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>تىپ</value></data>
+  <data name="BUT_test_pitch.Text" xml:space="preserve"><value>سىناش</value></data>
+  <data name="mavlinkCheckBox2.Text" xml:space="preserve"><value>تەتۈر يۆنىلىش</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>بىتەرەپ</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>ئەڭ يۇقىرى</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>ئەڭ تۆۋەن</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>باش كۆتۈرۈش سېرۋوسى</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>دائىرە (گرادۇس)</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>بۇرۇلۇش ھەرىكەت دائىرىسى</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>ئەڭ يۇقىرى (گرادۇس)</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>ئەڭ تۆۋەن (گرادۇس)</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>باش كۆتۈرۈش ھەرىكەت دائىرىسى</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>ئەڭ يۇقىرى ئۆزگىرىش نىسبىتى</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label88.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>بۇرۇلۇش كۈچەيتىشى</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>ئەڭ يۇقىرى ئۆزگىرىش نىسبىتى</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>باش كۆتۈرۈش كۈچەيتىشى</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>ئېگىزلىك مەنبەسى</value></data>
+</root>

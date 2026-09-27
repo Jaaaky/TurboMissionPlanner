@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -193,7 +193,7 @@
     <value>72</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>광류 센서</value>
+    <value>광류 센서  </value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
@@ -246,4 +246,19 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>형식</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>요 방향</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>FX 배율</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>FY 배율</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>X 위치</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Y 위치</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Z 위치</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>기체 기준 각도(도)</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>전방 거리(m)</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>우측 거리(m)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>하방 거리(m)</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>IMU 기준 센서 위치</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>보정 계수</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>높이 수동 지정</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>지면으로부터 높이(m)</value></data>
 </root>

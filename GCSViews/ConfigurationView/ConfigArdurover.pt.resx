@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,54 +118,77 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Veloc. Cruzeiro</value>
+    <value>Velocidade de cruzeiro</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Dist da Curva</value>
+    <value>Força G máx. em curva</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Veloc. na curva</value>
+    <value>Raio de curva</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Ângulo na Curva</value>
+    <value>Ângulo de curva</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Disparo cm</value>
+    <value>Distância de ativação (cm)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Tempo da Curva</value>
+    <value>Tempo de curva</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Remoto</value>
+    <value>Navegação</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Guia para servo</value>
+    <value>Taxa de direção</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Valor FS</value>
+    <value>Velocidade entre pontos</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Contr L1 - Contr da curva</value>
+    <value>Modo de direção</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Aceleração 0-100%</value>
+    <value>Aceleração e motores</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Cruzeiro</value>
+    <value>Aceleração de cruzeiro</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Raio do WP</value>
+    <value>Raio do ponto de passagem</value>
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
-    <value>Velocidade para Aceleração</value>
+    <value>Velocidade/aceleração</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Gravar parametros</value>
+    <value>Gravar parâmetros</value>
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
-    <value>Atualizar tela</value>
+    <value>Atualizar ecrã</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Atualizar parametros</value>
+    <value>Atualizar parâmetros</value>
   </data>
+  <data name="label22.Text" xml:space="preserve"><value>Tipo de motor</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Aceleração máx. (%)</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Aceleração mín. (%)</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Travagem</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Aceleração máx. (m/s/s)</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Amortecimento do controlo de acel. lateral</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Período do controlo de acel. lateral</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Ultrapassagem do ponto</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>FF</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Filtragem de oscilações do sonar</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Desvio de obstáculos</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Opção RC7</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>Opção RC8</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Opção RC9</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Opção RC10</value></data>
 </root>

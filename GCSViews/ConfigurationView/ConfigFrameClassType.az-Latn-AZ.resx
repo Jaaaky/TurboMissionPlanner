@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,21 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>'Müsbət'</value>
+    <value>'Plus'</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Qeyd: Bu Y6B dır və köhnə Y6B görə fırlanma dəyişikliyi edildi</value>
+    <value>QEYD: Bu, Y6B-dir və pərlərin fırlanması köhnə Y6A-dan fərqlənir</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value> X və H fırlanma fırlanma dəyişiklikləri ilə əlaqəli deyildir</value>
+    <value>QEYD: X və H bir-birini ƏVƏZ ETMİR, pərlərin fırlanma istiqaməti dəyişir</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Çərçivə növü</value>
+    <value>Gövdə növü</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Çərçivə sinfi</value>
+    <value>Gövdə sinfi</value>
   </data>
   <data name="radioButtonUndef.Text" xml:space="preserve">
-    <value>Qeyrimüəyyən</value>
+    <value>Müəyyən edilməyib</value>
   </data>
+  <data name="label3.Text" xml:space="preserve"><value>'X' , 'Y6A'</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>'V'</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>'H'</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>'Y6B'</value></data>
+  <data name="radio_type_other.Text" xml:space="preserve"><value>Digər</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>'V Tail'</value></data>
+  <data name="radioButtonOctaQuad.Text" xml:space="preserve"><value>OctaQuad</value></data>
+  <data name="radioButtonTri.Text" xml:space="preserve"><value>Tri</value></data>
+  <data name="radioButtonHeli.Text" xml:space="preserve"><value>Heli</value></data>
+  <data name="radioButtonY6.Text" xml:space="preserve"><value>Y6</value></data>
+  <data name="radioButtonOcta.Text" xml:space="preserve"><value>Octa</value></data>
+  <data name="radioButtonHexa.Text" xml:space="preserve"><value>Hexa</value></data>
+  <data name="radioButtonQuad.Text" xml:space="preserve"><value>Quad</value></data>
 </root>

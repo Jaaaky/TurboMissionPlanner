@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -157,34 +157,34 @@
     <value>50</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>影像格式</value>
+    <value>視訊格式</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>HUD</value>
   </data>
   <data name="CHK_GDIPlus.Text" xml:space="preserve">
-    <value>GDI+ (舊版樣式)</value>
+    <value>GDI+ (舊版/無硬體加速)</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
     <value>航點</value>
   </data>
   <data name="CHK_loadwponconnect.Text" xml:space="preserve">
-    <value>連線後自動載入航點</value>
+    <value>連線時載入航點？</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>飛行軌跡(點)</value>
+    <value>航跡長度</value>
   </data>
   <data name="CHK_speechaltwarning.Text" xml:space="preserve">
-    <value>高度警報</value>
+    <value>高度警告</value>
   </data>
   <data name="label108.Text" xml:space="preserve">
-    <value>重置 APM</value>
+    <value>連線時重設</value>
   </data>
   <data name="CHK_resetapmonconnect.Text" xml:space="preserve">
-    <value>當 USB 連接時重置 APM</value>
+    <value>USB 連線時重設 (切換 DTR)</value>
   </data>
   <data name="CHK_mavdebug.Text" xml:space="preserve">
-    <value>Mavlink Message Debug</value>
+    <value>MAVLink 訊息偵錯</value>
   </data>
   <data name="label107.Text" xml:space="preserve">
     <value>遙控</value>
@@ -229,10 +229,10 @@
     <value>位置</value>
   </data>
   <data name="label102.Text" xml:space="preserve">
-    <value>高度</value>
+    <value>姿態</value>
   </data>
   <data name="label101.Text" xml:space="preserve">
-    <value>數傳封包率</value>
+    <value>遙測資料傳送率</value>
   </data>
   <data name="CMB_ratestatus.Items" xml:space="preserve">
     <value>0</value>
@@ -334,7 +334,8 @@
     <value>10</value>
   </data>
   <data name="label99.Text" xml:space="preserve">
-    <value>注意: 設罝頁面並不會顯示這些單位，因為它們是原始數值。</value>
+    <value>注意：設定分頁使用原始數值，不會顯示這些單位。
+</value>
   </data>
   <data name="label98.Text" xml:space="preserve">
     <value>速度單位</value>
@@ -343,19 +344,19 @@
     <value>距離單位</value>
   </data>
   <data name="label96.Text" xml:space="preserve">
-    <value>飛行遙桿</value>
+    <value>搖桿</value>
   </data>
   <data name="label95.Text" xml:space="preserve">
     <value>語音</value>
   </data>
   <data name="CHK_speechbattery.Text" xml:space="preserve">
-    <value>電源警報</value>
+    <value>電池警告</value>
   </data>
   <data name="CHK_speechcustom.Text" xml:space="preserve">
-    <value>30s Interval</value>
+    <value>每隔 30 秒</value>
   </data>
   <data name="CHK_speechmode.Text" xml:space="preserve">
-    <value>模式</value>
+    <value>模式 </value>
   </data>
   <data name="CHK_speechwaypoint.Text" xml:space="preserve">
     <value>航點</value>
@@ -364,31 +365,31 @@
     <value>OSD 顏色</value>
   </data>
   <data name="label93.Text" xml:space="preserve">
-    <value>使用語言</value>
+    <value>介面語言</value>
   </data>
   <data name="CHK_enablespeech.Text" xml:space="preserve">
     <value>啟用語音</value>
   </data>
   <data name="CHK_hudshow.Text" xml:space="preserve">
-    <value>HUD 影像疊加</value>
+    <value>啟用 HUD 疊加顯示</value>
   </data>
   <data name="label92.Text" xml:space="preserve">
-    <value>影像擷取卡</value>
+    <value>視訊裝置</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Map Follow</value>
+    <value>地圖跟隨</value>
   </data>
   <data name="CHK_maprotation.Text" xml:space="preserve">
-    <value>地圖隨機頭方向旋轉</value>
+    <value>地圖隨飛機方向旋轉</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>離家距離</value>
+    <value>距返航點距離</value>
   </data>
   <data name="CHK_disttohomeflightdata.Text" xml:space="preserve">
-    <value>顯示於飛行資訊中</value>
+    <value>在飛行資料畫面顯示</value>
   </data>
   <data name="BUT_Joystick.Text" xml:space="preserve">
-    <value>遙桿設定</value>
+    <value>搖桿設定</value>
   </data>
   <data name="BUT_videostop.Text" xml:space="preserve">
     <value>停止</value>
@@ -397,37 +398,37 @@
     <value>開始</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>記錄檔資料夾</value>
+    <value>記錄檔路徑</value>
   </data>
   <data name="BUT_logdirbrowse.Text" xml:space="preserve">
-    <value>瀏覽路徑</value>
+    <value>瀏覽</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>主題配色</value>
+    <value>佈景主題</value>
   </data>
   <data name="BUT_themecustom.Text" xml:space="preserve">
-    <value>自定</value>
+    <value>自訂</value>
   </data>
   <data name="CHK_speecharmdisarm.Text" xml:space="preserve">
     <value>解鎖/上鎖</value>
   </data>
   <data name="BUT_Vario.Text" xml:space="preserve">
-    <value>啟動/停止</value>
+    <value>啟動/停止升降率提示音</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>爬升率音調</value>
+    <value>版面配置</value>
   </data>
   <data name="chk_analytics.Text" xml:space="preserve">
-    <value>OptOut Anon Stats</value>
+    <value>不提供匿名統計資料</value>
   </data>
   <data name="CHK_beta.Text" xml:space="preserve">
     <value>測試版更新</value>
   </data>
   <data name="CHK_Password.Text" xml:space="preserve">
-    <value>調參密碼設定</value>
+    <value>以密碼保護設定</value>
   </data>
   <data name="CHK_speechlowspeed.Text" xml:space="preserve">
-    <value>速度過低</value>
+    <value>低速</value>
   </data>
   <data name="CHK_advancedview.Text" xml:space="preserve">
     <value>進階功能選項</value>
@@ -436,6 +437,29 @@
     <value>顯示機場</value>
   </data>
   <data name="chk_ADSB.Text" xml:space="preserve">
-    <value>ADSB航班顯示</value>
+    <value>ADS-B</value>
   </data>
+  <data name="chk_tfr.Text" xml:space="preserve"><value>臨時飛航限制</value></data>
+  <data name="chk_temp.Text" xml:space="preserve"><value>測試畫面</value></data>
+  <data name="chk_norcreceiver.Text" xml:space="preserve"><value>無遙控接收機</value></data>
+  <data name="CHK_AutoParamCommit.Text" xml:space="preserve"><value>自動提交參數</value></data>
+  <data name="chk_shownofly.Text" xml:space="preserve"><value>禁航區</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>高度單位</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>地面站 ID</value></data>
+  <data name="CHK_params_bg.Text" xml:space="preserve"><value>在背景下載參數</value></data>
+  <data name="chk_slowMachine.Text" xml:space="preserve"><value>使用效能較低的電腦</value></data>
+  <data name="CHK_speechArmedOnly.Text" xml:space="preserve"><value>僅在解鎖時</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>注意：請設定語音播報的最低嚴重程度</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>非作用中航空器</value></data>
+  <data name="chk_displaycog.Text" xml:space="preserve"><value>顯示地面航跡角</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>航空器圖示</value></data>
+  <data name="chk_displayheading.Text" xml:space="preserve"><value>顯示航向</value></data>
+  <data name="chk_displaynavbearing.Text" xml:space="preserve"><value>顯示導航方位</value></data>
+  <data name="chk_displayradius.Text" xml:space="preserve"><value>顯示轉彎半徑</value></data>
+  <data name="chk_displaytarget.Text" xml:space="preserve"><value>顯示目標</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>線段長度</value></data>
+  <data name="chk_displaytooltip.Text" xml:space="preserve"><value>顯示工具提示</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>地圖存取模式</value></data>
+  <data name="BUT_mapCacheDir.Text" xml:space="preserve"><value>開啟地圖快取</value></data>
+  <data name="CHK_rtsresetesp32.Text" xml:space="preserve"><value>停用 ESP32 SerialUSB 的 RTS 重設</value></data>
 </root>

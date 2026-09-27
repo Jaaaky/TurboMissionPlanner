@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,6 +121,13 @@
     <value>اتصال</value>
   </data>
   <data name="chk_write.Text" xml:space="preserve">
-    <value>كتابة الوصول</value>
+    <value>صلاحية الكتابة</value>
   </data>
+  <data name="Type.HeaderText" xml:space="preserve"><value>النوع</value></data>
+  <data name="Direction.HeaderText" xml:space="preserve"><value>الاتجاه</value></data>
+  <data name="Port.HeaderText" xml:space="preserve"><value>المنفذ</value></data>
+  <data name="Extra.HeaderText" xml:space="preserve"><value>المضيف/معدل البود</value></data>
+  <data name="Write.HeaderText" xml:space="preserve"><value>كتابة</value></data>
+  <data name="Go.HeaderText" xml:space="preserve"><value>تنفيذ</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>الخرج التسلسلي - Mavlink</value></data>
 </root>

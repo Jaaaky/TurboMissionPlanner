@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -169,7 +169,7 @@
     <value>91</value>
   </data>
   <data name="but_proximity.Text" xml:space="preserve">
-    <value>근접 센서</value>
+    <value>근접 감지</value>
   </data>
   <data name="&gt;&gt;but_proximity.Name" xml:space="preserve">
     <value>but_proximity</value>
@@ -259,7 +259,7 @@
     <value>104</value>
   </data>
   <data name="but_lockup.Text" xml:space="preserve">
-    <value>Lockup MAV</value>
+    <value>MAV 응답 정지 유발</value>
   </data>
   <data name="&gt;&gt;but_lockup.Name" xml:space="preserve">
     <value>but_lockup</value>
@@ -619,7 +619,7 @@
     <value>73</value>
   </data>
   <data name="myButton1.Text" xml:space="preserve">
-    <value>개별 매개변수 생성</value>
+    <value>DFLog 분할</value>
   </data>
   <data name="&gt;&gt;myButton1.Name" xml:space="preserve">
     <value>myButton1</value>
@@ -679,7 +679,7 @@
     <value>75</value>
   </data>
   <data name="but_agemapdata.Text" xml:space="preserve">
-    <value>지도 데이터 갱신</value>
+    <value>오래된 지도 데이터 제거</value>
   </data>
   <data name="&gt;&gt;but_agemapdata.Name" xml:space="preserve">
     <value>but_agemapdata</value>
@@ -2329,7 +2329,7 @@
     <value>17</value>
   </data>
   <data name="BUT_follow_me.Text" xml:space="preserve">
-    <value>나를 따르기</value>
+    <value>나를 따라오기</value>
   </data>
   <data name="&gt;&gt;BUT_follow_me.Name" xml:space="preserve">
     <value>BUT_follow_me</value>
@@ -2419,7 +2419,7 @@
     <value>40</value>
   </data>
   <data name="BUT_movingbase.Text" xml:space="preserve">
-    <value>원점 이동</value>
+    <value>이동 기준국</value>
   </data>
   <data name="&gt;&gt;BUT_movingbase.Name" xml:space="preserve">
     <value>BUT_movingbase</value>
@@ -2659,7 +2659,7 @@
     <value>107</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>구체 시험</value>
+    <value>플래너의 명령 목록 관리</value>
   </data>
   <data name="&gt;&gt;label28.Name" xml:space="preserve">
     <value>label28</value>
@@ -2989,7 +2989,7 @@
     <value>118</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>오토파일럿 위치 고정</value>
+    <value>오토파일럿 응답 정지 유발</value>
   </data>
   <data name="&gt;&gt;label39.Name" xml:space="preserve">
     <value>label39</value>
@@ -3379,7 +3379,7 @@
     <value>131</value>
   </data>
   <data name="label52.Text" xml:space="preserve">
-    <value>오래된 매개변수 데이터 생성</value>
+    <value>DFLog를 x개로 분할</value>
   </data>
   <data name="&gt;&gt;label52.Name" xml:space="preserve">
     <value>label52</value>
@@ -3612,4 +3612,12 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="BUT_forcecal_accel.Text" xml:space="preserve"><value>가속도계 보정 강제 설정</value></data>
+  <data name="BUT_forcecal_mag.Text" xml:space="preserve"><value>나침반 보정 강제 설정</value></data>
+  <data name="but_apjtool.Text" xml:space="preserve"><value>APJ 도구</value></data>
+  <data name="but_ManageCMDList.Text" xml:space="preserve"><value>명령 목록 관리</value></data>
+  <data name="but_dfumode.Text" xml:space="preserve"><value>DFU 모드</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>DFU 모드</value></data>
+  <data name="label57.Text" xml:space="preserve"><value>매개변수 복원 후 가속도계를 보정 완료로 표시</value></data>
+  <data name="label58.Text" xml:space="preserve"><value>매개변수 복원 후 자기계를 보정 완료로 표시</value></data>
 </root>

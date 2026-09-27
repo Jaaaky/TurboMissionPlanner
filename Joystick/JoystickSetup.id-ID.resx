@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,7 +130,7 @@
     <value>CH 6</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Dimuat untuk Config</value>
+    <value>Konfigurasi Dimuat untuk</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Joystick</value>
@@ -172,13 +172,13 @@
     <value>0</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Controller Axis</value>
+    <value>Sumbu Pengendali</value>
   </data>
   <data name="expo_ch6.Text" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Membalikan</value>
+    <value>Balik</value>
   </data>
   <data name="expo_ch4.Text" xml:space="preserve">
     <value>30</value>
@@ -193,7 +193,7 @@
     <value>Deteksi Otomatis</value>
   </data>
   <data name="CHK_elevons.Text" xml:space="preserve">
-    <value>Elevons</value>
+    <value>Elevon</value>
   </data>
   <data name="BUT_detch7.Text" xml:space="preserve">
     <value>Deteksi Otomatis</value>
@@ -217,6 +217,9 @@
     <value>Deteksi Otomatis</value>
   </data>
   <data name="BUT_enable.Text" xml:space="preserve">
-    <value>Mengaktifkan</value>
+    <value>Aktifkan</value>
   </data>
+  <data name="chk_manualcontrol.Text" xml:space="preserve"><value>Kendali Manual</value></data>
+  <data name="but_export.Text" xml:space="preserve"><value>Ekspor</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>Impor</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,72 +121,79 @@
     <value>Hava sürəti</value>
   </data>
   <data name="backstageViewPageBatt2.Text" xml:space="preserve">
-    <value>Batareya Monitoru 2</value>
+    <value>Batareya monitoru 2</value>
   </data>
   <data name="backstageViewPagehwbt.Text" xml:space="preserve">
-    <value>Bluetooth Qurulum</value>
+    <value>Bluetooth sazlaması</value>
   </data>
   <data name="backstageViewPagecompassmot.Text" xml:space="preserve">
-    <value>Kompass/Motor Kalib</value>
+    <value>Kompas/mühərrik kalibrləməsi</value>
   </data>
   <data name="backstageViewPageParachute.Text" xml:space="preserve">
-    <value>Paraşut</value>
+    <value>Paraşüt</value>
   </data>
   <data name="backstageViewPageopt.Text" xml:space="preserve">
-    <value>Könüllü Hardware</value>
+    <value>Əlavə avadanlıq</value>
   </data>
   <data name="backstageViewPageradio.Text" xml:space="preserve">
-    <value>Radio Kalibrasyonu</value>
+    <value>Radio kalibrləməsi</value>
   </data>
   <data name="backstageViewPageframetype.Text" xml:space="preserve">
-    <value>Pəncərə Növü</value>
+    <value>Gövdə növü</value>
   </data>
   <data name="backstageViewPagefwdisabled.Text" xml:space="preserve">
-    <value>Firmware qur</value>
+    <value>Mikroproqram quraşdır</value>
   </data>
   <data name="backstageViewPagefw.Text" xml:space="preserve">
-    <value>Firmware qur</value>
+    <value>Mikroproqram quraşdır</value>
   </data>
   <data name="backstageViewPageaccel.Text" xml:space="preserve">
-    <value>Accel Kalibrasyonu</value>
+    <value>Akselerometr kalibrləməsi</value>
   </data>
   <data name="backstageViewPageMotorTest.Text" xml:space="preserve">
-    <value>Motor Testi</value>
+    <value>Mühərrik sınağı</value>
   </data>
   <data name="backstageViewPagebatmon.Text" xml:space="preserve">
-    <value>Batareya Monitoru</value>
+    <value>Batareya monitoru</value>
   </data>
   <data name="backstageViewPagewizard.Text" xml:space="preserve">
-    <value>Sehirbaz</value>
+    <value>Quraşdırma köməkçisi</value>
   </data>
   <data name="backstageViewPageESC.Text" xml:space="preserve">
-    <value>ESC Kalibrasyon</value>
+    <value>ESC kalibrləməsi</value>
   </data>
   <data name="backstageViewPagetradheli.Text" xml:space="preserve">
-    <value>Heli Qur</value>
+    <value>Helikopter sazlaması</value>
   </data>
   <data name="backstageViewPageflmode.Text" xml:space="preserve">
-    <value>Uçuş Modu</value>
+    <value>Uçuş rejimləri</value>
   </data>
   <data name="backstageViewPagecompass.Text" xml:space="preserve">
-    <value>Komapss</value>
+    <value>Kompas</value>
   </data>
   <data name="backstageViewPageoptflow.Text" xml:space="preserve">
-    <value>Optik Axın</value>
+    <value>Optik axın</value>
   </data>
   <data name="backstageViewPagemand.Text" xml:space="preserve">
-    <value>Zəruri Avadanlıqlar</value>
+    <value>Zəruri avadanlıq</value>
   </data>
   <data name="backstageViewPageESP.Text" xml:space="preserve">
-    <value>ESP8266 Qur</value>
+    <value>ESP8266 sazlaması</value>
   </data>
   <data name="backstageViewPagegimbal.Text" xml:space="preserve">
-    <value>Kamera Gimbal</value>
+    <value>Kamera asqısı</value>
   </data>
   <data name="backstageViewPageinstfw.Text" xml:space="preserve">
-    <value>Firmware qur</value>
+    <value>Mikroproqram quraşdır</value>
   </data>
   <data name="backstageViewPagesonar.Text" xml:space="preserve">
     <value>Məsafəölçən</value>
   </data>
+  <data name="backstageViewPageInitialParams.Text" xml:space="preserve"><value>İlkin sazlama parametri</value></data>
+  <data name="backstageViewPageAntTrack.Text" xml:space="preserve"><value>Antena izləyicisi</value></data>
+  <data name="backstageViewPagefs.Text" xml:space="preserve"><value>Qəza mühafizəsi</value></data>
+  <data name="backstageViewPageosd.Text" xml:space="preserve"><value>OSD</value></data>
+  <data name="backstageViewPagePX4Flow.Text" xml:space="preserve"><value>PX4Flow</value></data>
+  <data name="backstageViewPageSikradio.Text" xml:space="preserve"><value>SiK radio</value></data>
+  <data name="backstageViewPageSerial.Text" xml:space="preserve"><value>Ardıcıl portlar</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Cruise Speed</value>
+    <value>Kecepatan Jelajah</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Turn Dist</value>
+    <value>G Belokan Maks</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Damping</value>
+    <value>Redaman Kendali Percepatan Lateral</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Turn Speed</value>
+    <value>Radius Belok</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>INT_MAX</value>
+    <value>IMAX</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>P</value>
@@ -142,52 +142,52 @@
     <value>D</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>Period</value>
+    <value>Periode Kendali Percepatan Lateral</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Turn Angle</value>
+    <value>Sudut Belok</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Trigger cm</value>
+    <value>Jarak Pemicu (cm)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Turn Time</value>
+    <value>Waktu Belok</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Throttle Maks (%)</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Min</value>
+    <value>Throttle Min (%)</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Rover</value>
+    <value>Navigasi</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Debounce</value>
+    <value>Debounce Sonar</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Steer 2 Servo</value>
+    <value>Laju Kemudi</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>FS Value</value>
+    <value>Kecepatan Titik Lintasan</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>L1 Control - Turn Control</value>
+    <value>Mode Kemudi</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Throttle 0-100%</value>
+    <value>Throttle dan Motor</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Cruise</value>
+    <value>Throttle Jelajah</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Sonar</value>
+    <value>Penghindaran</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>WP Radius</value>
+    <value>Radius Titik Lintasan</value>
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
-    <value>Speed 2 Throttle</value>
+    <value>Kecepatan/Throttle</value>
   </data>
   <data name="label74.Text" xml:space="preserve">
     <value>D</value>
@@ -199,15 +199,24 @@
     <value>I</value>
   </data>
   <data name="label73.Text" xml:space="preserve">
-    <value>INT_MAX</value>
+    <value>IMAX</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Write Params</value>
+    <value>Tulis Parameter</value>
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
-    <value>Refresh Screen</value>
+    <value>Segarkan Layar</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Refresh Params</value>
+    <value>Segarkan Parameter</value>
   </data>
+  <data name="label22.Text" xml:space="preserve"><value>Jenis Motor</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Rem</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Percepatan Maks (m/s/s)</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Lewatan Titik Lintasan</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>FF</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Opsi RC7</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>Opsi RC8</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Opsi RC9</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Opsi RC10</value></data>
 </root>

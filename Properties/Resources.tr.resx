@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="help_text" xml:space="preserve"><value>{\rtf1\ansi\ansicpg1252\deff0\deflang3081\deflangfe3081{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\nowidctlpar\sa200\sl276\slmult1\f0\fs22\par
+\tab Ho\u351? geldiniz: \b Mission Planner (Turbo)\b0 , \u304?nsans\u305?z Hava Ara\u231?lar\u305? i\u231?in g\u246?rev planlama (\b \u304?HA\b0 ).\par
+\pard\nowidctlpar\fi720\b Yard\u305?m:\par
+Arduplane: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/plane"}}{\fldrslt{\ul\cf1 http://ardupilot.org/plane}}}\f0\fs22\par
+ArduCopter: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/copter"}}{\fldrslt{\ul\cf1 http://ardupilot.org/copter}}}\f0\fs22\par
+ArduRover: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/rover"}}{\fldrslt{\ul\cf1 http://ardupilot.org/rover}}}\f0\fs22\par
+\par
+\pard\nowidctlpar\sa200\sl276\slmult1\tab Daha fazla bilgi i\u231?in {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/planner"}}{\fldrslt{\ul\cf1 http://ardupilot.org/planner}}}\f0\fs22  adresini ziyaret edin.\b0\par
+\pard\nowidctlpar\b\tab Ba\u351? geli\u351?tirici:\b0  Michael Oborne\par
+\tab\b Tasar\u305?m:\b0  Samantha Nelson\par
+\tab\b Katk\u305?da bulunanlar:\b0  Andrew Radford,  Marooned, Ryan Beall, Tom Pittenger ve {\field{\*\fldinst{HYPERLINK "https://github.com/ArduPilot/MissionPlanner/graphs/contributors"}}{\fldrslt{\ul\cf1 https://github.com/ArduPilot/MissionPlanner/graphs/contributors}}}\f0\fs22\par
+\pard\nowidctlpar\fi720\b ArduCopter \u231?izimleri:\b0  Max Levine\par
+\b K\u252?t\u252?phaneler:\b0  Gmap.net, Sharpkml, SharpZipLib, IronPython, KMLib, OpenTK, ZedGraph, alglib, BouncyCastle, DotSpatial, LibVLC, netDXF\par
+\par
+\b Mission Planner geli\u351?tirmesine katk\u305?da bulunan \u351?irketler: \b0 3D Robotics, Falcon Unmanned, UAV Solutions\b\par
+\par
+Klavye k\u305?sayollar\u305?\par
+\par
+Ana ekran\par
+F2 - U\u231?u\u351? verileri\par
+F3 - U\u231?u\u351? planlay\u305?c\u305?\par
+F4 - \u304?nce ayar\par
+F5 - T\u252?m parametre listesini yenile\par
+Control-F - Ge\u231?ici ekran\par
+Control-T - Do\u287?rulamas\u305?z ba\u287?lan\par
+\par
+U\u231?u\u351? verileri\par
+Control-1 - sekme 1\par
+Control-2 - sekme 2\par
+Control-3 - sekme 3\par
+Control-4 - sekme 4\par
+Control-5 - sekme 5\par
+Control-6 - sekme 6\par
+Control-7 - sekme 7\par
+Control-8 - sekme 8\par
+Control-9 - sekme 9\par
+Control-0 - sekme 10\par
+\par
+U\u231?u\u351? planlay\u305?c\u305?\par
+Control-Z - geri al\par
+Control-O - rota noktas\u305? dosyas\u305? a\u231?\par
+Control-S - rota noktas\u305? dosyas\u305?n\u305? kaydet\par
+\par
+Otomatik rota noktas\u305? \u305?zgaras\u305?\par
+Control-O - \u305?zgara dosyas\u305? a\u231?\par
+Control-S - \u305?zgara dosyas\u305?n\u305? kaydet\par
+\par
+}</value></data>
+</root>

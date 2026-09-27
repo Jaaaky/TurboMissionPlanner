@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>Eine Protokolldatei wird heruntergeladen. Möchten Sie abbrechen?</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>Sind Sie sicher?</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>KML für {0} wird erstellt</value></data>
+  <data name="Done" xml:space="preserve"><value>Fertig</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>Protokolldateien werden heruntergeladen nach: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>Das Löschen dauert 30–90 Sekunden!</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>Fehler beim Verarbeiten der Datei. Stellen Sie sicher, dass sie nicht verwendet wird.</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>Protokolldatei {0} wird abgerufen...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>Liste der Protokolldateien wird abgerufen...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>Protokollverzeichnis konnte nicht erstellt werden: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>Keine Protokolle zum Herunterladen vorhanden</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>Bitte die Drohne verbinden</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>Bitte Protokolle über die Kontrollkästchen in der Liste auswählen</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>{0} wird verarbeitet</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>{0} Protokolldateien gefunden. Hinweis: Die Dateigrößen sind nur Schätzwerte.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>Fehler:</value></data>
+</root>

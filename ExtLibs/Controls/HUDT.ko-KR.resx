@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="ARMED" xml:space="preserve"><value>시동 켜짐</value></data>
+  <data name="AS" xml:space="preserve"><value>대기속도 </value></data>
+  <data name="Bat" xml:space="preserve"><value>배터리</value></data>
+  <data name="Cell" xml:space="preserve"><value>셀</value></data>
+  <data name="DISARMED" xml:space="preserve"><value>시동 꺼짐</value></data>
+  <data name="E" xml:space="preserve"><value>동</value></data>
+  <data name="FAILSAFE" xml:space="preserve"><value>페일세이프</value></data>
+  <data name="GPS0" xml:space="preserve"><value>GPS: 없음</value></data>
+  <data name="GPS1" xml:space="preserve"><value>GPS: 위치 미확정</value></data>
+  <data name="GPS2" xml:space="preserve"><value>GPS: 2D 위치 확정</value></data>
+  <data name="GPS3" xml:space="preserve"><value>GPS: 3D 위치 확정</value></data>
+  <data name="GPS4" xml:space="preserve"><value>GPS: 3D DGPS</value></data>
+  <data name="GPS5" xml:space="preserve"><value>GPS: RTK Float</value></data>
+  <data name="GPS6" xml:space="preserve"><value>GPS: RTK Fixed</value></data>
+  <data name="GS" xml:space="preserve"><value>대지속도 </value></data>
+  <data name="N" xml:space="preserve"><value>북</value></data>
+  <data name="NE" xml:space="preserve"><value>북동</value></data>
+  <data name="NotReadyToArm" xml:space="preserve"><value>시동 불가</value></data>
+  <data name="NW" xml:space="preserve"><value>북서</value></data>
+  <data name="ReadyToArm" xml:space="preserve"><value>시동 준비 완료</value></data>
+  <data name="S" xml:space="preserve"><value>남</value></data>
+  <data name="SAFE" xml:space="preserve"><value>안전</value></data>
+  <data name="SE" xml:space="preserve"><value>남동</value></data>
+  <data name="SW" xml:space="preserve"><value>남서</value></data>
+  <data name="W" xml:space="preserve"><value>서</value></data>
+</root>

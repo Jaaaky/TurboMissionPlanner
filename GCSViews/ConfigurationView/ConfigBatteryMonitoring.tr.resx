@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,39 +118,64 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
     <data name="CHK_speechbattery.Text" xml:space="preserve">
-    <value>Pil zayif oldugunda uyari</value>
+    <value>Düşük bataryada MP uyarısı</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>4. Mevcut Akim :</value>
+    <value>4. Ölçülen akım:</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>APM Serbest</value>
+    <value>Donanım sürümü</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
-    <value>Pil Kapasitesi</value>
+    <value>Batarya kapasitesi</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>ayarlama</value>
+    <value>Kalibrasyon</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>5. Akım (hesaplanan)</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>Izleme</value>
+    <value>İzleyici</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>1. Nominal aku voltaji :</value>
+    <value>1. Ölçülen batarya gerilimi:</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>3. Bolunmuş voltajlar (hesaplanmis) :</value>
+    <value>3. Gerilim bölücü (hesaplanan):</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>2. Aku voltajı (hesaplanmis) :</value>
+    <value>2. Batarya gerilimi (hesaplanan):</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>6. Volt basina amper : </value>
+    <value>6. Volt başına amper:</value>
   </data>
   <data name="label47.Text" xml:space="preserve">
-    <value>Hassas</value>
+    <value>Sensör</value>
   </data>
+  <data name="CMB_batmonsensortype.Items" xml:space="preserve"><value>0: Diğer</value></data>
+  <data name="CMB_batmonsensortype.Items1" xml:space="preserve"><value>1: AttoPilot 45A</value></data>
+  <data name="CMB_batmonsensortype.Items2" xml:space="preserve"><value>2: AttoPilot 90A</value></data>
+  <data name="CMB_batmonsensortype.Items3" xml:space="preserve"><value>3: AttoPilot 180A</value></data>
+  <data name="CMB_batmonsensortype.Items4" xml:space="preserve"><value>4: 3DR güç modülü</value></data>
+  <data name="CMB_batmonsensortype.Items5" xml:space="preserve"><value>5: 3DR 4'ü 1 arada ESC</value></data>
+  <data name="CMB_batmonsensortype.Items6" xml:space="preserve"><value>6: 3DR HV güç modülü APM</value></data>
+  <data name="CMB_batmonsensortype.Items7" xml:space="preserve"><value>7: Cube HV güç modülü</value></data>
+  <data name="CMB_batmonsensortype.Items8" xml:space="preserve"><value>8: CUAV HV PM</value></data>
+  <data name="CMB_batmonsensortype.Items9" xml:space="preserve"><value>9: Holybro güç modülü</value></data>
+  <data name="CMB_batmontype.Items" xml:space="preserve"><value>0: Devre dışı</value></data>
+  <data name="CMB_batmontype.Items1" xml:space="preserve"><value>3: Batarya gerilimi</value></data>
+  <data name="CMB_batmontype.Items2" xml:space="preserve"><value>4: Gerilim ve akım</value></data>
+  <data name="CMB_HWVersion.Items" xml:space="preserve"><value>0: CUAV V5/Pixhawk4 veya APM1</value></data>
+  <data name="CMB_HWVersion.Items1" xml:space="preserve"><value>1: APM2 - 2.5 (3DR olmayan)</value></data>
+  <data name="CMB_HWVersion.Items2" xml:space="preserve"><value>2: APM2.5+/ZealotF427 - 3DR güç modülü</value></data>
+  <data name="CMB_HWVersion.Items3" xml:space="preserve"><value>3: PX4</value></data>
+  <data name="CMB_HWVersion.Items4" xml:space="preserve"><value>4: The Cube veya Pixhawk</value></data>
+  <data name="CMB_HWVersion.Items5" xml:space="preserve"><value>5: VR Brain 4.5 - 5</value></data>
+  <data name="CMB_HWVersion.Items6" xml:space="preserve"><value>6: VR Micro Brain 5</value></data>
+  <data name="CMB_HWVersion.Items7" xml:space="preserve"><value>7: VR Brain 4</value></data>
+  <data name="CMB_HWVersion.Items8" xml:space="preserve"><value>8: Cube Orange</value></data>
+  <data name="CMB_HWVersion.Items9" xml:space="preserve"><value>9: Durandal/ZealotH743</value></data>
+  <data name="CMB_HWVersion.Items10" xml:space="preserve"><value>10: Pixhawk 6C/Pix32 v6</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>mAh</value></data>
 </root>

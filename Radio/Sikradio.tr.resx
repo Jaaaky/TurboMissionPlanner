@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,16 +118,21 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="linkLabel1.ToolTip" xml:space="preserve">
-    <value>Radyo istasyonları 3DR, biri kırmızı ve bir yeşil olmak üzere 2 LED durum göstergesine sahiptir. Yeşil LED yanıp sönüyor - Başka bir radyo arayın. Yeşil LED yanar - bağlantı kurulur. kırmızı LED yanıp sönüyor - veri iletimi. kırmızı LED açık - firmware güncellemesi.</value>
+    <value>3DR radyolarda biri kırmızı, biri yeşil olmak üzere 2 durum LED'i vardır.
+Yeşil LED yanıp sönüyor: Başka bir radyo aranıyor
+Yeşil LED sürekli yanıyor: Başka bir radyoyla bağlantı kuruldu
+Kırmızı LED yanıp sönüyor: Veri gönderiliyor
+Kırmızı LED sürekli yanıyor: Donanım yazılımı güncelleme modunda</value>
   </data>
   <data name="RTXPOWER.ToolTip" xml:space="preserve">
-    <value>TXPOWER, dBm'deki aktarım gücüdür. 20 dBm - 100 mW. Kısa süreli test için bunu daha düşük seviyelere ayarlamak faydalıdır.</value>
+    <value>TXPOWER, dBm cinsinden gönderim gücüdür. 20 dBm, 100 mW'a eşittir. Kısa mesafeli testlerde düşük değerlere ayarlamak yararlıdır.
+</value>
   </data>
   <data name="RNETID.ToolTip" xml:space="preserve">
-    <value>NETID bir 16 bit "ağ tanımlayıcısı" dır. Bu frekans atlatma dizisini olusturmak ve doğru radyodan gelen paketleri tanımlamak için kullanılır. Bölgede çalışan başka bir kullanıcıdan başka bir NETID kullandığınızdan emin olun.</value>
+    <value>NETID, 16 bitlik bir ağ kimliğidir. Frekans atlama dizisinin başlangıcını belirlemek ve paketlerin doğru radyodan geldiğini doğrulamak için kullanılır. Bölgedeki aynı tip radyo kullanan diğer kişilerden farklı bir NETID kullandığınızdan emin olun. </value>
   </data>
   <data name="AIR_SPEED.ToolTip" xml:space="preserve">
-    <value>AIR_SPEED, kbps cinsinden radyo kanalları arasındaki veri hızıdır. Böylece 128, 128 Kbps anlamına gelir. Maks - 192, min - 2. Frekans atlamalı ve senkronizasyon zamanı tdm frekansı çok yüksek olduğu için 16'nın altında bir değer önermem.</value>
+    <value>AIR_SPEED, radyolar arasındaki veri hızının yuvarlanmış kbps değeridir. Örneğin 128, 128 kbps anlamına gelir. Maksimum 192, minimum 2'dir. Frekans atlama ve TDM eşzamanlama süreleri çok uzadığından 16'nın altındaki değerler önerilmez. </value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>Min. frekans</value>
@@ -136,19 +141,19 @@
     <value>Calışma döngüsü</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>versiyon</value>
+    <value>Sürüm</value>
   </data>
   <data name="RAIR_SPEED.ToolTip" xml:space="preserve">
-    <value>AIR_SPEED, kbps cinsinden radyo kanalları arasındaki veri hızıdır. Böylece 128, 128 Kbps anlamına gelir. Maks - 192, min - 2. Frekans atlamalı ve senkronizasyon zamanı tdm frekansı çok yüksek olduğu için 16'nın altında bir değer önermem.</value>
+    <value>AIR_SPEED, radyolar arasındaki veri hızının yuvarlanmış kbps değeridir. Örneğin 128, 128 kbps anlamına gelir. Maksimum 192, minimum 2'dir. Frekans atlama ve TDM eşzamanlama süreleri çok uzadığından 16'nın altındaki değerler önerilmez. </value>
   </data>
   <data name="BUT_Syncoptions.Text" xml:space="preserve">
-    <value>Uzaktan kumanda için gerekli kopya</value>
+    <value>Gerekli ayarları uzak radyoya kopyala</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>Maks. frekans</value>
   </data>
   <data name="NUM_CHANNELS.ToolTip" xml:space="preserve">
-    <value>frekans atlamalı kanal sayısı</value>
+    <value>Frekans atlamalı kanal sayısı </value>
   </data>
   <data name="label18.Text" xml:space="preserve">
     <value>Max pencere (ms)</value>
@@ -169,70 +174,76 @@
     <value>Min. frekans</value>
   </data>
   <data name="OPPRESEND.ToolTip" xml:space="preserve">
-    <value>OPPRESEND, "fırsatçı yeniden gönderme" yi etkinleştirir / devre dışı bırakır. Etkinleştirildiğinde, seri arabelleğinde 256 bayttan az olduğunda telsiz paketi iki kez gönderir. İkinci iletim, ilk "OK" paketini aldığında alıcı radyo tarafından yeniden gönderme ve atma olarak işaretlenir. Bu, özellikle uplink komutları için iletişimin kalitesini önemli ölçüde etkiler.</value>
+    <value>OPPRESEND, fırsat olduğunda yeniden gönderme işlevini etkinleştirir/devre dışı bırakır. Etkinken seri giriş tamponunda 256 bayttan az veri varsa radyo paketi iki kez gönderir. İkinci gönderim tekrar olarak işaretlenir; alıcı radyo ilk paketi doğru aldıysa ikincisini atar. Bu özellik özellikle araca gönderilen komutlarda bağlantı kalitesini önemli ölçüde artırır.
+</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>biçim</value>
+    <value>Biçim</value>
   </data>
   <data name="linkLabel_mavlink.Text" xml:space="preserve">
-    <value>Standart Mavlink ayarları</value>
+    <value>Standart MAVLink ayarları</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Ruzgar Hizi</value>
+    <value>Kablosuz veri hızı</value>
   </data>
   <data name="SERIAL_SPEED.ToolTip" xml:space="preserve">
-    <value>Hızlı seri iletim yuvarlak kilobayt. Bu nedenle, 57 anlamına gelir 57600</value>
+    <value>Yuvarlanmış kbps cinsinden seri baud hızı. Örneğin 57, 57600 anlamına gelir.
+</value>
   </data>
   <data name="ROPPRESEND.ToolTip" xml:space="preserve">
-    <value>OPPRESEND, "fırsatçı yeniden gönderme" yi etkinleştirir / devre dışı bırakır. Etkinleştirildiğinde, seri arabelleğinde 256 bayttan az olduğunda telsiz paketi iki kez gönderir. İkinci iletim, ilk "OK" paketini aldığında alıcı radyo tarafından yeniden gönderme ve atma olarak işaretlenir. Bu, özellikle uplink komutları için iletişimin kalitesini önemli ölçüde etkiler.</value>
+    <value>OPPRESEND, fırsat olduğunda yeniden gönderme işlevini etkinleştirir/devre dışı bırakır. Etkinken seri giriş tamponunda 256 bayttan az veri varsa radyo paketi iki kez gönderir. İkinci gönderim tekrar olarak işaretlenir; alıcı radyo ilk paketi doğru aldıysa ikincisini atar. Bu özellik özellikle araca gönderilen komutlarda bağlantı kalitesini önemli ölçüde artırır.
+</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Guc Tx</value>
   </data>
   <data name="BUT_resettodefault.Text" xml:space="preserve">
-    <value>Ayarları sıfırla</value>
+    <value>Varsayılanlara sıfırla</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>versiyon</value>
+    <value>Sürüm</value>
   </data>
   <data name="MIN_FREQ.ToolTip" xml:space="preserve">
-    <value>kHz'de minimum frekans</value>
+    <value>kHz cinsinden minimum frekans </value>
   </data>
   <data name="RSERIAL_SPEED.ToolTip" xml:space="preserve">
-    <value>Yuvarlak kilobaytta seri aktarım hızı. Böylece, 57 5700 anlamına gelir.</value>
+    <value>Yuvarlanmış kbps cinsinden seri baud hızı. Örneğin 57, 57600 anlamına gelir.
+</value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
-    <value>NOT. Değiştirdiğinizde, Uzaktan Kopyala'yı tıklatın. Bu, radyo iletişimini kaybetmemenizi sağlar.</value>
+    <value>NOT: Değişiklik yaparken her zaman "Gerekli ayarları uzak radyoya kopyala" düğmesine tıklayın.
+Bu, radyo bağlantısının kaybolmasını önler.</value>
   </data>
   <data name="RGPI1_1R_CIN.ToolTip" xml:space="preserve">
-    <value>OPPRESEND, "fırsatçı yeniden gönderme" yi etkinleştirir / devre dışı bırakır. Etkinleştirildiğinde, seri arabelleğinde 256 bayttan az olduğunda telsiz paketi iki kez gönderir. İkinci iletim, ilk "OK" paketini aldığında alıcı radyo tarafından yeniden gönderme ve atma olarak işaretlenir. Bu, özellikle uplink komutları için iletişimin kalitesini önemli ölçüde etkiler.</value>
+    <value>GPI1_1R/CIN, GPIO 1.1'i R/C (PPM) girişi olarak ayarlar</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Durum Göstergeleri</value>
+    <value>Durum LED'leri</value>
   </data>
   <data name="MAX_WINDOW.ToolTip" xml:space="preserve">
     <value>Düğüm kimliği Taban düğümün tanımlayıcısı 0'dır. Bir düğüm, çoklu ortamın çalışması için temel olarak hareket etmelidir.</value>
   </data>
   <data name="RNUM_CHANNELS.ToolTip" xml:space="preserve">
-    <value>frekans atlamalı kanal sayısı</value>
+    <value>Frekans atlamalı kanal sayısı </value>
   </data>
   <data name="groupBoxRemote.Text" xml:space="preserve">
-    <value>Uzaktan kumanda</value>
+    <value>Uzak</value>
   </data>
   <data name="groupBoxLocal.Text" xml:space="preserve">
-    <value>lokal olarak</value>
+    <value>Yerel</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>Ruzgar hızı</value>
+    <value>Kablosuz veri hızı</value>
   </data>
   <data name="linkLabel_lowlatency.Text" xml:space="preserve">
     <value>Düşük gecikme ayarları</value>
   </data>
   <data name="ECC.ToolTip" xml:space="preserve">
-    <value>ECC - kolay hata düzeltme kodunu etkinleştirin / devre dışı bırakın. Varsayılan olarak devre dışıdır. Bunu açarsanız, bant genişliğinin yarısını kaybetmek için iki kat daha fazla bayt elde edeceksiniz, ancak her 12 bit veri için 3 bitlik hataları düzeltebilir. Bunu genellikle daha düşük bir veri hızı ile birlikte uzun menzil için kullanın. Golay kod çözme, iletilen bayt başına 20 mikrosaniye sürer (kullanıcı veri baytı başına 40'ar), bu da maksimum veri aktarım hızına sahip sınırlı bir işlemciye sahip olacağınız anlamına gelir. Böylece, genellikle golleri 128 Kbps veya daha düşük bir hızda kullanırsınız.</value>
+    <value>ECC, Golay hata düzeltme kodunu etkinleştirir/devre dışı bırakır. Varsayılan olarak kapalıdır. Etkinleştirildiğinde paketler iki kat bayt gerektirir ve kablosuz bant genişliğinin yarısı kaybedilir; ancak her 12 bitlik veride 3 bite kadar hata düzeltilebilir. Uzun menzilde, genellikle daha düşük kablosuz veri hızıyla birlikte kullanın. Golay çözümlemesi gönderilen her bayt için 20 mikrosaniye (kullanıcı verisi baytı başına 40 mikrosaniye) sürer. Bu nedenle en yüksek kablosuz veri hızlarında işlemci kapasitesi de sınırlayıcı olabilir. Golay genellikle 128 kbps veya altında kullanılır.
+</value>
   </data>
   <data name="label31.Text" xml:space="preserve">
-    <value>bicim</value>
+    <value>Biçim</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
     <value>Max Pencere (мс)</value>
@@ -244,57 +255,157 @@
     <value>Sifreleme AES</value>
   </data>
   <data name="DUTY_CYCLE.ToolTip" xml:space="preserve">
-    <value>iletim için geçen sürenin yüzdesi</value>
+    <value>Gönderime izin verilen sürenin yüzdesi</value>
   </data>
   <data name="RMIN_FREQ.ToolTip" xml:space="preserve">
-    <value>kHz'de minimum frekans</value>
+    <value>kHz cinsinden minimum frekans </value>
   </data>
   <data name="GPI1_1R_CIN.ToolTip" xml:space="preserve">
-    <value>OPPRESEND, "fırsatçı yeniden gönderme"yi etkinleştirir / devre dışı bırakır. Etkinleştirildiğinde, seri arabelleğinde 256 bayttan az olduğunda telsiz paketi iki kez gönderir. İkinci iletim, ilk "OK" paketini aldığında alıcı radyo tarafından yeniden gönderme ve atma olarak işaretlenir. Bu, özellikle uplink komutları için iletişimin kalitesini önemli ölçüde etkiler.</value>
+    <value>GPI1_1R/CIN, GPIO 1.1'i R/C (PPM) girişi olarak ayarlar</value>
   </data>
   <data name="BUT_loadcustom.Text" xml:space="preserve">
-    <value>Özel ürün yazılımı indirin</value>
+    <value>Donanım yazılımı yükle (özel)</value>
   </data>
   <data name="BUT_upload.Text" xml:space="preserve">
-    <value>Firmware indirme (yerel)</value>
+    <value>Donanım yazılımı yükle (standart)</value>
   </data>
   <data name="RDUTY_CYCLE.ToolTip" xml:space="preserve">
-    <value>iletim için geçen sürenin yüzdesi</value>
+    <value>Gönderime izin verilen sürenin yüzdesi</value>
   </data>
   <data name="RMAX_WINDOW.ToolTip" xml:space="preserve">
     <value>Düğüm kimliği Taban düğümün tanımlayıcısı 0'dır. Bir düğüm, çoklu ortamın çalışması için temel olarak hareket etmelidir.</value>
   </data>
   <data name="RMAX_FREQ.ToolTip" xml:space="preserve">
-    <value>kHz'de maksimum frekans</value>
+    <value>kHz cinsinden maksimum frekans </value>
   </data>
   <data name="BUT_getcurrent.Text" xml:space="preserve">
-    <value>onyükleme Ayarları</value>
+    <value>Ayarları yükle</value>
   </data>
   <data name="RGPO1_1R_COUT.ToolTip" xml:space="preserve">
-    <value>OPPRESEND, "fırsatçı yeniden gönderme" yi etkinleştirir / devre dışı bırakır. Etkinleştirildiğinde, seri arabelleğinde 256 bayttan az olduğunda telsiz paketi iki kez gönderir. İkinci iletim, ilk "OK" paketini aldığında alıcı radyo tarafından yeniden gönderme ve atma olarak işaretlenir. Bu, özellikle uplink komutları için iletişimin kalitesini önemli ölçüde etkiler.</value>
+    <value>GPI1_1R/COUT, GPIO 1.1'i R/C (PPM) çıkışı olarak ayarlar</value>
   </data>
   <data name="RECC.ToolTip" xml:space="preserve">
-    <value>ECC-kolay hata düzeltme kodunu etkinleştirin / devre dışı bırakın. Varsayılan olarak devre dışıdır. Bunu açarsanız, bant genişliğinin yarısını kaybetmek için iki kat daha fazla bayt elde edeceksiniz, ancak her 12 bit veri için 3 bitlik hataları düzeltebilir. Bunu genellikle daha düşük bir veri hızı ile birlikte uzun menzil için kullanın. Golay kod çözme, iletilen bayt başına 20 mikrosaniye sürer (kullanıcı veri baytı başına 40'ar), bu da maksimum veri aktarım hızına sahip sınırlı bir işlemciye sahip olacağınız anlamına gelir. Böylece, genellikle golleri 128 Kbps veya daha düşük bir hızda kullanırsınız.</value>
+    <value>ECC, Golay hata düzeltme kodunu etkinleştirir/devre dışı bırakır. Varsayılan olarak kapalıdır. Etkinleştirildiğinde paketler iki kat bayt gerektirir ve kablosuz bant genişliğinin yarısı kaybedilir; ancak her 12 bitlik veride 3 bite kadar hata düzeltilebilir. Uzun menzilde, genellikle daha düşük kablosuz veri hızıyla birlikte kullanın. Golay çözümlemesi gönderilen her bayt için 20 mikrosaniye (kullanıcı verisi baytı başına 40 mikrosaniye) sürer. Bu nedenle en yüksek kablosuz veri hızlarında işlemci kapasitesi de sınırlayıcı olabilir. Golay genellikle 128 kbps veya altında kullanılır.
+</value>
   </data>
   <data name="MAX_FREQ.ToolTip" xml:space="preserve">
-    <value>kHz'de maksimum frekans</value>
+    <value>kHz cinsinden maksimum frekans </value>
   </data>
   <data name="RSSI.ToolTip" xml:space="preserve">
-    <value>dBm'de RSSI grafiğinin spesifikasyonuna bakınız. Sondaki sayılar: txe: iletim hatalarının sayısı (örneğin, iletim zaman aşımları). rxe: alım hatalarının sayısı (hata crc, çerçeveleme hatası, vb.). stx: ardışık transferlerin sayısı. rrx: ardışık taşma sayısı. ecc: Goliad kodu kullanılarak başarılı bir şekilde düzeltilen 12 bitlik kelimelerin sayısı. gerçek bir parti CRC'ye giden</value>
+    <value>RSSI-dBm grafiği için teknik özelliklere bakın. Sondaki sayılar şunlardır:
+txe: Gönderim hatası sayısı (ör. gönderim zaman aşımı)
+rxe: Alım hatası sayısı (CRC hatası, çerçeveleme hatası vb.)
+stx: Seri gönderim taşması sayısı
+rrx: Seri alım taşması sayısı
+ecc: Golay koduyla başarıyla düzeltilip geçerli paket CRC'si
+sağlayan 12 bitlik sözcük sayısı
+</value>
   </data>
   <data name="GPO1_1R_COUT.ToolTip" xml:space="preserve">
-    <value>OPPRESEND, "fırsatçı yeniden gönderme" yi etkinleştirir / devre dışı bırakır. Etkinleştirildiğinde, seri arabelleğinde 256 bayttan az olduğunda telsiz paketi iki kez gönderir. İkinci iletim, ilk "OK" paketini aldığında alıcı radyo tarafından yeniden gönderme ve atma olarak işaretlenir. Bu, özellikle uplink komutları için iletişimin kalitesini önemli ölçüde etkiler.</value>
+    <value>GPI1_1R/COUT, GPIO 1.1'i R/C (PPM) çıkışı olarak ayarlar</value>
   </data>
   <data name="RRTSCTS.ToolTip" xml:space="preserve">
-    <value>Donanım akışı izlemeyi etkinleştirin veya devre dışı bırakın</value>
+    <value>Donanımsal akış kontrolünü etkinleştir veya devre dışı bırak</value>
   </data>
   <data name="MAVLINK.ToolTip" xml:space="preserve">
-    <value>AIR_SPEED, yuvarlanmış kbps'deki radyo kanalları arasındaki veri hızıdır. Böylece 128, 128 Kbps anlamına gelir. Maks - 192, min - 2. Frekans atlamalı ve senkronizasyon zamanı tdm frekansı çok yüksek olduğu için 16'nın altında bir değer önermem.</value>
+    <value>MAVLink</value>
   </data>
   <data name="TXPOWER.ToolTip" xml:space="preserve">
-    <value>TXPOWER, dBm'deki aktarım gücüdür. 20 dBm - 100 mW. Kısa süreli test için bunu daha düşük seviyelere ayarlamak faydalıdır.</value>
+    <value>TXPOWER, dBm cinsinden gönderim gücüdür. 20 dBm, 100 mW'a eşittir. Kısa mesafeli testlerde düşük değerlere ayarlamak yararlıdır.
+</value>
   </data>
   <data name="RTSCTS.ToolTip" xml:space="preserve">
-    <value>Donanım akışı izlemeyi etkinleştirin veya devre dışı bırakın</value>
+    <value>Donanımsal akış kontrolünü etkinleştir veya devre dışı bırak</value>
   </data>
+  <data name="RLBT_RSSI.ToolTip" xml:space="preserve"><value>Göndermeden önce dinleme eşiği</value></data>
+  <data name="LBT_RSSI.ToolTip" xml:space="preserve"><value>Göndermeden önce dinleme eşiği</value></data>
+  <data name="NETID.ToolTip" xml:space="preserve"><value>NETID, 16 bitlik bir ağ kimliğidir. Frekans atlama dizisinin başlangıcını belirlemek ve paketlerin doğru radyodan geldiğini doğrulamak için kullanılır. Bölgedeki aynı tip radyo kullanan diğer kişilerden farklı bir NETID kullandığınızdan emin olun. </value></data>
+  <data name="ENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>AES şifreleme düzeyi</value></data>
+  <data name="RENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>AES şifreleme düzeyi</value></data>
+  <data name="FSFRAMELOSS.ToolTip" xml:space="preserve"><value>Emniyet moduna geçilmeden önce kaybolmasına izin verilen SBUS veya PPM çıkış çerçevesi sayısı.</value></data>
+  <data name="RFSFRAMELOSS.ToolTip" xml:space="preserve"><value>Emniyet moduna geçilmeden önce kaybolmasına izin verilen SBUS veya PPM çıkış çerçevesi sayısı.</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>RSSI</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>Emniyet modu çerçeve kaybı</value></data>
+  <data name="lblGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>Ülke:</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>Hız/frekans bandı</value></data>
+  <data name="lblSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="btnRandom.Text" xml:space="preserve"><value>Rastgele</value></data>
+  <data name="lblRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblDESTID.Text" xml:space="preserve"><value>Hedef kimliği</value></data>
+  <data name="lblNODEID.Text" xml:space="preserve"><value>Düğüm kimliği</value></data>
+  <data name="lblGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Baud</value></data>
+  <data name="lblNETID.Text" xml:space="preserve"><value>Ağ kimliği</value></data>
+  <data name="lblTXPOWER.Text" xml:space="preserve"><value>Gönderim gücü</value></data>
+  <data name="lblECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblOPPRESEND.Text" xml:space="preserve"><value>Fırsatçı yeniden gönderim</value></data>
+  <data name="lblMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblANT_MODE.Text" xml:space="preserve"><value>Anten modu</value></data>
+  <data name="lblSER_BRK_DETMS.Text" xml:space="preserve"><value>Kesinti algılama</value></data>
+  <data name="lblGLOBAL_RETRIES.Text" xml:space="preserve"><value>Genel yeniden denemeler</value></data>
+  <data name="lblMAX_RETRIES.Text" xml:space="preserve"><value>Maks. yeniden deneme</value></data>
+  <data name="lblMAX_DATA.Text" xml:space="preserve"><value>Maks. veri</value></data>
+  <data name="lblENCRYPTION_LEVEL.Text" xml:space="preserve"><value>AES şifreleme</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>AES anahtarı</value></data>
+  <data name="lblRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblMAX_WINDOW.Text" xml:space="preserve"><value>Maks. pencere (ms)</value></data>
+  <data name="lblMIN_FREQ.Text" xml:space="preserve"><value>Min. frekans</value></data>
+  <data name="lblLBT_RSSI.Text" xml:space="preserve"><value>LBT RSSI</value></data>
+  <data name="lblDUTY_CYCLE.Text" xml:space="preserve"><value>Görev döngüsü</value></data>
+  <data name="lblNUM_CHANNELS.Text" xml:space="preserve"><value>Kanal sayısı</value></data>
+  <data name="lblMAX_FREQ.Text" xml:space="preserve"><value>Maks. frekans</value></data>
+  <data name="btnRemoteLoadFromFile.Text" xml:space="preserve"><value>Dosyadan yükle...</value></data>
+  <data name="btnRemoteSaveToFile.Text" xml:space="preserve"><value>Dosyaya kaydet...</value></data>
+  <data name="lblRFSFRAMELOSS.Text" xml:space="preserve"><value>Emniyet modu çerçeve kaybı</value></data>
+  <data name="lblRGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblRGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblRGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblRGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblRGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.Text" xml:space="preserve"><value>PPM emniyet modunu ayarla</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.ToolTip" xml:space="preserve"><value>PPM çıkışı için varsayılan PPM akışını kaydet (araç tarafı)</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>Ülke:</value></data>
+  <data name="lblRSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblRSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>Hız/frekans bandı</value></data>
+  <data name="lblRRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblRTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblRDESTID.Text" xml:space="preserve"><value>Hedef kimliği</value></data>
+  <data name="lblRNODEID.Text" xml:space="preserve"><value>Düğüm kimliği</value></data>
+  <data name="lblRGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblRGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblROPPRESEND.Text" xml:space="preserve"><value>Fırsatçı yeniden gönderim</value></data>
+  <data name="lblRMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblRECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblRTXPOWER.Text" xml:space="preserve"><value>Gönderim gücü</value></data>
+  <data name="lblRNETID.Text" xml:space="preserve"><value>Ağ kimliği</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>Baud</value></data>
+  <data name="lblRANT_MODE.Text" xml:space="preserve"><value>Anten modu</value></data>
+  <data name="lblRSER_BRK_DETMS.Text" xml:space="preserve"><value>Kesinti algılama</value></data>
+  <data name="lblRGLOBAL_RETRIES.Text" xml:space="preserve"><value>Genel yeniden denemeler</value></data>
+  <data name="lblRMAX_RETRIES.Text" xml:space="preserve"><value>Maks. yeniden deneme</value></data>
+  <data name="lblRMAX_DATA.Text" xml:space="preserve"><value>Maks. veri</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>AES anahtarı</value></data>
+  <data name="lblRENCRYPTION_LEVEL.Text" xml:space="preserve"><value>AES şifreleme</value></data>
+  <data name="lblRRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblRMAX_WINDOW.Text" xml:space="preserve"><value>Maks. pencere (ms)</value></data>
+  <data name="lblRMIN_FREQ.Text" xml:space="preserve"><value>Min. frekans</value></data>
+  <data name="lblRMAX_FREQ.Text" xml:space="preserve"><value>Maks. frekans</value></data>
+  <data name="lblRNUM_CHANNELS.Text" xml:space="preserve"><value>Kanal sayısı</value></data>
+  <data name="lblRDUTY_CYCLE.Text" xml:space="preserve"><value>Görev döngüsü</value></data>
+  <data name="lblRLBT_RSSI.Text" xml:space="preserve"><value>LBT RSSI</value></data>
+  <data name="dlgSave.Filter" xml:space="preserve"><value>INI dosyaları|*.ini</value></data>
+  <data name="dlgOpen.Filter" xml:space="preserve"><value>INI dosyaları|*.ini</value></data>
+  <data name="BUT_SetPPMFailSafe.Text" xml:space="preserve"><value>PPM emniyet modunu ayarla</value></data>
+  <data name="BUT_SetPPMFailSafe.ToolTip" xml:space="preserve"><value>PPM çıkışı için varsayılan PPM akışını kaydet (araç tarafı)</value></data>
+  <data name="btnSaveToFile.Text" xml:space="preserve"><value>Dosyaya kaydet...</value></data>
+  <data name="btnLoadFromFile.Text" xml:space="preserve"><value>Dosyadan yükle...</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,7 +121,7 @@
     <value>無効な緯度/経度</value>
   </data>
   <data name="CannotGraphField" xml:space="preserve">
-    <value>このフィールドにグラフを描けません</value>
+    <value>この項目はグラフに表示できません</value>
   </data>
   <data name="CommandFailed" xml:space="preserve">
     <value>コマンドの実行に失敗しました
@@ -156,19 +156,20 @@
     <value>接続していません</value>
   </data>
   <data name="ErrorReceivingParams" xml:space="preserve">
-    <value>リストの取得エラー</value>
+    <value>リストの受信エラー
+</value>
   </data>
   <data name="ErrorRejectedByMAV" xml:space="preserve">
-    <value>エラー: コマンドが拒絶されました by MAV</value>
+    <value>エラー：機体がコマンドを拒否しました</value>
   </data>
   <data name="ErrorRenameFile" xml:space="preserve">
     <value>ファイル名変更エラー</value>
   </data>
   <data name="ErrorSettingParameter" xml:space="preserve">
-    <value>設定パラメータのエラー</value>
+    <value>パラメータ設定エラー： </value>
   </data>
   <data name="ErrorSetValueFailed" xml:space="preserve">
-    <value>セット {0} 失敗</value>
+    <value>{0} の設定に失敗しました</value>
   </data>
   <data name="InvalidAlt" xml:space="preserve">
     <value>高度が無効</value>
@@ -183,7 +184,8 @@
     <value>ファイル名が無効です</value>
   </data>
   <data name="InvalidNumberEntered" xml:space="preserve">
-    <value>入力値が無効</value>
+    <value>入力した数値が無効です
+</value>
   </data>
   <data name="InvalidPanRange" xml:space="preserve">
     <value>パンの範囲が無効です</value>
@@ -195,10 +197,10 @@
     <value>チルト範囲が無効です</value>
   </data>
   <data name="InvalidUpdateRate" xml:space="preserve">
-    <value>レートのアップデートが無効</value>
+    <value>更新頻度が無効です</value>
   </data>
   <data name="NoFMTMessage" xml:space="preserve">
-    <value>FMTメッセージがありません for </value>
+    <value>FMTメッセージがありません： </value>
   </data>
   <data name="PleaseConnect" xml:space="preserve">
     <value>まず最初に接続してください</value>
@@ -207,37 +209,37 @@
     <value>有効なファイルをロードしてください</value>
   </data>
   <data name="PleaseSelectCell" xml:space="preserve">
-    <value>最初にセル数を選択</value>
+    <value>先にセルを選択してください</value>
   </data>
   <data name="SelectComport" xml:space="preserve">
     <value>COMポートを選択してください</value>
   </data>
   <data name="WarningLogBrowseFMTMissing" xml:space="preserve">
-    <value>ログブラウズは、ログ内のFMTメッセージなしでは正常に機能しません。
-これらはログから欠落しているように見えます。
-</value>
+    <value>ログにFMTメッセージがないと、ログブラウザーは正常に動作しません。
+このログにはFMTメッセージがないようです。</value>
   </data>
   <data name="WarningUpdateParamList" xml:space="preserve">
-    <value>パラメータのアップデート
-機体が空中にある場合には実行しないでください！</value>
+    <value>パラメータ更新
+飛行中は実行しないでください
+</value>
   </data>
   <data name="Checking" xml:space="preserve">
-    <value>チェック中</value>
+    <value>確認中： </value>
   </data>
   <data name="DownloadedFromInternet" xml:space="preserve">
     <value>インターネットからダウンロードしたもの</value>
   </data>
   <data name="Getting" xml:space="preserve">
-    <value>取得中</value>
+    <value>取得中： </value>
   </data>
   <data name="GettingUpdatedParams" xml:space="preserve">
     <value>アップデートされたパラメータの取得中</value>
   </data>
   <data name="AdvancedParams" xml:space="preserve">
-    <value>アドバンスト パラメータ</value>
+    <value>詳細パラメータ</value>
   </data>
   <data name="BasicTuning" xml:space="preserve">
-    <value>ベーシック チューニング</value>
+    <value>基本チューニング</value>
   </data>
   <data name="Desc" xml:space="preserve">
     <value>説明: </value>
@@ -246,19 +248,19 @@
     <value>拡張チューニング</value>
   </data>
   <data name="FlightModes" xml:space="preserve">
-    <value>フライト モード</value>
+    <value>飛行モード</value>
   </data>
   <data name="FullParameterList" xml:space="preserve">
-    <value>フルパラメータ リスト</value>
+    <value>全パラメータ一覧</value>
   </data>
   <data name="FullParameterTree" xml:space="preserve">
-    <value>フルパラメータ ツリー</value>
+    <value>全パラメータツリー</value>
   </data>
   <data name="GeoFence" xml:space="preserve">
-    <value>ジオ フェンス</value>
+    <value>ジオフェンス</value>
   </data>
   <data name="StandardParams" xml:space="preserve">
-    <value>スタンダード パラメータ</value>
+    <value>標準パラメータ</value>
   </data>
   <data name="Units" xml:space="preserve">
     <value>単位: {0}{1}</value>
@@ -282,7 +284,8 @@
     <value>新しいファームウェア</value>
   </data>
   <data name="NewFirmwareA" xml:space="preserve">
-    <value>新たしいファームウェアが使用可能です</value>
+    <value>新しいファームウェアがあります
+</value>
   </data>
   <data name="Pleaseup" xml:space="preserve">
     <value>
@@ -295,13 +298,13 @@
     <value>オートスキャンの待受がタイムアウトしました/Mavlinkデバイスがありません</value>
   </data>
   <data name="ConnectFailed" xml:space="preserve">
-    <value>接続失敗しました</value>
+    <value>接続失敗</value>
   </data>
   <data name="ConnectingMavlink" xml:space="preserve">
-    <value>Mavlink接続中</value>
+    <value>MAVLink接続中</value>
   </data>
   <data name="Done" xml:space="preserve">
-    <value>終了</value>
+    <value>完了</value>
   </data>
   <data name="GettingParams" xml:space="preserve">
     <value>パラメータ取得中</value>
@@ -310,10 +313,10 @@
     <value>パラメータ取得中...</value>
   </data>
   <data name="Gotparam" xml:space="preserve">
-    <value>取得したパラメータ</value>
+    <value>取得したパラメータ： </value>
   </data>
   <data name="MavlinkConnecting" xml:space="preserve">
-    <value>Mavlink 接続中...</value>
+    <value>MAVLink接続中...</value>
   </data>
   <data name="Only1Hb" xml:space="preserve">
     <value>ハートビートを１回だけ受信しました</value>
@@ -323,8 +326,8 @@
 ミッションプランナーは、接続する前に2つの有効なハートビートパケットを待ちます</value>
   </data>
   <data name="Trying" xml:space="preserve">
-    <value>接続試行中.
-タイムアウト {0}</value>
+    <value>接続を試行中。
+タイムアウトまで {0}</value>
   </data>
   <data name="CantDetectBoardVersion" xml:space="preserve">
     <value>基板のバージョンが検出できません．接続を確認して下さい．</value>
@@ -336,7 +339,7 @@
     <value>通信エラー - 接続がありません</value>
   </data>
   <data name="DetectedA" xml:space="preserve">
-    <value>検出：</value>
+    <value>検出： </value>
   </data>
   <data name="DetectingBoardVersion" xml:space="preserve">
     <value>ボードのバージョンを検出中</value>
@@ -349,7 +352,7 @@
 続行しますか？</value>
   </data>
   <data name="EppromFormatChanged" xml:space="preserve">
-    <value>EEPROMフォーマットが変更されました ({0) vs {1})</value>
+    <value>EEPROM形式が変更されました（{0) と {1}）</value>
   </data>
   <data name="FailedDownload" xml:space="preserve">
     <value>ダウンロード失敗</value>
@@ -358,7 +361,7 @@
     <value>HEXの読込に失敗しました</value>
   </data>
   <data name="FailedToReadHex" xml:space="preserve">
-    <value>ファームウェア.hexの読込に失敗しました</value>
+    <value>firmware.hexの読込に失敗しました：</value>
   </data>
   <data name="FailedUpload" xml:space="preserve">
     <value>アップロードに失敗しました</value>
@@ -385,29 +388,28 @@
     <value>アップロード完了</value>
   </data>
   <data name="UploadingBytesToBoard" xml:space="preserve">
-    <value>アップロード中 {0} バイトを基板へ:</value>
+    <value>ボードに {0} バイトをアップロード中：</value>
   </data>
   <data name="VerifyComplete" xml:space="preserve">
-    <value>ベリファイ 完了</value>
+    <value>検証完了</value>
   </data>
   <data name="VerifyFirmware" xml:space="preserve">
-    <value>ファームウェアのベリファイ</value>
+    <value>ファームウェア検証</value>
   </data>
   <data name="UploadSucceededButVerifyFailed" xml:space="preserve">
-    <value>アップロード成功，しかしベリファイ失敗: exp {0} got {1} at 
-</value>
+    <value>アップロードは成功しましたが、検証に失敗しました：期待値 {0}、実際の値 {1}、位置： </value>
   </data>
   <data name="ReadingHex" xml:space="preserve">
     <value>Hexを読込中</value>
   </data>
   <data name="Warningrallypointdistance" xml:space="preserve">
-    <value>警告：ラリーポイントがRALLY_LIMIT_KMよりも大きくなっています</value>
+    <value>警告：ラリーポイントまでの距離がRALLY_LIMIT_KMを超えています</value>
   </data>
   <data name="Warning" xml:space="preserve">
     <value>警告</value>
   </data>
   <data name="WarningAC32" xml:space="preserve">
-    <value>警告：もしAC3.2以上を初めてインストールしたなら、コンパスキャリブレーションを必ず実行してください．</value>
+    <value>警告：AC 3.2を初めてインストールする場合は、必ずコンパスを再キャリブレーションしてください。</value>
   </data>
   <data name="WarningAC31" xml:space="preserve">
     <value>警告：AC3.1ではモータはARMEDすると回転しますが，MOT_SPIN_ARMEDパラメータで変更できます</value>
@@ -416,21 +418,21 @@
     <value>OKをクリックし、オートパイロットを各軸まわりに回転させてください。</value>
   </data>
   <data name="MissingDataPoints" xml:space="preserve">
-    <value>データポイントが失われます．それでもキャリブレーションを実行しますか？</value>
+    <value>データ点が不足しています。それでもキャリブレーションを実行しますか？</value>
   </data>
   <data name="RunAnyway" xml:space="preserve">
-    <value>ともかく実行</value>
+    <value>このまま実行</value>
   </data>
   <data name="UpdateFound" xml:space="preserve">
-    <value>アップデートが見つかりました
+    <value>更新が見つかりました
 
-今アップデートしますか？ [link;</value>
+今すぐ更新しますか？ </value>
   </data>
   <data name="UpdateNow" xml:space="preserve">
     <value>今アップデート</value>
   </data>
   <data name="RawParamWarning" xml:space="preserve">
-    <value>生のパラメータに警告</value>
+    <value>生パラメータの警告</value>
   </data>
   <data name="RawParamWarningi" xml:space="preserve">
     <value>画面上のすべての値は最大最小値がチェックされません．入力値はダブルチェックしてください．
@@ -443,19 +445,19 @@
     <value>OK</value>
   </data>
   <data name="LinkStats" xml:space="preserve">
-    <value>統計データにリンク</value>
+    <value>リンク統計</value>
   </data>
   <data name="Stop" xml:space="preserve">
-    <value>ストップ</value>
+    <value>停止</value>
   </data>
   <data name="Connect" xml:space="preserve">
     <value>接続</value>
   </data>
   <data name="Start" xml:space="preserve">
-    <value>スタート</value>
+    <value>開始</value>
   </data>
   <data name="AreYouSureYouWantToUpload" xml:space="preserve">
-    <value>アップロードしてよろしいですか？</value>
+    <value>次のアップロードを実行しますか： </value>
   </data>
   <data name="Beta" xml:space="preserve">
     <value>ベータ版</value>
@@ -479,7 +481,7 @@
     <value>trunk</value>
   </data>
   <data name="TrunkWarning" xml:space="preserve">
-    <value>これらは最新のファームウェアです。使用にはリスクがあります！</value>
+    <value>開発版の最新ファームウェアです。自己責任で使用してください。</value>
   </data>
   <data name="BadGPSHealth" xml:space="preserve">
     <value>GPS状態異常</value>
@@ -488,7 +490,7 @@
     <value>ジャイロに異常あり</value>
   </data>
   <data name="BadAccelHealth" xml:space="preserve">
-    <value>加速度の状態異常</value>
+    <value>加速度センサー異常</value>
   </data>
   <data name="BadCompassHealth" xml:space="preserve">
     <value>コンパスに異常あり</value>
@@ -500,13 +502,13 @@
     <value>LiDARの状態異常</value>
   </data>
   <data name="BadOptFlowHealth" xml:space="preserve">
-    <value>OptFlowに異常あり</value>
+    <value>オプティカルフロー異常</value>
   </data>
   <data name="BadorNoTerrainData" xml:space="preserve">
-    <value>異常,または地形データが無い</value>
+    <value>地形データが無効または未取得</value>
   </data>
   <data name="GeofenceBreach" xml:space="preserve">
-    <value>ジオ フェンス違反</value>
+    <value>ジオフェンス逸脱</value>
   </data>
   <data name="BadAHRS" xml:space="preserve">
     <value>AHRS異常</value>
@@ -515,7 +517,7 @@
     <value>RC受信機がありません</value>
   </data>
   <data name="AutoWP" xml:space="preserve">
-    <value>Auto WP</value>
+    <value>ウェイポイント自動生成</value>
   </data>
   <data name="EnsurePropsNotOn" xml:space="preserve">
     <value>機体にプロペラを付けていないことを確認して下さい</value>
@@ -538,4 +540,61 @@
   <data name="Saving" xml:space="preserve">
     <value>保存中</value>
   </data>
+  <data name="BadAirspeed" xml:space="preserve"><value>対気速度センサー異常</value></data>
+  <data name="InvalidCert" xml:space="preserve"><value>証明書が無効です</value></data>
+  <data name="Note" xml:space="preserve"><value>注意</value></data>
+  <data name="PleaseUnplugTheBoardAnd" xml:space="preserve"><value>ボードを取り外し、OKを押してから再接続してください。
+Mission Plannerは30秒間ボードを検出します</value></data>
+  <data name="ThisBoardHasBeenRetired" xml:space="preserve"><value>このボードのサポートは終了しています。Mission Plannerは利用可能な最終バージョン（AC 3.2.1/AP 3.4.0）を書き込みます</value></data>
+  <data name="YouAreUsingUnsupportedHardware" xml:space="preserve"><value>サポート対象外のハードウェアです。
+このボードには有効な正規品証明書がありません。
+ハードウェアへの署名について、販売元にお問い合わせください。</value></data>
+  <data name="NoNeedToUpload" xml:space="preserve"><value>すでにボードに書き込まれているため、アップロードは不要です</value></data>
+  <data name="PleaseWaitForTheMusicalTones" xml:space="preserve"><value>メロディーが鳴り終わるまで待ってからOKをクリックしてください</value></data>
+  <data name="ObtainFromModule" xml:space="preserve"><value>モジュールから取得</value></data>
+  <data name="SetHere" xml:space="preserve"><value>ここに設定</value></data>
+  <data name="TrackerHome" xml:space="preserve"><value>トラッカー　ホーム</value></data>
+  <data name="velocity_variance" xml:space="preserve"><value>速度の分散</value></data>
+  <data name="compass_variance" xml:space="preserve"><value>コンパスの分散</value></data>
+  <data name="pos_horiz_variance" xml:space="preserve"><value>水平位置の分散</value></data>
+  <data name="pos_vert_variance" xml:space="preserve"><value>垂直位置の分散</value></data>
+  <data name="terrain_alt_variance" xml:space="preserve"><value>地形高度の分散</value></data>
+  <data name="ChangeThrottle" xml:space="preserve"><value>スロットル変更</value></data>
+  <data name="Invalid_home_location" xml:space="preserve"><value>ホーム位置が無効です</value></data>
+  <data name="Converting_bin_to_log" xml:space="preserve"><value>binをlogに変換中</value></data>
+  <data name="UpdateNotFound" xml:space="preserve"><value>利用可能な更新はありません。</value></data>
+  <data name="Failed_to_connect_to_SITL_instance" xml:space="preserve"><value>SITLインスタンスに接続できませんでした</value></data>
+  <data name="Scanning_File" xml:space="preserve"><value>ファイルを走査中</value></data>
+  <data name="Zoom_to_the_center_or_the_loaded_file" xml:space="preserve"><value>中心または読み込んだファイルの範囲にズームしますか？</value></data>
+  <data name="Zoom_To" xml:space="preserve"><value>ここにズーム</value></data>
+  <data name="Do_you_want_to_load_this_into_the_flight_data_screen" xml:space="preserve"><value>このデータを飛行データ画面に読み込みますか？</value></data>
+  <data name="Load_data" xml:space="preserve"><value>データ読込</value></data>
+  <data name="Bad_KML_File" xml:space="preserve"><value>KMLファイルが無効です：</value></data>
+  <data name="No_valid_heartbeats_read_from_port" xml:space="preserve"><value>ポートから有効なハートビートを受信できませんでした</value></data>
+  <data name="Bad_Vision_Position" xml:space="preserve"><value>ビジョン位置推定異常</value></data>
+  <data name="BadLogging" xml:space="preserve"><value>ログ記録異常</value></data>
+  <data name="ParamRefreshRequired" xml:space="preserve"><value>パラメータの再取得が必要です。F5を押してください
+旧 #{0}  新 #{1}</value></data>
+  <data name="Failed_to_download_the_SITL_image" xml:space="preserve"><value>SITLイメージをダウンロードできませんでした。</value></data>
+  <data name="Not_available_when_used_as_a_windows_store_app" xml:space="preserve"><value>Windowsストアアプリでは利用できません</value></data>
+  <data name="No_firmware_available_for_this_board" xml:space="preserve"><value>このボード用のファームウェアはありません。</value></data>
+  <data name="OnboardOSD" xml:space="preserve"><value>オンボードOSD</value></data>
+  <data name="User_Params" xml:space="preserve"><value>ユーザーパラメータ</value></data>
+  <data name="Planner" xml:space="preserve"><value>プランナー</value></data>
+  <data name="Cancel" xml:space="preserve"><value>キャンセル</value></data>
+  <data name="No_valid_sik_radio" xml:space="preserve"><value>有効なSiK無線機がありません</value></data>
+  <data name="MAVFtp" xml:space="preserve"><value>MAVFTP</value></data>
+  <data name="Bad_Battery" xml:space="preserve"><value>バッテリー異常</value></data>
+  <data name="Bad_Proximity" xml:space="preserve"><value>近接センサー異常</value></data>
+  <data name="Bad_SatCom" xml:space="preserve"><value>衛星通信異常</value></data>
+  <data name="Prearm_check_failed" xml:space="preserve"><value>アーム前チェック失敗：メッセージを確認してください</value></data>
+  <data name="Invalid_Location" xml:space="preserve"><value>位置が無効です</value></data>
+  <data name="Loading" xml:space="preserve"><value>読込中</value></data>
+  <data name="ZeroAltWarningCopter" xml:space="preserve"><value>WP# {0} の高度は0です。これは高度を変更しないことを意味します。高度0にする場合は0.01に変更してください。ウェイポイントのアップロードを続行しますか、キャンセルしますか？</value></data>
+  <data name="ZeroAltWarningTitle" xml:space="preserve"><value>高度0の警告</value></data>
+  <data name="ZeroAltWarningPlane" xml:space="preserve"><value>WP# {0} の高度は0です。実際に高度0を指定する場合は、動作を確実にするため0.01に変更してください。
+
+ArduPlaneでは、高度0が「実際の高度0」または「現在高度を維持」の2通りに解釈される場合があります。通常、WAYPOINTコマンドは高度0として扱い、LOITERコマンドは「現在高度を使用」として扱います。ただし、これは高度基準が「相対」の場合に限ります。ほかにも例外があり、今後のバージョンで変わる可能性があります。
+
+ご自身の条件での動作を正確に理解している場合にのみ0を設定してください（シミュレーターで確認してください）。[link;https://ardupilot.org/plane/docs/common-mavlink-mission-command-messages-mav_cmd.html;コマンドのドキュメント]</value></data>
 </root>

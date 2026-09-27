@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_paramsfromlog.Text" xml:space="preserve">
-    <value>Extract Params</value>
+    <value>Ekstrak Parameter</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Log</value>
@@ -127,7 +127,7 @@
     <value>Buat KML + GPX</value>
   </data>
   <data name="BUT_getwpsfromlog.Text" xml:space="preserve">
-    <value>Extract WPs</value>
+    <value>Ekstrak Titik Lintasan</value>
   </data>
   <data name="BUT_convertcsv.Text" xml:space="preserve">
     <value>Konversi ke CSV</value>
@@ -136,12 +136,13 @@
     <value>Upload untuk DroneShare</value>
   </data>
   <data name="BUT_matlab.Text" xml:space="preserve">
-    <value>Buat berkas Matlab</value>
+    <value>Buat Berkas Matlab</value>
   </data>
   <data name="BUT_graphmavlog.Text" xml:space="preserve">
     <value>Grafik Log</value>
   </data>
   <data name="BUT_humanreadable.Text" xml:space="preserve">
-    <value>Konversi ke text</value>
+    <value>Konversi ke Teks</value>
   </data>
+  <data name="but_cs.Text" xml:space="preserve"><value>Ekstrak CS</value></data>
 </root>

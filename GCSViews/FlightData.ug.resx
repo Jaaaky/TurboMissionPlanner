@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="recordHudToAVIToolStripMenuItem.Text" xml:space="preserve"><value>HUD نى AVI غا خاتىرىلەش</value></data>
+  <data name="stopRecordToolStripMenuItem.Text" xml:space="preserve"><value>خاتىرىلەشنى توختىتىش</value></data>
+  <data name="setMJPEGSourceToolStripMenuItem.Text" xml:space="preserve"><value>MJPEG مەنبەسىنى بەلگىلەش</value></data>
+  <data name="startCameraToolStripMenuItem.Text" xml:space="preserve"><value>كامېرانى قوزغىتىش</value></data>
+  <data name="setGStreamerSourceToolStripMenuItem.Text" xml:space="preserve"><value>GStreamer مەنبەسىنى بەلگىلەش</value></data>
+  <data name="hereLinkVideoToolStripMenuItem.Text" xml:space="preserve"><value>HereLink سىنى</value></data>
+  <data name="gStreamerStopToolStripMenuItem.Text" xml:space="preserve"><value>GStreamer نى توختىتىش</value></data>
+  <data name="videoToolStripMenuItem.Text" xml:space="preserve"><value>سىن</value></data>
+  <data name="setAspectRatioToolStripMenuItem.Text" xml:space="preserve"><value>كەڭلىك-ئېگىزلىك نىسبىتىنى بەلگىلەش</value></data>
+  <data name="userItemsToolStripMenuItem.Text" xml:space="preserve"><value>ئىشلەتكۈچى تۈرلىرى</value></data>
+  <data name="russianHudToolStripMenuItem.Text" xml:space="preserve"><value>رۇسچە HUD</value></data>
+  <data name="swapWithMapToolStripMenuItem.Text" xml:space="preserve"><value>خەرىتە بىلەن ئالماشتۇرۇش</value></data>
+  <data name="groundColorToolStripMenuItem.Text" xml:space="preserve"><value>يەر رەڭگى</value></data>
+  <data name="setBatteryCellCountToolStripMenuItem.Text" xml:space="preserve"><value>باتارېيە كاتەكچە بېسىمى</value></data>
+  <data name="showIconsToolStripMenuItem.Text" xml:space="preserve"><value>سىنبەلگىلەرنى كۆرسىتىش</value></data>
+  <data name="customizeToolStripMenuItem.Text" xml:space="preserve"><value>خاسلاشتۇرۇش</value></data>
+  <data name="multiLineToolStripMenuItem.Text" xml:space="preserve"><value>كۆپ قۇرلۇق</value></data>
+  <data name="setViewCountToolStripMenuItem.Text" xml:space="preserve"><value>كۆرۈنۈش سانىنى بەلگىلەش</value></data>
+  <data name="undockToolStripMenuItem.Text" xml:space="preserve"><value>ئايرىش</value></data>
+  <data name="quickView1.ToolTip" xml:space="preserve"><value>ئۆزگەرتىش ئۈچۈن قوش چېكىڭ</value></data>
+  <data name="tabQuick.Text" xml:space="preserve"><value>تېز</value></data>
+  <data name="BUT_SendMSG.Text" xml:space="preserve"><value>ئۇچۇر</value></data>
+  <data name="BUT_SendMSG.ToolTip" xml:space="preserve"><value>ئۇچقۇ خاتىرىسىگە ساقلىنىدىغان ئۇچۇر ئەۋەتىش</value></data>
+  <data name="BUT_abortland.Text" xml:space="preserve"><value>قونۇشنى توختىتىش</value></data>
+  <data name="BUT_abortland.ToolTip" xml:space="preserve"><value>پەقەت ئايروپىلان</value></data>
+  <data name="BUT_clear_track.Text" xml:space="preserve"><value>ئىزنى تازىلاش</value></data>
+  <data name="BUT_clear_track.ToolTip" xml:space="preserve"><value>خەرىتىدىكى خاتىرىلەنگەن يولنى تازىلاش</value></data>
+  <data name="BUTactiondo.Text" xml:space="preserve"><value>ھەرىكەتنى ئىجرا قىلىش</value></data>
+  <data name="BUTactiondo.ToolTip" xml:space="preserve"><value>سول تەرەپتىكى ھەرىكەتنى ئىجرا قىلىش</value></data>
+  <data name="BUT_resumemis.Text" xml:space="preserve"><value>ۋەزىپىنى داۋاملاشتۇرۇش</value></data>
+  <data name="CMB_setwp.Items" xml:space="preserve"><value>0 (باشلىنىش)</value></data>
+  <data name="BUT_ARM.Text" xml:space="preserve"><value>قوزغىتىش/توختىتىش</value></data>
+  <data name="BUT_ARM.ToolTip" xml:space="preserve"><value>ئۇچقۇنى قوزغىتىش</value></data>
+  <data name="BUT_mountmode.Text" xml:space="preserve"><value>كامېرا تۇتقۇچىنى تەڭشەش</value></data>
+  <data name="BUT_mountmode.ToolTip" xml:space="preserve"><value>سول تەرەپتىكى ھالەتكە ئالماشتۇرۇش</value></data>
+  <data name="BUT_joystick.Text" xml:space="preserve"><value>باشقۇرۇش تايىقى</value></data>
+  <data name="BUT_joystick.ToolTip" xml:space="preserve"><value>باشقۇرۇش تايىقىڭىزنى تەڭشەپ قوزغىتىش</value></data>
+  <data name="BUT_RAWSensor.Text" xml:space="preserve"><value>خام سېنزور كۆرۈنۈشى</value></data>
+  <data name="BUT_RAWSensor.ToolTip" xml:space="preserve"><value>گىروسكوپ ۋە تېزلىنىش ئۆلچىگۈچنىڭ خام قىممەتلىرى، رادىيونىڭ خام كىرگۈزۈش/چىقىرىشلىرىنى كۆرۈش</value></data>
+  <data name="BUT_Homealt.Text" xml:space="preserve"><value>باشلىنىش ئېگىزلىكىنى بەلگىلەش</value></data>
+  <data name="BUT_Homealt.ToolTip" xml:space="preserve"><value>نۆۋەتتىكى كۆرسىتىلگەن ئېگىزلىكنى 0 قىلىش، يەنى باشلىنىش ئېگىزلىكى 0 دەپ كۆرسىتىلىدۇ</value></data>
+  <data name="BUTrestartmission.Text" xml:space="preserve"><value>ۋەزىپىنى قايتا باشلاش</value></data>
+  <data name="BUTrestartmission.ToolTip" xml:space="preserve"><value>ۋەزىپىنى بېشىدىن قايتا باشلاش</value></data>
+  <data name="BUT_quickrtl.Text" xml:space="preserve"><value>RTL</value></data>
+  <data name="BUT_quickrtl.ToolTip" xml:space="preserve"><value>ھالەتنى RTL غا ئالماشتۇرۇش</value></data>
+  <data name="BUT_quickmanual.Text" xml:space="preserve"><value>ئايلىنىپ تۇرۇش</value></data>
+  <data name="BUT_quickmanual.ToolTip" xml:space="preserve"><value>ھالەتنى قولدا/مۇقىملاشتۇرۇشقا ئالماشتۇرۇش</value></data>
+  <data name="BUT_setwp.Text" xml:space="preserve"><value>يول نۇقتىسىنى بەلگىلەش</value></data>
+  <data name="BUT_setwp.ToolTip" xml:space="preserve"><value>نۆۋەتتىكى نىشان يول نۇقتىسىنى ئۆزگەرتىش</value></data>
+  <data name="BUT_quickauto.Text" xml:space="preserve"><value>ئاپتوماتىك</value></data>
+  <data name="BUT_quickauto.ToolTip" xml:space="preserve"><value>ئاپتوماتىك ھالەتكە ئالماشتۇرۇش</value></data>
+  <data name="BUT_setmode.Text" xml:space="preserve"><value>ھالەتنى بەلگىلەش</value></data>
+  <data name="BUT_setmode.ToolTip" xml:space="preserve"><value>سول تەرەپتىكى ھالەتكە ئالماشتۇرۇش</value></data>
+  <data name="tabActions.Text" xml:space="preserve"><value>ھەرىكەتلەر</value></data>
+  <data name="tabPagemessages.Text" xml:space="preserve"><value>ئۇچۇرلار</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>ئايلىنىپ تۇرۇش</value></data>
+  <data name="myButton1.ToolTip" xml:space="preserve"><value>ھالەتنى قولدا/مۇقىملاشتۇرۇشقا ئالماشتۇرۇش</value></data>
+  <data name="myButton2.Text" xml:space="preserve"><value>RTL</value></data>
+  <data name="myButton2.ToolTip" xml:space="preserve"><value>ھالەتنى RTL غا ئالماشتۇرۇش</value></data>
+  <data name="myButton3.Text" xml:space="preserve"><value>ئاپتوماتىك</value></data>
+  <data name="myButton3.ToolTip" xml:space="preserve"><value>ئاپتوماتىك ھالەتكە ئالماشتۇرۇش</value></data>
+  <data name="tabActionsSimple.Text" xml:space="preserve"><value>ھەرىكەتلەر</value></data>
+  <data name="tabPagePreFlight.Text" xml:space="preserve"><value>ئۇچۇشتىن بۇرۇن</value></data>
+  <data name="Gspeed.ToolTip" xml:space="preserve"><value>يۇقىرى چەكنى ئۆزگەرتىش ئۈچۈن قوش چېكىڭ</value></data>
+  <data name="tabGauges.Text" xml:space="preserve"><value>ئۆلچەش كۆرسەتكۈچلىرى</value></data>
+  <data name="NACp_lbl.Text" xml:space="preserve"><value>NACp</value></data>
+  <data name="NIC_lbl.Text" xml:space="preserve"><value>NIC</value></data>
+  <data name="fault_clb.Items" xml:space="preserve"><value>ئاسراش كېرەك</value></data>
+  <data name="fault_clb.Items1" xml:space="preserve"><value>GPS يوق</value></data>
+  <data name="fault_clb.Items2" xml:space="preserve"><value>GPS ئورۇن بېكىتەلمىدى</value></data>
+  <data name="fault_clb.Items3" xml:space="preserve"><value>ئۇزىتىش سىستېمىسى كاشىلىسى</value></data>
+  <data name="fault_clb.Items4" xml:space="preserve"><value>يەردە</value></data>
+  <data name="XPDRConnect_btn.Text" xml:space="preserve"><value>جاۋاب بەرگۈچكە ئۇلاش</value></data>
+  <data name="Squawk_label.Text" xml:space="preserve"><value>جاۋاب كودى</value></data>
+  <data name="FlightID_label.Text" xml:space="preserve"><value>ئۇچۇش كىملىكى</value></data>
+  <data name="IDENT_btn.Text" xml:space="preserve"><value>IDENT</value></data>
+  <data name="ALT_btn.Text" xml:space="preserve"><value>ALT</value></data>
+  <data name="STBY_btn.Text" xml:space="preserve"><value>STBY</value></data>
+  <data name="ON_btn.Text" xml:space="preserve"><value>ئوچۇق</value></data>
+  <data name="Mode_clb.Items" xml:space="preserve"><value>A ھالىتى</value></data>
+  <data name="Mode_clb.Items1" xml:space="preserve"><value>C ھالىتى</value></data>
+  <data name="Mode_clb.Items2" xml:space="preserve"><value>S ھالىتى</value></data>
+  <data name="Mode_clb.Items3" xml:space="preserve"><value>1090ES ADS-B چىقىرىشى</value></data>
+  <data name="tabTransponder.Text" xml:space="preserve"><value>جاۋاب بەرگۈچ</value></data>
+  <data name="tabStatus.Text" xml:space="preserve"><value>ھالەت</value></data>
+  <data name="tabServo.Text" xml:space="preserve"><value>سېرۋو/رېلې</value></data>
+  <data name="tabAuxFunction.Text" xml:space="preserve"><value>قوشۇمچە ئىقتىدار</value></data>
+  <data name="checkBoxRedirectOutput.Text" xml:space="preserve"><value>پىروگرامما چىقىرىشىنى قايتا يۆنىلىشتۈرۈش</value></data>
+  <data name="BUT_edit_selected.Text" xml:space="preserve"><value>تاللانغان قوليازمىنى تەھرىرلەش</value></data>
+  <data name="labelSelectedScript.Text" xml:space="preserve"><value>تاللانغان قوليازما: يوق</value></data>
+  <data name="BUT_run_script.Text" xml:space="preserve"><value>قوليازمىنى ئىجرا قىلىش</value></data>
+  <data name="BUT_abort_script.Text" xml:space="preserve"><value>ئىجرا بولۇۋاتقان قوليازمىنى توختىتىش</value></data>
+  <data name="labelScriptStatus.Text" xml:space="preserve"><value>قوليازما ھالىتى: ئىجرا بولۇۋاتقان قوليازما يوق</value></data>
+  <data name="BUT_select_script.Text" xml:space="preserve"><value>قوليازما تاللاش</value></data>
+  <data name="tabScripts.Text" xml:space="preserve"><value>قوليازمىلار</value></data>
+  <data name="BUT_GimbalVideo.Text" xml:space="preserve"><value>سىن كونترول قىلىش</value></data>
+  <data name="groupBoxRoll.Text" xml:space="preserve"><value>يان يېنىش</value></data>
+  <data name="groupBoxYaw.Text" xml:space="preserve"><value>توغرىسىغا بۇرۇش</value></data>
+  <data name="BUT_resetGimbalPos.Text" xml:space="preserve"><value>ئورۇننى ئەسلىگە قايتۇرۇش</value></data>
+  <data name="groupBoxPitch.Text" xml:space="preserve"><value>يانتۇ قىلىش</value></data>
+  <data name="tabPayload.Text" xml:space="preserve"><value>يۈك ئۈسكۈنىسىنى كونترول قىلىش</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>سۈرئەت</value></data>
+  <data name="BUT_speed10.Text" xml:space="preserve"><value>10x</value></data>
+  <data name="BUT_speed5.Text" xml:space="preserve"><value>5x</value></data>
+  <data name="BUT_speed2.Text" xml:space="preserve"><value>2x</value></data>
+  <data name="BUT_speed1.Text" xml:space="preserve"><value>1x</value></data>
+  <data name="BUT_loadtelem.Text" xml:space="preserve"><value>خاتىرە يۈكلەش</value></data>
+  <data name="lbl_playbackspeed.Text" xml:space="preserve"><value>x 1.0</value></data>
+  <data name="BUT_log2kml.Text" xml:space="preserve"><value>Tlog &gt; KML ياكى گرافىك</value></data>
+  <data name="BUT_playlog.Text" xml:space="preserve"><value>قويۇش/ۋاقىتلىق توختىتىش</value></data>
+  <data name="tabTLogs.Text" xml:space="preserve"><value>تېلېمېتىرىيە خاتىرىلىرى</value></data>
+  <data name="BUT_DFMavlink.Text" xml:space="preserve"><value>MAVLink ئارقىلىق DataFlash خاتىرىسىنى چۈشۈرۈش</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>رەسىملەرگە جۇغراپىيەلىك ئۇچۇر باغلاش</value></data>
+  <data name="BUT_logbrowse.Text" xml:space="preserve"><value>خاتىرىنى كۆرۈپ چىقىش</value></data>
+  <data name="BUT_matlab.Text" xml:space="preserve"><value>Matlab ھۆججىتى قۇرۇش</value></data>
+  <data name="but_bintolog.Text" xml:space="preserve"><value>.Bin نى .Log غا ئايلاندۇرۇش</value></data>
+  <data name="but_dflogtokml.Text" xml:space="preserve"><value>KML + GPX قۇرۇش</value></data>
+  <data name="BUT_loganalysis.Text" xml:space="preserve"><value>ئاپتوماتىك تەھلىل</value></data>
+  <data name="tablogbrowse.Text" xml:space="preserve"><value>DataFlash خاتىرىلىرى</value></data>
+  <data name="goHereToolStripMenuItem.Text" xml:space="preserve"><value>بۇ يەرگە ئۇچۇش</value></data>
+  <data name="flyToHereAltToolStripMenuItem.Text" xml:space="preserve"><value>بۇ يەرگە ئۇچۇش ئېگىزلىكى</value></data>
+  <data name="flyToCoordsToolStripMenuItem.Text" xml:space="preserve"><value>كوئوردېناتقا ئۇچۇش</value></data>
+  <data name="deleteToolStripMenuItem.Text" xml:space="preserve"><value>ئۆچۈرۈش</value></data>
+  <data name="saveFileToolStripMenuItem.Text" xml:space="preserve"><value>ھۆججەت ساقلاش</value></data>
+  <data name="loadFileToolStripMenuItem.Text" xml:space="preserve"><value>ھۆججەت يۈكلەش</value></data>
+  <data name="poiatcoordsToolStripMenuItem.Text" xml:space="preserve"><value>كوئوردېناتلار</value></data>
+  <data name="addPoiToolStripMenuItem.Text" xml:space="preserve"><value>قىزىقىش نۇقتىسى قوشۇش</value></data>
+  <data name="pointCameraHereToolStripMenuItem.Text" xml:space="preserve"><value>كامېرانى بۇ يەرگە قارىتىش</value></data>
+  <data name="PointCameraCoordsToolStripMenuItem1.Text" xml:space="preserve"><value>كامېرانى كوئوردېناتقا قارىتىش</value></data>
+  <data name="triggerCameraToolStripMenuItem.Text" xml:space="preserve"><value>كامېرانى ھازىر قوزغىتىش</value></data>
+  <data name="flightPlannerToolStripMenuItem.Text" xml:space="preserve"><value>ئۇچۇش پىلانلىغۇچ</value></data>
+  <data name="setEKFHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>EKF باش نۇقتىسىنى بۇ يەرگە بەلگىلەش</value></data>
+  <data name="setHomeHereToolStripMenuItem1.Text" xml:space="preserve"><value>باشلىنىش نۇقتىسىنى بۇ يەرگە بەلگىلەش</value></data>
+  <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>باشلىنىش نۇقتىسىنى بۇ يەرگە بەلگىلەش</value></data>
+  <data name="takeOffToolStripMenuItem.Text" xml:space="preserve"><value>كۆتۈرۈلۈش</value></data>
+  <data name="onOffCameraOverlapToolStripMenuItem.Text" xml:space="preserve"><value>كامېرا قاپلىشىشى</value></data>
+  <data name="jumpToTagToolStripMenuItem.Text" xml:space="preserve"><value>بەلگىگە سەكرەش</value></data>
+  <data name="gimbalVideoFullSizedToolStripMenuItem.Text" xml:space="preserve"><value>تولۇق چوڭلۇقتا</value></data>
+  <data name="gimbalVideoMiniToolStripMenuItem.Text" xml:space="preserve"><value>كىچىك</value></data>
+  <data name="gimbalVideoPopOutToolStripMenuItem.Text" xml:space="preserve"><value>ئايرىم كۆزنەك</value></data>
+  <data name="gimbalVideoToolStripMenuItem.Text" xml:space="preserve"><value>مۇقىملاشتۇرغۇچ كامېرا سىنى</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>چوڭايتىش</value></data>
+  <data name="but_disablejoystick.Text" xml:space="preserve"><value>باشقۇرۇش تايىقىنى چەكلەش</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>چوڭايتىش دەرىجىسىنى ئۆزگەرتىش</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>GPS ئىزى (قارا)</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>نىشان باش يۆنىلىشى</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>نۆۋەتتىكى يول نۇقتىسىغا بىۋاسىتە</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>نۆۋەتتىكى باش يۆنىلىشى</value></data>
+  <data name="lbl_hdop.Text" xml:space="preserve"><value>hdop: 0</value></data>
+  <data name="lbl_hdop.ToolTip" xml:space="preserve"><value>GPS HDOP</value></data>
+  <data name="lbl_sats.Text" xml:space="preserve"><value>سۈنئىي ھەمراھ: 0</value></data>
+  <data name="lbl_sats.ToolTip" xml:space="preserve"><value>سۈنئىي ھەمراھ سانى</value></data>
+  <data name="CHK_autopan.Text" xml:space="preserve"><value>ئاپتوماتىك سۈرۈش</value></data>
+  <data name="CHK_autopan.ToolTip" xml:space="preserve"><value>نۆۋەتتىكى ئورۇنغا ئاساسەن خەرىتىنى ئاپتوماتىك سۈرىدۇ</value></data>
+  <data name="CB_tuning.Text" xml:space="preserve"><value>تەڭشەش</value></data>
+  <data name="CB_tuning.ToolTip" xml:space="preserve"><value>نىشان ۋە ئەمەلىي ئۇچۇش ھالىتىنى سېلىشتۇرىدىغان تەڭشەش گرافىكىنى كۆرسىتىش</value></data>
+  <data name="openScriptDialog.Filter" xml:space="preserve"><value>Python ھۆججەتلىرى|*.py|بارلىق ھۆججەتلەر|*.*</value></data>
+</root>

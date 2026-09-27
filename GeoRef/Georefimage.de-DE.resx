@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,24 +118,41 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>Geo Ref-Bilder</value>
+    <value>Bilder georeferenzieren</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Offset in Sekunden</value>
+    <value>Zeitversatz (s)</value>
   </data>
   <data name="BUT_doit.Text" xml:space="preserve">
-    <value>Tu es!</value>
+    <value>Vorverarbeiten</value>
   </data>
   <data name="BUT_browsedir.Text" xml:space="preserve">
-    <value>Verzeichnis durchsuchen</value>
+    <value>Bilder auswählen</value>
   </data>
   <data name="BUT_browselog.Text" xml:space="preserve">
-    <value>Logs durchsuchen</value>
+    <value>Protokoll auswählen</value>
   </data>
   <data name="BUT_Geotagimages.Text" xml:space="preserve">
-    <value>GeoTag-Bilder</value>
+    <value>Bilder mit Geotags versehen</value>
   </data>
   <data name="BUT_estoffset.Text" xml:space="preserve">
-    <value>Offset schätzen</value>
+    <value>Zeitversatz schätzen</value>
   </data>
+  <data name="BUT_networklinkgeoref.Text" xml:space="preserve"><value>Positions-KML</value></data>
+  <data name="RDIO_TimeOffset.Text" xml:space="preserve"><value>Zeitversatz</value></data>
+  <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve"><value>CAM-Nachricht</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Drehung</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Querbildwinkel</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Längsbildwinkel</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Min. Auslöseintervall (s) (CAM)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Bild am Ende verwerfen</value></data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>Bild am Anfang verwerfen</value></data>
+  <data name="chk_usegps2.Text" xml:space="preserve"><value>GPS2 verwenden</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Bezug für relative Höhe</value></data>
+  <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve"><value>Höhe über MSL verwenden</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Auslöseverzögerung (ms)</value></data>
+  <data name="chk_cammsg.Text" xml:space="preserve"><value>CAM-Nachrichten verwenden</value></data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve"><value>Auslösenachricht</value></data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve"><value>GPS-Höhe verwenden</value></data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve"><value>GPS-Höhe verwenden</value></data>
 </root>

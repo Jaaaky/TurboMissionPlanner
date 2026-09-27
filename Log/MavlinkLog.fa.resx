@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_redokml.Text" xml:space="preserve"><value>ایجاد KML + GPX</value></data>
+  <data name="BUT_humanreadable.Text" xml:space="preserve"><value>تبدیل به متن</value></data>
+  <data name="BUT_graphmavlog.Text" xml:space="preserve"><value>رسم نمودار گزارش</value></data>
+  <data name="BUT_convertcsv.Text" xml:space="preserve"><value>تبدیل به CSV</value></data>
+  <data name="BUT_paramsfromlog.Text" xml:space="preserve"><value>استخراج پارامترها</value></data>
+  <data name="BUT_getwpsfromlog.Text" xml:space="preserve"><value>استخراج نقاط مسیر</value></data>
+  <data name="BUT_matlab.Text" xml:space="preserve"><value>ایجاد فایل Matlab</value></data>
+  <data name="but_cs.Text" xml:space="preserve"><value>استخراج CS</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>گزارش</value></data>
+</root>

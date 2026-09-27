@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>オートパイロットを水平にして、加速度センサーの基準オフセットを設定します（1軸／AHRSトリム）。
+オートパイロットを平らな場所に水平に置いてください。</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>加速度センサーの基準最小値／最大値を設定します（3軸）。
+指示に従ってオートパイロットの各面を下にして置いてください。</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>オートパイロットを水平にして、水平飛行用の加速度センサーの基準スケール係数を設定します（1軸）。
+オートパイロットを平らな場所に水平に置いてください。</value></data>
+  <data name="BUT_calib_accell.Text" xml:space="preserve"><value>加速度センサー校正</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>簡易加速度校正</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>加速度センサーのキャリブレーション</value></data>
+  <data name="BUT_level.Text" xml:space="preserve"><value>水平校正</value></data>
+</root>

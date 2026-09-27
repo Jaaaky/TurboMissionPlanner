@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,55 +118,66 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="mavlinkCheckBoxthr_fs_action.Text" xml:space="preserve">
-    <value>Uygunsuz qaz fealiyyeti</value>
+    <value>Qaz qəza mühafizəsi əməli</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.ToolTip" xml:space="preserve">
-    <value>Deaktiv, Hereketsiz,Aktiv, RTL</value>
+    <value>Sönülü: əməl yoxdur; aktiv: RTL</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.Text" xml:space="preserve">
-    <value>Uygunsuz Long (20 sec)</value>
+    <value>Uzun qəza mühafizəsi (20 san)</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.Text" xml:space="preserve">
-    <value>Uygunsuz qaz</value>
+    <value>Qaz qəza mühafizəsi</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.ToolTip" xml:space="preserve">
-    <value>GCS üzərindəki iten elaqenin Failsafe aktiv edin</value>
+    <value>Yerüstü stansiya ilə rabitə itdikdə qəza mühafizəsini aktiv et</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Batareya</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Zəyif Batareya</value>
+    <value>Zəif batareya</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>MAH Qorunması</value>
+    <value>Ehtiyat mAh</value>
   </data>
   <data name="mavlinkNumericUpDownlow_voltage.ToolTip" xml:space="preserve">
-    <value>Aşağı Voltaj tetikleyici</value>
+    <value>Aşağı gərginlik həddi</value>
   </data>
   <data name="lbl_gpslock.Text" xml:space="preserve">
-    <value>Kilidsiz</value>
+    <value>Mövqe təsbiti yoxdur</value>
   </data>
   <data name="mavlinkCheckBoxshort_fs.Text" xml:space="preserve">
-    <value>FailSafe qısa (1 san)</value>
+    <value>Qısa qəza mühafizəsi (1 san)</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs_action.ToolTip" xml:space="preserve">
-    <value>Arducopter Avto: deaktiv, hereketsiz, Aktiv, RTL
-Arducopter Digər: gps elaqesi varsa, RTL, Əks halda eniş</value>
+    <value>ArduCopter AUTO: sönülü - əməl yoxdur, aktiv - RTL
+ArduCopter digər rejimlər: GPS varsa RTL, əks halda eniş</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.ToolTip" xml:space="preserve">
-    <value>Alcaq pwm motor gucu uzerindeki tehlukesizliyi aktiv edin.</value>
+    <value>Aşağı qaz PWM-də qəza mühafizəsini aktiv et</value>
   </data>
   <data name="lbl_armed.Text" xml:space="preserve">
-    <value>Silahsız</value>
+    <value>Deaktivdir</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.Text" xml:space="preserve">
-    <value>GCS Təhlükəsizlik</value>
+    <value>Yerüstü stansiya qəza mühafizəsi</value>
   </data>
   <data name="mavlinkNumericUpDownthr_fs_value.ToolTip" xml:space="preserve">
-    <value>Trigger motor gucu Pwm</value>
+    <value>Qaz PWM işəsalma həddi</value>
   </data>
   <data name="mavlinkComboBox_fs_thr_enable.ToolTip" xml:space="preserve">
-    <value>Zəyif püm üzərindəki Təhlükəsizlik modu</value>
+    <value>Aşağı PWM-də qəza mühafizəsi rejimi</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>Servo/mühərrik çıxışı</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Radio girişi</value></data>
+  <data name="lbl_currentmode.Text" xml:space="preserve"><value>Əl ilə</value></data>
+  <data name="LNK_wiki.Text" xml:space="preserve"><value>Viki</value></data>
+  <data name="mavlinkCheckBoxshort_fs.ToolTip" xml:space="preserve"><value>Sönülü: əməl yoxdur; aktiv: RTL</value></data>
+  <data name="mavlinkNumericUpDownfs_thr_value.ToolTip" xml:space="preserve"><value>Qaz PWM işəsalma həddi</value></data>
+  <data name="mavlinkCheckBoxFS_GCS_ENABLE.Text" xml:space="preserve"><value>GCS qəza mühafizəsini aktiv et</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Qəza PWM-i</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Radio</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>GCS</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Aşağı səviyyə taymeri</value></data>
 </root>

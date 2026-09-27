@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>機能
+1. NMEA GPSから現在の座標を取得します。
+2. 指定した周波数でGuidedモードのウェイポイントをオートパイロットに送信します（使用するGPSの更新頻度が上限です）。
+
+使い方
+1. オートパイロットに接続します。
+2. 離陸し、Guidedモードが機能することを確認します。
+3. この画面を開き、NMEA GPSのCOMポートとボーレートを選択します。
+4. 機体が追従を開始します。
+注意：オートパイロットを手動でGuidedモードに切り替えてください。</value></data>
+</root>

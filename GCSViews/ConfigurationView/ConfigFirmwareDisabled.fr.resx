@@ -59,14 +59,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Vous ne pouvez pas charger un nouveau firmware tant que vous êtes connecté via MAVLink. 
+    <value>Vous ne pouvez pas charger un nouveau micrologiciel pendant une connexion MAVLink. 
 
-Veuillez appuyer sur le bouton Déconnecter en haut à droite pour terminer la session MAVLink en cours et activer l'écran de chargement du firmware.</value>
+Cliquez sur Déconnecter en haut à droite pour terminer la session MAVLink et activer l’écran de chargement du micrologiciel.</value>
   </data>
   <data name="but_bootloaderupdate.Text" xml:space="preserve">
-    <value>Mise à jour du bootloader</value>
+    <value>Mise à jour du chargeur de démarrage</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Mettre à jour le bootloader de votre matériel vers la dernière version disponible.</value>
+    <value>Mettre à jour le chargeur de démarrage du matériel vers la dernière version disponible.</value>
   </data>
 </root>

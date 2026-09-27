@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label33.Text" xml:space="preserve"><value>سېنزور</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>سىن فورماتى</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>HUD</value></data>
+  <data name="CHK_GDIPlus.Text" xml:space="preserve"><value>GDI+ (كونا تىپ/قاتتىق دېتال تېزلىتىشى يوق)</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>يول نۇقتىلىرى</value></data>
+  <data name="CHK_loadwponconnect.Text" xml:space="preserve"><value>ئۇلانغاندا يول نۇقتىلىرى يۈكلەنسۇنمۇ؟</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>ئىز ئۇزۇنلۇقى</value></data>
+  <data name="CHK_speechaltwarning.Text" xml:space="preserve"><value>ئېگىزلىك ئاگاھلاندۇرۇشى</value></data>
+  <data name="label108.Text" xml:space="preserve"><value>ئۇلانغاندا ئەسلىگە قايتۇرۇش</value></data>
+  <data name="CHK_resetapmonconnect.Text" xml:space="preserve"><value>USB ئۇلانغاندا ئەسلىگە قايتۇرۇش (DTR نى ئالماشتۇرۇش)</value></data>
+  <data name="CHK_mavdebug.Text" xml:space="preserve"><value>MAVLink ئۇچۇر سازلىشى</value></data>
+  <data name="label107.Text" xml:space="preserve"><value>RC</value></data>
+  <data name="label104.Text" xml:space="preserve"><value>ھالەت/ئەھۋال</value></data>
+  <data name="label103.Text" xml:space="preserve"><value>ئورۇن</value></data>
+  <data name="label102.Text" xml:space="preserve"><value>ئۇچۇش ھالىتى</value></data>
+  <data name="label101.Text" xml:space="preserve"><value>تېلېمېتىرىيە چاستوتىلىرى</value></data>
+  <data name="label99.Text" xml:space="preserve"><value>ئەسكەرتىش: سەپلىمە بەتكۈچىدە بۇ بىرلىكلەر كۆرسىتىلمەيدۇ، چۈنكى ئۇ يەردىكىلەر خام قىممەت.
+</value></data>
+  <data name="label98.Text" xml:space="preserve"><value>سۈرئەت بىرلىكى</value></data>
+  <data name="label97.Text" xml:space="preserve"><value>ئارىلىق بىرلىكى</value></data>
+  <data name="label96.Text" xml:space="preserve"><value>باشقۇرۇش تايىقى</value></data>
+  <data name="label95.Text" xml:space="preserve"><value>ئاۋازلىق ئوقۇش</value></data>
+  <data name="CHK_speechbattery.Text" xml:space="preserve"><value>باتارېيە ئاگاھلاندۇرۇشى</value></data>
+  <data name="CHK_speechcustom.Text" xml:space="preserve"><value>30 سېكۇنت ئارىلىق</value></data>
+  <data name="CHK_speechmode.Text" xml:space="preserve"><value>ھالەت </value></data>
+  <data name="CHK_speechwaypoint.Text" xml:space="preserve"><value>يول نۇقتىسى</value></data>
+  <data name="label94.Text" xml:space="preserve"><value>OSD رەڭگى</value></data>
+  <data name="label93.Text" xml:space="preserve"><value>كۆرۈنمە يۈزى تىلى</value></data>
+  <data name="CHK_enablespeech.Text" xml:space="preserve"><value>ئاۋازلىق ئوقۇشنى قوزغىتىش</value></data>
+  <data name="CHK_hudshow.Text" xml:space="preserve"><value>HUD قاپلىمىسىنى قوزغىتىش</value></data>
+  <data name="label92.Text" xml:space="preserve"><value>سىن ئۈسكۈنىسى</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>خەرىتە ئەگىشىشى</value></data>
+  <data name="CHK_maprotation.Text" xml:space="preserve"><value>خەرىتە ئايروپىلانغا ئەگىشىپ ئايلىنىدۇ</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>باشلىنىش نۇقتىسىغىچە ئارىلىق</value></data>
+  <data name="CHK_disttohomeflightdata.Text" xml:space="preserve"><value>ئۇچۇش سانلىق مەلۇماتىدا كۆرسىتىش</value></data>
+  <data name="BUT_Joystick.Text" xml:space="preserve"><value>باشقۇرۇش تايىقى تەڭشىكى</value></data>
+  <data name="BUT_videostop.Text" xml:space="preserve"><value>توختىتىش</value></data>
+  <data name="BUT_videostart.Text" xml:space="preserve"><value>باشلاش</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>خاتىرە يولى</value></data>
+  <data name="BUT_logdirbrowse.Text" xml:space="preserve"><value>كۆز يۈگۈرتۈش</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>ئۇسلۇب</value></data>
+  <data name="BUT_themecustom.Text" xml:space="preserve"><value>خاس</value></data>
+  <data name="CHK_speecharmdisarm.Text" xml:space="preserve"><value>قوزغىتىش/توختىتىش</value></data>
+  <data name="BUT_Vario.Text" xml:space="preserve"><value>ۋارىئومېتىرنى باشلاش/توختىتىش</value></data>
+  <data name="chk_analytics.Text" xml:space="preserve"><value>نامسىز ستاتىستىكىدىن چېكىنىش</value></data>
+  <data name="CHK_beta.Text" xml:space="preserve"><value>سىناق يېڭىلانمىلىرى</value></data>
+  <data name="CHK_Password.Text" xml:space="preserve"><value>سەپلىمىنى پارول بىلەن قوغداش</value></data>
+  <data name="CHK_speechlowspeed.Text" xml:space="preserve"><value>تۆۋەن سۈرئەت</value></data>
+  <data name="CHK_showairports.Text" xml:space="preserve"><value>ئايرودروملارنى كۆرسىتىش</value></data>
+  <data name="chk_ADSB.Text" xml:space="preserve"><value>ADSB</value></data>
+  <data name="chk_tfr.Text" xml:space="preserve"><value>ۋاقىتلىق ئۇچۇش چەكلىمىلىرى</value></data>
+  <data name="chk_temp.Text" xml:space="preserve"><value>سىناق ئېكرانى</value></data>
+  <data name="chk_norcreceiver.Text" xml:space="preserve"><value>RC قوبۇللىغۇچ يوق</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>ئورۇنلاشتۇرۇش</value></data>
+  <data name="CHK_AutoParamCommit.Text" xml:space="preserve"><value>پارامېتىرلارنى ئاپتوماتىك جەزملەش</value></data>
+  <data name="chk_shownofly.Text" xml:space="preserve"><value>ئۇچۇش چەكلەنگەن</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>ئېگىزلىك بىرلىكى</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>GCS كىملىكى</value></data>
+  <data name="CHK_params_bg.Text" xml:space="preserve"><value>پارامېتىرلارنى ئارقا سۇپىدا چۈشۈرۈش</value></data>
+  <data name="chk_slowMachine.Text" xml:space="preserve"><value>ئاستا كومپيۇتېردا ئىجرا قىلىنىۋاتىدۇ</value></data>
+  <data name="CHK_speechArmedOnly.Text" xml:space="preserve"><value>پەقەت قوزغىتىلغاندا</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>ئەسكەرتىش: ئاۋازلىق ئوقۇلىدىغان ئەڭ تۆۋەن ئېغىرلىق دەرىجىسىنى بەلگىلەڭ</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>ئاكتىپ ئەمەس ئۇچقۇ</value></data>
+  <data name="chk_displaycog.Text" xml:space="preserve"><value>يەرگە نىسبەتەن يۆنىلىشنى كۆرسىتىش</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>ئۇچقۇ سىنبەلگىسى</value></data>
+  <data name="chk_displayheading.Text" xml:space="preserve"><value>باش يۆنىلىشىنى كۆرسىتىش</value></data>
+  <data name="chk_displaynavbearing.Text" xml:space="preserve"><value>يول باشلاش يۆنىلىشىنى كۆرسىتىش</value></data>
+  <data name="chk_displayradius.Text" xml:space="preserve"><value>بۇرۇلۇش رادىئۇسىنى كۆرسىتىش</value></data>
+  <data name="chk_displaytarget.Text" xml:space="preserve"><value>نىشاننى كۆرسىتىش</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>سىزىق ئۇزۇنلۇقى</value></data>
+  <data name="chk_displaytooltip.Text" xml:space="preserve"><value>كۆرسەتمىنى كۆرسىتىش</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>خەرىتىگە ئېرىشىش ھالىتى</value></data>
+  <data name="BUT_mapCacheDir.Text" xml:space="preserve"><value>خەرىتە غەملەكلىرىنى ئېچىش</value></data>
+  <data name="CHK_rtsresetesp32.Text" xml:space="preserve"><value>ESP32 SerialUSB دىكى RTS ئەسلىگە قايتۇرۇشنى چەكلەش</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>ماذا يعمل هذا : 1. الحصول على الاحداثيات الحالية للموقع من بيانات nmea . 2 . تحديث موقع البداية قي الخريطة ( ملاحظه لا يحدث الموقع في اعدادات الارسال ) </value>
+    <value>وظيفة هذه الأداة:
+1. قراءة إحداثيات GPS الحالية من مستقبل GPS يدعم NMEA.
+2. تحديث موقع نقطة العودة على الخريطة. (لا يحدّث ذلك نقطة العودة في المركبة.)
+
+طريقة الاستخدام:
+1. اتصل بالطيار الآلي.
+2. افتح هذه النافذة واختر المنفذ التسلسلي ومعدل البود لمستقبل GPS الذي يدعم NMEA.
+3. يُفترض أن يبدأ تحديث نقطة العودة الآن.</value>
   </data>
 </root>

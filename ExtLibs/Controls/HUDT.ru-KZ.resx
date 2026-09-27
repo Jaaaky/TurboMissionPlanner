@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="ARMED" xml:space="preserve"><value>МОТОРЫ АКТИВНЫ</value></data>
+  <data name="AS" xml:space="preserve"><value>ВОЗД. СК. </value></data>
+  <data name="Bat" xml:space="preserve"><value>АКБ</value></data>
+  <data name="Cell" xml:space="preserve"><value>Ячейка</value></data>
+  <data name="DISARMED" xml:space="preserve"><value>МОТОРЫ ЗАБЛОКИРОВАНЫ</value></data>
+  <data name="E" xml:space="preserve"><value>В</value></data>
+  <data name="FAILSAFE" xml:space="preserve"><value>АВАРИЙНЫЙ РЕЖИМ</value></data>
+  <data name="GPS0" xml:space="preserve"><value>GPS: нет приёмника</value></data>
+  <data name="GPS1" xml:space="preserve"><value>GPS: нет решения</value></data>
+  <data name="GPS2" xml:space="preserve"><value>GPS: 2D-решение</value></data>
+  <data name="GPS3" xml:space="preserve"><value>GPS: 3D-решение</value></data>
+  <data name="GPS4" xml:space="preserve"><value>GPS: 3D DGPS</value></data>
+  <data name="GPS5" xml:space="preserve"><value>GPS: RTK Float</value></data>
+  <data name="GPS6" xml:space="preserve"><value>GPS: RTK Fixed</value></data>
+  <data name="GS" xml:space="preserve"><value>ПУТ. СК. </value></data>
+  <data name="N" xml:space="preserve"><value>С</value></data>
+  <data name="NE" xml:space="preserve"><value>СВ</value></data>
+  <data name="NotReadyToArm" xml:space="preserve"><value>Не готов к активации моторов</value></data>
+  <data name="NW" xml:space="preserve"><value>СЗ</value></data>
+  <data name="ReadyToArm" xml:space="preserve"><value>Готов к активации моторов</value></data>
+  <data name="S" xml:space="preserve"><value>Ю</value></data>
+  <data name="SAFE" xml:space="preserve"><value>БЛОКИРОВКА</value></data>
+  <data name="SE" xml:space="preserve"><value>ЮВ</value></data>
+  <data name="SW" xml:space="preserve"><value>ЮЗ</value></data>
+  <data name="W" xml:space="preserve"><value>З</value></data>
+</root>

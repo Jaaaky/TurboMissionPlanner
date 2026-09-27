@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,7 +124,7 @@
     <value>&gt;&gt;</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Acuan Gambar Geografis</value>
+    <value>Georeferensi Gambar</value>
   </data>
   <data name="txt_basealt.Text" xml:space="preserve">
     <value>0</value>
@@ -133,37 +133,37 @@
     <value>0</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>Shutter lag (ms)</value>
+    <value>Jeda Rana (ms)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Detik offset</value>
+    <value>Offset Detik</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>dasar Rel Alt</value>
+    <value>Basis Ketinggian Relatif</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Dir fov</value>
+    <value>FOV Searah</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Palang fov</value>
+    <value>FOV Melintang</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Rotasi</value>
   </data>
   <data name="chk_cammsg.Text" xml:space="preserve">
-    <value>Gunakan Pesan Kamera</value>
+    <value>Gunakan Pesan CAM</value>
   </data>
   <data name="BUT_doit.Text" xml:space="preserve">
-    <value>Pra-process</value>
+    <value>Praproses</value>
   </data>
   <data name="BUT_browsedir.Text" xml:space="preserve">
-    <value>Telusuri Gambar</value>
+    <value>Telusuri Foto</value>
   </data>
   <data name="BUT_networklinkgeoref.Text" xml:space="preserve">
-    <value>Lokasi Kml</value>
+    <value>KML Lokasi</value>
   </data>
   <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve">
-    <value>Gunakan AMSL Alt</value>
+    <value>Gunakan Ketinggian AMSL</value>
   </data>
   <data name="BUT_browselog.Text" xml:space="preserve">
     <value>Telusuri Log</value>
@@ -172,15 +172,22 @@
     <value>0</value>
   </data>
   <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve">
-    <value>Sinkronisasi Pesan GAMBAR</value>
+    <value>Pesan CAM</value>
   </data>
   <data name="RDIO_TimeOffset.Text" xml:space="preserve">
-    <value>Waktu offset</value>
+    <value>Offset Waktu</value>
   </data>
   <data name="BUT_Geotagimages.Text" xml:space="preserve">
-    <value>Gambar GeoTag</value>
+    <value>Beri Geotag pada Gambar</value>
   </data>
   <data name="BUT_estoffset.Text" xml:space="preserve">
-    <value>Estimasi Offset</value>
+    <value>Perkirakan Offset</value>
   </data>
+  <data name="label3.Text" xml:space="preserve"><value>Interval Rana Min (dtk) (CAM)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Buang Gambar di Akhir</value></data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>Buang Gambar di Awal</value></data>
+  <data name="chk_usegps2.Text" xml:space="preserve"><value>Gunakan GPS2</value></data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve"><value>Pesan Pemicu</value></data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve"><value>Gunakan Ketinggian GPS</value></data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve"><value>Gunakan Ketinggian GPS</value></data>
 </root>

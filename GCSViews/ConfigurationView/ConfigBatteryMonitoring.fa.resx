@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label47.Text" xml:space="preserve"><value>حسگر</value></data>
+  <data name="CMB_batmonsensortype.Items" xml:space="preserve"><value>0: سایر</value></data>
+  <data name="CMB_batmonsensortype.Items1" xml:space="preserve"><value>1: AttoPilot 45A</value></data>
+  <data name="CMB_batmonsensortype.Items2" xml:space="preserve"><value>2: AttoPilot 90A</value></data>
+  <data name="CMB_batmonsensortype.Items3" xml:space="preserve"><value>3: AttoPilot 180A</value></data>
+  <data name="CMB_batmonsensortype.Items4" xml:space="preserve"><value>4: ماژول تغذیهٔ 3DR</value></data>
+  <data name="CMB_batmonsensortype.Items5" xml:space="preserve"><value>5: اسپیدکنترل چهارکارهٔ 3DR</value></data>
+  <data name="CMB_batmonsensortype.Items6" xml:space="preserve"><value>6: ماژول تغذیهٔ ولتاژبالای 3DR برای APM</value></data>
+  <data name="CMB_batmonsensortype.Items7" xml:space="preserve"><value>7: ماژول تغذیهٔ ولتاژبالای Cube</value></data>
+  <data name="CMB_batmonsensortype.Items8" xml:space="preserve"><value>8: CUAV HV PM</value></data>
+  <data name="CMB_batmonsensortype.Items9" xml:space="preserve"><value>9: ماژول تغذیهٔ Holybro</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>ظرفیت باتری</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>پایشگر</value></data>
+  <data name="CMB_batmontype.Items" xml:space="preserve"><value>0: غیرفعال</value></data>
+  <data name="CMB_batmontype.Items1" xml:space="preserve"><value>3: ولتاژ باتری</value></data>
+  <data name="CMB_batmontype.Items2" xml:space="preserve"><value>4: ولتاژ و جریان</value></data>
+  <data name="CMB_HWVersion.Items" xml:space="preserve"><value>0: CUAV V5/Pixhawk4 یا APM1</value></data>
+  <data name="CMB_HWVersion.Items1" xml:space="preserve"><value>1: APM2 - 2.5 غیر 3DR</value></data>
+  <data name="CMB_HWVersion.Items2" xml:space="preserve"><value>2: APM2.5+/ZealotF427 - ماژول تغذیهٔ 3DR</value></data>
+  <data name="CMB_HWVersion.Items3" xml:space="preserve"><value>3: PX4</value></data>
+  <data name="CMB_HWVersion.Items4" xml:space="preserve"><value>4: The Cube یا Pixhawk</value></data>
+  <data name="CMB_HWVersion.Items5" xml:space="preserve"><value>5: VR Brain 4.5 - 5</value></data>
+  <data name="CMB_HWVersion.Items6" xml:space="preserve"><value>6: VR Micro Brain 5</value></data>
+  <data name="CMB_HWVersion.Items7" xml:space="preserve"><value>7: VR Brain 4</value></data>
+  <data name="CMB_HWVersion.Items8" xml:space="preserve"><value>8: Cube Orange</value></data>
+  <data name="CMB_HWVersion.Items9" xml:space="preserve"><value>9: Durandal/ZealotH743</value></data>
+  <data name="CMB_HWVersion.Items10" xml:space="preserve"><value>10: Pixhawk 6C/Pix32 v6</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>نسخهٔ سخت‌افزار</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>mAh</value></data>
+  <data name="CHK_speechbattery.Text" xml:space="preserve"><value>هشدار باتری ضعیف در MP</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>۶. آمپر بر ولت:</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>۳. ضریب تقسیم ولتاژ (محاسبه‌شده):</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>۲. ولتاژ باتری (محاسبه‌شده):</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>۱. ولتاژ اندازه‌گیری‌شدهٔ باتری:</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>۵. جریان (محاسبه‌شده)</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>۴. جریان اندازه‌گیری‌شده:</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>کالیبراسیون</value></data>
+</root>

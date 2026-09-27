@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -139,9 +139,11 @@
     <value>Niveau manuel</value>
   </data>
   <data name="BUT_zero_att.Text" xml:space="preserve">
-    <value>Réinitialiser l'attitude</value>
+    <value>Mettre l’attitude à zéro</value>
   </data>
   <data name="BUT_zero_press.Text" xml:space="preserve">
-    <value>Réinitialiser la pression</value>
+    <value>Mettre la pression à zéro</value>
   </data>
+  <data name="BUT_zero_att.ToolTip" xml:space="preserve"><value>Effectuer maintenant un étalonnage de l’accéléromètre.</value></data>
+  <data name="BUT_zero_press.ToolTip" xml:space="preserve"><value>Effectuer maintenant un étalonnage de l’accéléromètre.</value></data>
 </root>

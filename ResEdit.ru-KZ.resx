@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>Файл</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>Внутренний</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>Английский</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>Другой язык</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>Сохранить</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>Порядок использования:
+При первом запуске выберите язык внизу окна, отредактируйте перевод и нажмите «Сохранить».
+
+При последующих запусках выберите язык: существующий перевод загрузится автоматически.
+
+Чтобы продолжить частично выполненный перевод, нажмите «Загрузить перевод».
+
+ПРИМЕЧАНИЕ: автоматическая загрузка работает только после добавления перевода Майклом в Mission Planner. Иначе используйте кнопку «Загрузить перевод».
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Загрузить перевод</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>Копировать в буфер</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Редактор переводов</value></data>
+</root>

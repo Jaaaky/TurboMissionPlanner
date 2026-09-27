@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -163,6 +163,6 @@
     <value>Activer la télémétrie</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Utilisez ceci uniquement si votre OSD ne se met pas à jour</value>
+    <value>À utiliser uniquement si votre OSD ne s’actualise pas</value>
   </data>
 </root>

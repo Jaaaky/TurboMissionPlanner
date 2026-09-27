@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,163 +118,184 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CHK_maprotation.Text" xml:space="preserve">
-    <value>Map is rotated to follow the plane</value>
+    <value>Peta diputar mengikuti pesawat</value>
   </data>
   <data name="CHK_speechaltwarning.Text" xml:space="preserve">
-    <value>Alt Warning</value>
+    <value>Peringatan Ketinggian</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>HUD</value>
   </data>
   <data name="BUT_videostop.Text" xml:space="preserve">
-    <value>Stop</value>
+    <value>Hentikan</value>
   </data>
   <data name="CHK_speechbattery.Text" xml:space="preserve">
-    <value>Battery Warning</value>
+    <value>Peringatan Baterai</value>
   </data>
   <data name="CHK_enablespeech.Text" xml:space="preserve">
-    <value>Enable Speech</value>
+    <value>Aktifkan Ucapan</value>
   </data>
   <data name="CHK_advancedview.Text" xml:space="preserve">
     <value>Advanced View</value>
   </data>
   <data name="CHK_Password.Text" xml:space="preserve">
-    <value>Password Protect Config</value>
+    <value>Lindungi Konfigurasi dengan Kata Sandi</value>
   </data>
   <data name="chk_analytics.Text" xml:space="preserve">
-    <value>OptOut Anon Stats</value>
+    <value>Tolak Statistik Anonim</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Track Length</value>
+    <value>Panjang Jejak</value>
   </data>
   <data name="CHK_speecharmdisarm.Text" xml:space="preserve">
     <value>Arm/Disarm</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>Waypoints</value>
+    <value>Titik Lintasan</value>
   </data>
   <data name="CHK_speechcustom.Text" xml:space="preserve">
-    <value>30s Interval</value>
+    <value>Interval 30 dtk</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Dist to Home</value>
+    <value>Jarak ke Titik Asal</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Log Path</value>
+    <value>Lokasi Log</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>Video Format</value>
+    <value>Format Video</value>
   </data>
   <data name="label103.Text" xml:space="preserve">
-    <value>Position</value>
+    <value>Posisi</value>
   </data>
   <data name="label102.Text" xml:space="preserve">
-    <value>Attitude</value>
+    <value>Sikap</value>
   </data>
   <data name="BUT_Vario.Text" xml:space="preserve">
-    <value>Start/Stop Vario</value>
+    <value>Mulai/Hentikan Vario</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Map Follow</value>
+    <value>Peta Mengikuti</value>
   </data>
   <data name="label101.Text" xml:space="preserve">
-    <value>Telemetry Rates</value>
+    <value>Laju Telemetri</value>
   </data>
   <data name="CHK_speechlowspeed.Text" xml:space="preserve">
-    <value>Low Speed</value>
+    <value>Kecepatan Rendah</value>
   </data>
   <data name="label107.Text" xml:space="preserve">
     <value>RC</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Theme</value>
+    <value>Tema</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Layout</value>
+    <value>Tata Letak</value>
   </data>
   <data name="label104.Text" xml:space="preserve">
     <value>Mode/Status</value>
   </data>
   <data name="CHK_hudshow.Text" xml:space="preserve">
-    <value>Enable HUD Overlay</value>
+    <value>Aktifkan Lapisan HUD</value>
   </data>
   <data name="label108.Text" xml:space="preserve">
-    <value>APM Reset</value>
+    <value>Reset Saat Terhubung</value>
   </data>
   <data name="CHK_loadwponconnect.Text" xml:space="preserve">
-    <value>Load Waypoints on connect?</value>
+    <value>Muat titik lintasan saat terhubung?</value>
   </data>
   <data name="CHK_beta.Text" xml:space="preserve">
-    <value>Beta Updates</value>
+    <value>Pembaruan Beta</value>
   </data>
   <data name="chk_ADSB.Text" xml:space="preserve">
     <value>ADSB</value>
   </data>
   <data name="label98.Text" xml:space="preserve">
-    <value>Speed Units</value>
+    <value>Satuan Kecepatan</value>
   </data>
   <data name="CHK_speechwaypoint.Text" xml:space="preserve">
-    <value>Waypoint</value>
+    <value>Titik Lintasan</value>
   </data>
   <data name="label99.Text" xml:space="preserve">
-    <value>NOTE: The Configuration Tab will NOT display these units, as those are raw values.
+    <value>CATATAN: Tab Konfigurasi TIDAK menampilkan satuan ini karena nilainya mentah.
 </value>
   </data>
   <data name="label92.Text" xml:space="preserve">
-    <value>Video Device</value>
+    <value>Perangkat Video</value>
   </data>
   <data name="label93.Text" xml:space="preserve">
-    <value>UI Language</value>
+    <value>Bahasa Antarmuka</value>
   </data>
   <data name="label96.Text" xml:space="preserve">
     <value>Joystick</value>
   </data>
   <data name="CHK_GDIPlus.Text" xml:space="preserve">
-    <value>GDI+ (old type)</value>
+    <value>GDI+ (tipe lama/tanpa akselerasi perangkat keras)</value>
   </data>
   <data name="chk_tfr.Text" xml:space="preserve">
-    <value>TFR's</value>
+    <value>Pembatasan Terbang Sementara</value>
   </data>
   <data name="label94.Text" xml:space="preserve">
-    <value>OSD Color</value>
+    <value>Warna OSD</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
     <value>Sensor</value>
   </data>
   <data name="label97.Text" xml:space="preserve">
-    <value>Dist Units</value>
+    <value>Satuan Jarak</value>
   </data>
   <data name="CHK_showairports.Text" xml:space="preserve">
-    <value>Show Airports</value>
+    <value>Tampilkan Bandara</value>
   </data>
   <data name="BUT_themecustom.Text" xml:space="preserve">
-    <value>Custom</value>
+    <value>Khusus</value>
   </data>
   <data name="label95.Text" xml:space="preserve">
-    <value>Speech</value>
+    <value>Ucapan</value>
   </data>
   <data name="BUT_Joystick.Text" xml:space="preserve">
-    <value>Joystick Setup</value>
+    <value>Pengaturan Joystick</value>
   </data>
   <data name="CHK_disttohomeflightdata.Text" xml:space="preserve">
-    <value>Display in Flightdata</value>
+    <value>Tampilkan di Data Penerbangan</value>
   </data>
   <data name="CHK_mavdebug.Text" xml:space="preserve">
-    <value>Mavlink Message Debug</value>
+    <value>Debug Pesan MAVLink</value>
   </data>
   <data name="chk_temp.Text" xml:space="preserve">
-    <value>Testing Screen</value>
+    <value>Layar Pengujian</value>
   </data>
   <data name="CHK_resetapmonconnect.Text" xml:space="preserve">
-    <value>Reset APM on USB Connect</value>
+    <value>Reset Saat USB Terhubung (alihkan DTR)</value>
   </data>
   <data name="CHK_speechmode.Text" xml:space="preserve">
     <value>Mode </value>
   </data>
   <data name="BUT_logdirbrowse.Text" xml:space="preserve">
-    <value>Browse</value>
+    <value>Telusuri</value>
   </data>
   <data name="BUT_videostart.Text" xml:space="preserve">
-    <value>Start</value>
+    <value>Mulai</value>
   </data>
+  <data name="chk_norcreceiver.Text" xml:space="preserve"><value>Tidak Ada Penerima RC</value></data>
+  <data name="CHK_AutoParamCommit.Text" xml:space="preserve"><value>Terapkan Parameter Otomatis</value></data>
+  <data name="chk_shownofly.Text" xml:space="preserve"><value>Zona Larangan Terbang</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Satuan Ketinggian</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>ID GCS</value></data>
+  <data name="CHK_params_bg.Text" xml:space="preserve"><value>Unduh Parameter di Latar Belakang</value></data>
+  <data name="chk_slowMachine.Text" xml:space="preserve"><value>Berjalan di komputer lambat</value></data>
+  <data name="CHK_speechArmedOnly.Text" xml:space="preserve"><value>Hanya Saat Armed</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>CATATAN: Atur tingkat KEPARAHAN terendah yang dibacakan</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Pesawat Tidak Aktif</value></data>
+  <data name="chk_displaycog.Text" xml:space="preserve"><value>Tampilkan COG</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Ikon Pesawat</value></data>
+  <data name="chk_displayheading.Text" xml:space="preserve"><value>Tampilkan Arah Hadap</value></data>
+  <data name="chk_displaynavbearing.Text" xml:space="preserve"><value>Tampilkan Arah Navigasi</value></data>
+  <data name="chk_displayradius.Text" xml:space="preserve"><value>Tampilkan Radius Belok</value></data>
+  <data name="chk_displaytarget.Text" xml:space="preserve"><value>Tampilkan Target</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Panjang Garis</value></data>
+  <data name="chk_displaytooltip.Text" xml:space="preserve"><value>Tampilkan Petunjuk</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Mode Akses Peta</value></data>
+  <data name="BUT_mapCacheDir.Text" xml:space="preserve"><value>Buka Cache Peta</value></data>
+  <data name="CHK_rtsresetesp32.Text" xml:space="preserve"><value>Nonaktifkan reset RTS pada SerialUSB ESP32</value></data>
 </root>

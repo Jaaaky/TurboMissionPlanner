@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="help_text" xml:space="preserve"><value>{\rtf1\ansi\ansicpg1252\deff0\deflang3081\deflangfe3081{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\nowidctlpar\sa200\sl276\slmult1\f0\fs22\par
+\tab Bienvenue dans \b Mission Planner (Turbo)\b0 , la planification de missions pour les a\u233?ronefs sans pilote (\b UAV\b0 ).\par
+\pard\nowidctlpar\fi720\b Aide :\par
+Arduplane: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/plane"}}{\fldrslt{\ul\cf1 http://ardupilot.org/plane}}}\f0\fs22\par
+ArduCopter: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/copter"}}{\fldrslt{\ul\cf1 http://ardupilot.org/copter}}}\f0\fs22\par
+ArduRover: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/rover"}}{\fldrslt{\ul\cf1 http://ardupilot.org/rover}}}\f0\fs22\par
+\par
+\pard\nowidctlpar\sa200\sl276\slmult1\tab Consultez {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/planner"}}{\fldrslt{\ul\cf1 http://ardupilot.org/planner}}}\f0\fs22  pour en savoir plus.\b0\par
+\pard\nowidctlpar\b\tab D\u233?veloppeur principal :\b0  Michael Oborne\par
+\tab\b Conception :\b0  Samantha Nelson\par
+\tab\b Contributions de :\b0  Andrew Radford,  Marooned, Ryan Beall, Tom Pittenger et {\field{\*\fldinst{HYPERLINK "https://github.com/ArduPilot/MissionPlanner/graphs/contributors"}}{\fldrslt{\ul\cf1 https://github.com/ArduPilot/MissionPlanner/graphs/contributors}}}\f0\fs22\par
+\pard\nowidctlpar\fi720\b Illustrations ArduCopter :\b0  Max Levine\par
+\b Biblioth\u232?ques :\b0  Gmap.net, Sharpkml, SharpZipLib, IronPython, KMLib, OpenTK, ZedGraph, alglib, BouncyCastle, DotSpatial, LibVLC, netDXF\par
+\par
+\b Entreprises ayant contribu\u233? au d\u233?veloppement de Mission Planner : \b0 3D Robotics, Falcon Unmanned, UAV Solutions\b\par
+\par
+Raccourcis clavier\par
+\par
+\u201?cran principal\par
+F2 - Donn\u233?es de vol\par
+F3 - Planificateur de vol\par
+F4 - R\u233?glage\par
+F5 - Actualiser la liste compl\u232?te des param\u232?tres\par
+Ctrl+F - \u201?cran temporaire\par
+Ctrl+T - Connexion sans v\u233?rification\par
+\par
+Donn\u233?es de vol\par
+Ctrl+1 - Onglet 1\par
+Ctrl+2 - Onglet 2\par
+Ctrl+3 - Onglet 3\par
+Ctrl+4 - Onglet 4\par
+Ctrl+5 - Onglet 5\par
+Ctrl+6 - Onglet 6\par
+Ctrl+7 - Onglet 7\par
+Ctrl+8 - Onglet 8\par
+Ctrl+9 - Onglet 9\par
+Ctrl+0 - Onglet 10\par
+\par
+Planificateur de vol\par
+Ctrl+Z - Annuler\par
+Ctrl+O - Ouvrir un fichier de points\par
+Ctrl+S - Enregistrer le fichier de points\par
+\par
+Grille de points automatique\par
+Ctrl+O - Ouvrir un fichier de grille\par
+Ctrl+S - Enregistrer le fichier de grille\par
+\par
+}</value></data>
+</root>

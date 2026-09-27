@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
     <data name="label2.Text" xml:space="preserve">
-    <value>Not : Lütfen uçagin motorlari hazirlık kontrol edecek tutun . Sağ onden baslayarak saat yonunde dondurmek icin motoru kontrol edin</value>
+    <value>NOT: LÜTFEN İHA'NIZI SABİT TUTUN
+Bu işlem motorların çalıştığını test eder.
+Motorlar sağ önden başlayarak
+saat yönünde sırayla test edilir.</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Sure (w)</value>
+    <value>Süre (sn)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Guc %</value>
+    <value>Gaz %</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Motor numaralarini gormek icin buraya tiklayin, sayfayi asagı kaydirin</value>
+    <value>Motor numaralarınızı görmek için buraya tıklayın
+ve sayfanın en altına gidin</value>
   </data>
+  <data name="FrameType.Text" xml:space="preserve"><value>Tip: bilinmiyor</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>Sınıf: bilinmiyor</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Uçuş sırasında uygulanacak minimum çıkış yüzdesini ayarla</value></data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve"><value>Minimum motor dönüşünü ayarla</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Arm edilmiş ancak hâlâ yerdeyken uygulanacak minimum çıkış yüzdesini ayarla</value></data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve"><value>Arm durumunda motor dönüşünü ayarla</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Motor testi</value></data>
 </root>

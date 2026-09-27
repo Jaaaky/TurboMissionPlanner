@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Anda dapat menambahkan perintah MAVLink ke pilihan perintah pada tabel misi di tampilan Perencana.
+Untuk menambahkan perintah, Anda harus mengetahui ID-nya. Nama akan terisi otomatis jika
+ID sudah didefinisikan dalam pustaka MAVLink. Anda juga dapat menambahkan ID yang belum didefinisikan.
+Dalam hal ini, Anda juga harus memberikan namanya. Menambahkan perintah di sini tidak berarti
+autopilot akan menerima atau menjalankannya. Jadi, pastikan Anda memahami tindakan ini.</value></data>
+</root>

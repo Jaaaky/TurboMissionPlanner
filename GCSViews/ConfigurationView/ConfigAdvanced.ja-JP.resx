@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>以下は上級者向けの設定です。十分に注意して使用してください</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>MAVLinkインスペクター</value></data>
+  <data name="but_warningmanager.Text" xml:space="preserve"><value>警告管理</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>近接センサー</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>MAVLink署名</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>MAVLinkミラー</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>サポート担当者と接続を共有します</value></data>
+  <data name="BUT_supportproxy.Text" xml:space="preserve"><value>サポートプロキシ</value></data>
+  <data name="BUT_spect.Text" xml:space="preserve"><value>スペクトログラム</value></data>
+  <data name="but_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>機体の位置をNMEA文字列として出力します</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>監視や制御用にMAVLinkを外部へミラーリングします</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>MAVLink署名を有効にして機体との通信を保護します</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>360度LiDARのデータを表示します</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>指定条件に基づくカスタム警告を有効にします</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>送受信したMAVLinkデータをデコードして表示します</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>binまたはtlogの緯度・経度を匿名化します</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>フォローミー</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>外部NMEA GPSの位置を基に、Guidedモードのウェイポイントを機体へ送信します</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Mission Planner内で使用するパラメータ情報を再生成します</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>パラメータ情報生成</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>現在位置を示す追加アイコンを地図に表示します。</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>移動基地局</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>ログ匿名化</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>ログのFFTをグラフ表示します</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>ログのFFTをグラフ表示します</value></data>
+</root>

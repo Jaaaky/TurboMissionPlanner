@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,14 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>這是做什麼的?
-1. 從 nmea gps 取得目前 gps coords 。
-2. 更新地圖上的 home 位置(並不會更新 MAV 上的 home 位置)
+    <value>功能說明
+1. 從 NMEA GPS 取得目前的 GPS 座標。
+2. 更新地圖上的返航點。(不會更新載具上的返航點)
 
-該如何設定呢?
-1.連接至 APM。
-2. 開啟程式選擇通訊埠及 nmea gps 的鮑率。
-3. 現在應該就會更新 home 位置。</value>
+使用方式
+1. 連線至飛控。
+2. 開啟此功能，選擇 NMEA GPS 的序列埠及鮑率。
+3. 現在應會持續更新返航點。</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

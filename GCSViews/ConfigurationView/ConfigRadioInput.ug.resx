@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CHK_mixmode.Text" xml:space="preserve"><value>ئېلېۋونلار</value></data>
+  <data name="CHK_elevonch2rev.Text" xml:space="preserve"><value>ئېلېۋون CH2 تەتۈر</value></data>
+  <data name="CHK_elevonrev.Text" xml:space="preserve"><value>ئېلېۋونلار تەتۈر</value></data>
+  <data name="CHK_elevonch1rev.Text" xml:space="preserve"><value>ئېلېۋون CH1 تەتۈر</value></data>
+  <data name="groupBoxElevons.Text" xml:space="preserve"><value>ئېلېۋون سەپلىمىسى</value></data>
+  <data name="BUT_BindDSM8.Text" xml:space="preserve"><value>DSM8 جۈپلەش</value></data>
+  <data name="BUT_BindDSMX.Text" xml:space="preserve"><value>DSMX جۈپلەش</value></data>
+  <data name="BUT_BindDSM2.Text" xml:space="preserve"><value>DSM2 جۈپلەش</value></data>
+  <data name="BUT_Calibrateradio.Text" xml:space="preserve"><value>رادىيونى كالىبرلاش</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Spektrum جۈپلەش</value></data>
+  <data name="CHK_revch3.Text" xml:space="preserve"><value>تەتۈر يۆنىلىش</value></data>
+  <data name="CHK_revch4.Text" xml:space="preserve"><value>تەتۈر يۆنىلىش</value></data>
+  <data name="CHK_revch2.Text" xml:space="preserve"><value>تەتۈر يۆنىلىش</value></data>
+  <data name="CHK_revch1.Text" xml:space="preserve"><value>تەتۈر يۆنىلىش</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,18 +121,29 @@
     <value>RC TIDAK DIKALIBRASI</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Instruksi:
-1. Lengkapi Radio Kalibrasi 
-2. Lepaskan baling-baling dari kendaraan, cabut baterai 
-3. Tekan tombol ini untuk mengaktifkan ESC Kalibrasi dan restart papan. 4. Pasang Baterai 
-5. Tekan switch pengaman (jika ada) dan menunggu nada ESC 
-6.Cabut dan pasang kembali baterai 7. Uji putaran motor dan lengan 
-8. Cabut baterai, pasang kembali baling-baling</value>
+    <value>Lepas Baling-baling!
+Setelah menekan tombol ini:
+-Cabut USB dan baterai
+-Sambungkan baterai
+-Saat LED berkedip, tekan sakelar keselamatan (jika ada)
+-ESC akan berbunyi saat dikalibrasi
+-Mulai ulang pengendali penerbangan secara normal</value>
   </data>
   <data name="buttonStart.Text" xml:space="preserve">
-    <value>Mulai</value>
+    <value>Kalibrasi ESC</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Kalibrasi ESC (AC3.3+)</value>
   </data>
+  <data name="label3.Text" xml:space="preserve"><value>Jenis ESC:</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>PWM Keluaran Min</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>PWM Keluaran Maks</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Putaran Saat Armed</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Putaran Minimum</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Putaran Maksimum</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Biarkan 0 untuk menggunakan rentang masukan RX</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Biarkan 0 untuk menggunakan rentang masukan RX</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Kecepatan saat motor armed tetapi throttle nol (idle)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Kecepatan minimum motor saat terbang (sedikit lebih tinggi dari "Putaran Saat Armed")</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Kecepatan maksimum motor saat terbang (hampir semua ESC memiliki zona mati di batas atas)</value></data>
 </root>

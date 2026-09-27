@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -134,6 +134,7 @@
     <value>波特率</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>PIN</value>
+    <value>引脚</value>
   </data>
+  <data name="txt_name.Text" xml:space="preserve"><value>ArduPilot</value></data>
 </root>

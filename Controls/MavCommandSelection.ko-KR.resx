@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>계획 화면의 임무 목록에서 선택할 MAVLink 명령을 추가할 수 있습니다.
+명령을 추가하려면 ID를 알아야 합니다. 해당 ID가 MAVLink 라이브러리에 정의되어 있으면
+이름이 자동으로 입력됩니다. 아직 정의되지 않은 ID도 추가할 수 있습니다.
+이 경우 이름도 입력해야 합니다. 여기에 명령을 추가해도 오토파일럿이 이를
+수락하거나 실행한다는 보장은 없습니다. 명령의 동작을 충분히 이해한 후 사용하십시오.</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Você não pode carregar um nove firmware conectado via o MAVLink.</value>
+    <value>Não é possível carregar novo firmware enquanto estiver conectado via MAVLink.
+
+Prima o botão Desconectar no canto superior direito para terminar a sessão MAVLink atual e ativar o ecrã de carregamento do firmware.</value>
   </data>
+  <data name="but_bootloaderupdate.Text" xml:space="preserve"><value>Atualização do bootloader</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Atualizar o bootloader do hardware para a versão mais recente disponível.</value></data>
 </root>

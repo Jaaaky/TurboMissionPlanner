@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="lbl_status1.Text" xml:space="preserve"><value>9999 bps</value></data>
+  <data name="chk_rtcmmsg.Text" xml:space="preserve"><value>نوع پیام تزریقی</value></data>
+  <data name="chk_rtcmmsg.ToolTip" xml:space="preserve"><value>این گزینه به نسخهٔ میان‌افزار خلبان خودکار بستگی دارد. در صورت امکان آن را فعال نگه دارید، زیرا پیام جدید در برابر خرابی داده بسیار مقاوم‌تر است</value></data>
+  <data name="lbl_svin.Text" xml:space="preserve"><value>تعیین موقعیت پایه</value></data>
+  <data name="lbl_svin.ToolTip" xml:space="preserve"><value>اطلاعات تعیین موقعیت پایه
+Valid: آیا تعیین موقعیت معتبر است
+InProgress: آیا تعیین موقعیت فعلی در حال انجام است
+Duration: مدت تعیین موقعیت به ثانیه
+Obs: تعداد مشاهدات استفاده‌شده در تعیین موقعیت
+Acc: دقت فعلی نقطهٔ تعیین‌شده
+</value></data>
+  <data name="chk_autoconfig.Text" xml:space="preserve"><value>پیکربندی خودکار گیرنده</value></data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve"><value>گیرندهٔ متصل به درگاه انتخاب‌شده را برای خروجی پیام‌های تصحیح به‌طور خودکار پیکربندی می‌کند.</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>هنگام اتصال، گیرنده برای تعیین موقعیت دقیق GPS، فرایند «تعیین موقعیت پایه» را آغاز می‌کند.
+این فرایند هنگامی تمام می‌شود که موقعیت پایهٔ RTCM دیگر تغییر نکند.
+بسته به موقعیت و سیگنال، ممکن است چند دقیقه طول بکشد
+
+پس از اتمام، آمادهٔ استفاده هستید.
+</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>منظومه‌های مورد استفادهٔ RTCM</value></data>
+  <data name="label21.ToolTip" xml:space="preserve"><value>انتخاب کنید گیرنده برای کدام منظومه‌ها تصحیحات ارسال کند. منظومه‌های بیشتر، نرخ داده را افزایش می‌دهند.</value></data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve"><value>تغییر وضعیت خروجی پیام‌های RTCM مربوط به Galileo.</value></data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve"><value>تغییر وضعیت خروجی پیام‌های RTCM مربوط به BeiDou.</value></data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve"><value>تغییر وضعیت خروجی پیام‌های RTCM مربوط به GLONASS.</value></data>
+  <data name="chk_septentriogps.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve"><value>تغییر وضعیت خروجی پیام‌های RTCM مربوط به GPS.</value></data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve"><value>تنظیم فاصلهٔ زمانی</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>فاصلهٔ زمانی پیام‌های RTCM (s)</value></data>
+  <data name="label20.ToolTip" xml:space="preserve"><value>فاصلهٔ زمانی خروجی پیام‌های RTCM گیرنده را انتخاب کنید. مقادیر کمتر، نرخ داده را افزایش می‌دهند.</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>میزان اطلاعات پیام RTCM</value></data>
+  <data name="label19.ToolTip" xml:space="preserve"><value>میزان جزئیات پیام‌های RTCM را انتخاب کنید. مقادیر بیشتر، نرخ داده را افزایش می‌دهند.</value></data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve"><value>سبک</value></data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve"><value>پایه</value></data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve"><value>کامل</value></data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve"><value>موقعیت ثابت</value></data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve"><value>به‌جای تعیین خودکار موقعیت توسط گیرنده، موقعیت ثابتی برای آنتن ایستگاه پایه وارد کنید. این کار می‌تواند دقت تصحیحات را بهبود دهد.
+</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>عرض جغرافیایی (WGS84)</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>طول جغرافیایی (WGS84)</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>ارتفاع (m)</value></data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve"><value>تنظیم موقعیت</value></data>
+  <data name="but_restartsvin.Text" xml:space="preserve"><value>راه‌اندازی مجدد</value></data>
+  <data name="but_restartsvin.ToolTip" xml:space="preserve"><value>برای ذخیرهٔ موقعیت فعلی ایستگاه پایه پس از تعیین موقعیت استفاده می‌شود</value></data>
+  <data name="chk_m8p_130p.Text" xml:space="preserve"><value>M8P fw 130+/F9P</value></data>
+  <data name="chk_m8p_130p.ToolTip" xml:space="preserve"><value>اگر هر دو گیرندهٔ پایه و متحرک میان‌افزار u-blox نسخهٔ 1.30 یا بالاتر دارند، این گزینه را علامت بزنید</value></data>
+  <data name="but_save_basepos.Text" xml:space="preserve"><value>ذخیرهٔ موقعیت فعلی</value></data>
+  <data name="but_save_basepos.ToolTip" xml:space="preserve"><value>برای ذخیرهٔ موقعیت فعلی ایستگاه پایه پس از تعیین موقعیت استفاده می‌شود</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>عرض جغرافیایی/ECEFX</value></data>
+  <data name="Long.HeaderText" xml:space="preserve"><value>طول جغرافیایی/ECEFY</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>ارتفاع/ECEFZ</value></data>
+  <data name="BaseName1.HeaderText" xml:space="preserve"><value>نام</value></data>
+  <data name="Use.HeaderText" xml:space="preserve"><value>استفاده</value></data>
+  <data name="Delete.HeaderText" xml:space="preserve"><value>حذف</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>زمان (s)</value></data>
+  <data name="txt_surveyinAcc.ToolTip" xml:space="preserve"><value>آستانهٔ دقت تعیین موقعیت پایه؛ خطا باید کمتر از این مقدار شود</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>دقت تعیین موقعیت پایه (m)</value></data>
+  <data name="label1.ToolTip" xml:space="preserve"><value>برای تکمیل تعیین موقعیت پایه، هر دو شرط دقت و مدت باید برقرار باشند
+مثلاً خطای کمتر از ۲ متر و مشاهدات بیش از ۶۰ ثانیه</value></data>
+  <data name="txt_surveyinDur.ToolTip" xml:space="preserve"><value>حداقل زمان تعیین موقعیت پایه؛ مدت باید بیشتر از این مقدار باشد</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>تعیین موقعیت پایه</value></data>
+  <data name="label10.ToolTip" xml:space="preserve"><value>اطلاعات تعیین موقعیت پایه
+Valid: آیا تعیین موقعیت معتبر است
+InProgress: آیا تعیین موقعیت فعلی در حال انجام است
+Duration: مدت تعیین موقعیت به ثانیه
+Obs: تعداد مشاهدات استفاده‌شده در تعیین موقعیت
+Acc: دقت فعلی نقطهٔ تعیین‌شده
+</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>تعیین موقعیت پایه</value></data>
+  <data name="label7.ToolTip" xml:space="preserve"><value>اطلاعات تعیین موقعیت پایه
+Valid: آیا تعیین موقعیت معتبر است
+InProgress: آیا تعیین موقعیت فعلی در حال انجام است
+Duration: مدت تعیین موقعیت به ثانیه
+Obs: تعداد مشاهدات استفاده‌شده در تعیین موقعیت
+Acc: دقت فعلی نقطهٔ تعیین‌شده
+</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>تعیین موقعیت پایه</value></data>
+  <data name="label9.ToolTip" xml:space="preserve"><value>اطلاعات تعیین موقعیت پایه
+Valid: آیا تعیین موقعیت معتبر است
+InProgress: آیا تعیین موقعیت فعلی در حال انجام است
+Duration: مدت تعیین موقعیت به ثانیه
+Obs: تعداد مشاهدات استفاده‌شده در تعیین موقعیت
+Acc: دقت فعلی نقطهٔ تعیین‌شده
+</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>تعیین موقعیت پایه</value></data>
+  <data name="label8.ToolTip" xml:space="preserve"><value>اطلاعات تعیین موقعیت پایه
+Valid: آیا تعیین موقعیت معتبر است
+InProgress: آیا تعیین موقعیت فعلی در حال انجام است
+Duration: مدت تعیین موقعیت به ثانیه
+Obs: تعداد مشاهدات استفاده‌شده در تعیین موقعیت
+Acc: دقت فعلی نقطهٔ تعیین‌شده
+</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>تعیین موقعیت پایه</value></data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve"><value>گزینه‌های پیکربندی خودکار</value></data>
+  <data name="chk_sendgga.Text" xml:space="preserve"><value>ارسال GGA در NTRIP؟ (VRS/Smart)</value></data>
+  <data name="chk_sendgga.ToolTip" xml:space="preserve"><value>این گزینه به نسخهٔ میان‌افزار خلبان خودکار بستگی دارد. در صورت امکان آن را فعال نگه دارید، زیرا پیام جدید در برابر خرابی داده بسیار مقاوم‌تر است</value></data>
+  <data name="check_sendntripv1.Text" xml:space="preserve"><value>ارسال با پروتکل NTRIP نسخهٔ 1.0؟</value></data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve"><value>برخی توزیع‌کننده‌های قدیمی NTRIP مانند RTKLIB از پروتکل NTRIP نسخهٔ 2.0 پشتیبانی نمی‌کنند. برای بازگشت به نسخهٔ 1.0 این گزینه را علامت بزنید</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>نرخ دادهٔ ورودی</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>نرخ دادهٔ خروجی</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>پایهٔ RTCM </value></data>
+  <data name="label6.Text" xml:space="preserve"><value>پیام‌های مشاهده‌شده</value></data>
+  <data name="labelmsgseen.Text" xml:space="preserve"><value>rtcm0000
+rtcm0000</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>پایه</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>RTCM</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>وضعیت پیوند</value></data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve"><value>UBlox M8P/F9P</value></data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve"><value>Septentrio</value></data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve"><value>Unicore UM982</value></data>
+  <data name="BUT_connect.Text" xml:space="preserve"><value>اتصال</value></data>
+</root>

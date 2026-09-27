@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="groupBox3.Text" xml:space="preserve"><value>油門 0–100%</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>失效保護值</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>最大值</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>最小值</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>巡航</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>橫滾伺服機 PID</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>積分限制</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>控制輸出限制</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>俯仰伺服機 PID</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>積分限制</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>控制輸出限制</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>能量高度</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>能量高度範圍</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>積分限制</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>控制輸出限制</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>航向轉橫滾</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>積分限制</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>控制輸出限制</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>空速轉俯仰</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>積分限制</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>控制輸出限制</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>偏航伺服機 PID</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>偏航角速度限制</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>航跡與繞行</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>預設半徑</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>繞行增益</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>進入角度</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>航跡增益</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>導航角度</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>最小俯仰角</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>最大俯仰角</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>最小傾斜角</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>最大傾斜角</value></data>
+  <data name="groupBox10.Text" xml:space="preserve"><value>高度計設定</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>in Hg</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>場地海拔</value></data>
+  <data name="groupBox11.Text" xml:space="preserve"><value>起飛/降落</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>進場速度</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>最小起飛俯仰角</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>空速 m/s</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>最大空速</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>最小空速</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>巡航</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>橫滾轉升降舵</value></data>
+  <data name="BUT_read_flash.Text" xml:space="preserve"><value>讀取快閃記憶體</value></data>
+  <data name="BUT_write_flash.Text" xml:space="preserve"><value>寫入快閃記憶體</value></data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>重新讀取參數</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>寫入參數</value></data>
+</root>

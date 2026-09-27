@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>Dosya</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>Dahili</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>İngilizce</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>Diğer dil</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>Kaydet</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>Kullanımı:
+İlk yüklemeyse alttan dilinizi seçin ve düzenleyin. Kaydet'e tıklayın.
+
+Sonraki kullanımlarda dilinizi seçtiğinizde o dildeki mevcut çeviriler otomatik yüklenir.
+
+Yarıda kaldıysanız Çeviri Yükle düğmesine tıklayın.
+
+NOT: Otomatik yükleme yalnızca Michael çeviriyi planlayıcıya ekledikten sonra çalışır. Aksi halde Çeviri Yükle'yi kullanmanız gerekir.
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Çeviri yükle</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>Panoya kopyala</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Dil düzenleyici</value></data>
+</root>

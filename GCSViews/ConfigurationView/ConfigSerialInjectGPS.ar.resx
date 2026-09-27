@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,122 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_connect.Text" xml:space="preserve">
-    <value>اتصل</value>
+    <value>اتصال</value>
   </data>
+  <data name="lbl_status1.Text" xml:space="preserve"><value>9999 bps</value></data>
+  <data name="chk_rtcmmsg.Text" xml:space="preserve"><value>نوع الرسالة المحقونة</value></data>
+  <data name="chk_rtcmmsg.ToolTip" xml:space="preserve"><value>يعتمد هذا على إصدار البرنامج الثابت في الطيار الآلي. اتركه مفعّلًا إن أمكن، لأن الرسالة الأحدث تعالج تلف البيانات بكفاءة أعلى بكثير</value></data>
+  <data name="lbl_svin.Text" xml:space="preserve"><value>مسح تثبيت الموقع</value></data>
+  <data name="lbl_svin.ToolTip" xml:space="preserve"><value>معلومات مسح تثبيت الموقع
+Valid: هل نتيجة المسح صالحة
+InProgress: هل يجري مسح موقعنا حاليًا
+Duration: عدد ثواني المسح المنقضية
+Obs: عدد الرصدات المستخدمة في المسح
+Acc: الدقة الحالية لنقطة المسح
+</value></data>
+  <data name="chk_autoconfig.Text" xml:space="preserve"><value>إعداد المستقبل تلقائيًا</value></data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve"><value>إعداد المستقبل المتصل بالمنفذ المحدد تلقائيًا لإخراج رسائل التصحيح.</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>عند الاتصال، يبدأ المستقبل «مسح تثبيت الموقع» لتحديد موقع GPS الدقيق.
+ينتهي المسح عندما يستقر موقع قاعدة RTCM.
+قد يستغرق ذلك بضع دقائق بحسب الموقع والإشارة
+
+بمجرد اكتمال المسح، تصبح جاهزًا للبدء.
+</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>مجموعات الأقمار المستخدمة في RTCM</value></data>
+  <data name="label21.ToolTip" xml:space="preserve"><value>اختر مجموعات الأقمار التي يُخرج المستقبل تصحيحاتها. تؤدي زيادة المجموعات إلى زيادة معدل البيانات.</value></data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve"><value>تبديل إخراج رسائل RTCM الخاصة بـ Galileo.</value></data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve"><value>تبديل إخراج رسائل RTCM الخاصة بـ BeiDou.</value></data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve"><value>تبديل إخراج رسائل RTCM الخاصة بـ GLONASS.</value></data>
+  <data name="chk_septentriogps.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve"><value>تبديل إخراج رسائل RTCM الخاصة بـ GPS.</value></data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve"><value>تعيين الفاصل</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>الفاصل بين رسائل RTCM ‏(s)</value></data>
+  <data name="label20.ToolTip" xml:space="preserve"><value>اختر وتيرة إخراج المستقبل لرسائل RTCM. تؤدي القيم الأقل إلى زيادة معدل البيانات.</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>مستوى تفاصيل رسائل RTCM</value></data>
+  <data name="label19.ToolTip" xml:space="preserve"><value>اختر مستوى التفاصيل في رسائل RTCM. تؤدي القيم الأعلى إلى زيادة معدل البيانات.</value></data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve"><value>مخفف</value></data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve"><value>أساسي</value></data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve"><value>كامل</value></data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve"><value>موضع ثابت</value></data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve"><value>أدخل موضعًا ثابتًا لهوائي المحطة القاعدية بدلًا من ترك المستقبل يحدده تلقائيًا. قد يحسّن ذلك دقة التصحيحات.
+</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>خط العرض (WGS84)</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>خط الطول (WGS84)</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>الارتفاع (m)</value></data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve"><value>تعيين الموضع</value></data>
+  <data name="but_restartsvin.Text" xml:space="preserve"><value>إعادة التشغيل</value></data>
+  <data name="but_restartsvin.ToolTip" xml:space="preserve"><value>يُستخدم لحفظ موضع المحطة القاعدية الحالي كما حدّده المسح</value></data>
+  <data name="chk_m8p_130p.Text" xml:space="preserve"><value>M8P fw 130+/F9P</value></data>
+  <data name="chk_m8p_130p.ToolTip" xml:space="preserve"><value>حدّد هذا المربع إذا كانت القاعدة والوحدة المتنقلة تستخدمان برنامج u-blox الثابت بالإصدار 1.30 أو أحدث</value></data>
+  <data name="but_save_basepos.Text" xml:space="preserve"><value>حفظ الموضع الحالي</value></data>
+  <data name="but_save_basepos.ToolTip" xml:space="preserve"><value>يُستخدم لحفظ موضع المحطة القاعدية الحالي كما حدّده المسح</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>خط العرض/ECEFX</value></data>
+  <data name="Long.HeaderText" xml:space="preserve"><value>خط الطول/ECEFY</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>الارتفاع/ECEFZ</value></data>
+  <data name="BaseName1.HeaderText" xml:space="preserve"><value>الاسم</value></data>
+  <data name="Use.HeaderText" xml:space="preserve"><value>استخدام</value></data>
+  <data name="Delete.HeaderText" xml:space="preserve"><value>حذف</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>الزمن (s)</value></data>
+  <data name="txt_surveyinAcc.ToolTip" xml:space="preserve"><value>عتبة دقة مسح تثبيت الموقع. يجب أن تنخفض القيمة دونها</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>دقة المسح (m)</value></data>
+  <data name="label1.ToolTip" xml:space="preserve"><value>يجب استيفاء شرطي الدقة والمدة لاكتمال مسح تثبيت الموقع
+أي خطأ دقة أقل من 2 m ومدة رصد تزيد على 60 ثانية</value></data>
+  <data name="txt_surveyinDur.ToolTip" xml:space="preserve"><value>الحد الأدنى لمدة المسح. يجب تجاوز هذه القيمة</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>مسح تثبيت الموقع</value></data>
+  <data name="label10.ToolTip" xml:space="preserve"><value>معلومات مسح تثبيت الموقع
+Valid: هل نتيجة المسح صالحة
+InProgress: هل يجري مسح موقعنا حاليًا
+Duration: عدد ثواني المسح المنقضية
+Obs: عدد الرصدات المستخدمة في المسح
+Acc: الدقة الحالية لنقطة المسح
+</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>مسح تثبيت الموقع</value></data>
+  <data name="label7.ToolTip" xml:space="preserve"><value>معلومات مسح تثبيت الموقع
+Valid: هل نتيجة المسح صالحة
+InProgress: هل يجري مسح موقعنا حاليًا
+Duration: عدد ثواني المسح المنقضية
+Obs: عدد الرصدات المستخدمة في المسح
+Acc: الدقة الحالية لنقطة المسح
+</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>مسح تثبيت الموقع</value></data>
+  <data name="label9.ToolTip" xml:space="preserve"><value>معلومات مسح تثبيت الموقع
+Valid: هل نتيجة المسح صالحة
+InProgress: هل يجري مسح موقعنا حاليًا
+Duration: عدد ثواني المسح المنقضية
+Obs: عدد الرصدات المستخدمة في المسح
+Acc: الدقة الحالية لنقطة المسح
+</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>مسح تثبيت الموقع</value></data>
+  <data name="label8.ToolTip" xml:space="preserve"><value>معلومات مسح تثبيت الموقع
+Valid: هل نتيجة المسح صالحة
+InProgress: هل يجري مسح موقعنا حاليًا
+Duration: عدد ثواني المسح المنقضية
+Obs: عدد الرصدات المستخدمة في المسح
+Acc: الدقة الحالية لنقطة المسح
+</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>مسح تثبيت الموقع</value></data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve"><value>خيارات الإعداد التلقائي</value></data>
+  <data name="chk_sendgga.Text" xml:space="preserve"><value>إرسال GGA عبر NTRIP؟ (VRS/Smart)</value></data>
+  <data name="chk_sendgga.ToolTip" xml:space="preserve"><value>يعتمد هذا على إصدار البرنامج الثابت في الطيار الآلي. اتركه مفعّلًا إن أمكن، لأن الرسالة الأحدث تعالج تلف البيانات بكفاءة أعلى بكثير</value></data>
+  <data name="check_sendntripv1.Text" xml:space="preserve"><value>استخدام بروتوكول NTRIP بالإصدار 1.0؟</value></data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve"><value>بعض خوادم توزيع NTRIP القديمة، مثل RTKLIB، لا تدعم بروتوكول NTRIP بالإصدار 2.0. حدّد المربع للعودة إلى الإصدار 1.0</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>معدل البيانات الواردة</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>معدل البيانات الصادرة</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>قاعدة RTCM </value></data>
+  <data name="label6.Text" xml:space="preserve"><value>الرسائل المرصودة</value></data>
+  <data name="labelmsgseen.Text" xml:space="preserve"><value>rtcm0000
+rtcm0000</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>القاعدة</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Gps</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Glonass</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Beidou</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>RTCM</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>حالة الوصلة</value></data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve"><value>UBlox M8P/F9P</value></data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve"><value>Septentrio</value></data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve"><value>Unicore UM982</value></data>
 </root>

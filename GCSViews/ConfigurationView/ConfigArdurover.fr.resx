@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -118,58 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Auto WP Rad</value>
+    <value>Vitesse de croisière</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Closed Loop Nav</value>
+    <value>Accél. en virage max (G)</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Sonar Trigger Dist</value>
+    <value>Amort. de la régulation d’accél. lat.</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Booster</value>
+    <value>Rayon de virage</value>
   </data>
   <data name="label80.Text" xml:space="preserve">
     <value>Gain (cm)</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>FBW max</value>
+    <value>Angle de virage</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>FBW min</value>
+    <value>Distance de déclenchement (cm)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Ratio</value>
+    <value>Durée du virage</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Gaz max (%)</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Min</value>
+    <value>Gaz min (%)</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Rover</value>
+    <value>Navigation</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Cruise</value>
+    <value>Filtrage antirebond du sonar</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>FS Value</value>
+    <value>Vitesse aux points</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Navigation Angles</value>
+    <value>Mode de direction</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Throttle 0-100%</value>
+    <value>Gaz et moteurs</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Cruise</value>
+    <value>Gaz de croisière</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>speed m/s</value>
+    <value>Évitement</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Turn Gain</value>
+    <value>Rayon des points</value>
   </data>
   <data name="label64.Text" xml:space="preserve">
     <value>P</value>
@@ -184,7 +184,7 @@
     <value>I</value>
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
-    <value>Energy/Alt Pid</value>
+    <value>Vitesse/gaz</value>
   </data>
   <data name="groupBox15.Text" xml:space="preserve">
     <value>Xtrack Pids</value>
@@ -211,7 +211,7 @@
     <value>I</value>
   </data>
   <data name="label73.Text" xml:space="preserve">
-    <value>INT_MAX</value>
+    <value>IMAX</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
     <value>Écrire les paramètres</value>
@@ -229,13 +229,13 @@
     <value>Frein</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
-    <value>Accél Max (m/s/s)</value>
+    <value>Accél. max (m/s/s)</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>Période contrôle acc. lat.</value>
+    <value>Période de régulation d’accél. lat.</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
-    <value>Dépassement WP</value>
+    <value>Dépassement du point</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
     <value>FF</value>
@@ -253,10 +253,10 @@
     <value>P</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Taux de direction</value>
+    <value>Vitesse de braquage</value>
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
-    <value>Actualiser l'écran</value>
+    <value>Actualiser l’écran</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
     <value>Option RC7</value>

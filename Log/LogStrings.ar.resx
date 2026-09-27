@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>يجري تنزيل ملف سجل. هل تريد الإلغاء؟</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>هل أنت متأكد؟</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>جارٍ إنشاء KML لـ {0}</value></data>
+  <data name="Done" xml:space="preserve"><value>تم</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>جارٍ تنزيل ملفات السجل إلى: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>انتظر 30 إلى 90 ثانية لإتمام المسح!</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>خطأ في معالجة الملف. تأكّد من أنه ليس قيد الاستخدام</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>جارٍ جلب ملف السجل {0} ...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>جارٍ جلب قائمة ملفات السجل...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>تعذّر إنشاء مجلد ملفات السجل: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>لا توجد سجلات لتنزيلها</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>يُرجى توصيل الطائرة المسيّرة</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>يُرجى اختيار بعض السجلات بتحديد مربعات الاختيار في القائمة</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>جارٍ معالجة {0}</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>عُثر على {0} ملف سجل. ملاحظة: أحجام العناصر تقديرية فقط.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>خطأ:</value></data>
+</root>

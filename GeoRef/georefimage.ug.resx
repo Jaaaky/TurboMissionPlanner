@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>سېكۇنت سىلجىشى</value></data>
+  <data name="BUT_Geotagimages.Text" xml:space="preserve"><value>رەسىملەرگە جۇغراپىيەلىك بەلگە قوشۇش</value></data>
+  <data name="BUT_estoffset.Text" xml:space="preserve"><value>سىلجىشنى مۆلچەرلەش</value></data>
+  <data name="BUT_doit.Text" xml:space="preserve"><value>ئالدىن بىر تەرەپ قىلىش</value></data>
+  <data name="BUT_browsedir.Text" xml:space="preserve"><value>رەسىم تاللاش</value></data>
+  <data name="BUT_browselog.Text" xml:space="preserve"><value>خاتىرە تاللاش</value></data>
+  <data name="BUT_networklinkgeoref.Text" xml:space="preserve"><value>ئورۇن KML</value></data>
+  <data name="RDIO_TimeOffset.Text" xml:space="preserve"><value>ۋاقىت سىلجىشى</value></data>
+  <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve"><value>CAM ئۇچۇرى</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>ئايلىنىش</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>كۆندەلەڭ كۆرۈش بۇلۇڭى</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>ئۇچۇش يۆنىلىشىدىكى كۆرۈش بۇلۇڭى</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>ئەڭ قىسقا ياپقۇچ ۋاقتى (s) (CAM)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>ئاخىرىدىكى رەسىمنى تاشلاش</value></data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>بېشىدىكى رەسىمنى تاشلاش</value></data>
+  <data name="chk_usegps2.Text" xml:space="preserve"><value>GPS2 نى ئىشلىتىش</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>نىسپىي ئېگىزلىك ئاساسى</value></data>
+  <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve"><value>دېڭىز يۈزىدىن ئېگىزلىكنى ئىشلىتىش</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>ياپقۇچ كېچىكىشى (ms)</value></data>
+  <data name="chk_cammsg.Text" xml:space="preserve"><value>CAM ئۇچۇرلىرىنى ئىشلىتىش</value></data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve"><value>قوزغىتىش ئۇچۇرى</value></data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve"><value>GPS ئېگىزلىكىنى ئىشلىتىش</value></data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve"><value>GPS ئېگىزلىكىنى ئىشلىتىش</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>رەسىملەرگە جۇغراپىيەلىك ئۇچۇر باغلاش</value></data>
+</root>

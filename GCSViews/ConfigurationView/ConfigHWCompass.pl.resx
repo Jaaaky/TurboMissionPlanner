@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -127,7 +127,7 @@
     <value>PWM 0 - 1230</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>PWM 1621 - 1749</value>
+    <value>Dopasowanie</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>Aktualny tryb:</value>
@@ -226,13 +226,13 @@
     <value>Max</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Tryb lotu 2</value>
+    <value>Stopnie</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>Max przechylenie</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Tryb lotu 3</value>
+    <value>Minuty</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
     <value>Max pochylenie</value>
@@ -241,13 +241,13 @@
     <value>w stopniech np. 2° 3' W to -2.3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Tryb lotu 1</value>
+    <value>Wybierz urządzenie do szybkiej konfiguracji parametrów:</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Wypoziomuj quada żeby stawić domyśle offsety przysp.</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Tryb lotu 6</value>
+    <value>Złagodź kryterium dopasowania po nieudanej kalibracji</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
     <value>Pojemność</value>
@@ -259,7 +259,7 @@
     <value>Włącz sonar</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>PWM 1231 - 1360</value>
+    <value>Magnetometr 1</value>
   </data>
   <data name="tabRadioIn.Text" xml:space="preserve">
     <value>Wejścia radia</value>
@@ -271,25 +271,25 @@
     <value>1500</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Tryb lotu 4</value>
+    <value>LUB</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Tryb lotu 5</value>
+    <value>Kompas</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Żyro</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>PWM 1361 - 1490</value>
+    <value>Magnetometr 2</value>
   </data>
   <data name="tabHardware.Text" xml:space="preserve">
     <value>Hardware</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>PWM 1491 - 1620</value>
+    <value>Magnetometr 3</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
-    <value>Strona www deklinacji</value>
+    <value>Strona deklinacji magnetycznej</value>
   </data>
   <data name="HS4_MAX.Text" xml:space="preserve">
     <value>1500</value>
@@ -315,4 +315,34 @@
   <data name="label30.Text" xml:space="preserve">
     <value>Monitor</value>
   </data>
+  <data name="CHK_autodec.Text" xml:space="preserve"><value>Ustalaj deklinację automatycznie</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>Przykład na YouTube</value></data>
+  <data name="BUT_OBmagcalaccept.Text" xml:space="preserve"><value>Akceptuj</value></data>
+  <data name="BUT_OBmagcalcancel.Text" xml:space="preserve"><value>Anuluj</value></data>
+  <data name="BUT_OBmagcalstart.Text" xml:space="preserve"><value>Uruchom</value></data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve"><value>Pokładowa kalibracja magnetometru</value></data>
+  <data name="BUT_MagCalibrationLive.Text" xml:space="preserve"><value>Kalibracja na żywo</value></data>
+  <data name="groupBoxmpcalib.Text" xml:space="preserve"><value>Kalibracja magnetometru w Mission Planner</value></data>
+  <data name="LBL_primary_compass.Text" xml:space="preserve"><value>Główny kompas:</value></data>
+  <data name="CHK_compass_learn.Text" xml:space="preserve"><value>Automatycznie wyznaczaj przesunięcia</value></data>
+  <data name="groupBoxGeneralSettings.Text" xml:space="preserve"><value>Ogólne ustawienia kompasu</value></data>
+  <data name="LBL_compass1_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass1_offset.Text" xml:space="preserve"><value>Przesunięcie</value></data>
+  <data name="CHK_compass1_external.Text" xml:space="preserve"><value>Montaż zewnętrzny</value></data>
+  <data name="CHK_compass1_use.Text" xml:space="preserve"><value>Używaj tego kompasu</value></data>
+  <data name="groupBoxCompass1.Text" xml:space="preserve"><value>Kompas nr 1</value></data>
+  <data name="LBL_compass2_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass2_offset.Text" xml:space="preserve"><value>Przesunięcie</value></data>
+  <data name="CHK_compass2_external.Text" xml:space="preserve"><value>Montaż zewnętrzny</value></data>
+  <data name="CHK_compass2_use.Text" xml:space="preserve"><value>Używaj tego kompasu</value></data>
+  <data name="groupBoxCompass2.Text" xml:space="preserve"><value>Kompas nr 2</value></data>
+  <data name="LBL_compass3_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass3_offset.Text" xml:space="preserve"><value>Przesunięcie</value></data>
+  <data name="CHK_compass3_external.Text" xml:space="preserve"><value>Montaż zewnętrzny</value></data>
+  <data name="CHK_compass3_use.Text" xml:space="preserve"><value>Używaj tego kompasu</value></data>
+  <data name="groupBoxCompass3.Text" xml:space="preserve"><value>Kompas nr 3</value></data>
+  <data name="buttonAPMExternal.Text" xml:space="preserve"><value>APM i kompas zewnętrzny</value></data>
+  <data name="QuickAPM25.Text" xml:space="preserve"><value>APM2.5 (kompas wewnętrzny)</value></data>
+  <data name="buttonQuickPixhawk.Text" xml:space="preserve"><value>Pixhawk/PX4</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>Kalibracja magnetometru dużego pojazdu</value></data>
 </root>

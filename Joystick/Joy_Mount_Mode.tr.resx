@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Geri çek: süspansiyonu önceden ayarlanmış pozisyonlara kaldırın. Nötr: varsayılan yük konumu, yani İleri. Mavlink_targeting: alınan atışı, yayını, yawı gösterir. rc_targeting: eksenleri kontrol etmek için rc kanalları kullanın. gps_point: temel noktayı izlemek için kullanılır.</value>
+    <value>Retract: Kamera yuvasını önceden ayarlanmış toplanma konumuna çeker
+Neutral: Varsayılan konumu yükler (ör. ileriye bakış)
+Mavlink_targeting: Alınan yatış, yunuslama ve sapma değerlerine yönelir
+rc_targeting: Eksenleri kontrol etmek için RC kanallarını kullanır
+gps_point: Yerdeki tek bir noktayı takip eder</value>
   </data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,24 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>ПРИМІТКА: після зміни даної опції потрібно перезапустити</value>
+    <value>ПРИМІТКА: після зміни цього параметра потрібен перезапуск</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Увімкнути CAN</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>КАН</value>
+    <value>CAN</value>
   </data>
   <data name="but_stopenum.Text" xml:space="preserve">
-    <value>Зупинити зчислення</value>
+    <value>Зупинити нумерацію</value>
   </data>
   <data name="checkBox1.Text" xml:space="preserve">
-    <value>Скидання до заводських налаштувань</value>
+    <value>Заводські налаштування</value>
   </data>
   <data name="but_startenum.Text" xml:space="preserve">
-    <value>Початкова зчислення</value>
+    <value>Почати нумерацію</value>
   </data>
   <data name="but_saveconfig.Text" xml:space="preserve">
-    <value>Зберегти всі налаштування</value>
+    <value>Зберегти всю конфігурацію</value>
   </data>
+  <data name="but_factoryreset.Text" xml:space="preserve"><value>Скинути конфігурацію</value></data>
 </root>

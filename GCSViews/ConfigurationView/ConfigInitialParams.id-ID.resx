@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Anda perlu mengatur beberapa parameter berdasarkan baterai dan ukuran baling-baling untuk konfigurasi copter baru.
+Sebelum memasukkan data dan memperbarui parameter di sini, pastikan:
+
+  -- SEMUA PENGATURAN AWAL SELESAI (kalibrasi, pengaturan rangka, uji motor)
+  -- PEMANTAUAN TEGANGAN BATERAI TELAH DIATUR DAN BERFUNGSI
+
+Catatan: Nilai INS_GYRO_FILTER selain 20 bersifat opsional dan umumnya hanya untuk rangka/baling-baling kecil. Untuk awal, Anda dapat mempertahankan nilai 20</value></data>
+</root>

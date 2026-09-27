@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label5.Text" xml:space="preserve"><value>Szybkość zmian</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Maks.</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Przelotowy</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Gaz 0–100%</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Stosunek</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Maks.</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Przelotowy</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Prędkość powietrzna m/s</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Min. pochylenie</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Maks. pochylenie</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Maks. przechylenie</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Kąty nawigacji</value></data>
+  <data name="label83.Text" xml:space="preserve"><value>Pochylenie → gaz</value></data>
+  <data name="label78.Text" xml:space="preserve"><value>Miks steru kierunku</value></data>
+  <data name="groupBox16.Text" xml:space="preserve"><value>Pozostałe miksy</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox14.Text" xml:space="preserve"><value>PID energii/wysokości</value></data>
+  <data name="label69.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label70.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label71.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label72.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>PID pochylenia wg wysokości</value></data>
+  <data name="label65.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label66.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label67.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label68.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>PID pochylenia wg prędkości powietrznej</value></data>
+  <data name="label57.Text" xml:space="preserve"><value>Limit członu całkującego</value></data>
+  <data name="label58.Text" xml:space="preserve"><value>Tłumienie</value></data>
+  <data name="label59.Text" xml:space="preserve"><value>Człon całkujący</value></data>
+  <data name="label60.Text" xml:space="preserve"><value>Odchylenie → przechylenie</value></data>
+  <data name="groupBox10.Text" xml:space="preserve"><value>Serwo odchylenia</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>PID serwa pochylenia</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>PID serwa przechylenia</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>Zapisz parametry</value></data>
+  <data name="BUT_rerequestparams.Text" xml:space="preserve"><value>Odśwież parametry</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Tłumienie</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Okres</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Regulator L1 — sterowanie zakrętem</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Maks. opadanie (m/s)</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Stała czasowa</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Tłumienie pochylenia</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Min. opadanie (m/s)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Maks. wznoszenie (m/s)</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>TECS</value></data>
+  <data name="BUT_refreshpart.Text" xml:space="preserve"><value>Odśwież ekran</value></data>
+</root>

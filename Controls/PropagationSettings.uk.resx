@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,45 +118,53 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>Налаштування поширення</value>
+    <value>Налаштування поширення радіохвиль</value>
   </data>
   <data name="label113.Text" xml:space="preserve">
-    <value>Кмлефт</value>
+    <value>Залишок, км</value>
   </data>
   <data name="label89.Text" xml:space="preserve">
-    <value>Очистка [m]</value>
+    <value>Запас висоти [м]</value>
   </data>
   <data name="label112.Text" xml:space="preserve">
-    <value>Базова висота [m]</value>
+    <value>Висота бази [м]</value>
   </data>
   <data name="label114.Text" xml:space="preserve">
-    <value>Похибка</value>
+    <value>Допуск</value>
   </data>
   <data name="label100.Text" xml:space="preserve">
-    <value>Розповсюдження</value>
+    <value>Поширення радіохвиль</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Накладення карти</value>
+    <value>Накладання на мапу</value>
   </data>
   <data name="label109.Text" xml:space="preserve">
-    <value>Азимут Крок</value>
+    <value>Крок азимута</value>
   </data>
   <data name="label90.Text" xml:space="preserve">
-    <value>Роздільна здатність</value>
+    <value>Роздільність</value>
   </data>
   <data name="chk_homedist.Text" xml:space="preserve">
-    <value>Домашній відтік ліворуч</value>
+    <value>Залишок відстані до дому</value>
   </data>
   <data name="label91.Text" xml:space="preserve">
     <value>Висота</value>
   </data>
   <data name="chk_dronedist.Text" xml:space="preserve">
-    <value>Випити лівий кусок</value>
+    <value>Залишок відстані до БПЛА</value>
   </data>
   <data name="chk_rf.Text" xml:space="preserve">
-    <value>Карта RF</value>
+    <value>Мапа радіопокриття</value>
   </data>
   <data name="chk_ele.Text" xml:space="preserve">
     <value>Висота</value>
   </data>
+  <data name="chk_terrain.Text" xml:space="preserve"><value>Рельєф</value></data>
+  <data name="cb_showscale.Text" xml:space="preserve"><value>Показувати масштаб</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Фільтр висоти</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Макс. висота</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Мін. висота</value></data>
+  <data name="label110.Text" xml:space="preserve"><value>Збіжність</value></data>
+  <data name="label111.Text" xml:space="preserve"><value>Дальність [км]</value></data>
+  <data name="chk_setalt.Text" xml:space="preserve"><value>Фільтр висоти</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,49 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Steigflug Max (m/s)</value>
+    <value>Max. Steigrate (m/s)</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Periode</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Pitch Dämpfung</value>
+    <value>Nickdämpfung</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Sinkflug Min (m/s)</value>
+    <value>Min. Sinkrate (m/s)</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Zeitzkonstante</value>
+    <value>Zeitkonstante</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Sinkflug Max (m/s)</value>
+    <value>Max. Sinkrate (m/s)</value>
   </data>
   <data name="label83.Text" xml:space="preserve">
-    <value>P zu T</value>
+    <value>Nicken → Gas</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
-    <value>Servo Roll PID</value>
+    <value>Rollservo-PID</value>
   </data>
   <data name="label57.Text" xml:space="preserve">
-    <value>INT_MAX</value>
+    <value>Integrator-Maximum</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>Servo Pitch PID</value>
+    <value>Nickservo-PID</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Anstiegsrate %/s</value>
+    <value>Änderungsrate</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Navigationswinkel</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Schub 0-100%</value>
+    <value>Gas 0–100 %</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Reiseflug</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Geschwindigkeit m/s</value>
+    <value>Fluggeschwindigkeit m/s</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Dämpfung</value>
@@ -169,45 +169,73 @@
     <value>Dämpfung</value>
   </data>
   <data name="label59.Text" xml:space="preserve">
-    <value>I</value>
+    <value>Integralanteil</value>
   </data>
   <data name="label60.Text" xml:space="preserve">
-    <value>P</value>
+    <value>Gieren → Rollen</value>
   </data>
   <data name="groupBox16.Text" xml:space="preserve">
-    <value>Andere Mix's</value>
+    <value>Weitere Mischer</value>
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
-    <value>Energie/Höhe PID</value>
+    <value>Energie-/Höhen-PID</value>
   </data>
   <data name="groupBox12.Text" xml:space="preserve">
-    <value>Nav Pitch AS PID</value>
+    <value>Navigations-PID: Fluggeschwindigkeit → Nicken</value>
   </data>
   <data name="groupBox10.Text" xml:space="preserve">
-    <value>Servo Yaw PID</value>
+    <value>Gierservo</value>
   </data>
   <data name="groupBox13.Text" xml:space="preserve">
-    <value>Nav Pitch Alt PID</value>
+    <value>Navigations-PID: Höhe → Nicken</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>Nicken Max</value>
+    <value>Max. Nickwinkel</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>Rollen Max</value>
+    <value>Max. Querneigung</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>Nicken Min</value>
+    <value>Min. Nickwinkel</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Parameter speichern</value>
+    <value>Parameter schreiben</value>
   </data>
   <data name="label78.Text" xml:space="preserve">
-    <value>Ruder Mix</value>
+    <value>Seitenrudermischer</value>
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
-    <value>Bildschirm aktualisieren</value>
+    <value>Ansicht aktualisieren</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Parameter aktualisieren</value>
+    <value>Parameter neu laden</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>Max</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Verhältnis</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Max</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Reiseflug</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label69.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label70.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label71.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label72.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label65.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label66.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label67.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label68.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>L1-Regelung – Kurvensteuerung</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>TECS</value></data>
 </root>

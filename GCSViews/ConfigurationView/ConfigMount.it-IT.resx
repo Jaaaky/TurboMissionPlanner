@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,13 +121,13 @@
     <value>Min</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Limiti Servo </value>
+    <value>Limiti servi</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>Max</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Limiti Angle </value>
+    <value>Limiti angolari</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>Max</value>
@@ -136,10 +136,10 @@
     <value>Min</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Limiti Servo </value>
+    <value>Limiti servi</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Pan</value>
+    <value>Panoramica</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
     <value>Max</value>
@@ -154,19 +154,19 @@
     <value>Min</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Input Ch</value>
+    <value>Canale ingresso</value>
   </data>
   <data name="CHK_stab_roll.Text" xml:space="preserve">
-    <value>Roll Stabilize</value>
+    <value>Stabilizza rollio</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Input Ch</value>
+    <value>Canale ingresso</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>Input Ch</value>
+    <value>Canale ingresso</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Limiti Servo </value>
+    <value>Limiti servi</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>X</value>
@@ -181,10 +181,10 @@
     <value>Z</value>
   </data>
   <data name="CHK_stab_tilt.Text" xml:space="preserve">
-    <value>Tilt Stabilize</value>
+    <value>Stabilizza inclinazione</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Limiti Angolo</value>
+    <value>Limiti angolari</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Z</value>
@@ -193,7 +193,7 @@
     <value>Controllo Angoli</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Roll</value>
+    <value>Rollio</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
     <value>Y</value>
@@ -202,22 +202,22 @@
     <value>Max</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Retract Angles</value>
+    <value>Angoli di retrazione</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Angoli Neutri</value>
+    <value>Angoli neutri</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Tilt</value>
+    <value>Inclinazione</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Limiti Angoli</value>
+    <value>Limiti angolari</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
     <value>X</value>
@@ -229,25 +229,25 @@
     <value>Z</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>Durara  (1/10th sec)</value>
+    <value>Durata (decimi di secondo)</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
     <value>X</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
-    <value>Limiti Servo </value>
+    <value>Limiti servi</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>Scatto</value>
+    <value>Otturatore</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>Spinto</value>
+    <value>Premuto</value>
   </data>
   <data name="mavlinkCheckBoxRR.Text" xml:space="preserve">
     <value>Inverti</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>Non Spinto</value>
+    <value>Non premuto</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
     <value>Max</value>
@@ -265,12 +265,14 @@
     <value>Wiki</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
-    <value>Impostare Ch7 come Camera Trigger </value>
+    <value>Impostare l'opzione Ch7 su scatto fotocamera</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
     <value>Min</value>
   </data>
   <data name="label41.Text" xml:space="preserve">
-    <value>Scatto</value>
+    <value>Otturatore</value>
   </data>
+  <data name="label43.Text" xml:space="preserve"><value>Tipo</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>NOTA: il tipo di gimbal diventa effettivo al successivo riavvio del controllore di volo</value></data>
 </root>

@@ -59,34 +59,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label1.Text" xml:space="preserve">
-    <value>Gaz %</value>
+    <value>Gaz (%)</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>NOTE : VEUILLEZ MAINTENIR VOTRE DRONE AU SOL
-Ceci va tester le fonctionnement de vos moteurs.
-Les moteurs sont testés en rotation horaire
-en commençant par l'avant droit.</value>
+    <value>REMARQUE : MAINTENEZ FERMEMENT VOTRE DRONE AU SOL
+Ce test vérifie le fonctionnement des moteurs.
+Les moteurs sont testés dans le sens horaire,
+en commençant par l’avant droit.</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Cliquez ici pour voir vos numéros de moteur,
-faites défiler jusqu'en bas de la page</value>
+    <value>Cliquez ici pour voir la numérotation des moteurs,
+puis faites défiler jusqu’en bas de la page</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Durée (s)</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Définir le % min qui sera envoyé en vol</value>
+    <value>Définir le pourcentage minimal de sortie en vol</value>
   </data>
   <data name="but_mot_spin_min.Text" xml:space="preserve">
-    <value>Déf. rotation min moteur</value>
+    <value>Régler la rotation minimale</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Définir le % min qui sera envoyé quand armé, mais encore au sol</value>
+    <value>Définir le pourcentage minimal de sortie lorsque le véhicule est armé, mais encore au sol</value>
   </data>
   <data name="but_mot_spin_arm.Text" xml:space="preserve">
-    <value>Déf. rotation armé moteur</value>
+    <value>Régler la rotation à l’armement</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Test moteur</value>
+    <value>Test des moteurs</value>
   </data>
+  <data name="FrameType.Text" xml:space="preserve"><value>Type : inconnu</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>Classe : inconnue</value></data>
 </root>

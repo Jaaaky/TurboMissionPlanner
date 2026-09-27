@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label5.Text" xml:space="preserve"><value>Pochylenie</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Przechylenie</value></data>
+  <data name="LNK_wiki.Text" xml:space="preserve"><value>Wiki</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Obrót</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Limity kątów</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Limity serw</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Maks.</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Maks.</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Limity kątów</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Limity serw</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Maks.</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Maks.</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Limity kątów</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Limity serw</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Maks.</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Maks.</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>Kanał wejściowy</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Kanał wejściowy</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Kanał wejściowy</value></data>
+  <data name="mavlinkCheckBoxTR.Text" xml:space="preserve"><value>Odwróć</value></data>
+  <data name="mavlinkCheckBoxPR.Text" xml:space="preserve"><value>Odwróć</value></data>
+  <data name="mavlinkCheckBoxRR.Text" xml:space="preserve"><value>Odwróć</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Z</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Y</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>X</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Kąty po złożeniu</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Z</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Y</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>X</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Kąty neutralne</value></data>
+  <data name="CHK_stab_tilt.Text" xml:space="preserve"><value>Stabilizuj pochylenie</value></data>
+  <data name="CHK_stab_roll.Text" xml:space="preserve"><value>Stabilizuj przechylenie</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>Migawka</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Limity serw</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Niewciśnięta</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Wciśnięta</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Maks.</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>Migawka</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>Czas trwania (1/10 s)</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>Ustaw funkcję kanału 7 na wyzwalanie aparatu</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Typ</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>UWAGA: typ gimbala zostanie zastosowany po ponownym uruchomieniu kontrolera lotu</value></data>
+</root>

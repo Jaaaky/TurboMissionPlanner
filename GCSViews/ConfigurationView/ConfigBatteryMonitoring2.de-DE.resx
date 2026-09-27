@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CHK_speechbattery.Text" xml:space="preserve">
-    <value>MP-Alarm bei niedrigem Batteriestand</value>
+    <value>MP-Warnung bei niedrigem Akkustand</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>4. Gemessener Strom</value>
+    <value>4. Gemessener Strom:</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Strom Pin</value>
+    <value>Strompin</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
-    <value>Bat. Kapazität</value>
+    <value>Akkukapazität</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Kalibrierung</value>
@@ -136,18 +136,20 @@
     <value>5. Strom (berechnet)</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>1. Gemessene Batteriespannung:</value>
+    <value>1. Gemessene Akkuspannung:</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
     <value>3. Spannungsteiler (berechnet):</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>2. Batterie Spannung (berechnet):</value>
+    <value>2. Akkuspannung (berechnet):</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>5. Ampere/Volt:</value>
+    <value>6. Ampere pro Volt:</value>
   </data>
   <data name="label47.Text" xml:space="preserve">
-    <value>Sensor</value>
+    <value>Spannungspin</value>
   </data>
+  <data name="label30.Text" xml:space="preserve"><value>Überwachung</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>mAh</value></data>
 </root>

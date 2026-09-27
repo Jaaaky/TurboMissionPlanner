@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="lbl_status1.Text" xml:space="preserve"><value>9999 bit/s</value></data>
+  <data name="chk_rtcmmsg.Text" xml:space="preserve"><value>Typ wstrzykiwanego komunikatu</value></data>
+  <data name="chk_rtcmmsg.ToolTip" xml:space="preserve"><value>Zależy to od wersji oprogramowania autopilota. Jeśli to możliwe, pozostaw włączone — nowszy komunikat znacznie lepiej radzi sobie z uszkodzeniami danych.</value></data>
+  <data name="lbl_svin.Text" xml:space="preserve"><value>Wyznaczanie pozycji bazy</value></data>
+  <data name="lbl_svin.ToolTip" xml:space="preserve"><value>Informacje o wyznaczaniu pozycji bazy
+Valid: czy wyznaczona pozycja jest prawidłowa
+InProgress: czy trwa wyznaczanie pozycji
+Duration: czas pomiaru w sekundach
+Obs: liczba obserwacji użytych do pomiaru
+Acc: bieżąca dokładność wyznaczonej pozycji
+</value></data>
+  <data name="chk_autoconfig.Text" xml:space="preserve"><value>Automatycznie konfiguruj odbiornik</value></data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve"><value>Automatycznie skonfiguruj odbiornik podłączony do wybranego portu, aby wysyłał komunikaty poprawek.</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>Po połączeniu odbiornik rozpocznie pomiar „survey-in”, aby precyzyjnie wyznaczyć pozycję GPS.
+Pomiar zakończy się, gdy pozycja bazy RTCM przestanie się zmieniać.
+W zależności od miejsca i sygnału może to potrwać kilka minut.
+
+Po zakończeniu pomiaru system jest gotowy do pracy.
+</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Konstelacje w RTCM</value></data>
+  <data name="label21.ToolTip" xml:space="preserve"><value>Wybierz konstelacje, dla których odbiornik wysyła poprawki. Więcej konstelacji zwiększa ilość przesyłanych danych.</value></data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve"><value>Włącz/wyłącz wysyłanie komunikatów RTCM Galileo.</value></data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve"><value>Włącz/wyłącz wysyłanie komunikatów RTCM BeiDou.</value></data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve"><value>Włącz/wyłącz wysyłanie komunikatów RTCM GLONASS.</value></data>
+  <data name="chk_septentriogps.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve"><value>Włącz/wyłącz wysyłanie komunikatów RTCM GPS.</value></data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve"><value>Ustaw odstęp</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Odstęp komunikatów RTCM (s)</value></data>
+  <data name="label20.ToolTip" xml:space="preserve"><value>Wybierz częstotliwość wysyłania komunikatów RTCM przez odbiornik. Mniejsze wartości zwiększają ilość przesyłanych danych.</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Szczegółowość komunikatów RTCM</value></data>
+  <data name="label19.ToolTip" xml:space="preserve"><value>Wybierz poziom szczegółowości komunikatów RTCM. Wyższe wartości zwiększają ilość przesyłanych danych.</value></data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve"><value>Minimalna</value></data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve"><value>Podstawowa</value></data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve"><value>Pełna</value></data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve"><value>Stała pozycja</value></data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve"><value>Wprowadź stałą pozycję anteny stacji bazowej zamiast wyznaczać ją automatycznie. Może to poprawić precyzję poprawek.
+</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Szerokość geogr. (WGS84)</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Długość geogr. (WGS84)</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Wysokość (m)</value></data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve"><value>Ustaw pozycję</value></data>
+  <data name="but_restartsvin.Text" xml:space="preserve"><value>Uruchom ponownie</value></data>
+  <data name="but_restartsvin.ToolTip" xml:space="preserve"><value>Zapisuje bieżącą pozycję stacji bazowej wyznaczoną podczas pomiaru</value></data>
+  <data name="chk_m8p_130p.Text" xml:space="preserve"><value>M8P fw 130+/F9P</value></data>
+  <data name="chk_m8p_130p.ToolTip" xml:space="preserve"><value>Zaznacz, jeśli baza i odbiornik ruchomy mają oprogramowanie u-blox w wersji 1.30 lub nowszej</value></data>
+  <data name="but_save_basepos.Text" xml:space="preserve"><value>Zapisz bieżącą pozycję</value></data>
+  <data name="but_save_basepos.ToolTip" xml:space="preserve"><value>Zapisuje bieżącą pozycję stacji bazowej wyznaczoną podczas pomiaru</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>Szer./ECEFX</value></data>
+  <data name="Long.HeaderText" xml:space="preserve"><value>Dł./ECEFY</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>Wys./ECEFZ</value></data>
+  <data name="BaseName1.HeaderText" xml:space="preserve"><value>Nazwa</value></data>
+  <data name="Use.HeaderText" xml:space="preserve"><value>Użyj</value></data>
+  <data name="Delete.HeaderText" xml:space="preserve"><value>Usuń</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Czas (s)</value></data>
+  <data name="txt_surveyinAcc.ToolTip" xml:space="preserve"><value>Próg dokładności wyznaczania pozycji. Wynik musi być poniżej tej wartości.</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Dokładność pomiaru (m)</value></data>
+  <data name="label1.ToolTip" xml:space="preserve"><value>Aby zakończyć pomiar, muszą być spełnione oba warunki: dokładności i czasu.
+Na przykład błąd poniżej 2 m i ponad 60 sekund obserwacji.</value></data>
+  <data name="txt_surveyinDur.ToolTip" xml:space="preserve"><value>Minimalny czas pomiaru. Pomiar musi trwać dłużej niż podana wartość.</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Wyznaczanie pozycji bazy</value></data>
+  <data name="label10.ToolTip" xml:space="preserve"><value>Informacje o wyznaczaniu pozycji bazy
+Valid: czy wyznaczona pozycja jest prawidłowa
+InProgress: czy trwa wyznaczanie pozycji
+Duration: czas pomiaru w sekundach
+Obs: liczba obserwacji użytych do pomiaru
+Acc: bieżąca dokładność wyznaczonej pozycji
+</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Wyznaczanie pozycji bazy</value></data>
+  <data name="label7.ToolTip" xml:space="preserve"><value>Informacje o wyznaczaniu pozycji bazy
+Valid: czy wyznaczona pozycja jest prawidłowa
+InProgress: czy trwa wyznaczanie pozycji
+Duration: czas pomiaru w sekundach
+Obs: liczba obserwacji użytych do pomiaru
+Acc: bieżąca dokładność wyznaczonej pozycji
+</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Wyznaczanie pozycji bazy</value></data>
+  <data name="label9.ToolTip" xml:space="preserve"><value>Informacje o wyznaczaniu pozycji bazy
+Valid: czy wyznaczona pozycja jest prawidłowa
+InProgress: czy trwa wyznaczanie pozycji
+Duration: czas pomiaru w sekundach
+Obs: liczba obserwacji użytych do pomiaru
+Acc: bieżąca dokładność wyznaczonej pozycji
+</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Wyznaczanie pozycji bazy</value></data>
+  <data name="label8.ToolTip" xml:space="preserve"><value>Informacje o wyznaczaniu pozycji bazy
+Valid: czy wyznaczona pozycja jest prawidłowa
+InProgress: czy trwa wyznaczanie pozycji
+Duration: czas pomiaru w sekundach
+Obs: liczba obserwacji użytych do pomiaru
+Acc: bieżąca dokładność wyznaczonej pozycji
+</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Wyznaczanie pozycji bazy</value></data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve"><value>Opcje konfiguracji automatycznej</value></data>
+  <data name="chk_sendgga.Text" xml:space="preserve"><value>Wysyłać GGA NTRIP? (VRS/Smart)</value></data>
+  <data name="chk_sendgga.ToolTip" xml:space="preserve"><value>Zależy to od wersji oprogramowania autopilota. Jeśli to możliwe, pozostaw włączone — nowszy komunikat znacznie lepiej radzi sobie z uszkodzeniami danych.</value></data>
+  <data name="check_sendntripv1.Text" xml:space="preserve"><value>Używać protokołu NTRIP 1.0?</value></data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve"><value>Niektóre starsze serwery NTRIP, np. RTKLIB, nie obsługują protokołu NTRIP 2.0. Zaznacz, aby użyć wersji 1.0.</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Przepływność wejściowa</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Przepływność wyjściowa</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Baza RTCM </value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Odebrane komunikaty</value></data>
+  <data name="labelmsgseen.Text" xml:space="preserve"><value>rtcm0000
+rtcm0000</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Baza</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>RTCM</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Stan łącza</value></data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve"><value>u-blox M8P/F9P</value></data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve"><value>Septentrio</value></data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve"><value>Unicore UM982</value></data>
+  <data name="BUT_connect.Text" xml:space="preserve"><value>Połącz</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,16 +130,16 @@
     <value>ログのダウンロード</value>
   </data>
   <data name="BUTradiosetup.Text" xml:space="preserve">
-    <value>ラジオのセットアップ</value>
+    <value>RC設定</value>
   </data>
   <data name="BUT_disconnect.Text" xml:space="preserve">
     <value>切断</value>
   </data>
   <data name="TXT_terminal.Text" xml:space="preserve">
-    <value>*注意* 上をクリックして接続してください。
-CLIは、電源投入後最初の接続時のみ動作します。ログはUSB接続時のみ可能です。
-最新バージョンでは、Mavlink経由でのログのダウンロードが可能です。
-フライトデータ&gt;データ・フラッシュログを参照ください。</value>
+    <value>注意：上部の接続ボタンをクリックしてください
+CLIは電源投入後の最初の接続時のみ動作し、ログのダウンロードはUSB経由のみです
+新しいバージョンではMAVLink経由のログダウンロードのみ対応します。「飛行データ &gt; DataFlashログ」を参照してください
+</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
     <value>ログの参照</value>
@@ -147,4 +147,9 @@ CLIは、電源投入後最初の接続時のみ動作します。ログはUSB�
   <data name="BUTsetupshow.Text" xml:space="preserve">
     <value>設定表示</value>
   </data>
+  <data name="CMB_boardtype.Items" xml:space="preserve"><value>APM</value></data>
+  <data name="CMB_boardtype.Items1" xml:space="preserve"><value>PX4/PIXHAWK</value></data>
+  <data name="CMB_boardtype.Items2" xml:space="preserve"><value>VRX/VRBRAIN</value></data>
+  <data name="CMB_boardtype.Items3" xml:space="preserve"><value>NSH</value></data>
+  <data name="CMB_boardtype.Items4" xml:space="preserve"><value>SSH</value></data>
 </root>

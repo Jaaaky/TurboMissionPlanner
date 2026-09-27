@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>ھۆججەت</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>ئىچكى</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>ئىنگلىزچە</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>باشقا تىل</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>ساقلاش</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>ئىشلىتىش ئۇسۇلى:
+تۇنجى قېتىم يۈكلىگەندە، ئاستىدىن تىلىڭىزنى تاللاپ تەھرىرلەڭ، ئاندىن ساقلاشنى چېكىڭ.
+
+كېيىنكى قېتىملاردا تىلىڭىزنى تاللىسىڭىز، شۇ تىلدىكى بار تەرجىمىلەر ئاپتوماتىك يۈكلىنىدۇ.
+
+يېرىم يولدا توختىغان بولسىڭىز، تەرجىمە يۈكلەش كۇنۇپكىسىنى چېكىڭ.
+
+ئەسكەرتىش: Michael ئۇنى پىلانلىغۇچقا قوشقاندىن كېيىنلا ئاپتوماتىك يۈكلىنىدۇ. بولمىسا تەرجىمە يۈكلەشنى ئىشلىتىشىڭىز كېرەك.
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>تەرجىمە يۈكلەش</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>چاپلاش تاختىسىغا كۆچۈرۈش</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>تىل تەھرىرلىگۈچ</value></data>
+</root>

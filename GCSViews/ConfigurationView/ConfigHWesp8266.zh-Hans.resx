@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label6.Text" xml:space="preserve"><value>ESP8266</value></data>
+  <data name="BUT_espsettings.Text" xml:space="preserve"><value>保存设置</value></data>
+  <data name="txt_ssid.Text" xml:space="preserve"><value>ArduPilot</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>SSID</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>波特率</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>密码</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>通道</value></data>
+  <data name="but_resetdefault.Text" xml:space="preserve"><value>重置为默认</value></data>
+  <data name="chk_mode.Text" xml:space="preserve"><value>客户端模式</value></data>
+  <data name="groupBoxsta.Text" xml:space="preserve"><value>STA 模式</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>IP</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>子网</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>网关</value></data>
+</root>

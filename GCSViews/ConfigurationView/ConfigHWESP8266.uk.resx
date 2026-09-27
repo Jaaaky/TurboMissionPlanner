@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_espsettings.Text" xml:space="preserve">
-    <value>Зберегти Налаштування</value>
+    <value>Зберегти налаштування</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Пароль</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Адреса IP</value>
+    <value>IP</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Канал</value>
@@ -136,15 +136,18 @@
     <value>Шлюз</value>
   </data>
   <data name="txt_ssid.Text" xml:space="preserve">
-    <value>Ардупіло</value>
+    <value>ArduPilot</value>
   </data>
   <data name="chk_mode.Text" xml:space="preserve">
     <value>Режим клієнта</value>
   </data>
   <data name="but_resetdefault.Text" xml:space="preserve">
-    <value>Відновити параметри за замовчуванням</value>
+    <value>Відновити типові налаштування</value>
   </data>
   <data name="groupBoxsta.Text" xml:space="preserve">
     <value>Режим STA</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>ESP8266</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>SSID</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Швидкість обміну</value></data>
 </root>

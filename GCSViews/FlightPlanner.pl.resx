@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,7 +124,7 @@
     <value>Weryfikuj wys.</value>
   </data>
   <data name="lbl_homedist.Text" xml:space="preserve">
-    <value>Punkt startu</value>
+    <value>Baza</value>
   </data>
   <data name="BUT_grid.Text" xml:space="preserve">
     <value>Siatka</value>
@@ -136,16 +136,16 @@
     <value>Pobierz</value>
   </data>
   <data name="lbl_prevdist.Text" xml:space="preserve">
-    <value>Poprz</value>
+    <value>Poprzedni</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Zoom</value>
+    <value>Powiększenie</value>
   </data>
   <data name="TXT_loiterrad.Text" xml:space="preserve">
     <value>45</value>
   </data>
   <data name="comboBoxMapType.ToolTip" xml:space="preserve">
-    <value>Zmień typ mapy</value>
+    <value>Zmień typ bieżącej mapy</value>
   </data>
   <data name="Param4.HeaderText" xml:space="preserve">
     <value>P4</value>
@@ -160,7 +160,7 @@
     <value>Pobierz ustawienia kamery do nakładki</value>
   </data>
   <data name="LBL_defalutalt.Text" xml:space="preserve">
-    <value>Dom. wys.</value>
+    <value>Domyślna wysokość</value>
   </data>
   <data name="Param2.HeaderText" xml:space="preserve">
     <value>P2</value>
@@ -169,7 +169,7 @@
     <value>Obróć mapę</value>
   </data>
   <data name="Lat.HeaderText" xml:space="preserve">
-    <value>Lat</value>
+    <value>Szer. geogr.</value>
   </data>
   <data name="textBox1.Text" xml:space="preserve">
     <value>1. Połącz
@@ -181,37 +181,37 @@
     <value>Zapisz plik WP</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Long</value>
+    <value>Dł. geogr.</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Wys (abs)</value>
+    <value>n.p.m.</value>
   </data>
   <data name="loiterForeverToolStripMenuItem.Text" xml:space="preserve">
-    <value>Na zawsze</value>
+    <value>Bez końca</value>
   </data>
   <data name="Alt.HeaderText" xml:space="preserve">
-    <value>Wys</value>
+    <value>Wys.</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Położenie kursora</value>
   </data>
   <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
-    <value>Góra</value>
+    <value>W górę</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Położenie startu</value>
+    <value>Pozycja bazy</value>
   </data>
   <data name="BUT_loadwpfile.Text" xml:space="preserve">
-    <value>Załaduj plik WP</value>
+    <value>Wczytaj plik</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Promień krążenia</value>
   </data>
   <data name="jumpstartToolStripMenuItem.Text" xml:space="preserve">
-    <value>Start</value>
+    <value>Uruchom</value>
   </data>
   <data name="BUT_read.Text" xml:space="preserve">
-    <value>Odczytaj WP</value>
+    <value>Odczytaj</value>
   </data>
   <data name="GeoFenceuploadToolStripMenuItem.Text" xml:space="preserve">
     <value>Wyślij</value>
@@ -220,7 +220,7 @@
     <value>Wys</value>
   </data>
   <data name="LBL_WPRad.Text" xml:space="preserve">
-    <value>Promień WP</value>
+    <value>Promień punktu trasy</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Long</value>
@@ -229,10 +229,10 @@
     <value>Polecenie</value>
   </data>
   <data name="Label1.Text" xml:space="preserve">
-    <value>Lat</value>
+    <value>Szer. geogr.</value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
-    <value>Status</value>
+    <value>Stan</value>
   </data>
   <data name="setReturnLocationToolStripMenuItem.Text" xml:space="preserve">
     <value>Ustaw miejsce powrotu</value>
@@ -244,7 +244,7 @@
     <value>Wyczyść wielokąt</value>
   </data>
   <data name="panelAction.Text" xml:space="preserve">
-    <value>Akcja</value>
+    <value>Działanie</value>
   </data>
   <data name="Param1.HeaderText" xml:space="preserve">
     <value>P1</value>
@@ -262,37 +262,37 @@
     <value>Pobierz ustawienia kamery do nakładki</value>
   </data>
   <data name="addPolygonPointToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dodaj punkt wielokątu</value>
+    <value>Narysuj wielokąt</value>
   </data>
   <data name="loiterToolStripMenuItem.Text" xml:space="preserve">
-    <value>Krążenie</value>
+    <value>Loiter</value>
   </data>
   <data name="Command.ToolTipText" xml:space="preserve">
-    <value>Polecenie APM</value>
+    <value>Polecenie</value>
   </data>
   <data name="BUT_Add.Text" xml:space="preserve">
-    <value>Dod. poniżej</value>
+    <value>Dodaj poniżej</value>
   </data>
   <data name="lbl_distance.Text" xml:space="preserve">
     <value>Odległość</value>
   </data>
   <data name="Down.ToolTipText" xml:space="preserve">
-    <value>Przesuń wiersz w DÓŁ</value>
+    <value>Przesuń wiersz w dół</value>
   </data>
   <data name="BUT_write.Text" xml:space="preserve">
-    <value>Zapisz WP</value>
+    <value>Zapisz</value>
   </data>
   <data name="BUT_loadkml.Text" xml:space="preserve">
     <value>Nakładka KML</value>
   </data>
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
-    <value>Dół</value>
+    <value>W dół</value>
   </data>
   <data name="Lon.HeaderText" xml:space="preserve">
-    <value>Lon</value>
+    <value>Dł. geogr.</value>
   </data>
   <data name="polygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Rysuj wielokąt</value>
+    <value>Wielokąt</value>
   </data>
   <data name="jumpToolStripMenuItem.Text" xml:space="preserve">
     <value>Skok</value>
@@ -301,16 +301,16 @@
     <value>100</value>
   </data>
   <data name="geoFenceToolStripMenuItem.Text" xml:space="preserve">
-    <value>Geo-Fence</value>
+    <value>Ogrodzenie wirtualne</value>
   </data>
   <data name="saveToFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Zapis do pliku</value>
+    <value>Zapisz do pliku</value>
   </data>
   <data name="TXT_WPRad.Text" xml:space="preserve">
     <value>30</value>
   </data>
   <data name="Up.ToolTipText" xml:space="preserve">
-    <value>Przesuń wiersz w GÓRĘ</value>
+    <value>Przesuń wiersz W GÓRĘ</value>
   </data>
   <data name="Up.HeaderText" xml:space="preserve">
     <value>Góra</value>
@@ -319,16 +319,16 @@
     <value>Usuń</value>
   </data>
   <data name="loitercirclesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Okręgi</value>
+    <value>Okrążenia</value>
   </data>
   <data name="jumpwPToolStripMenuItem.Text" xml:space="preserve">
-    <value>PD #</value>
+    <value>Punkt nr</value>
   </data>
   <data name="deleteWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>Usuń PZ</value>
+    <value>Usuń punkt trasy</value>
   </data>
   <data name="panelWaypoints.Text" xml:space="preserve">
-    <value>Waypointy (WP)</value>
+    <value>Punkty trasy</value>
   </data>
   <data name="BUT_grid.ToolTip" xml:space="preserve">
     <value>Rysuje siatkę na wybranym obszarze z podanym odstępem</value>
@@ -337,7 +337,7 @@
     <value>Powiększ</value>
   </data>
   <data name="loadFromFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Załaduj z pliku</value>
+    <value>Wczytaj z pliku</value>
   </data>
   <data name="CHK_holdalt.Text" xml:space="preserve">
     <value>Utrzymuj dom. wys.</value>
@@ -349,7 +349,7 @@
     <value>Wyczyść misję</value>
   </data>
   <data name="BUT_Add.ToolTip" xml:space="preserve">
-    <value>Dodaj linię do siatki poniżej</value>
+    <value>Dodaj wiersz do tabeli poniżej</value>
   </data>
   <data name="Param3.HeaderText" xml:space="preserve">
     <value>P3</value>
@@ -366,4 +366,94 @@
   <data name="Down.HeaderText" xml:space="preserve">
     <value>Dół</value>
   </data>
+  <data name="CHK_verifyheight.Text" xml:space="preserve"><value>Sprawdź wysokość</value></data>
+  <data name="but_writewpfast.Text" xml:space="preserve"><value>Szybki zapis</value></data>
+  <data name="chk_usemavftp.Text" xml:space="preserve"><value>MAVFTP</value></data>
+  <data name="CMB_altmode.Text" xml:space="preserve"><value>Względna</value></data>
+  <data name="CHK_splinedefault.Text" xml:space="preserve"><value>Trasa wygładzona</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Ostrzeżenie wysokości</value></data>
+  <data name="Frame.HeaderText" xml:space="preserve"><value>Układ odniesienia</value></data>
+  <data name="coordZone.HeaderText" xml:space="preserve"><value>Strefa</value></data>
+  <data name="coordEasting.HeaderText" xml:space="preserve"><value>Współrzędna wschodnia</value></data>
+  <data name="coordNorthing.HeaderText" xml:space="preserve"><value>Współrzędna północna</value></data>
+  <data name="MGRS.HeaderText" xml:space="preserve"><value>MGRS</value></data>
+  <data name="Grad.HeaderText" xml:space="preserve"><value>Nachyl. %</value></data>
+  <data name="Angle.HeaderText" xml:space="preserve"><value>Kąt</value></data>
+  <data name="Dist.HeaderText" xml:space="preserve"><value>Odl.</value></data>
+  <data name="AZ.HeaderText" xml:space="preserve"><value>AZ</value></data>
+  <data name="TagData.HeaderText" xml:space="preserve"><value>Dane znacznika</value></data>
+  <data name="BUT_InjectCustomMap.Text" xml:space="preserve"><value>Dodaj własną mapę</value></data>
+  <data name="chk_grid.Text" xml:space="preserve"><value>Siatka</value></data>
+  <data name="lnk_kml.Text" xml:space="preserve"><value>Pokaż KML</value></data>
+  <data name="BUT_saveWPFile.Text" xml:space="preserve"><value>Zapisz plik</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>Zmień poziom powiększenia</value></data>
+  <data name="cmb_missiontype.Items" xml:space="preserve"><value>Misja</value></data>
+  <data name="cmb_missiontype.Items1" xml:space="preserve"><value>Ogrodzenie</value></data>
+  <data name="cmb_missiontype.Items2" xml:space="preserve"><value>Punkty awaryjnego powrotu</value></data>
+  <data name="currentPositionToolStripMenuItem.Text" xml:space="preserve"><value>W bieżącej pozycji</value></data>
+  <data name="insertWpToolStripMenuItem.Text" xml:space="preserve"><value>Wstaw punkt trasy</value></data>
+  <data name="insertSplineWPToolStripMenuItem.Text" xml:space="preserve"><value>Wstaw punkt trasy wygładzonej</value></data>
+  <data name="rTLToolStripMenuItem.Text" xml:space="preserve"><value>RTL</value></data>
+  <data name="landToolStripMenuItem.Text" xml:space="preserve"><value>Lądowanie</value></data>
+  <data name="takeoffToolStripMenuItem.Text" xml:space="preserve"><value>Start</value></data>
+  <data name="setROIToolStripMenuItem.Text" xml:space="preserve"><value>DO_SET_ROI</value></data>
+  <data name="addPolygonPointToolStripMenuItem2.Text" xml:space="preserve"><value>Narysuj wielokąt</value></data>
+  <data name="clearPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Wyczyść wielokąt</value></data>
+  <data name="savePolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Zapisz wielokąt</value></data>
+  <data name="loadPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Wczytaj wielokąt</value></data>
+  <data name="fromSHPToolStripMenuItem2.Text" xml:space="preserve"><value>Z pliku SHP</value></data>
+  <data name="fromCurrentWaypointsToolStripMenuItem.Text" xml:space="preserve"><value>Z bieżących punktów trasy</value></data>
+  <data name="offsetPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Przesuń obrys wielokąta</value></data>
+  <data name="areaToolStripMenuItem2.Text" xml:space="preserve"><value>Pole powierzchni</value></data>
+  <data name="clearToolStripMenuItem.Text" xml:space="preserve"><value>Wyczyść</value></data>
+  <data name="setRallyPointToolStripMenuItem.Text" xml:space="preserve"><value>Ustaw punkt awaryjnego powrotu</value></data>
+  <data name="getRallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>Pobierz</value></data>
+  <data name="saveRallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>Wyślij</value></data>
+  <data name="clearRallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>Wyczyść punkty awaryjnego powrotu</value></data>
+  <data name="saveToFileToolStripMenuItem1.Text" xml:space="preserve"><value>Zapisz punkty awaryjnego powrotu</value></data>
+  <data name="loadFromFileToolStripMenuItem1.Text" xml:space="preserve"><value>Wczytaj punkty awaryjnego powrotu</value></data>
+  <data name="rallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>Punkty awaryjnego powrotu</value></data>
+  <data name="createWpCircleToolStripMenuItem.Text" xml:space="preserve"><value>Utwórz okrąg z punktów trasy</value></data>
+  <data name="createSplineCircleToolStripMenuItem.Text" xml:space="preserve"><value>Utwórz wygładzony okrąg</value></data>
+  <data name="areaToolStripMenuItem1.Text" xml:space="preserve"><value>Pole powierzchni</value></data>
+  <data name="textToolStripMenuItem.Text" xml:space="preserve"><value>Tekst</value></data>
+  <data name="createCircleSurveyToolStripMenuItem.Text" xml:space="preserve"><value>Utwórz nalot kołowy</value></data>
+  <data name="surveyGridToolStripMenuItem.Text" xml:space="preserve"><value>Nalot (siatka)</value></data>
+  <data name="autoWPToolStripMenuItem.Text" xml:space="preserve"><value>Automatyczne punkty trasy</value></data>
+  <data name="zoomToToolStripMenuItem.Text" xml:space="preserve"><value>Przybliż do</value></data>
+  <data name="prefetchToolStripMenuItem.Text" xml:space="preserve"><value>Pobierz mapy z wyprzedzeniem</value></data>
+  <data name="prefetchWPPathToolStripMenuItem.Text" xml:space="preserve"><value>Pobierz mapy wzdłuż trasy</value></data>
+  <data name="kMLOverlayToolStripMenuItem.Text" xml:space="preserve"><value>Nakładka KML</value></data>
+  <data name="elevationGraphToolStripMenuItem.Text" xml:space="preserve"><value>Profil wysokości</value></data>
+  <data name="reverseWPsToolStripMenuItem.Text" xml:space="preserve"><value>Odwróć kolejność punktów</value></data>
+  <data name="gDALOpacityToolStripMenuItem.Text" xml:space="preserve"><value>Krycie GDAL</value></data>
+  <data name="mapToolToolStripMenuItem.Text" xml:space="preserve"><value>Narzędzie mapy</value></data>
+  <data name="loadWPFileToolStripMenuItem.Text" xml:space="preserve"><value>Wczytaj plik punktów trasy</value></data>
+  <data name="loadAndAppendToolStripMenuItem.Text" xml:space="preserve"><value>Wczytaj i dołącz</value></data>
+  <data name="saveWPFileToolStripMenuItem.Text" xml:space="preserve"><value>Zapisz plik punktów trasy</value></data>
+  <data name="loadKMLFileToolStripMenuItem.Text" xml:space="preserve"><value>Wczytaj plik KML</value></data>
+  <data name="loadSHPFileToolStripMenuItem.Text" xml:space="preserve"><value>Wczytaj plik SHP</value></data>
+  <data name="fileLoadSaveToolStripMenuItem.Text" xml:space="preserve"><value>Wczytywanie/zapis plików</value></data>
+  <data name="poiaddToolStripMenuItem.Text" xml:space="preserve"><value>Dodaj</value></data>
+  <data name="poideleteToolStripMenuItem.Text" xml:space="preserve"><value>Usuń</value></data>
+  <data name="poieditToolStripMenuItem.Text" xml:space="preserve"><value>Edytuj</value></data>
+  <data name="pOIToolStripMenuItem.Text" xml:space="preserve"><value>POI</value></data>
+  <data name="trackerHomeToolStripMenuItem.Text" xml:space="preserve"><value>Baza trackera</value></data>
+  <data name="modifyAltToolStripMenuItem.Text" xml:space="preserve"><value>Zmień wysokość</value></data>
+  <data name="enterUTMCoordToolStripMenuItem.Text" xml:space="preserve"><value>Wprowadź współrzędne UTM</value></data>
+  <data name="switchDockingToolStripMenuItem.Text" xml:space="preserve"><value>Przełącz dokowanie</value></data>
+  <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>Ustaw bazę tutaj</value></data>
+  <data name="savePolygonToolStripMenuItem.Text" xml:space="preserve"><value>Zapisz wielokąt</value></data>
+  <data name="loadPolygonToolStripMenuItem.Text" xml:space="preserve"><value>Wczytaj wielokąt</value></data>
+  <data name="fromSHPToolStripMenuItem.Text" xml:space="preserve"><value>Z pliku SHP</value></data>
+  <data name="areaToolStripMenuItem.Text" xml:space="preserve"><value>Pole powierzchni</value></data>
+  <data name="fenceInclusionToolStripMenuItem.Text" xml:space="preserve"><value>Dozwolony obszar ogrodzenia</value></data>
+  <data name="fenceExclusionToolStripMenuItem.Text" xml:space="preserve"><value>Wykluczony obszar ogrodzenia</value></data>
+  <data name="convertWPToPolygonToolStripMenuItem.Text" xml:space="preserve"><value>Z bieżących punktów trasy</value></data>
+  <data name="offsetPolygonToolStripMenuItem.Text" xml:space="preserve"><value>Przesuń obrys wielokąta</value></data>
+  <data name="drawAPolygonToolStripMenuItem.Text" xml:space="preserve"><value>Narysuj wielokąt</value></data>
+  <data name="testToolStripMenuItem.Text" xml:space="preserve"><value>test</value></data>
+  <data name="zoomToVehicleToolStripMenuItem.Text" xml:space="preserve"><value>Przybliż pojazd</value></data>
+  <data name="zoomToMissionToolStripMenuItem.Text" xml:space="preserve"><value>Pokaż całą misję</value></data>
+  <data name="zoomToHomeToolStripMenuItem.Text" xml:space="preserve"><value>Przybliż bazę</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,33 +118,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="chk_signing.Text" xml:space="preserve">
-    <value>Підписання</value>
+    <value>Підписування</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Максимальний час між пакетами (мс)</value>
+    <value>Макс. інтервал між пакетами (мс)</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Пакети</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Байт</value>
+    <value>Байти</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Всього байт</value>
+    <value>Усього байтів</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Пктс Втрачено</value>
+    <value>Втрачено пакетів</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Якість</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Вивантажити</value>
+    <value>Передати</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Пакети/с</value>
+    <value>Пакетів/с</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Звантажити</value>
+    <value>Завантажити</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>Байт/с</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Байт/с</value></data>
+  <data name="chk_mavlink2.Text" xml:space="preserve"><value>MAVLink 2</value></data>
+  <data name="but_reset.Text" xml:space="preserve"><value>Скинути</value></data>
 </root>

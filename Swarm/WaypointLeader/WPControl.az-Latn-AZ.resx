@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>İstifadə qaydası:
+1. Aparıcılar daxil olmaqla bütün PUA-ları qoşun (yuxarı nişan panelində sağ düymə ilə «Bağlantı seçimləri»ni açın).
+2. Düzgün aparatı seçib yerüstü aparıcı kimi təyin edin.
+3. Düzgün aparatı seçib havadakı aparıcı kimi təyin edin.
+4. Marşrutu havadakı aparıcı PUA-ya göndərin.
+5. Ara məsafəsini və qabaqlama seçimlərini təyin edin.
+6. Bütün PUA-ların GPS mövqeyini təyin etməsini gözləyin və onları kalibrləyin (əks halda aktivləşdirməöncəsi yoxlamalar uğursuz ola bilər; problemsiz iş üçün bunu əvvəlcədən yoxlamaq olar).
+7. Yerüstü aparıcının hazır olub uçuş yolu üzərində gözlədiyinə əmin olun.
+8. Başlat düyməsini basın.</value></data>
 </root>

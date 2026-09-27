@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -130,7 +130,7 @@
     <value>ハードウェア設定</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ミッション・プランナー - By Michael Oborne</value>
+    <value>Mission Planner (Turbo) - Michael Oborne作（Turboフォーク）</value>
   </data>
   <data name="connectionOptionsToolStripMenuItem.Text" xml:space="preserve">
     <value>接続オプション</value>
@@ -154,13 +154,13 @@
     <value>接続</value>
   </data>
   <data name="MenuFlightPlanner.ToolTipText" xml:space="preserve">
-    <value>フライト・プランナー</value>
+    <value>フライトプランナー表示</value>
   </data>
   <data name="MenuConfigTune.Text" xml:space="preserve">
     <value>設定/調整</value>
   </data>
   <data name="MenuFlightData.ToolTipText" xml:space="preserve">
-    <value>フライト・データ</value>
+    <value>飛行データ</value>
   </data>
   <data name="MenuConfigTune.ToolTipText" xml:space="preserve">
     <value>ソフトウェア設定</value>
@@ -169,7 +169,7 @@
     <value>シミュレーション</value>
   </data>
   <data name="MenuHelp.ToolTipText" xml:space="preserve">
-    <value>ターミナル</value>
+    <value>ヘルプ</value>
   </data>
   <data name="MainMenu.Text" xml:space="preserve">
     <value>menuStrip1</value>
@@ -186,4 +186,5 @@
   <data name="autoHideToolStripMenuItem.Text" xml:space="preserve">
     <value>自動的に隠す</value>
   </data>
+  <data name="connectionListToolStripMenuItem.Text" xml:space="preserve"><value>接続一覧</value></data>
 </root>

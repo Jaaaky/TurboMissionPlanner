@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>File</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>Interno</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>Inglese</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>Altra lingua</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>Salva</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>Utilizzo:
+Al primo caricamento, scegliere la lingua in basso, modificare i testi e fare clic su Salva.
+
+Agli utilizzi successivi, scegliere la lingua: le traduzioni esistenti verranno caricate automaticamente.
+
+Per riprendere un lavoro incompleto, fare clic su Carica traduzione.
+
+NOTA: il caricamento automatico funziona solo dopo che Michael ha aggiunto la traduzione a Mission Planner. Altrimenti usare Carica traduzione.
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Carica traduzione</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>Copia negli appunti</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Editor lingue</value></data>
+</root>

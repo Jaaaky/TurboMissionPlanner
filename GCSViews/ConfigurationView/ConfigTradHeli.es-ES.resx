@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,37 +124,37 @@
     <value>Manual</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>PWM 0 - 1230</value>
+    <value>Crítico</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>PWM 1621 - 1749</value>
+    <value>Alabeo en estacionario</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Modo actual:</value>
+    <value>Invertir</value>
   </data>
   <data name="CHK_enableoptflow.Text" xml:space="preserve">
     <value>Habilitar el flujo óptico</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>NOTA: Las imágenes son sólo para su presentación</value>
+    <value>Potencia alta</value>
   </data>
   <data name="CB_simple5.Text" xml:space="preserve">
     <value>Modo Simple</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>PWM 1750 +</value>
+    <value>Prueba de servos al iniciar</value>
   </data>
   <data name="CHK_elevonch1rev.Text" xml:space="preserve">
     <value>Elevons CH1 Rev</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>PWM Actual:</value>
+    <value>Máx.</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>APMSetup</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Swash-Servo posición</value>
+    <value>Posición de servos del plato cíclico</value>
   </data>
   <data name="CHK_enablecompass.Text" xml:space="preserve">
     <value>Activar Compas</value>
@@ -169,7 +169,7 @@
     <value>Modo Simple</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Ajuste Chásis (+ or x)</value>
+    <value>Mín.</value>
   </data>
   <data name="SV2_POS_.Text" xml:space="preserve">
     <value>60</value>
@@ -205,13 +205,13 @@
     <value>Superior</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Swash de Viaje</value>
+    <value>Recorrido del colectivo</value>
   </data>
   <data name="lbl_currentmode.Text" xml:space="preserve">
     <value>Manual</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Timón de Viaje</value>
+    <value>Recorrido del timón</value>
   </data>
   <data name="textBox3.Text" xml:space="preserve">
     <value>Calibración del sensor de voltaje:Para calibrar el sensor, use un multímetro para medir la tensión que sale de la CES de la batería-la eliminación del circuito (se trata de cables negro y rojo en el cable de tres hilos que suministra energía a la placa APM).Luego reste 0,3 V de ese valor y entrar en él en el campo # 1 a la izquierda.</value>
@@ -220,34 +220,34 @@
     <value>Calibrar Radio</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Máx.</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Modo de Vuelo 2</value>
+    <value>Modo de servo</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>Alabeo Max</value>
+    <value>Potencia baja</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Modo de Vuelo 3</value>
+    <value>Ángulo de fase</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>Cabeceo Max</value>
+    <value>Ralentí</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>por ejemplo, en grados 2 ° 3 'W es -2,3</value>
+    <value>Estab. 3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Modo de Vuelo 1</value>
+    <value>Cero</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>Nivel tu quad para establecer las compensaciones por defecto acel</value>
+    <value>Estab. 2</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Modo de Vuelo 6</value>
+    <value>Velocidad de cola</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
-    <value>Capacidad</value>
+    <value>Estab. 1</value>
   </data>
   <data name="label100.Text" xml:space="preserve">
     <value>Declinación</value>
@@ -256,34 +256,34 @@
     <value>Activar Sonar</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>PWM 1231 - 1360</value>
+    <value>Aceleración del rotor (s)</value>
   </data>
   <data name="tabRadioIn.Text" xml:space="preserve">
     <value>Entrada Radio</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Calibración</value>
+    <value>Precompensación del colectivo</value>
   </data>
   <data name="HS4_MIN.Text" xml:space="preserve">
     <value>1500</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Modo de Vuelo 4</value>
+    <value>Colectivo de aterrizaje</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Modo de Vuelo 5</value>
+    <value>Rampa (s)</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Gyro</value>
+    <value>Tipo de cola</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>PWM 1361 - 1490</value>
+    <value>Recorrido del cíclico</value>
   </data>
   <data name="tabHardware.Text" xml:space="preserve">
     <value>Hardware</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>PWM 1491 - 1620</value>
+    <value>Compensación de pirueta</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
     <value>Sitio Web Declinación</value>
@@ -310,6 +310,33 @@
     <value>1000</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>Monitor</value>
+    <value>Estab. 4</value>
   </data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Tipo de plato cíclico</value></data>
+  <data name="fbl_modeFBL.Text" xml:space="preserve"><value>Sin barra estabilizadora</value></data>
+  <data name="H_SWASH_TYPE.Text" xml:space="preserve"><value>H1</value></data>
+  <data name="CCPM.Text" xml:space="preserve"><value>CCPM</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>Inferior</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>Ganancia</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Invertir</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>Compensación</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Compensación</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Invertir</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Posición</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>Rampa del control de rotor</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>Consigna del modo 1</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>Control de velocidad del rotor</value></data>
+  <data name="myButtonH_SV_MANtest.Text" xml:space="preserve"><value>Probar</value></data>
+  <data name="myButtonH_SV_MANmin.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="myButtonH_SV_MANzero.Text" xml:space="preserve"><value>Cero</value></data>
+  <data name="myButtonH_SV_MANmax.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="myButtonH_SV_MANmanual.Text" xml:space="preserve"><value>Manual</value></data>
+  <data name="myButtonH_SV_MAN.Text" xml:space="preserve"><value>Activo</value></data>
+  <data name="groupBox11.Text" xml:space="preserve"><value>Salida del acelerador</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>Curva en V</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>Curva</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Exponencial Acro</value></data>
 </root>

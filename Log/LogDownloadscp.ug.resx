@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>خاتىرە ھۆججەتلىرى:</value></data>
+  <data name="LabelStatus.Text" xml:space="preserve"><value>ئەسكەرتىش: ياردەم سورىغاندا .bin ھۆججىتىنى ئەۋەتىڭ</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>چىقىرىش:</value></data>
+  <data name="labelBytes.Text" xml:space="preserve"><value>label3</value></data>
+  <data name="BUT_DLall.Text" xml:space="preserve"><value>بارلىق خاتىرىلەرنى چۈشۈرۈش</value></data>
+  <data name="BUT_clearlogs.Text" xml:space="preserve"><value>خاتىرىلەرنى تازىلاش</value></data>
+  <data name="BUT_clearlogs.ToolTip" xml:space="preserve"><value>ئۇلانغان ئۇچقۇڭىزدىكى بارلىق خاتىرىلەرنى ئۆچۈرۈش.</value></data>
+  <data name="BUT_firstperson.Text" xml:space="preserve"><value>بىرىنچى شەخس كۆرۈنۈشىدىكى KML</value></data>
+  <data name="BUT_firstperson.ToolTip" xml:space="preserve"><value>خاتىرە ھۆججىتىنى بىرىنچى شەخس كۆرۈنۈشىدىكى KML فورماتىغا ئايلاندۇرۇش.</value></data>
+  <data name="BUT_DLthese.Text" xml:space="preserve"><value>تاللانغان خاتىرىلەرنى چۈشۈرۈش</value></data>
+  <data name="BUT_DLthese.ToolTip" xml:space="preserve"><value>يۇقىرىدىكى تىزىملىكتە تاللىغان خاتىرىلەرنى چۈشۈرۈش.</value></data>
+  <data name="BUT_bintolog.Text" xml:space="preserve"><value>.bin دىن .log غا</value></data>
+  <data name="BUT_bintolog.ToolTip" xml:space="preserve"><value>ئىككىلىك خاتىرە ھۆججىتىنى (.bin) تېكىست فورماتىغا (.log) ئايلاندۇرۇش.</value></data>
+  <data name="BUT_redokml.Text" xml:space="preserve"><value>KML نى قايتا قۇرۇش</value></data>
+  <data name="BUT_redokml.ToolTip" xml:space="preserve"><value>خاتىرە ھۆججىتىنى KML فورماتىغا ئايلاندۇرۇش.</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>خاتىرە چۈشۈرگۈچ</value></data>
+</root>

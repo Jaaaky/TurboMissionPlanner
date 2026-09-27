@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Uso:
+1. Conecte todos los drones, incluidos los líderes (clic derecho en la barra superior de iconos, «Opciones de conexión»).
+2. Seleccione el vehículo adecuado y pulse Establecer líder terrestre.
+3. Seleccione el vehículo adecuado y pulse Establecer líder aéreo.
+4. Cargue la ruta en el dron líder aéreo.
+5. Configure las opciones de separación y adelanto.
+6. Espere a que todos los drones fijen la posición GPS y realice las calibraciones. De lo contrario, podrían fallar las comprobaciones previas al armado; puede comprobarlo de antemano para garantizar un funcionamiento fluido.
+7. Asegúrese de que el líder terrestre esté listo y esperando en la trayectoria de vuelo.
+8. Pulse Iniciar.</value></data>
+</root>

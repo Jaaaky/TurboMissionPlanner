@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>正在下載記錄檔，要取消嗎？</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>確定嗎？</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>正在為 {0} 建立 KML</value></data>
+  <data name="Done" xml:space="preserve"><value>完成</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>正在下載記錄檔至：{0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>清除作業需 30–90 秒，請稍候！</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>處理檔案時發生錯誤，請確認檔案未被使用</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>正在取得記錄檔 {0}…</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>正在取得記錄檔清單…</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>無法建立記錄檔目錄：{0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>無可下載的記錄</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>請連線至無人機</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>請勾選清單中的核取方塊，選擇要下載的記錄</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>正在處理 {0}</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>找到 {0} 個記錄檔，注意：檔案大小僅為估計值。</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>錯誤：</value></data>
+</root>

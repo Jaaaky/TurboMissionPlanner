@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,12 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_Low.Text" xml:space="preserve">
-    <value>Zəyif</value>
+    <value>Aşağı</value>
   </data>
   <data name="renameToolStripMenuItem.Text" xml:space="preserve">
-    <value>Yeniden adlandırın</value>
+    <value>Adını dəyiş</value>
   </data>
   <data name="BUT_High.Text" xml:space="preserve">
-    <value>Yüksək</value>
+    <value>Yuxarı</value>
   </data>
+  <data name="BUT_Repeat.Text" xml:space="preserve"><value>Dəyişdir</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,18 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_calib_accell.Text" xml:space="preserve">
-    <value>Kalibrasyon</value>
+    <value>İvmeölçeri kalibre et</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Varsayılan ivmeölçer ofsetlerini ayarlamak için otomatik pilotunuzu hizalayın (eksen 1 / AHRS hizalaması). Bu, otomatik pilotunuzu tam olarak seviyeye yerleştirmenizi gerektirir.</value>
+    <value>Varsayılan ivmeölçer ofsetlerini ayarlamak için otopilotu yatay konuma getirin (1 eksen/AHRS trimleri).
+Otopilotu düz ve yatay bir yüzeye yerleştirmeniz gerekir.</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>İvmeölçeri varsayılan Min / Maks (3 eksen) olarak ayarlamak için otomatik pilotunuzu hizalayın. Otopilotunuzu her iki tarafta döndürmeniz gerekecek</value>
+    <value>Varsayılan ivmeölçer min./maks. değerlerini ayarlamak için otopilotu yatay konuma getirin (3 eksen).
+Otopilotu sırayla her yüzeyi üzerine yerleştirmeniz istenecektir.</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Ivmeolcer kalibrasyonu</value>
+    <value>İvmeölçer kalibrasyonu</value>
   </data>
   <data name="BUT_level.Text" xml:space="preserve">
-    <value>Seviye Kalibrasyonu</value>
+    <value>Yataylığı kalibre et</value>
   </data>
+  <data name="label2.Text" xml:space="preserve"><value>Yatay uçuş için varsayılan ivmeölçer ölçek katsayılarını ayarlamak üzere otopilotu yatay konuma getirin (1 eksen).
+Otopilotu düz ve yatay bir yüzeye yerleştirmeniz gerekir.</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>Basit ivmeölçer kalibrasyonu</value></data>
 </root>

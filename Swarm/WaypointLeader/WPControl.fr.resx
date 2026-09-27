@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Utilisation :
+1. Connectez tous les drones, y compris les meneurs (clic droit sur la barre d’icônes supérieure, puis « Options de connexion »).
+2. Sélectionnez le véhicule approprié et définissez-le comme meneur au sol.
+3. Sélectionnez le véhicule approprié et définissez-le comme meneur en vol.
+4. Transférez le trajet au drone meneur en vol.
+5. Réglez l’espacement et les options de suivi.
+6. Attendez que tous les drones obtiennent une position GPS et étalonnez-les. Sinon, les contrôles avant armement risquent d’échouer. Un essai préalable permet de vérifier le bon fonctionnement.
+7. Vérifiez que le meneur au sol est prêt et attend sur le trajet prévu.
+8. Cliquez sur Démarrer.</value></data>
+</root>

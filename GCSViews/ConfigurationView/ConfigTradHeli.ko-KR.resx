@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -165,7 +165,7 @@
     <value>169</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>경사 형식</value>
+    <value>스와시플레이트 형식</value>
   </data>
   <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
     <value>groupBox5</value>
@@ -220,7 +220,7 @@
     <value>138</value>
   </data>
   <data name="fbl_modeFBL.Text" xml:space="preserve">
-    <value>Flybarless</value>
+    <value>플라이바리스</value>
   </data>
   <data name="H_SWASH_TYPE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -355,7 +355,7 @@
     <value>168</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>미익 형식</value>
+    <value>테일 형식</value>
   </data>
   <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
     <value>groupBox3</value>
@@ -397,7 +397,7 @@
     <value>140</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>미익 속력</value>
+    <value>테일 속도</value>
   </data>
   <data name="mavlinkComboBoxTailType.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -802,7 +802,7 @@
     <value>174</value>
   </data>
   <data name="label44.Text" xml:space="preserve">
-    <value>트리밍</value>
+    <value>트림</value>
   </data>
   <data name="&gt;&gt;label44.Name" xml:space="preserve">
     <value>label44</value>
@@ -928,7 +928,7 @@
     <value>161</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>트리밍</value>
+    <value>트림</value>
   </data>
   <data name="&gt;&gt;label39.Name" xml:space="preserve">
     <value>label39</value>
@@ -1048,7 +1048,7 @@
     <value>153</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>방향타 운항</value>
+    <value>방향타 작동 범위</value>
   </data>
   <data name="&gt;&gt;label23.Name" xml:space="preserve">
     <value>label23</value>
@@ -1078,7 +1078,7 @@
     <value>150</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>군집 운항</value>
+    <value>콜렉티브 피치 범위</value>
   </data>
   <data name="&gt;&gt;label22.Name" xml:space="preserve">
     <value>label22</value>
@@ -1360,7 +1360,7 @@
     <value>140</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>경사 서보 위치</value>
+    <value>스와시 서보 위치</value>
   </data>
   <data name="&gt;&gt;label17.Name" xml:space="preserve">
     <value>label17</value>
@@ -1396,7 +1396,7 @@
     <value>169</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Collective Pre-Comp</value>
+    <value>콜렉티브 사전 보상</value>
   </data>
   <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
     <value>groupBox4</value>
@@ -1567,7 +1567,7 @@
     <value>143</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Runup(Sec)</value>
+    <value>회전 가속 시간(초)</value>
   </data>
   <data name="mavlinkNumericUpDownrunuptime.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1600,7 +1600,7 @@
     <value>141</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Rate(Sec)</value>
+    <value>변화 시간(초)</value>
   </data>
   <data name="mavlinkudH_RSC_RATE.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1690,7 +1690,7 @@
     <value>187</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>회전자 속력 제어</value>
+    <value>로터 회전 속도 제어</value>
   </data>
   <data name="&gt;&gt;groupBox9.Name" xml:space="preserve">
     <value>groupBox9</value>
@@ -1909,7 +1909,7 @@
     <value>197</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Piro Comp</value>
+    <value>피루엣 보상</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1927,7 +1927,7 @@
     <value>196</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>선회 운항</value>
+    <value>사이클릭 피치 범위</value>
   </data>
   <data name="mavlinkCheckBoxatc_piro_comp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2008,7 +2008,7 @@
     <value>191</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>군집 착륙</value>
+    <value>착륙 콜렉티브 피치</value>
   </data>
   <data name="mavlinkNumericUpDownland_col_min.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -2266,7 +2266,7 @@
     <value>1</value>
   </data>
   <data name="myButtonH_SV_MANmanual.Text" xml:space="preserve">
-    <value>순회</value>
+    <value>수동</value>
   </data>
   <data name="myButtonH_SV_MAN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2425,7 +2425,7 @@
     <value>187</value>
   </data>
   <data name="groupBox11.Text" xml:space="preserve">
-    <value>추진체 출력</value>
+    <value>스로틀 출력</value>
   </data>
   <data name="&gt;&gt;groupBox11.Name" xml:space="preserve">
     <value>groupBox11</value>
@@ -2716,7 +2716,7 @@
     <value>141</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>유휴</value>
+    <value>공회전</value>
   </data>
   <data name="mavlinkNumericUpDownh_rsc_idle.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>

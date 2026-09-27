@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>您可以在任務規劃畫面的任務表格中，將 MAVLink 指令加入指令選單。
+新增指令時，必須知道其 ID。若 MAVLink 程式庫已定義此 ID，
+名稱會自動填入。也可以新增尚未定義的 ID，
+但必須自行輸入名稱。在此新增指令不代表
+飛控會接受或執行該指令，請務必確認您瞭解其用途。</value></data>
+</root>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Desfase en segundos</value></data>
+  <data name="BUT_Geotagimages.Text" xml:space="preserve"><value>Geoetiquetar imágenes</value></data>
+  <data name="BUT_estoffset.Text" xml:space="preserve"><value>Estimar desfase</value></data>
+  <data name="BUT_doit.Text" xml:space="preserve"><value>Preprocesar</value></data>
+  <data name="BUT_browsedir.Text" xml:space="preserve"><value>Examinar imágenes</value></data>
+  <data name="BUT_browselog.Text" xml:space="preserve"><value>Examinar registro</value></data>
+  <data name="BUT_networklinkgeoref.Text" xml:space="preserve"><value>KML de ubicación</value></data>
+  <data name="RDIO_TimeOffset.Text" xml:space="preserve"><value>Desfase temporal</value></data>
+  <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve"><value>Mensaje CAM</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Rotación</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Campo de visión transversal</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Campo de visión longitudinal</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Intervalo mín. de disparo (s) (CAM)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Descartar imagen final</value></data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>Descartar imagen inicial</value></data>
+  <data name="chk_usegps2.Text" xml:space="preserve"><value>Usar GPS2</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Base de altitud relativa</value></data>
+  <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve"><value>Usar altitud sobre el nivel del mar</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Retardo del obturador (ms)</value></data>
+  <data name="chk_cammsg.Text" xml:space="preserve"><value>Usar mensajes CAM</value></data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve"><value>Mensaje de disparo</value></data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve"><value>Usar altitud GPS</value></data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve"><value>Usar altitud GPS</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Georreferenciar imágenes</value></data>
+</root>

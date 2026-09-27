@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="backstageViewPageSikradio.Text" xml:space="preserve">
-    <value>SiK Radio</value>
+    <value>SiK-Funkmodul</value>
   </data>
   <data name="backstageViewPageBatt2.Text" xml:space="preserve">
-    <value>Batterieanzeige 2</value>
+    <value>Akkuüberwachung 2</value>
   </data>
   <data name="backstageViewPageAntTrack.Text" xml:space="preserve">
-    <value>Antennen-Tracker</value>
+    <value>Antennentracker</value>
   </data>
   <data name="backstageViewPagehwbt.Text" xml:space="preserve">
-    <value>Bluetooth Einstellungen</value>
+    <value>Bluetooth einrichten</value>
   </data>
   <data name="backstageViewPagecompassmot.Text" xml:space="preserve">
-    <value>Kompass/Motor Kalibrierung</value>
+    <value>Kompass-/Motorkalibrierung</value>
   </data>
   <data name="backstageViewPageParachute.Text" xml:space="preserve">
     <value>Fallschirm</value>
@@ -139,7 +139,7 @@
     <value>Optionale Hardware</value>
   </data>
   <data name="backstageViewPageradio.Text" xml:space="preserve">
-    <value>Kalibrierung RC-Steuerung</value>
+    <value>Fernsteuerung kalibrieren</value>
   </data>
   <data name="backstageViewPageframetype.Text" xml:space="preserve">
     <value>Rahmentyp</value>
@@ -151,13 +151,13 @@
     <value>Firmware installieren</value>
   </data>
   <data name="backstageViewPageaccel.Text" xml:space="preserve">
-    <value>Kalibrierung Beschleunigungssensoren</value>
+    <value>Beschleunigungssensor-Kalibrierung</value>
   </data>
   <data name="backstageViewPagebatmon.Text" xml:space="preserve">
-    <value>Batterieanzeige</value>
+    <value>Akkuüberwachung</value>
   </data>
   <data name="backstageViewPageESC.Text" xml:space="preserve">
-    <value>Kalibrierung ESC</value>
+    <value>ESC-Kalibrierung</value>
   </data>
   <data name="backstageViewPageflmode.Text" xml:space="preserve">
     <value>Flugmodi</value>
@@ -166,12 +166,24 @@
     <value>Kompass</value>
   </data>
   <data name="backstageViewPagemand.Text" xml:space="preserve">
-    <value>Basis Hardware</value>
+    <value>Erforderliche Hardware</value>
   </data>
   <data name="backstageViewPagegimbal.Text" xml:space="preserve">
-    <value>Kamera Gimbal</value>
+    <value>Kameragimbal</value>
   </data>
   <data name="backstageViewPageinstfw.Text" xml:space="preserve">
     <value>Firmware installieren</value>
   </data>
+  <data name="backstageViewPageInitialParams.Text" xml:space="preserve"><value>Parameter für die Erstabstimmung</value></data>
+  <data name="backstageViewPageairspeed.Text" xml:space="preserve"><value>Fluggeschwindigkeit</value></data>
+  <data name="backstageViewPageESP.Text" xml:space="preserve"><value>ESP8266 einrichten</value></data>
+  <data name="backstageViewPagefs.Text" xml:space="preserve"><value>Failsafe</value></data>
+  <data name="backstageViewPageMotorTest.Text" xml:space="preserve"><value>Motortest</value></data>
+  <data name="backstageViewPageoptflow.Text" xml:space="preserve"><value>Optischer Fluss</value></data>
+  <data name="backstageViewPageosd.Text" xml:space="preserve"><value>OSD</value></data>
+  <data name="backstageViewPagePX4Flow.Text" xml:space="preserve"><value>PX4Flow</value></data>
+  <data name="backstageViewPagesonar.Text" xml:space="preserve"><value>Entfernungsmesser</value></data>
+  <data name="backstageViewPagetradheli.Text" xml:space="preserve"><value>Helikopter einrichten</value></data>
+  <data name="backstageViewPagewizard.Text" xml:space="preserve"><value>Assistent</value></data>
+  <data name="backstageViewPageSerial.Text" xml:space="preserve"><value>Serielle Ports</value></data>
 </root>

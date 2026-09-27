@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -529,7 +529,7 @@
     <value>86</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>동력 인가시 회전</value>
+    <value>시동 시 회전</value>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
@@ -679,7 +679,7 @@
     <value>91</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>모터 동력을 인가하였으나 추진력이 0일 때의 속력 (대기)</value>
+    <value>시동 상태에서 스로틀이 0일 때의 모터 속도(공회전)</value>
   </data>
   <data name="&gt;&gt;label11.Name" xml:space="preserve">
     <value>label11</value>
@@ -709,7 +709,7 @@
     <value>92</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>비행중 모터 최소 회전 속도 ("동력 인가시 회전" 때보다 약간 높음)</value>
+    <value>비행 중 모터 최소 속도(‘시동 시 회전’보다 약간 높음)</value>
   </data>
   <data name="&gt;&gt;label12.Name" xml:space="preserve">
     <value>label12</value>

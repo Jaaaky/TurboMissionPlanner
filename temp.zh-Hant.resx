@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_forcecal_accel.Text" xml:space="preserve"><value>強制加速度計校正</value></data>
+  <data name="BUT_forcecal_mag.Text" xml:space="preserve"><value>強制羅盤校正</value></data>
+  <data name="but_apjtool.Text" xml:space="preserve"><value>APJ 工具</value></data>
+  <data name="BUT_CoT.Text" xml:space="preserve"><value>CoT</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>近距離感測</value></data>
+  <data name="but_followswarm.Text" xml:space="preserve"><value>跟隨機群</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>MAVLink 2 簽章設定</value></data>
+  <data name="but_lockup.Text" xml:space="preserve"><value>使載具飛控停止回應</value></data>
+  <data name="but_td.Text" xml:space="preserve"><value>取得 threads.txt</value></data>
+  <data name="but_gpsinj.Text" xml:space="preserve"><value>擷取 gps_inject</value></data>
+  <data name="but_dem.Text" xml:space="preserve"><value>DEM</value></data>
+  <data name="BUT_magfit2.Text" xml:space="preserve"><value>磁力計校正記錄</value></data>
+  <data name="but_GDAL.Text" xml:space="preserve"><value>自訂 GDAL</value></data>
+  <data name="but_sortlogs.Text" xml:space="preserve"><value>重新分類所有記錄</value></data>
+  <data name="but_optflowcalib.Text" xml:space="preserve"><value>光流校正</value></data>
+  <data name="but_logdlscp.Text" xml:space="preserve"><value>透過 SCP 下載記錄</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>簽章</value></data>
+  <data name="but_acbarohight.Text" xml:space="preserve"><value>調整航空器氣壓高度</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>分割 DFLog</value></data>
+  <data name="but_driverclean.Text" xml:space="preserve"><value>清理驅動程式</value></data>
+  <data name="but_agemapdata.Text" xml:space="preserve"><value>清除過期地圖資料</value></data>
+  <data name="but_packetbytes.Text" xml:space="preserve"><value>解析封包位元組</value></data>
+  <data name="myButton_vlc.Text" xml:space="preserve"><value>VLC</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>建立 DashWare 資料輸入檔</value></data>
+  <data name="but_trimble.Text" xml:space="preserve"><value>序列機群</value></data>
+  <data name="but_hwids.Text" xml:space="preserve"><value>解碼硬體 ID</value></data>
+  <data name="BUT_QNH.Text" xml:space="preserve"><value>QNH</value></data>
+  <data name="but_reboot.Text" xml:space="preserve"><value>重新啟動 Pixhawk</value></data>
+  <data name="but_3dmap.Text" xml:space="preserve"><value>3D 地圖</value></data>
+  <data name="but_messageinterval.Text" xml:space="preserve"><value>訊息間隔</value></data>
+  <data name="but_blupdate.Text" xml:space="preserve"><value>升級開機載入程式</value></data>
+  <data name="BUT_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="but_disablearmswitch.Text" xml:space="preserve"><value>切換安全開關</value></data>
+  <data name="but_paramrestore.Text" xml:space="preserve"><value>還原參數</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>MAVLink 檢視器</value></data>
+  <data name="but_sitl_comb.Text" xml:space="preserve"><value>SITL 串流合併器</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>記錄匿名化</value></data>
+  <data name="but_dashware.Text" xml:space="preserve"><value>DashWare</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Tlog 瀏覽器</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>為目錄內所有 Tlog 建立地圖 JPG</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>執行雲台指向演算法</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>四旋翼：解鎖並起飛</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>結構轉換速度測試</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>清除自訂影像</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>將自訂影像加入 Mission Planner</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>下載所有目前版本韌體</value></data>
+  <data name="butlogindex.Text" xml:space="preserve"><value>記錄索引</value></data>
+  <data name="but_armandtakeoff.Text" xml:space="preserve"><value>解鎖並起飛</value></data>
+  <data name="but_maplogs.Text" xml:space="preserve"><value>在地圖顯示記錄</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>依類型與 sysid 將 Tlog 分類至對應目錄</value></data>
+  <data name="but_gimbaltest.Text" xml:space="preserve"><value>雲台測試</value></data>
+  <data name="but_structtest.Text" xml:space="preserve"><value>結構測試</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>建立 GPS 專用直通連線 (連接埠 500)</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>機群跟隨領航機</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>多載具機群介面</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>將 SHP 檔案轉換為多邊形檔案</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>在地圖上顯示代表您目前位置的額外圖示。</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>將 HUD 疊加至已錄製的影片</value></data>
+  <data name="BUT_clearcustommaps.Text" xml:space="preserve"><value>清除自訂地圖</value></data>
+  <data name="but_getfw.Text" xml:space="preserve"><value>擷取所有韌體</value></data>
+  <data name="BUT_geinjection.Text" xml:space="preserve"><value>匯入 GE</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>翻譯語言編輯器</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>重新產生 Mission Planner 使用的參數資訊</value></data>
+  <data name="BUT_sorttlogs.Text" xml:space="preserve"><value>分類 Tlog</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>鏡像傳送 Mission Planner 收到的 MAVLink 串流</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>以 Microdrone 格式輸出載具位置</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>以 NMEA 格式輸出載具位置</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>使用 NMEA GPS 執行「跟隨我」</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>建立自訂語音警告</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="BUT_outputMD.Text" xml:space="preserve"><value>MicroDrone</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>影像地理參考</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>警告管理員</value></data>
+  <data name="BUT_lang_edit.Text" xml:space="preserve"><value>語言編輯</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>跟隨我</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>產生參數資訊</value></data>
+  <data name="but_osdvideo.Text" xml:space="preserve"><value>OSD 視訊</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>移動基站</value></data>
+  <data name="BUT_shptopoly.Text" xml:space="preserve"><value>SHP 轉多邊形</value></data>
+  <data name="BUT_swarm.Text" xml:space="preserve"><value>機群</value></data>
+  <data name="BUT_followleader.Text" xml:space="preserve"><value>跟隨領航機</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>已移至 DataFlash 分頁</value></data>
+  <data name="but_mavserialport.Text" xml:space="preserve"><value>MAVSerial 直通</value></data>
+  <data name="but_hexmavlink.Text" xml:space="preserve"><value>十六進位 MAVLink 解碼</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>從記錄取得磁力計偏移量</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>顯示 PX4 光流感測器的影像資料</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>移除已安裝的驅動程式</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>模擬按下安全按鈕</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>設定自訂訊息傳送間隔</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>檢視所有傳送中的 MAVLink 封包</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>更新開機載入程式</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>3D 地圖測試</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>顯示所輸入硬體 ID 的資訊</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>偵錯十六進位字串格式的 MAVLink 封包</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>修改氣壓高度的參考高度</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>使飛控停止回應</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>顯示目前已載入的 DEM 資訊</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>透過 SCP - SSH (APSync) 下載記錄</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>重新分類 Mission Planner 記錄資料夾中的所有記錄</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>透過 GDAL 載入自訂地圖圖磚來源</value></data>
+  <data name="label47.Text" xml:space="preserve"><value>重新啟動飛控</value></data>
+  <data name="label48.Text" xml:space="preserve"><value>調整 QNH</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>label49</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>透過 VLC 顯示視訊串流，請改用 GStreamer</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>移除超過 30 天的影像圖磚</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>將 DFLog 分割為 x 份</value></data>
+  <data name="label53.Text" xml:space="preserve"><value>從 Tlog 擷取 RTCM 資料</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>顯示近距離感測介面</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>機群樣式</value></data>
+  <data name="but_remotedflogger.Text" xml:space="preserve"><value>啟動遠端 DataFlash 記錄器</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>輸出 Cursor-on-Target</value></data>
+  <data name="but_ManageCMDList.Text" xml:space="preserve"><value>管理指令清單</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>管理規劃器指令清單</value></data>
+  <data name="but_dfumode.Text" xml:space="preserve"><value>DFU 模式</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>DFU 模式</value></data>
+  <data name="label57.Text" xml:space="preserve"><value>還原參數後將加速度計標記為已校正</value></data>
+  <data name="label58.Text" xml:space="preserve"><value>還原參數後將磁力計標記為已校正</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>暫存</value></data>
+</root>

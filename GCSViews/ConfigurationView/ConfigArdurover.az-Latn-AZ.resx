@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Kruiz sürəti</value>
+    <value>Kreyser sürəti</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Dönüş sürəti</value>
+    <value>Dönmə radiusu</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Bucağı qoş</value>
+    <value>Dönmə bucağı</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Vaxtı qoş</value>
+    <value>Dönmə vaxtı</value>
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
     <value>Ekranı yenilə</value>
@@ -135,4 +135,38 @@
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
     <value>Parametrləri yenilə</value>
   </data>
+  <data name="label22.Text" xml:space="preserve"><value>Mühərrik növü</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Maks. qaz (%)</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Min. qaz (%)</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Qaz və mühərriklər</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Kreyser qazı</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Əyləc</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Maks. təcil (m/s/s)</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox14.Text" xml:space="preserve"><value>Sürət/qaz</value></data>
+  <data name="BUT_writePIDS.Text" xml:space="preserve"><value>Parametrləri yaz</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Marşrut sürəti</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Yan təcil idarəetməsinin sönümlənməsi</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Yan təcil idarəetməsinin periodu</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Marşrut nöqtəsini aşma</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Marşrut nöqtəsinin radiusu</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Maks. dönmə G-si</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Naviqasiya</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>FF</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Sükan bucaq sürəti</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Sonarın sıçrayış filtri</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>İşəsalma məsafəsi (sm)</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Maneədən yayınma</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Sükan rejimi</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>RC7 seçimi</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>RC8 seçimi</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>RC9 seçimi</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>RC10 seçimi</value></data>
 </root>

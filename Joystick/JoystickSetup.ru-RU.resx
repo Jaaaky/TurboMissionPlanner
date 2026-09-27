@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -148,10 +148,10 @@
     <value>Экспонента</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Вывод</value>
+    <value>Выход</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Оси контроллера</value>
+    <value>Ось контроллера</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Реверс</value>
@@ -177,4 +177,9 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Джойстик</value>
   </data>
+  <data name="CHK_elevons.Text" xml:space="preserve"><value>Элевоны</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Загружена конфигурация для</value></data>
+  <data name="chk_manualcontrol.Text" xml:space="preserve"><value>Ручное управление</value></data>
+  <data name="but_export.Text" xml:space="preserve"><value>Экспорт</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>Импорт</value></data>
 </root>

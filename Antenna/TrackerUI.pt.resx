@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Usando errado essa interface pode danificar o servo, use com cuidado!!!</value>
+    <value>A utilização incorreta desta interface pode danificar os servos. Tenha cuidado!</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Angulo</value>
+    <value>Ângulo</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Centralizar PWM</value>
+    <value>PWM central</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>Aceleração</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Angulo</value>
+    <value>Ângulo</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Centralizar PWM</value>
+    <value>PWM central</value>
   </data>
   <data name="BUT_find.Text" xml:space="preserve">
-    <value>Encontrar o Trim Span (buscar Radio)</value>
+    <value>Encontrar compensação horizontal (rádio SiK)</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>Aceleração</value>
@@ -148,24 +148,34 @@
     <value>Velocidade</value>
   </data>
   <data name="LBL_tilttrim.Text" xml:space="preserve">
-    <value>Angulo</value>
+    <value>Ângulo</value>
   </data>
   <data name="LBL_pantrim.Text" xml:space="preserve">
-    <value>Angulo</value>
+    <value>Ângulo</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Faixa</value>
+    <value>Amplitude</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Faixa</value>
+    <value>Amplitude</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Faixa PWM </value>
+    <value>Amplitude PWM</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Faixa PWM </value>
+    <value>Amplitude PWM</value>
   </data>
   <data name="BUT_connect.Text" xml:space="preserve">
     <value>Conectar</value>
   </data>
+  <data name="CMB_interface.Items" xml:space="preserve"><value>Maestro</value></data>
+  <data name="CMB_interface.Items1" xml:space="preserve"><value>ArduTracker</value></data>
+  <data name="CMB_interface.Text" xml:space="preserve"><value>Maestro</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Interface</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Compensação</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Compensação</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Rotação horizontal</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Inclinação</value></data>
+  <data name="CHK_revpan.Text" xml:space="preserve"><value>Inverter</value></data>
+  <data name="CHK_revtilt.Text" xml:space="preserve"><value>Inverter</value></data>
 </root>

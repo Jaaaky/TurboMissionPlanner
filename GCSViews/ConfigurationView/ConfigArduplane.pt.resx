@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,81 +118,114 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Subida Max (m/s)</value>
+    <value>Subida máx. (m/s)</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Dampin Pitch </value>
+    <value>Amortecimento de arfagem</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Descida Min (m/s)</value>
+    <value>Descida mín. (m/s)</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Constante de Tempo</value>
+    <value>Constante de tempo</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Descida  Max (m/s)</value>
+    <value>Descida máx. (m/s)</value>
   </data>
   <data name="label83.Text" xml:space="preserve">
-    <value>P até T</value>
+    <value>Arfagem para aceleração</value>
   </data>
   <data name="label57.Text" xml:space="preserve">
-    <value>Integrador Max</value>
+    <value>Máximo do integrador</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Taxa</value>
+    <value>Relação</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Controle L1- Contr de curva</value>
+    <value>Controlo L1 - controlo de curvas</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Cruzeiro</value>
   </data>
   <data name="label53.Text" xml:space="preserve">
-    <value>INiC_MAX</value>
+    <value>INT_MAX</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Taxa Slew</value>
+    <value>Taxa de variação</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Ângulos de navegação</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Aceleração 0-100%</value>
+    <value>Aceleração 0–100%</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Cruzeiro</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Veloc. no ar  m/s</value>
+    <value>Velocidade do ar (m/s)</value>
   </data>
   <data name="label58.Text" xml:space="preserve">
-    <value>Damping</value>
+    <value>Amortecimento</value>
   </data>
   <data name="groupBox16.Text" xml:space="preserve">
-    <value>Outros Mix's</value>
+    <value>Outras misturas</value>
   </data>
   <data name="groupBox14.Text" xml:space="preserve">
-    <value>Energia/Alt Pid</value>
+    <value>PID de energia/altitude</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>Max Pitch</value>
+    <value>Arfagem máx.</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>Max Bank</value>
+    <value>Inclinação lateral máx.</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>Min Pitch</value>
+    <value>Arfagem mín.</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Gravar  parametros</value>
+    <value>Gravar parâmetros</value>
   </data>
   <data name="label78.Text" xml:space="preserve">
-    <value>Leme Mix</value>
+    <value>Mistura do leme</value>
   </data>
   <data name="BUT_refreshpart.Text" xml:space="preserve">
-    <value>Atualizar tela</value>
+    <value>Atualizar ecrã</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Atual. Parametros</value>
+    <value>Atualizar parâmetros</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label73.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label74.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label75.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label76.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label69.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label70.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label71.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label72.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>PID de arfagem por altitude</value></data>
+  <data name="label65.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label66.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label67.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label68.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>PID de arfagem por velocidade do ar</value></data>
+  <data name="label59.Text" xml:space="preserve"><value>Integral</value></data>
+  <data name="label60.Text" xml:space="preserve"><value>Guinada para rolagem</value></data>
+  <data name="groupBox10.Text" xml:space="preserve"><value>Servo de guinada</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label55.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>PID do servo de arfagem</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>INT_MAX</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>PID do servo de rolagem</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Amortecimento</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Período</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>TECS</value></data>
 </root>

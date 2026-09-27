@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CHK_rotate.Text" xml:space="preserve"><value>Mit jedem Datenpunkt drehen</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Zielen Sie auf die weißen Punkte.
+Richten Sie den Autopiloten nach Norden aus und drehen Sie ihn
+um die Nickachse, bis er waagerecht liegt.
+Anschließend
+drehen Sie den Autopiloten um 90 Grad und dann um die
+Rollachse, bis er waagerecht liegt.
+
+So sollten alle weißen Punkte erreicht werden.</value></data>
+  <data name="chk_auto.Text" xml:space="preserve"><value>Automatisch übernehmen</value></data>
+</root>

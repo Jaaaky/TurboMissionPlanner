@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,67 +121,67 @@
     <value>Kritik</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>Yüksək Pwr</value>
+    <value>Yüksək güc</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Swash-Servo mövqeyi</value>
+    <value>Əyilmə avtomatı servosunun mövqeyi</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Kollektiv hərəkət</value>
+    <value>Kollektiv addımın gedişi</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Rudder hərəkət</value>
+    <value>İstiqamət sükanının gedişi</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Servo Modu</value>
+    <value>Servo rejimi</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>Zəif Pwr</value>
+    <value>Aşağı güc</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Faza bucagı</value>
+    <value>Faza bucağı</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>Rotor Sürət Nəzarəti</value>
+    <value>Rotor sürətinin idarəetməsi</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Sıfır</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Quyruq Sürəti</value>
+    <value>Quyruq sürəti</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>RSC Rampa dərəcəsi</value>
+    <value>RSC artım sürəti</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Uçuş(San)</value>
+    <value>Sürət yığma (san)</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Kollektiv Pre-Comp</value>
+    <value>Kollektiv addımın ilkin kompensasiyası</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Kollektiv eniş</value>
+    <value>Eniş kollektiv addımı</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Silkələnmə növü</value>
+    <value>Əyilmə avtomatının növü</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Dəyər(San)</value>
+    <value>Artım müddəti (san)</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Quyruq növü</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Dairəvi hərəkət</value>
+    <value>Siklik addımın gedişi</value>
   </data>
   <data name="groupBox11.Text" xml:space="preserve">
-    <value>Çıxış təcili</value>
+    <value>Qaz çıxışı</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
     <value>Mövqe</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>Kəsmək</value>
+    <value>Trim</value>
   </data>
   <data name="myButtonH_SV_MANzero.Text" xml:space="preserve">
     <value>Sıfır</value>
@@ -192,4 +192,35 @@
   <data name="label41.Text" xml:space="preserve">
     <value>Aşağı</value>
   </data>
+  <data name="fbl_modeFBL.Text" xml:space="preserve"><value>Flybar-sız</value></data>
+  <data name="H_SWASH_TYPE.Text" xml:space="preserve"><value>H1</value></data>
+  <data name="CCPM.Text" xml:space="preserve"><value>CCPM</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>Gücləndirmə əmsalı</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Yuxarı</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Tərs</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>Trim</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Tərs</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>Rejim 1 hədəf dəyəri</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Açılışda servo sınağı</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Asılı qalma kreni</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Piruet kompensasiyası</value></data>
+  <data name="myButtonH_SV_MANtest.Text" xml:space="preserve"><value>Sınaq</value></data>
+  <data name="myButtonH_SV_MANmin.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="myButtonH_SV_MANmax.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="myButtonH_SV_MANmanual.Text" xml:space="preserve"><value>Əl ilə</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Tərs</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Maks</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>V əyrisi</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Boş gediş</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>Əyri</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Acro eksponenti</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Stab 4</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Stab 3</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Stab 2</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Stab 1</value></data>
 </root>

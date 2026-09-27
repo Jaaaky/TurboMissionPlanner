@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Sposób użycia:
+1. Połącz wszystkie drony, w tym prowadzące (kliknij prawym przyciskiem górny pasek ikon i wybierz „Opcje połączenia”).
+2. Wybierz właściwy pojazd i ustaw go jako prowadzący naziemny.
+3. Wybierz właściwy pojazd i ustaw go jako prowadzący powietrzny.
+4. Wyślij trasę do drona prowadzącego w powietrzu.
+5. Ustaw odstępy i opcje wyprzedzenia.
+6. Poczekaj na ustalenie pozycji GPS wszystkich dronów i wykonaj kalibrację. W przeciwnym razie kontrola przed uzbrojeniem może się nie powieść. Warto sprawdzić to wcześniej.
+7. Upewnij się, że prowadzący naziemny jest gotowy i czeka na trasie lotu.
+8. Kliknij Uruchom.</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,9 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CHK_enableoptflow.Text" xml:space="preserve">
-    <value>Enable</value>
+    <value>Aktifkan</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Optical Flow</value>
+    <value>Aliran Optik  </value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>Jenis</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Orientasi Yaw</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Skala FX</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Skala FY</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Posisi X</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Posisi Y</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Posisi Z</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>derajat, relatif terhadap wahana</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>meter ke depan</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>meter ke kanan</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>meter ke bawah</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Posisi Sensor, relatif terhadap IMU</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Faktor Skala</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Penggantian Tinggi</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>meter dari tanah</value></data>
 </root>

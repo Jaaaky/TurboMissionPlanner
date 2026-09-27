@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CHK_rotate.Text" xml:space="preserve"><value>ھەر بىر سانلىق مەلۇمات نۇقتىسى بىلەن ئايلاندۇرۇش</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>ئاق چېكىتلەرنى نىشانلاڭ.
+ئاپتوماتىك ئۇچقۇچنى شىمالغا قارىتىپ، باش كۆتۈرۈش
+ئوقى ئەتراپىدا توغرىسىغا تەڭ بولغۇچە ئايلاندۇرۇڭ.
+ئاندىن
+ئاپتوماتىك ئۇچقۇچنى 90 گرادۇس بۇراپ، يان يېنىش
+ئوقى ئەتراپىدا توغرىسىغا تەڭ بولغۇچە ئايلاندۇرۇڭ.
+
+بۇ ئۇسۇلدا بارلىق ئاق چېكىتلەرگە يېتىش كېرەك.</value></data>
+  <data name="chk_auto.Text" xml:space="preserve"><value>ئاپتوماتىك قوبۇل قىلىش</value></data>
+</root>

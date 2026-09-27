@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,24 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_paramsfromlog.Text" xml:space="preserve">
-    <value>Extract Params</value>
+    <value>Extraire les paramètres</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Journal</value>
   </data>
   <data name="BUT_redokml.Text" xml:space="preserve">
-    <value>Créer KML</value>
+    <value>Créer KML + GPX</value>
   </data>
   <data name="BUT_getwpsfromlog.Text" xml:space="preserve">
-    <value>Extract WPs</value>
+    <value>Extraire les points de passage</value>
   </data>
   <data name="BUT_convertcsv.Text" xml:space="preserve">
-    <value>Convert to CSV</value>
+    <value>Convertir en CSV</value>
   </data>
   <data name="BUT_graphmavlog.Text" xml:space="preserve">
-    <value>Graph Log</value>
+    <value>Tracer le journal</value>
   </data>
   <data name="BUT_humanreadable.Text" xml:space="preserve">
     <value>Convertir en texte</value>
   </data>
+  <data name="BUT_matlab.Text" xml:space="preserve"><value>Créer un fichier MATLAB</value></data>
+  <data name="but_cs.Text" xml:space="preserve"><value>Extraire CS</value></data>
 </root>

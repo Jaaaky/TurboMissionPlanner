@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,15 +121,43 @@
     <value>Typ</value>
   </data>
   <data name="mavlinkCheckBox2.Text" xml:space="preserve">
-    <value>Umgekehrt</value>
+    <value>Umkehren</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
     <value>Typ</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Quelle Höhendaten</value>
+    <value>Höhenquelle</value>
   </data>
   <data name="groupBox22.Text" xml:space="preserve">
-    <value>Ausrichtung Autopilot</value>
+    <value>Boardausrichtung</value>
   </data>
+  <data name="BUT_test_yaw.Text" xml:space="preserve"><value>Test</value></data>
+  <data name="mavlinkCheckBox1.Text" xml:space="preserve"><value>Umkehren</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Neutral</value></data>
+  <data name="label90.Text" xml:space="preserve"><value>Max</value></data>
+  <data name="label91.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="groupBox25.Text" xml:space="preserve"><value>Gierservo</value></data>
+  <data name="BUT_test_pitch.Text" xml:space="preserve"><value>Test</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Neutral</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Max</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Min</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Nickservo</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Bereich (Grad)</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Gierstellbereich</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Max. (Grad)</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Min. (Grad)</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Nickstellbereich</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Max. Drehrate</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label88.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>Gierverstärkung</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Max. Drehrate</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>P</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>Nickverstärkung</value></data>
 </root>

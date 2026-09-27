@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label47.Text" xml:space="preserve"><value>پین ولتاژ</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>ظرفیت باتری</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>پایشگر</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>پین جریان</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>mAh</value></data>
+  <data name="CHK_speechbattery.Text" xml:space="preserve"><value>هشدار باتری ضعیف در MP</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>۶. آمپر بر ولت:</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>۳. ضریب تقسیم ولتاژ (محاسبه‌شده):</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>۲. ولتاژ باتری (محاسبه‌شده):</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>۱. ولتاژ اندازه‌گیری‌شدهٔ باتری:</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>۵. جریان (محاسبه‌شده)</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>۴. جریان اندازه‌گیری‌شده:</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>کالیبراسیون</value></data>
+</root>

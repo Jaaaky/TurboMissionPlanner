@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Poniższe strony służą wyłącznie do konfiguracji zaawansowanej. Zachowaj ostrożność.</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>Inspektor MAVLink</value></data>
+  <data name="but_warningmanager.Text" xml:space="preserve"><value>Menedżer ostrzeżeń</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>Czujniki zbliżeniowe</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>Podpisywanie MAVLink</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>Przekazywanie MAVLink</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Udostępnij połączenie inżynierowi wsparcia</value></data>
+  <data name="BUT_supportproxy.Text" xml:space="preserve"><value>Serwer pośredniczący wsparcia</value></data>
+  <data name="BUT_spect.Text" xml:space="preserve"><value>Spektrogram</value></data>
+  <data name="but_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Wysyłaj pozycję pojazdu jako komunikat NMEA</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Przekazywanie MAVLink do zewnętrznego odbiorcy w celu monitorowania lub sterowania</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Włącz podpisywanie MAVLink, aby zabezpieczyć komunikację z pojazdem</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Wyświetl dane z lidaru 360°</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Włącz własne ostrzeżenia na podstawie zestawu warunków</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Wyświetl zdekodowane dane wysyłane i odbierane przez MAVLink</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Anonimizuj współrzędne geograficzne w pliku BIN lub TLOG</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>Podążaj za mną</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Użyj zewnętrznego odbiornika GPS NMEA i wysyłaj pojazdowi punkty trybu Guided na podstawie jego pozycji</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Ponownie wygeneruj opisy parametrów używane w Mission Planner</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>Generator parametrów</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Pokaż dodatkową ikonę bieżącej pozycji na mapie.</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>Ruchoma baza</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>Anonimizacja dziennika</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Wykreśl FFT z dziennika</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Wykreśl FFT z dziennika</value></data>
+</root>

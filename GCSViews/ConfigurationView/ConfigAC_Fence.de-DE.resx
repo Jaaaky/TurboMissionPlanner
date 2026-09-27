@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -127,12 +127,15 @@
     <value>Aktion</value>
   </data>
   <data name="label1gftitle.Text" xml:space="preserve">
-    <value>Geo Zaun</value>
+    <value>Geofence</value>
   </data>
   <data name="label2rtlalt.Text" xml:space="preserve">
-    <value>RTL Höhe</value>
+    <value>RTL-Höhe</value>
   </data>
   <data name="label4type.Text" xml:space="preserve">
     <value>Typ</value>
   </data>
+  <data name="label6maxalt.Text" xml:space="preserve"><value>Max. Höhe</value></data>
+  <data name="label7maxrad.Text" xml:space="preserve"><value>Max. Radius</value></data>
+  <data name="label8minalt.Text" xml:space="preserve"><value>Min. Höhe</value></data>
 </root>

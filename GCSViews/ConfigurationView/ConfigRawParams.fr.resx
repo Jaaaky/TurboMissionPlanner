@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -118,19 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Value.HeaderText" xml:space="preserve">
-    <value>Value</value>
+    <value>Valeur</value>
   </data>
   <data name="BUT_load.Text" xml:space="preserve">
-    <value>Load</value>
+    <value>Charger depuis un fichier</value>
   </data>
   <data name="Command.HeaderText" xml:space="preserve">
-    <value>Command</value>
+    <value>Nom</value>
   </data>
   <data name="Default.HeaderText" xml:space="preserve">
     <value>Default</value>
   </data>
   <data name="BUT_save.Text" xml:space="preserve">
-    <value>Save</value>
+    <value>Enregistrer dans un fichier</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
     <value>Écrire les paramètres</value>
@@ -148,14 +148,14 @@
     <value>Actualiser les paramètres</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Toutes les unités sont au format
-brut sans mise à l'échelle</value>
+    <value>Toutes les unités sont au format brut,
+sans mise à l’échelle</value>
   </data>
   <data name="BUT_paramfileload.Text" xml:space="preserve">
-    <value>Charger pré-enregistré</value>
+    <value>Charger les valeurs enregistrées</value>
   </data>
   <data name="BUT_reset_params.Text" xml:space="preserve">
-    <value>Réinitialiser par défaut</value>
+    <value>Rétablir les valeurs par défaut</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Rechercher</value>
@@ -170,9 +170,14 @@ brut sans mise à l'échelle</value>
     <value>Actualiser le tableau</value>
   </data>
   <data name="chk_none_default.Text" xml:space="preserve">
-    <value>Non par défaut</value>
+    <value>Différents des valeurs par défaut</value>
   </data>
   <data name="but_collapse.Text" xml:space="preserve">
     <value>&lt;</value>
   </data>
+  <data name="Default_value.HeaderText" xml:space="preserve"><value>Par défaut</value></data>
+  <data name="Units.HeaderText" xml:space="preserve"><value>Unités</value></data>
+  <data name="Options.HeaderText" xml:space="preserve"><value>Options</value></data>
+  <data name="Desc.HeaderText" xml:space="preserve"><value>Description</value></data>
+  <data name="Fav.HeaderText" xml:space="preserve"><value>Favori</value></data>
 </root>

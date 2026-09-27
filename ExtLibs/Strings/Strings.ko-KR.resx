@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,7 +124,8 @@
     <value>이 필드를 그래프로 표시할 수 없습니다</value>
   </data>
   <data name="CommandFailed" xml:space="preserve">
-    <value>명령 실행에 실패했습니다</value>
+    <value>명령을 실행하지 못했습니다
+</value>
   </data>
   <data name="ERROR" xml:space="preserve">
     <value>오류</value>
@@ -136,10 +137,11 @@
     <value>오토파일럿 통신 오류</value>
   </data>
   <data name="ErrorConnecting" xml:space="preserve">
-    <value>연결 오류</value>
+    <value>연결 오류
+</value>
   </data>
   <data name="ErrorFeatureNotEnabled" xml:space="preserve">
-    <value>이 기능은 현재 펌웨어에서 쓸 수 없씁니다.</value>
+    <value>현재 펌웨어에서 이 기능이 활성화되어 있지 않습니다.</value>
   </data>
   <data name="ErrorFirmwareFile" xml:space="preserve">
     <value>펌웨어 파일 불러오는 중 오류</value>
@@ -164,7 +166,7 @@
     <value>파일 이름 바꾸는 중 오류</value>
   </data>
   <data name="ErrorSettingParameter" xml:space="preserve">
-    <value>매개변수 설정 중 오류</value>
+    <value>매개변수 설정 오류: </value>
   </data>
   <data name="ErrorSetValueFailed" xml:space="preserve">
     <value>{0} 설정 실패</value>
@@ -182,7 +184,8 @@
     <value>잘못된 파일 이름</value>
   </data>
   <data name="InvalidNumberEntered" xml:space="preserve">
-    <value>잘못된 입력 숫자 값 </value>
+    <value>입력한 숫자가 잘못되었습니다
+</value>
   </data>
   <data name="InvalidPanRange" xml:space="preserve">
     <value>잘못된 좌우 이동 범위</value>
@@ -194,10 +197,10 @@
     <value>잘못된 상하 이동 범위</value>
   </data>
   <data name="InvalidUpdateRate" xml:space="preserve">
-    <value>잘못된 업데이트 전송율</value>
+    <value>잘못된 갱신 주기</value>
   </data>
   <data name="NoFMTMessage" xml:space="preserve">
-    <value>다음에 대한 형식 메시지 없음:</value>
+    <value>FMT 메시지 없음: </value>
   </data>
   <data name="PleaseConnect" xml:space="preserve">
     <value>우선 연결하십시오</value>
@@ -212,8 +215,8 @@
     <value>통신 포트를 선택하십시오</value>
   </data>
   <data name="WarningLogBrowseFMTMissing" xml:space="preserve">
-    <value>로그에 연식 메시지가 없어 로그 탐색기가 제대로 동작하지 않습니다.
-로그에서 빠진 것으로 보입니다.</value>
+    <value>로그에 FMT 메시지가 없으면 로그 탐색기가 정상 작동하지 않습니다.
+현재 로그에 해당 메시지가 없는 것으로 보입니다.</value>
   </data>
   <data name="WarningUpdateParamList" xml:space="preserve">
     <value>매개변수 업데이트
@@ -221,13 +224,13 @@
 </value>
   </data>
   <data name="Checking" xml:space="preserve">
-    <value>확인 중</value>
+    <value>확인 중: </value>
   </data>
   <data name="DownloadedFromInternet" xml:space="preserve">
     <value>인터넷에서 다운로드 함</value>
   </data>
   <data name="Getting" xml:space="preserve">
-    <value>가져오는 중</value>
+    <value>가져오는 중: </value>
   </data>
   <data name="GettingUpdatedParams" xml:space="preserve">
     <value>최신 매개변수 가져오는 중</value>
@@ -236,13 +239,13 @@
     <value>고급 매개변수</value>
   </data>
   <data name="BasicTuning" xml:space="preserve">
-    <value>기본 설정</value>
+    <value>기본 튜닝</value>
   </data>
   <data name="Desc" xml:space="preserve">
-    <value>설명:</value>
+    <value>설명: </value>
   </data>
   <data name="ExtendedTuning" xml:space="preserve">
-    <value>세부 설정 확장</value>
+    <value>확장 튜닝</value>
   </data>
   <data name="FlightModes" xml:space="preserve">
     <value>비행 모드</value>
@@ -275,7 +278,7 @@
     <value>연결 끊기</value>
   </data>
   <data name="Failclog" xml:space="preserve">
-    <value>지상 통제 장치 로그 만들기 실패 - 이 세션은 로그를 남기지 않음</value>
+    <value>지상 관제소 로그를 만들지 못했습니다. 이번 세션은 기록되지 않습니다</value>
   </data>
   <data name="NewFirmware" xml:space="preserve">
     <value>새 펌웨어</value>
@@ -285,13 +288,14 @@
 </value>
   </data>
   <data name="Pleaseup" xml:space="preserve">
-    <value>업그레이드 하십시오</value>
+    <value>
+업그레이드하십시오</value>
   </data>
   <data name="Stillmoving" xml:space="preserve">
-    <value>모델이 여전히 움직입니다. 그래도 연결을 끊으시겠습니까?</value>
+    <value>기체가 아직 움직이고 있습니다. 연결을 해제하시겠습니까?</value>
   </data>
   <data name="Timeout" xml:space="preserve">
-    <value>자동 탐색/MAVLink 장치 연결 없음 대기 제한 시간</value>
+    <value>자동 검색 시간 초과 또는 연결된 MAVLink 장치 없음</value>
   </data>
   <data name="ConnectFailed" xml:space="preserve">
     <value>연결 실패</value>
@@ -309,33 +313,33 @@
     <value>매개변수 가져오는 중...</value>
   </data>
   <data name="Gotparam" xml:space="preserve">
-    <value>매개변수 가져옴:</value>
+    <value>가져온 매개변수: </value>
   </data>
   <data name="MavlinkConnecting" xml:space="preserve">
     <value>MAVLink 연결 중...</value>
   </data>
   <data name="Only1Hb" xml:space="preserve">
-    <value>주기 신호 1회만 수신</value>
+    <value>하트비트 1개만 수신됨</value>
   </data>
   <data name="Only1HbD" xml:space="preserve">
-    <value>포트에서 MAVLink 주기 신호 패킷 1회만 읽었습니다 - 하드웨어를 올바르게 설정했는지 확인하십시오
-프로그램에서는 연결하기 전에 2회의 전송 주기 신호를 기다립니다</value>
+    <value>이 포트에서 MAVLink 하트비트 패킷을 1개만 수신했습니다. 하드웨어 설정을 확인하십시오
+Mission Planner는 유효한 하트비트 패킷 2개를 수신한 후 연결합니다</value>
   </data>
   <data name="Trying" xml:space="preserve">
     <value>연결 시도 중입니다.
-{0}초 후 경과</value>
+{0} 후 시간 초과</value>
   </data>
   <data name="CantDetectBoardVersion" xml:space="preserve">
     <value>보드 버전을 확인할 수 없습니다. 케이블 연결을 확인하십시오</value>
   </data>
   <data name="CheckPortSettingsOr" xml:space="preserve">
-    <value>포트 설정을 확인했거나 포트를 사용중입니까?</value>
+    <value>포트 설정을 확인하십시오. 다른 프로그램에서 포트를 사용 중입니까?</value>
   </data>
   <data name="CommunicationErrorNoConnection" xml:space="preserve">
     <value>통신 오류 - 연결 안 함</value>
   </data>
   <data name="DetectedA" xml:space="preserve">
-    <value>감지:</value>
+    <value>감지됨: </value>
   </data>
   <data name="DetectingBoardVersion" xml:space="preserve">
     <value>보드 버전 확인중</value>
@@ -344,10 +348,11 @@
     <value>인터넷에서 다운로드중</value>
   </data>
   <data name="EppromChanged" xml:space="preserve">
-    <value>EPPROM 을 바꿨습니다. 업데이트를 진행하는 동안 모든 설정값을 잃습니다,계속합니까?</value>
+    <value>EEPROM 형식이 변경되어 업데이트 시 모든 설정이 삭제됩니다.
+계속하시겠습니까?</value>
   </data>
   <data name="EppromFormatChanged" xml:space="preserve">
-    <value>EPPROM 형식 바뀜 ({0) 대 {1})</value>
+    <value>EEPROM 형식 변경({0) 대 {1})</value>
   </data>
   <data name="FailedDownload" xml:space="preserve">
     <value>다운로드 실패</value>
@@ -392,7 +397,7 @@
     <value>펌웨어 검증</value>
   </data>
   <data name="UploadSucceededButVerifyFailed" xml:space="preserve">
-    <value>업로드에 성공했으나, 검증에는 실패했습니다: 기대값 {0} 실제값 {1} 위치:</value>
+    <value>업로드했지만 검증에 실패했습니다. 예상값 {0}, 실제값 {1}, 위치: </value>
   </data>
   <data name="ReadingHex" xml:space="preserve">
     <value>Hex 읽는 중</value>
@@ -404,22 +409,24 @@
     <value>경고</value>
   </data>
   <data name="WarningAC32" xml:space="preserve">
-    <value>경고: AC 3.2를 처음 설치할 경우 지자계를 다시 보정해야합니다.</value>
+    <value>경고: AC 3.2를 처음 설치하는 경우 반드시 나침반을 다시 보정해야 합니다.</value>
   </data>
   <data name="WarningAC31" xml:space="preserve">
-    <value>경고, MOT_SPIN_ARMED 매개변수로 설정할 수 있는 AC 3.1 모터는 기본적으로 이륙 준비를 완료하는 즉시 모터가 회전합니다.</value>
+    <value>경고: AC 3.1부터는 시동 시 모터가 회전합니다. MOT_SPIN_ARMED 매개변수로 설정할 수 있습니다.</value>
   </data>
   <data name="MagCalibMsg" xml:space="preserve">
     <value>확인을 누른 후 모든 축에 대해 원형으로 기체를 움직이십시오</value>
   </data>
   <data name="MissingDataPoints" xml:space="preserve">
-    <value>핵심 데이터가 빠져있습니다. 그래도 보정을 진행하시겠습니까?</value>
+    <value>누락된 데이터 지점이 있습니다. 그래도 보정을 진행하시겠습니까?</value>
   </data>
   <data name="RunAnyway" xml:space="preserve">
     <value>어쨌든 실행</value>
   </data>
   <data name="UpdateFound" xml:space="preserve">
-    <value>업데이트 찾음</value>
+    <value>업데이트가 있습니다
+
+지금 업데이트하시겠습니까? </value>
   </data>
   <data name="UpdateNow" xml:space="preserve">
     <value>지금 업데이트</value>
@@ -438,7 +445,7 @@
     <value>확인</value>
   </data>
   <data name="LinkStats" xml:space="preserve">
-    <value>연결 상태</value>
+    <value>연결 통계</value>
   </data>
   <data name="Stop" xml:space="preserve">
     <value>정지</value>
@@ -450,7 +457,7 @@
     <value>시작</value>
   </data>
   <data name="AreYouSureYouWantToUpload" xml:space="preserve">
-    <value>정말로 업로드합니까?</value>
+    <value>다음을 업로드하시겠습니까? </value>
   </data>
   <data name="Beta" xml:space="preserve">
     <value>베타</value>
@@ -480,22 +487,22 @@
     <value>비정상적 GPS 신호</value>
   </data>
   <data name="BadGyroHealth" xml:space="preserve">
-    <value>잘못된 각속도계 상태</value>
+    <value>자이로 이상</value>
   </data>
   <data name="BadAccelHealth" xml:space="preserve">
-    <value>잘못된 가속계 상태</value>
+    <value>가속도계 이상</value>
   </data>
   <data name="BadCompassHealth" xml:space="preserve">
-    <value>잘못된 지자계 상태</value>
+    <value>나침반 이상</value>
   </data>
   <data name="BadBaroHealth" xml:space="preserve">
-    <value>잘못된 기압계 상태</value>
+    <value>기압계 이상</value>
   </data>
   <data name="BadLiDARHealth" xml:space="preserve">
-    <value>잘못돈 LiDAR 상태 </value>
+    <value>LiDAR 이상</value>
   </data>
   <data name="BadOptFlowHealth" xml:space="preserve">
-    <value>잘못된 광류계 상태</value>
+    <value>광류 센서 이상</value>
   </data>
   <data name="BadorNoTerrainData" xml:space="preserve">
     <value>잘못되거나 누락된 지형 데이터</value>
@@ -510,19 +517,19 @@
     <value>RC 수신기 없음</value>
   </data>
   <data name="AutoWP" xml:space="preserve">
-    <value>자동 경로 설정</value>
+    <value>자동 경유점</value>
   </data>
   <data name="EnsurePropsNotOn" xml:space="preserve">
-    <value>속성 값이 비행기/쿼드콥터가 아닌지 확인하십시오</value>
+    <value>비행기/쿼드콥터에서 프로펠러를 분리했는지 확인하십시오</value>
   </data>
   <data name="FailSafe" xml:space="preserve">
-    <value>안전 장치</value>
+    <value>페일세이프</value>
   </data>
   <data name="Error_binding" xml:space="preserve">
     <value>바인딩 오류</value>
   </data>
   <data name="Put_the_transmitter_in_bind_mode__Receiver_is_waiting" xml:space="preserve">
-    <value>트랜스미터를 바인드 모드에 두었습니다. 수신기는 대기 중입니다.</value>
+    <value>조종기를 바인딩 모드로 전환하십시오. 수신기가 대기 중입니다.</value>
   </data>
   <data name="Completed" xml:space="preserve">
     <value>완료</value>
@@ -544,7 +551,7 @@
 프로그램에서는 30초간 보드를 찾습니다</value>
   </data>
   <data name="ThisBoardHasBeenRetired" xml:space="preserve">
-    <value>이 보드가 오래되어, 이 프로그램에서 해당 보드용 최신 펌웨어를 업로드합니다 (AC 3.2.1/AP 3.4.0)</value>
+    <value>지원이 종료된 보드입니다. Mission Planner가 이 보드에서 지원하는 마지막 버전(AC 3.2.1/AP 3.4.0)을 업로드합니다.</value>
   </data>
   <data name="YouAreUsingUnsupportedHardware" xml:space="preserve">
     <value>지원하지 않는 하드웨어를 사용중입니다.
@@ -564,28 +571,28 @@
     <value>이 지점으로 설정</value>
   </data>
   <data name="TrackerHome" xml:space="preserve">
-    <value>트래커 원점</value>
+    <value>트래커 홈</value>
   </data>
   <data name="velocity_variance" xml:space="preserve">
-    <value>속도 변화</value>
+    <value>속도 분산</value>
   </data>
   <data name="compass_variance" xml:space="preserve">
-    <value>지자계 변화</value>
+    <value>나침반 분산</value>
   </data>
   <data name="pos_horiz_variance" xml:space="preserve">
-    <value>수평 위치 변화</value>
+    <value>수평 위치 분산</value>
   </data>
   <data name="pos_vert_variance" xml:space="preserve">
-    <value>수직 위치 변화</value>
+    <value>수직 위치 분산</value>
   </data>
   <data name="terrain_alt_variance" xml:space="preserve">
-    <value>지형 고도 변화</value>
+    <value>지형 고도 분산</value>
   </data>
   <data name="ChangeThrottle" xml:space="preserve">
-    <value>추진력 변경</value>
+    <value>스로틀 변경</value>
   </data>
   <data name="Invalid_home_location" xml:space="preserve">
-    <value>잘못된 원점 위치</value>
+    <value>잘못된 홈 위치</value>
   </data>
   <data name="Converting_bin_to_log" xml:space="preserve">
     <value>bin -&gt; log 변환중</value>
@@ -618,10 +625,10 @@
     <value>포트에서 유효한 주기신호를 읽지 못했습니다</value>
   </data>
   <data name="Bad_Vision_Position" xml:space="preserve">
-    <value>잘못된 시각 확인 위치</value>
+    <value>비전 위치 추정 이상</value>
   </data>
   <data name="BadLogging" xml:space="preserve">
-    <value>잘못된 로그</value>
+    <value>로깅 이상</value>
   </data>
   <data name="ParamRefreshRequired" xml:space="preserve">
     <value>매개변수 갱신이 필요합니다 - F5키를 누르십시오
@@ -631,7 +638,7 @@
     <value>SITL 이미지 다운로드 실패</value>
   </data>
   <data name="Not_available_when_used_as_a_windows_store_app" xml:space="preserve">
-    <value>윈도우 스토어 엡을 사용할 경우 사용할 수 없습니다.</value>
+    <value>Windows 스토어 앱에서는 사용할 수 없습니다</value>
   </data>
   <data name="No_firmware_available_for_this_board" xml:space="preserve">
     <value>이 보드용 펌웨어는 없습니다!</value>
@@ -643,28 +650,28 @@
     <value>사용자 매개변수</value>
   </data>
   <data name="Planner" xml:space="preserve">
-    <value>프로그램</value>
+    <value>플래너</value>
   </data>
   <data name="Cancel" xml:space="preserve">
     <value>취소</value>
   </data>
   <data name="No_valid_sik_radio" xml:space="preserve">
-    <value>유효한 SiK 무선 신호를 받지 못했습니다</value>
+    <value>유효한 SiK 무선 모뎀 없음</value>
   </data>
   <data name="MAVFtp" xml:space="preserve">
     <value>MAVFtp</value>
   </data>
   <data name="Bad_Battery" xml:space="preserve">
-    <value>잘못된 배터리 상태</value>
+    <value>배터리 이상</value>
   </data>
   <data name="Bad_Proximity" xml:space="preserve">
-    <value>잘못된 근접 센서 값</value>
+    <value>근접 센서 이상</value>
   </data>
   <data name="Bad_SatCom" xml:space="preserve">
-    <value>잘못된 위성 신호 값</value>
+    <value>위성 통신 이상</value>
   </data>
   <data name="Prearm_check_failed" xml:space="preserve">
-    <value>이륙 준비 전 검사 실패 - 메세지를 확인하십시오</value>
+    <value>시동 전 점검 실패 - 메시지를 확인하십시오</value>
   </data>
   <data name="Invalid_Location" xml:space="preserve">
     <value>잘못된 위치</value>
@@ -672,4 +679,12 @@
   <data name="Loading" xml:space="preserve">
     <value>불러오는 중</value>
   </data>
+  <data name="BadAirspeed" xml:space="preserve"><value>대기속도 센서 이상</value></data>
+  <data name="ZeroAltWarningCopter" xml:space="preserve"><value>경유점 #{0}의 고도가 0입니다. 이는 고도를 변경하지 않음을 의미합니다! 실제로 고도를 0으로 설정하려면 0.01로 변경하십시오. 경유점 업로드를 계속하시겠습니까, 아니면 취소하시겠습니까?</value></data>
+  <data name="ZeroAltWarningTitle" xml:space="preserve"><value>고도 0 경고</value></data>
+  <data name="ZeroAltWarningPlane" xml:space="preserve"><value>경유점 #{0}의 고도가 0입니다. 실제로 고도를 0으로 설정하려면 예측 가능한 동작을 위해 0.01로 변경하십시오.
+
+ArduPlane에서는 고도 0이 실제 고도 0 또는 현재 고도 유지로 해석될 수 있습니다. 일반적으로 WAYPOINT 명령은 고도 0을 그대로 적용하고 LOITER 명령은 ‘현재 고도 사용’으로 해석하지만, 고도 기준이 ‘상대’인 경우에만 그렇습니다. 다른 예외가 있을 수 있으며 향후 버전에서 변경될 수도 있습니다.
+
+현재 상황에서 어떤 동작이 발생할지 정확히 이해하는 경우에만 0으로 설정하십시오(시뮬레이터로 확인하십시오).[link;https://ardupilot.org/plane/docs/common-mavlink-mission-command-messages-mav_cmd.html;명령 문서]</value></data>
 </root>

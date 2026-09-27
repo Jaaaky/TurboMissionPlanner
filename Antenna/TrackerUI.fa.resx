@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CMB_interface.Items" xml:space="preserve"><value>Maestro</value></data>
+  <data name="CMB_interface.Items1" xml:space="preserve"><value>ArduTracker</value></data>
+  <data name="CMB_interface.Text" xml:space="preserve"><value>Maestro</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>رابط</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>تریم</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>بازه</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>بازه</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>تریم</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>چرخش افقی</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>چرخش عمودی</value></data>
+  <data name="CHK_revpan.Text" xml:space="preserve"><value>معکوس</value></data>
+  <data name="CHK_revtilt.Text" xml:space="preserve"><value>معکوس</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>بازهٔ PWM</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>بازهٔ PWM</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>زاویه</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>زاویه</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>استفادهٔ نادرست از این رابط می‌تواند به سروو آسیب برساند؛ با احتیاط استفاده کنید!</value></data>
+  <data name="BUT_connect.Text" xml:space="preserve"><value>اتصال</value></data>
+  <data name="LBL_pantrim.Text" xml:space="preserve"><value>زاویه</value></data>
+  <data name="LBL_tilttrim.Text" xml:space="preserve"><value>زاویه</value></data>
+  <data name="BUT_find.Text" xml:space="preserve"><value>یافتن تریم چرخش افقی (رادیوی SiK)</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>PWM مرکز</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>PWM مرکز</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>سرعت</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>شتاب</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>شتاب</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>سرعت</value></data>
+</root>

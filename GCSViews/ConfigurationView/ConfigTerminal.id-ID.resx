@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,27 +121,35 @@
     <value>APM</value>
   </data>
   <data name="BUTtests.Text" xml:space="preserve">
-    <value>Test</value>
+    <value>Pengujian</value>
   </data>
   <data name="BUT_ConnectAPM.Text" xml:space="preserve">
-    <value>Connect</value>
+    <value>Hubungkan</value>
   </data>
   <data name="Logs.Text" xml:space="preserve">
-    <value>Download Log</value>
+    <value>Unduh Log</value>
   </data>
   <data name="BUTradiosetup.Text" xml:space="preserve">
-    <value>Pengaturan Radio</value>
+    <value>Atur Radio</value>
   </data>
   <data name="BUT_disconnect.Text" xml:space="preserve">
-    <value>Memutuskan</value>
+    <value>Putuskan</value>
   </data>
   <data name="TXT_terminal.Text" xml:space="preserve">
-    <value>* Catatan * Silahkan klik connect di atas LI Bekerja hanya pada pertama menghubungkan kekuasaan, log-download hanya melalui USB Versi yang lebih baru hanya mendukung log download melalui mavlink, silakan lihat flightdata&gt; log dataflash</value>
+    <value>*CATATAN* Klik Hubungkan di atas
+CLI hanya berfungsi pada koneksi pertama setelah daya dinyalakan; pengunduhan log hanya melalui USB
+Versi yang lebih baru hanya mendukung pengunduhan log melalui MAVLink, lihat Data Penerbangan &gt; Log DataFlash
+</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
-    <value>Log Browse</value>
+    <value>Telusuri Log</value>
   </data>
   <data name="BUTsetupshow.Text" xml:space="preserve">
-    <value>Tampilkan Pengaturan </value>
+    <value>Tampilkan Pengaturan</value>
   </data>
+  <data name="CMB_boardtype.Items" xml:space="preserve"><value>APM</value></data>
+  <data name="CMB_boardtype.Items1" xml:space="preserve"><value>PX4/PIXHAWK</value></data>
+  <data name="CMB_boardtype.Items2" xml:space="preserve"><value>VRX/VRBRAIN</value></data>
+  <data name="CMB_boardtype.Items3" xml:space="preserve"><value>NSH</value></data>
+  <data name="CMB_boardtype.Items4" xml:space="preserve"><value>SSH</value></data>
 </root>

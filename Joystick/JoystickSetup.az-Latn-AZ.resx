@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label14.Text" xml:space="preserve">
-    <value>Yüklənmiş konfiqurasiya</value>
+    <value>Konfiqurasiya yükləndi:</value>
   </data>
   <data name="chk_manualcontrol.Text" xml:space="preserve">
-    <value>Manuel idarəetmə</value>
+    <value>Əl ilə idarəetmə</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Diyirlənmə</value>
@@ -133,13 +133,13 @@
     <value>Sükan</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Kontrol oxları</value>
+    <value>Kontroller oxu</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Əksinə</value>
+    <value>Tərsinə çevir</value>
   </data>
   <data name="BUT_save.Text" xml:space="preserve">
-    <value>Yaddaşa yaz</value>
+    <value>Saxla</value>
   </data>
   <data name="BUT_detch6.Text" xml:space="preserve">
     <value>Avto Detekt</value>
@@ -168,4 +168,9 @@
   <data name="BUT_enable.Text" xml:space="preserve">
     <value>Aktiv et</value>
   </data>
+  <data name="label5.Text" xml:space="preserve"><value>Coystik</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Eksponent</value></data>
+  <data name="CHK_elevons.Text" xml:space="preserve"><value>Elevonlar</value></data>
+  <data name="but_export.Text" xml:space="preserve"><value>İxrac et</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>İdxal et</value></data>
 </root>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>Триває завантаження журналу. Скасувати?</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>Ви впевнені?</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>Створення KML для {0}</value></data>
+  <data name="Done" xml:space="preserve"><value>Готово</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>Завантаження журналів до: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>!! Стирання триватиме 30–90 секунд</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>Помилка обробки файлу. Переконайтеся, що він не використовується.</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>Отримання файлу журналу {0} ...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>Отримання списку журналів...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>Не вдалося створити каталог журналів: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>Немає журналів для завантаження</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>Під’єднайте апарат</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>Позначте потрібні журнали прапорцями в списку</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>Обробка {0}</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>Знайдено журналів: {0}. Примітка: розміри приблизні.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>Помилка:</value></data>
+</root>

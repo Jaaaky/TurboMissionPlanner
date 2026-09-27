@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,73 +118,73 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pointCameraHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Titik Kamera Berikutnya</value>
+    <value>Arahkan Kamera ke Sini</value>
   </data>
   <data name="BUT_setmode.ToolTip" xml:space="preserve">
-    <value>Perubahan Mode disebelah kiri</value>
+    <value>Beralih ke mode di sebelah kiri</value>
   </data>
   <data name="BUT_edit_selected.Text" xml:space="preserve">
-    <value>Edit Script yang dipilih</value>
+    <value>Edit Skrip Terpilih</value>
   </data>
   <data name="BUT_abort_script.Text" xml:space="preserve">
-    <value>Batal Menjalankan Script</value>
+    <value>Batalkan Skrip yang Berjalan</value>
   </data>
   <data name="BUT_quickmanual.Text" xml:space="preserve">
-    <value>Berkeliaran</value>
+    <value>Loiter</value>
   </data>
   <data name="tabServo.Text" xml:space="preserve">
-    <value>Servo</value>
+    <value>Servo/Relai</value>
   </data>
   <data name="BUT_playlog.Text" xml:space="preserve">
-    <value>Play/Pause</value>
+    <value>Putar/Jeda</value>
   </data>
   <data name="BUT_setwp.ToolTip" xml:space="preserve">
-    <value>Perubahan target  saat waypoint</value>
+    <value>Ubah titik lintasan target saat ini</value>
   </data>
   <data name="BUT_quickauto.ToolTip" xml:space="preserve">
-    <value>Ubah Modus untuk Automatic</value>
+    <value>Ubah mode ke Auto</value>
   </data>
   <data name="goHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Terbang Kesini</value>
+    <value>Terbang ke Sini</value>
   </data>
   <data name="BUT_speed1_10.Text" xml:space="preserve">
     <value>1/10</value>
   </data>
   <data name="quickView1.ToolTip" xml:space="preserve">
-    <value>Klik dual kali untuk Mengubah</value>
+    <value>Klik dua kali untuk mengubah</value>
   </data>
   <data name="checkBoxRedirectOutput.Text" xml:space="preserve">
-    <value>Mengarahkan Program Keluaran</value>
+    <value>Alihkan Keluaran Program</value>
   </data>
   <data name="BUT_RAWSensor.Text" xml:space="preserve">
-    <value>Lihat Sensor Raw </value>
+    <value>Tampilan Sensor Mentah</value>
   </data>
   <data name="but_bintolog.Text" xml:space="preserve">
-    <value>PX4 .Bin to .Log</value>
+    <value>Konversi .Bin ke .Log</value>
   </data>
   <data name="BUTrestartmission.ToolTip" xml:space="preserve">
-    <value>Mulai Ulang Misi dari awal</value>
+    <value>Mulai ulang misi dari awal</value>
   </data>
   <data name="BUT_abortland.ToolTip" xml:space="preserve">
-    <value>Plane only</value>
+    <value>Khusus pesawat</value>
   </data>
   <data name="BUT_loganalysis.Text" xml:space="preserve">
-    <value>Analisa Otomatis</value>
+    <value>Analisis Otomatis</value>
   </data>
   <data name="tabPagePreFlight.Text" xml:space="preserve">
-    <value>PreFlight</value>
+    <value>Prapenerbangan</value>
   </data>
   <data name="BUT_clear_track.ToolTip" xml:space="preserve">
-    <value>Bersihkan jalan yang di rekam pada peta</value>
+    <value>Hapus jalur yang terekam di peta</value>
   </data>
   <data name="BUT_resumemis.Text" xml:space="preserve">
     <value>Lanjutkan Misi</value>
   </data>
   <data name="CB_tuning.ToolTip" xml:space="preserve">
-    <value>Tampilkan grafik tunning, chowing sikap sasaran vs aktual</value>
+    <value>Tampilkan grafik penyetelan yang membandingkan sikap target dengan sikap aktual</value>
   </data>
   <data name="russianHudToolStripMenuItem.Text" xml:space="preserve">
-    <value>Russian Hud</value>
+    <value>HUD Rusia</value>
   </data>
   <data name="lbl_hdop.Text" xml:space="preserve">
     <value>hdop: 0</value>
@@ -193,109 +193,109 @@
     <value>Kecepatan</value>
   </data>
   <data name="BUT_ARM.ToolTip" xml:space="preserve">
-    <value>Mempersenjatai Mav</value>
+    <value>Arm MAV</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Langsung ke arus WP</value>
+    <value>Langsung ke Titik Lintasan Saat Ini</value>
   </data>
   <data name="BUT_log2kml.Text" xml:space="preserve">
-    <value>Tlog &gt; Kml atau grafik</value>
+    <value>Tlog &gt; KML atau Grafik</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Zoom</value>
+    <value>Perbesaran</value>
   </data>
   <data name="BUT_clear_track.Text" xml:space="preserve">
-    <value>Bersihkan Track</value>
+    <value>Hapus Jejak</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>GPS Track (HItam)</value>
+    <value>Jejak GPS (Hitam)</value>
   </data>
   <data name="BUT_ARM.Text" xml:space="preserve">
-    <value>Lengan / Lucuti</value>
+    <value>Arm/Disarm</value>
   </data>
   <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
     <value>Naik</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Saat Heading</value>
+    <value>Arah Hadap Saat Ini</value>
   </data>
   <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
     <value>Hapus</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Target Heading</value>
+    <value>Arah Hadap Target</value>
   </data>
   <data name="userItemsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pengguna Produk</value>
+    <value>Item Pengguna</value>
   </data>
   <data name="myButton1.ToolTip" xml:space="preserve">
-    <value>Rubahan Mode untuk Manual / Menstabilkan</value>
+    <value>Ubah mode ke Manual/Stabilize</value>
   </data>
   <data name="tabActionsSimple.Text" xml:space="preserve">
     <value>Tindakan</value>
   </data>
   <data name="BUT_DFMavlink.Text" xml:space="preserve">
-    <value>Download DataFlash Log Via Mavlink</value>
+    <value>Unduh Log DataFlash Melalui MAVLink</value>
   </data>
   <data name="CHK_autopan.ToolTip" xml:space="preserve">
-    <value>Membuat peta autopan berdasarkan lokasi</value>
+    <value>Geser peta secara otomatis berdasarkan lokasi saat ini</value>
   </data>
   <data name="BUT_quickrtl.ToolTip" xml:space="preserve">
-    <value>Ubah Mode RTL</value>
+    <value>Ubah mode ke RTL</value>
   </data>
   <data name="tablogbrowse.Text" xml:space="preserve">
-    <value>DataFlash Logs</value>
+    <value>Log DataFlash</value>
   </data>
   <data name="BUT_mountmode.ToolTip" xml:space="preserve">
-    <value>Perubahan Mode di sebelah kiri</value>
+    <value>Beralih ke mode di sebelah kiri</value>
   </data>
   <data name="tabGauges.Text" xml:space="preserve">
-    <value>Pengukur</value>
+    <value>Instrumen</value>
   </data>
   <data name="CHK_autopan.Text" xml:space="preserve">
-    <value>Auto Pan</value>
+    <value>Geser Otomatis</value>
   </data>
   <data name="setMJPEGSourceToolStripMenuItem.Text" xml:space="preserve">
-    <value>Mengatur Sumber MJPEG</value>
+    <value>Atur Sumber MJPEG</value>
   </data>
   <data name="BUT_joystick.Text" xml:space="preserve">
     <value>Joystick</value>
   </data>
   <data name="Zoomlevel.ToolTip" xml:space="preserve">
-    <value>Perubahan Tingkat Zoom</value>
+    <value>Ubah Tingkat Perbesaran</value>
   </data>
   <data name="CB_tuning.Text" xml:space="preserve">
-    <value>Tuning</value>
+    <value>Penyetelan</value>
   </data>
   <data name="BUT_speed10.Text" xml:space="preserve">
     <value>10x</value>
   </data>
   <data name="triggerCameraToolStripMenuItem.Text" xml:space="preserve">
-    <value>Trigger Camera SEKARANG</value>
+    <value>Picu Kamera SEKARANG</value>
   </data>
   <data name="BUT_run_script.Text" xml:space="preserve">
-    <value>Jalankan Script</value>
+    <value>Jalankan Skrip</value>
   </data>
   <data name="dropOutToolStripMenuItem.Text" xml:space="preserve">
     <value>Drop Out</value>
   </data>
   <data name="tabScripts.Text" xml:space="preserve">
-    <value>Scripts</value>
+    <value>Skrip</value>
   </data>
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
     <value>Turun</value>
   </data>
   <data name="lbl_sats.Text" xml:space="preserve">
-    <value>Sats: 0</value>
+    <value>Satelit: 0</value>
   </data>
   <data name="BUTactiondo.Text" xml:space="preserve">
-    <value>Do Action</value>
+    <value>Jalankan Tindakan</value>
   </data>
   <data name="BUTrestartmission.Text" xml:space="preserve">
-    <value>Restart Misi</value>
+    <value>Mulai Ulang Misi</value>
   </data>
   <data name="BUT_quickmanual.ToolTip" xml:space="preserve">
-    <value>Perubahan Mode untuk Manual / Stabilkan</value>
+    <value>Ubah mode ke Manual/Stabilize</value>
   </data>
   <data name="BUT_speed1_2.Text" xml:space="preserve">
     <value>1/2</value>
@@ -304,28 +304,28 @@
     <value>Lepas Landas</value>
   </data>
   <data name="BUT_RAWSensor.ToolTip" xml:space="preserve">
-    <value>Lihat Gyro baku dan nilai-nilai Accel, dan Radio Baku in / ou</value>
+    <value>Lihat nilai mentah giroskop dan akselerometer, serta masukan/keluaran radio mentah</value>
   </data>
   <data name="setAspectRatioToolStripMenuItem.Text" xml:space="preserve">
-    <value>Set Aspect Ratio</value>
+    <value>Atur Rasio Aspek</value>
   </data>
   <data name="saveFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Menyimpan File</value>
+    <value>Simpan Berkas</value>
   </data>
   <data name="BUT_speed1_4.Text" xml:space="preserve">
     <value>1/4</value>
   </data>
   <data name="BUT_matlab.Text" xml:space="preserve">
-    <value>Buat berkas Matlab</value>
+    <value>Buat Berkas Matlab</value>
   </data>
   <data name="BUT_abortland.Text" xml:space="preserve">
-    <value>Abort Landing</value>
+    <value>Batalkan Pendaratan</value>
   </data>
   <data name="Gspeed.ToolTip" xml:space="preserve">
-    <value>Klik dua kali untuk mengubah Max</value>
+    <value>Klik dua kali untuk mengubah nilai maksimum</value>
   </data>
   <data name="labelScriptStatus.Text" xml:space="preserve">
-    <value>Status Script: tidak menjalankan Script</value>
+    <value>Status Skrip: Tidak Ada Skrip Berjalan</value>
   </data>
   <data name="but_dflogtokml.Text" xml:space="preserve">
     <value>Buat KML + gpx</value>
@@ -337,19 +337,19 @@
     <value>Tindakan</value>
   </data>
   <data name="BUTactiondo.ToolTip" xml:space="preserve">
-    <value>Preform the action ot the left</value>
+    <value>Jalankan tindakan di sebelah kiri</value>
   </data>
   <data name="BUT_Homealt.Text" xml:space="preserve">
-    <value>Set Home Alt</value>
+    <value>Atur Ketinggian Titik Asal</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Set Home here</value>
+    <value>Tetapkan Titik Asal di Sini</value>
   </data>
   <data name="labelSelectedScript.Text" xml:space="preserve">
-    <value>Script yang dipilih: tidak ada</value>
+    <value>Skrip Terpilih: Tidak Ada</value>
   </data>
   <data name="swapWithMapToolStripMenuItem.Text" xml:space="preserve">
-    <value>Swap With Map</value>
+    <value>Tukar dengan Peta</value>
   </data>
   <data name="tabQuick.Text" xml:space="preserve">
     <value>Cepat</value>
@@ -358,16 +358,16 @@
     <value>5x</value>
   </data>
   <data name="BUT_loadtelem.Text" xml:space="preserve">
-    <value>Memuat Log</value>
+    <value>Muat Log</value>
   </data>
   <data name="addPoiToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tambahkan Poi</value>
+    <value>Tambah POI</value>
   </data>
   <data name="BUT_joystick.ToolTip" xml:space="preserve">
-    <value>Setup dan aktifkan joystick</value>
+    <value>Atur dan aktifkan joystick Anda</value>
   </data>
   <data name="BUT_Homealt.ToolTip" xml:space="preserve">
-    <value>Mengatur tampilan alt saat ini sebagai 0, yaitu rumah alt ditampilkan sebagai 0</value>
+    <value>Tetapkan ketinggian tampilan saat ini sebagai 0, sehingga ketinggian titik asal ditampilkan sebagai 0</value>
   </data>
   <data name="BUT_speed2.Text" xml:space="preserve">
     <value>2x</value>
@@ -376,7 +376,7 @@
     <value>1x</value>
   </data>
   <data name="recordHudToAVIToolStripMenuItem.Text" xml:space="preserve">
-    <value>Recam Hud ke AVI</value>
+    <value>Rekam HUD ke AVI</value>
   </data>
   <data name="tabStatus.Text" xml:space="preserve">
     <value>Status</value>
@@ -385,22 +385,22 @@
     <value>Auto</value>
   </data>
   <data name="BUT_setwp.Text" xml:space="preserve">
-    <value>Set WP</value>
+    <value>Atur Titik Lintasan</value>
   </data>
   <data name="myButton3.Text" xml:space="preserve">
-    <value>Atomatis</value>
+    <value>Auto</value>
   </data>
   <data name="BUT_select_script.Text" xml:space="preserve">
-    <value>Pilih Script</value>
+    <value>Pilih Skrip</value>
   </data>
   <data name="tabTLogs.Text" xml:space="preserve">
-    <value>Telemetri Log</value>
+    <value>Log Telemetri</value>
   </data>
   <data name="myButton2.ToolTip" xml:space="preserve">
-    <value>Ubah Mode ke RTL</value>
+    <value>Ubah mode ke RTL</value>
   </data>
   <data name="myButton1.Text" xml:space="preserve">
-    <value>Berkeliaran</value>
+    <value>Loiter</value>
   </data>
   <data name="myButton2.Text" xml:space="preserve">
     <value>RTL</value>
@@ -409,36 +409,92 @@
     <value>0.00 %</value>
   </data>
   <data name="flightPlannerToolStripMenuItem.Text" xml:space="preserve">
-    <value>Perencanaan Penerbangan</value>
+    <value>Perencana Penerbangan</value>
   </data>
   <data name="BUT_mountmode.Text" xml:space="preserve">
-    <value>Set Mount</value>
+    <value>Atur Dudukan</value>
   </data>
   <data name="myButton3.ToolTip" xml:space="preserve">
-    <value>Ubah modus untuk Atomatis</value>
+    <value>Ubah mode ke Auto</value>
   </data>
   <data name="BUT_setmode.Text" xml:space="preserve">
-    <value>Set Mode</value>
+    <value>Atur Mode</value>
   </data>
   <data name="lbl_playbackspeed.Text" xml:space="preserve">
     <value>x 1.0</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
-    <value>Meninjau Log</value>
+    <value>Tinjau Log</value>
   </data>
   <data name="stopRecordToolStripMenuItem.Text" xml:space="preserve">
-    <value>Rekam di hentikan</value>
+    <value>Hentikan Rekaman</value>
   </data>
   <data name="BUT_quickrtl.Text" xml:space="preserve">
     <value>RTL</value>
   </data>
   <data name="flyToHereAltToolStripMenuItem.Text" xml:space="preserve">
-    <value>Terbang ke Alt</value>
+    <value>Ketinggian Terbang ke Sini</value>
   </data>
   <data name="lbl_sats.ToolTip" xml:space="preserve">
-    <value>Hitungan Satallite</value>
+    <value>Jumlah Satelit</value>
   </data>
   <data name="lbl_hdop.ToolTip" xml:space="preserve">
-    <value>gps hdop</value>
+    <value>HDOP GPS</value>
   </data>
+  <data name="startCameraToolStripMenuItem.Text" xml:space="preserve"><value>Mulai Kamera</value></data>
+  <data name="setGStreamerSourceToolStripMenuItem.Text" xml:space="preserve"><value>Atur Sumber GStreamer</value></data>
+  <data name="hereLinkVideoToolStripMenuItem.Text" xml:space="preserve"><value>Video HereLink</value></data>
+  <data name="gStreamerStopToolStripMenuItem.Text" xml:space="preserve"><value>Hentikan GStreamer</value></data>
+  <data name="videoToolStripMenuItem.Text" xml:space="preserve"><value>Video</value></data>
+  <data name="groundColorToolStripMenuItem.Text" xml:space="preserve"><value>Warna Tanah</value></data>
+  <data name="setBatteryCellCountToolStripMenuItem.Text" xml:space="preserve"><value>Tegangan Sel Baterai</value></data>
+  <data name="showIconsToolStripMenuItem.Text" xml:space="preserve"><value>Tampilkan Ikon</value></data>
+  <data name="customizeToolStripMenuItem.Text" xml:space="preserve"><value>Sesuaikan</value></data>
+  <data name="multiLineToolStripMenuItem.Text" xml:space="preserve"><value>Multibaris</value></data>
+  <data name="setViewCountToolStripMenuItem.Text" xml:space="preserve"><value>Atur Jumlah Tampilan</value></data>
+  <data name="undockToolStripMenuItem.Text" xml:space="preserve"><value>Lepaskan Panel</value></data>
+  <data name="BUT_SendMSG.Text" xml:space="preserve"><value>Pesan</value></data>
+  <data name="BUT_SendMSG.ToolTip" xml:space="preserve"><value>Kirim pesan untuk disimpan dalam log wahana</value></data>
+  <data name="CMB_setwp.Items" xml:space="preserve"><value>0 (Titik Asal)</value></data>
+  <data name="NACp_lbl.Text" xml:space="preserve"><value>NACp</value></data>
+  <data name="NIC_lbl.Text" xml:space="preserve"><value>NIC</value></data>
+  <data name="fault_clb.Items" xml:space="preserve"><value>Perlu Perawatan</value></data>
+  <data name="fault_clb.Items1" xml:space="preserve"><value>GPS Tidak Tersedia</value></data>
+  <data name="fault_clb.Items2" xml:space="preserve"><value>GPS Belum Ada Posisi</value></data>
+  <data name="fault_clb.Items3" xml:space="preserve"><value>Sistem TX Gagal</value></data>
+  <data name="fault_clb.Items4" xml:space="preserve"><value>Di Darat</value></data>
+  <data name="XPDRConnect_btn.Text" xml:space="preserve"><value>Hubungkan ke Transponder</value></data>
+  <data name="Squawk_label.Text" xml:space="preserve"><value>Squawk</value></data>
+  <data name="FlightID_label.Text" xml:space="preserve"><value>ID Penerbangan</value></data>
+  <data name="IDENT_btn.Text" xml:space="preserve"><value>IDENT</value></data>
+  <data name="ALT_btn.Text" xml:space="preserve"><value>ALT</value></data>
+  <data name="STBY_btn.Text" xml:space="preserve"><value>STBY</value></data>
+  <data name="ON_btn.Text" xml:space="preserve"><value>ON</value></data>
+  <data name="Mode_clb.Items" xml:space="preserve"><value>Mode A</value></data>
+  <data name="Mode_clb.Items1" xml:space="preserve"><value>Mode C</value></data>
+  <data name="Mode_clb.Items2" xml:space="preserve"><value>Mode S</value></data>
+  <data name="Mode_clb.Items3" xml:space="preserve"><value>1090ES ADS-B OUT</value></data>
+  <data name="tabTransponder.Text" xml:space="preserve"><value>Transponder</value></data>
+  <data name="tabAuxFunction.Text" xml:space="preserve"><value>Fungsi Tambahan</value></data>
+  <data name="BUT_GimbalVideo.Text" xml:space="preserve"><value>Kendali Video</value></data>
+  <data name="groupBoxRoll.Text" xml:space="preserve"><value>Roll</value></data>
+  <data name="groupBoxYaw.Text" xml:space="preserve"><value>Putar horizontal</value></data>
+  <data name="BUT_resetGimbalPos.Text" xml:space="preserve"><value>Atur Ulang Posisi</value></data>
+  <data name="groupBoxPitch.Text" xml:space="preserve"><value>Kemiringan</value></data>
+  <data name="tabPayload.Text" xml:space="preserve"><value>Kendali Muatan</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>Georeferensi Gambar</value></data>
+  <data name="flyToCoordsToolStripMenuItem.Text" xml:space="preserve"><value>Terbang ke Koordinat</value></data>
+  <data name="loadFileToolStripMenuItem.Text" xml:space="preserve"><value>Muat Berkas</value></data>
+  <data name="poiatcoordsToolStripMenuItem.Text" xml:space="preserve"><value>Koordinat</value></data>
+  <data name="PointCameraCoordsToolStripMenuItem1.Text" xml:space="preserve"><value>Arahkan Kamera ke Koordinat</value></data>
+  <data name="setEKFHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>Tetapkan Titik Acuan EKF di Sini</value></data>
+  <data name="setHomeHereToolStripMenuItem1.Text" xml:space="preserve"><value>Tetapkan Titik Asal di Sini</value></data>
+  <data name="onOffCameraOverlapToolStripMenuItem.Text" xml:space="preserve"><value>Tumpang Tindih Kamera</value></data>
+  <data name="jumpToTagToolStripMenuItem.Text" xml:space="preserve"><value>Lompat ke Tag</value></data>
+  <data name="gimbalVideoFullSizedToolStripMenuItem.Text" xml:space="preserve"><value>Ukuran Penuh</value></data>
+  <data name="gimbalVideoMiniToolStripMenuItem.Text" xml:space="preserve"><value>Mini</value></data>
+  <data name="gimbalVideoPopOutToolStripMenuItem.Text" xml:space="preserve"><value>Buka Terpisah</value></data>
+  <data name="gimbalVideoToolStripMenuItem.Text" xml:space="preserve"><value>Video Gimbal</value></data>
+  <data name="but_disablejoystick.Text" xml:space="preserve"><value>Nonaktifkan Joystick</value></data>
+  <data name="openScriptDialog.Filter" xml:space="preserve"><value>Berkas Python|*.py|Semua berkas|*.*</value></data>
 </root>

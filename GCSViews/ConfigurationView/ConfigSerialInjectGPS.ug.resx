@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="lbl_status1.Text" xml:space="preserve"><value>9999 bps</value></data>
+  <data name="chk_rtcmmsg.Text" xml:space="preserve"><value>ئۇچۇر كىرگۈزۈش تىپى</value></data>
+  <data name="chk_rtcmmsg.ToolTip" xml:space="preserve"><value>بۇ ئاپتوماتىك ئۇچقۇچتىكى مۇقىم دېتال نەشرىگە باغلىق. مۇمكىن بولسا قوزغىتىلغان پېتى قالدۇرۇڭ، چۈنكى يېڭى ئۇچۇر تىپى سانلىق مەلۇمات بۇزۇلۇشىنى تېخىمۇ ياخشى بىر تەرەپ قىلىدۇ</value></data>
+  <data name="lbl_svin.Text" xml:space="preserve"><value>بەزە ئورنىنى ئۆلچەش</value></data>
+  <data name="lbl_svin.ToolTip" xml:space="preserve"><value>بەزە ئورنىنى ئۆلچەش ئۇچۇرى
+Valid: ئۆلچەش نەتىجىسى ئىناۋەتلىكمۇ
+InProgress: ھازىر ئورنىمىز ئۆلچىنىۋاتامدۇ
+Duration: ئۆلچەشكە كەتكەن سېكۇنت سانى
+Obs: ئۆلچەشتە ئىشلىتىلگەن كۆزىتىش سانى
+Acc: ئۆلچەنگەن نۇقتىنىڭ نۆۋەتتىكى ئېنىقلىقى
+</value></data>
+  <data name="chk_autoconfig.Text" xml:space="preserve"><value>قوبۇللىغۇچنى ئاپتوماتىك سەپلەش</value></data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve"><value>تاللانغان ئېغىزغا ئۇلانغان قوبۇللىغۇچنى تۈزىتىش ئۇچۇرلىرىنى چىقىرىدىغان قىلىپ ئاپتوماتىك سەپلەش.</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>ئۇلانغاندا قوبۇللىغۇچ GPS نىڭ ئېنىق ئورنىنى بەلگىلەش ئۈچۈن «بەزە ئورنىنى ئۆلچەش»نى باشلايدۇ.
+RTCM بەزە ئورنى ئۆزگەرمەيدىغان بولغاندا ئۆلچەش تاماملىنىدۇ.
+ئورۇن ۋە سىگنالغا قاراپ بىر نەچچە مىنۇت كېتىشى مۇمكىن.
+
+ئۆلچەش تاماملانغاندىن كېيىن ئىشلىتىشكە تەييار بولىسىز.
+</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>RTCM سۈنئىي ھەمراھ سىستېمىسى ئىشلىتىلىشى</value></data>
+  <data name="label21.ToolTip" xml:space="preserve"><value>قوبۇللىغۇچ قايسى سۈنئىي ھەمراھ سىستېمىلىرى ئۈچۈن تۈزىتىش چىقىرىدىغانلىقىنى تاللاڭ. سىستېما كۆپەيسە سانلىق مەلۇمات نىسبىتى يۇقىرىلايدۇ.</value></data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve"><value>Galileo RTCM ئۇچۇر چىقىرىشىنى ئالماشتۇرۇش.</value></data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve"><value>BeiDou RTCM ئۇچۇر چىقىرىشىنى ئالماشتۇرۇش.</value></data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve"><value>GLONASS RTCM ئۇچۇر چىقىرىشىنى ئالماشتۇرۇش.</value></data>
+  <data name="chk_septentriogps.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve"><value>GPS RTCM ئۇچۇر چىقىرىشىنى ئالماشتۇرۇش.</value></data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve"><value>ئارىلىق بەلگىلەش</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>RTCM ئۇچۇر ئارىلىقى (s)</value></data>
+  <data name="label20.ToolTip" xml:space="preserve"><value>قوبۇللىغۇچنىڭ RTCM ئۇچۇرلىرىنى قانچە ۋاقىتتا بىر چىقىرىدىغانلىقىنى تاللاڭ. كىچىك قىممەت سانلىق مەلۇمات نىسبىتىنى يۇقىرىلىتىدۇ.</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>RTCM ئۇچۇر مىقدارى</value></data>
+  <data name="label19.ToolTip" xml:space="preserve"><value>RTCM ئۇچۇرلىرىدىكى تەپسىلات مىقدارىنى تاللاڭ. چوڭ قىممەت سانلىق مەلۇمات نىسبىتىنى يۇقىرىلىتىدۇ.</value></data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve"><value>يېنىك</value></data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve"><value>ئاساسىي</value></data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve"><value>تولۇق</value></data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve"><value>مۇقىم ئورۇن</value></data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve"><value>بەزە پونكىتى ئانتېنناسىنىڭ ئورنىنى قوبۇللىغۇچ ئاپتوماتىك بەلگىلىمەستىن، مۇقىم ئورۇن كىرگۈزۈڭ. بۇ تۈزىتىش ئېنىقلىقىنى ئاشۇرالايدۇ.
+</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>كەڭلىك (WGS84)</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>ئۇزۇنلۇق (WGS84)</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>ئېگىزلىك (m)</value></data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve"><value>ئورۇن بەلگىلەش</value></data>
+  <data name="but_restartsvin.Text" xml:space="preserve"><value>قايتا قوزغىتىش</value></data>
+  <data name="but_restartsvin.ToolTip" xml:space="preserve"><value>نۆۋەتتىكى بەزە پونكىتىنىڭ ئۆلچەنگەن ئورنىنى ساقلاشقا ئىشلىتىلىدۇ</value></data>
+  <data name="chk_m8p_130p.Text" xml:space="preserve"><value>M8P مۇقىم دېتال 130+/F9P</value></data>
+  <data name="chk_m8p_130p.ToolTip" xml:space="preserve"><value>بەزە ۋە كۆچمە قوبۇللىغۇچتا u-blox مۇقىم دېتالى 1.30 ياكى ئۇنىڭدىن يۇقىرى بولسا، بۇنى تاللاڭ</value></data>
+  <data name="but_save_basepos.Text" xml:space="preserve"><value>نۆۋەتتىكى ئورۇننى ساقلاش</value></data>
+  <data name="but_save_basepos.ToolTip" xml:space="preserve"><value>نۆۋەتتىكى بەزە پونكىتىنىڭ ئۆلچەنگەن ئورنىنى ساقلاشقا ئىشلىتىلىدۇ</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>كەڭلىك/ECEFX</value></data>
+  <data name="Long.HeaderText" xml:space="preserve"><value>ئۇزۇنلۇق/ECEFY</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>ئېگىزلىك/ECEFZ</value></data>
+  <data name="BaseName1.HeaderText" xml:space="preserve"><value>نام</value></data>
+  <data name="Use.HeaderText" xml:space="preserve"><value>ئىشلىتىش</value></data>
+  <data name="Delete.HeaderText" xml:space="preserve"><value>ئۆچۈرۈش</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>ۋاقىت (s)</value></data>
+  <data name="txt_surveyinAcc.ToolTip" xml:space="preserve"><value>بەزە ئۆلچەش ئېنىقلىق چېكى. خاتالىق بۇنىڭدىن كىچىك بولۇشى كېرەك</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>بەزە ئۆلچەش ئېنىقلىقى (m)</value></data>
+  <data name="label1.ToolTip" xml:space="preserve"><value>بەزە ئۆلچەش تاماملىنىش ئۈچۈن ئېنىقلىق ۋە ۋاقىت شەرتلىرىنىڭ ھەر ئىككىسى ئورۇنلىنىشى كېرەك
+مەسىلەن، ئېنىقلىق خاتالىقى 2 m دىن كىچىك، كۆزىتىش ۋاقتى 60 سېكۇنتتىن ئۇزۇن بولۇش</value></data>
+  <data name="txt_surveyinDur.ToolTip" xml:space="preserve"><value>بەزە ئۆلچەشنىڭ ئەڭ قىسقا ۋاقتى. بۇ ساندىن ئۇزۇن بولۇشى كېرەك</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>بەزە ئورنىنى ئۆلچەش</value></data>
+  <data name="label10.ToolTip" xml:space="preserve"><value>بەزە ئورنىنى ئۆلچەش ئۇچۇرى
+Valid: ئۆلچەش نەتىجىسى ئىناۋەتلىكمۇ
+InProgress: ھازىر ئورنىمىز ئۆلچىنىۋاتامدۇ
+Duration: ئۆلچەشكە كەتكەن سېكۇنت سانى
+Obs: ئۆلچەشتە ئىشلىتىلگەن كۆزىتىش سانى
+Acc: ئۆلچەنگەن نۇقتىنىڭ نۆۋەتتىكى ئېنىقلىقى
+</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>بەزە ئورنىنى ئۆلچەش</value></data>
+  <data name="label7.ToolTip" xml:space="preserve"><value>بەزە ئورنىنى ئۆلچەش ئۇچۇرى
+Valid: ئۆلچەش نەتىجىسى ئىناۋەتلىكمۇ
+InProgress: ھازىر ئورنىمىز ئۆلچىنىۋاتامدۇ
+Duration: ئۆلچەشكە كەتكەن سېكۇنت سانى
+Obs: ئۆلچەشتە ئىشلىتىلگەن كۆزىتىش سانى
+Acc: ئۆلچەنگەن نۇقتىنىڭ نۆۋەتتىكى ئېنىقلىقى
+</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>بەزە ئورنىنى ئۆلچەش</value></data>
+  <data name="label9.ToolTip" xml:space="preserve"><value>بەزە ئورنىنى ئۆلچەش ئۇچۇرى
+Valid: ئۆلچەش نەتىجىسى ئىناۋەتلىكمۇ
+InProgress: ھازىر ئورنىمىز ئۆلچىنىۋاتامدۇ
+Duration: ئۆلچەشكە كەتكەن سېكۇنت سانى
+Obs: ئۆلچەشتە ئىشلىتىلگەن كۆزىتىش سانى
+Acc: ئۆلچەنگەن نۇقتىنىڭ نۆۋەتتىكى ئېنىقلىقى
+</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>بەزە ئورنىنى ئۆلچەش</value></data>
+  <data name="label8.ToolTip" xml:space="preserve"><value>بەزە ئورنىنى ئۆلچەش ئۇچۇرى
+Valid: ئۆلچەش نەتىجىسى ئىناۋەتلىكمۇ
+InProgress: ھازىر ئورنىمىز ئۆلچىنىۋاتامدۇ
+Duration: ئۆلچەشكە كەتكەن سېكۇنت سانى
+Obs: ئۆلچەشتە ئىشلىتىلگەن كۆزىتىش سانى
+Acc: ئۆلچەنگەن نۇقتىنىڭ نۆۋەتتىكى ئېنىقلىقى
+</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>بەزە ئورنىنى ئۆلچەش</value></data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve"><value>ئاپتوماتىك سەپلەش تاللانمىلىرى</value></data>
+  <data name="chk_sendgga.Text" xml:space="preserve"><value>NTRIP GGA ئەۋەتىلسۇنمۇ؟ (VRS/Smart)</value></data>
+  <data name="chk_sendgga.ToolTip" xml:space="preserve"><value>بۇ ئاپتوماتىك ئۇچقۇچتىكى مۇقىم دېتال نەشرىگە باغلىق. مۇمكىن بولسا قوزغىتىلغان پېتى قالدۇرۇڭ، چۈنكى يېڭى ئۇچۇر تىپى سانلىق مەلۇمات بۇزۇلۇشىنى تېخىمۇ ياخشى بىر تەرەپ قىلىدۇ</value></data>
+  <data name="check_sendntripv1.Text" xml:space="preserve"><value>NTRIP v1.0 كېلىشىمىدە ئەۋەتىلسۇنمۇ؟</value></data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve"><value>RTKLIB غا ئوخشاش بەزى كونا NTRIP تارقاتقۇچلىرى NTRIP v2.0 كېلىشىمىنى قوللىمايدۇ. v1.0 كېلىشىمىگە قايتىش ئۈچۈن بۇنى تاللاڭ</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>كىرگۈزۈش سانلىق مەلۇمات نىسبىتى</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>چىقىرىش سانلىق مەلۇمات نىسبىتى</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>RTCM بەزىسى </value></data>
+  <data name="label6.Text" xml:space="preserve"><value>كۆرۈلگەن ئۇچۇرلار</value></data>
+  <data name="labelmsgseen.Text" xml:space="preserve"><value>rtcm0000
+rtcm0000</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>بەزە</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Gps</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Glonass</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Beidou</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>RTCM</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>ئۇلىنىش ھالىتى</value></data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve"><value>UBlox M8P/F9P</value></data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve"><value>Septentrio</value></data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve"><value>Unicore UM982</value></data>
+  <data name="BUT_connect.Text" xml:space="preserve"><value>ئۇلاش</value></data>
+</root>

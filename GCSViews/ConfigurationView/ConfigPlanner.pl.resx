@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label33.Text" xml:space="preserve"><value>Czujnik</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Format wideo</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>HUD</value></data>
+  <data name="CHK_GDIPlus.Text" xml:space="preserve"><value>GDI+ (starszy / bez akceleracji sprzętowej)</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Punkty trasy</value></data>
+  <data name="CHK_loadwponconnect.Text" xml:space="preserve"><value>Wczytywać punkty trasy po połączeniu?</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Długość śladu</value></data>
+  <data name="CHK_speechaltwarning.Text" xml:space="preserve"><value>Ostrzeżenie wysokości</value></data>
+  <data name="label108.Text" xml:space="preserve"><value>Reset przy połączeniu</value></data>
+  <data name="CHK_resetapmonconnect.Text" xml:space="preserve"><value>Reset przy połączeniu USB (przełączenie DTR)</value></data>
+  <data name="CHK_mavdebug.Text" xml:space="preserve"><value>Debugowanie komunikatów MAVLink</value></data>
+  <data name="label107.Text" xml:space="preserve"><value>RC</value></data>
+  <data name="label104.Text" xml:space="preserve"><value>Tryb/stan</value></data>
+  <data name="label103.Text" xml:space="preserve"><value>Pozycja</value></data>
+  <data name="label102.Text" xml:space="preserve"><value>Orientacja</value></data>
+  <data name="label101.Text" xml:space="preserve"><value>Częstotliwości telemetrii</value></data>
+  <data name="label99.Text" xml:space="preserve"><value>UWAGA: karta konfiguracji NIE używa tych jednostek, ponieważ wyświetla wartości surowe.
+</value></data>
+  <data name="label98.Text" xml:space="preserve"><value>Jednostki prędkości</value></data>
+  <data name="label97.Text" xml:space="preserve"><value>Jednostki odległości</value></data>
+  <data name="label96.Text" xml:space="preserve"><value>Joystick</value></data>
+  <data name="label95.Text" xml:space="preserve"><value>Komunikaty głosowe</value></data>
+  <data name="CHK_speechbattery.Text" xml:space="preserve"><value>Ostrzeżenie o akumulatorze</value></data>
+  <data name="CHK_speechcustom.Text" xml:space="preserve"><value>Co 30 s</value></data>
+  <data name="CHK_speechmode.Text" xml:space="preserve"><value>Tryb </value></data>
+  <data name="CHK_speechwaypoint.Text" xml:space="preserve"><value>Punkt trasy</value></data>
+  <data name="label94.Text" xml:space="preserve"><value>Kolor OSD</value></data>
+  <data name="label93.Text" xml:space="preserve"><value>Język interfejsu</value></data>
+  <data name="CHK_enablespeech.Text" xml:space="preserve"><value>Włącz komunikaty głosowe</value></data>
+  <data name="CHK_hudshow.Text" xml:space="preserve"><value>Włącz nakładkę HUD</value></data>
+  <data name="label92.Text" xml:space="preserve"><value>Urządzenie wideo</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Obracaj mapę</value></data>
+  <data name="CHK_maprotation.Text" xml:space="preserve"><value>Mapa obraca się zgodnie z kierunkiem lotu samolotu</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Odległość do bazy</value></data>
+  <data name="CHK_disttohomeflightdata.Text" xml:space="preserve"><value>Wyświetl w danych lotu</value></data>
+  <data name="BUT_Joystick.Text" xml:space="preserve"><value>Konfiguracja joysticka</value></data>
+  <data name="BUT_videostop.Text" xml:space="preserve"><value>Zatrzymaj</value></data>
+  <data name="BUT_videostart.Text" xml:space="preserve"><value>Uruchom</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Ścieżka dzienników</value></data>
+  <data name="BUT_logdirbrowse.Text" xml:space="preserve"><value>Przeglądaj</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Motyw</value></data>
+  <data name="BUT_themecustom.Text" xml:space="preserve"><value>Własny</value></data>
+  <data name="CHK_speecharmdisarm.Text" xml:space="preserve"><value>Uzbrój/rozbrój</value></data>
+  <data name="BUT_Vario.Text" xml:space="preserve"><value>Włącz/wyłącz wariometr</value></data>
+  <data name="chk_analytics.Text" xml:space="preserve"><value>Wyłącz anonimowe statystyki</value></data>
+  <data name="CHK_beta.Text" xml:space="preserve"><value>Aktualizacje beta</value></data>
+  <data name="CHK_Password.Text" xml:space="preserve"><value>Chroń konfigurację hasłem</value></data>
+  <data name="CHK_speechlowspeed.Text" xml:space="preserve"><value>Niska prędkość</value></data>
+  <data name="CHK_showairports.Text" xml:space="preserve"><value>Pokaż lotniska</value></data>
+  <data name="chk_ADSB.Text" xml:space="preserve"><value>ADS-B</value></data>
+  <data name="chk_tfr.Text" xml:space="preserve"><value>Tymczasowe ograniczenia lotów</value></data>
+  <data name="chk_temp.Text" xml:space="preserve"><value>Ekran testowy</value></data>
+  <data name="chk_norcreceiver.Text" xml:space="preserve"><value>Brak odbiornika RC</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Układ</value></data>
+  <data name="CHK_AutoParamCommit.Text" xml:space="preserve"><value>Automatycznie zatwierdzaj parametry</value></data>
+  <data name="chk_shownofly.Text" xml:space="preserve"><value>Strefy zakazu lotów</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Jednostki wysokości</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>ID stacji naziemnej</value></data>
+  <data name="CHK_params_bg.Text" xml:space="preserve"><value>Pobieraj parametry w tle</value></data>
+  <data name="chk_slowMachine.Text" xml:space="preserve"><value>Praca na wolnym komputerze</value></data>
+  <data name="CHK_speechArmedOnly.Text" xml:space="preserve"><value>Tylko po uzbrojeniu</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>UWAGA: ustaw najniższy poziom ważności komunikatów odczytywanych głosowo</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Nieaktywne statki powietrzne</value></data>
+  <data name="chk_displaycog.Text" xml:space="preserve"><value>Pokaż kurs drogi</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Ikona statku powietrznego</value></data>
+  <data name="chk_displayheading.Text" xml:space="preserve"><value>Pokaż kurs</value></data>
+  <data name="chk_displaynavbearing.Text" xml:space="preserve"><value>Pokaż namiar nawigacyjny</value></data>
+  <data name="chk_displayradius.Text" xml:space="preserve"><value>Pokaż promień skrętu</value></data>
+  <data name="chk_displaytarget.Text" xml:space="preserve"><value>Pokaż cel</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Długość linii</value></data>
+  <data name="chk_displaytooltip.Text" xml:space="preserve"><value>Pokaż podpowiedź</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Tryb dostępu do map</value></data>
+  <data name="BUT_mapCacheDir.Text" xml:space="preserve"><value>Otwórz pamięć podręczną map</value></data>
+  <data name="CHK_rtsresetesp32.Text" xml:space="preserve"><value>Wyłącz reset przez RTS dla ESP32 SerialUSB</value></data>
+</root>

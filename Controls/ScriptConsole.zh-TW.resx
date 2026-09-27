@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -160,7 +160,7 @@
     <value>2</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>python 的程式碼會顯示在此視窗</value>
+    <value>Python 程式碼中的 print 陳述式會將內容輸出至此對話框</value>
   </data>
   <data name="updateoutput.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
@@ -295,4 +295,5 @@
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>300, 300</value>
   </data>
+  <data name="$this.Text" xml:space="preserve"><value>指令碼主控台</value></data>
 </root>

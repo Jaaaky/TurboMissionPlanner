@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -210,7 +210,7 @@
     <value>8</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>格式版本</value>
+    <value>格式</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -225,7 +225,7 @@
     <value>10</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>速率(空中)</value>
+    <value>無線資料率</value>
   </data>
   <data name="S2.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -817,13 +817,13 @@
     <value>34</value>
   </data>
   <data name="RSSI.ToolTip" xml:space="preserve">
-    <value>see the spec for a RSSI to dBm graph. The numbers at the end are: 
-txe: 發射端錯誤代碼 (eg. transmit timeouts) 
-rxe: 接收端錯誤代碼 (crc error, framing error etc) 
-stx: 發射端溢位錯誤代碼 
-rrx: 接收端溢位錯誤代碼
-ecc: number of 12 bit words successfully corrected by the golay code
-which result in a valid packet CRC 
+    <value>RSSI 對 dBm 的關係圖請參閱規格。末尾數值的意義如下： 
+txe：傳送錯誤次數 (例如傳送逾時) 
+rxe：接收錯誤次數 (CRC 錯誤、訊框錯誤等) 
+stx：序列傳送溢位次數 
+rrx：序列接收溢位次數 
+ecc：透過 Golay 編碼成功修正的 12 位元字組數，
+修正後的封包 CRC 有效 
 </value>
   </data>
   <data name="S10.Enabled" type="System.Boolean, mscorlib">
@@ -1292,14 +1292,14 @@ which result in a valid packet CRC
     <value>83</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Led 狀態說明</value>
+    <value>狀態指示燈</value>
   </data>
   <data name="linkLabel1.ToolTip" xml:space="preserve">
-    <value>3DR 數傳有 2 個狀態指示燈， 一紅一綠。
-綠色 LED 閃爍 - 尋找另一個數傳中 
-綠色 LED 恆亮 - 已連結另一個數傳
-紅色 LED 閃爍 - 資料傳輸中 
-紅色 LED 恆亮 - 韌體更新中</value>
+    <value>3DR 無線電有兩個狀態 LED，一紅一綠。
+綠燈閃爍：正在搜尋另一部無線電 
+綠燈恆亮：已與另一部無線電建立連線 
+紅燈閃爍：正在傳送資料 
+紅燈恆亮：處於韌體更新模式</value>
   </data>
   <data name="S15.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1624,7 +1624,7 @@ which result in a valid packet CRC
     <value>36</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>韌體版本</value>
+    <value>版本</value>
   </data>
   <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1639,7 +1639,7 @@ which result in a valid packet CRC
     <value>37</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>信號強度</value>
+    <value>RSSI</value>
   </data>
   <data name="BUT_savesettings.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1687,7 +1687,7 @@ which result in a valid packet CRC
     <value>0</value>
   </data>
   <data name="BUT_upload.Text" xml:space="preserve">
-    <value>更新韌體 (地面端)</value>
+    <value>上傳韌體 (標準)</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1975,7 +1975,7 @@ which result in a valid packet CRC
     <value>67</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>速率(空中)</value>
+    <value>無線資料率</value>
   </data>
   <data name="label31.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1993,7 +1993,7 @@ which result in a valid packet CRC
     <value>66</value>
   </data>
   <data name="label31.Text" xml:space="preserve">
-    <value>格式版本</value>
+    <value>格式</value>
   </data>
   <data name="label32.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2053,7 +2053,7 @@ which result in a valid packet CRC
     <value>55</value>
   </data>
   <data name="linkLabel_mavlink.Text" xml:space="preserve">
-    <value>重設為標準 Mavlink 協議</value>
+    <value>標準 MAVLink 設定</value>
   </data>
   <data name="linkLabel_lowlatency.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2068,7 +2068,7 @@ which result in a valid packet CRC
     <value>54</value>
   </data>
   <data name="linkLabel_lowlatency.Text" xml:space="preserve">
-    <value>重設為最小延遲</value>
+    <value>低延遲設定</value>
   </data>
   <data name="label18.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2170,7 +2170,7 @@ which result in a valid packet CRC
     <value>78</value>
   </data>
   <data name="BUT_Syncoptions.Text" xml:space="preserve">
-    <value>複製設定至機上端</value>
+    <value>複製必要設定至遠端</value>
   </data>
   <data name="ATI3.Location" type="System.Drawing.Point, System.Drawing">
     <value>207, 12</value>
@@ -2245,7 +2245,7 @@ which result in a valid packet CRC
     <value>37</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>韌體版本</value>
+    <value>版本</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2275,7 +2275,7 @@ which result in a valid packet CRC
     <value>84</value>
   </data>
   <data name="BUT_resettodefault.Text" xml:space="preserve">
-    <value>還原出廠值</value>
+    <value>還原預設值</value>
   </data>
   <data name="BUT_loadcustom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2290,7 +2290,7 @@ which result in a valid packet CRC
     <value>85</value>
   </data>
   <data name="BUT_loadcustom.Text" xml:space="preserve">
-    <value>更新客制化韌體</value>
+    <value>上傳韌體 (自訂)</value>
   </data>
   <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2301,4 +2301,130 @@ which result in a valid packet CRC
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>781, 433</value>
   </data>
+  <data name="RRTSCTS.ToolTip" xml:space="preserve"><value>啟用或停用硬體流量控制</value></data>
+  <data name="RMAX_FREQ.ToolTip" xml:space="preserve"><value>最高頻率，單位為 kHz </value></data>
+  <data name="RNUM_CHANNELS.ToolTip" xml:space="preserve"><value>跳頻通道數 </value></data>
+  <data name="RDUTY_CYCLE.ToolTip" xml:space="preserve"><value>允許傳送的時間百分比</value></data>
+  <data name="RLBT_RSSI.ToolTip" xml:space="preserve"><value>傳送前監聽門檻</value></data>
+  <data name="RMIN_FREQ.ToolTip" xml:space="preserve"><value>最低頻率，單位為 kHz </value></data>
+  <data name="RGPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT 將 GPIO 1.1 設為遙控 (PPM) 輸出</value></data>
+  <data name="RGPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN 將 GPIO 1.1 設為遙控 (PPM) 輸入</value></data>
+  <data name="RSERIAL_SPEED.ToolTip" xml:space="preserve"><value>序列鮑率，以取整數後的 kbps 表示。例如 57 代表 57600。 
+</value></data>
+  <data name="RAIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEED 是無線電之間的資料傳輸率，以取整數後的 kbps 表示。例如 128 代表 128 kbps。最大值為 192，最小值為 2。不建議設為低於 16，因為跳頻及 TDM 同步所需時間會過長。 </value></data>
+  <data name="RNETID.ToolTip" xml:space="preserve"><value>NETID 是 16 位元的「網路 ID」，用於產生跳頻序列，並辨識封包是否來自正確的無線電。請確保您的 NETID 與附近使用同類無線電的其他使用者不同。 </value></data>
+  <data name="RTXPOWER.ToolTip" xml:space="preserve"><value>TXPOWER 是發射功率，單位為 dBm。20 dBm 相當於 100 mW。短距離測試時，可將此值調低。
+</value></data>
+  <data name="RECC.ToolTip" xml:space="preserve"><value>ECC 用於啟用或停用 Golay 錯誤更正碼，預設為關閉。啟用後，封包傳送所需位元組數會加倍，因此可用無線頻寬減半，但每 12 位元資料最多可修正 3 位元錯誤。適合長距離使用，通常搭配較低的無線資料率。Golay 解碼每個傳輸位元組需 20 微秒 (每個使用者資料位元組需 40 微秒)，因此在最高無線資料率下也會受到 CPU 效能限制。通常在 128 kbps 或以下使用 Golay。 
+</value></data>
+  <data name="ROPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESEND 用於啟用或停用「機會式重傳」。啟用後，若序列輸入緩衝區中的資料少於 256 位元組，無線電會將封包傳送兩次。第二次傳送會標記為重傳；若接收端已正確收到第一個封包，就會捨棄重傳封包。這能大幅改善連線品質，尤其是上行指令。 
+</value></data>
+  <data name="RTSCTS.ToolTip" xml:space="preserve"><value>啟用或停用硬體流量控制</value></data>
+  <data name="MAX_FREQ.ToolTip" xml:space="preserve"><value>最高頻率，單位為 kHz </value></data>
+  <data name="NUM_CHANNELS.ToolTip" xml:space="preserve"><value>跳頻通道數 </value></data>
+  <data name="LBT_RSSI.ToolTip" xml:space="preserve"><value>傳送前監聽門檻</value></data>
+  <data name="MIN_FREQ.ToolTip" xml:space="preserve"><value>最低頻率，單位為 kHz </value></data>
+  <data name="DUTY_CYCLE.ToolTip" xml:space="preserve"><value>允許傳送的時間百分比</value></data>
+  <data name="GPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT 將 GPIO 1.1 設為遙控 (PPM) 輸出</value></data>
+  <data name="GPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN 將 GPIO 1.1 設為遙控 (PPM) 輸入</value></data>
+  <data name="MAVLINK.ToolTip" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="SERIAL_SPEED.ToolTip" xml:space="preserve"><value>序列鮑率，以取整數後的 kbps 表示。例如 57 代表 57600。 
+</value></data>
+  <data name="AIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEED 是無線電之間的資料傳輸率，以取整數後的 kbps 表示。例如 128 代表 128 kbps。最大值為 192，最小值為 2。不建議設為低於 16，因為跳頻及 TDM 同步所需時間會過長。 </value></data>
+  <data name="NETID.ToolTip" xml:space="preserve"><value>NETID 是 16 位元的「網路 ID」，用於產生跳頻序列，並辨識封包是否來自正確的無線電。請確保您的 NETID 與附近使用同類無線電的其他使用者不同。 </value></data>
+  <data name="TXPOWER.ToolTip" xml:space="preserve"><value>TXPOWER 是發射功率，單位為 dBm。20 dBm 相當於 100 mW。短距離測試時，可將此值調低。
+</value></data>
+  <data name="ECC.ToolTip" xml:space="preserve"><value>ECC 用於啟用或停用 Golay 錯誤更正碼，預設為關閉。啟用後，封包傳送所需位元組數會加倍，因此可用無線頻寬減半，但每 12 位元資料最多可修正 3 位元錯誤。適合長距離使用，通常搭配較低的無線資料率。Golay 解碼每個傳輸位元組需 20 微秒 (每個使用者資料位元組需 40 微秒)，因此在最高無線資料率下也會受到 CPU 效能限制。通常在 128 kbps 或以下使用 Golay。 
+</value></data>
+  <data name="OPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESEND 用於啟用或停用「機會式重傳」。啟用後，若序列輸入緩衝區中的資料少於 256 位元組，無線電會將封包傳送兩次。第二次傳送會標記為重傳；若接收端已正確收到第一個封包，就會捨棄重傳封包。這能大幅改善連線品質，尤其是上行指令。 
+</value></data>
+  <data name="ENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>AES 加密等級</value></data>
+  <data name="RENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>AES 加密等級</value></data>
+  <data name="FSFRAMELOSS.ToolTip" xml:space="preserve"><value>SBUS 或 PPM 輸出訊框遺失多少個後進入失效保護。</value></data>
+  <data name="RFSFRAMELOSS.ToolTip" xml:space="preserve"><value>SBUS 或 PPM 輸出訊框遺失多少個後進入失效保護。</value></data>
+  <data name="lbl_status.Text" xml:space="preserve"><value>注意：修改時務必按「複製必要設定至遠端」，
+以免無線電連線中斷</value></data>
+  <data name="groupBoxLocal.Text" xml:space="preserve"><value>本機端</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>失效保護遺失訊框數</value></data>
+  <data name="lblGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>國家：</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>速率/頻段</value></data>
+  <data name="lblSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="btnRandom.Text" xml:space="preserve"><value>隨機</value></data>
+  <data name="lblRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblDESTID.Text" xml:space="preserve"><value>目的地 ID</value></data>
+  <data name="lblNODEID.Text" xml:space="preserve"><value>節點 ID</value></data>
+  <data name="lblGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblNETID.Text" xml:space="preserve"><value>網路 ID</value></data>
+  <data name="lblTXPOWER.Text" xml:space="preserve"><value>發射功率</value></data>
+  <data name="lblECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblOPPRESEND.Text" xml:space="preserve"><value>機會式重傳</value></data>
+  <data name="lblMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblANT_MODE.Text" xml:space="preserve"><value>天線模式</value></data>
+  <data name="lblSER_BRK_DETMS.Text" xml:space="preserve"><value>中斷訊號偵測</value></data>
+  <data name="lblGLOBAL_RETRIES.Text" xml:space="preserve"><value>全域重試次數</value></data>
+  <data name="lblMAX_RETRIES.Text" xml:space="preserve"><value>最大重試次數</value></data>
+  <data name="lblMAX_DATA.Text" xml:space="preserve"><value>最大資料量</value></data>
+  <data name="lblENCRYPTION_LEVEL.Text" xml:space="preserve"><value>AES 加密</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>AES 金鑰</value></data>
+  <data name="lblRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblMAX_WINDOW.Text" xml:space="preserve"><value>最大時間窗 (ms)</value></data>
+  <data name="lblMIN_FREQ.Text" xml:space="preserve"><value>最低頻率</value></data>
+  <data name="lblLBT_RSSI.Text" xml:space="preserve"><value>LBT RSSI</value></data>
+  <data name="lblDUTY_CYCLE.Text" xml:space="preserve"><value>工作週期</value></data>
+  <data name="lblNUM_CHANNELS.Text" xml:space="preserve"><value>通道數</value></data>
+  <data name="lblMAX_FREQ.Text" xml:space="preserve"><value>最高頻率</value></data>
+  <data name="btnRemoteLoadFromFile.Text" xml:space="preserve"><value>從檔案載入…</value></data>
+  <data name="btnRemoteSaveToFile.Text" xml:space="preserve"><value>儲存至檔案…</value></data>
+  <data name="lblRFSFRAMELOSS.Text" xml:space="preserve"><value>失效保護遺失訊框數</value></data>
+  <data name="lblRGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblRGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblRGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblRGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblRGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.Text" xml:space="preserve"><value>設定 PPM 失效保護</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.ToolTip" xml:space="preserve"><value>記錄 PPM 輸出的預設 PPM 串流 (載具端)</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>國家：</value></data>
+  <data name="lblRSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblRSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>速率/頻段</value></data>
+  <data name="lblRRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblRTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblRDESTID.Text" xml:space="preserve"><value>目的地 ID</value></data>
+  <data name="lblRNODEID.Text" xml:space="preserve"><value>節點 ID</value></data>
+  <data name="lblRGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblRGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblROPPRESEND.Text" xml:space="preserve"><value>機會式重傳</value></data>
+  <data name="lblRMAVLINK.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="lblRECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblRTXPOWER.Text" xml:space="preserve"><value>發射功率</value></data>
+  <data name="lblRNETID.Text" xml:space="preserve"><value>網路 ID</value></data>
+  <data name="lblRANT_MODE.Text" xml:space="preserve"><value>天線模式</value></data>
+  <data name="lblRSER_BRK_DETMS.Text" xml:space="preserve"><value>中斷訊號偵測</value></data>
+  <data name="lblRGLOBAL_RETRIES.Text" xml:space="preserve"><value>全域重試次數</value></data>
+  <data name="lblRMAX_RETRIES.Text" xml:space="preserve"><value>最大重試次數</value></data>
+  <data name="lblRMAX_DATA.Text" xml:space="preserve"><value>最大資料量</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>AES 金鑰</value></data>
+  <data name="lblRENCRYPTION_LEVEL.Text" xml:space="preserve"><value>AES 加密</value></data>
+  <data name="lblRRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblRMAX_WINDOW.Text" xml:space="preserve"><value>最大時間窗 (ms)</value></data>
+  <data name="lblRMIN_FREQ.Text" xml:space="preserve"><value>最低頻率</value></data>
+  <data name="lblRMAX_FREQ.Text" xml:space="preserve"><value>最高頻率</value></data>
+  <data name="lblRNUM_CHANNELS.Text" xml:space="preserve"><value>通道數</value></data>
+  <data name="lblRDUTY_CYCLE.Text" xml:space="preserve"><value>工作週期</value></data>
+  <data name="lblRLBT_RSSI.Text" xml:space="preserve"><value>LBT RSSI</value></data>
+  <data name="groupBoxRemote.Text" xml:space="preserve"><value>遠端</value></data>
+  <data name="dlgSave.Filter" xml:space="preserve"><value>INI 檔案|*.ini</value></data>
+  <data name="dlgOpen.Filter" xml:space="preserve"><value>INI 檔案|*.ini</value></data>
+  <data name="BUT_SetPPMFailSafe.Text" xml:space="preserve"><value>設定 PPM 失效保護</value></data>
+  <data name="BUT_SetPPMFailSafe.ToolTip" xml:space="preserve"><value>記錄 PPM 輸出的預設 PPM 串流 (載具端)</value></data>
+  <data name="btnSaveToFile.Text" xml:space="preserve"><value>儲存至檔案…</value></data>
+  <data name="btnLoadFromFile.Text" xml:space="preserve"><value>從檔案載入…</value></data>
 </root>

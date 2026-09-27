@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,24 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="but_factoryreset.Text" xml:space="preserve">
-    <value>Reset config.</value>
+    <value>Redefinir configurações</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>NOTA: Reinicialização necessária depois desse ajuste</value>
+    <value>NOTA: é necessário reiniciar após alterar esta opção</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Habilitar CAN</value>
+    <value>Ativar CAN</value>
   </data>
   <data name="but_stopenum.Text" xml:space="preserve">
     <value>Parar enumeração</value>
   </data>
   <data name="checkBox1.Text" xml:space="preserve">
-    <value>Reset de Fábrica</value>
+    <value>Restaurar configurações de fábrica</value>
   </data>
   <data name="but_startenum.Text" xml:space="preserve">
-    <value>Inicia enumeração</value>
+    <value>Iniciar enumeração</value>
   </data>
   <data name="but_saveconfig.Text" xml:space="preserve">
-    <value>Salvar toda configuração</value>
+    <value>Salvar todas as configurações</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>CAN</value></data>
 </root>

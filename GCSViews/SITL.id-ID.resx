@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label6.Text" xml:space="preserve"><value>Pesawat</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Rover</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Multirotor</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Helikopter</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Lokasi Titik Asal - Seret Saya</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Pilih firmware untuk dijalankan</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Arah Hadap</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Opsi</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Khusus pengguna tingkat lanjut</value></data>
+  <data name="but_swarmrover.Text" xml:space="preserve"><value>Kawanan Rover - Multitautan</value></data>
+  <data name="but_swarmplane.Text" xml:space="preserve"><value>Kawanan Pesawat - Multitautan</value></data>
+  <data name="but_swarmseq.Text" xml:space="preserve"><value>Kawanan Copter - Tautan Tunggal</value></data>
+  <data name="but_swarmlink.Text" xml:space="preserve"><value>Kawanan Copter - Multitautan</value></data>
+  <data name="chk_wipe.Text" xml:space="preserve"><value>Hapus Bersih</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Baris Perintah Tambahan</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Model</value></data>
+  <data name="cmb_model.Items1" xml:space="preserve"><value>quadplane</value></data>
+  <data name="cmb_model.Items2" xml:space="preserve"><value>xplane</value></data>
+  <data name="cmb_model.Items3" xml:space="preserve"><value>xplane-heli</value></data>
+  <data name="cmb_model.Items4" xml:space="preserve"><value>firefly</value></data>
+  <data name="cmb_model.Items6" xml:space="preserve"><value>quad</value></data>
+  <data name="cmb_model.Items7" xml:space="preserve"><value>copter</value></data>
+  <data name="cmb_model.Items8" xml:space="preserve"><value>x</value></data>
+  <data name="cmb_model.Items9" xml:space="preserve"><value>hexa</value></data>
+  <data name="cmb_model.Items10" xml:space="preserve"><value>octa</value></data>
+  <data name="cmb_model.Items11" xml:space="preserve"><value>tri</value></data>
+  <data name="cmb_model.Items12" xml:space="preserve"><value>y6</value></data>
+  <data name="cmb_model.Items13" xml:space="preserve"><value>heli</value></data>
+  <data name="cmb_model.Items14" xml:space="preserve"><value>heli-dual</value></data>
+  <data name="cmb_model.Items15" xml:space="preserve"><value>heli-compound</value></data>
+  <data name="cmb_model.Items16" xml:space="preserve"><value>singlecopter</value></data>
+  <data name="cmb_model.Items17" xml:space="preserve"><value>coaxcopter</value></data>
+  <data name="cmb_model.Items18" xml:space="preserve"><value>rover</value></data>
+  <data name="cmb_model.Items19" xml:space="preserve"><value>crrcsim</value></data>
+  <data name="cmb_model.Items20" xml:space="preserve"><value>jsbsim</value></data>
+  <data name="cmb_model.Items21" xml:space="preserve"><value>flightaxis</value></data>
+  <data name="cmb_model.Items22" xml:space="preserve"><value>gazebo</value></data>
+  <data name="cmb_model.Items23" xml:space="preserve"><value>last_letter</value></data>
+  <data name="cmb_model.Items24" xml:space="preserve"><value>tracker</value></data>
+  <data name="cmb_model.Items25" xml:space="preserve"><value>balloon</value></data>
+  <data name="cmb_model.Items26" xml:space="preserve"><value>plane</value></data>
+  <data name="cmb_model.Items27" xml:space="preserve"><value>calibration</value></data>
+  <data name="cmb_model.Items28" xml:space="preserve"><value>plane-jet</value></data>
+  <data name="cmb_model.Items29" xml:space="preserve"><value>sailboat</value></data>
+  <data name="cmb_model.Items30" xml:space="preserve"><value>motorboat</value></data>
+  <data name="cmb_model.Items31" xml:space="preserve"><value>morse-rover</value></data>
+  <data name="cmb_model.Items32" xml:space="preserve"><value>rover-skid</value></data>
+  <data name="cmb_model.Items33" xml:space="preserve"><value>plane-3d</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Kecepatan Simulasi</value></data>
+</root>

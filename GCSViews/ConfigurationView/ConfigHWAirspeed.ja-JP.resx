@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>エアスピード</value>
+    <value>対気速度</value>
   </data>
   <data name="lbl_airspeed_pin.Text" xml:space="preserve">
-    <value>エアスピード　ピン</value>
+    <value>ピン</value>
   </data>
   <data name="CHK_enableairspeed.Text" xml:space="preserve">
     <value>有効</value>
   </data>
   <data name="CHK_airspeeduse.Text" xml:space="preserve">
-    <value>エアスピードを使う</value>
+    <value>対気速度を使用</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>タイプ</value></data>
 </root>

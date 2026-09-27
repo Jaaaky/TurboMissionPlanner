@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,109 +118,109 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
     <data name="elevationGraphToolStripMenuItem.Text" xml:space="preserve">
-    <value>Yukseklik semasi</value>
+    <value>Rakım grafiği</value>
   </data>
   <data name="enterUTMCoordToolStripMenuItem.Text" xml:space="preserve">
-    <value>UTM'yi girin</value>
+    <value>UTM koordinatı gir</value>
   </data>
   <data name="lbl_homedist.Text" xml:space="preserve">
-    <value>Baslangıc</value>
+    <value>Ev</value>
   </data>
   <data name="trackerHomeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Takip baslatmak</value>
+    <value>Takip anteni ev konumu</value>
   </data>
   <data name="poiaddToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ekle !</value>
+    <value>Ekle</value>
   </data>
   <data name="GeoFencedownloadToolStripMenuItem.Text" xml:space="preserve">
-    <value>Indir</value>
+    <value>İndir</value>
   </data>
   <data name="loadFromFileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>puani bir dosyadan indirin</value>
+    <value>Toplanma noktalarını dosyadan yükle</value>
   </data>
   <data name="lbl_prevdist.Text" xml:space="preserve">
-    <value>Onceki</value>
+    <value>Önceki</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Zoom</value>
+    <value>Yakınlaştırma</value>
   </data>
   <data name="comboBoxMapType.ToolTip" xml:space="preserve">
-    <value>Gecerli harita turunu degistir</value>
+    <value>Mevcut harita türünü değiştir</value>
   </data>
   <data name="loitertimeToolStripMenuItem.Text" xml:space="preserve">
-    <value>Zaman</value>
+    <value>Süre</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Uyari yuksekligi</value>
+    <value>İrtifa uyarısı</value>
   </data>
   <data name="LBL_defalutalt.Text" xml:space="preserve">
-    <value>Varsayılan yukseklik</value>
+    <value>Varsayılan irtifa</value>
   </data>
   <data name="rotateMapToolStripMenuItem.Text" xml:space="preserve">
-    <value>Varsayılan yukseklik</value>
+    <value>Haritayı döndür</value>
   </data>
   <data name="autoWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>Otomatik koordinatlar</value>
+    <value>Otomatik rota noktaları</value>
   </data>
   <data name="CHK_verifyheight.Text" xml:space="preserve">
-    <value>Yuksekligi kontrol et</value>
+    <value>Yüksekliği doğrula</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Yukseklik (deniz seviyesinin ustunde)</value>
+    <value>Deniz seviyesine göre</value>
   </data>
   <data name="mapToolToolStripMenuItem.Text" xml:space="preserve">
-    <value>Harita Araclari</value>
+    <value>Harita aracı</value>
   </data>
   <data name="saveRallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kaldirma</value>
+    <value>Yükle</value>
   </data>
   <data name="loiterForeverToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kalici</value>
+    <value>Süresiz</value>
   </data>
   <data name="Alt.HeaderText" xml:space="preserve">
-    <value>Yukseklik</value>
+    <value>İrtifa</value>
   </data>
   <data name="BUT_saveWPFile.Text" xml:space="preserve">
-    <value>Dosya yolunu Kaydet </value>
+    <value>Dosyayı kaydet</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Baslangic Konumu</value>
+    <value>Ev konumu</value>
   </data>
   <data name="BUT_loadwpfile.Text" xml:space="preserve">
-    <value>Yol dosyasini iceri aktarma</value>
+    <value>Dosya yükle</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Donme Yaricapi</value>
+    <value>Loiter yarıçapı</value>
   </data>
   <data name="loadWPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Yol dosyasini iceri aktarma</value>
+    <value>Rota noktası dosyası yükle</value>
   </data>
   <data name="jumpstartToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ekran</value>
+    <value>Başlat</value>
   </data>
   <data name="BUT_read.Text" xml:space="preserve">
-    <value>Koordinatlari Oku</value>
+    <value>Oku</value>
   </data>
   <data name="loadPolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Poligonu ice aktar</value>
+    <value>Çokgen yükle</value>
   </data>
   <data name="prefetchToolStripMenuItem.Text" xml:space="preserve">
-    <value>Getirmek</value>
+    <value>Önceden indir</value>
   </data>
   <data name="GeoFenceuploadToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kaldirma</value>
+    <value>Yükle</value>
   </data>
   <data name="LBL_WPRad.Text" xml:space="preserve">
-    <value>Koordinatin yariçapi</value>
+    <value>Rota noktası yarıçapı</value>
   </data>
   <data name="zoomToToolStripMenuItem.Text" xml:space="preserve">
-    <value>Zoom</value>
+    <value>Yakınlaştır</value>
   </data>
   <data name="saveToFileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Dosyaya inis noktalarini Kaydet </value>
+    <value>Toplanma noktalarını dosyaya kaydet</value>
   </data>
   <data name="Command.HeaderText" xml:space="preserve">
-    <value>Bu</value>
+    <value>Komut</value>
   </data>
   <data name="lbl_status.Text" xml:space="preserve">
     <value>Durum</value>
@@ -229,46 +229,46 @@
     <value>Mesafe</value>
   </data>
   <data name="setReturnLocationToolStripMenuItem.Text" xml:space="preserve">
-    <value>Donus Alanini Degistirin </value>
+    <value>Dönüş konumunu ayarla</value>
   </data>
   <data name="clearPolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Poligonu temizle</value>
+    <value>Çokgeni temizle</value>
   </data>
   <data name="loadKMLFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>KML dosyası ice aktarma</value>
+    <value>KML dosyası yükle</value>
   </data>
   <data name="panelAction.Text" xml:space="preserve">
-    <value>Bu</value>
+    <value>Eylem</value>
   </data>
   <data name="chk_grid.Text" xml:space="preserve">
-    <value>Ag</value>
+    <value>Izgara</value>
   </data>
   <data name="Delete.ToolTipText" xml:space="preserve">
-    <value>Satiri Sil</value>
+    <value>Satırı sil</value>
   </data>
   <data name="prefetchWPPathToolStripMenuItem.Text" xml:space="preserve">
-    <value>Koordinat yolunu olustur</value>
+    <value>Rota noktası güzergâhını önceden indir</value>
   </data>
   <data name="takeoffToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kalkis</value>
+    <value>Kalkış</value>
   </data>
   <data name="addPolygonPointToolStripMenuItem.Text" xml:space="preserve">
-    <value>Bir cokgen noktasi ekle</value>
+    <value>Çokgen çiz</value>
   </data>
   <data name="loiterToolStripMenuItem.Text" xml:space="preserve">
-    <value>Rotasyon</value>
+    <value>Loiter</value>
   </data>
   <data name="Command.ToolTipText" xml:space="preserve">
-    <value>APM</value>
+    <value>Komut</value>
   </data>
   <data name="setRallyPointToolStripMenuItem.Text" xml:space="preserve">
-    <value>Inis Noktalari Koy</value>
+    <value>Toplanma noktası belirle</value>
   </data>
   <data name="rallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Iniş noktalari</value>
+    <value>Toplanma noktaları</value>
   </data>
   <data name="BUT_Add.Text" xml:space="preserve">
-    <value>Ekleyin</value>
+    <value>Alta ekle</value>
   </data>
   <data name="areaToolStripMenuItem.Text" xml:space="preserve">
     <value>Alan</value>
@@ -277,108 +277,169 @@
     <value>Mesafe</value>
   </data>
   <data name="Down.ToolTipText" xml:space="preserve">
-    <value>Sirayi Asagiya Al</value>
+    <value>Satırı aşağı taşı</value>
   </data>
   <data name="BUT_write.Text" xml:space="preserve">
-    <value>Pist Gonder</value>
+    <value>Yaz</value>
   </data>
   <data name="modifyAltToolStripMenuItem.Text" xml:space="preserve">
-    <value>Yuksekligi Ayarla</value>
+    <value>İrtifayı değiştir</value>
   </data>
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
-    <value>Asagi</value>
+    <value>Aşağı</value>
   </data>
   <data name="polygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Cokgen Cİzimi</value>
+    <value>Çokgen</value>
   </data>
   <data name="jumpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Atlama</value>
+    <value>Atla</value>
   </data>
   <data name="landToolStripMenuItem.Text" xml:space="preserve">
-    <value>Inis</value>
+    <value>İniş</value>
   </data>
   <data name="fileLoadSaveToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dosya Al / Kaydet</value>
+    <value>Dosya yükle/kaydet</value>
   </data>
   <data name="saveWPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Yol dosyasini kaydetme</value>
+    <value>Rota noktası dosyasını kaydet</value>
   </data>
   <data name="saveToFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Dosyaya kaydet</value>
   </data>
   <data name="insertWpToolStripMenuItem.Text" xml:space="preserve">
-    <value>Koordinatlari dahil etme</value>
+    <value>Araya rota noktası ekle</value>
   </data>
   <data name="Up.ToolTipText" xml:space="preserve">
-    <value>Satiri yukari tasi</value>
+    <value>Satırı YUKARI taşı</value>
   </data>
   <data name="poideleteToolStripMenuItem.Text" xml:space="preserve">
-    <value>Eleme</value>
+    <value>Sil</value>
   </data>
   <data name="Up.HeaderText" xml:space="preserve">
     <value>Ust</value>
   </data>
   <data name="Delete.HeaderText" xml:space="preserve">
-    <value>Eleme</value>
+    <value>Sil</value>
   </data>
   <data name="loitercirclesToolStripMenuItem.Text" xml:space="preserve">
-    <value>Daireler</value>
+    <value>Turlar</value>
   </data>
   <data name="jumpwPToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ara nokta #</value>
+    <value>Rota noktası #</value>
   </data>
   <data name="deleteWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>Koordinati sil</value>
+    <value>Rota noktasını sil</value>
   </data>
   <data name="panelWaypoints.Text" xml:space="preserve">
-    <value>Koordinatlar</value>
+    <value>Rota noktaları</value>
   </data>
   <data name="getRallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Yukleme</value>
+    <value>İndir</value>
   </data>
   <data name="loadFromFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dosyadan ice aktarma</value>
+    <value>Dosyadan yükle</value>
   </data>
   <data name="rTLToolStripMenuItem.Text" xml:space="preserve">
-    <value>Geri Don</value>
+    <value>RTL</value>
   </data>
   <data name="clearMissionToolStripMenuItem.Text" xml:space="preserve">
-    <value>Gorevi temizle</value>
+    <value>Görevi temizle</value>
   </data>
   <data name="BUT_Add.ToolTip" xml:space="preserve">
-    <value>Kilavuz icin ekstra hat </value>
+    <value>Aşağıdaki tabloya satır ekle</value>
   </data>
   <data name="clearRallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Inis noktalarini temizle</value>
+    <value>Toplanma noktalarını temizle</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>Karmasık</value>
   </data>
   <data name="savePolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>Poligonu kaydet</value>
+    <value>Çokgeni kaydet</value>
   </data>
   <data name="createWpCircleToolStripMenuItem.Text" xml:space="preserve">
-    <value>Dairesel koordinatlari olustur</value>
+    <value>Dairesel rota noktaları oluştur</value>
   </data>
   <data name="ContextMeasure.Text" xml:space="preserve">
-    <value>Mesafeyi olcun</value>
+    <value>Mesafe ölç</value>
   </data>
   <data name="poieditToolStripMenuItem.Text" xml:space="preserve">
-    <value>Degisiklik</value>
+    <value>Düzenle</value>
   </data>
   <data name="fromSHPToolStripMenuItem.Text" xml:space="preserve">
-    <value>SHP dosyasindan</value>
+    <value>SHP dosyasından</value>
   </data>
   <data name="Down.HeaderText" xml:space="preserve">
     <value>Asagi</value>
   </data>
   <data name="lnk_kml.Text" xml:space="preserve">
-    <value>KML'yi goruntule</value>
+    <value>KML görüntüle</value>
   </data>
   <data name="loadSHPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>SHP dosyasını iceri aktarma</value>
+    <value>SHP dosyası yükle</value>
   </data>
   <data name="reverseWPsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ters koordinatlar</value>
+    <value>Rota noktalarını ters sırala</value>
   </data>
+  <data name="but_writewpfast.Text" xml:space="preserve"><value>Hızlı yaz</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Boylam</value></data>
+  <data name="Label1.Text" xml:space="preserve"><value>Enlem</value></data>
+  <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve"><value>Yukarı</value></data>
+  <data name="chk_usemavftp.Text" xml:space="preserve"><value>MAVFTP</value></data>
+  <data name="CMB_altmode.Text" xml:space="preserve"><value>Göreli</value></data>
+  <data name="CHK_splinedefault.Text" xml:space="preserve"><value>Spline</value></data>
+  <data name="Param1.HeaderText" xml:space="preserve"><value>P1</value></data>
+  <data name="Param2.HeaderText" xml:space="preserve"><value>P2</value></data>
+  <data name="Param3.HeaderText" xml:space="preserve"><value>P3</value></data>
+  <data name="Param4.HeaderText" xml:space="preserve"><value>P4</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>Enlem</value></data>
+  <data name="Lon.HeaderText" xml:space="preserve"><value>Boylam</value></data>
+  <data name="Frame.HeaderText" xml:space="preserve"><value>Referans sistemi</value></data>
+  <data name="coordZone.HeaderText" xml:space="preserve"><value>Bölge</value></data>
+  <data name="coordEasting.HeaderText" xml:space="preserve"><value>Doğu koordinatı</value></data>
+  <data name="coordNorthing.HeaderText" xml:space="preserve"><value>Kuzey koordinatı</value></data>
+  <data name="MGRS.HeaderText" xml:space="preserve"><value>MGRS</value></data>
+  <data name="Grad.HeaderText" xml:space="preserve"><value>Eğim %</value></data>
+  <data name="Angle.HeaderText" xml:space="preserve"><value>Açı</value></data>
+  <data name="AZ.HeaderText" xml:space="preserve"><value>Azimut</value></data>
+  <data name="TagData.HeaderText" xml:space="preserve"><value>Etiket verisi</value></data>
+  <data name="BUT_InjectCustomMap.Text" xml:space="preserve"><value>Özel harita ekle</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>Yakınlaştırma düzeyini değiştir</value></data>
+  <data name="cmb_missiontype.Items" xml:space="preserve"><value>Görev</value></data>
+  <data name="cmb_missiontype.Items1" xml:space="preserve"><value>Çit</value></data>
+  <data name="cmb_missiontype.Items2" xml:space="preserve"><value>Toplanma</value></data>
+  <data name="currentPositionToolStripMenuItem.Text" xml:space="preserve"><value>Mevcut konumda</value></data>
+  <data name="insertSplineWPToolStripMenuItem.Text" xml:space="preserve"><value>Araya spline rota noktası ekle</value></data>
+  <data name="setROIToolStripMenuItem.Text" xml:space="preserve"><value>DO_SET_ROI</value></data>
+  <data name="addPolygonPointToolStripMenuItem2.Text" xml:space="preserve"><value>Çokgen çiz</value></data>
+  <data name="clearPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Çokgeni temizle</value></data>
+  <data name="savePolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Çokgeni kaydet</value></data>
+  <data name="loadPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Çokgen yükle</value></data>
+  <data name="fromSHPToolStripMenuItem2.Text" xml:space="preserve"><value>SHP dosyasından</value></data>
+  <data name="fromCurrentWaypointsToolStripMenuItem.Text" xml:space="preserve"><value>Mevcut rota noktalarından</value></data>
+  <data name="offsetPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>Çokgeni ötele</value></data>
+  <data name="areaToolStripMenuItem2.Text" xml:space="preserve"><value>Alan</value></data>
+  <data name="clearToolStripMenuItem.Text" xml:space="preserve"><value>Temizle</value></data>
+  <data name="geoFenceToolStripMenuItem.Text" xml:space="preserve"><value>Sanal çit</value></data>
+  <data name="createSplineCircleToolStripMenuItem.Text" xml:space="preserve"><value>Spline daire oluştur</value></data>
+  <data name="areaToolStripMenuItem1.Text" xml:space="preserve"><value>Alan</value></data>
+  <data name="textToolStripMenuItem.Text" xml:space="preserve"><value>Metin</value></data>
+  <data name="createCircleSurveyToolStripMenuItem.Text" xml:space="preserve"><value>Dairesel tarama oluştur</value></data>
+  <data name="surveyGridToolStripMenuItem.Text" xml:space="preserve"><value>Tarama (ızgara)</value></data>
+  <data name="kMLOverlayToolStripMenuItem.Text" xml:space="preserve"><value>KML katmanı</value></data>
+  <data name="gDALOpacityToolStripMenuItem.Text" xml:space="preserve"><value>GDAL opaklığı</value></data>
+  <data name="loadAndAppendToolStripMenuItem.Text" xml:space="preserve"><value>Yükle ve sonuna ekle</value></data>
+  <data name="pOIToolStripMenuItem.Text" xml:space="preserve"><value>İlgi noktası</value></data>
+  <data name="switchDockingToolStripMenuItem.Text" xml:space="preserve"><value>Panel yerleşimini değiştir</value></data>
+  <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>Ev konumunu buraya ayarla</value></data>
+  <data name="panelMap.Text" xml:space="preserve"><value>panel6</value></data>
+  <data name="fenceInclusionToolStripMenuItem.Text" xml:space="preserve"><value>Çit içi izinli alan</value></data>
+  <data name="fenceExclusionToolStripMenuItem.Text" xml:space="preserve"><value>Çit dışlama alanı</value></data>
+  <data name="convertWPToPolygonToolStripMenuItem.Text" xml:space="preserve"><value>Mevcut rota noktalarından</value></data>
+  <data name="offsetPolygonToolStripMenuItem.Text" xml:space="preserve"><value>Çokgeni ötele</value></data>
+  <data name="drawAPolygonToolStripMenuItem.Text" xml:space="preserve"><value>Çokgen çiz</value></data>
+  <data name="testToolStripMenuItem.Text" xml:space="preserve"><value>Test</value></data>
+  <data name="zoomToVehicleToolStripMenuItem.Text" xml:space="preserve"><value>Araca yakınlaştır</value></data>
+  <data name="zoomToMissionToolStripMenuItem.Text" xml:space="preserve"><value>Göreve yakınlaştır</value></data>
+  <data name="zoomToHomeToolStripMenuItem.Text" xml:space="preserve"><value>Eve yakınlaştır</value></data>
 </root>

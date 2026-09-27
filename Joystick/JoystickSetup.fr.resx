@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -151,7 +151,7 @@
     <value>30</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Output</value>
+    <value>Sortie</value>
   </data>
   <data name="expo_ch2.Text" xml:space="preserve">
     <value>30</value>
@@ -169,13 +169,13 @@
     <value>0</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Axe de controle</value>
+    <value>Axe de la manette</value>
   </data>
   <data name="expo_ch6.Text" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Inverse</value>
+    <value>Inverser</value>
   </data>
   <data name="expo_ch4.Text" xml:space="preserve">
     <value>30</value>
@@ -184,13 +184,13 @@
     <value>0</value>
   </data>
   <data name="BUT_save.Text" xml:space="preserve">
-    <value>Enr.</value>
+    <value>Enregistrer</value>
   </data>
   <data name="BUT_detch6.Text" xml:space="preserve">
     <value>Détect. Auto</value>
   </data>
   <data name="CHK_elevons.Text" xml:space="preserve">
-    <value>Elevons</value>
+    <value>Élevons</value>
   </data>
   <data name="BUT_detch7.Text" xml:space="preserve">
     <value>Détect Auto</value>
@@ -216,4 +216,8 @@
   <data name="BUT_enable.Text" xml:space="preserve">
     <value>Activer</value>
   </data>
+  <data name="label14.Text" xml:space="preserve"><value>Configuration chargée pour</value></data>
+  <data name="chk_manualcontrol.Text" xml:space="preserve"><value>Commande manuelle</value></data>
+  <data name="but_export.Text" xml:space="preserve"><value>Exporter</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>Importer</value></data>
 </root>

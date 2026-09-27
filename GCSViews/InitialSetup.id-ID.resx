@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,84 +118,88 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="backstageViewPageairspeed.Text" xml:space="preserve">
-    <value>Airspeed</value>
+    <value>Kecepatan Udara</value>
   </data>
   <data name="backstageViewPageosd.Text" xml:space="preserve">
     <value>OSD</value>
   </data>
   <data name="backstageViewPageSikradio.Text" xml:space="preserve">
-    <value>Sik Radio</value>
+    <value>Radio SiK</value>
   </data>
   <data name="backstageViewPageBatt2.Text" xml:space="preserve">
-    <value>Battery Monitor 2</value>
+    <value>Pemantau Baterai 2</value>
   </data>
   <data name="backstageViewPageAntTrack.Text" xml:space="preserve">
-    <value>Antenna tracker</value>
+    <value>Pelacak Antena</value>
   </data>
   <data name="backstageViewPagehwbt.Text" xml:space="preserve">
-    <value>Bluetooth Setup</value>
+    <value>Pengaturan Bluetooth</value>
   </data>
   <data name="backstageViewPagecompassmot.Text" xml:space="preserve">
-    <value>Compass/Motor Calib</value>
+    <value>Kalibrasi Kompas/Motor</value>
   </data>
   <data name="backstageViewPageParachute.Text" xml:space="preserve">
-    <value>Parachute</value>
+    <value>Parasut</value>
   </data>
   <data name="backstageViewPageopt.Text" xml:space="preserve">
-    <value>Optional Hardware</value>
+    <value>Perangkat Keras Opsional</value>
   </data>
   <data name="backstageViewPageradio.Text" xml:space="preserve">
-    <value>Radio Calibration</value>
+    <value>Kalibrasi Radio</value>
   </data>
   <data name="backstageViewPageframetype.Text" xml:space="preserve">
-    <value>Frame Type</value>
+    <value>Jenis Rangka</value>
   </data>
   <data name="backstageViewPagefwdisabled.Text" xml:space="preserve">
-    <value>Install Firmware</value>
+    <value>Pasang Firmware</value>
   </data>
   <data name="backstageViewPagefs.Text" xml:space="preserve">
-    <value>FailSafe</value>
+    <value>Failsafe</value>
   </data>
   <data name="backstageViewPagefw.Text" xml:space="preserve">
-    <value>Install Firmware</value>
+    <value>Pasang Firmware</value>
   </data>
   <data name="backstageViewPageaccel.Text" xml:space="preserve">
-    <value>Accel Calibration</value>
+    <value>Kalibrasi Akselerometer</value>
   </data>
   <data name="backstageViewPageMotorTest.Text" xml:space="preserve">
-    <value>Motor Test</value>
+    <value>Uji Motor</value>
   </data>
   <data name="backstageViewPagebatmon.Text" xml:space="preserve">
-    <value>Battery Monitor</value>
+    <value>Pemantau Baterai</value>
   </data>
   <data name="backstageViewPagewizard.Text" xml:space="preserve">
-    <value>Wizard</value>
+    <value>Panduan Penyiapan</value>
   </data>
   <data name="backstageViewPageESC.Text" xml:space="preserve">
-    <value>ESC Calibration</value>
+    <value>Kalibrasi ESC</value>
   </data>
   <data name="backstageViewPagetradheli.Text" xml:space="preserve">
-    <value>Heli Setup</value>
+    <value>Pengaturan Heli</value>
   </data>
   <data name="backstageViewPageflmode.Text" xml:space="preserve">
-    <value>Flight Modes</value>
+    <value>Mode Terbang</value>
   </data>
   <data name="backstageViewPagecompass.Text" xml:space="preserve">
-    <value>Compass</value>
+    <value>Kompas</value>
   </data>
   <data name="backstageViewPageoptflow.Text" xml:space="preserve">
-    <value>Optical Flow</value>
+    <value>Aliran Optik</value>
   </data>
   <data name="backstageViewPagemand.Text" xml:space="preserve">
-    <value>Mandatory Hardware</value>
+    <value>Perangkat Keras Wajib</value>
   </data>
   <data name="backstageViewPagegimbal.Text" xml:space="preserve">
-    <value>Camera Gimbal</value>
+    <value>Gimbal Kamera</value>
   </data>
   <data name="backstageViewPageinstfw.Text" xml:space="preserve">
-    <value>Install Firmware</value>
+    <value>Pasang Firmware</value>
   </data>
   <data name="backstageViewPagesonar.Text" xml:space="preserve">
-    <value>Sonar</value>
+    <value>Pengukur Jarak</value>
   </data>
+  <data name="backstageViewPageInitialParams.Text" xml:space="preserve"><value>Parameter Penyetelan Awal</value></data>
+  <data name="backstageViewPageESP.Text" xml:space="preserve"><value>Pengaturan ESP8266</value></data>
+  <data name="backstageViewPagePX4Flow.Text" xml:space="preserve"><value>PX4Flow</value></data>
+  <data name="backstageViewPageSerial.Text" xml:space="preserve"><value>Port Serial</value></data>
 </root>

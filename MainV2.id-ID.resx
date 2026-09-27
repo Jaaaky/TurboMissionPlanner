@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,19 +121,19 @@
     <value>Simulasi</value>
   </data>
   <data name="MenuFlightPlanner.Text" xml:space="preserve">
-    <value>RENCANA PENERBANGAN</value>
+    <value>RENCANA</value>
   </data>
   <data name="MenuHelp.Text" xml:space="preserve">
-    <value>HELP</value>
+    <value>BANTUAN</value>
   </data>
   <data name="MenuInitConfig.ToolTipText" xml:space="preserve">
-    <value>Hardware Config</value>
+    <value>Konfigurasi Perangkat Keras</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Mission Planner - oleh Michael Oborne</value>
+    <value>Mission Planner (Turbo) - Oleh Michael Oborne (fork Turbo)</value>
   </data>
   <data name="connectionOptionsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pilihan Koneksi</value>
+    <value>Opsi Koneksi</value>
   </data>
   <data name="MenuTerminal.Text" xml:space="preserve">
     <value>TERMINAL</value>
@@ -142,34 +142,34 @@
     <value>MENYUMBANG</value>
   </data>
   <data name="readonlyToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hanya Membaca</value>
+    <value>Hanya Baca</value>
   </data>
   <data name="MenuFlightData.Text" xml:space="preserve">
-    <value>DATA PENERBANGAN</value>
+    <value>DATA</value>
   </data>
   <data name="MenuInitConfig.Text" xml:space="preserve">
-    <value>PENGATURAN AWAL</value>
+    <value>PENYIAPAN</value>
   </data>
   <data name="MenuConnect.Text" xml:space="preserve">
-    <value>CONNECT</value>
+    <value>HUBUNGKAN</value>
   </data>
   <data name="MenuFlightPlanner.ToolTipText" xml:space="preserve">
     <value>Perencana Penerbangan</value>
   </data>
   <data name="MenuConfigTune.Text" xml:space="preserve">
-    <value>KONFIGURASI/TUNING</value>
+    <value>KONFIGURASI</value>
   </data>
   <data name="MenuFlightData.ToolTipText" xml:space="preserve">
     <value>Data Penerbangan</value>
   </data>
   <data name="MenuConfigTune.ToolTipText" xml:space="preserve">
-    <value>Konfigurasi Software</value>
+    <value>Konfigurasi Perangkat Lunak</value>
   </data>
   <data name="MenuSimulation.Text" xml:space="preserve">
     <value>SIMULASI</value>
   </data>
   <data name="MenuHelp.ToolTipText" xml:space="preserve">
-    <value>Terminal</value>
+    <value>Bantuan</value>
   </data>
   <data name="MainMenu.Text" xml:space="preserve">
     <value>menuStrip1</value>
@@ -184,6 +184,7 @@
     <value>Layar Penuh</value>
   </data>
   <data name="autoHideToolStripMenuItem.Text" xml:space="preserve">
-    <value>Sembunyi Otomatis</value>
+    <value>Sembunyikan Otomatis</value>
   </data>
+  <data name="connectionListToolStripMenuItem.Text" xml:space="preserve"><value>Daftar Koneksi</value></data>
 </root>

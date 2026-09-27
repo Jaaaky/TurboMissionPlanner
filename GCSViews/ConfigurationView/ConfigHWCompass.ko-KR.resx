@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -418,7 +418,7 @@
     <value>17</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>보정에 실패했을 경우 느슨한 보정값 활용</value>
+    <value>보정 실패 시 적합도 기준 완화</value>
   </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
@@ -448,7 +448,7 @@
     <value>16</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Fitness</value>
+    <value>적합도</value>
   </data>
   <data name="&gt;&gt;label10.Name" xml:space="preserve">
     <value>label10</value>
@@ -1579,7 +1579,7 @@
     <value>22</value>
   </data>
   <data name="but_largemagcal.Text" xml:space="preserve">
-    <value>대형 기체 지자계 계측</value>
+    <value>대형 기체 자기계 보정</value>
   </data>
   <data name="&gt;&gt;but_largemagcal.Name" xml:space="preserve">
     <value>but_largemagcal</value>

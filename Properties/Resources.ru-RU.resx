@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="help_text" xml:space="preserve"><value>{\rtf1\ansi\ansicpg1252\deff0\deflang3081\deflangfe3081{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\nowidctlpar\sa200\sl276\slmult1\f0\fs22\par
+\tab \u1044?\u1086?\u1073?\u1088?\u1086? \u1087?\u1086?\u1078?\u1072?\u1083?\u1086?\u1074?\u1072?\u1090?\u1100? \u1074? \b Mission Planner (Turbo)\b0  \u8212? \u1087?\u1088?\u1086?\u1075?\u1088?\u1072?\u1084?\u1084?\u1091? \u1087?\u1083?\u1072?\u1085?\u1080?\u1088?\u1086?\u1074?\u1072?\u1085?\u1080?\u1103? \u1087?\u1086?\u1083?\u1105?\u1090?\u1086?\u1074? \u1073?\u1077?\u1089?\u1087?\u1080?\u1083?\u1086?\u1090?\u1085?\u1099?\u1093? \u1083?\u1077?\u1090?\u1072?\u1090?\u1077?\u1083?\u1100?\u1085?\u1099?\u1093? \u1072?\u1087?\u1087?\u1072?\u1088?\u1072?\u1090?\u1086?\u1074? (\b \u1041?\u1055?\u1051?\u1040?\b0 ).\par
+\pard\nowidctlpar\fi720\b \u1057?\u1087?\u1088?\u1072?\u1074?\u1082?\u1072?:\par
+Arduplane: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/plane"}}{\fldrslt{\ul\cf1 http://ardupilot.org/plane}}}\f0\fs22\par
+ArduCopter: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/copter"}}{\fldrslt{\ul\cf1 http://ardupilot.org/copter}}}\f0\fs22\par
+ArduRover: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/rover"}}{\fldrslt{\ul\cf1 http://ardupilot.org/rover}}}\f0\fs22\par
+\par
+\pard\nowidctlpar\sa200\sl276\slmult1\tab \u1044?\u1086?\u1087?\u1086?\u1083?\u1085?\u1080?\u1090?\u1077?\u1083?\u1100?\u1085?\u1072?\u1103? \u1080?\u1085?\u1092?\u1086?\u1088?\u1084?\u1072?\u1094?\u1080?\u1103?: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/planner"}}{\fldrslt{\ul\cf1 http://ardupilot.org/planner}}}\f0\fs22.\b0\par
+\pard\nowidctlpar\b\tab \u1054?\u1089?\u1085?\u1086?\u1074?\u1085?\u1086?\u1081? \u1088?\u1072?\u1079?\u1088?\u1072?\u1073?\u1086?\u1090?\u1095?\u1080?\u1082?:\b0  Michael Oborne\par
+\tab\b \u1044?\u1080?\u1079?\u1072?\u1081?\u1085?:\b0  Samantha Nelson\par
+\tab\b \u1059?\u1095?\u1072?\u1089?\u1090?\u1085?\u1080?\u1082?\u1080? \u1088?\u1072?\u1079?\u1088?\u1072?\u1073?\u1086?\u1090?\u1082?\u1080?:\b0  Andrew Radford,  Marooned, Ryan Beall, Tom Pittenger \u1080? {\field{\*\fldinst{HYPERLINK "https://github.com/ArduPilot/MissionPlanner/graphs/contributors"}}{\fldrslt{\ul\cf1 https://github.com/ArduPilot/MissionPlanner/graphs/contributors}}}\f0\fs22\par
+\pard\nowidctlpar\fi720\b \u1048?\u1083?\u1083?\u1102?\u1089?\u1090?\u1088?\u1072?\u1094?\u1080?\u1080? ArduCopter:\b0  Max Levine\par
+\b \u1041?\u1080?\u1073?\u1083?\u1080?\u1086?\u1090?\u1077?\u1082?\u1080?:\b0  Gmap.net, Sharpkml, SharpZipLib, IronPython, KMLib, OpenTK, ZedGraph, alglib, BouncyCastle, DotSpatial, LibVLC, netDXF\par
+\par
+\b \u1050?\u1086?\u1084?\u1087?\u1072?\u1085?\u1080?\u1080?, \u1087?\u1086?\u1076?\u1076?\u1077?\u1088?\u1078?\u1072?\u1074?\u1096?\u1080?\u1077? \u1088?\u1072?\u1079?\u1088?\u1072?\u1073?\u1086?\u1090?\u1082?\u1091? Mission Planner: \b0 3D Robotics, Falcon Unmanned, \u1041?\u1055?\u1051?\u1040? Solutions\b\par
+\par
+\u1057?\u1086?\u1095?\u1077?\u1090?\u1072?\u1085?\u1080?\u1103? \u1082?\u1083?\u1072?\u1074?\u1080?\u1096?\par
+\par
+\u1043?\u1083?\u1072?\u1074?\u1085?\u1086?\u1077? \u1086?\u1082?\u1085?\u1086?\par
+F2 - \u1055?\u1086?\u1083?\u1105?\u1090?\u1085?\u1099?\u1077? \u1076?\u1072?\u1085?\u1085?\u1099?\u1077?\par
+F3 - \u1055?\u1083?\u1072?\u1085?\u1080?\u1088?\u1086?\u1074?\u1097?\u1080?\u1082? \u1087?\u1086?\u1083?\u1105?\u1090?\u1072?\par
+F4 - \u1053?\u1072?\u1089?\u1090?\u1088?\u1086?\u1081?\u1082?\u1072?\par
+F5 - \u1054?\u1073?\u1085?\u1086?\u1074?\u1080?\u1090?\u1100? \u1087?\u1086?\u1083?\u1085?\u1099?\u1081? \u1089?\u1087?\u1080?\u1089?\u1086?\u1082? \u1087?\u1072?\u1088?\u1072?\u1084?\u1077?\u1090?\u1088?\u1086?\u1074?\par
+Control-F - \u1042?\u1088?\u1077?\u1084?\u1077?\u1085?\u1085?\u1099?\u1081? \u1101?\u1082?\u1088?\u1072?\u1085?\par
+Control-T - \u1055?\u1086?\u1076?\u1082?\u1083?\u1102?\u1095?\u1077?\u1085?\u1080?\u1077? \u1073?\u1077?\u1079? \u1086?\u1078?\u1080?\u1076?\u1072?\u1085?\u1080?\u1103? \u1086?\u1090?\u1074?\u1077?\u1090?\u1072?\par
+\par
+\u1055?\u1086?\u1083?\u1105?\u1090?\u1085?\u1099?\u1077? \u1076?\u1072?\u1085?\u1085?\u1099?\u1077?\par
+Control-1 - \u1074?\u1082?\u1083?\u1072?\u1076?\u1082?\u1072? 1\par
+Control-2 - \u1074?\u1082?\u1083?\u1072?\u1076?\u1082?\u1072? 2\par
+Control-3 - \u1074?\u1082?\u1083?\u1072?\u1076?\u1082?\u1072? 3\par
+Control-4 - \u1074?\u1082?\u1083?\u1072?\u1076?\u1082?\u1072? 4\par
+Control-5 - \u1074?\u1082?\u1083?\u1072?\u1076?\u1082?\u1072? 5\par
+Control-6 - \u1074?\u1082?\u1083?\u1072?\u1076?\u1082?\u1072? 6\par
+Control-7 - \u1074?\u1082?\u1083?\u1072?\u1076?\u1082?\u1072? 7\par
+Control-8 - \u1074?\u1082?\u1083?\u1072?\u1076?\u1082?\u1072? 8\par
+Control-9 - \u1074?\u1082?\u1083?\u1072?\u1076?\u1082?\u1072? 9\par
+Control-0 - \u1074?\u1082?\u1083?\u1072?\u1076?\u1082?\u1072? 10\par
+\par
+\u1055?\u1083?\u1072?\u1085?\u1080?\u1088?\u1086?\u1074?\u1097?\u1080?\u1082? \u1087?\u1086?\u1083?\u1105?\u1090?\u1072?\par
+Control-Z - \u1054?\u1090?\u1084?\u1077?\u1085?\u1080?\u1090?\u1100?\par
+Control-O - \u1054?\u1090?\u1082?\u1088?\u1099?\u1090?\u1100? \u1092?\u1072?\u1081?\u1083? \u1084?\u1072?\u1088?\u1096?\u1088?\u1091?\u1090?\u1085?\u1099?\u1093? \u1090?\u1086?\u1095?\u1077?\u1082?\par
+Control-S - \u1057?\u1086?\u1093?\u1088?\u1072?\u1085?\u1080?\u1090?\u1100? \u1092?\u1072?\u1081?\u1083? \u1084?\u1072?\u1088?\u1096?\u1088?\u1091?\u1090?\u1085?\u1099?\u1093? \u1090?\u1086?\u1095?\u1077?\u1082?\par
+\par
+\u1040?\u1074?\u1090?\u1086?\u1084?\u1072?\u1090?\u1080?\u1095?\u1077?\u1089?\u1082?\u1072?\u1103? \u1089?\u1077?\u1090?\u1082?\u1072? \u1084?\u1072?\u1088?\u1096?\u1088?\u1091?\u1090?\u1085?\u1099?\u1093? \u1090?\u1086?\u1095?\u1077?\u1082?\par
+Control-O - \u1054?\u1090?\u1082?\u1088?\u1099?\u1090?\u1100? \u1092?\u1072?\u1081?\u1083? \u1089?\u1077?\u1090?\u1082?\u1080?\par
+Control-S - \u1057?\u1086?\u1093?\u1088?\u1072?\u1085?\u1080?\u1090?\u1100? \u1092?\u1072?\u1081?\u1083? \u1089?\u1077?\u1090?\u1082?\u1080?\par
+\par
+}</value></data>
+</root>

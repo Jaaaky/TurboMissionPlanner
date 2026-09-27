@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,12 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>SaídaSeriao - Mavlonk</value>
+    <value>Saída serial - MAVLink</value>
   </data>
   <data name="BUT_connect.Text" xml:space="preserve">
     <value>Conectar</value>
   </data>
   <data name="chk_write.Text" xml:space="preserve">
-    <value>Escrever acesso</value>
+    <value>Acesso de escrita</value>
   </data>
+  <data name="Type.HeaderText" xml:space="preserve"><value>Tipo</value></data>
+  <data name="Direction.HeaderText" xml:space="preserve"><value>Direção</value></data>
+  <data name="Port.HeaderText" xml:space="preserve"><value>Porta</value></data>
+  <data name="Extra.HeaderText" xml:space="preserve"><value>Host/velocidade</value></data>
+  <data name="Write.HeaderText" xml:space="preserve"><value>Gravar</value></data>
+  <data name="Go.HeaderText" xml:space="preserve"><value>Iniciar</value></data>
 </root>

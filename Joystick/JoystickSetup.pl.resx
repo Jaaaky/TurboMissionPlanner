@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -175,7 +175,7 @@
     <value>0</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Odwrócenie</value>
+    <value>Odwróć</value>
   </data>
   <data name="expo_ch4.Text" xml:space="preserve">
     <value>30</value>
@@ -190,7 +190,7 @@
     <value>Autodetekcja</value>
   </data>
   <data name="CHK_elevons.Text" xml:space="preserve">
-    <value>Elewony</value>
+    <value>Sterolotki</value>
   </data>
   <data name="BUT_detch7.Text" xml:space="preserve">
     <value>Autodetekcja</value>
@@ -216,4 +216,8 @@
   <data name="BUT_enable.Text" xml:space="preserve">
     <value>Włącz</value>
   </data>
+  <data name="label14.Text" xml:space="preserve"><value>Wczytano konfigurację dla</value></data>
+  <data name="chk_manualcontrol.Text" xml:space="preserve"><value>Sterowanie ręczne</value></data>
+  <data name="but_export.Text" xml:space="preserve"><value>Eksportuj</value></data>
+  <data name="but_import.Text" xml:space="preserve"><value>Importuj</value></data>
 </root>

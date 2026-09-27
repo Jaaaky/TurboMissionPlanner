@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>خاتىرە ھۆججىتى چۈشۈرۈۋاتىسىز، بىكار قىلامسىز؟</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>جەزملەمسىز؟</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>{0} ئۈچۈن KML قۇرۇلۇۋاتىدۇ</value></data>
+  <data name="Done" xml:space="preserve"><value>تامام</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>خاتىرە ھۆججەتلىرى چۈشۈرۈلىدىغان ئورۇن: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>!!ئۆچۈرۈشكە 30–90 سېكۇنت ۋاقىت بېرىڭ</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>ھۆججەتنى بىر تەرەپ قىلىشتا خاتالىق كۆرۈلدى. ھۆججەتنىڭ ئىشلىتىلمەۋاتقانلىقىنى جەزملەشتۈرۈڭ</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>{0} خاتىرە ھۆججىتى ئېلىنىۋاتىدۇ...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>خاتىرە ھۆججەت تىزىملىكى ئېلىنىۋاتىدۇ...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>خاتىرە ھۆججەت مۇندەرىجىسىنى قۇرغىلى بولمىدى: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>چۈشۈرىدىغان خاتىرە يوق</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>ئۇچقۇڭىزنى ئۇلاڭ</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>تىزىملىكتىكى تاللاش رامكىلىرىنى چېكىپ بىر قانچە خاتىرە تاللاڭ</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>{0} بىر تەرەپ قىلىنىۋاتىدۇ</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>{0} خاتىرە ھۆججىتى تېپىلدى؛ ئەسكەرتىش: تۈر چوڭلۇقلىرى پەقەت مۆلچەر.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>خاتالىق:</value></data>
+</root>

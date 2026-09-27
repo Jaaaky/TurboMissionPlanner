@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,34 +118,36 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>ПРИМІТКА: БУДЬ ЛАСКА, ПОВІДОМЛЯ ВЛАСНИХ КОРИСТУВАЧА
-Це перевірить ваші двигуни.
-Мотори тестуються за годинниковою стрілкою обертання 
-починаючи з переднього праворуч.</value>
+    <value>УВАГА: НАДІЙНО УТРИМУЙТЕ БПЛА
+Ця перевірка запускає двигуни.
+Двигуни перевіряються за годинниковою стрілкою,
+починаючи з переднього правого.</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Тривалість (ів)</value>
+    <value>Тривалість (с)</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Дросель %</value>
+    <value>Газ, %</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Встановіть мінімальні %, які будуть виводитися під час озброєння, але все ще на землі</value>
+    <value>Задати мінімальний відсоток вихідного сигналу після озброєння на землі</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Встановіть мінімальні %, які будуть виводитися при польоті</value>
+    <value>Задати мінімальний відсоток вихідного сигналу в польоті</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Мотор тесту</value>
+    <value>Перевірка двигунів</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Будь ласка, натисніть тут, щоб побачити число двигуна,
-прокрутіть до низу сторінки</value>
+    <value>Натисніть тут, щоб переглянути номери двигунів,
+і прокрутіть сторінку донизу</value>
   </data>
   <data name="but_mot_spin_arm.Text" xml:space="preserve">
-    <value>Встановити поворот двигуна</value>
+    <value>Обертання після озброєння</value>
   </data>
   <data name="but_mot_spin_min.Text" xml:space="preserve">
-    <value>Встановити поворот двигуна</value>
+    <value>Мін. обертання двигунів</value>
   </data>
+  <data name="FrameType.Text" xml:space="preserve"><value>Тип: невідомий</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>Клас: невідомий</value></data>
 </root>

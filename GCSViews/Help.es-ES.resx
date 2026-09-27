@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,9 +121,11 @@
     <value />
   </data>
   <data name="CHK_showconsole.Text" xml:space="preserve">
-    <value>Mostrar Consola (reiniciar)</value>
+    <value>Mostrar ventana de consola (reiniciar)</value>
   </data>
   <data name="BUT_updatecheck.Text" xml:space="preserve">
-    <value>Comprobar Actualizaciones</value>
+    <value>Buscar actualizaciones</value>
   </data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>Historial de cambios</value></data>
+  <data name="BUT_betaupdate.Text" xml:space="preserve"><value>Buscar actualizaciones BETA</value></data>
 </root>

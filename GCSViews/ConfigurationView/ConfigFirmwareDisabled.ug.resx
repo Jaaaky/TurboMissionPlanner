@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>MAVLink ئارقىلىق ئۇلانغاندا يېڭى مۇقىم دېتال يۈكلىيەلمەيسىز.
+
+ئوڭ ئۈستىدىكى ئۈزۈش كۇنۇپكىسىنى بېسىپ، نۆۋەتتىكى MAVLink ئۇلىنىشىنى ئاخىرلاشتۇرۇڭ ۋە مۇقىم دېتال يۈكلەش ئېكرانىنى قوزغىتىڭ.</value></data>
+  <data name="but_bootloaderupdate.Text" xml:space="preserve"><value>قوزغىتىش يۈكلىگۈچىنى يېڭىلاش</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>قاتتىق دېتالىڭىزدىكى قوزغىتىش يۈكلىگۈچىنى ئەڭ يېڭى نەشرىگە يېڭىلاڭ.</value></data>
+</root>

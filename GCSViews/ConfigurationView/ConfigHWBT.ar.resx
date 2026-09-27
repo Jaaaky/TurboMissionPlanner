@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label3.Text" xml:space="preserve">
-    <value>رجل</value>
+    <value>الطرف</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>الاسم</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>البلوتوث</value>
+    <value>بلوتوث</value>
   </data>
   <data name="BUT_btsettings.Text" xml:space="preserve">
-    <value>حفظ الاعدادات</value>
+    <value>حفظ الإعدادات</value>
   </data>
+  <data name="txt_name.Text" xml:space="preserve"><value>Ardupilot</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>معدل البود</value></data>
 </root>

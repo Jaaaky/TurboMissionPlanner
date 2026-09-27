@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Retract：將雲台收回至預設位置
+Neutral：載入預設位置，例如朝前
+Mavlink_targeting：依收到的橫滾、俯仰、偏航角指向
+rc_targeting：使用遙控通道控制各軸
+gps_point：追蹤單一地面點</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>FF</value>
+    <value>FLTE</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>D</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>スピードダウン</value>
+    <value>下降速度</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>スピード</value>
+    <value>速度 </value>
   </data>
   <data name="label11.Text" xml:space="preserve">
     <value>D</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>FF</value>
+    <value>FLTE</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>D</value>
@@ -145,7 +145,7 @@
     <value>半径</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>FF</value>
+    <value>FLTE</value>
   </data>
   <data name="label82.Text" xml:space="preserve">
     <value>P</value>
@@ -172,7 +172,7 @@
     <value>P</value>
   </data>
   <data name="myLabel2.Text" xml:space="preserve">
-    <value>RC6オプション</value>
+    <value>チューニング</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>I</value>
@@ -181,7 +181,7 @@
     <value>最小</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>スピードアップ</value>
+    <value>上昇速度</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>D</value>
@@ -193,37 +193,37 @@
     <value>IMAX</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>高度維持</value>
+    <value>高度維持（高度→上昇率）</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>I</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>WPナビ (cm's)</value>
+    <value>WP航法（cm単位）</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>スロットル レート</value>
+    <value>スロットルレート（鉛直速度→加速度）</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>D</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>スロットル アクセル</value>
+    <value>スロットル加速度（加速度→モーター）</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>P</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>ロイター レート</value>
+    <value>XY速度（速度→加速度）</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>ロイター スピード</value>
+    <value>ロイター速度</value>
   </data>
   <data name="groupBox19.Text" xml:space="preserve">
-    <value>ロイター PID</value>
+    <value>XY位置（距離→速度）</value>
   </data>
   <data name="label90.Text" xml:space="preserve">
     <value>I</value>
@@ -244,13 +244,13 @@
     <value>ロール レート</value>
   </data>
   <data name="groupBox20.Text" xml:space="preserve">
-    <value>スタビライズ ヨー</value>
+    <value>ヨー姿勢制御（誤差→レート）</value>
   </data>
   <data name="groupBox21.Text" xml:space="preserve">
-    <value>スタビライズ ピッチ</value>
+    <value>ピッチ姿勢制御（誤差→レート）</value>
   </data>
   <data name="groupBox22.Text" xml:space="preserve">
-    <value>スタビライズ ロール</value>
+    <value>ロール姿勢制御（誤差→レート）</value>
   </data>
   <data name="groupBox23.Text" xml:space="preserve">
     <value>ヨー レート</value>
@@ -277,6 +277,40 @@
     <value>P</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>パラメータ リフレッシュ</value>
+    <value>パラメータ再取得</value>
   </data>
+  <data name="label23.Text" xml:space="preserve"><value>入力時定数</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>最大加速度</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>最大加速度</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>最大加速度</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>FLTT</value></data>
+  <data name="P_FLTD.Text" xml:space="preserve"><value>FLTD</value></data>
+  <data name="myLabel5.Text" xml:space="preserve"><value>RC9オプション</value></data>
+  <data name="myLabel6.Text" xml:space="preserve"><value>RC10オプション</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>加速度センサー</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>ジャイロ</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>基本フィルター</value></data>
+  <data name="label51.Text" xml:space="preserve"><value>高調波</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>オプション</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>帯域幅</value></data>
+  <data name="label48.Text" xml:space="preserve"><value>減衰量</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>周波数</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>基準値</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>モード</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>有効</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>ハーモニックノッチフィルター</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>減衰量</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>帯域幅</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>周波数</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>有効</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>固定ノッチフィルター</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>オプション</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>マスク</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>フィルターログ</value></data>
+  <data name="label52.Text" xml:space="preserve"><value>RC6オプション</value></data>
+  <data name="lblUnitWarning.Text" xml:space="preserve"><value>互換性に影響する変更の警告</value></data>
 </root>

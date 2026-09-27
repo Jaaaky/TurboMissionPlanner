@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>Файл</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>Внутрішній</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>Англійська</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>Інша мова</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>Зберегти</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>Використання:
+Під час першого запуску виберіть мову внизу, відредагуйте переклади й натисніть «Зберегти».
+
+Під час наступних запусків виберіть мову — наявні переклади завантажаться автоматично.
+
+Щоб продовжити частково виконаний переклад, натисніть «Завантажити переклад».
+
+ПРИМІТКА: автоматичне завантаження працює лише після того, як Michael додасть переклад до програми. До цього використовуйте кнопку «Завантажити переклад».
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Завантажити переклад</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>Копіювати в буфер обміну</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Редактор перекладів</value></data>
+</root>

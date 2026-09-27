@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label10.Text" xml:space="preserve">
-    <value>Taxa Max</value>
+    <value>Taxa máxima</value>
   </data>
   <data name="mavlinkCheckBox1.Text" xml:space="preserve">
-    <value>Reverso</value>
+    <value>Inverter</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>Tipo</value>
   </data>
   <data name="mavlinkCheckBox2.Text" xml:space="preserve">
-    <value>Reverso</value>
+    <value>Inverter</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>Neutro</value>
@@ -136,48 +136,60 @@
     <value>Tipo</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>Max (grau)</value>
+    <value>Máx. (graus)</value>
   </data>
   <data name="BUT_test_pitch.Text" xml:space="preserve">
-    <value>Teste</value>
+    <value>Testar</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Neutro</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
-    <value>Ganho Yaw</value>
+    <value>Ganho de guinada</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>Ganho Pitch</value>
+    <value>Ganho de arfagem</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Faixa de variação Yaw</value>
+    <value>Amplitude de movimento de guinada</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Faixa (grau)</value>
+    <value>Amplitude (graus)</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
-    <value>Faixa de Variação do Pitch</value>
+    <value>Amplitude de movimento de arfagem</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Min (grau)</value>
+    <value>Mín. (graus)</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Servo Pitch</value>
+    <value>Servo de arfagem</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Fonte da Atitude</value>
+    <value>Fonte de altitude</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Taxa Max</value>
+    <value>Taxa máxima</value>
   </data>
   <data name="groupBox25.Text" xml:space="preserve">
-    <value>Servo Yaw</value>
+    <value>Servo de guinada</value>
   </data>
   <data name="groupBox22.Text" xml:space="preserve">
-    <value>Orientação Magnética</value>
+    <value>Orientação da placa</value>
   </data>
   <data name="BUT_test_yaw.Text" xml:space="preserve">
-    <value>Teste</value>
+    <value>Testar</value>
   </data>
+  <data name="label90.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label91.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label88.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>P</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>D</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>IMAX</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>I</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>P</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,37 +124,37 @@
     <value>Ręczne</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>PWM 0 - 1230</value>
+    <value>Krytyczna</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>PWM 1621 - 1749</value>
+    <value>Przechylenie w zawisie</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Aktualny tryb:</value>
+    <value>Odwr.</value>
   </data>
   <data name="CHK_enableoptflow.Text" xml:space="preserve">
     <value>Włącz Optical Flow</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>UWAGA: Obrazy są wyłącznie do prezentacji, działają jedynie z hexa, itp.</value>
+    <value>Wysoka moc</value>
   </data>
   <data name="CB_simple5.Text" xml:space="preserve">
     <value>Tryb prosty</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>PWM 1750 +</value>
+    <value>Test serw przy uruchomieniu</value>
   </data>
   <data name="CHK_elevonch1rev.Text" xml:space="preserve">
     <value>Odwr. Elevon CH1</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Aktualny PWM:</value>
+    <value>Maks.</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Ustawienia APM</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Pozycja serwa płyty ster.</value>
+    <value>Pozycje serw tarczy sterującej</value>
   </data>
   <data name="CHK_enablecompass.Text" xml:space="preserve">
     <value>Włącz kompas</value>
@@ -169,7 +169,7 @@
     <value>Tryb prosty</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Ustawienie ramy (+ lub x)</value>
+    <value>Min.</value>
   </data>
   <data name="SV2_POS_.Text" xml:space="preserve">
     <value>60</value>
@@ -205,7 +205,7 @@
     <value>Góra</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Zakres ruchu płyty sterującej</value>
+    <value>Zakres skoku ogólnego</value>
   </data>
   <data name="lbl_currentmode.Text" xml:space="preserve">
     <value>Ręczne</value>
@@ -223,34 +223,34 @@
     <value>Kalibracja radia</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>Max</value>
+    <value>Maks.</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Tryb lotu 2</value>
+    <value>Tryb serw</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>Max przechylenie</value>
+    <value>Niska moc</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Tryb lotu 3</value>
+    <value>Kąt fazowy</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>Max pochylenie</value>
+    <value>Bieg jałowy</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>w stopniech np. 2° 3' W to -2.3</value>
+    <value>Stab 3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Tryb lotu 1</value>
+    <value>Zero</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>Wypoziomuj quada żeby stawić domyśle offsety przysp.</value>
+    <value>Stab 2</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Tryb lotu 6</value>
+    <value>Prędkość wirnika ogonowego</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
-    <value>Pojemność</value>
+    <value>Stab 1</value>
   </data>
   <data name="label100.Text" xml:space="preserve">
     <value>Deklinacja</value>
@@ -259,34 +259,34 @@
     <value>Włącz sonar</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>PWM 1231 - 1360</value>
+    <value>Rozruch (s)</value>
   </data>
   <data name="tabRadioIn.Text" xml:space="preserve">
     <value>Wejścia radia</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Calibration</value>
+    <value>Kompensacja skoku ogólnego</value>
   </data>
   <data name="HS4_MIN.Text" xml:space="preserve">
     <value>1500</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Tryb lotu 4</value>
+    <value>Skok ogólny przy lądowaniu</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Tryb lotu 5</value>
+    <value>Narastanie (s)</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Żyro</value>
+    <value>Typ napędu ogonowego</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>PWM 1361 - 1490</value>
+    <value>Zakres skoku cyklicznego</value>
   </data>
   <data name="tabHardware.Text" xml:space="preserve">
     <value>Hardware</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>PWM 1491 - 1620</value>
+    <value>Kompensacja piruetu</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
     <value>Strona www deklinacji</value>
@@ -313,6 +313,33 @@
     <value>1000</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>Monitor</value>
+    <value>Stab 4</value>
   </data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Typ tarczy sterującej</value></data>
+  <data name="fbl_modeFBL.Text" xml:space="preserve"><value>Bez pręta stabilizującego</value></data>
+  <data name="H_SWASH_TYPE.Text" xml:space="preserve"><value>H1</value></data>
+  <data name="CCPM.Text" xml:space="preserve"><value>CCPM</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>Dół</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>Wzmocnienie</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Odwr.</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>Trymowanie</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Serwo</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Trymowanie</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Odwr.</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Pozycja</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Serwo</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>Tempo narastania RSC</value></data>
+  <data name="groupBox8.Text" xml:space="preserve"><value>Wartość zadana trybu 1</value></data>
+  <data name="groupBox9.Text" xml:space="preserve"><value>Sterowanie prędkością wirnika</value></data>
+  <data name="myButtonH_SV_MANtest.Text" xml:space="preserve"><value>Test</value></data>
+  <data name="myButtonH_SV_MANmin.Text" xml:space="preserve"><value>Min.</value></data>
+  <data name="myButtonH_SV_MANzero.Text" xml:space="preserve"><value>Zero</value></data>
+  <data name="myButtonH_SV_MANmax.Text" xml:space="preserve"><value>Maks.</value></data>
+  <data name="myButtonH_SV_MANmanual.Text" xml:space="preserve"><value>Ręcznie</value></data>
+  <data name="myButtonH_SV_MAN.Text" xml:space="preserve"><value>Aktywne</value></data>
+  <data name="groupBox11.Text" xml:space="preserve"><value>Wyjście gazu</value></data>
+  <data name="groupBox12.Text" xml:space="preserve"><value>Krzywa V</value></data>
+  <data name="groupBox13.Text" xml:space="preserve"><value>Krzywa</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Expo Acro</value></data>
 </root>

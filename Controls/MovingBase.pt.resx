@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>O que isso faz.
-1. Receber a coordenada GPS atual da mensagem nmea.
-2. Atualiza a posição Home no mapa. (note: nao atualiza o home no MAV)Como usar isso1. conectar ao ap.
-2. Abrir e pegar a porta serial, e baud rate para a mensagem nmea.
-3.Agora pode estar atualizando o Home.</value>
+    <value>O que esta função faz:
+1. Obtém as coordenadas atuais de um GPS NMEA.
+2. Atualiza a posição de origem no mapa (não atualiza a origem no veículo).
+
+Como utilizar:
+1. Conecte ao piloto automático.
+2. Abra esta janela e selecione a porta serial e a velocidade de transmissão do GPS NMEA.
+3. A posição de origem deverá começar a ser atualizada.</value>
   </data>
 </root>

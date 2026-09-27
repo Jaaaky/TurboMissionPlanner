@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -133,16 +133,16 @@
     <value>Menit</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Pilih Konfigurasi perangkat secara cepat</value>
+    <value>Pilih perangkat untuk konfigurasi parameter cepat:</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Kalibrasi Onboard Mag</value>
   </data>
   <data name="CHK_compass1_use.Text" xml:space="preserve">
-    <value>Gunakan Kompas ini</value>
+    <value>Gunakan kompas ini</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>OR</value>
+    <value>ATAU</value>
   </data>
   <data name="groupBox5.Text" xml:space="preserve">
     <value>Kalibrasi Mag Mission Planner</value>
@@ -151,19 +151,19 @@
     <value>Kompas</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
-    <value>Deklinasi WebSite</value>
+    <value>Situs Web Deklinasi</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Contoh Youtube</value>
+    <value>Contoh YouTube</value>
   </data>
   <data name="CHK_compass3_external.Text" xml:space="preserve">
-    <value>Pasang Eksternal</value>
+    <value>Dipasang di luar</value>
   </data>
   <data name="BUT_MagCalibrationLive.Text" xml:space="preserve">
-    <value>Menghidupkan kalibrasi</value>
+    <value>Kalibrasi Langsung</value>
   </data>
   <data name="BUT_OBmagcalcancel.Text" xml:space="preserve">
-    <value>Di batalkan</value>
+    <value>Batal</value>
   </data>
   <data name="lbl_obmagresult.Text" xml:space="preserve">
     <value>Hasil</value>
@@ -172,7 +172,7 @@
     <value>OFFSET</value>
   </data>
   <data name="buttonAPMExternal.Text" xml:space="preserve">
-    <value>Kompas Eksternal dan APM</value>
+    <value>APM dan Kompas Eksternal</value>
   </data>
   <data name="LBL_compass2_mot.Text" xml:space="preserve">
     <value>MOT</value>
@@ -181,13 +181,13 @@
     <value>Pixhawk/PX4</value>
   </data>
   <data name="CHK_compass3_use.Text" xml:space="preserve">
-    <value>Gunakan Kompas ini</value>
+    <value>Gunakan kompas ini</value>
   </data>
   <data name="CHK_compass2_use.Text" xml:space="preserve">
-    <value>Gunakan Kompas ini</value>
+    <value>Gunakan kompas ini</value>
   </data>
   <data name="BUT_OBmagcalaccept.Text" xml:space="preserve">
-    <value>Diterima</value>
+    <value>Terima</value>
   </data>
   <data name="groupBoxCompass3.Text" xml:space="preserve">
     <value>Kompas #3</value>
@@ -196,22 +196,22 @@
     <value>MOT</value>
   </data>
   <data name="CHK_compass_learn.Text" xml:space="preserve">
-    <value>Belajar Otomatis offsets</value>
+    <value>Pelajari offset secara otomatis</value>
   </data>
   <data name="groupBoxCompass1.Text" xml:space="preserve">
     <value>Kompas #1</value>
   </data>
   <data name="CHK_autodec.Text" xml:space="preserve">
-    <value>Mendapatkan deklinasi otomatis</value>
+    <value>Ambil deklinasi secara otomatis</value>
   </data>
   <data name="QuickAPM25.Text" xml:space="preserve">
-    <value>APM2.5 (Internal Kompas)</value>
+    <value>APM2.5 (Kompas Internal)</value>
   </data>
   <data name="groupBoxCompass2.Text" xml:space="preserve">
-    <value>Compass #2</value>
+    <value>Kompas #2</value>
   </data>
   <data name="CHK_compass1_external.Text" xml:space="preserve">
-    <value>Memasang Ekternal</value>
+    <value>Dipasang di luar</value>
   </data>
   <data name="LBL_compass1_offset.Text" xml:space="preserve">
     <value>OFFSET</value>
@@ -226,6 +226,14 @@
     <value>Pengaturan Umum Kompas</value>
   </data>
   <data name="CHK_compass2_external.Text" xml:space="preserve">
-    <value>Memasang Eksternal</value>
+    <value>Dipasang di luar</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>Longgarkan toleransi kecocokan jika kalibrasi gagal</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Kecocokan</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Mag 3</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Mag 2</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Mag 1</value></data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve"><value>Kalibrasi Magnetometer di Wahana</value></data>
+  <data name="groupBoxmpcalib.Text" xml:space="preserve"><value>Kalibrasi Magnetometer Mission Planner</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>Kalibrasi Magnetometer Wahana Besar</value></data>
 </root>

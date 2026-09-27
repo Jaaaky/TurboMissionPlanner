@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CHK_verifyheight.Text" xml:space="preserve"><value>ئېگىزلىكنى دەلىللەش</value></data>
+  <data name="LBL_WPRad.Text" xml:space="preserve"><value>يول نۇقتىسى رادىئۇسى</value></data>
+  <data name="LBL_defalutalt.Text" xml:space="preserve"><value>كۆڭۈلدىكى ئېگىزلىك</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>ئايلىنىپ تۇرۇش رادىئۇسى</value></data>
+  <data name="but_writewpfast.Text" xml:space="preserve"><value>تېز يېزىش</value></data>
+  <data name="BUT_write.Text" xml:space="preserve"><value>يېزىش</value></data>
+  <data name="BUT_read.Text" xml:space="preserve"><value>ئوقۇش</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>باشلىنىش ئورنى</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>دېڭىز يۈزىدىن</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>ئۇزۇنلۇق</value></data>
+  <data name="Label1.Text" xml:space="preserve"><value>كەڭلىك</value></data>
+  <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve"><value>يۇقىرى</value></data>
+  <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve"><value>تۆۋەن</value></data>
+  <data name="lbl_status.Text" xml:space="preserve"><value>ھالەت</value></data>
+  <data name="chk_usemavftp.Text" xml:space="preserve"><value>MAVFTP</value></data>
+  <data name="CMB_altmode.Text" xml:space="preserve"><value>نىسپىي</value></data>
+  <data name="CHK_splinedefault.Text" xml:space="preserve"><value>سىلىق ئەگرى سىزىق</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>ئېگىزلىك ئاگاھلاندۇرۇشى</value></data>
+  <data name="Command.HeaderText" xml:space="preserve"><value>بۇيرۇق</value></data>
+  <data name="Command.ToolTipText" xml:space="preserve"><value>بۇيرۇق</value></data>
+  <data name="Param1.HeaderText" xml:space="preserve"><value>P1</value></data>
+  <data name="Param2.HeaderText" xml:space="preserve"><value>P2</value></data>
+  <data name="Param3.HeaderText" xml:space="preserve"><value>P3</value></data>
+  <data name="Param4.HeaderText" xml:space="preserve"><value>P4</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>كەڭلىك</value></data>
+  <data name="Lon.HeaderText" xml:space="preserve"><value>ئۇزۇنلۇق</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>ئېگىزلىك</value></data>
+  <data name="Frame.HeaderText" xml:space="preserve"><value>پايدىلىنىش رامكىسى</value></data>
+  <data name="coordZone.HeaderText" xml:space="preserve"><value>رايون</value></data>
+  <data name="coordEasting.HeaderText" xml:space="preserve"><value>شەرق كوئوردېناتى</value></data>
+  <data name="coordNorthing.HeaderText" xml:space="preserve"><value>شىمال كوئوردېناتى</value></data>
+  <data name="MGRS.HeaderText" xml:space="preserve"><value>MGRS</value></data>
+  <data name="Delete.HeaderText" xml:space="preserve"><value>ئۆچۈرۈش</value></data>
+  <data name="Delete.ToolTipText" xml:space="preserve"><value>قۇرنى ئۆچۈرۈش</value></data>
+  <data name="Up.ToolTipText" xml:space="preserve"><value>قۇرنى يۇقىرىغا يۆتكەش</value></data>
+  <data name="Down.ToolTipText" xml:space="preserve"><value>قۇرنى تۆۋەنگە يۆتكەش</value></data>
+  <data name="Grad.HeaderText" xml:space="preserve"><value>يانتۇلۇق %</value></data>
+  <data name="Angle.HeaderText" xml:space="preserve"><value>بۇلۇڭ</value></data>
+  <data name="Dist.HeaderText" xml:space="preserve"><value>ئارىلىق</value></data>
+  <data name="AZ.HeaderText" xml:space="preserve"><value>ئازىمۇت</value></data>
+  <data name="TagData.HeaderText" xml:space="preserve"><value>بەلگە سانلىق مەلۇماتى</value></data>
+  <data name="BUT_Add.Text" xml:space="preserve"><value>ئاستىغا قوشۇش</value></data>
+  <data name="BUT_Add.ToolTip" xml:space="preserve"><value>تۆۋەندىكى جەدۋەلگە قۇر قوشۇش</value></data>
+  <data name="panelWaypoints.Text" xml:space="preserve"><value>يول نۇقتىلىرى</value></data>
+  <data name="BUT_InjectCustomMap.Text" xml:space="preserve"><value>خاس خەرىتە كىرگۈزۈش</value></data>
+  <data name="chk_grid.Text" xml:space="preserve"><value>تور</value></data>
+  <data name="comboBoxMapType.ToolTip" xml:space="preserve"><value>نۆۋەتتىكى خەرىتە تىپىنى ئۆزگەرتىش</value></data>
+  <data name="lnk_kml.Text" xml:space="preserve"><value>KML كۆرۈش</value></data>
+  <data name="BUT_loadwpfile.Text" xml:space="preserve"><value>ھۆججەت يۈكلەش</value></data>
+  <data name="BUT_saveWPFile.Text" xml:space="preserve"><value>ھۆججەت ساقلاش</value></data>
+  <data name="panelAction.Text" xml:space="preserve"><value>ھەرىكەت</value></data>
+  <data name="lbl_homedist.Text" xml:space="preserve"><value>باشلىنىش نۇقتىسى</value></data>
+  <data name="lbl_prevdist.Text" xml:space="preserve"><value>ئالدىنقى</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>چوڭايتىش دەرىجىسىنى ئۆزگەرتىش</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>چوڭايتىش</value></data>
+  <data name="lbl_distance.Text" xml:space="preserve"><value>ئارىلىق</value></data>
+  <data name="cmb_missiontype.Items" xml:space="preserve"><value>ۋەزىپە</value></data>
+  <data name="cmb_missiontype.Items1" xml:space="preserve"><value>قورشاۋ</value></data>
+  <data name="cmb_missiontype.Items2" xml:space="preserve"><value>يىغىلىش</value></data>
+  <data name="deleteWPToolStripMenuItem.Text" xml:space="preserve"><value>يول نۇقتىسىنى ئۆچۈرۈش</value></data>
+  <data name="currentPositionToolStripMenuItem.Text" xml:space="preserve"><value>نۆۋەتتىكى ئورۇندا</value></data>
+  <data name="insertWpToolStripMenuItem.Text" xml:space="preserve"><value>يول نۇقتىسى قىستۇرۇش</value></data>
+  <data name="insertSplineWPToolStripMenuItem.Text" xml:space="preserve"><value>سىلىق ئەگرى يول نۇقتىسى قىستۇرۇش</value></data>
+  <data name="loiterForeverToolStripMenuItem.Text" xml:space="preserve"><value>چەكسىز</value></data>
+  <data name="loitertimeToolStripMenuItem.Text" xml:space="preserve"><value>ۋاقىت</value></data>
+  <data name="loitercirclesToolStripMenuItem.Text" xml:space="preserve"><value>ئايلىنىشلار</value></data>
+  <data name="loiterToolStripMenuItem.Text" xml:space="preserve"><value>ئايلىنىپ تۇرۇش</value></data>
+  <data name="jumpstartToolStripMenuItem.Text" xml:space="preserve"><value>باشلاش</value></data>
+  <data name="jumpwPToolStripMenuItem.Text" xml:space="preserve"><value>يول نۇقتىسى #</value></data>
+  <data name="jumpToolStripMenuItem.Text" xml:space="preserve"><value>سەكرەش</value></data>
+  <data name="rTLToolStripMenuItem.Text" xml:space="preserve"><value>RTL</value></data>
+  <data name="landToolStripMenuItem.Text" xml:space="preserve"><value>قونۇش</value></data>
+  <data name="takeoffToolStripMenuItem.Text" xml:space="preserve"><value>كۆتۈرۈلۈش</value></data>
+  <data name="setROIToolStripMenuItem.Text" xml:space="preserve"><value>DO_SET_ROI</value></data>
+  <data name="clearMissionToolStripMenuItem.Text" xml:space="preserve"><value>ۋەزىپىنى تازىلاش</value></data>
+  <data name="addPolygonPointToolStripMenuItem2.Text" xml:space="preserve"><value>كۆپ تەرەپلىك سىزىش</value></data>
+  <data name="clearPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>كۆپ تەرەپلىكنى تازىلاش</value></data>
+  <data name="savePolygonToolStripMenuItem2.Text" xml:space="preserve"><value>كۆپ تەرەپلىكنى ساقلاش</value></data>
+  <data name="loadPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>كۆپ تەرەپلىك يۈكلەش</value></data>
+  <data name="fromSHPToolStripMenuItem2.Text" xml:space="preserve"><value>SHP دىن</value></data>
+  <data name="fromCurrentWaypointsToolStripMenuItem.Text" xml:space="preserve"><value>نۆۋەتتىكى يول نۇقتىلىرىدىن</value></data>
+  <data name="offsetPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>كۆپ تەرەپلىكنى سىلجىتىش</value></data>
+  <data name="areaToolStripMenuItem2.Text" xml:space="preserve"><value>مەيدان</value></data>
+  <data name="polygonToolStripMenuItem.Text" xml:space="preserve"><value>كۆپ تەرەپلىك</value></data>
+  <data name="GeoFenceuploadToolStripMenuItem.Text" xml:space="preserve"><value>يۈكلەش</value></data>
+  <data name="GeoFencedownloadToolStripMenuItem.Text" xml:space="preserve"><value>چۈشۈرۈش</value></data>
+  <data name="setReturnLocationToolStripMenuItem.Text" xml:space="preserve"><value>قايتىش ئورنىنى بەلگىلەش</value></data>
+  <data name="loadFromFileToolStripMenuItem.Text" xml:space="preserve"><value>ھۆججەتتىن يۈكلەش</value></data>
+  <data name="saveToFileToolStripMenuItem.Text" xml:space="preserve"><value>ھۆججەتكە ساقلاش</value></data>
+  <data name="clearToolStripMenuItem.Text" xml:space="preserve"><value>تازىلاش</value></data>
+  <data name="geoFenceToolStripMenuItem.Text" xml:space="preserve"><value>جۇغراپىيەلىك قورشاۋ</value></data>
+  <data name="setRallyPointToolStripMenuItem.Text" xml:space="preserve"><value>يىغىلىش نۇقتىسى بەلگىلەش</value></data>
+  <data name="getRallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>چۈشۈرۈش</value></data>
+  <data name="saveRallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>يۈكلەش</value></data>
+  <data name="clearRallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>يىغىلىش نۇقتىلىرىنى تازىلاش</value></data>
+  <data name="saveToFileToolStripMenuItem1.Text" xml:space="preserve"><value>يىغىلىش نۇقتىلىرىنى ھۆججەتكە ساقلاش</value></data>
+  <data name="loadFromFileToolStripMenuItem1.Text" xml:space="preserve"><value>يىغىلىش نۇقتىلىرىنى ھۆججەتتىن يۈكلەش</value></data>
+  <data name="rallyPointsToolStripMenuItem.Text" xml:space="preserve"><value>يىغىلىش نۇقتىلىرى</value></data>
+  <data name="createWpCircleToolStripMenuItem.Text" xml:space="preserve"><value>يول نۇقتىلىرىدىن چەمبەر قۇرۇش</value></data>
+  <data name="createSplineCircleToolStripMenuItem.Text" xml:space="preserve"><value>سىلىق ئەگرى چەمبەر قۇرۇش</value></data>
+  <data name="areaToolStripMenuItem1.Text" xml:space="preserve"><value>مەيدان</value></data>
+  <data name="textToolStripMenuItem.Text" xml:space="preserve"><value>تېكىست</value></data>
+  <data name="createCircleSurveyToolStripMenuItem.Text" xml:space="preserve"><value>چەمبەرلىك ئۆلچەش قۇرۇش</value></data>
+  <data name="surveyGridToolStripMenuItem.Text" xml:space="preserve"><value>ئۆلچەش (تور)</value></data>
+  <data name="autoWPToolStripMenuItem.Text" xml:space="preserve"><value>ئاپتوماتىك يول نۇقتىسى</value></data>
+  <data name="ContextMeasure.Text" xml:space="preserve"><value>ئارىلىق ئۆلچەش</value></data>
+  <data name="rotateMapToolStripMenuItem.Text" xml:space="preserve"><value>خەرىتىنى ئايلاندۇرۇش</value></data>
+  <data name="zoomToToolStripMenuItem.Text" xml:space="preserve"><value>يېقىنلاشتۇرۇش</value></data>
+  <data name="prefetchToolStripMenuItem.Text" xml:space="preserve"><value>ئالدىن ئېلىش</value></data>
+  <data name="prefetchWPPathToolStripMenuItem.Text" xml:space="preserve"><value>يول نۇقتىسى يولىنى ئالدىن ئېلىش</value></data>
+  <data name="kMLOverlayToolStripMenuItem.Text" xml:space="preserve"><value>KML قاپلىمىسى</value></data>
+  <data name="elevationGraphToolStripMenuItem.Text" xml:space="preserve"><value>يەر ئېگىزلىكى گرافىكى</value></data>
+  <data name="reverseWPsToolStripMenuItem.Text" xml:space="preserve"><value>يول نۇقتىلىرىنى تەتۈر رەتلەش</value></data>
+  <data name="gDALOpacityToolStripMenuItem.Text" xml:space="preserve"><value>GDAL سۈزۈكلۈكى</value></data>
+  <data name="mapToolToolStripMenuItem.Text" xml:space="preserve"><value>خەرىتە قورالى</value></data>
+  <data name="loadWPFileToolStripMenuItem.Text" xml:space="preserve"><value>يول نۇقتىسى ھۆججىتىنى يۈكلەش</value></data>
+  <data name="loadAndAppendToolStripMenuItem.Text" xml:space="preserve"><value>يۈكلەپ ئارقىغا قوشۇش</value></data>
+  <data name="saveWPFileToolStripMenuItem.Text" xml:space="preserve"><value>يول نۇقتىسى ھۆججىتىنى ساقلاش</value></data>
+  <data name="loadKMLFileToolStripMenuItem.Text" xml:space="preserve"><value>KML ھۆججىتىنى يۈكلەش</value></data>
+  <data name="loadSHPFileToolStripMenuItem.Text" xml:space="preserve"><value>SHP ھۆججىتىنى يۈكلەش</value></data>
+  <data name="fileLoadSaveToolStripMenuItem.Text" xml:space="preserve"><value>ھۆججەت يۈكلەش/ساقلاش</value></data>
+  <data name="poiaddToolStripMenuItem.Text" xml:space="preserve"><value>قوشۇش</value></data>
+  <data name="poideleteToolStripMenuItem.Text" xml:space="preserve"><value>ئۆچۈرۈش</value></data>
+  <data name="poieditToolStripMenuItem.Text" xml:space="preserve"><value>تەھرىرلەش</value></data>
+  <data name="pOIToolStripMenuItem.Text" xml:space="preserve"><value>قىزىقىش نۇقتىسى</value></data>
+  <data name="trackerHomeToolStripMenuItem.Text" xml:space="preserve"><value>ئىزلىگۈچنىڭ باشلىنىش نۇقتىسى</value></data>
+  <data name="modifyAltToolStripMenuItem.Text" xml:space="preserve"><value>ئېگىزلىكنى ئۆزگەرتىش</value></data>
+  <data name="enterUTMCoordToolStripMenuItem.Text" xml:space="preserve"><value>UTM كوئوردېناتى كىرگۈزۈش</value></data>
+  <data name="switchDockingToolStripMenuItem.Text" xml:space="preserve"><value>چاپلاش ھالىتىنى ئالماشتۇرۇش</value></data>
+  <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>باشلىنىش نۇقتىسىنى بۇ يەرگە بەلگىلەش</value></data>
+  <data name="panelMap.Text" xml:space="preserve"><value>panel6</value></data>
+  <data name="addPolygonPointToolStripMenuItem.Text" xml:space="preserve"><value>كۆپ تەرەپلىك سىزىش</value></data>
+  <data name="clearPolygonToolStripMenuItem.Text" xml:space="preserve"><value>كۆپ تەرەپلىكنى تازىلاش</value></data>
+  <data name="savePolygonToolStripMenuItem.Text" xml:space="preserve"><value>كۆپ تەرەپلىكنى ساقلاش</value></data>
+  <data name="loadPolygonToolStripMenuItem.Text" xml:space="preserve"><value>كۆپ تەرەپلىك يۈكلەش</value></data>
+  <data name="fromSHPToolStripMenuItem.Text" xml:space="preserve"><value>SHP دىن</value></data>
+  <data name="areaToolStripMenuItem.Text" xml:space="preserve"><value>مەيدان</value></data>
+  <data name="fenceInclusionToolStripMenuItem.Text" xml:space="preserve"><value>رۇخسەتلىك قورشاۋ</value></data>
+  <data name="fenceExclusionToolStripMenuItem.Text" xml:space="preserve"><value>چەكلەنگەن قورشاۋ</value></data>
+  <data name="convertWPToPolygonToolStripMenuItem.Text" xml:space="preserve"><value>نۆۋەتتىكى يول نۇقتىلىرىدىن</value></data>
+  <data name="offsetPolygonToolStripMenuItem.Text" xml:space="preserve"><value>كۆپ تەرەپلىكنى سىلجىتىش</value></data>
+  <data name="drawAPolygonToolStripMenuItem.Text" xml:space="preserve"><value>كۆپ تەرەپلىك سىزىش</value></data>
+  <data name="testToolStripMenuItem.Text" xml:space="preserve"><value>سىناق</value></data>
+  <data name="zoomToVehicleToolStripMenuItem.Text" xml:space="preserve"><value>ئۇچقۇغا يېقىنلاشتۇرۇش</value></data>
+  <data name="zoomToMissionToolStripMenuItem.Text" xml:space="preserve"><value>ۋەزىپىگە يېقىنلاشتۇرۇش</value></data>
+  <data name="zoomToHomeToolStripMenuItem.Text" xml:space="preserve"><value>باشلىنىش نۇقتىسىغا يېقىنلاشتۇرۇش</value></data>
+</root>

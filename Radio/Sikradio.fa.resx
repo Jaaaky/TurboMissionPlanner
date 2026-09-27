@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="RSSI.ToolTip" xml:space="preserve"><value>برای نمودار تبدیل RSSI به dBm به مشخصات مراجعه کنید. اعداد انتهایی عبارت‌اند از: 
+txe: تعداد خطاهای ارسال (مانند پایان مهلت ارسال) 
+rxe: تعداد خطاهای دریافت (خطای CRC، خطای قاب‌بندی و غیره) 
+stx: تعداد سرریزهای ارسال سریال 
+rrx: تعداد سرریزهای دریافت سریال 
+ecc: تعداد کلمه‌های ۱۲ بیتی که با کد Golay با موفقیت تصحیح شده‌اند
+و به CRC معتبر بسته منجر شده‌اند 
+</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>LEDهای وضعیت</value></data>
+  <data name="linkLabel1.ToolTip" xml:space="preserve"><value>رادیوهای 3DR دو LED وضعیت دارند؛ یکی قرمز و دیگری سبز.
+سبز چشمک‌زن: جستجوی رادیوی دیگر 
+سبز ثابت: پیوند با رادیوی دیگر برقرار است 
+قرمز چشمک‌زن: ارسال داده 
+قرمز ثابت: حالت به‌روزرسانی میان‌افزار</value></data>
+  <data name="RRTSCTS.ToolTip" xml:space="preserve"><value>فعال یا غیرفعال کردن کنترل جریان سخت‌افزاری</value></data>
+  <data name="RMAX_FREQ.ToolTip" xml:space="preserve"><value>بیشینهٔ فرکانس بر حسب kHz </value></data>
+  <data name="RNUM_CHANNELS.ToolTip" xml:space="preserve"><value>تعداد کانال‌های پرش فرکانسی </value></data>
+  <data name="RDUTY_CYCLE.ToolTip" xml:space="preserve"><value>درصد زمانی که ارسال مجاز است</value></data>
+  <data name="RLBT_RSSI.ToolTip" xml:space="preserve"><value>آستانهٔ گوش‌دادن پیش از ارسال</value></data>
+  <data name="RMIN_FREQ.ToolTip" xml:space="preserve"><value>کمینهٔ فرکانس بر حسب kHz </value></data>
+  <data name="RGPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT پایهٔ GPIO 1.1 را به خروجی R/C(PPM) تبدیل می‌کند</value></data>
+  <data name="RGPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN پایهٔ GPIO 1.1 را به ورودی R/C(PPM) تبدیل می‌کند</value></data>
+  <data name="RSERIAL_SPEED.ToolTip" xml:space="preserve"><value>نرخ باد سریال بر حسب kbps گرد‌شده؛ بنابراین 57 به معنای 57600 است. 
+</value></data>
+  <data name="RAIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEED نرخ دادهٔ بین رادیوها بر حسب kbps گرد‌شده است؛ بنابراین 128 یعنی 128kbps. بیشینه 192 و کمینه 2 است. مقادیر کمتر از 16 توصیه نمی‌شود، زیرا زمان پرش فرکانسی و همگام‌سازی TDM بیش از حد طولانی می‌شود. </value></data>
+  <data name="RNETID.ToolTip" xml:space="preserve"><value>NETID یک «شناسهٔ شبکه» ۱۶ بیتی است. این مقدار برای تعیین بذر توالی پرش فرکانسی و تشخیص دریافت بسته از رادیوی درست استفاده می‌شود. مطمئن شوید NETID شما با دیگر رادیوهای هم‌نوع در منطقه متفاوت است. </value></data>
+  <data name="RTXPOWER.ToolTip" xml:space="preserve"><value>TXPOWER توان ارسال بر حسب dBm است. 20dBm برابر با 100mW است. برای آزمایش در فاصلهٔ کوتاه، تنظیم این مقدار روی توان کمتر مفید است.
+</value></data>
+  <data name="RECC.ToolTip" xml:space="preserve"><value>ECC کد تصحیح خطای Golay را فعال یا غیرفعال می‌کند و به‌طور پیش‌فرض خاموش است. با فعال شدن آن، تعداد بایت‌های ارسالی هر بسته دو برابر می‌شود و نیمی از پهنای باند رادیویی از دست می‌رود؛ اما تا ۳ بیت خطا در هر ۱۲ بیت داده قابل تصحیح است. برای برد بلند، معمولاً همراه با نرخ دادهٔ رادیویی پایین‌تر، از آن استفاده کنید. رمزگشایی Golay برای هر بایت ارسالی ۲۰ میکروثانیه (برای هر بایت دادهٔ کاربر ۴۰ میکروثانیه) زمان می‌برد؛ بنابراین در بالاترین نرخ‌های دادهٔ رادیویی، پردازنده نیز تا حدی محدودکننده خواهد بود. معمولاً Golay در نرخ 128kbps یا کمتر استفاده می‌شود. 
+</value></data>
+  <data name="ROPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESEND «ارسال مجدد فرصت‌طلبانه» را فعال یا غیرفعال می‌کند. در حالت فعال، اگر بافر ورودی سریال کمتر از ۲۵۶ بایت داشته باشد، رادیو بسته را دوبار می‌فرستد. ارسال دوم به‌عنوان ارسال مجدد علامت‌گذاری می‌شود و اگر گیرنده بستهٔ اول را درست دریافت کرده باشد، آن را کنار می‌گذارد. این کار کیفیت پیوند را، به‌ویژه برای فرمان‌های ارسالی به پرنده، بسیار بهتر می‌کند. 
+</value></data>
+  <data name="RTSCTS.ToolTip" xml:space="preserve"><value>فعال یا غیرفعال کردن کنترل جریان سخت‌افزاری</value></data>
+  <data name="MAX_FREQ.ToolTip" xml:space="preserve"><value>بیشینهٔ فرکانس بر حسب kHz </value></data>
+  <data name="NUM_CHANNELS.ToolTip" xml:space="preserve"><value>تعداد کانال‌های پرش فرکانسی </value></data>
+  <data name="LBT_RSSI.ToolTip" xml:space="preserve"><value>آستانهٔ گوش‌دادن پیش از ارسال</value></data>
+  <data name="MIN_FREQ.ToolTip" xml:space="preserve"><value>کمینهٔ فرکانس بر حسب kHz </value></data>
+  <data name="DUTY_CYCLE.ToolTip" xml:space="preserve"><value>درصد زمانی که ارسال مجاز است</value></data>
+  <data name="GPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT پایهٔ GPIO 1.1 را به خروجی R/C(PPM) تبدیل می‌کند</value></data>
+  <data name="GPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN پایهٔ GPIO 1.1 را به ورودی R/C(PPM) تبدیل می‌کند</value></data>
+  <data name="MAVLINK.ToolTip" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="SERIAL_SPEED.ToolTip" xml:space="preserve"><value>نرخ باد سریال بر حسب kbps گرد‌شده؛ بنابراین 57 به معنای 57600 است. 
+</value></data>
+  <data name="AIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEED نرخ دادهٔ بین رادیوها بر حسب kbps گرد‌شده است؛ بنابراین 128 یعنی 128kbps. بیشینه 192 و کمینه 2 است. مقادیر کمتر از 16 توصیه نمی‌شود، زیرا زمان پرش فرکانسی و همگام‌سازی TDM بیش از حد طولانی می‌شود. </value></data>
+  <data name="NETID.ToolTip" xml:space="preserve"><value>NETID یک «شناسهٔ شبکه» ۱۶ بیتی است. این مقدار برای تعیین بذر توالی پرش فرکانسی و تشخیص دریافت بسته از رادیوی درست استفاده می‌شود. مطمئن شوید NETID شما با دیگر رادیوهای هم‌نوع در منطقه متفاوت است. </value></data>
+  <data name="TXPOWER.ToolTip" xml:space="preserve"><value>TXPOWER توان ارسال بر حسب dBm است. 20dBm برابر با 100mW است. برای آزمایش در فاصلهٔ کوتاه، تنظیم این مقدار روی توان کمتر مفید است.
+</value></data>
+  <data name="ECC.ToolTip" xml:space="preserve"><value>ECC کد تصحیح خطای Golay را فعال یا غیرفعال می‌کند و به‌طور پیش‌فرض خاموش است. با فعال شدن آن، تعداد بایت‌های ارسالی هر بسته دو برابر می‌شود و نیمی از پهنای باند رادیویی از دست می‌رود؛ اما تا ۳ بیت خطا در هر ۱۲ بیت داده قابل تصحیح است. برای برد بلند، معمولاً همراه با نرخ دادهٔ رادیویی پایین‌تر، از آن استفاده کنید. رمزگشایی Golay برای هر بایت ارسالی ۲۰ میکروثانیه (برای هر بایت دادهٔ کاربر ۴۰ میکروثانیه) زمان می‌برد؛ بنابراین در بالاترین نرخ‌های دادهٔ رادیویی، پردازنده نیز تا حدی محدودکننده خواهد بود. معمولاً Golay در نرخ 128kbps یا کمتر استفاده می‌شود. 
+</value></data>
+  <data name="OPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESEND «ارسال مجدد فرصت‌طلبانه» را فعال یا غیرفعال می‌کند. در حالت فعال، اگر بافر ورودی سریال کمتر از ۲۵۶ بایت داشته باشد، رادیو بسته را دوبار می‌فرستد. ارسال دوم به‌عنوان ارسال مجدد علامت‌گذاری می‌شود و اگر گیرنده بستهٔ اول را درست دریافت کرده باشد، آن را کنار می‌گذارد. این کار کیفیت پیوند را، به‌ویژه برای فرمان‌های ارسالی به پرنده، بسیار بهتر می‌کند. 
+</value></data>
+  <data name="ENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>سطح رمزگذاری AES</value></data>
+  <data name="RENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>سطح رمزگذاری AES</value></data>
+  <data name="FSFRAMELOSS.ToolTip" xml:space="preserve"><value>تعداد فریم‌های خروجی ازدست‌رفتهٔ SBUS یا PPM پیش از ورود به حالت ایمنی اضطراری.</value></data>
+  <data name="RFSFRAMELOSS.ToolTip" xml:space="preserve"><value>تعداد فریم‌های خروجی ازدست‌رفتهٔ SBUS یا PPM پیش از ورود به حالت ایمنی اضطراری.</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>نسخه</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>RSSI</value></data>
+  <data name="lbl_status.Text" xml:space="preserve"><value>نکته: هنگام تغییر، همیشه روی «کپی تنظیمات لازم به رادیوی دور» کلیک کنید
+تا پیوند رادیویی قطع نشود</value></data>
+  <data name="groupBoxLocal.Text" xml:space="preserve"><value>محلی</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>حد افت فریم برای ایمنی اضطراری</value></data>
+  <data name="lblGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>کشور:</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>نرخ/باند فرکانسی</value></data>
+  <data name="lblSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="btnRandom.Text" xml:space="preserve"><value>تصادفی</value></data>
+  <data name="lblRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblDESTID.Text" xml:space="preserve"><value>شناسهٔ مقصد</value></data>
+  <data name="lblNODEID.Text" xml:space="preserve"><value>شناسهٔ گره</value></data>
+  <data name="lblGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>قالب</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>نرخ باد</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>نرخ دادهٔ رادیویی</value></data>
+  <data name="lblNETID.Text" xml:space="preserve"><value>شناسهٔ شبکه</value></data>
+  <data name="lblTXPOWER.Text" xml:space="preserve"><value>توان ارسال</value></data>
+  <data name="lblECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblOPPRESEND.Text" xml:space="preserve"><value>ارسال مجدد فرصت‌طلبانه</value></data>
+  <data name="lblMAVLINK.Text" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="lblANT_MODE.Text" xml:space="preserve"><value>حالت آنتن</value></data>
+  <data name="lblSER_BRK_DETMS.Text" xml:space="preserve"><value>تشخیص سیگنال Break</value></data>
+  <data name="lblGLOBAL_RETRIES.Text" xml:space="preserve"><value>تلاش‌های مجدد سراسری</value></data>
+  <data name="lblMAX_RETRIES.Text" xml:space="preserve"><value>بیشینهٔ تلاش مجدد</value></data>
+  <data name="lblMAX_DATA.Text" xml:space="preserve"><value>بیشینهٔ داده</value></data>
+  <data name="lblENCRYPTION_LEVEL.Text" xml:space="preserve"><value>رمزگذاری AES</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>کلید AES</value></data>
+  <data name="lblRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="linkLabel_mavlink.Text" xml:space="preserve"><value>تنظیمات MAVLink استاندارد</value></data>
+  <data name="linkLabel_lowlatency.Text" xml:space="preserve"><value>تنظیمات تأخیر کم</value></data>
+  <data name="lblMAX_WINDOW.Text" xml:space="preserve"><value>بیشینهٔ پنجرهٔ زمانی (ms)</value></data>
+  <data name="lblMIN_FREQ.Text" xml:space="preserve"><value>کمینهٔ فرکانس</value></data>
+  <data name="lblLBT_RSSI.Text" xml:space="preserve"><value>RSSI آستانهٔ LBT</value></data>
+  <data name="lblDUTY_CYCLE.Text" xml:space="preserve"><value>چرخهٔ کاری</value></data>
+  <data name="lblNUM_CHANNELS.Text" xml:space="preserve"><value>تعداد کانال‌ها</value></data>
+  <data name="lblMAX_FREQ.Text" xml:space="preserve"><value>بیشینهٔ فرکانس</value></data>
+  <data name="btnRemoteLoadFromFile.Text" xml:space="preserve"><value>بارگذاری از فایل...</value></data>
+  <data name="btnRemoteSaveToFile.Text" xml:space="preserve"><value>ذخیره در فایل...</value></data>
+  <data name="lblRFSFRAMELOSS.Text" xml:space="preserve"><value>حد افت فریم برای ایمنی اضطراری</value></data>
+  <data name="lblRGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblRGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblRGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblRGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblRGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.Text" xml:space="preserve"><value>تنظیم ایمنی اضطراری PPM</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.ToolTip" xml:space="preserve"><value>ثبت جریان پیش‌فرض PPM برای خروجی PPM (سمت پرنده)</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>کشور:</value></data>
+  <data name="lblRSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblRSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>نرخ/باند فرکانسی</value></data>
+  <data name="lblRRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblRTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblRDESTID.Text" xml:space="preserve"><value>شناسهٔ مقصد</value></data>
+  <data name="lblRNODEID.Text" xml:space="preserve"><value>شناسهٔ گره</value></data>
+  <data name="lblRGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblRGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblROPPRESEND.Text" xml:space="preserve"><value>ارسال مجدد فرصت‌طلبانه</value></data>
+  <data name="lblRMAVLINK.Text" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="lblRECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblRTXPOWER.Text" xml:space="preserve"><value>توان ارسال</value></data>
+  <data name="lblRNETID.Text" xml:space="preserve"><value>شناسهٔ شبکه</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>نرخ باد</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>نرخ دادهٔ رادیویی</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>قالب</value></data>
+  <data name="lblRANT_MODE.Text" xml:space="preserve"><value>حالت آنتن</value></data>
+  <data name="lblRSER_BRK_DETMS.Text" xml:space="preserve"><value>تشخیص سیگنال Break</value></data>
+  <data name="lblRGLOBAL_RETRIES.Text" xml:space="preserve"><value>تلاش‌های مجدد سراسری</value></data>
+  <data name="lblRMAX_RETRIES.Text" xml:space="preserve"><value>بیشینهٔ تلاش مجدد</value></data>
+  <data name="lblRMAX_DATA.Text" xml:space="preserve"><value>بیشینهٔ داده</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>کلید AES</value></data>
+  <data name="lblRENCRYPTION_LEVEL.Text" xml:space="preserve"><value>رمزگذاری AES</value></data>
+  <data name="lblRRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblRMAX_WINDOW.Text" xml:space="preserve"><value>بیشینهٔ پنجرهٔ زمانی (ms)</value></data>
+  <data name="lblRMIN_FREQ.Text" xml:space="preserve"><value>کمینهٔ فرکانس</value></data>
+  <data name="lblRMAX_FREQ.Text" xml:space="preserve"><value>بیشینهٔ فرکانس</value></data>
+  <data name="lblRNUM_CHANNELS.Text" xml:space="preserve"><value>تعداد کانال‌ها</value></data>
+  <data name="lblRDUTY_CYCLE.Text" xml:space="preserve"><value>چرخهٔ کاری</value></data>
+  <data name="lblRLBT_RSSI.Text" xml:space="preserve"><value>RSSI آستانهٔ LBT</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>نسخه</value></data>
+  <data name="groupBoxRemote.Text" xml:space="preserve"><value>رادیوی دور</value></data>
+  <data name="dlgSave.Filter" xml:space="preserve"><value>فایل‌های INI|*.ini</value></data>
+  <data name="dlgOpen.Filter" xml:space="preserve"><value>فایل‌های INI|*.ini</value></data>
+  <data name="BUT_loadcustom.Text" xml:space="preserve"><value>بارگذاری میان‌افزار (سفارشی)</value></data>
+  <data name="BUT_resettodefault.Text" xml:space="preserve"><value>بازنشانی به پیش‌فرض‌ها</value></data>
+  <data name="BUT_SetPPMFailSafe.Text" xml:space="preserve"><value>تنظیم ایمنی اضطراری PPM</value></data>
+  <data name="BUT_SetPPMFailSafe.ToolTip" xml:space="preserve"><value>ثبت جریان پیش‌فرض PPM برای خروجی PPM (سمت پرنده)</value></data>
+  <data name="BUT_savesettings.Text" xml:space="preserve"><value>ذخیرهٔ تنظیمات</value></data>
+  <data name="BUT_getcurrent.Text" xml:space="preserve"><value>بارگذاری تنظیمات</value></data>
+  <data name="BUT_upload.Text" xml:space="preserve"><value>بارگذاری میان‌افزار (استاندارد)</value></data>
+  <data name="BUT_Syncoptions.Text" xml:space="preserve"><value>کپی تنظیمات لازم به رادیوی دور</value></data>
+  <data name="btnSaveToFile.Text" xml:space="preserve"><value>ذخیره در فایل...</value></data>
+  <data name="btnLoadFromFile.Text" xml:space="preserve"><value>بارگذاری از فایل...</value></data>
+</root>

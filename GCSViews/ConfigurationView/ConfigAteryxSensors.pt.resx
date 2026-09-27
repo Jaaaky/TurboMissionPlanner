@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_zero_press.ToolTip" xml:space="preserve">
-    <value>Calibrar acelerometro</value>
+    <value>Execute agora a calibração do acelerómetro.</value>
   </data>
   <data name="BUT_zero_att.ToolTip" xml:space="preserve">
-    <value>Calibrar acelerometro</value>
+    <value>Execute agora a calibração do acelerómetro.</value>
   </data>
   <data name="BUT_zero_press.Text" xml:space="preserve">
-    <value>Pressão Zero</value>
+    <value>Zerar pressão</value>
   </data>
   <data name="BUT_zero_att.Text" xml:space="preserve">
-    <value>Altitude Zero</value>
+    <value>Zerar atitude</value>
   </data>
 </root>

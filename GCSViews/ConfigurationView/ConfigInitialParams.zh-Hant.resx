@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>設定新多旋翼機時，必須依電池及螺旋槳尺寸設定部分參數。
+在此輸入資料並更新參數前，請確認：
+
+  -- 已完成所有初始設定 (校正、機架設定、馬達測試)
+  -- 已設定電池電壓監測，且運作正常
+
+注意：INS_GYRO_FILTER 不一定要設為 20 以外的值，通常僅小型機架/螺旋槳需要調整。初期可維持為 20。</value></data>
+</root>

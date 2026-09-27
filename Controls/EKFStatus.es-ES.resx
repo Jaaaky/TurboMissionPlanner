@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Estado del EKF</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Indicadores</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Velocidad</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Posición (horizontal)</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Posición (vertical)</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Brújula</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Terreno</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Estado del EKF</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,24 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="but_factoryreset.Text" xml:space="preserve">
-    <value>Tənzimləmələri sıfırla</value>
+    <value>Konfiqurasiyanı sıfırla</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Qeyd: bu seçimi dəyişdikdən sonra yenidən başlatmaq tələb olunur</value>
+    <value>QEYD: bu seçimi dəyişdikdən sonra yenidən başlatmaq lazımdır</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Aktiv et CAN</value>
+    <value>CAN-ı aktiv et</value>
   </data>
   <data name="but_stopenum.Text" xml:space="preserve">
     <value>Nömrələməni dayandır</value>
   </data>
   <data name="checkBox1.Text" xml:space="preserve">
-    <value>Fabrika sıfırlama</value>
+    <value>Zavod parametrlərinə qaytar</value>
   </data>
   <data name="but_startenum.Text" xml:space="preserve">
-    <value>Nömrələməyə başlayın</value>
+    <value>Nömrələməni başlat</value>
   </data>
   <data name="but_saveconfig.Text" xml:space="preserve">
-    <value>Bütün dəyişiklikləri yaddaşa ver</value>
+    <value>Bütün konfiqurasiyanı saxla</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>CAN</value></data>
 </root>

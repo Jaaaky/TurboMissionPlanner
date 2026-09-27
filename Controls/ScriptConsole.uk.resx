@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>Консоль</value>
+    <value>Консоль сценаріїв</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Друкувати команди в python коді будуть друкувати до цього діалогового вікна</value>
+    <value>Результати викликів print у коді Python відображатимуться в цьому вікні</value>
   </data>
   <data name="BUT_clear.Text" xml:space="preserve">
     <value>Очистити</value>
   </data>
   <data name="autoscrollCheckbox.Text" xml:space="preserve">
-    <value>Автопрокрутка</value>
+    <value>Автопрокручування</value>
   </data>
 </root>

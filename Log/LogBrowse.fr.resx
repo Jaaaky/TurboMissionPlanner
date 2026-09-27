@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_loadlog.Text" xml:space="preserve">
-    <value>Charger journal A</value>
+    <value>Charger un journal</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Parcourir journaux</value>
+    <value>Parcourir les journaux</value>
   </data>
   <data name="Graphit.Text" xml:space="preserve">
     <value>Graphe des données</value>
@@ -136,6 +136,23 @@
     <value>Effacer tout données graphique</value>
   </data>
   <data name="BUT_cleargraph.Text" xml:space="preserve">
-    <value>Effacer graphique</value>
+    <value>Effacer le graphique</value>
   </data>
+  <data name="exportVisibleToolStripMenuItem.Text" xml:space="preserve"><value>Exporter les éléments visibles</value></data>
+  <data name="exportFilesToolStripMenuItem.Text" xml:space="preserve"><value>Exporter les fichiers</value></data>
+  <data name="BUT_Graphit.Text" xml:space="preserve"><value>Tracer sur l’axe gauche</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>GPSB</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>POS</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>GPS2</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_params.Text" xml:space="preserve"><value>Afficher les paramètres</value></data>
+  <data name="chk_events.Text" xml:space="preserve"><value>Événements</value></data>
+  <data name="chk_datagrid.Text" xml:space="preserve"><value>Tableau de données</value></data>
+  <data name="chk_msg.Text" xml:space="preserve"><value>MSG</value></data>
+  <data name="chk_errors.Text" xml:space="preserve"><value>Erreurs</value></data>
+  <data name="chk_mode.Text" xml:space="preserve"><value>Mode</value></data>
+  <data name="BUT_Graphit_R.Text" xml:space="preserve"><value>Tracer sur l’axe droit</value></data>
+  <data name="chk_time.Text" xml:space="preserve"><value>Durée</value></data>
+  <data name="CHK_map.Text" xml:space="preserve"><value>Carte</value></data>
+  <data name="BUT_removeitem.Text" xml:space="preserve"><value>Retirer l’élément</value></data>
 </root>

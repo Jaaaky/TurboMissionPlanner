@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,16 +121,16 @@
     <value>Simulação</value>
   </data>
   <data name="MenuFlightPlanner.Text" xml:space="preserve">
-    <value>PLANO VOO</value>
+    <value>PLANO</value>
   </data>
   <data name="MenuHelp.Text" xml:space="preserve">
-    <value>Ajuda</value>
+    <value>AJUDA</value>
   </data>
   <data name="MenuInitConfig.ToolTipText" xml:space="preserve">
-    <value>Ajuste hardware</value>
+    <value>Configuração de hardware</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Mission Planner - Por Michael Oborne</value>
+    <value>Mission Planner (Turbo) - Por Michael Oborne (variante Turbo)</value>
   </data>
   <data name="connectionOptionsToolStripMenuItem.Text" xml:space="preserve">
     <value>Opções de conexão</value>
@@ -139,36 +139,40 @@
     <value>Doar</value>
   </data>
   <data name="readonlyToolStripMenuItem.Text" xml:space="preserve">
-    <value>Soemente ler</value>
+    <value>Apenas leitura</value>
   </data>
   <data name="MenuFlightData.Text" xml:space="preserve">
-    <value>DADOS de VOO</value>
+    <value>DADOS</value>
   </data>
   <data name="MenuInitConfig.Text" xml:space="preserve">
-    <value>AJUSTE INICIAL</value>
+    <value>CONFIGURAÇÃO</value>
   </data>
   <data name="MenuConnect.Text" xml:space="preserve">
     <value>CONECTAR</value>
   </data>
   <data name="MenuFlightPlanner.ToolTipText" xml:space="preserve">
-    <value>Planejar voo</value>
+    <value>Planeador de voo</value>
   </data>
   <data name="MenuConfigTune.Text" xml:space="preserve">
-    <value>CONFIG/AJUSTE</value>
+    <value>AJUSTES</value>
   </data>
   <data name="MenuFlightData.ToolTipText" xml:space="preserve">
     <value>Dados de voo</value>
   </data>
   <data name="MenuConfigTune.ToolTipText" xml:space="preserve">
-    <value>Ajustar software</value>
+    <value>Configuração de software</value>
   </data>
   <data name="MenuSimulation.Text" xml:space="preserve">
-    <value>SIMULACAO</value>
+    <value>SIMULAÇÃO</value>
   </data>
   <data name="MenuHelp.ToolTipText" xml:space="preserve">
-    <value>Terminal</value>
+    <value>Ajuda</value>
   </data>
   <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tela cheia</value>
+    <value>Ecrã inteiro</value>
   </data>
+  <data name="autoHideToolStripMenuItem.Text" xml:space="preserve"><value>Ocultar automaticamente</value></data>
+  <data name="connectionListToolStripMenuItem.Text" xml:space="preserve"><value>Lista de conexões</value></data>
+  <data name="MainMenu.Text" xml:space="preserve"><value>menuStrip1</value></data>
+  <data name="menu.Text" xml:space="preserve"><value>Menu</value></data>
 </root>

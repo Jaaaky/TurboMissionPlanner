@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,55 +121,55 @@
     <value>Kamera hierhin ausrichten</value>
   </data>
   <data name="BUT_setmode.ToolTip" xml:space="preserve">
-    <value>Modus links ändern</value>
+    <value>In den links ausgewählten Modus wechseln</value>
   </data>
   <data name="BUT_edit_selected.Text" xml:space="preserve">
-    <value>Script editieren</value>
+    <value>Ausgewähltes Skript bearbeiten</value>
   </data>
   <data name="BUT_abort_script.Text" xml:space="preserve">
-    <value>laufendes Script abbrechen</value>
+    <value>Laufendes Skript abbrechen</value>
   </data>
   <data name="BUT_playlog.Text" xml:space="preserve">
-    <value>Abspielen/Pause</value>
+    <value>Wiedergabe/Pause</value>
   </data>
   <data name="BUT_setwp.ToolTip" xml:space="preserve">
-    <value>Ändert den aktuellen Ziel-Wegpunkt</value>
+    <value>Aktuellen Zielwegpunkt ändern</value>
   </data>
   <data name="BUT_quickauto.ToolTip" xml:space="preserve">
-    <value>In Auto-Modus wechseln</value>
+    <value>In den AUTO-Modus wechseln</value>
   </data>
   <data name="goHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Fliege hierhin</value>
+    <value>Hierhin fliegen</value>
   </data>
   <data name="quickView1.ToolTip" xml:space="preserve">
-    <value>Doppelklick um zu ändern</value>
+    <value>Zum Ändern doppelklicken</value>
   </data>
   <data name="checkBoxRedirectOutput.Text" xml:space="preserve">
-    <value>Programm Output umleiten</value>
+    <value>Programmausgabe umleiten</value>
   </data>
   <data name="BUT_RAWSensor.Text" xml:space="preserve">
-    <value>Ansicht der Senorrohdaten</value>
+    <value>Sensorrohdaten anzeigen</value>
   </data>
   <data name="BUTrestartmission.ToolTip" xml:space="preserve">
-    <value>Neustart Mission</value>
+    <value>Mission von Anfang an neu starten</value>
   </data>
   <data name="BUT_abortland.ToolTip" xml:space="preserve">
-    <value>Nur Flugzeuge</value>
+    <value>Nur Flächenflugzeuge</value>
   </data>
   <data name="BUT_loganalysis.Text" xml:space="preserve">
-    <value>Auto Analyse</value>
+    <value>Automatische Analyse</value>
   </data>
   <data name="tabPagePreFlight.Text" xml:space="preserve">
-    <value>Vorflug</value>
+    <value>Vorflugkontrolle</value>
   </data>
   <data name="BUT_clear_track.ToolTip" xml:space="preserve">
-    <value>Aufgezeichnete Pfade auf der Karte löschen</value>
+    <value>Aufgezeichnete Flugspur auf der Karte löschen</value>
   </data>
   <data name="BUT_resumemis.Text" xml:space="preserve">
     <value>Mission fortsetzen</value>
   </data>
   <data name="CB_tuning.ToolTip" xml:space="preserve">
-    <value>Zeige Tuning- Diagramm, Zielausrichtung gegen tatsächliche Ausrichtung</value>
+    <value>Abstimmungsdiagramm anzeigen: Soll- und Istfluglage im Vergleich</value>
   </data>
   <data name="russianHudToolStripMenuItem.Text" xml:space="preserve">
     <value>Russisches HUD</value>
@@ -178,118 +178,118 @@
     <value>Geschwindigkeit</value>
   </data>
   <data name="BUT_ARM.ToolTip" xml:space="preserve">
-    <value>Mav scharfschalten</value>
+    <value>Fahrzeug scharfschalten</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Zu aktuellem WP ausrichten</value>
+    <value>Direkt zum aktuellen Wegpunkt</value>
   </data>
   <data name="BUT_log2kml.Text" xml:space="preserve">
-    <value>Tlog &gt; Kml oder Diagramm</value>
+    <value>TLOG → KML oder Diagramm</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Vergrössern</value>
+    <value>Zoom</value>
   </data>
   <data name="BUT_clear_track.Text" xml:space="preserve">
-    <value>Track löschen</value>
+    <value>Flugspur löschen</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>GPS Track (Schwarz)</value>
+    <value>GPS-Spur (schwarz)</value>
   </data>
   <data name="BUT_ARM.Text" xml:space="preserve">
-    <value>Aktiv/Inaktiv</value>
+    <value>Scharf-/Entschärfen</value>
   </data>
   <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
     <value>Hoch</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>aktives Heading</value>
+    <value>Aktueller Steuerkurs</value>
   </data>
   <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
-    <value>löschen</value>
+    <value>Löschen</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Ziel Heading</value>
+    <value>Sollkurs</value>
   </data>
   <data name="userItemsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Benutzereinstellungen</value>
+    <value>Benutzerdefinierte Anzeigen</value>
   </data>
   <data name="myButton1.ToolTip" xml:space="preserve">
-    <value>Mode auf Manual/Stabilize wechseln</value>
+    <value>In den Modus Manual/Stabilize wechseln</value>
   </data>
   <data name="tabActionsSimple.Text" xml:space="preserve">
     <value>Aktionen</value>
   </data>
   <data name="BUT_DFMavlink.Text" xml:space="preserve">
-    <value>DataFlash Log per  MAVlink herunterladen</value>
+    <value>DataFlash-Protokoll über MAVLink herunterladen</value>
   </data>
   <data name="CHK_autopan.ToolTip" xml:space="preserve">
-    <value>Karte läuft mit der aktuellen Position mit</value>
+    <value>Karte automatisch anhand der aktuellen Position nachführen</value>
   </data>
   <data name="BUT_quickrtl.ToolTip" xml:space="preserve">
-    <value>In den RTL Modus wechseln</value>
+    <value>In den RTL-Modus wechseln</value>
   </data>
   <data name="BUT_mountmode.ToolTip" xml:space="preserve">
-    <value>Modusänderungen auf der linken Seite</value>
+    <value>In den links ausgewählten Modus wechseln</value>
   </data>
   <data name="tabGauges.Text" xml:space="preserve">
     <value>Instrumente</value>
   </data>
   <data name="setViewCountToolStripMenuItem.Text" xml:space="preserve">
-    <value>Viewcounter setzen</value>
+    <value>Anzahl der Anzeigen festlegen</value>
   </data>
   <data name="setMJPEGSourceToolStripMenuItem.Text" xml:space="preserve">
-    <value>MJPEG-Quelle wählen</value>
+    <value>MJPEG-Quelle festlegen</value>
   </data>
   <data name="customizeToolStripMenuItem.Text" xml:space="preserve">
     <value>Anpassen</value>
   </data>
   <data name="Zoomlevel.ToolTip" xml:space="preserve">
-    <value>Vergrösserung ändern</value>
+    <value>Zoomstufe ändern</value>
   </data>
   <data name="triggerCameraToolStripMenuItem.Text" xml:space="preserve">
     <value>Kamera JETZT auslösen</value>
   </data>
   <data name="but_disablejoystick.Text" xml:space="preserve">
-    <value>Joystick ausschalten</value>
+    <value>Joystick deaktivieren</value>
   </data>
   <data name="BUT_run_script.Text" xml:space="preserve">
-    <value>Script ausführen</value>
+    <value>Skript ausführen</value>
   </data>
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
     <value>Runter</value>
   </data>
   <data name="BUTactiondo.Text" xml:space="preserve">
-    <value>Aktion auslösen</value>
+    <value>Aktion ausführen</value>
   </data>
   <data name="BUTrestartmission.Text" xml:space="preserve">
-    <value>Neustart Mission</value>
+    <value>Mission neu starten</value>
   </data>
   <data name="BUT_quickmanual.ToolTip" xml:space="preserve">
-    <value>Modus auf Manuell/Stabilisieren stellen</value>
+    <value>In den Modus Manual/Stabilize wechseln</value>
   </data>
   <data name="BUT_RAWSensor.ToolTip" xml:space="preserve">
-    <value>Zeigt Gyro- und Beschleunigungsrohdaten sowie Funk-Ein und Ausgänge</value>
+    <value>Rohwerte von Gyroskop, Beschleunigungssensor und RC-Ein-/Ausgängen anzeigen</value>
   </data>
   <data name="setAspectRatioToolStripMenuItem.Text" xml:space="preserve">
-    <value>Seitenverhältnis einstellen</value>
+    <value>Seitenverhältnis festlegen</value>
   </data>
   <data name="saveFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Datei speichern</value>
   </data>
   <data name="PointCameraCoordsToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Kamera Koordinaten zeigen</value>
+    <value>Kamera auf Koordinaten ausrichten</value>
   </data>
   <data name="BUT_matlab.Text" xml:space="preserve">
-    <value>Matlab Datei erstellen</value>
+    <value>MATLAB-Datei erstellen</value>
   </data>
   <data name="BUT_abortland.Text" xml:space="preserve">
     <value>Landung abbrechen</value>
   </data>
   <data name="Gspeed.ToolTip" xml:space="preserve">
-    <value>Doppelklick, um Maximum einzustellen</value>
+    <value>Zum Ändern des Maximums doppelklicken</value>
   </data>
   <data name="labelScriptStatus.Text" xml:space="preserve">
-    <value>Skript Status: Kein laufendes Skript</value>
+    <value>Skriptstatus: kein Skript aktiv</value>
   </data>
   <data name="but_dflogtokml.Text" xml:space="preserve">
     <value>KML + GPX erstellen</value>
@@ -304,81 +304,152 @@
     <value>Datei laden</value>
   </data>
   <data name="BUTactiondo.ToolTip" xml:space="preserve">
-    <value>Links angezeigte Aktion ausführen</value>
+    <value>Links ausgewählte Aktion ausführen</value>
   </data>
   <data name="BUT_Homealt.Text" xml:space="preserve">
-    <value>Startplatzhöhe einstellen</value>
+    <value>Startpunkthöhe festlegen</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>Startplatz hier setzen</value>
+    <value>Startpunkt hier setzen</value>
   </data>
   <data name="labelSelectedScript.Text" xml:space="preserve">
-    <value>ausgewähltes Skript: keines</value>
+    <value>Ausgewähltes Skript: keines</value>
   </data>
   <data name="swapWithMapToolStripMenuItem.Text" xml:space="preserve">
-    <value>überfordert mit Karte</value>
+    <value>Mit Karte tauschen</value>
   </data>
   <data name="tabQuick.Text" xml:space="preserve">
-    <value>Schnell</value>
+    <value>Schnellansicht</value>
   </data>
   <data name="BUT_loadtelem.Text" xml:space="preserve">
-    <value>Log laden</value>
+    <value>Protokoll laden</value>
   </data>
   <data name="addPoiToolStripMenuItem.Text" xml:space="preserve">
-    <value>POI laden</value>
+    <value>POI hinzufügen</value>
   </data>
   <data name="BUT_joystick.ToolTip" xml:space="preserve">
-    <value>Joystick einstellen und akttivieren</value>
+    <value>Joystick einrichten und aktivieren</value>
   </data>
   <data name="BUT_Homealt.ToolTip" xml:space="preserve">
-    <value>Aktuelle Startplatzhöhe als Null setzen</value>
+    <value>Aktuell angezeigte Höhe auf 0 setzen; die Startpunkthöhe wird damit als 0 angezeigt</value>
   </data>
   <data name="recordHudToAVIToolStripMenuItem.Text" xml:space="preserve">
     <value>HUD als AVI aufzeichnen</value>
   </data>
   <data name="BUT_setwp.Text" xml:space="preserve">
-    <value>WP setzen</value>
+    <value>Wegpunkt setzen</value>
   </data>
   <data name="BUT_select_script.Text" xml:space="preserve">
-    <value>gewähltes Skript</value>
+    <value>Skript auswählen</value>
   </data>
   <data name="tabTLogs.Text" xml:space="preserve">
-    <value>Telemetrie-Logs</value>
+    <value>Telemetrieprotokolle</value>
   </data>
   <data name="myButton2.ToolTip" xml:space="preserve">
-    <value>Modus RTL</value>
+    <value>In den RTL-Modus wechseln</value>
   </data>
   <data name="flightPlannerToolStripMenuItem.Text" xml:space="preserve">
     <value>Flugplaner</value>
   </data>
   <data name="myButton3.ToolTip" xml:space="preserve">
-    <value>Modus "Auto"</value>
+    <value>In den AUTO-Modus wechseln</value>
   </data>
   <data name="BUT_setmode.Text" xml:space="preserve">
     <value>Modus setzen</value>
   </data>
   <data name="onOffCameraOverlapToolStripMenuItem.Text" xml:space="preserve">
-    <value>Kamera Überlappung</value>
+    <value>Bildüberlappung</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
-    <value>Log prüfen</value>
+    <value>Protokoll prüfen</value>
   </data>
   <data name="stopRecordToolStripMenuItem.Text" xml:space="preserve">
     <value>Aufzeichnung stoppen</value>
   </data>
   <data name="BUT_quickrtl.Text" xml:space="preserve">
-    <value>&amp;RTL</value>
+    <value>RTL</value>
   </data>
   <data name="flyToHereAltToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hierhin fliegen - Höhe</value>
+    <value>Hierhin fliegen – Höhe</value>
   </data>
   <data name="lbl_sats.ToolTip" xml:space="preserve">
-    <value>Anzahl Satelliten</value>
+    <value>Satellitenanzahl</value>
   </data>
   <data name="startCameraToolStripMenuItem.Text" xml:space="preserve">
-    <value>Start Kamera</value>
+    <value>Kamera starten</value>
   </data>
   <data name="lbl_hdop.ToolTip" xml:space="preserve">
-    <value>GPS HDOP</value>
+    <value>GPS-HDOP</value>
   </data>
+  <data name="setGStreamerSourceToolStripMenuItem.Text" xml:space="preserve"><value>GStreamer-Quelle festlegen</value></data>
+  <data name="hereLinkVideoToolStripMenuItem.Text" xml:space="preserve"><value>HereLink-Video</value></data>
+  <data name="gStreamerStopToolStripMenuItem.Text" xml:space="preserve"><value>GStreamer stoppen</value></data>
+  <data name="videoToolStripMenuItem.Text" xml:space="preserve"><value>Video</value></data>
+  <data name="groundColorToolStripMenuItem.Text" xml:space="preserve"><value>Bodenfarbe</value></data>
+  <data name="setBatteryCellCountToolStripMenuItem.Text" xml:space="preserve"><value>Akkuzellenspannung</value></data>
+  <data name="showIconsToolStripMenuItem.Text" xml:space="preserve"><value>Symbole anzeigen</value></data>
+  <data name="multiLineToolStripMenuItem.Text" xml:space="preserve"><value>Mehrzeilig</value></data>
+  <data name="undockToolStripMenuItem.Text" xml:space="preserve"><value>Abdocken</value></data>
+  <data name="BUT_SendMSG.Text" xml:space="preserve"><value>Nachricht</value></data>
+  <data name="BUT_SendMSG.ToolTip" xml:space="preserve"><value>Nachricht zur Speicherung im Fahrzeugprotokoll senden</value></data>
+  <data name="CMB_setwp.Items" xml:space="preserve"><value>0 (Startpunkt)</value></data>
+  <data name="BUT_mountmode.Text" xml:space="preserve"><value>Gimbal einstellen</value></data>
+  <data name="BUT_joystick.Text" xml:space="preserve"><value>Joystick</value></data>
+  <data name="BUT_quickmanual.Text" xml:space="preserve"><value>Loiter</value></data>
+  <data name="BUT_quickauto.Text" xml:space="preserve"><value>Auto</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>Loiter</value></data>
+  <data name="myButton2.Text" xml:space="preserve"><value>RTL</value></data>
+  <data name="myButton3.Text" xml:space="preserve"><value>Auto</value></data>
+  <data name="NACp_lbl.Text" xml:space="preserve"><value>NACp</value></data>
+  <data name="NIC_lbl.Text" xml:space="preserve"><value>NIC</value></data>
+  <data name="fault_clb.Items" xml:space="preserve"><value>Wartung erforderlich</value></data>
+  <data name="fault_clb.Items1" xml:space="preserve"><value>GPS nicht verfügbar</value></data>
+  <data name="fault_clb.Items2" xml:space="preserve"><value>Kein GPS-Fix</value></data>
+  <data name="fault_clb.Items3" xml:space="preserve"><value>Sendesystemfehler</value></data>
+  <data name="fault_clb.Items4" xml:space="preserve"><value>Am Boden</value></data>
+  <data name="XPDRConnect_btn.Text" xml:space="preserve"><value>Mit Transponder verbinden</value></data>
+  <data name="Squawk_label.Text" xml:space="preserve"><value>Squawk</value></data>
+  <data name="FlightID_label.Text" xml:space="preserve"><value>Flugkennung</value></data>
+  <data name="IDENT_btn.Text" xml:space="preserve"><value>IDENT</value></data>
+  <data name="ALT_btn.Text" xml:space="preserve"><value>ALT</value></data>
+  <data name="STBY_btn.Text" xml:space="preserve"><value>STBY</value></data>
+  <data name="ON_btn.Text" xml:space="preserve"><value>ON</value></data>
+  <data name="Mode_clb.Items" xml:space="preserve"><value>Modus A</value></data>
+  <data name="Mode_clb.Items1" xml:space="preserve"><value>Modus C</value></data>
+  <data name="Mode_clb.Items2" xml:space="preserve"><value>Modus S</value></data>
+  <data name="Mode_clb.Items3" xml:space="preserve"><value>1090ES ADS-B OUT</value></data>
+  <data name="tabTransponder.Text" xml:space="preserve"><value>Transponder</value></data>
+  <data name="tabStatus.Text" xml:space="preserve"><value>Status</value></data>
+  <data name="tabServo.Text" xml:space="preserve"><value>Servo/Relais</value></data>
+  <data name="tabAuxFunction.Text" xml:space="preserve"><value>Zusatzfunktion</value></data>
+  <data name="tabScripts.Text" xml:space="preserve"><value>Skripte</value></data>
+  <data name="BUT_GimbalVideo.Text" xml:space="preserve"><value>Videosteuerung</value></data>
+  <data name="groupBoxRoll.Text" xml:space="preserve"><value>Rollen</value></data>
+  <data name="groupBoxYaw.Text" xml:space="preserve"><value>Schwenken</value></data>
+  <data name="BUT_resetGimbalPos.Text" xml:space="preserve"><value>Position zurücksetzen</value></data>
+  <data name="groupBoxPitch.Text" xml:space="preserve"><value>Neigen</value></data>
+  <data name="tabPayload.Text" xml:space="preserve"><value>Nutzlaststeuerung</value></data>
+  <data name="BUT_speed10.Text" xml:space="preserve"><value>10x</value></data>
+  <data name="BUT_speed5.Text" xml:space="preserve"><value>5x</value></data>
+  <data name="BUT_speed2.Text" xml:space="preserve"><value>2x</value></data>
+  <data name="BUT_speed1.Text" xml:space="preserve"><value>1x</value></data>
+  <data name="lbl_playbackspeed.Text" xml:space="preserve"><value>x 1.0</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>Bilder georeferenzieren</value></data>
+  <data name="but_bintolog.Text" xml:space="preserve"><value>.bin in .log konvertieren</value></data>
+  <data name="tablogbrowse.Text" xml:space="preserve"><value>DataFlash-Protokolle</value></data>
+  <data name="flyToCoordsToolStripMenuItem.Text" xml:space="preserve"><value>Zu Koordinaten fliegen</value></data>
+  <data name="poiatcoordsToolStripMenuItem.Text" xml:space="preserve"><value>Koordinaten</value></data>
+  <data name="setEKFHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>EKF-Ursprung hier setzen</value></data>
+  <data name="setHomeHereToolStripMenuItem1.Text" xml:space="preserve"><value>Startpunkt hier setzen</value></data>
+  <data name="takeOffToolStripMenuItem.Text" xml:space="preserve"><value>Starten</value></data>
+  <data name="jumpToTagToolStripMenuItem.Text" xml:space="preserve"><value>Zu Markierung springen</value></data>
+  <data name="gimbalVideoFullSizedToolStripMenuItem.Text" xml:space="preserve"><value>Vollgröße</value></data>
+  <data name="gimbalVideoMiniToolStripMenuItem.Text" xml:space="preserve"><value>Mini</value></data>
+  <data name="gimbalVideoPopOutToolStripMenuItem.Text" xml:space="preserve"><value>In eigenem Fenster öffnen</value></data>
+  <data name="gimbalVideoToolStripMenuItem.Text" xml:space="preserve"><value>Gimbalvideo</value></data>
+  <data name="lbl_hdop.Text" xml:space="preserve"><value>hdop: 0</value></data>
+  <data name="lbl_sats.Text" xml:space="preserve"><value>Satelliten: 0</value></data>
+  <data name="CHK_autopan.Text" xml:space="preserve"><value>Automatisch nachführen</value></data>
+  <data name="CB_tuning.Text" xml:space="preserve"><value>Abstimmung</value></data>
+  <data name="openScriptDialog.Filter" xml:space="preserve"><value>Python-Dateien|*.py|Alle Dateien|*.*</value></data>
 </root>

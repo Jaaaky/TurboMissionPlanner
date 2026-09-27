@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,24 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_ConnectAPM.Text" xml:space="preserve">
-    <value>Əlaqə</value>
+    <value>Qoşul</value>
   </data>
   <data name="Logs.Text" xml:space="preserve">
-    <value>Log Endir</value>
+    <value>Jurnal endirmə</value>
   </data>
   <data name="BUTradiosetup.Text" xml:space="preserve">
-    <value>Radio  Qur</value>
+    <value>Radionu sazla</value>
   </data>
   <data name="BUT_disconnect.Text" xml:space="preserve">
-    <value>Əlaqəni kəs!</value>
+    <value>Bağlantını kəs</value>
   </data>
   <data name="TXT_terminal.Text" xml:space="preserve">
-    <value>* Qeyd * Xahiş edirik yuxarıda əlaqə saxlayın , CLI yalnız gücün ilk qoşulması ilə işləyir, yalnız USB üzərində yükləyin Yeni versiyalar yalnız mavlink vasitəsilə log yüklənməsini dəstəkləsin, dəhşətdirsə, dəhşətdir.</value>
+    <value>*QEYD* Yuxarıdakı Qoşul düyməsini basın
+CLI yalnız qidalanma ilk qoşulduqda işləyir, jurnallar isə yalnız USB ilə endirilir
+Yeni versiyalar jurnalların yalnız MAVLink ilə endirilməsini dəstəkləyir; Uçuş məlumatları &gt; DataFlash jurnalları bölməsinə baxın
+</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
-    <value>Log seç</value>
+    <value>Jurnala baxış</value>
   </data>
   <data name="BUTsetupshow.Text" xml:space="preserve">
-    <value>Tənzimləmələri göstər</value>
+    <value>Parametrləri göstər</value>
   </data>
+  <data name="BUTtests.Text" xml:space="preserve"><value>Sınaqlar</value></data>
+  <data name="CMB_boardtype.Items" xml:space="preserve"><value>APM</value></data>
+  <data name="CMB_boardtype.Items1" xml:space="preserve"><value>PX4/PIXHAWK</value></data>
+  <data name="CMB_boardtype.Items2" xml:space="preserve"><value>VRX/VRBRAIN</value></data>
+  <data name="CMB_boardtype.Items3" xml:space="preserve"><value>NSH</value></data>
+  <data name="CMB_boardtype.Items4" xml:space="preserve"><value>SSH</value></data>
+  <data name="CMB_boardtype.Text" xml:space="preserve"><value>APM</value></data>
 </root>

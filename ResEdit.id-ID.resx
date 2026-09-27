@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>Berkas</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>Internal</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>Bahasa Inggris</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>Bahasa Lain</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>Simpan</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>Cara penggunaan:
+Pada pemuatan pertama, pilih bahasa Anda di bagian bawah lalu edit. Klik Simpan.
+
+Untuk penggunaan berikutnya, pilih bahasa Anda dan terjemahan yang ada akan dimuat otomatis.
+
+Jika pekerjaan belum selesai, klik tombol Muat Terjemahan.
+
+CATATAN: Pemuatan otomatis hanya berfungsi setelah Michael menambahkannya ke Planner. Jika belum, gunakan Muat Terjemahan.
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Muat Terjemahan</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>Salin ke Papan Klip</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Editor Bahasa</value></data>
+</root>

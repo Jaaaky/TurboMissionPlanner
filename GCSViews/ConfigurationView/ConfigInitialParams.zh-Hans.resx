@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>配置新多旋翼时，需要根据电池和螺旋桨尺寸设置部分参数。
+在此输入数据并更新参数前，请确保：
+
+  -- 已完成所有初始设置（校准、机架设置、电机测试）
+  -- 已配置电池电压监测且工作正常
+
+注意：INS_GYRO_FILTER 可选用 20 以外的值，但通常仅适用于小机架或小桨。初始设置时可保持为 20。</value></data>
+</root>

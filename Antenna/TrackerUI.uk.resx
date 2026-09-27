@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label12.Text" xml:space="preserve">
-    <value>Неправильне використання цього інтерфейсу може викликати пошкодження служби, використовуйте з обережністю!!!</value>
+    <value>Неправильне використання цього інтерфейсу може пошкодити сервоприводи. Будьте обережні!!!</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Кут</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Центр PWM</value>
+    <value>Центральне значення ШІМ</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
     <value>Прискорення</value>
@@ -133,10 +133,10 @@
     <value>Кут</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Центр PWM</value>
+    <value>Центральне значення ШІМ</value>
   </data>
   <data name="BUT_find.Text" xml:space="preserve">
-    <value>Знайти обрізку панорами (Sik Radio)</value>
+    <value>Визначити тримування повороту (SiK Radio)</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
     <value>Прискорення</value>
@@ -154,36 +154,40 @@
     <value>Кут</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Навігація</value>
+    <value>Поворот</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Обрізати</value>
+    <value>Тримування</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Інтерфейс</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Обрізати</value>
+    <value>Тримування</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Нахил</value>
   </data>
   <data name="CMB_interface.Text" xml:space="preserve">
-    <value>Маестро</value>
+    <value>Maestro</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Діапазон PWM</value>
+    <value>Діапазон ШІМ</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Діапазон PWM</value>
+    <value>Діапазон ШІМ</value>
   </data>
   <data name="CHK_revtilt.Text" xml:space="preserve">
-    <value>Ревізія</value>
+    <value>Реверс</value>
   </data>
   <data name="CHK_revpan.Text" xml:space="preserve">
-    <value>Ревізія</value>
+    <value>Реверс</value>
   </data>
   <data name="BUT_connect.Text" xml:space="preserve">
-    <value>Підключитися</value>
+    <value>Під’єднатися</value>
   </data>
+  <data name="CMB_interface.Items" xml:space="preserve"><value>Maestro</value></data>
+  <data name="CMB_interface.Items1" xml:space="preserve"><value>ArduTracker</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Діапазон</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Діапазон</value></data>
 </root>

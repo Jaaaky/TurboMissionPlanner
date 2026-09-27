@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>使い方：
+1. マスターを含むすべての機体に接続します（上部アイコンバーを右クリックし「接続オプション」を選択）。
+2. 対象の機体を選び、地上マスターに設定します。
+3. 対象の機体を選び、空中マスターに設定します。
+4. 空中マスターの機体に経路をアップロードします。
+5. 間隔と先行オプションを設定します。
+6. 全機体のGPS測位を待ち、校正します（未実施だとアーム前チェックに失敗する可能性があります。事前に確認すると円滑に運用できます）。
+7. 地上マスターが準備でき、飛行経路上で待機していることを確認します。
+8. 「開始」をクリックします。</value></data>
+</root>

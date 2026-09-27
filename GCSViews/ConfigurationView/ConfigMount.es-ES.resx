@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label5.Text" xml:space="preserve"><value>Inclinación</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Alabeo</value></data>
+  <data name="LNK_wiki.Text" xml:space="preserve"><value>Wiki</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Giro horizontal</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Límites angulares</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Límites de servos</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Límites angulares</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Límites de servos</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Límites angulares</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Límites de servos</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>Canal de entrada</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Canal de entrada</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Canal de entrada</value></data>
+  <data name="mavlinkCheckBoxTR.Text" xml:space="preserve"><value>Invertir</value></data>
+  <data name="mavlinkCheckBoxPR.Text" xml:space="preserve"><value>Invertir</value></data>
+  <data name="mavlinkCheckBoxRR.Text" xml:space="preserve"><value>Invertir</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Z</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Y</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>X</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Ángulos de repliegue</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Z</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Y</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>X</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Ángulos neutros</value></data>
+  <data name="CHK_stab_tilt.Text" xml:space="preserve"><value>Estabilizar inclinación</value></data>
+  <data name="CHK_stab_roll.Text" xml:space="preserve"><value>Estabilizar alabeo</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>Disparador</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Límites de servos</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Sin pulsar</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Pulsado</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Máx.</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Mín.</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>Disparador</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>Duración (décimas de segundo)</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>Asigne Disparo de cámara a la opción del canal 7</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Tipo</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>NOTA: el tipo de gimbal se aplicará al reiniciar la controladora de vuelo</value></data>
+</root>

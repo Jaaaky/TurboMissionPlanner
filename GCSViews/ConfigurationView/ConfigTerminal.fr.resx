@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -121,19 +121,22 @@
     <value>Tests</value>
   </data>
   <data name="Logs.Text" xml:space="preserve">
-    <value>Téléch. journal</value>
+    <value>Télécharger les journaux</value>
   </data>
   <data name="BUTradiosetup.Text" xml:space="preserve">
-    <value>Configuration radio</value>
+    <value>Configurer la radio</value>
   </data>
   <data name="TXT_terminal.Text" xml:space="preserve">
-    <value />
+    <value>REMARQUE : cliquez sur Connecter ci-dessus
+Le CLI ne fonctionne qu’à la première connexion après mise sous tension. Le téléchargement des journaux nécessite l’USB.
+Les versions récentes ne permettent le téléchargement des journaux que par MAVLink : consultez Données de vol &gt; Journaux DataFlash.
+</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
-    <value>Parcourir journaux</value>
+    <value>Parcourir les journaux</value>
   </data>
   <data name="BUTsetupshow.Text" xml:space="preserve">
-    <value>Afficher réglages</value>
+    <value>Afficher les réglages</value>
   </data>
   <data name="BUT_ConnectAPM.Text" xml:space="preserve">
     <value>Connecter</value>
@@ -144,4 +147,9 @@
   <data name="CMB_boardtype.Text" xml:space="preserve">
     <value>APM</value>
   </data>
+  <data name="CMB_boardtype.Items" xml:space="preserve"><value>APM</value></data>
+  <data name="CMB_boardtype.Items1" xml:space="preserve"><value>PX4/PIXHAWK</value></data>
+  <data name="CMB_boardtype.Items2" xml:space="preserve"><value>VRX/VRBRAIN</value></data>
+  <data name="CMB_boardtype.Items3" xml:space="preserve"><value>NSH</value></data>
+  <data name="CMB_boardtype.Items4" xml:space="preserve"><value>SSH</value></data>
 </root>

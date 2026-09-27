@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,18 +124,13 @@
     <value>有効</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>角度</value>
+    <value>度</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>分</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>APMのオンボード・コンパス: ROTATION_NONE
-
-APMの外部・コンパス: ROTATION_ROLL_180
-
-PX4 のオンボードまたは外部コンパス: ROTATION_NONE
-</value>
+    <value>パラメータを簡単に設定するにはデバイスを選択してください：</value>
   </data>
   <data name="radioButtonmanual.Text" xml:space="preserve">
     <value>手動</value>
@@ -165,9 +160,42 @@ PX4 のオンボードまたは外部コンパス: ROTATION_NONE
     <value>APMのオンボード・コンパス</value>
   </data>
   <data name="CHK_autodec.Text" xml:space="preserve">
-    <value>Auto Dec</value>
+    <value>偏角を自動取得</value>
   </data>
   <data name="rb_px4pixhawk.Text" xml:space="preserve">
     <value>Pixhawk/PX4</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>校正に失敗した場合は適合度の基準を緩和</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>適合度</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>磁気センサー3</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>磁気センサー2</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>磁気センサー1</value></data>
+  <data name="BUT_OBmagcalaccept.Text" xml:space="preserve"><value>承認</value></data>
+  <data name="BUT_OBmagcalcancel.Text" xml:space="preserve"><value>キャンセル</value></data>
+  <data name="BUT_OBmagcalstart.Text" xml:space="preserve"><value>開始</value></data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve"><value>オンボードコンパス校正</value></data>
+  <data name="groupBoxmpcalib.Text" xml:space="preserve"><value>Mission Plannerによるコンパス校正</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>または</value></data>
+  <data name="LBL_primary_compass.Text" xml:space="preserve"><value>主コンパス：</value></data>
+  <data name="CHK_compass_learn.Text" xml:space="preserve"><value>オフセットを自動学習</value></data>
+  <data name="groupBoxGeneralSettings.Text" xml:space="preserve"><value>コンパスの一般設定</value></data>
+  <data name="LBL_compass1_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass1_offset.Text" xml:space="preserve"><value>オフセット</value></data>
+  <data name="CHK_compass1_external.Text" xml:space="preserve"><value>外付け</value></data>
+  <data name="CHK_compass1_use.Text" xml:space="preserve"><value>このコンパスを使用</value></data>
+  <data name="groupBoxCompass1.Text" xml:space="preserve"><value>コンパス #1</value></data>
+  <data name="LBL_compass2_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass2_offset.Text" xml:space="preserve"><value>オフセット</value></data>
+  <data name="CHK_compass2_external.Text" xml:space="preserve"><value>外付け</value></data>
+  <data name="CHK_compass2_use.Text" xml:space="preserve"><value>このコンパスを使用</value></data>
+  <data name="groupBoxCompass2.Text" xml:space="preserve"><value>コンパス #2</value></data>
+  <data name="LBL_compass3_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass3_offset.Text" xml:space="preserve"><value>オフセット</value></data>
+  <data name="CHK_compass3_external.Text" xml:space="preserve"><value>外付け</value></data>
+  <data name="CHK_compass3_use.Text" xml:space="preserve"><value>このコンパスを使用</value></data>
+  <data name="groupBoxCompass3.Text" xml:space="preserve"><value>コンパス #3</value></data>
+  <data name="buttonAPMExternal.Text" xml:space="preserve"><value>APMと外部コンパス</value></data>
+  <data name="QuickAPM25.Text" xml:space="preserve"><value>APM2.5（内蔵コンパス）</value></data>
+  <data name="buttonQuickPixhawk.Text" xml:space="preserve"><value>Pixhawk/PX4</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>大型機のコンパス校正</value></data>
 </root>

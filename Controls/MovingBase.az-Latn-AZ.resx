@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,6 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>Bu nədir : 1. Movcud GPS nmea gps-dən coords alır 2.xəritədə ev mövqeyini yeniləyir. (qeyd MAV-da ev yeniləmir) Necə istifadə etmək olar: 1. Applikasiya ilə əlaqə qurulur 2. Komportunuzu açın və nmea GPS i tənzimləyin 3.İndi ev nöqtəsi yenilənməlidir.</value>
+    <value>Funksiyası.
+1. NMEA GPS-dən cari GPS koordinatlarını alır.
+2. Xəritədə ev mövqeyini yeniləyir (aparatdakı ev mövqeyini yeniləmir).
+
+İstifadə qaydası
+1. Avtopilota qoşulun.
+2. Bu pəncərəni açıb NMEA GPS üçün COM portunu və bod sürətini seçin.
+3. Ev mövqeyi indi yenilənməlidir.</value>
   </data>
 </root>

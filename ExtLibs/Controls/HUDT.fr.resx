@@ -59,7 +59,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ARMED" xml:space="preserve">
-    <value>    ARMÉ</value>
+    <value>ARMÉ</value>
   </data>
   <data name="AS" xml:space="preserve">
     <value>VA </value>
@@ -68,45 +68,53 @@
     <value>Bat</value>
   </data>
   <data name="Cell" xml:space="preserve">
-    <value>Cell</value>
+    <value>Élément</value>
   </data>
   <data name="DISARMED" xml:space="preserve">
-    <value>            DÉSARMÉ</value>
+    <value>DÉSARMÉ</value>
   </data>
   <data name="FAILSAFE" xml:space="preserve">
-    <value>    SÉCURITÉ</value>
+    <value>SÉCURITÉ</value>
   </data>
   <data name="GPS0" xml:space="preserve">
-    <value>GPS: Pas de GPS</value>
+    <value>GPS : aucun GPS</value>
   </data>
   <data name="GPS1" xml:space="preserve">
-    <value>GPS: Pas de fix</value>
+    <value>GPS : aucune position</value>
   </data>
   <data name="GPS2" xml:space="preserve">
-    <value>GPS: Fix 2D</value>
+    <value>GPS : position 2D</value>
   </data>
   <data name="GPS3" xml:space="preserve">
-    <value>GPS: Fix 3D</value>
+    <value>GPS : position 3D</value>
   </data>
   <data name="GPS4" xml:space="preserve">
-    <value>GPS: 3D DGPS</value>
+    <value>GPS : DGPS 3D</value>
   </data>
   <data name="GPS5" xml:space="preserve">
-    <value>GPS: RTK flottant</value>
+    <value>GPS : RTK flottant</value>
   </data>
   <data name="GPS6" xml:space="preserve">
-    <value>GPS: RTK fixe</value>
+    <value>GPS : RTK fixe</value>
   </data>
   <data name="GS" xml:space="preserve">
     <value>VS </value>
   </data>
   <data name="NotReadyToArm" xml:space="preserve">
-    <value>Pas prêt à armer</value>
+    <value>Non prêt à armer</value>
   </data>
   <data name="ReadyToArm" xml:space="preserve">
     <value>Prêt à armer</value>
   </data>
   <data name="SAFE" xml:space="preserve">
-    <value>SÛR</value>
+    <value>SÉCURISÉ</value>
   </data>
+  <data name="E" xml:space="preserve"><value>E</value></data>
+  <data name="N" xml:space="preserve"><value>N</value></data>
+  <data name="NE" xml:space="preserve"><value>NE</value></data>
+  <data name="NW" xml:space="preserve"><value>NO</value></data>
+  <data name="S" xml:space="preserve"><value>S</value></data>
+  <data name="SE" xml:space="preserve"><value>SE</value></data>
+  <data name="SW" xml:space="preserve"><value>SO</value></data>
+  <data name="W" xml:space="preserve"><value>O</value></data>
 </root>

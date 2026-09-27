@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CMB_paramfiles.Text" xml:space="preserve">
-    <value>ローディング</value>
+    <value>読込中</value>
   </data>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>スタンダードな機体用デフォルト設定値をロードする</value>
+    <value>標準フレームの初期設定を読み込みます</value>
   </data>
   <data name="BUT_paramfileload.Text" xml:space="preserve">
-    <value>パラメータのロード</value>
+    <value>パラメータ読込</value>
   </data>
 </root>

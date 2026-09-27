@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -260,13 +260,13 @@
     <value>79, 13</value>
   </data>
   <data name="BUT_MagCalibrationLive.Text" xml:space="preserve">
-    <value>開始校準</value>
+    <value>即時校正</value>
   </data>
   <data name="BUT_MagCalibrationLog.Text" xml:space="preserve">
     <value>記錄校準</value>
   </data>
   <data name="CHK_autodec.Text" xml:space="preserve">
-    <value>自動磁偏角</value>
+    <value>自動取得磁偏角</value>
   </data>
   <data name="CHK_enablecompass.Text" xml:space="preserve">
     <value>使用羅盤</value>
@@ -278,11 +278,7 @@
     <value>指定方向範例</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>APM 內建羅盤: ROTATION_NONE
-
-APM 外置羅盤: ROTATION_ROLL_180
-
-PX4 內建或外置羅盤: ROTATION_NONE</value>
+    <value>選擇裝置以快速設定參數：</value>
   </data>
   <data name="label100.Text" xml:space="preserve">
     <value>Declination</value>
@@ -294,16 +290,16 @@ PX4 內建或外置羅盤: ROTATION_NONE</value>
     <value>分</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>羅盤校準</value>
+    <value>羅盤</value>
   </data>
   <data name="lbl_adv_cfg_only.Text" xml:space="preserve">
     <value>記錄檔校準方式，僅供進階玩定使用</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>羅盤校準示範影片</value>
+    <value>YouTube 示範影片</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
-    <value>磁偏角查詢網頁</value>
+    <value>磁偏角查詢網站</value>
   </data>
   <data name="radioButtonmanual.Text" xml:space="preserve">
     <value>自已指定</value>
@@ -317,4 +313,37 @@ PX4 內建或外置羅盤: ROTATION_NONE</value>
   <data name="rb_px4pixhawk.Text" xml:space="preserve">
     <value>Pixhawk/PX4</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>校正失敗時放寬擬合門檻</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>擬合誤差</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>磁力計 3</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>磁力計 2</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>磁力計 1</value></data>
+  <data name="BUT_OBmagcalaccept.Text" xml:space="preserve"><value>接受</value></data>
+  <data name="BUT_OBmagcalcancel.Text" xml:space="preserve"><value>取消</value></data>
+  <data name="BUT_OBmagcalstart.Text" xml:space="preserve"><value>開始</value></data>
+  <data name="groupBoxonboardcalib.Text" xml:space="preserve"><value>機載磁力計校正</value></data>
+  <data name="groupBoxmpcalib.Text" xml:space="preserve"><value>Mission Planner 磁力計校正</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>或</value></data>
+  <data name="LBL_primary_compass.Text" xml:space="preserve"><value>主要羅盤：</value></data>
+  <data name="CHK_compass_learn.Text" xml:space="preserve"><value>自動學習偏移量</value></data>
+  <data name="groupBoxGeneralSettings.Text" xml:space="preserve"><value>一般羅盤設定</value></data>
+  <data name="LBL_compass1_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass1_offset.Text" xml:space="preserve"><value>偏移量</value></data>
+  <data name="CHK_compass1_external.Text" xml:space="preserve"><value>外部安裝</value></data>
+  <data name="CHK_compass1_use.Text" xml:space="preserve"><value>使用此羅盤</value></data>
+  <data name="groupBoxCompass1.Text" xml:space="preserve"><value>羅盤 #1</value></data>
+  <data name="LBL_compass2_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass2_offset.Text" xml:space="preserve"><value>偏移量</value></data>
+  <data name="CHK_compass2_external.Text" xml:space="preserve"><value>外部安裝</value></data>
+  <data name="CHK_compass2_use.Text" xml:space="preserve"><value>使用此羅盤</value></data>
+  <data name="groupBoxCompass2.Text" xml:space="preserve"><value>羅盤 #2</value></data>
+  <data name="LBL_compass3_mot.Text" xml:space="preserve"><value>MOT</value></data>
+  <data name="LBL_compass3_offset.Text" xml:space="preserve"><value>偏移量</value></data>
+  <data name="CHK_compass3_external.Text" xml:space="preserve"><value>外部安裝</value></data>
+  <data name="CHK_compass3_use.Text" xml:space="preserve"><value>使用此羅盤</value></data>
+  <data name="groupBoxCompass3.Text" xml:space="preserve"><value>羅盤 #3</value></data>
+  <data name="buttonAPMExternal.Text" xml:space="preserve"><value>APM 與外接羅盤</value></data>
+  <data name="QuickAPM25.Text" xml:space="preserve"><value>APM2.5 (內建羅盤)</value></data>
+  <data name="buttonQuickPixhawk.Text" xml:space="preserve"><value>Pixhawk/PX4</value></data>
+  <data name="but_largemagcal.Text" xml:space="preserve"><value>大型載具磁力計校正</value></data>
 </root>

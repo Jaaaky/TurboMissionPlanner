@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>در حال بارگیری فایل گزارش هستید؛ می‌خواهید لغو کنید؟</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>مطمئنید؟</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>در حال ایجاد KML برای {0}</value></data>
+  <data name="Done" xml:space="preserve"><value>انجام شد</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>در حال بارگیری فایل‌های گزارش در: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>برای پاک شدن ۳۰ تا ۹۰ ثانیه صبر کنید!</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>خطا در پردازش فایل. مطمئن شوید فایل در حال استفاده نیست</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>در حال دریافت فایل گزارش {0} ...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>در حال دریافت فهرست فایل‌های گزارش...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>ایجاد پوشهٔ گزارش ممکن نشد: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>گزارشی برای بارگیری موجود نیست</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>پهپاد خود را متصل کنید</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>با علامت زدن کادرهای فهرست، چند گزارش را انتخاب کنید</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>در حال پردازش {0}</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>تعداد {0} فایل گزارش یافت شد؛ نکته: اندازهٔ موارد تخمینی است.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>خطا:</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_loadlog.Text" xml:space="preserve">
-    <value>Załaduj Log</value>
+    <value>Wczytaj dziennik</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Przeglądaj Log</value>
+    <value>Przeglądarka dzienników</value>
   </data>
   <data name="Graphit.Text" xml:space="preserve">
     <value>Przedstaw na wykresie</value>
@@ -138,4 +138,21 @@
   <data name="BUT_cleargraph.Text" xml:space="preserve">
     <value>Wyczyść wykres</value>
   </data>
+  <data name="exportVisibleToolStripMenuItem.Text" xml:space="preserve"><value>Eksportuj widoczne</value></data>
+  <data name="exportFilesToolStripMenuItem.Text" xml:space="preserve"><value>Eksportuj pliki</value></data>
+  <data name="BUT_Graphit.Text" xml:space="preserve"><value>Wykres — lewa oś</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>GPSB</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>POS</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>GPS2</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_params.Text" xml:space="preserve"><value>Pokaż parametry</value></data>
+  <data name="chk_events.Text" xml:space="preserve"><value>Zdarzenia</value></data>
+  <data name="chk_datagrid.Text" xml:space="preserve"><value>Tabela danych</value></data>
+  <data name="chk_msg.Text" xml:space="preserve"><value>MSG</value></data>
+  <data name="chk_errors.Text" xml:space="preserve"><value>Błędy</value></data>
+  <data name="chk_mode.Text" xml:space="preserve"><value>Tryb</value></data>
+  <data name="BUT_Graphit_R.Text" xml:space="preserve"><value>Wykres — prawa oś</value></data>
+  <data name="chk_time.Text" xml:space="preserve"><value>Czas</value></data>
+  <data name="CHK_map.Text" xml:space="preserve"><value>Mapa</value></data>
+  <data name="BUT_removeitem.Text" xml:space="preserve"><value>Usuń element</value></data>
 </root>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label44.Text" xml:space="preserve"><value>Velocidade mínima do obturador:</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Elevação do solo:</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Diâmetro de curva (a 45°):</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>Foto a cada (estimativa):</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Tempo de voo (estimativa):</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>Distância entre linhas:</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Área de cobertura:</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>Número de faixas:</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>Imagens:</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Resolução no solo: </value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Distância entre imagens: </value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Distância: </value></data>
+  <data name="label22.Text" xml:space="preserve"><value>Área: </value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Estatísticas</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>PWM alto</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>PWM baixo</value></data>
+  <data name="rad_do_set_servo.Text" xml:space="preserve"><value>DO_SET_SERVO</value></data>
+  <data name="chk_stopstart.Text" xml:space="preserve"><value>Separar inícios</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>PWM</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Tempo de ciclo [s]</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="rad_digicam.Text" xml:space="preserve"><value>DO_DIGICAM_CONTROL</value></data>
+  <data name="rad_repeatservo.Text" xml:space="preserve"><value>DO_REPEAT_SERVO</value></data>
+  <data name="rad_trigdist.Text" xml:space="preserve"><value>CAM_TRIGG_DIST</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Método de disparo</value></data>
+  <data name="BUT_samplephoto.Text" xml:space="preserve"><value>Carregar fotografia de exemplo</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Valores calculados</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Campo de visão vertical [m]</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Campo de visão horizontal [m]</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>cm/pixel</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Altura do sensor [mm]</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Largura do sensor [mm]</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Altura da imagem [pixels]</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Largura da imagem [pixels]</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Distância focal [mm]</value></data>
+  <data name="BUT_save.Text" xml:space="preserve"><value>Salvar</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Opções da câmara</value></data>
+  <data name="tabCamera.Text" xml:space="preserve"><value>Configuração da câmara</value></data>
+  <data name="LBL_laps.Text" xml:space="preserve"><value>Número de voltas</value></data>
+  <data name="CHK_match_spiral_perimeter.Text" xml:space="preserve"><value>Ajustar perímetro ao polígono</value></data>
+  <data name="LBL_clockwise_laps.Text" xml:space="preserve"><value>Número de voltas no sentido horário</value></data>
+  <data name="LBL_clockwise_laps1.Text" xml:space="preserve"><value>(-1 para espiral no sentido horário)</value></data>
+  <data name="groupBoxSpiral.Text" xml:space="preserve"><value>Opções de espiral</value></data>
+  <data name="chk_optimize_for_distance.Text" xml:space="preserve"><value>Otimizar distância</value></data>
+  <data name="LBL_Alternating_lanes.Text" xml:space="preserve"><value>Faixas alternadas</value></data>
+  <data name="LBL_Lane_Dist.Text" xml:space="preserve"><value>Separação mínima entre faixas</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>Opções de avião</value></data>
+  <data name="chk_spline.Text" xml:space="preserve"><value>Entradas/saídas Spline</value></data>
+  <data name="CHK_copter_headingholdlock.Text" xml:space="preserve"><value>Desvincular da grelha</value></data>
+  <data name="CHK_copter_headinghold.Text" xml:space="preserve"><value>Manter rumo</value></data>
+  <data name="LBL_copter_delay.Text" xml:space="preserve"><value>Espera no ponto de passagem (s)</value></data>
+  <data name="groupBox_copter.Text" xml:space="preserve"><value>Opções de multirrotor</value></data>
+  <data name="chk_spiral.Text" xml:space="preserve"><value>Espiral</value></data>
+  <data name="chk_Corridor.Text" xml:space="preserve"><value>Corredor</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Largura do corredor [m]</value></data>
+  <data name="chk_crossgrid.Text" xml:space="preserve"><value>Grelha cruzada</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>Prolongamento de entrada [m]</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Sobreposição longitudinal [%]</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Iniciar a partir de</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Sobreposição lateral [%]</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Prolongamento de saída [m]</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Distância entre linhas [m]</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Opções da grelha</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Tirar uma fotografia a cada [m]</value></data>
+  <data name="tabGrid.Text" xml:space="preserve"><value>Opções da grelha</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Ctrl+S para salvar em arquivo
+Ctrl+O para carregar de arquivo</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>Dividir em x segmentos</value></data>
+  <data name="CHK_usespeed.Text" xml:space="preserve"><value>Usar velocidade para esta missão</value></data>
+  <data name="CHK_toandland_RTL.Text" xml:space="preserve"><value>Usar RTL</value></data>
+  <data name="CHK_toandland.Text" xml:space="preserve"><value>Adicionar pontos de descolagem e aterragem</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Velocidade de voo (estimativa)</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Câmara</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Ângulo [graus]</value></data>
+  <data name="CHK_camdirection.Text" xml:space="preserve"><value>Parte superior da câmara voltada para a frente</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Altitude</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>Opções simples</value></data>
+  <data name="CHK_advanced.Text" xml:space="preserve"><value>Opções avançadas</value></data>
+  <data name="CHK_footprints.Text" xml:space="preserve"><value>Áreas de cobertura</value></data>
+  <data name="CHK_internals.Text" xml:space="preserve"><value>Linhas internas</value></data>
+  <data name="CHK_grid.Text" xml:space="preserve"><value>Grelha</value></data>
+  <data name="CHK_markers.Text" xml:space="preserve"><value>Marcadores</value></data>
+  <data name="CHK_boundary.Text" xml:space="preserve"><value>Limite</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Visualização</value></data>
+  <data name="BUT_Accept.Text" xml:space="preserve"><value>Aceitar</value></data>
+  <data name="tabSimple.Text" xml:space="preserve"><value>Simples</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Levantamento (grelha)</value></data>
+</root>

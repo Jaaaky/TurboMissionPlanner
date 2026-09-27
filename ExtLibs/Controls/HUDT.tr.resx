@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="ARMED" xml:space="preserve"><value>ARM EDİLDİ</value></data>
+  <data name="AS" xml:space="preserve"><value>Hava hızı </value></data>
+  <data name="Bat" xml:space="preserve"><value>Batarya</value></data>
+  <data name="Cell" xml:space="preserve"><value>Hücre</value></data>
+  <data name="DISARMED" xml:space="preserve"><value>DISARM EDİLDİ</value></data>
+  <data name="E" xml:space="preserve"><value>D</value></data>
+  <data name="FAILSAFE" xml:space="preserve"><value>EMNİYET MODU</value></data>
+  <data name="GPS0" xml:space="preserve"><value>GPS: GPS yok</value></data>
+  <data name="GPS1" xml:space="preserve"><value>GPS: Konum çözümü yok</value></data>
+  <data name="GPS2" xml:space="preserve"><value>GPS: 2B konum çözümü</value></data>
+  <data name="GPS3" xml:space="preserve"><value>GPS: 3B konum çözümü</value></data>
+  <data name="GPS4" xml:space="preserve"><value>GPS: 3B DGPS</value></data>
+  <data name="GPS5" xml:space="preserve"><value>GPS: RTK Float</value></data>
+  <data name="GPS6" xml:space="preserve"><value>GPS: RTK Fixed</value></data>
+  <data name="GS" xml:space="preserve"><value>Yer hızı </value></data>
+  <data name="N" xml:space="preserve"><value>K</value></data>
+  <data name="NE" xml:space="preserve"><value>KD</value></data>
+  <data name="NotReadyToArm" xml:space="preserve"><value>Arm etmeye hazır değil</value></data>
+  <data name="NW" xml:space="preserve"><value>KB</value></data>
+  <data name="ReadyToArm" xml:space="preserve"><value>Arm etmeye hazır</value></data>
+  <data name="S" xml:space="preserve"><value>G</value></data>
+  <data name="SAFE" xml:space="preserve"><value>GÜVENLİ</value></data>
+  <data name="SE" xml:space="preserve"><value>GD</value></data>
+  <data name="SW" xml:space="preserve"><value>GB</value></data>
+  <data name="W" xml:space="preserve"><value>B</value></data>
+</root>

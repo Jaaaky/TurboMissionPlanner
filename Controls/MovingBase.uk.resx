@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>Що ж це робить
-1. отримує поточні gps координати з nmea gps.
-2. оновлює початкове розташування на карті. (нотатка не оновлює місце домівки на MAV)
+    <value>Призначення
+1. Отримує поточні координати від GPS-приймача NMEA.
+2. Оновлює домашню точку на мапі (але не на апараті).
 
-Як використовувати його
-1. з'єднайтесь з пристроєм
-. Відкрийте цей прийом й оберіть свій товариш, а швидкість отримання даних для nmea gps.
-3 зараз має бути оновлено додому.</value>
+Використання
+1. Під’єднайтеся до автопілота.
+2. Відкрийте це вікно та виберіть COM-порт і швидкість обміну GPS-приймача NMEA.
+3. Домашня точка має почати оновлюватися.</value>
   </data>
 </root>

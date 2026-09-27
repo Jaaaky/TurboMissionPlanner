@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,13 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_calib_accell.Text" xml:space="preserve">
-    <value>Calibra Accel</value>
+    <value>Calibra accelerometro</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Livella il tuo drone settando degli offset sui livelli di default dell'accelerometro</value>
+    <value>Mettere in piano l'autopilota per impostare i valori min/max predefiniti dell'accelerometro (3 assi).
+Verrà richiesto di appoggiare l'autopilota su ciascun lato.</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Calibrazione Accelerometro</value>
+    <value>Calibrazione accelerometro</value>
   </data>
   <data name="CHK_acversion.Text" xml:space="preserve">
     <value>AC 3.0 o succ.</value>
@@ -135,4 +136,10 @@
   <data name="BUT_levelac2.Text" xml:space="preserve">
     <value>Calibra ORA</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>Mettere in piano l'autopilota per impostare gli offset predefiniti dell'accelerometro (1 asse/trim AHRS).
+L'autopilota deve essere su una superficie piana e orizzontale.</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Mettere in piano l'autopilota per impostare i fattori di scala predefiniti dell'accelerometro per il volo livellato (1 asse).
+L'autopilota deve essere su una superficie piana e orizzontale.</value></data>
+  <data name="BUT_simpleAccelCal.Text" xml:space="preserve"><value>Calibrazione accel. semplice</value></data>
+  <data name="BUT_level.Text" xml:space="preserve"><value>Calibra livellamento</value></data>
 </root>

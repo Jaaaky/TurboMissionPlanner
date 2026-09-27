@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,7 +121,7 @@
     <value>脚本控制台</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>在python代码中打印报表会打印到这个对话框</value>
+    <value>Python 代码中的 print 输出会显示在此对话框中</value>
   </data>
   <data name="BUT_clear.Text" xml:space="preserve">
     <value>清除</value>

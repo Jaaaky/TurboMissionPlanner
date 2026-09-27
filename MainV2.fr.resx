@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="autoHideToolStripMenuItem.Text" xml:space="preserve"><value>Masquer automatiquement</value></data>
+  <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve"><value>Plein écran</value></data>
+  <data name="readonlyToolStripMenuItem.Text" xml:space="preserve"><value>Lecture seule</value></data>
+  <data name="connectionOptionsToolStripMenuItem.Text" xml:space="preserve"><value>Options de connexion</value></data>
+  <data name="connectionListToolStripMenuItem.Text" xml:space="preserve"><value>Liste des connexions</value></data>
+  <data name="MenuFlightData.Text" xml:space="preserve"><value>DONNÉES</value></data>
+  <data name="MenuFlightData.ToolTipText" xml:space="preserve"><value>Données de vol</value></data>
+  <data name="MenuFlightPlanner.Text" xml:space="preserve"><value>PLAN</value></data>
+  <data name="MenuFlightPlanner.ToolTipText" xml:space="preserve"><value>Planificateur de vol</value></data>
+  <data name="MenuInitConfig.Text" xml:space="preserve"><value>INSTALLATION</value></data>
+  <data name="MenuInitConfig.ToolTipText" xml:space="preserve"><value>Configuration matérielle</value></data>
+  <data name="MenuConfigTune.Text" xml:space="preserve"><value>CONFIGURATION</value></data>
+  <data name="MenuConfigTune.ToolTipText" xml:space="preserve"><value>Configuration logicielle</value></data>
+  <data name="MenuSimulation.Text" xml:space="preserve"><value>SIMULATION</value></data>
+  <data name="MenuSimulation.ToolTipText" xml:space="preserve"><value>Simulation</value></data>
+  <data name="MenuHelp.Text" xml:space="preserve"><value>AIDE</value></data>
+  <data name="MenuHelp.ToolTipText" xml:space="preserve"><value>Aide</value></data>
+  <data name="MenuConnect.Text" xml:space="preserve"><value>CONNECTER</value></data>
+  <data name="MainMenu.Text" xml:space="preserve"><value>menuStrip1</value></data>
+  <data name="menu.Text" xml:space="preserve"><value>Menu</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Mission Planner (Turbo) - Par Michael Oborne (version dérivée Turbo)</value></data>
+</root>

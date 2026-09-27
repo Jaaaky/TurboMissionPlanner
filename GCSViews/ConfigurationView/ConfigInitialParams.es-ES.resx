@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Al configurar un nuevo multirrotor, debe ajustar algunos parámetros según la batería y el tamaño de las hélices.
+Antes de introducir datos aquí y actualizar los parámetros, compruebe que:
+
+  -- SE HA COMPLETADO TODA LA CONFIGURACIÓN INICIAL (calibraciones, ajustes de chasis y pruebas de motores)
+  -- LA SUPERVISIÓN DE TENSIÓN DE LA BATERÍA ESTÁ CONFIGURADA Y FUNCIONA
+
+Nota: un valor de INS_GYRO_FILTER distinto de 20 es opcional y probablemente solo necesario para chasis/hélices pequeños. Al principio puede dejarlo en 20.</value></data>
+</root>

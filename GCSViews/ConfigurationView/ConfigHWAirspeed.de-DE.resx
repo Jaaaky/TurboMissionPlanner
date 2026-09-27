@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,12 +121,13 @@
     <value>Fluggeschwindigkeit</value>
   </data>
   <data name="lbl_airspeed_pin.Text" xml:space="preserve">
-    <value>Pin Fluggeschwindigkeit</value>
+    <value>Pin</value>
   </data>
   <data name="CHK_enableairspeed.Text" xml:space="preserve">
-    <value>aktivieren</value>
+    <value>Aktivieren</value>
   </data>
   <data name="CHK_airspeeduse.Text" xml:space="preserve">
-    <value>Fluggeschwindigkeit verwenden</value>
+    <value>Fluggeschwindigkeitssensor verwenden</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>Typ</value></data>
 </root>

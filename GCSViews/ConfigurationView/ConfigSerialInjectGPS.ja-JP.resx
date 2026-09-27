@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -123,4 +123,120 @@
   <data name="BUT_connect.Text" xml:space="preserve">
     <value>接続</value>
   </data>
+  <data name="lbl_status1.Text" xml:space="preserve"><value>9999 bps</value></data>
+  <data name="chk_rtcmmsg.Text" xml:space="preserve"><value>注入メッセージの種類</value></data>
+  <data name="chk_rtcmmsg.ToolTip" xml:space="preserve"><value>オートパイロットのファームウェアバージョンに依存します。新しいメッセージ形式はデータ破損への耐性が高いため、可能なら有効のままにしてください</value></data>
+  <data name="lbl_svin.Text" xml:space="preserve"><value>サーベイイン</value></data>
+  <data name="lbl_svin.ToolTip" xml:space="preserve"><value>サーベイイン情報
+Valid：測量結果が有効か
+InProgress：現在位置を測量中か
+Duration：測量に経過した秒数
+Obs：測量に使用した観測数
+Acc：現在の測量点の精度
+</value></data>
+  <data name="chk_autoconfig.Text" xml:space="preserve"><value>受信機を自動設定</value></data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve"><value>選択したポートの受信機が補正メッセージを出力するように自動設定します。</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>接続時に受信機がサーベイインを開始し、正確なGPS位置を決定します。
+RTCM基地局の位置が変化しなくなると完了します。
+場所や信号状態によって数分かかることがあります。
+
+測量が完了すると使用できます。
+</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>RTCMで使用する衛星群</value></data>
+  <data name="label21.ToolTip" xml:space="preserve"><value>受信機が補正情報を出力する衛星群を選択します。衛星群を増やすとデータ量が増加します。</value></data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve"><value>GalileoのRTCMメッセージ出力を切り替えます。</value></data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve"><value>BeiDouのRTCMメッセージ出力を切り替えます。</value></data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve"><value>GLONASSのRTCMメッセージ出力を切り替えます。</value></data>
+  <data name="chk_septentriogps.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve"><value>GPSのRTCMメッセージ出力を切り替えます。</value></data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve"><value>間隔を設定</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>RTCMメッセージ間隔 (秒)</value></data>
+  <data name="label20.ToolTip" xml:space="preserve"><value>受信機のRTCMメッセージ出力間隔を選択します。短くするとデータ量が増加します。</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>RTCMメッセージの情報量</value></data>
+  <data name="label19.ToolTip" xml:space="preserve"><value>RTCMメッセージの詳細度を選択します。値を大きくするとデータ量が増加します。</value></data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve"><value>最小</value></data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve"><value>基本</value></data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve"><value>すべて</value></data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve"><value>固定位置</value></data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve"><value>受信機による自動測位の代わりに、基地局アンテナの固定位置を入力します。補正精度が向上する場合があります。
+</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>緯度 (WGS84)</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>経度 (WGS84)</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>高度 (m)</value></data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve"><value>位置を設定</value></data>
+  <data name="but_restartsvin.Text" xml:space="preserve"><value>再起動</value></data>
+  <data name="but_restartsvin.ToolTip" xml:space="preserve"><value>測量した現在の基地局位置を保存します</value></data>
+  <data name="chk_m8p_130p.Text" xml:space="preserve"><value>M8P FW 130以降／F9P</value></data>
+  <data name="chk_m8p_130p.ToolTip" xml:space="preserve"><value>基地局と移動局の両方がu-bloxファームウェア1.30以降の場合はチェックしてください</value></data>
+  <data name="but_save_basepos.Text" xml:space="preserve"><value>現在位置を保存</value></data>
+  <data name="but_save_basepos.ToolTip" xml:space="preserve"><value>測量した現在の基地局位置を保存します</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>緯度／ECEF X</value></data>
+  <data name="Long.HeaderText" xml:space="preserve"><value>経度／ECEF Y</value></data>
+  <data name="Alt.HeaderText" xml:space="preserve"><value>高度／ECEF Z</value></data>
+  <data name="BaseName1.HeaderText" xml:space="preserve"><value>名前</value></data>
+  <data name="Use.HeaderText" xml:space="preserve"><value>使用</value></data>
+  <data name="Delete.HeaderText" xml:space="preserve"><value>削除</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>時間 (秒)</value></data>
+  <data name="txt_surveyinAcc.ToolTip" xml:space="preserve"><value>サーベイイン精度のしきい値。この値を下回る必要があります</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>サーベイイン精度 (m)</value></data>
+  <data name="label1.ToolTip" xml:space="preserve"><value>サーベイインの完了には、精度と時間の両方の条件を満たす必要があります
+例：精度2 m未満、観測時間60秒超</value></data>
+  <data name="txt_surveyinDur.ToolTip" xml:space="preserve"><value>サーベイインの最小時間。この値を超える必要があります</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>サーベイイン</value></data>
+  <data name="label10.ToolTip" xml:space="preserve"><value>サーベイイン情報
+Valid：測量結果が有効か
+InProgress：現在位置を測量中か
+Duration：測量に経過した秒数
+Obs：測量に使用した観測数
+Acc：現在の測量点の精度
+</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>サーベイイン</value></data>
+  <data name="label7.ToolTip" xml:space="preserve"><value>サーベイイン情報
+Valid：測量結果が有効か
+InProgress：現在位置を測量中か
+Duration：測量に経過した秒数
+Obs：測量に使用した観測数
+Acc：現在の測量点の精度
+</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>サーベイイン</value></data>
+  <data name="label9.ToolTip" xml:space="preserve"><value>サーベイイン情報
+Valid：測量結果が有効か
+InProgress：現在位置を測量中か
+Duration：測量に経過した秒数
+Obs：測量に使用した観測数
+Acc：現在の測量点の精度
+</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>サーベイイン</value></data>
+  <data name="label8.ToolTip" xml:space="preserve"><value>サーベイイン情報
+Valid：測量結果が有効か
+InProgress：現在位置を測量中か
+Duration：測量に経過した秒数
+Obs：測量に使用した観測数
+Acc：現在の測量点の精度
+</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>サーベイイン</value></data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve"><value>自動設定オプション</value></data>
+  <data name="chk_sendgga.Text" xml:space="preserve"><value>NTRIP GGAを送信（VRS/Smart）</value></data>
+  <data name="chk_sendgga.ToolTip" xml:space="preserve"><value>オートパイロットのファームウェアバージョンに依存します。新しいメッセージ形式はデータ破損への耐性が高いため、可能なら有効のままにしてください</value></data>
+  <data name="check_sendntripv1.Text" xml:space="preserve"><value>NTRIPプロトコルv1.0で送信</value></data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve"><value>RTKLIBなど、一部の古いNTRIPキャスターはv2.0に対応していません。チェックするとv1.0に戻ります</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>入力データレート</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>出力データレート</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>RTCM基地局 </value></data>
+  <data name="label6.Text" xml:space="preserve"><value>受信メッセージ</value></data>
+  <data name="labelmsgseen.Text" xml:space="preserve"><value>rtcm0000
+rtcm0000</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>基地局</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>RTCM</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>リンク状態</value></data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve"><value>u-blox M8P/F9P</value></data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve"><value>Septentrio</value></data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve"><value>Unicore UM982</value></data>
 </root>

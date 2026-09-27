@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_connect.Text" xml:space="preserve"><value>اتصال</value></data>
+  <data name="CMB_updaterate.Items" xml:space="preserve"><value>10hz</value></data>
+  <data name="CMB_updaterate.Items1" xml:space="preserve"><value>5hz</value></data>
+  <data name="CMB_updaterate.Items2" xml:space="preserve"><value>2hz</value></data>
+  <data name="CMB_updaterate.Items3" xml:space="preserve"><value>1hz</value></data>
+  <data name="CMB_updaterate.Items4" xml:space="preserve"><value>0.5hz</value></data>
+  <data name="CMB_updaterate.Items5" xml:space="preserve"><value>0.25hz</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>خروجی سریال NMEA</value></data>
+</root>

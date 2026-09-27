@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="colFile.HeaderText" xml:space="preserve"><value>Arquivo</value></data>
+  <data name="colInternal.HeaderText" xml:space="preserve"><value>Interno</value></data>
+  <data name="colEnglish.HeaderText" xml:space="preserve"><value>Inglês</value></data>
+  <data name="colOtherLang.HeaderText" xml:space="preserve"><value>Outro idioma</value></data>
+  <data name="button2.Text" xml:space="preserve"><value>Salvar</value></data>
+  <data name="richTextBox1.Text" xml:space="preserve"><value>Como utilizar:
+Na primeira utilização, selecione o idioma na parte inferior e edite as traduções. Clique em Salvar.
+
+Nas utilizações seguintes, selecione o idioma para carregar automaticamente as traduções existentes.
+
+Para retomar um trabalho parcial, clique em Carregar traduções.
+
+NOTA: o carregamento automático só funciona depois de Michael adicionar o idioma ao Mission Planner. Caso contrário, utilize Carregar traduções.
+</value></data>
+  <data name="button3.Text" xml:space="preserve"><value>Carregar traduções</value></data>
+  <data name="BUT_clipboard.Text" xml:space="preserve"><value>Copiar para a área de transferência</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Editor de idiomas</value></data>
+</root>

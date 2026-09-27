@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -166,7 +166,7 @@
     <value>103</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>무선 신호 입력</value>
+    <value>조종기 입력</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -298,10 +298,10 @@
     <value>146</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.Text" xml:space="preserve">
-    <value>안전장치 가동 최대 대기 (20초)</value>
+    <value>장기 페일세이프(20초)</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.ToolTip" xml:space="preserve">
-    <value>끌 경우 동작 안함, 켜면 회귀</value>
+    <value>끔: 동작 없음, 켬: 복귀(RTL)</value>
   </data>
   <data name="mavlinkCheckBoxlong_fs.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -337,10 +337,10 @@
     <value>145</value>
   </data>
   <data name="mavlinkCheckBoxshort_fs.Text" xml:space="preserve">
-    <value>안전장치 가동 최소 대기 (1초)</value>
+    <value>단기 페일세이프(1초)</value>
   </data>
   <data name="mavlinkCheckBoxshort_fs.ToolTip" xml:space="preserve">
-    <value>끌 경우 동작 안함, 켜면 회귀</value>
+    <value>끔: 동작 없음, 켬: 복귀(RTL)</value>
   </data>
   <data name="mavlinkCheckBoxshort_fs.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -376,10 +376,10 @@
     <value>144</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.Text" xml:space="preserve">
-    <value>지상 통제 장치 안전장치</value>
+    <value>GCS 페일세이프</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.ToolTip" xml:space="preserve">
-    <value>지상 통제 장치의 연결 유실시 안전장치 활성</value>
+    <value>GCS 통신 두절 시 페일세이프 활성화</value>
   </data>
   <data name="mavlinkCheckBoxgcs_fs.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -415,11 +415,11 @@
     <value>147</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs_action.Text" xml:space="preserve">
-    <value>추진체 안전장치 동작</value>
+    <value>스로틀 페일세이프 동작</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs_action.ToolTip" xml:space="preserve">
-    <value>Arducopter Auto: 끌 경우 동작 안함, 켜면 회귀
-Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
+    <value>ArduCopter Auto: 끔 - 동작 없음, 켬 - 복귀(RTL)
+ArduCopter 기타 모드: GPS가 있으면 복귀(RTL), 없으면 착륙</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs_action.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -452,7 +452,7 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
     <value>153</value>
   </data>
   <data name="mavlinkNumericUpDownfs_thr_value.ToolTip" xml:space="preserve">
-    <value>추진체 PWM 가동</value>
+    <value>작동 기준 스로틀 PWM</value>
   </data>
   <data name="mavlinkNumericUpDownfs_thr_value.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -485,7 +485,7 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
     <value>142</value>
   </data>
   <data name="mavlinkNumericUpDownthr_fs_value.ToolTip" xml:space="preserve">
-    <value>추진체 PWM 가동</value>
+    <value>작동 기준 스로틀 PWM</value>
   </data>
   <data name="mavlinkNumericUpDownthr_fs_value.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -521,10 +521,10 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
     <value>141</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.Text" xml:space="preserve">
-    <value>추진체 안전장치</value>
+    <value>스로틀 페일세이프</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.ToolTip" xml:space="preserve">
-    <value>PWM 저출력시 안전 장치 활성화</value>
+    <value>스로틀 PWM이 낮을 때 페일세이프 활성화</value>
   </data>
   <data name="mavlinkCheckBoxthr_fs.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -557,7 +557,7 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
     <value>151</value>
   </data>
   <data name="mavlinkComboBox_fs_thr_enable.ToolTip" xml:space="preserve">
-    <value>PWM 저출력시 안전장치 활성</value>
+    <value>낮은 PWM에서의 페일세이프 모드</value>
   </data>
   <data name="mavlinkComboBox_fs_thr_enable.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -623,7 +623,7 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
     <value>156</value>
   </data>
   <data name="mavlinkCheckBoxFS_GCS_ENABLE.Text" xml:space="preserve">
-    <value>지상 통제 장치 안전장치 활성</value>
+    <value>GCS 페일세이프 활성화</value>
   </data>
   <data name="mavlinkCheckBoxFS_GCS_ENABLE.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -656,7 +656,7 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
     <value>154</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>예약 MAH</value>
+    <value>예비 용량(mAh)</value>
   </data>
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
@@ -791,7 +791,7 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
     <value>148</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>PWM 안전 장치</value>
+    <value>페일세이프 PWM</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
@@ -842,7 +842,7 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
     <value>149</value>
   </data>
   <data name="lbl_armed.Text" xml:space="preserve">
-    <value>동력 차단</value>
+    <value>시동 꺼짐</value>
   </data>
   <data name="&gt;&gt;lbl_armed.Name" xml:space="preserve">
     <value>lbl_armed</value>
@@ -872,7 +872,7 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
     <value>150</value>
   </data>
   <data name="lbl_gpslock.Text" xml:space="preserve">
-    <value>고정 상태 아님</value>
+    <value>위치 미확정</value>
   </data>
   <data name="&gt;&gt;lbl_gpslock.Name" xml:space="preserve">
     <value>lbl_gpslock</value>
@@ -1280,7 +1280,7 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
     <value>151</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>무선 신호</value>
+    <value>무선 통신</value>
   </data>
   <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
     <value>groupBox2</value>
@@ -1304,7 +1304,7 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
     <value>152</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>지상 통제 장치</value>
+    <value>지상 관제소</value>
   </data>
   <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
     <value>groupBox3</value>
@@ -1366,4 +1366,5 @@ Arducopter Other: GPS가 있으면 회귀, 없으면 바로 착륙</value>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.MyUserControl, MissionPlanner.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>저전압 지속 시간</value></data>
 </root>

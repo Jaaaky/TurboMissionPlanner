@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>使用方式：
+1. 連線至所有無人機，包括領航載具 (在上方圖示列按右鍵，選擇「連線選項」)。
+2. 選擇正確載具，按下「設定地面領航載具」。
+3. 選擇正確載具，按下「設定空中領航載具」。
+4. 將路徑上傳至空中領航無人機。
+5. 設定間距及領航選項。
+6. 等待所有無人機完成 GPS 定位與校正。(否則可能無法通過解鎖前檢查；可事先測試以確保順利運作)
+7. 確認地面領航載具已就緒，並在飛行路徑上待命。
+8. 按下「開始」。</value></data>
+</root>

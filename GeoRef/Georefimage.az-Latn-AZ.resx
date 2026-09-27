@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,33 +118,47 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>Geo Ref şəkillər</value>
+    <value>Şəkilləri coğrafi bağla</value>
   </data>
   <data name="chk_usegps2.Text" xml:space="preserve">
-    <value>GPS2 İstifade et </value>
+    <value>GPS2-ni istifadə et</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Offset saniyələr</value>
+    <value>Vaxt sürüşməsi, saniyə</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>Rel Alt baza</value>
+    <value>Nisbi hündürlük bazası</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Fırlanma</value>
+    <value>Dönmə</value>
   </data>
   <data name="chk_cammsg.Text" xml:space="preserve">
-    <value>Cam Mesajlarımdan istifadə edin</value>
+    <value>CAM mesajlarını istifadə et</value>
   </data>
   <data name="BUT_browsedir.Text" xml:space="preserve">
-    <value>Şəkil seç</value>
+    <value>Şəkilləri seç</value>
   </data>
   <data name="BUT_networklinkgeoref.Text" xml:space="preserve">
-    <value>Kml Yerləşmə</value>
+    <value>Mövqe KML-i</value>
   </data>
   <data name="BUT_browselog.Text" xml:space="preserve">
-    <value>Log Seç</value>
+    <value>Jurnalı seç</value>
   </data>
   <data name="RDIO_TimeOffset.Text" xml:space="preserve">
-    <value>Vaxt offset</value>
+    <value>Vaxt sürüşməsi</value>
   </data>
+  <data name="BUT_Geotagimages.Text" xml:space="preserve"><value>Şəkillərə coğrafi etiket əlavə et</value></data>
+  <data name="BUT_estoffset.Text" xml:space="preserve"><value>Sürüşməni hesabla</value></data>
+  <data name="BUT_doit.Text" xml:space="preserve"><value>İlkin emal</value></data>
+  <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve"><value>CAM mesajı</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Eninə baxış bucağı</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Uzununa baxış bucağı</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Min. çəkim intervalı (san) (CAM)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Sondakı şəkli burax</value></data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>Başlanğıcdakı şəkli burax</value></data>
+  <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve"><value>AMSL hündürlüyünü istifadə et</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Çəkim gecikməsi (ms)</value></data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve"><value>Tətikləmə mesajı</value></data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve"><value>GPS hündürlüyünü istifadə et</value></data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve"><value>GPS hündürlüyünü istifadə et</value></data>
 </root>

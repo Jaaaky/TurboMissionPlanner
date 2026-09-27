@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -223,7 +223,7 @@
     <value>Max</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Modo de Vuelo 2</value>
+    <value>Velocidad aerodinámica</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>Alabeo Max</value>
@@ -238,7 +238,7 @@
     <value>por ejemplo, en grados 2 ° 3 'W es -2,3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Modo de Vuelo 1</value>
+    <value>Tipo</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Nivel tu quad para establecer las compensaciones por defecto acel</value>
@@ -298,7 +298,7 @@
     <value>Cero</value>
   </data>
   <data name="CHK_enableairspeed.Text" xml:space="preserve">
-    <value>Activar Airspeed</value>
+    <value>Habilitar</value>
   </data>
   <data name="PIT_MAX_.Text" xml:space="preserve">
     <value>4500</value>
@@ -312,4 +312,6 @@
   <data name="label30.Text" xml:space="preserve">
     <value>Monitor</value>
   </data>
+  <data name="CHK_airspeeduse.Text" xml:space="preserve"><value>Usar velocidad aerodinámica</value></data>
+  <data name="lbl_airspeed_pin.Text" xml:space="preserve"><value>Pin</value></data>
 </root>

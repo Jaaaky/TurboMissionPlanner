@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,115 +118,115 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="pointCameraHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>وجه الكاميرا هنا </value>
+    <value>توجيه الكاميرا إلى هنا</value>
   </data>
   <data name="BUT_setmode.ToolTip" xml:space="preserve">
-    <value>تغيير الى الوضع في اليسار</value>
+    <value>التغيير إلى الوضع المحدد على اليسار</value>
   </data>
   <data name="BUT_edit_selected.Text" xml:space="preserve">
-    <value>تعديل الاسكريبت المحدد</value>
+    <value>تحرير البرنامج النصي المحدد</value>
   </data>
   <data name="BUT_abort_script.Text" xml:space="preserve">
-    <value>اجهاض الاسكريبت المشغل</value>
+    <value>إيقاف البرنامج النصي الجاري</value>
   </data>
   <data name="BUT_quickmanual.Text" xml:space="preserve">
-    <value>الدوران</value>
+    <value>التحويم/الدوران</value>
   </data>
   <data name="tabServo.Text" xml:space="preserve">
-    <value>السيرفو</value>
+    <value>السيرفو/المرحل</value>
   </data>
   <data name="BUT_playlog.Text" xml:space="preserve">
-    <value>تشغيل/ايقاف مؤقت</value>
+    <value>تشغيل/إيقاف مؤقت</value>
   </data>
   <data name="BUT_setwp.ToolTip" xml:space="preserve">
-    <value>تغيير احداثية الهدف الحالي</value>
+    <value>تغيير نقطة المسار المستهدفة الحالية</value>
   </data>
   <data name="BUT_quickauto.ToolTip" xml:space="preserve">
-    <value>تغيير الى الوضع الآلي</value>
+    <value>تغيير الوضع إلى تلقائي</value>
   </data>
   <data name="goHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>الطيران الى هنا</value>
+    <value>الطيران إلى هنا</value>
   </data>
   <data name="quickView1.ToolTip" xml:space="preserve">
-    <value>انقرني مرتين للتغيير</value>
+    <value>انقر مرتين للتغيير</value>
   </data>
   <data name="BUT_loganalysis.Text" xml:space="preserve">
-    <value>التحليل الآلي</value>
+    <value>تحليل تلقائي</value>
   </data>
   <data name="lbl_hdop.Text" xml:space="preserve">
-    <value>الخطاء الافقي للموقع : 0</value>
+    <value>hdop: 0</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>السرعة</value>
   </data>
   <data name="BUT_ARM.ToolTip" xml:space="preserve">
-    <value>تفعيل الاتصال MAV</value>
+    <value>تسليح المركبة</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>مباشرة الى الإحداثية الحالية</value>
+    <value>الاتجاه المباشر إلى نقطة المسار الحالية</value>
   </data>
   <data name="BUT_log2kml.Text" xml:space="preserve">
-    <value>السجل &gt; مخطط بياني او kml</value>
+    <value>تحويل Tlog إلى Kml أو رسم بياني</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>التكبير</value>
   </data>
   <data name="BUT_clear_track.Text" xml:space="preserve">
-    <value>مسح التعقب</value>
+    <value>مسح المسار</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>تعقب التموضع ( اسود )</value>
+    <value>مسار GPS (أسود)</value>
   </data>
   <data name="BUT_ARM.Text" xml:space="preserve">
-    <value>تفعيل / الغاء التفعيل</value>
+    <value>تسليح/إلغاء التسليح</value>
   </data>
   <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
     <value>اعلى</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>الاتجاه الحالي</value>
+    <value>اتجاه المقدمة الحالي</value>
   </data>
   <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
     <value>حذف</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>اتجاه الهدف</value>
+    <value>الاتجاه المستهدف</value>
   </data>
   <data name="userItemsToolStripMenuItem.Text" xml:space="preserve">
-    <value>ادوات المستخدم</value>
+    <value>عناصر المستخدم</value>
   </data>
   <data name="myButton1.ToolTip" xml:space="preserve">
-    <value>تغيير الوضع الى يدوي / استقرار</value>
+    <value>تغيير الوضع إلى يدوي/تثبيت</value>
   </data>
   <data name="tabActionsSimple.Text" xml:space="preserve">
-    <value>الأوامر</value>
+    <value>الإجراءات</value>
   </data>
   <data name="BUT_DFMavlink.Text" xml:space="preserve">
-    <value>تنزيل سجلات البيانات عن طريق الاتصال</value>
+    <value>تنزيل سجل DataFlash عبر Mavlink</value>
   </data>
   <data name="CHK_autopan.ToolTip" xml:space="preserve">
-    <value>اجعل الخريطة تتبع مستندة الى الموقع الحالي</value>
+    <value>تحريك الخريطة تلقائيًا بناءً على الموقع الحالي</value>
   </data>
   <data name="BUT_quickrtl.ToolTip" xml:space="preserve">
-    <value>تغيير الى وضع العودة</value>
+    <value>تغيير الوضع إلى العودة إلى نقطة الانطلاق (RTL)</value>
   </data>
   <data name="tablogbrowse.Text" xml:space="preserve">
-    <value>سجلات بيانات الذاكرة</value>
+    <value>سجلات DataFlash</value>
   </data>
   <data name="BUT_mountmode.ToolTip" xml:space="preserve">
-    <value>التغيير الى الوضع في اليسار</value>
+    <value>التغيير إلى الوضع المحدد على اليسار</value>
   </data>
   <data name="tabGauges.Text" xml:space="preserve">
-    <value>عدادات</value>
+    <value>العدادات</value>
   </data>
   <data name="CHK_autopan.Text" xml:space="preserve">
-    <value>التتبع الآلي</value>
+    <value>تحريك الخريطة تلقائيًا</value>
   </data>
   <data name="setMJPEGSourceToolStripMenuItem.Text" xml:space="preserve">
-    <value>وضع مصدر MJPEG</value>
+    <value>تعيين مصدر MJPEG</value>
   </data>
   <data name="BUT_joystick.Text" xml:space="preserve">
-    <value>عصاء التحكم</value>
+    <value>عصا التحكم</value>
   </data>
   <data name="Zoomlevel.ToolTip" xml:space="preserve">
     <value>تغيير مستوى التكبير</value>
@@ -235,126 +235,205 @@
     <value>الضبط</value>
   </data>
   <data name="triggerCameraToolStripMenuItem.Text" xml:space="preserve">
-    <value>تأشير الكاميرا الآن</value>
+    <value>تشغيل غالق الكاميرا الآن</value>
   </data>
   <data name="BUT_run_script.Text" xml:space="preserve">
-    <value>تشغيل الاسكريبت</value>
+    <value>تشغيل البرنامج النصي</value>
   </data>
   <data name="tabScripts.Text" xml:space="preserve">
-    <value>الاسكريبت</value>
+    <value>البرامج النصية</value>
   </data>
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
     <value>اسفل</value>
   </data>
   <data name="lbl_sats.Text" xml:space="preserve">
-    <value>الأقمار : 0</value>
+    <value>الأقمار: 0</value>
   </data>
   <data name="BUTactiondo.Text" xml:space="preserve">
-    <value>نفذ الأمر</value>
+    <value>تنفيذ الإجراء</value>
   </data>
   <data name="BUTrestartmission.Text" xml:space="preserve">
-    <value>إعادة تشغيل المهمة</value>
+    <value>إعادة بدء المهمة</value>
   </data>
   <data name="BUT_quickmanual.ToolTip" xml:space="preserve">
-    <value>تغيير الوضع الى يدوي / استقرار</value>
+    <value>تغيير الوضع إلى يدوي/تثبيت</value>
   </data>
   <data name="takeOffToolStripMenuItem.Text" xml:space="preserve">
-    <value>الإقلاع</value>
+    <value>إقلاع</value>
   </data>
   <data name="saveFileToolStripMenuItem.Text" xml:space="preserve">
     <value>حفظ الملف</value>
   </data>
   <data name="BUT_matlab.Text" xml:space="preserve">
-    <value>انشاء ملف ماتلاب</value>
+    <value>إنشاء ملف Matlab</value>
   </data>
   <data name="tabPagemessages.Text" xml:space="preserve">
     <value>الرسائل</value>
   </data>
   <data name="tabActions.Text" xml:space="preserve">
-    <value>الأوامر</value>
+    <value>الإجراءات</value>
   </data>
   <data name="BUTactiondo.ToolTip" xml:space="preserve">
-    <value>نفذ الأمر في اليسار</value>
+    <value>تنفيذ الإجراء المحدد على اليسار</value>
   </data>
   <data name="BUT_Homealt.Text" xml:space="preserve">
-    <value>وضع ارتفاع البداية</value>
+    <value>تعيين ارتفاع نقطة العودة</value>
   </data>
   <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve">
-    <value>وضع البداية هنا</value>
+    <value>تعيين نقطة العودة هنا</value>
   </data>
   <data name="labelSelectedScript.Text" xml:space="preserve">
-    <value>السكريبتات المحددة :لا يوجد</value>
+    <value>البرنامج النصي المحدد: لا يوجد</value>
   </data>
   <data name="tabQuick.Text" xml:space="preserve">
-    <value>البيانات السريعة</value>
+    <value>عرض سريع</value>
   </data>
   <data name="BUT_loadtelem.Text" xml:space="preserve">
-    <value>استيراد السجل</value>
+    <value>تحميل السجل</value>
   </data>
   <data name="addPoiToolStripMenuItem.Text" xml:space="preserve">
-    <value>اضافة موقع مهم</value>
+    <value>إضافة نقطة اهتمام</value>
   </data>
   <data name="BUT_joystick.ToolTip" xml:space="preserve">
-    <value>تنصيب وتفعيل اعصي التحكم</value>
+    <value>إعداد عصا التحكم وتفعيلها</value>
   </data>
   <data name="BUT_Homealt.ToolTip" xml:space="preserve">
-    <value>ضع العرض الحالي للإرتفاع بـ 0 . مثال ارتفاع البداية يعرض كـ - </value>
+    <value>تعيين الارتفاع المعروض حاليًا إلى 0، أي إظهار ارتفاع نقطة العودة بقيمة 0</value>
   </data>
   <data name="recordHudToAVIToolStripMenuItem.Text" xml:space="preserve">
-    <value>سجل شاشة البيانات الى ملف AVI</value>
+    <value>تسجيل شاشة العرض الأمامية بصيغة AVI</value>
   </data>
   <data name="tabStatus.Text" xml:space="preserve">
     <value>الحالة</value>
   </data>
   <data name="BUT_quickauto.Text" xml:space="preserve">
-    <value>الوضع الآلي</value>
+    <value>تلقائي</value>
   </data>
   <data name="BUT_setwp.Text" xml:space="preserve">
-    <value>وضع الاحداثية</value>
+    <value>تعيين نقطة المسار</value>
   </data>
   <data name="myButton3.Text" xml:space="preserve">
-    <value>الوضع الآلي</value>
+    <value>تلقائي</value>
   </data>
   <data name="BUT_select_script.Text" xml:space="preserve">
-    <value>اختيار الاسكريبت</value>
+    <value>اختيار برنامج نصي</value>
   </data>
   <data name="tabTLogs.Text" xml:space="preserve">
-    <value>سجلات البيانات</value>
+    <value>سجلات القياس عن بُعد</value>
   </data>
   <data name="myButton2.ToolTip" xml:space="preserve">
-    <value>تغيير الى وضع العودة</value>
+    <value>تغيير الوضع إلى العودة إلى نقطة الانطلاق (RTL)</value>
   </data>
   <data name="myButton1.Text" xml:space="preserve">
-    <value>الدوران</value>
+    <value>التحويم/الدوران</value>
   </data>
   <data name="myButton2.Text" xml:space="preserve">
-    <value>العودة</value>
+    <value>العودة إلى نقطة الانطلاق</value>
   </data>
   <data name="flightPlannerToolStripMenuItem.Text" xml:space="preserve">
-    <value>مخطط الرحلة</value>
+    <value>مخطّط الرحلة</value>
   </data>
   <data name="myButton3.ToolTip" xml:space="preserve">
-    <value>تغيير الى الوضع الآلي</value>
+    <value>تغيير الوضع إلى تلقائي</value>
   </data>
   <data name="BUT_setmode.Text" xml:space="preserve">
-    <value>تغيير الوضع</value>
+    <value>تعيين الوضع</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
-    <value>استعراض السجل</value>
+    <value>مراجعة سجل</value>
   </data>
   <data name="stopRecordToolStripMenuItem.Text" xml:space="preserve">
-    <value>وقف التسجيل</value>
+    <value>إيقاف التسجيل</value>
   </data>
   <data name="BUT_quickrtl.Text" xml:space="preserve">
-    <value>العودة</value>
+    <value>العودة إلى نقطة الانطلاق</value>
   </data>
   <data name="flyToHereAltToolStripMenuItem.Text" xml:space="preserve">
-    <value>الطيران الى هذا الإرتفاع</value>
+    <value>ارتفاع الطيران إلى هنا</value>
   </data>
   <data name="lbl_sats.ToolTip" xml:space="preserve">
-    <value>عدد الإقمار </value>
+    <value>عدد الأقمار الصناعية</value>
   </data>
   <data name="lbl_hdop.ToolTip" xml:space="preserve">
-    <value>الخطاء الأفقي للموقع</value>
+    <value>التدهور الأفقي للدقة (GPS HDOP)</value>
   </data>
+  <data name="startCameraToolStripMenuItem.Text" xml:space="preserve"><value>تشغيل الكاميرا</value></data>
+  <data name="setGStreamerSourceToolStripMenuItem.Text" xml:space="preserve"><value>تعيين مصدر GStreamer</value></data>
+  <data name="hereLinkVideoToolStripMenuItem.Text" xml:space="preserve"><value>فيديو HereLink</value></data>
+  <data name="gStreamerStopToolStripMenuItem.Text" xml:space="preserve"><value>إيقاف GStreamer</value></data>
+  <data name="videoToolStripMenuItem.Text" xml:space="preserve"><value>الفيديو</value></data>
+  <data name="setAspectRatioToolStripMenuItem.Text" xml:space="preserve"><value>تعيين نسبة الأبعاد</value></data>
+  <data name="russianHudToolStripMenuItem.Text" xml:space="preserve"><value>شاشة عرض أمامية بالنمط الروسي</value></data>
+  <data name="swapWithMapToolStripMenuItem.Text" xml:space="preserve"><value>تبديل مع الخريطة</value></data>
+  <data name="groundColorToolStripMenuItem.Text" xml:space="preserve"><value>لون الأرض</value></data>
+  <data name="setBatteryCellCountToolStripMenuItem.Text" xml:space="preserve"><value>جهد خلية البطارية</value></data>
+  <data name="showIconsToolStripMenuItem.Text" xml:space="preserve"><value>إظهار الأيقونات</value></data>
+  <data name="customizeToolStripMenuItem.Text" xml:space="preserve"><value>تخصيص</value></data>
+  <data name="multiLineToolStripMenuItem.Text" xml:space="preserve"><value>متعدد الأسطر</value></data>
+  <data name="setViewCountToolStripMenuItem.Text" xml:space="preserve"><value>تعيين عدد العروض</value></data>
+  <data name="undockToolStripMenuItem.Text" xml:space="preserve"><value>فصل النافذة</value></data>
+  <data name="BUT_SendMSG.Text" xml:space="preserve"><value>الرسالة</value></data>
+  <data name="BUT_SendMSG.ToolTip" xml:space="preserve"><value>إرسال رسالة لحفظها في سجل المركبة</value></data>
+  <data name="BUT_abortland.Text" xml:space="preserve"><value>إلغاء الهبوط</value></data>
+  <data name="BUT_abortland.ToolTip" xml:space="preserve"><value>للطائرات ثابتة الجناح فقط</value></data>
+  <data name="BUT_clear_track.ToolTip" xml:space="preserve"><value>مسح المسار المسجّل على الخريطة</value></data>
+  <data name="BUT_resumemis.Text" xml:space="preserve"><value>استئناف المهمة</value></data>
+  <data name="CMB_setwp.Items" xml:space="preserve"><value>0 (نقطة العودة)</value></data>
+  <data name="BUT_mountmode.Text" xml:space="preserve"><value>تعيين الحامل</value></data>
+  <data name="BUT_RAWSensor.Text" xml:space="preserve"><value>عرض بيانات المستشعرات الخام</value></data>
+  <data name="BUT_RAWSensor.ToolTip" xml:space="preserve"><value>عرض قيم الجيروسكوب ومقياس التسارع الخام، ومداخل ومخارج التحكم اللاسلكي الخام</value></data>
+  <data name="BUTrestartmission.ToolTip" xml:space="preserve"><value>إعادة بدء المهمة من البداية</value></data>
+  <data name="tabPagePreFlight.Text" xml:space="preserve"><value>ما قبل الطيران</value></data>
+  <data name="Gspeed.ToolTip" xml:space="preserve"><value>انقر مرتين لتغيير الحد الأقصى</value></data>
+  <data name="NACp_lbl.Text" xml:space="preserve"><value>NACp</value></data>
+  <data name="NIC_lbl.Text" xml:space="preserve"><value>NIC</value></data>
+  <data name="fault_clb.Items" xml:space="preserve"><value>يلزم صيانة</value></data>
+  <data name="fault_clb.Items1" xml:space="preserve"><value>GPS غير متاح</value></data>
+  <data name="fault_clb.Items2" xml:space="preserve"><value>لم يحدد GPS الموقع</value></data>
+  <data name="fault_clb.Items3" xml:space="preserve"><value>عطل نظام الإرسال</value></data>
+  <data name="fault_clb.Items4" xml:space="preserve"><value>على الأرض</value></data>
+  <data name="XPDRConnect_btn.Text" xml:space="preserve"><value>الاتصال بجهاز المستجيب</value></data>
+  <data name="Squawk_label.Text" xml:space="preserve"><value>رمز الاستجابة</value></data>
+  <data name="FlightID_label.Text" xml:space="preserve"><value>معرّف الرحلة</value></data>
+  <data name="IDENT_btn.Text" xml:space="preserve"><value>IDENT</value></data>
+  <data name="ALT_btn.Text" xml:space="preserve"><value>ALT</value></data>
+  <data name="STBY_btn.Text" xml:space="preserve"><value>استعداد</value></data>
+  <data name="ON_btn.Text" xml:space="preserve"><value>تشغيل</value></data>
+  <data name="Mode_clb.Items" xml:space="preserve"><value>الوضع A</value></data>
+  <data name="Mode_clb.Items1" xml:space="preserve"><value>الوضع C</value></data>
+  <data name="Mode_clb.Items2" xml:space="preserve"><value>الوضع S</value></data>
+  <data name="Mode_clb.Items3" xml:space="preserve"><value>1090ES ADS-B OUT</value></data>
+  <data name="tabTransponder.Text" xml:space="preserve"><value>جهاز المستجيب</value></data>
+  <data name="tabAuxFunction.Text" xml:space="preserve"><value>الوظيفة المساعدة</value></data>
+  <data name="checkBoxRedirectOutput.Text" xml:space="preserve"><value>إعادة توجيه مخرجات البرنامج</value></data>
+  <data name="labelScriptStatus.Text" xml:space="preserve"><value>حالة البرنامج النصي: لا يوجد برنامج نصي قيد التشغيل</value></data>
+  <data name="BUT_GimbalVideo.Text" xml:space="preserve"><value>التحكم بالفيديو</value></data>
+  <data name="groupBoxRoll.Text" xml:space="preserve"><value>التدحرج</value></data>
+  <data name="groupBoxYaw.Text" xml:space="preserve"><value>الدوران الأفقي</value></data>
+  <data name="BUT_resetGimbalPos.Text" xml:space="preserve"><value>إعادة تعيين الموضع</value></data>
+  <data name="groupBoxPitch.Text" xml:space="preserve"><value>الإمالة</value></data>
+  <data name="tabPayload.Text" xml:space="preserve"><value>التحكم بالحمولة</value></data>
+  <data name="BUT_speed10.Text" xml:space="preserve"><value>10x</value></data>
+  <data name="BUT_speed5.Text" xml:space="preserve"><value>5x</value></data>
+  <data name="BUT_speed2.Text" xml:space="preserve"><value>2x</value></data>
+  <data name="BUT_speed1.Text" xml:space="preserve"><value>1x</value></data>
+  <data name="lbl_playbackspeed.Text" xml:space="preserve"><value>x 1.0</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>الإسناد الجغرافي للصور</value></data>
+  <data name="but_bintolog.Text" xml:space="preserve"><value>تحويل .Bin إلى .Log</value></data>
+  <data name="but_dflogtokml.Text" xml:space="preserve"><value>إنشاء KML + gpx</value></data>
+  <data name="flyToCoordsToolStripMenuItem.Text" xml:space="preserve"><value>الطيران إلى إحداثيات</value></data>
+  <data name="loadFileToolStripMenuItem.Text" xml:space="preserve"><value>تحميل الملف</value></data>
+  <data name="poiatcoordsToolStripMenuItem.Text" xml:space="preserve"><value>الإحداثيات</value></data>
+  <data name="PointCameraCoordsToolStripMenuItem1.Text" xml:space="preserve"><value>توجيه الكاميرا إلى إحداثيات</value></data>
+  <data name="setEKFHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>تعيين نقطة أصل EKF هنا</value></data>
+  <data name="setHomeHereToolStripMenuItem1.Text" xml:space="preserve"><value>تعيين نقطة العودة هنا</value></data>
+  <data name="onOffCameraOverlapToolStripMenuItem.Text" xml:space="preserve"><value>تداخل صور الكاميرا</value></data>
+  <data name="jumpToTagToolStripMenuItem.Text" xml:space="preserve"><value>الانتقال إلى الوسم</value></data>
+  <data name="gimbalVideoFullSizedToolStripMenuItem.Text" xml:space="preserve"><value>الحجم الكامل</value></data>
+  <data name="gimbalVideoMiniToolStripMenuItem.Text" xml:space="preserve"><value>مصغّر</value></data>
+  <data name="gimbalVideoPopOutToolStripMenuItem.Text" xml:space="preserve"><value>فتح في نافذة مستقلة</value></data>
+  <data name="gimbalVideoToolStripMenuItem.Text" xml:space="preserve"><value>فيديو الحامل المثبّت</value></data>
+  <data name="but_disablejoystick.Text" xml:space="preserve"><value>تعطيل عصا التحكم</value></data>
+  <data name="CB_tuning.ToolTip" xml:space="preserve"><value>عرض مخطط الضبط الذي يقارن الوضعيات المستهدفة بالوضعيات الفعلية</value></data>
+  <data name="openScriptDialog.Filter" xml:space="preserve"><value>ملفات Python|*.py|جميع الملفات|*.*</value></data>
 </root>

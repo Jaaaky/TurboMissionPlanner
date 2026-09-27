@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -133,7 +133,7 @@
     <value>Loiter</value>
   </data>
   <data name="tabServo.Text" xml:space="preserve">
-    <value>サーボ</value>
+    <value>サーボ／リレー</value>
   </data>
   <data name="BUT_playlog.Text" xml:space="preserve">
     <value>再生/一時停止</value>
@@ -160,7 +160,7 @@
     <value>センサーの生データの表示</value>
   </data>
   <data name="but_bintolog.Text" xml:space="preserve">
-    <value>PX4 .Bin to .Log</value>
+    <value>.Binを.Logに変換</value>
   </data>
   <data name="BUTrestartmission.ToolTip" xml:space="preserve">
     <value>ミッションを最初から再起動する</value>
@@ -175,25 +175,25 @@
     <value>ミッション再開</value>
   </data>
   <data name="CB_tuning.ToolTip" xml:space="preserve">
-    <value>チューニング・グラフの表示、ターゲットと実際の方位を示す</value>
+    <value>目標姿勢と実際の姿勢を比較するチューニンググラフを表示します</value>
   </data>
   <data name="russianHudToolStripMenuItem.Text" xml:space="preserve">
-    <value>ロシアのHUD</value>
+    <value>ロシア式HUD</value>
   </data>
   <data name="lbl_hdop.Text" xml:space="preserve">
     <value>hdop: 0</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>スピード</value>
+    <value>速度</value>
   </data>
   <data name="BUT_ARM.ToolTip" xml:space="preserve">
-    <value>アームまたはディスアーム</value>
+    <value>機体をアームします</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>現在のWPに直行</value>
   </data>
   <data name="BUT_log2kml.Text" xml:space="preserve">
-    <value>TlogをKmlまたはGraphに変換</value>
+    <value>TlogをKML変換／グラフ表示</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>ズーム</value>
@@ -205,25 +205,25 @@
     <value>GPS 軌跡 (黒)</value>
   </data>
   <data name="BUT_ARM.Text" xml:space="preserve">
-    <value>Arm/Disarm</value>
+    <value>アーム／ディスアーム</value>
   </data>
   <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve">
     <value>アップ</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>現在の進行方向</value>
+    <value>現在の機首方位</value>
   </data>
   <data name="deleteToolStripMenuItem.Text" xml:space="preserve">
     <value>削除</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>ターゲットの進行方向</value>
+    <value>目標方位</value>
   </data>
   <data name="userItemsToolStripMenuItem.Text" xml:space="preserve">
     <value>ユーザーアイテム</value>
   </data>
   <data name="myButton1.ToolTip" xml:space="preserve">
-    <value>モードをManual/Stabalizeに変更</value>
+    <value>Manual/Stabilizeモードに変更</value>
   </data>
   <data name="tabActionsSimple.Text" xml:space="preserve">
     <value>アクション</value>
@@ -280,7 +280,7 @@
     <value>ダウン</value>
   </data>
   <data name="lbl_sats.Text" xml:space="preserve">
-    <value>Sats: 0</value>
+    <value>衛星数：0</value>
   </data>
   <data name="BUTactiondo.Text" xml:space="preserve">
     <value>アクション実行</value>
@@ -289,7 +289,7 @@
     <value>ミッションのリスタート</value>
   </data>
   <data name="BUT_quickmanual.ToolTip" xml:space="preserve">
-    <value>モードをLoiterに変更</value>
+    <value>Manual/Stabilizeモードに変更</value>
   </data>
   <data name="BUT_speed1_2.Text" xml:space="preserve">
     <value>1/2</value>
@@ -298,7 +298,7 @@
     <value>離陸</value>
   </data>
   <data name="BUT_RAWSensor.ToolTip" xml:space="preserve">
-    <value>ジャイロと加速度センサー及びラジオの ins/outsの生データを見る。</value>
+    <value>ジャイロ、加速度センサー、RC入出力の生の値を表示します</value>
   </data>
   <data name="setAspectRatioToolStripMenuItem.Text" xml:space="preserve">
     <value>アスペクト比をセット</value>
@@ -355,7 +355,7 @@
     <value>ジョイスティックをセットアップして有効にする。</value>
   </data>
   <data name="BUT_Homealt.ToolTip" xml:space="preserve">
-    <value>現在表示されているaltを0にセットする。例:ホームのaltが0と表示される。</value>
+    <value>現在の表示高度を0に設定します。ホーム高度が0と表示されます</value>
   </data>
   <data name="BUT_speed2.Text" xml:space="preserve">
     <value>2x</value>
@@ -385,10 +385,10 @@
     <value>テレメトリ ログ</value>
   </data>
   <data name="myButton2.ToolTip" xml:space="preserve">
-    <value>モードをRTLに変える</value>
+    <value>モードをRTLに変更</value>
   </data>
   <data name="myButton1.Text" xml:space="preserve">
-    <value>ロイター</value>
+    <value>Loiter</value>
   </data>
   <data name="myButton2.Text" xml:space="preserve">
     <value>RTL</value>
@@ -400,10 +400,10 @@
     <value>フライトプランナー表示</value>
   </data>
   <data name="BUT_mountmode.Text" xml:space="preserve">
-    <value>Mount のセット</value>
+    <value>マウントを設定</value>
   </data>
   <data name="myButton3.ToolTip" xml:space="preserve">
-    <value>モードをAutoに変える</value>
+    <value>モードをAutoに変更</value>
   </data>
   <data name="BUT_setmode.Text" xml:space="preserve">
     <value>モードをセット</value>
@@ -441,4 +441,60 @@
   <data name="PointCameraCoordsToolStripMenuItem1.Text" xml:space="preserve">
     <value>座標にカメラを向ける</value>
   </data>
+  <data name="startCameraToolStripMenuItem.Text" xml:space="preserve"><value>カメラ開始</value></data>
+  <data name="setGStreamerSourceToolStripMenuItem.Text" xml:space="preserve"><value>GStreamerソースを設定</value></data>
+  <data name="hereLinkVideoToolStripMenuItem.Text" xml:space="preserve"><value>HereLink映像</value></data>
+  <data name="gStreamerStopToolStripMenuItem.Text" xml:space="preserve"><value>GStreamer停止</value></data>
+  <data name="videoToolStripMenuItem.Text" xml:space="preserve"><value>映像</value></data>
+  <data name="swapWithMapToolStripMenuItem.Text" xml:space="preserve"><value>地図と入れ替え</value></data>
+  <data name="groundColorToolStripMenuItem.Text" xml:space="preserve"><value>地面の色</value></data>
+  <data name="setBatteryCellCountToolStripMenuItem.Text" xml:space="preserve"><value>バッテリーセル電圧</value></data>
+  <data name="showIconsToolStripMenuItem.Text" xml:space="preserve"><value>アイコンを表示</value></data>
+  <data name="customizeToolStripMenuItem.Text" xml:space="preserve"><value>カスタマイズ</value></data>
+  <data name="multiLineToolStripMenuItem.Text" xml:space="preserve"><value>複数行</value></data>
+  <data name="setViewCountToolStripMenuItem.Text" xml:space="preserve"><value>表示数を設定</value></data>
+  <data name="undockToolStripMenuItem.Text" xml:space="preserve"><value>ドッキング解除</value></data>
+  <data name="BUT_SendMSG.Text" xml:space="preserve"><value>メッセージ</value></data>
+  <data name="BUT_SendMSG.ToolTip" xml:space="preserve"><value>機体ログに保存するメッセージを送信します</value></data>
+  <data name="BUT_abortland.ToolTip" xml:space="preserve"><value>固定翼のみ</value></data>
+  <data name="CMB_setwp.Items" xml:space="preserve"><value>0（ホーム）</value></data>
+  <data name="tabPagePreFlight.Text" xml:space="preserve"><value>飛行前点検</value></data>
+  <data name="NACp_lbl.Text" xml:space="preserve"><value>NACp</value></data>
+  <data name="NIC_lbl.Text" xml:space="preserve"><value>NIC</value></data>
+  <data name="fault_clb.Items" xml:space="preserve"><value>整備が必要</value></data>
+  <data name="fault_clb.Items1" xml:space="preserve"><value>GPS利用不可</value></data>
+  <data name="fault_clb.Items2" xml:space="preserve"><value>GPS未測位</value></data>
+  <data name="fault_clb.Items3" xml:space="preserve"><value>送信系統故障</value></data>
+  <data name="fault_clb.Items4" xml:space="preserve"><value>地上</value></data>
+  <data name="XPDRConnect_btn.Text" xml:space="preserve"><value>トランスポンダーに接続</value></data>
+  <data name="Squawk_label.Text" xml:space="preserve"><value>スコーク</value></data>
+  <data name="FlightID_label.Text" xml:space="preserve"><value>フライトID</value></data>
+  <data name="IDENT_btn.Text" xml:space="preserve"><value>IDENT</value></data>
+  <data name="ALT_btn.Text" xml:space="preserve"><value>ALT</value></data>
+  <data name="STBY_btn.Text" xml:space="preserve"><value>STBY</value></data>
+  <data name="ON_btn.Text" xml:space="preserve"><value>ON</value></data>
+  <data name="Mode_clb.Items" xml:space="preserve"><value>モードA</value></data>
+  <data name="Mode_clb.Items1" xml:space="preserve"><value>モードC</value></data>
+  <data name="Mode_clb.Items2" xml:space="preserve"><value>モードS</value></data>
+  <data name="Mode_clb.Items3" xml:space="preserve"><value>1090ES ADS-B OUT</value></data>
+  <data name="tabTransponder.Text" xml:space="preserve"><value>トランスポンダー</value></data>
+  <data name="tabAuxFunction.Text" xml:space="preserve"><value>補助機能</value></data>
+  <data name="BUT_GimbalVideo.Text" xml:space="preserve"><value>映像制御</value></data>
+  <data name="groupBoxRoll.Text" xml:space="preserve"><value>ロール</value></data>
+  <data name="groupBoxYaw.Text" xml:space="preserve"><value>パン</value></data>
+  <data name="BUT_resetGimbalPos.Text" xml:space="preserve"><value>位置をリセット</value></data>
+  <data name="groupBoxPitch.Text" xml:space="preserve"><value>チルト</value></data>
+  <data name="tabPayload.Text" xml:space="preserve"><value>ペイロード制御</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>画像に位置情報を付与</value></data>
+  <data name="flyToCoordsToolStripMenuItem.Text" xml:space="preserve"><value>指定座標へ飛行</value></data>
+  <data name="poiatcoordsToolStripMenuItem.Text" xml:space="preserve"><value>座標</value></data>
+  <data name="setEKFHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>EKF原点をここに設定</value></data>
+  <data name="setHomeHereToolStripMenuItem1.Text" xml:space="preserve"><value>ホームをここにセット</value></data>
+  <data name="onOffCameraOverlapToolStripMenuItem.Text" xml:space="preserve"><value>撮影範囲の重複</value></data>
+  <data name="jumpToTagToolStripMenuItem.Text" xml:space="preserve"><value>タグへジャンプ</value></data>
+  <data name="gimbalVideoFullSizedToolStripMenuItem.Text" xml:space="preserve"><value>通常サイズ</value></data>
+  <data name="gimbalVideoMiniToolStripMenuItem.Text" xml:space="preserve"><value>ミニ</value></data>
+  <data name="gimbalVideoPopOutToolStripMenuItem.Text" xml:space="preserve"><value>別ウィンドウで表示</value></data>
+  <data name="gimbalVideoToolStripMenuItem.Text" xml:space="preserve"><value>ジンバル映像</value></data>
+  <data name="openScriptDialog.Filter" xml:space="preserve"><value>Pythonファイル|*.py|すべてのファイル|*.*</value></data>
 </root>

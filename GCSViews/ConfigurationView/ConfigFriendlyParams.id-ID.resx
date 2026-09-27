@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="chk_advview.Text" xml:space="preserve">
-    <value>Advanced Menu View</value>
+    <value>Tampilan Menu Lanjutan</value>
   </data>
   <data name="BUT_Find.Text" xml:space="preserve">
-    <value>Find</value>
+    <value>Cari</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Write Params</value>
+    <value>Tulis Parameter</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Refresh Params</value>
+    <value>Segarkan Parameter</value>
   </data>
 </root>

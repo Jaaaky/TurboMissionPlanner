@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Kalibracja ESC (AC3.3+)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Zdejmij śmigła!
+Po naciśnięciu tego przycisku:
+- Odłącz USB i akumulator
+- Podłącz akumulator
+- Gdy diody zaczną migać, naciśnij przycisk bezpieczeństwa (jeśli jest)
+- Podczas kalibracji regulatory ESC powinny wydawać sygnały dźwiękowe
+- Uruchom ponownie kontroler lotu w zwykły sposób</value></data>
+  <data name="buttonStart.Text" xml:space="preserve"><value>Kalibruj ESC</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Typ ESC:</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Min. wyjście PWM</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Maks. wyjście PWM</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Obroty po uzbrojeniu</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Minimalne obroty</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Maksymalne obroty</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Pozostaw 0, aby użyć zakresu wejścia odbiornika</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Pozostaw 0, aby użyć zakresu wejścia odbiornika</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Prędkość silników po uzbrojeniu przy zerowym gazie (bieg jałowy)</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Minimalna prędkość silników w locie (nieco wyższa niż obroty po uzbrojeniu)</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Maksymalna prędkość silników w locie (prawie wszystkie ESC mają martwą strefę na górnym końcu zakresu)</value></data>
+</root>

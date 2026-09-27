@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>کارکرد این ابزار:
+۱. مختصات فعلی را از GPS با خروجی NMEA دریافت می‌کند.
+۲. موقعیت خانه را روی نقشه به‌روز می‌کند. (موقعیت خانه در پرنده تغییر نمی‌کند.)
+
+روش استفاده:
+۱. به خلبان خودکار متصل شوید.
+۲. این پنجره را باز کنید و درگاه سریال و نرخ باد GPS با خروجی NMEA را انتخاب کنید.
+۳. اکنون موقعیت خانه باید به‌روز شود.</value></data>
+</root>

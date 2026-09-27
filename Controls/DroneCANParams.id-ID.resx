@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,26 +121,26 @@
     <value />
   </data>
   <data name="Value.HeaderText" xml:space="preserve">
-    <value>Value</value>
+    <value>Nilai</value>
   </data>
   <data name="label1.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Search</value>
+    <value>Cari</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>All Units are in raw 
-format with no scaling</value>
+    <value>Semua satuan dalam format
+mentah tanpa penskalaan</value>
   </data>
   <data name="BUT_load.Text" xml:space="preserve">
-    <value>Load from file</value>
+    <value>Muat dari berkas</value>
   </data>
   <data name="Units.HeaderText" xml:space="preserve">
     <value>Units</value>
   </data>
   <data name="Command.HeaderText" xml:space="preserve">
-    <value>Command</value>
+    <value>Perintah</value>
   </data>
   <data name="BUT_rerequestparams.ToolTip" xml:space="preserve">
     <value />
@@ -164,7 +164,7 @@ format with no scaling</value>
     <value>Desc</value>
   </data>
   <data name="BUT_save.Text" xml:space="preserve">
-    <value>Save to file</value>
+    <value>Simpan ke berkas</value>
   </data>
   <data name="BUT_writePIDS.ToolTip" xml:space="preserve">
     <value />
@@ -173,19 +173,19 @@ format with no scaling</value>
     <value>Options</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Write Params</value>
+    <value>Tulis Parameter</value>
   </data>
   <data name="BUT_paramfileload.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_reset_params.Text" xml:space="preserve">
-    <value>Reset to Default</value>
+    <value>Kembalikan ke Bawaan</value>
   </data>
   <data name="label2.ToolTip" xml:space="preserve">
     <value />
   </data>
   <data name="BUT_compare.Text" xml:space="preserve">
-    <value>Compare Params</value>
+    <value>Bandingkan Parameter</value>
   </data>
   <data name="BUT_save.ToolTip" xml:space="preserve">
     <value />
@@ -197,6 +197,12 @@ format with no scaling</value>
     <value>Load Presaved</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Refresh Params</value>
+    <value>Segarkan Parameter</value>
   </data>
+  <data name="BUT_commitToFlash.Text" xml:space="preserve"><value>Terapkan Parameter</value></data>
+  <data name="chk_modified.Text" xml:space="preserve"><value>Diubah</value></data>
+  <data name="Min.HeaderText" xml:space="preserve"><value>Min</value></data>
+  <data name="Max.HeaderText" xml:space="preserve"><value>Maks</value></data>
+  <data name="Default.HeaderText" xml:space="preserve"><value>Bawaan</value></data>
+  <data name="Fav.HeaderText" xml:space="preserve"><value>Favorit</value></data>
 </root>

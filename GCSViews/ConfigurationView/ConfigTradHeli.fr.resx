@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!--
     Microsoft ResX Schema
@@ -124,7 +124,7 @@
     <value>180</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>Position servo-plateau</value>
+    <value>Position des servos du plateau</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
     <value>1</value>
@@ -139,25 +139,25 @@
     <value>Haut</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Mouvement Swash</value>
+    <value>Débattement du collectif</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>Deplac. du Gouvernail</value>
+    <value>Débattement de direction</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
     <value>Max</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Mode de vol 2</value>
+    <value>Mode servo</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>Roulis Max</value>
+    <value>Puissance basse</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>Tangage Max</value>
+    <value>Ralenti</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Mode de vol 1</value>
+    <value>Zéro</value>
   </data>
   <data name="H_GYR_GAIN.Text" xml:space="preserve">
     <value>1000</value>
@@ -169,7 +169,7 @@
     <value>Type de plateau cyclique</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
-    <value>Gyro</value>
+    <value>Type d’anticouple</value>
   </data>
   <data name="HS4_MAX.Text" xml:space="preserve">
     <value>1500</value>
@@ -190,7 +190,7 @@
     <value>Position</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>Trim</value>
+    <value>Neutre</value>
   </data>
   <data name="H_COL_MAX.Text" xml:space="preserve">
     <value>1500</value>
@@ -214,7 +214,7 @@
     <value>Gain</value>
   </data>
   <data name="label44.Text" xml:space="preserve">
-    <value>Trim</value>
+    <value>Neutre</value>
   </data>
   <data name="label45.Text" xml:space="preserve">
     <value>Enable</value>
@@ -238,49 +238,49 @@
     <value>Sans barre de Bell</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Vitesse de queue</value>
+    <value>Vitesse d’anticouple</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Servo</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Pré-compensation collectif</value>
+    <value>Précompensation du collectif</value>
   </data>
   <data name="groupBox7.Text" xml:space="preserve">
-    <value>Taux de rampe RSC</value>
+    <value>Vitesse de rampe RSC</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>Critique</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Démarrage (Sec)</value>
+    <value>Montée en régime (s)</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Taux (Sec)</value>
+    <value>Rampe (s)</value>
   </data>
   <data name="groupBox8.Text" xml:space="preserve">
-    <value>Point de consigne mode 1</value>
+    <value>Consigne du mode 1</value>
   </data>
   <data name="groupBox9.Text" xml:space="preserve">
-    <value>Contrôle vitesse rotor</value>
+    <value>Régulation du régime rotor</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Test servo au démarrage</value>
+    <value>Test des servos au démarrage</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Roulis en vol stationnaire</value>
+    <value>Roulis en stationnaire</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Compensation piro</value>
+    <value>Compensation de pirouette</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Course cyclique</value>
+    <value>Débattement du cyclique</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Collectif d'atterrissage</value>
+    <value>Collectif à l’atterrissage</value>
   </data>
   <data name="myButtonH_SV_MANtest.Text" xml:space="preserve">
-    <value>Test</value>
+    <value>Tester</value>
   </data>
   <data name="myButtonH_SV_MANmin.Text" xml:space="preserve">
     <value>Min</value>

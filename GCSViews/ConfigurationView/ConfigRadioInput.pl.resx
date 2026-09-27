@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -145,7 +145,7 @@
     <value>PWM 1750 +</value>
   </data>
   <data name="CHK_elevonch1rev.Text" xml:space="preserve">
-    <value>Odwr. Elevon CH1</value>
+    <value>Odwróć sterolotki CH1</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
     <value>Aktualny PWM:</value>
@@ -220,7 +220,7 @@
 3. Wpisz poniżej ilość amperów/wolt [A/V] z dokumentacji czujnika prądu</value>
   </data>
   <data name="BUT_Calibrateradio.Text" xml:space="preserve">
-    <value>Kalibracja radia</value>
+    <value>Kalibruj aparaturę RC</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
     <value>Max</value>
@@ -315,4 +315,16 @@
   <data name="label30.Text" xml:space="preserve">
     <value>Monitor</value>
   </data>
+  <data name="CHK_mixmode.Text" xml:space="preserve"><value>Sterolotki</value></data>
+  <data name="CHK_elevonch2rev.Text" xml:space="preserve"><value>Odwróć sterolotki CH2</value></data>
+  <data name="CHK_elevonrev.Text" xml:space="preserve"><value>Odwróć sterolotki</value></data>
+  <data name="groupBoxElevons.Text" xml:space="preserve"><value>Konfiguracja sterolotek</value></data>
+  <data name="BUT_BindDSM8.Text" xml:space="preserve"><value>Paruj DSM8</value></data>
+  <data name="BUT_BindDSMX.Text" xml:space="preserve"><value>Paruj DSMX</value></data>
+  <data name="BUT_BindDSM2.Text" xml:space="preserve"><value>Paruj DSM2</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Parowanie Spektrum</value></data>
+  <data name="CHK_revch3.Text" xml:space="preserve"><value>Odwróć</value></data>
+  <data name="CHK_revch4.Text" xml:space="preserve"><value>Odwróć</value></data>
+  <data name="CHK_revch2.Text" xml:space="preserve"><value>Odwróć</value></data>
+  <data name="CHK_revch1.Text" xml:space="preserve"><value>Odwróć</value></data>
 </root>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Für einen neuen Kopter müssen einige Parameter anhand von Akku und Propellergröße eingestellt werden.
+Stellen Sie vor der Dateneingabe und Parameteraktualisierung sicher:
+
+  -- ALLE GRUNDEINSTELLUNGEN SIND ABGESCHLOSSEN (Kalibrierungen, Rahmenkonfiguration, Motortests)
+  -- DIE AKKUSPANNUNGSÜBERWACHUNG IST EINGERICHTET UND FUNKTIONIERT
+
+Hinweis: Ein von 20 abweichender Wert für INS_GYRO_FILTER ist optional und in der Regel nur für kleine Rahmen/Propeller sinnvoll. Belassen Sie ihn zunächst auf 20.</value></data>
+</root>

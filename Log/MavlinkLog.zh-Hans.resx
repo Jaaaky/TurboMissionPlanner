@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BUT_paramsfromlog.Text" xml:space="preserve">
-    <value>下一个参数</value>
+    <value>提取参数</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>日志</value>
@@ -139,9 +139,10 @@
     <value>创建Matlab文件</value>
   </data>
   <data name="BUT_graphmavlog.Text" xml:space="preserve">
-    <value>图表日志</value>
+    <value>绘制日志曲线</value>
   </data>
   <data name="BUT_humanreadable.Text" xml:space="preserve">
     <value>转换为文本</value>
   </data>
+  <data name="but_cs.Text" xml:space="preserve"><value>提取 CS 数据</value></data>
 </root>

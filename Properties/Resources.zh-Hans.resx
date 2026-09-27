@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="help_text" xml:space="preserve"><value>{\rtf1\ansi\ansicpg1252\deff0\deflang3081\deflangfe3081{\fonttbl{\f0\fswiss\fprq2\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\nowidctlpar\sa200\sl276\slmult1\f0\fs22\par
+\tab \u27426?\u-28722?\u20351?\u29992? \b Mission Planner (Turbo)\b0 \u-244?\u20026?\u26080?\u20154?\u-25986?\u-25994?\u-32214?\u31354?\u22120?\u-248?\b UAV\b0 \u-247?\u25552?\u20379?\u20219?\u21153?\u-30268?\u21010?\u21151?\u-32515?\u12290?\par
+\pard\nowidctlpar\fi720\b \u24110?\u21161?\u-230?\par
+Arduplane: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/plane"}}{\fldrslt{\ul\cf1 http://ardupilot.org/plane}}}\f0\fs22\par
+ArduCopter: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/copter"}}{\fldrslt{\ul\cf1 http://ardupilot.org/copter}}}\f0\fs22\par
+ArduRover: {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/rover"}}{\fldrslt{\ul\cf1 http://ardupilot.org/rover}}}\f0\fs22\par
+\par
+\pard\nowidctlpar\sa200\sl276\slmult1\tab \u-29705?\u-29761?\u-27154? {\field{\*\fldinst{HYPERLINK "http://ardupilot.org/planner"}}{\fldrslt{\ul\cf1 http://ardupilot.org/planner}}}\f0\fs22 \u-31817?\u21462?\u26356?\u22810?\u20449?\u24687?\u12290?\b0\par
+\pard\nowidctlpar\b\tab \u20027?\u-30335?\u24320?\u21457?\u-32763?\u-230?\b0  Michael Oborne\par
+\tab\b \u-29762?\u-29791?\u-230?\b0  Samantha Nelson\par
+\tab\b \u-29407?\u29486?\u-32763?\u-230?\b0  Andrew Radford,  Marooned, Ryan Beall, Tom Pittenger \u20197?\u21450? {\field{\*\fldinst{HYPERLINK "https://github.com/ArduPilot/MissionPlanner/graphs/contributors"}}{\fldrslt{\ul\cf1 https://github.com/ArduPilot/MissionPlanner/graphs/contributors}}}\f0\fs22\par
+\pard\nowidctlpar\fi720\b ArduCopter \u25554?\u22270?\u-230?\b0  Max Levine\par
+\b \u20351?\u29992?\u30340?\u31243?\u24207?\u24211?\u-230?\b0  Gmap.net, Sharpkml, SharpZipLib, IronPython, KMLib, OpenTK, ZedGraph, alglib, BouncyCastle, DotSpatial, LibVLC, netDXF\par
+\par
+\b \u20026? Mission Planner \u24320?\u21457?\u25552?\u20379?\u25903?\u25345?\u30340?\u20844?\u21496?\u-230? \b0 3D Robotics, Falcon Unmanned, UAV Solutions\b\par
+\par
+\u24555?\u25463?\u-27346?\par
+\par
+\u20027?\u30028?\u-26782?\par
+F2 - \u-26402?\u-30644?\u25968?\u25454?\par
+F3 - \u-32214?\u32447?\u-30268?\u21010?\par
+F4 - \u-29693?\u21442?\par
+F5 - \u21047?\u26032?\u20840?\u-28440?\u21442?\u25968?\u21015?\u-30616?\par
+Control-F - \u20020?\u26102?\u21151?\u-32515?\u30028?\u-26782?\par
+Control-T - \u30450?\u-28706?\u25509?\par
+\par
+\u-26402?\u-30644?\u25968?\u25454?\par
+Control-1 - \u-28663?\u-26503?\u21345? 1\par
+Control-2 - \u-28663?\u-26503?\u21345? 2\par
+Control-3 - \u-28663?\u-26503?\u21345? 3\par
+Control-4 - \u-28663?\u-26503?\u21345? 4\par
+Control-5 - \u-28663?\u-26503?\u21345? 5\par
+Control-6 - \u-28663?\u-26503?\u21345? 6\par
+Control-7 - \u-28663?\u-26503?\u21345? 7\par
+Control-8 - \u-28663?\u-26503?\u21345? 8\par
+Control-9 - \u-28663?\u-26503?\u21345? 9\par
+Control-0 - \u-28663?\u-26503?\u21345? 10\par
+\par
+\u-32214?\u32447?\u-30268?\u21010?\par
+Control-Z - \u25764?\u-27392?\par
+Control-O - \u25171?\u24320?\u-32214?\u28857?\u25991?\u20214?\par
+Control-S - \u20445?\u23384?\u-32214?\u28857?\u25991?\u20214?\par
+\par
+\u-32278?\u21160?\u-32214?\u28857?\u32593?\u26684?\par
+Control-O - \u25171?\u24320?\u32593?\u26684?\u25991?\u20214?\par
+Control-S - \u20445?\u23384?\u32593?\u26684?\u25991?\u20214?\par
+\par
+}</value></data>
+</root>

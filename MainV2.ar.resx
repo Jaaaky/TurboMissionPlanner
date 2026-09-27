@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,60 +121,63 @@
     <value>المحاكاة</value>
   </data>
   <data name="MenuFlightPlanner.Text" xml:space="preserve">
-    <value>تخطيط الرحلة</value>
+    <value>التخطيط</value>
   </data>
   <data name="MenuHelp.Text" xml:space="preserve">
-    <value>مساعده</value>
+    <value>المساعدة</value>
   </data>
   <data name="MenuInitConfig.ToolTipText" xml:space="preserve">
-    <value>تكوين الأجهزة</value>
+    <value>تهيئة العتاد</value>
   </data>
   <data name="connectionOptionsToolStripMenuItem.Text" xml:space="preserve">
-    <value>خيارات الإتصال</value>
+    <value>خيارات الاتصال</value>
   </data>
   <data name="MenuDonate.Text" xml:space="preserve">
     <value>التبرع</value>
   </data>
   <data name="readonlyToolStripMenuItem.Text" xml:space="preserve">
-    <value>قراءه فقط</value>
+    <value>للقراءة فقط</value>
   </data>
   <data name="MenuFlightData.Text" xml:space="preserve">
-    <value>بيانات الرحلة</value>
+    <value>البيانات</value>
   </data>
   <data name="MenuInitConfig.Text" xml:space="preserve">
-    <value>الإعداد الأولي</value>
+    <value>الإعداد</value>
   </data>
   <data name="MenuConnect.Text" xml:space="preserve">
     <value>اتصال</value>
   </data>
   <data name="MenuFlightPlanner.ToolTipText" xml:space="preserve">
-    <value>مخطط الرحلة</value>
+    <value>مخطّط الرحلة</value>
   </data>
   <data name="MenuConfigTune.Text" xml:space="preserve">
-    <value>التكوين/الضبط</value>
+    <value>التهيئة</value>
   </data>
   <data name="MenuFlightData.ToolTipText" xml:space="preserve">
     <value>بيانات الرحلة</value>
   </data>
   <data name="MenuConfigTune.ToolTipText" xml:space="preserve">
-    <value>تكوين البرمجيات</value>
+    <value>تهيئة البرمجيات</value>
   </data>
   <data name="MenuSimulation.Text" xml:space="preserve">
     <value>المحاكاة</value>
   </data>
   <data name="MenuHelp.ToolTipText" xml:space="preserve">
-    <value>المحطة الطرفية</value>
+    <value>المساعدة</value>
   </data>
   <data name="MenuTerminal.ToolTipText" xml:space="preserve">
     <value>المحطة الطرفية</value>
   </data>
   <data name="menu.Text" xml:space="preserve">
-    <value>قائمة</value>
+    <value>القائمة</value>
   </data>
   <data name="fullScreenToolStripMenuItem.Text" xml:space="preserve">
     <value>ملء الشاشة</value>
   </data>
   <data name="autoHideToolStripMenuItem.Text" xml:space="preserve">
-    <value>إخفاء آلي</value>
+    <value>إخفاء تلقائي</value>
   </data>
+  <data name="connectionListToolStripMenuItem.Text" xml:space="preserve"><value>قائمة الاتصالات</value></data>
+  <data name="MainMenu.Text" xml:space="preserve"><value>menuStrip1</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Mission Planner (Turbo) - إعداد Michael Oborne (فرع Turbo)</value></data>
 </root>

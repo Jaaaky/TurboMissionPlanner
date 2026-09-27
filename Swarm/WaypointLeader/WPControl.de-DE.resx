@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="textBox1.Text" xml:space="preserve"><value>Anleitung:
+1. Alle Drohnen einschließlich der Führungsfahrzeuge verbinden (Rechtsklick auf die obere Symbolleiste, „Verbindungsoptionen“).
+2. Das richtige Fahrzeug auswählen und als Bodenführungsfahrzeug festlegen.
+3. Das richtige Fahrzeug auswählen und als Luftführungsfahrzeug festlegen.
+4. Flugroute auf die Luftführungsdrohne hochladen.
+5. Abstands- und Vorlaufoptionen einstellen.
+6. Bei allen Drohnen GPS-Fix abwarten und Kalibrierung durchführen. Andernfalls können die Prüfungen vor dem Scharfschalten fehlschlagen. Dies vorab testen, um einen reibungslosen Betrieb sicherzustellen.
+7. Sicherstellen, dass das Bodenführungsfahrzeug einsatzbereit auf der Flugroute wartet.
+8. Auf „Starten“ klicken.</value></data>
+</root>

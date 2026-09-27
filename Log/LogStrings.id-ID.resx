@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="CancelDownload" xml:space="preserve"><value>Anda sedang mengunduh berkas log. Ingin membatalkan?</value></data>
+  <data name="Confirmation" xml:space="preserve"><value>Anda yakin?</value></data>
+  <data name="CreatingKmlPrompt" xml:space="preserve"><value>Membuat KML untuk {0}</value></data>
+  <data name="Done" xml:space="preserve"><value>Selesai</value></data>
+  <data name="DownloadStarting" xml:space="preserve"><value>Mengunduh berkas log ke: {0}</value></data>
+  <data name="EraseComplete" xml:space="preserve"><value>!!Tunggu 30-90 detik untuk penghapusan</value></data>
+  <data name="ErrorProcessingLogfile" xml:space="preserve"><value>Kesalahan saat memproses berkas. Pastikan berkas tidak sedang digunakan</value></data>
+  <data name="FetchingLog" xml:space="preserve"><value>Mengambil berkas log {0} ...</value></data>
+  <data name="FetchingLogfileList" xml:space="preserve"><value>Mengambil daftar berkas log...</value></data>
+  <data name="LogDirectoryError" xml:space="preserve"><value>Tidak dapat membuat direktori berkas log: {0}</value></data>
+  <data name="NoLogsFound" xml:space="preserve"><value>Tidak ada log untuk diunduh</value></data>
+  <data name="NotConnected" xml:space="preserve"><value>Hubungkan drone Anda</value></data>
+  <data name="NothingSelected" xml:space="preserve"><value>Pilih beberapa log dengan mencentang kotak pada daftar</value></data>
+  <data name="ProcessingLog" xml:space="preserve"><value>Memproses {0}</value></data>
+  <data name="SomeLogsFound" xml:space="preserve"><value>Ditemukan {0} berkas log. Catatan: ukuran item hanya perkiraan.</value></data>
+  <data name="UnhandledException" xml:space="preserve"><value>Kesalahan:</value></data>
+</root>

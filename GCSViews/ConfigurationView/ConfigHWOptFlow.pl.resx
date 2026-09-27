@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -124,31 +124,31 @@
     <value>Ręczne</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>PWM 0 - 1230</value>
+    <value>metry w dół</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>PWM 1621 - 1749</value>
+    <value>metry do przodu</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Aktualny tryb:</value>
+    <value>Pozycja czujnika względem IMU</value>
   </data>
   <data name="CHK_enableoptflow.Text" xml:space="preserve">
-    <value>Włącz Optical Flow</value>
+    <value>Włącz</value>
   </data>
   <data name="label16.Text" xml:space="preserve">
-    <value>UWAGA: Obrazy są wyłącznie do prezentacji, działają jedynie z hexa, itp.</value>
+    <value>metry nad ziemią</value>
   </data>
   <data name="CB_simple5.Text" xml:space="preserve">
     <value>Tryb prosty</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>PWM 1750 +</value>
+    <value>metry w prawo</value>
   </data>
   <data name="CHK_elevonch1rev.Text" xml:space="preserve">
     <value>Odwr. Elevon CH1</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>Aktualny PWM:</value>
+    <value>Współczynniki skali</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Ustawienia APM</value>
@@ -169,7 +169,7 @@
     <value>Tryb prosty</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>Ustawienie ramy (+ lub x)</value>
+    <value>Wymuszona wysokość</value>
   </data>
   <data name="SV2_POS_.Text" xml:space="preserve">
     <value>60</value>
@@ -226,13 +226,13 @@
     <value>Max</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Tryb lotu 2</value>
+    <value>Orientacja w osi odchylenia</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
     <value>Max przechylenie</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Tryb lotu 3</value>
+    <value>Przepływ optyczny  </value>
   </data>
   <data name="label26.Text" xml:space="preserve">
     <value>Max pochylenie</value>
@@ -241,13 +241,13 @@
     <value>w stopniech np. 2° 3' W to -2.3</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Tryb lotu 1</value>
+    <value>Typ</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
     <value>Wypoziomuj quada żeby stawić domyśle offsety przysp.</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Tryb lotu 6</value>
+    <value>Pozycja X</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
     <value>Pojemność</value>
@@ -259,7 +259,7 @@
     <value>Włącz sonar</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>PWM 1231 - 1360</value>
+    <value>Pozycja Y</value>
   </data>
   <data name="tabRadioIn.Text" xml:space="preserve">
     <value>Wejścia radia</value>
@@ -271,22 +271,22 @@
     <value>1500</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Tryb lotu 4</value>
+    <value>Skala FX</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Tryb lotu 5</value>
+    <value>Skala FY</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Żyro</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>PWM 1361 - 1490</value>
+    <value>Pozycja Z</value>
   </data>
   <data name="tabHardware.Text" xml:space="preserve">
     <value>Hardware</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>PWM 1491 - 1620</value>
+    <value>stopnie względem pojazdu</value>
   </data>
   <data name="linkLabelmagdec.Text" xml:space="preserve">
     <value>Strona www deklinacji</value>

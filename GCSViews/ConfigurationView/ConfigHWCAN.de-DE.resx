@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,21 +121,22 @@
     <value>Konfiguration zurücksetzen</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>HINWEIS: Nach Änderung dieser Option ist ein Neustart nötig.</value>
+    <value>HINWEIS: Nach Änderung dieser Option ist ein Neustart erforderlich.</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>CAN aktivieren</value>
   </data>
   <data name="but_stopenum.Text" xml:space="preserve">
-    <value>Stop Datenerfassung</value>
+    <value>Zuordnung stoppen</value>
   </data>
   <data name="checkBox1.Text" xml:space="preserve">
-    <value>Werkseinstellung</value>
+    <value>Auf Werkseinstellungen zurücksetzen</value>
   </data>
   <data name="but_startenum.Text" xml:space="preserve">
-    <value>Start Datenerfassung</value>
+    <value>Zuordnung starten</value>
   </data>
   <data name="but_saveconfig.Text" xml:space="preserve">
-    <value>Alle Konfigurationen speichern</value>
+    <value>Gesamte Konfiguration speichern</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>CAN</value></data>
 </root>

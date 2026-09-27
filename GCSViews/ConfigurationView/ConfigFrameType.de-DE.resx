@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,21 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label3.Text" xml:space="preserve">
-    <value>'X'</value>
+    <value>'X' , 'Y6A'</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>HINWEIS: Dies ist Y6B Typ. Propellerdrehrichtung hat gegenüber  altem Y6A geändert</value>
+    <value>HINWEIS: Dies ist Y6B. Die Propellerdrehrichtungen unterscheiden sich vom älteren Y6A.</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>HINWEIS: X und H Typen sind nicht kompatibel. Prop Drehrichtungen sind unterschiedlich</value>
+    <value>HINWEIS: X und H sind NICHT austauschbar. Die Propellerdrehrichtungen unterscheiden sich.</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>'Y6B' </value>
+    <value>'Y6B'</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Rahmentyp</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Default Eisntellungen</value>
+    <value>Standardeinstellungen</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>'V'</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>'V Tail'</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>'Plus'</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>'H'</value></data>
 </root>

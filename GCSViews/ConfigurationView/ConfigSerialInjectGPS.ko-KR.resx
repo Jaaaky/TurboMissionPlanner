@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -250,7 +250,7 @@
     <value>104, 17</value>
   </data>
   <data name="chk_rtcmmsg.ToolTip" xml:space="preserve">
-    <value>오토파일럿의 펌웨어 버전에 따라 다름니다. 가능하면 새 메시지를 깨진 메시지로 처리하는 방향이 나으므로 활성 상태로 두십시오.</value>
+    <value>오토파일럿의 펌웨어 버전에 따라 다릅니다. 새 메시지 형식이 데이터 손상을 훨씬 잘 처리하므로 가능하면 활성화하십시오.</value>
   </data>
   <data name="&gt;&gt;chk_rtcmmsg.Name" xml:space="preserve">
     <value>chk_rtcmmsg</value>
@@ -280,15 +280,16 @@
     <value>5</value>
   </data>
   <data name="lbl_svin.Text" xml:space="preserve">
-    <value>조사</value>
+    <value>기준점 측량(Survey-in)</value>
   </data>
   <data name="lbl_svin.ToolTip" xml:space="preserve">
-    <value>조사 정보
-Valid: 유효한 조사값
-InProgress: 현재 위치에서 확인 중
-Duration: 조사한 초 단위 시간 길이
-Obs: 조사 관찰 횟수
-Acc: 지정 지점에서의 조사 정확도</value>
+    <value>기준점 측량 정보
+Valid: 측량 결과의 유효 여부
+InProgress: 현재 위치 측량 진행 여부
+Duration: 측량 경과 시간(초)
+Obs: 측량에 사용한 관측 수
+Acc: 측량 지점의 현재 정확도
+</value>
   </data>
   <data name="lbl_svin.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -357,15 +358,16 @@ Acc: 지정 지점에서의 조사 정확도</value>
     <value>24</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>조사</value>
+    <value>기준점 측량(Survey-in)</value>
   </data>
   <data name="label10.ToolTip" xml:space="preserve">
-    <value>조사 정보
-Valid: 유효한 조사값
-InProgress: 현재 위치에서 확인 중
-Duration: 조사한 초 단위 시간 길이
-Obs: 조사 관찰 횟수
-Acc: 지정 지점에서의 조사 정확도</value>
+    <value>기준점 측량 정보
+Valid: 측량 결과의 유효 여부
+InProgress: 현재 위치 측량 진행 여부
+Duration: 측량 경과 시간(초)
+Obs: 측량에 사용한 관측 수
+Acc: 측량 지점의 현재 정확도
+</value>
   </data>
   <data name="label10.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -398,15 +400,16 @@ Acc: 지정 지점에서의 조사 정확도</value>
     <value>21</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>조사</value>
+    <value>기준점 측량(Survey-in)</value>
   </data>
   <data name="label7.ToolTip" xml:space="preserve">
-    <value>조사 정보
-Valid: 유효한 조사값
-InProgress: 현재 위치에서 확인 중
-Duration: 조사한 초 단위 시간 길이
-Obs: 조사 관찰 횟수
-Acc: 지정 지점에서의 조사 정확도</value>
+    <value>기준점 측량 정보
+Valid: 측량 결과의 유효 여부
+InProgress: 현재 위치 측량 진행 여부
+Duration: 측량 경과 시간(초)
+Obs: 측량에 사용한 관측 수
+Acc: 측량 지점의 현재 정확도
+</value>
   </data>
   <data name="label7.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -439,15 +442,16 @@ Acc: 지정 지점에서의 조사 정확도</value>
     <value>23</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>조사</value>
+    <value>기준점 측량(Survey-in)</value>
   </data>
   <data name="label9.ToolTip" xml:space="preserve">
-    <value>조사 정보
-Valid: 유효한 조사값
-InProgress: 현재 위치에서 확인 중
-Duration: 조사한 초 단위 시간 길이
-Obs: 조사 관찰 횟수
-Acc: 지정 지점에서의 조사 정확도</value>
+    <value>기준점 측량 정보
+Valid: 측량 결과의 유효 여부
+InProgress: 현재 위치 측량 진행 여부
+Duration: 측량 경과 시간(초)
+Obs: 측량에 사용한 관측 수
+Acc: 측량 지점의 현재 정확도
+</value>
   </data>
   <data name="label9.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -480,15 +484,15 @@ Acc: 지정 지점에서의 조사 정확도</value>
     <value>22</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>조사</value>
+    <value>기준점 측량(Survey-in)</value>
   </data>
   <data name="label8.ToolTip" xml:space="preserve">
-    <value>조사 정보
-Valid: 유효한 조사값
-InProgress: 현재 위치에서 확인 중
-Duration: 조사한 초 단위 시간 길이
-Obs: 조사 관찰 횟수
-Acc: 지정 지점에서의 조사 정확도
+    <value>기준점 측량 정보
+Valid: 측량 결과의 유효 여부
+InProgress: 현재 위치 측량 진행 여부
+Duration: 측량 경과 시간(초)
+Obs: 측량에 사용한 관측 수
+Acc: 측량 지점의 현재 정확도
 </value>
   </data>
   <data name="label8.Visible" type="System.Boolean, mscorlib">
@@ -516,7 +520,7 @@ Acc: 지정 지점에서의 조사 정확도
     <value>25</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>조사</value>
+    <value>기준점 측량(Survey-in)</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -582,7 +586,7 @@ Acc: 지정 지점에서의 조사 정확도
     <value>다시 시작</value>
   </data>
   <data name="but_restartsvin.ToolTip" xml:space="preserve">
-    <value>현재 조사 기지국 위치를 저장할 때 활용</value>
+    <value>측량으로 구한 현재 기준국 위치를 저장합니다</value>
   </data>
   <data name="&gt;&gt;but_restartsvin.Name" xml:space="preserve">
     <value>but_restartsvin</value>
@@ -615,7 +619,7 @@ Acc: 지정 지점에서의 조사 정확도
     <value>M8P fw 130+/F9P</value>
   </data>
   <data name="chk_m8p_130p.ToolTip" xml:space="preserve">
-    <value>base와 rover의 ublox 펌웨어 버전이 1.30 이상일 경우 이 상자에 표시하십시오</value>
+    <value>기준국과 이동국 모두 u-blox 펌웨어 1.30 이상을 사용하면 선택하십시오</value>
   </data>
   <data name="&gt;&gt;chk_m8p_130p.Name" xml:space="preserve">
     <value>chk_m8p_130p</value>
@@ -645,7 +649,7 @@ Acc: 지정 지점에서의 조사 정확도
     <value>현재 위치 저장</value>
   </data>
   <data name="but_save_basepos.ToolTip" xml:space="preserve">
-    <value>현재 조사 기지국 위치를 저장할 때 활용</value>
+    <value>측량으로 구한 현재 기준국 위치를 저장합니다</value>
   </data>
   <data name="&gt;&gt;but_save_basepos.Name" xml:space="preserve">
     <value>but_save_basepos</value>
@@ -768,7 +772,7 @@ Acc: 지정 지점에서의 조사 정확도
     <value>2.00</value>
   </data>
   <data name="txt_surveyinAcc.ToolTip" xml:space="preserve">
-    <value>조사 정확도 트리거. 이 값 아래여야 합니다</value>
+    <value>기준점 측량 정확도 기준. 이 값보다 작아야 합니다</value>
   </data>
   <data name="&gt;&gt;txt_surveyinAcc.Name" xml:space="preserve">
     <value>txt_surveyinAcc</value>
@@ -798,11 +802,11 @@ Acc: 지정 지점에서의 조사 정확도
     <value>9</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>조사 정확도(m)</value>
+    <value>기준점 측량 정확도(m)</value>
   </data>
   <data name="label1.ToolTip" xml:space="preserve">
-    <value>정확도와 기간은 조사를 완료하기 위해 조건에 일치해야 합니다
-예) 2m 미만의 정확도, 60초를 초과하는 측정 시간</value>
+    <value>측량을 완료하려면 정확도와 시간 조건을 모두 충족해야 합니다
+예: 정확도 2m 미만, 관측 시간 60초 초과</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -829,7 +833,7 @@ Acc: 지정 지점에서의 조사 정확도
     <value>60</value>
   </data>
   <data name="txt_surveyinDur.ToolTip" xml:space="preserve">
-    <value>조사 최소 시간. 이 숫자보다 커야 합니다</value>
+    <value>기준점 측량 최소 시간. 이 값보다 길어야 합니다</value>
   </data>
   <data name="&gt;&gt;txt_surveyinDur.Name" xml:space="preserve">
     <value>txt_surveyinDur</value>
@@ -1084,7 +1088,7 @@ Acc: 지정 지점에서의 조사 정확도
     <value>20</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>RTCM 베이스 </value>
+    <value>RTCM 기준국 </value>
   </data>
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
@@ -1144,7 +1148,8 @@ Acc: 지정 지점에서의 조사 정확도
     <value>22</value>
   </data>
   <data name="labelmsgseen.Text" xml:space="preserve">
-    <value>rtcm0000</value>
+    <value>rtcm0000
+rtcm0000</value>
   </data>
   <data name="&gt;&gt;labelmsgseen.Name" xml:space="preserve">
     <value>labelmsgseen</value>
@@ -1228,7 +1233,7 @@ Acc: 지정 지점에서의 조사 정확도
     <value>25</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Base</value>
+    <value>기준국</value>
   </data>
   <data name="&gt;&gt;label11.Name" xml:space="preserve">
     <value>label11</value>
@@ -1567,10 +1572,10 @@ Acc: 지정 지점에서의 조사 정확도
     <value>38</value>
   </data>
   <data name="chk_sendgga.Text" xml:space="preserve">
-    <value>GGA 전송</value>
+    <value>NTRIP GGA 전송(VRS/Smart)</value>
   </data>
   <data name="chk_sendgga.ToolTip" xml:space="preserve">
-    <value>오토파일럿의 펌웨어 버전에 따라 다름니다. 가능하면 새 메시지를 깨진 메시지로 처리하는 방향이 나으므로 활성 상태로 두십시오.</value>
+    <value>오토파일럿의 펌웨어 버전에 따라 다릅니다. 새 메시지 형식이 데이터 손상을 훨씬 잘 처리하므로 가능하면 활성화하십시오.</value>
   </data>
   <data name="&gt;&gt;chk_sendgga.Name" xml:space="preserve">
     <value>chk_sendgga</value>
@@ -1644,4 +1649,43 @@ Acc: 지정 지점에서의 조사 정확도
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="chk_autoconfig.Text" xml:space="preserve"><value>수신기 자동 설정</value></data>
+  <data name="chk_autoconfig.ToolTip" xml:space="preserve"><value>선택한 포트에 연결된 수신기가 보정 메시지를 출력하도록 자동 설정합니다.</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>연결 시 수신기가 정밀 GPS 위치를 결정하기 위한 기준점 측량(Survey-in)을 시작합니다.
+RTCM 기준국 위치가 더 이상 변하지 않으면 측량이 완료됩니다.
+위치와 신호 상태에 따라 몇 분 정도 걸릴 수 있습니다.
+
+측량이 완료되면 사용할 수 있습니다.
+</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>RTCM 위성군 사용 설정</value></data>
+  <data name="label21.ToolTip" xml:space="preserve"><value>수신기가 보정 정보를 출력할 위성군을 선택합니다. 위성군이 많을수록 데이터 전송량이 증가합니다.</value></data>
+  <data name="chk_septentriogalileo.Text" xml:space="preserve"><value>Galileo</value></data>
+  <data name="chk_septentriogalileo.ToolTip" xml:space="preserve"><value>Galileo RTCM 메시지 출력을 켜거나 끕니다.</value></data>
+  <data name="chk_septentriobeidou.Text" xml:space="preserve"><value>BeiDou</value></data>
+  <data name="chk_septentriobeidou.ToolTip" xml:space="preserve"><value>BeiDou RTCM 메시지 출력을 켜거나 끕니다.</value></data>
+  <data name="chk_septentrioglonass.Text" xml:space="preserve"><value>GLONASS</value></data>
+  <data name="chk_septentrioglonass.ToolTip" xml:space="preserve"><value>GLONASS RTCM 메시지 출력을 켜거나 끕니다.</value></data>
+  <data name="chk_septentriogps.Text" xml:space="preserve"><value>GPS</value></data>
+  <data name="chk_septentriogps.ToolTip" xml:space="preserve"><value>GPS RTCM 메시지 출력을 켜거나 끕니다.</value></data>
+  <data name="button_septentriortcminterval.Text" xml:space="preserve"><value>주기 설정</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>RTCM 메시지 출력 주기(초)</value></data>
+  <data name="label20.ToolTip" xml:space="preserve"><value>수신기의 RTCM 메시지 출력 주기를 선택합니다. 값이 작을수록 데이터 전송량이 증가합니다.</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>RTCM 메시지 상세 수준</value></data>
+  <data name="label19.ToolTip" xml:space="preserve"><value>RTCM 메시지에 포함할 정보의 상세 수준을 선택합니다. 값이 높을수록 데이터 전송량이 증가합니다.</value></data>
+  <data name="cmb_septentriortcmamount.Items" xml:space="preserve"><value>간소</value></data>
+  <data name="cmb_septentriortcmamount.Items1" xml:space="preserve"><value>기본</value></data>
+  <data name="cmb_septentriortcmamount.Items2" xml:space="preserve"><value>전체</value></data>
+  <data name="chk_septentriofixedposition.Text" xml:space="preserve"><value>고정 위치</value></data>
+  <data name="chk_septentriofixedposition.ToolTip" xml:space="preserve"><value>수신기가 위치를 자동으로 결정하는 대신 기준국 안테나의 고정 위치를 입력합니다. 보정 정확도를 높일 수 있습니다.
+</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>위도(WGS84)</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>경도(WGS84)</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>고도(m)</value></data>
+  <data name="button_septentriosetposition.Text" xml:space="preserve"><value>위치 설정</value></data>
+  <data name="groupBox_autoconfig.Text" xml:space="preserve"><value>자동 설정 옵션</value></data>
+  <data name="check_sendntripv1.Text" xml:space="preserve"><value>NTRIP 프로토콜 v1.0 사용</value></data>
+  <data name="check_sendntripv1.ToolTip" xml:space="preserve"><value>RTKLIB 등 일부 구형 NTRIP 캐스터는 NTRIP 프로토콜 v2.0을 지원하지 않습니다. 선택하면 프로토콜 v1.0을 사용합니다</value></data>
+  <data name="comboBoxConfigType.Items" xml:space="preserve"><value>UBlox M8P/F9P</value></data>
+  <data name="comboBoxConfigType.Items1" xml:space="preserve"><value>Septentrio</value></data>
+  <data name="comboBoxConfigType.Items2" xml:space="preserve"><value>Unicore UM982</value></data>
 </root>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>صفحه‌های زیر فقط برای پیکربندی پیشرفته هستند؛ با احتیاط استفاده کنید</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>بازرس MAVLink</value></data>
+  <data name="but_warningmanager.Text" xml:space="preserve"><value>مدیریت هشدارها</value></data>
+  <data name="but_proximity.Text" xml:space="preserve"><value>مجاورت</value></data>
+  <data name="but_signkey.Text" xml:space="preserve"><value>امضای MAVLink</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>بازتاب MAVLink</value></data>
+  <data name="BUT_outputnmea.Text" xml:space="preserve"><value>NMEA</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>اشتراک اتصال با کارشناس پشتیبانی</value></data>
+  <data name="BUT_supportproxy.Text" xml:space="preserve"><value>پراکسی پشتیبانی</value></data>
+  <data name="BUT_spect.Text" xml:space="preserve"><value>طیف‌نگاشت</value></data>
+  <data name="but_fft.Text" xml:space="preserve"><value>FFT</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>خروجی موقعیت پرنده به‌صورت رشتهٔ NMEA</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>بازتاب MAVLink به مقصد خارجی برای پایش یا کنترل</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>فعال‌سازی امضای MAVLink برای ارتباط امن با پرنده</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>مشاهدهٔ داده‌های لیدار ۳۶۰ درجه</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>فعال‌سازی هشدارهای سفارشی بر اساس مجموعه‌ای از شرایط</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>مشاهدهٔ داده‌های رمزگشایی‌شدهٔ MAVLink ارسالی و دریافتی</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>مبهم‌سازی عرض/طول جغرافیایی در bin یا tlog</value></data>
+  <data name="BUT_follow_me.Text" xml:space="preserve"><value>دنبال کردن من</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>استفاده از GPS خارجی NMEA و ارسال نقاط مسیر هدایت‌شده به پرنده بر اساس موقعیت آن</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>بازسازی اطلاعات پارامترهای مورد استفاده در Mission Planner</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>تولید اطلاعات پارامتر</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>نمایش نماد دیگری از موقعیت فعلی شما روی نقشه.</value></data>
+  <data name="BUT_movingbase.Text" xml:space="preserve"><value>پایهٔ متحرک</value></data>
+  <data name="but_anonlog.Text" xml:space="preserve"><value>ناشناس‌سازی گزارش</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>رسم FFT از گزارش</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>رسم FFT از گزارش</value></data>
+</root>

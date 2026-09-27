@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label2.Text" xml:space="preserve"><value>'Plus'</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>'X' , 'Y6A'</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>'V'</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>'H'</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>ئەسكەرتىش: X بىلەن H نى ئالمىشىپ ئىشلىتىشكە بولمايدۇ، پىرقىرىغۇچنىڭ ئايلىنىش يۆنىلىشى ئوخشىمايدۇ</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>'Y6B'</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>ئەسكەرتىش: بۇ Y6B، پىرقىرىغۇچنىڭ ئايلىنىش يۆنىلىشى كونا Y6A دىن پەرقلىنىدۇ</value></data>
+  <data name="radio_type_other.Text" xml:space="preserve"><value>باشقا</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>'V قۇيرۇق'</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>گەۋدە تىپى</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>گەۋدە تۈرى</value></data>
+  <data name="radioButtonOctaQuad.Text" xml:space="preserve"><value>OctaQuad</value></data>
+  <data name="radioButtonTri.Text" xml:space="preserve"><value>ئۈچ پىرقىرىغۇچلۇق</value></data>
+  <data name="radioButtonHeli.Text" xml:space="preserve"><value>تىك ئۇچار</value></data>
+  <data name="radioButtonY6.Text" xml:space="preserve"><value>Y6</value></data>
+  <data name="radioButtonOcta.Text" xml:space="preserve"><value>سەككىز پىرقىرىغۇچلۇق</value></data>
+  <data name="radioButtonHexa.Text" xml:space="preserve"><value>ئالتە پىرقىرىغۇچلۇق</value></data>
+  <data name="radioButtonQuad.Text" xml:space="preserve"><value>تۆت پىرقىرىغۇچلۇق</value></data>
+  <data name="radioButtonUndef.Text" xml:space="preserve"><value>ئېنىقلانمىغان</value></data>
+</root>

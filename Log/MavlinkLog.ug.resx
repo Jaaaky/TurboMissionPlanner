@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_redokml.Text" xml:space="preserve"><value>KML + GPX قۇرۇش</value></data>
+  <data name="BUT_humanreadable.Text" xml:space="preserve"><value>تېكىستكە ئايلاندۇرۇش</value></data>
+  <data name="BUT_graphmavlog.Text" xml:space="preserve"><value>خاتىرە گرافىكى سىزىش</value></data>
+  <data name="BUT_convertcsv.Text" xml:space="preserve"><value>CSV غا ئايلاندۇرۇش</value></data>
+  <data name="BUT_paramsfromlog.Text" xml:space="preserve"><value>پارامېتىرلارنى ئاجرىتىش</value></data>
+  <data name="BUT_getwpsfromlog.Text" xml:space="preserve"><value>يول نۇقتىلىرىنى ئاجرىتىش</value></data>
+  <data name="BUT_matlab.Text" xml:space="preserve"><value>Matlab ھۆججىتى قۇرۇش</value></data>
+  <data name="but_cs.Text" xml:space="preserve"><value>CS نى ئاجرىتىش</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>خاتىرە</value></data>
+</root>

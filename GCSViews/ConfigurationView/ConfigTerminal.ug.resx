@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="TXT_terminal.Text" xml:space="preserve"><value>*ئەسكەرتىش* ئۈستىدىكى ئۇلاشنى چېكىڭ
+CLI پەقەت توك بېرىلگەندىن كېيىنكى تۇنجى ئۇلىنىشتا ئىشلەيدۇ، خاتىرە پەقەت USB ئارقىلىق چۈشۈرۈلىدۇ
+يېڭى نەشرلەر پەقەت MAVLink ئارقىلىق خاتىرە چۈشۈرۈشنى قوللايدۇ؛ ئۇچۇش سانلىق مەلۇماتى &gt; DataFlash خاتىرىلىرىگە قاراڭ
+</value></data>
+  <data name="BUTsetupshow.Text" xml:space="preserve"><value>تەڭشەكلەرنى كۆرسىتىش</value></data>
+  <data name="BUTradiosetup.Text" xml:space="preserve"><value>رادىيونى تەڭشەش</value></data>
+  <data name="BUTtests.Text" xml:space="preserve"><value>سىناقلار</value></data>
+  <data name="Logs.Text" xml:space="preserve"><value>خاتىرە چۈشۈرۈش</value></data>
+  <data name="BUT_logbrowse.Text" xml:space="preserve"><value>خاتىرە كۆرۈش</value></data>
+  <data name="BUT_ConnectAPM.Text" xml:space="preserve"><value>ئۇلاش</value></data>
+  <data name="BUT_disconnect.Text" xml:space="preserve"><value>ئۈزۈش</value></data>
+  <data name="CMB_boardtype.Items" xml:space="preserve"><value>APM</value></data>
+  <data name="CMB_boardtype.Items1" xml:space="preserve"><value>PX4/PIXHAWK</value></data>
+  <data name="CMB_boardtype.Items2" xml:space="preserve"><value>VRX/VRBRAIN</value></data>
+  <data name="CMB_boardtype.Items3" xml:space="preserve"><value>NSH</value></data>
+  <data name="CMB_boardtype.Items4" xml:space="preserve"><value>SSH</value></data>
+  <data name="CMB_boardtype.Text" xml:space="preserve"><value>APM</value></data>
+</root>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Puede añadir comandos MAVLink a la selección de comandos de la tabla de misión del planificador.
+Para añadir un comando, debe conocer su ID. El nombre se rellenará automáticamente si el
+ID ya está definido en las bibliotecas MAVLink. También puede añadir un ID aún no definido.
+En ese caso, deberá indicar también el nombre. Añadir un comando aquí no implica que el
+piloto automático lo acepte o ejecute. Por tanto, debe saber lo que está haciendo.</value></data>
+</root>

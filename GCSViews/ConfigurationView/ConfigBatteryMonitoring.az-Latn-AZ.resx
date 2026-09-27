@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,27 +118,56 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CHK_speechbattery.Text" xml:space="preserve">
-    <value>MP Zəyif batareyada xəbərdarlıq</value>
+    <value>Mission Planner-də zəif batareya xəbərdarlığı</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>4. Cari ölçmə:</value>
+    <value>4. Ölçülmüş cərəyan:</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
-    <value>Batareya tutumu</value>
+    <value>Batareyanın tutumu</value>
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
-    <value>Kalibrasiya</value>
+    <value>Kalibrləmə</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>5. Cari (Calced)</value>
+    <value>5. Cərəyan (hesablanmış)</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>3. Voltaj bölücü (Calced):</value>
+    <value>3. Gərginlik bölücüsü (hesablanmış):</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>2. Batareya gərginliyi (Calced):</value>
+    <value>2. Batareyanın gərginliyi (hesablanmış):</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>6.Volt başına amperlər:</value>
+    <value>6. Hər volta düşən amper:</value>
   </data>
+  <data name="label47.Text" xml:space="preserve"><value>Sensor</value></data>
+  <data name="CMB_batmonsensortype.Items" xml:space="preserve"><value>0: Digər</value></data>
+  <data name="CMB_batmonsensortype.Items1" xml:space="preserve"><value>1: AttoPilot 45A</value></data>
+  <data name="CMB_batmonsensortype.Items2" xml:space="preserve"><value>2: AttoPilot 90A</value></data>
+  <data name="CMB_batmonsensortype.Items3" xml:space="preserve"><value>3: AttoPilot 180A</value></data>
+  <data name="CMB_batmonsensortype.Items4" xml:space="preserve"><value>4: 3DR qidalanma modulu</value></data>
+  <data name="CMB_batmonsensortype.Items5" xml:space="preserve"><value>5: 3DR 4-ü 1-də ESC</value></data>
+  <data name="CMB_batmonsensortype.Items6" xml:space="preserve"><value>6: 3DR HV qidalanma modulu APM</value></data>
+  <data name="CMB_batmonsensortype.Items7" xml:space="preserve"><value>7: Cube HV qidalanma modulu</value></data>
+  <data name="CMB_batmonsensortype.Items8" xml:space="preserve"><value>8: CUAV HV PM</value></data>
+  <data name="CMB_batmonsensortype.Items9" xml:space="preserve"><value>9: Holybro qidalanma modulu</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Monitor</value></data>
+  <data name="CMB_batmontype.Items" xml:space="preserve"><value>0: Söndürülüb</value></data>
+  <data name="CMB_batmontype.Items1" xml:space="preserve"><value>3: Batareyanın gərginliyi</value></data>
+  <data name="CMB_batmontype.Items2" xml:space="preserve"><value>4: Gərginlik və cərəyan</value></data>
+  <data name="CMB_HWVersion.Items" xml:space="preserve"><value>0: CUAV V5/Pixhawk4 və ya APM1</value></data>
+  <data name="CMB_HWVersion.Items1" xml:space="preserve"><value>1: APM2 - 2.5, 3DR olmayan</value></data>
+  <data name="CMB_HWVersion.Items2" xml:space="preserve"><value>2: APM2.5+/ZealotF427 - 3DR qidalanma modulu</value></data>
+  <data name="CMB_HWVersion.Items3" xml:space="preserve"><value>3: PX4</value></data>
+  <data name="CMB_HWVersion.Items4" xml:space="preserve"><value>4: The Cube və ya Pixhawk</value></data>
+  <data name="CMB_HWVersion.Items5" xml:space="preserve"><value>5: VR Brain 4.5 - 5</value></data>
+  <data name="CMB_HWVersion.Items6" xml:space="preserve"><value>6: VR Micro Brain 5</value></data>
+  <data name="CMB_HWVersion.Items7" xml:space="preserve"><value>7: VR Brain 4</value></data>
+  <data name="CMB_HWVersion.Items8" xml:space="preserve"><value>8: Cube Orange</value></data>
+  <data name="CMB_HWVersion.Items9" xml:space="preserve"><value>9: Durandal/ZealotH743</value></data>
+  <data name="CMB_HWVersion.Items10" xml:space="preserve"><value>10: Pixhawk 6C/Pix32 v6</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Avadanlıq versiyası</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>mAh</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>1. Ölçülmüş batareya gərginliyi:</value></data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,129 +118,161 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CHK_maprotation.Text" xml:space="preserve">
-    <value>الخريطة تدور لتتبع الطائرة </value>
+    <value>تدوير الخريطة لتتبع الطائرة</value>
   </data>
   <data name="CHK_speechaltwarning.Text" xml:space="preserve">
-    <value>تحذير الأرتفاع</value>
+    <value>تحذير الارتفاع</value>
   </data>
   <data name="BUT_videostop.Text" xml:space="preserve">
-    <value>توقف</value>
+    <value>إيقاف</value>
   </data>
   <data name="CHK_speechbattery.Text" xml:space="preserve">
     <value>تحذير البطارية</value>
   </data>
   <data name="CHK_enablespeech.Text" xml:space="preserve">
-    <value>تفعيل التحدث</value>
+    <value>تفعيل التنبيهات الصوتية</value>
   </data>
   <data name="CHK_Password.Text" xml:space="preserve">
-    <value>حماية الاعدادات بكلمة مرور</value>
+    <value>حماية الإعدادات بكلمة مرور</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
     <value>طول المسار</value>
   </data>
   <data name="CHK_speecharmdisarm.Text" xml:space="preserve">
-    <value>تفعيل / الغاء التفعيل</value>
+    <value>تسليح/إلغاء التسليح</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>إحداثيات</value>
+    <value>نقاط المسار</value>
   </data>
   <data name="CHK_speechcustom.Text" xml:space="preserve">
-    <value>فترة 30 ث</value>
+    <value>فاصل 30 ثانية</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>المسافة الى البداية</value>
+    <value>المسافة إلى نقطة العودة</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>مسار السجل</value>
+    <value>مسار السجلات</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>صيغة الفيديو</value>
+    <value>تنسيق الفيديو</value>
   </data>
   <data name="label103.Text" xml:space="preserve">
-    <value>الموقع</value>
+    <value>الموضع</value>
   </data>
   <data name="label102.Text" xml:space="preserve">
     <value>الوضعية</value>
   </data>
   <data name="BUT_Vario.Text" xml:space="preserve">
-    <value>بداية / توقف Vario</value>
+    <value>بدء/إيقاف مقياس السرعة الرأسية</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>تتبع الخريطة</value>
   </data>
   <data name="label101.Text" xml:space="preserve">
-    <value>معدل بيانات التليمتري</value>
+    <value>معدلات القياس عن بُعد</value>
   </data>
   <data name="CHK_speechlowspeed.Text" xml:space="preserve">
-    <value>سرعة منخفضة</value>
+    <value>انخفاض السرعة</value>
   </data>
   <data name="label107.Text" xml:space="preserve">
-    <value>ريموت كنترول</value>
+    <value>التحكم اللاسلكي</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>النمط</value>
+    <value>السمة</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Layout</value>
+    <value>التخطيط</value>
   </data>
   <data name="label104.Text" xml:space="preserve">
-    <value>الوضع / الحالة</value>
+    <value>الوضع/الحالة</value>
   </data>
   <data name="label108.Text" xml:space="preserve">
-    <value>اعادة ضبط APM</value>
+    <value>إعادة التعيين عند الاتصال</value>
   </data>
   <data name="CHK_loadwponconnect.Text" xml:space="preserve">
-    <value>تحميل احداثيات المسار عند الإتصال ؟</value>
+    <value>تحميل نقاط المسار عند الاتصال؟</value>
   </data>
   <data name="CHK_beta.Text" xml:space="preserve">
-    <value>تحديث الإصدار التجريبي</value>
+    <value>تحديثات تجريبية</value>
   </data>
   <data name="label98.Text" xml:space="preserve">
     <value>وحدات السرعة</value>
   </data>
   <data name="CHK_speechwaypoint.Text" xml:space="preserve">
-    <value>الاحداثية</value>
+    <value>نقطة مسار</value>
   </data>
   <data name="label92.Text" xml:space="preserve">
     <value>جهاز الفيديو</value>
   </data>
   <data name="label93.Text" xml:space="preserve">
-    <value>لغة العرض</value>
+    <value>لغة الواجهة</value>
   </data>
   <data name="label96.Text" xml:space="preserve">
-    <value>اعصي التحكم</value>
+    <value>عصا التحكم</value>
   </data>
   <data name="label94.Text" xml:space="preserve">
-    <value>لون بيانات الشاشة</value>
+    <value>لون OSD</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>الحساس</value>
+    <value>المستشعر</value>
   </data>
   <data name="label97.Text" xml:space="preserve">
     <value>وحدات المسافة</value>
   </data>
   <data name="CHK_showairports.Text" xml:space="preserve">
-    <value>عرض المطارات</value>
+    <value>إظهار المطارات</value>
   </data>
   <data name="BUT_themecustom.Text" xml:space="preserve">
-    <value>تخصيص</value>
+    <value>مخصص</value>
   </data>
   <data name="label95.Text" xml:space="preserve">
-    <value>التحدث</value>
+    <value>التنبيهات الصوتية</value>
   </data>
   <data name="BUT_Joystick.Text" xml:space="preserve">
-    <value>تنصيب اعصي التحكم</value>
+    <value>إعداد عصا التحكم</value>
   </data>
   <data name="CHK_disttohomeflightdata.Text" xml:space="preserve">
-    <value>عرض في بيانات الرحلة</value>
+    <value>العرض في بيانات الرحلة</value>
   </data>
   <data name="CHK_speechmode.Text" xml:space="preserve">
-    <value>الوضع</value>
+    <value>الوضع </value>
   </data>
   <data name="BUT_logdirbrowse.Text" xml:space="preserve">
     <value>استعراض</value>
   </data>
   <data name="BUT_videostart.Text" xml:space="preserve">
-    <value>إبداء</value>
+    <value>بدء</value>
   </data>
+  <data name="label12.Text" xml:space="preserve"><value>شاشة العرض الأمامية</value></data>
+  <data name="CHK_GDIPlus.Text" xml:space="preserve"><value>GDI+ (نمط قديم/دون تسريع عتادي)</value></data>
+  <data name="CHK_resetapmonconnect.Text" xml:space="preserve"><value>إعادة التعيين عند اتصال USB (تبديل DTR)</value></data>
+  <data name="CHK_mavdebug.Text" xml:space="preserve"><value>تصحيح رسائل Mavlink</value></data>
+  <data name="label99.Text" xml:space="preserve"><value>ملاحظة: لن تعرض علامة تبويب التهيئة هذه الوحدات، لأن القيم فيها خام.
+</value></data>
+  <data name="CHK_hudshow.Text" xml:space="preserve"><value>تفعيل طبقة شاشة العرض الأمامية</value></data>
+  <data name="chk_analytics.Text" xml:space="preserve"><value>إلغاء إرسال الإحصاءات مجهولة الهوية</value></data>
+  <data name="chk_ADSB.Text" xml:space="preserve"><value>ADSB</value></data>
+  <data name="chk_tfr.Text" xml:space="preserve"><value>قيود الطيران المؤقتة</value></data>
+  <data name="chk_temp.Text" xml:space="preserve"><value>شاشة الاختبار</value></data>
+  <data name="chk_norcreceiver.Text" xml:space="preserve"><value>لا يوجد مستقبل تحكم لاسلكي</value></data>
+  <data name="CHK_AutoParamCommit.Text" xml:space="preserve"><value>تثبيت المعاملات تلقائيًا</value></data>
+  <data name="chk_shownofly.Text" xml:space="preserve"><value>حظر الطيران</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>وحدات الارتفاع</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>معرّف المحطة الأرضية</value></data>
+  <data name="CHK_params_bg.Text" xml:space="preserve"><value>تنزيل المعاملات في الخلفية</value></data>
+  <data name="chk_slowMachine.Text" xml:space="preserve"><value>التشغيل على حاسوب بطيء</value></data>
+  <data name="CHK_speechArmedOnly.Text" xml:space="preserve"><value>عند التسليح فقط</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>ملاحظة: حدّد أدنى مستوى خطورة للتنبيه الصوتي</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>الطائرات غير النشطة</value></data>
+  <data name="chk_displaycog.Text" xml:space="preserve"><value>عرض المسار الأرضي</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>أيقونة الطائرة</value></data>
+  <data name="chk_displayheading.Text" xml:space="preserve"><value>عرض اتجاه المقدمة</value></data>
+  <data name="chk_displaynavbearing.Text" xml:space="preserve"><value>عرض اتجاه الملاحة</value></data>
+  <data name="chk_displayradius.Text" xml:space="preserve"><value>عرض نصف قطر الانعطاف</value></data>
+  <data name="chk_displaytarget.Text" xml:space="preserve"><value>عرض الهدف</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>طول الخط</value></data>
+  <data name="chk_displaytooltip.Text" xml:space="preserve"><value>عرض التلميح</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>وضع الوصول إلى الخريطة</value></data>
+  <data name="BUT_mapCacheDir.Text" xml:space="preserve"><value>فتح ذاكرة تخزين الخرائط المؤقتة</value></data>
+  <data name="CHK_rtsresetesp32.Text" xml:space="preserve"><value>تعطيل إعادة التعيين بإشارة RTS على ESP32 SerialUSB</value></data>
 </root>

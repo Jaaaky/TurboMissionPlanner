@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="BUT_connect.Text" xml:space="preserve"><value>Connecter</value></data>
+  <data name="chk_write.Text" xml:space="preserve"><value>Accès en écriture</value></data>
+  <data name="Type.HeaderText" xml:space="preserve"><value>Type</value></data>
+  <data name="Direction.HeaderText" xml:space="preserve"><value>Direction</value></data>
+  <data name="Port.HeaderText" xml:space="preserve"><value>Port</value></data>
+  <data name="Extra.HeaderText" xml:space="preserve"><value>Hôte/débit</value></data>
+  <data name="Write.HeaderText" xml:space="preserve"><value>Écrire</value></data>
+  <data name="Go.HeaderText" xml:space="preserve"><value>Lancer</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Sortie série - MAVLink</value></data>
+</root>

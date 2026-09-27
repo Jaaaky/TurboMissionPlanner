@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,300 +118,321 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="but_followswarm.Text" xml:space="preserve">
-    <value>Слідкуйте за оточенням</value>
+    <value>Слідування роєм</value>
   </data>
   <data name="BUT_follow_me.Text" xml:space="preserve">
-    <value>Слідкуйте за мною</value>
+    <value>Слідувати за мною</value>
   </data>
   <data name="myButton_vlc.Text" xml:space="preserve">
-    <value>vлц</value>
+    <value>VLC</value>
   </data>
   <data name="but_signfw.Text" xml:space="preserve">
     <value>Підписати FW</value>
   </data>
   <data name="BUT_followleader.Text" xml:space="preserve">
-    <value>Стежте за лідером</value>
+    <value>Слідувати за ведучим</value>
   </data>
   <data name="but_logdlscp.Text" xml:space="preserve">
-    <value>журнал сканування</value>
+    <value>Завантаження журналів через SCP</value>
   </data>
   <data name="label48.Text" xml:space="preserve">
-    <value>настроїти qnh</value>
+    <value>Скоригувати QNH</value>
   </data>
   <data name="label49.Text" xml:space="preserve">
-    <value>етикет49</value>
+    <value>label49</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>показати додаткову іконку на карті поточного місцезнаходження.</value>
+    <value>Показувати на мапі додатковий значок вашого поточного розташування.</value>
   </data>
   <data name="BUT_fft.Text" xml:space="preserve">
-    <value>ФТТ</value>
+    <value>FFT</value>
   </data>
   <data name="but_ManageCMDList.Text" xml:space="preserve">
-    <value>Управління списком команд</value>
+    <value>Керування списком команд</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>багатоповерховий інтерфейс</value>
+    <value>Інтерфейс рою з кількох апаратів</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>конвертувати shp файл для багатокутника</value>
+    <value>Перетворити файл SHP на файл багатокутника</value>
   </data>
   <data name="label14.Text" xml:space="preserve">
-    <value>слідуйте керівнику оточуйте</value>
+    <value>Рій зі слідуванням за ведучим</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>температура</value>
+    <value>Тимчасове</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>сортувати журнали в каталоги типу та sysid</value>
+    <value>Сортувати TLog у каталоги за типом і sysid</value>
   </data>
   <data name="label15.Text" xml:space="preserve">
-    <value>створити ексклюзивний прохід до GPS (порт 500)</value>
+    <value>Створити виключний наскрізний канал до GPS (порт 500)</value>
   </data>
   <data name="label18.Text" xml:space="preserve">
-    <value>завантажити всі поточні fws</value>
+    <value>Завантажити всі поточні прошивки</value>
   </data>
   <data name="BUT_outputnmea.Text" xml:space="preserve">
-    <value>НМЕА</value>
+    <value>NMEA</value>
   </data>
   <data name="label19.Text" xml:space="preserve">
-    <value>додати власне зображення до mp</value>
+    <value>Додати власні зображення мап до MP</value>
   </data>
   <data name="label20.Text" xml:space="preserve">
-    <value>очистити зображення користувача</value>
+    <value>Видалити власні зображення мап</value>
   </data>
   <data name="BUT_QNH.Text" xml:space="preserve">
-    <value>К-ть</value>
+    <value>QNH</value>
   </data>
   <data name="label21.Text" xml:space="preserve">
-    <value>тест на швидкість конверсії</value>
+    <value>Перевірка швидкості перетворення структур</value>
   </data>
   <data name="label22.Text" xml:space="preserve">
-    <value>Створити файл вводу індикатора системи</value>
+    <value>Створити файл вхідних даних DashWare</value>
   </data>
   <data name="label23.Text" xml:space="preserve">
-    <value>чотири: рука та злітка</value>
+    <value>Квадрокоптер: озброїти та злетіти</value>
   </data>
   <data name="label24.Text" xml:space="preserve">
-    <value>працювати на осі нахилу точки</value>
+    <value>Запустити алгоритм наведення підвісу</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Створити користувацькі аудіо попередження</value>
+    <value>Створити власні звукові попередження</value>
   </data>
   <data name="label25.Text" xml:space="preserve">
-    <value>створити карту jpg для всіх журналів в dir</value>
+    <value>Створити JPG-мапи для всіх TLog у каталозі</value>
   </data>
   <data name="but_signkey.Text" xml:space="preserve">
-    <value>підписання</value>
+    <value>Підписування</value>
   </data>
   <data name="BUT_swarm.Text" xml:space="preserve">
-    <value>Оточення</value>
+    <value>Рій</value>
   </data>
   <data name="label54.Text" xml:space="preserve">
-    <value>показати датчик наближення ui</value>
+    <value>Показати інтерфейс датчиків наближення</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>використовувати nmea-GPS, щоб слідувати за мною</value>
+    <value>Використовувати GPS NMEA для слідування за мною</value>
   </data>
   <data name="label26.Text" xml:space="preserve">
-    <value>tlog-браузер</value>
+    <value>Переглядач tlog</value>
   </data>
   <data name="label27.Text" xml:space="preserve">
-    <value>отримати Масу зміщення з журналу</value>
+    <value>Отримати зміщення магнітометра з журналу</value>
   </data>
   <data name="but_sortlogs.Text" xml:space="preserve">
-    <value>Пересортувати всі логи</value>
+    <value>Пересортувати всі журнали</value>
   </data>
   <data name="label52.Text" xml:space="preserve">
-    <value>генерація даних param</value>
+    <value>Розділити DFLog на x частин</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>переміщено в вкладку dataflash</value>
+    <value>Перенесено на вкладку DataFlash</value>
   </data>
   <data name="label28.Text" xml:space="preserve">
-    <value>Керувати списком команд Planner</value>
+    <value>Керувати списком команд планувальника</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>дзеркально отриманий mavlink потік</value>
+    <value>Дублювати потік MAVLink, отриманий MP</value>
   </data>
   <data name="label55.Text" xml:space="preserve">
-    <value>м'який стиль</value>
+    <value>Тип рою</value>
   </data>
   <data name="label29.Text" xml:space="preserve">
-    <value>відображати зображення даних з пікс.4 оптичного датчика потоку</value>
+    <value>Показати зображення з датчика оптичного потоку PX4</value>
   </data>
   <data name="label50.Text" xml:space="preserve">
-    <value>відображати відео потік через vlc - натомість USE Gstream</value>
+    <value>Показати відеопотік через VLC — натомість використовуйте GStreamer</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>відновити інформацію про парам, яка використовується всередині mp</value>
+    <value>Повторно створити відомості про параметри для MP</value>
   </data>
   <data name="but_hexmavlink.Text" xml:space="preserve">
-    <value>шістнадцятковий розпад Mavlink</value>
+    <value>Декодування MAVLink із hex</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>повертає положення mav в nmea</value>
+    <value>Виводити розташування апарата у форматі NMEA</value>
   </data>
   <data name="label53.Text" xml:space="preserve">
-    <value>видобувати дані rtcm із tlog-у</value>
+    <value>Витягти дані RTCM із tlog</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>вихідні значення розташування mav у форматі microdrone</value>
+    <value>Виводити розташування апарата у форматі Microdrone</value>
   </data>
   <data name="label51.Text" xml:space="preserve">
-    <value>видалити зображення старше 30 днів</value>
+    <value>Видалити плитки зображень, старші за 30 днів</value>
   </data>
   <data name="but_agemapdata.Text" xml:space="preserve">
-    <value>Дані вікової карти</value>
+    <value>Видалення застарілих даних мапи</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>редактор мови перекладу</value>
+    <value>Редактор перекладів</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>накладати Хнуд у записані відео</value>
+    <value>Накласти HUD на записані відео</value>
   </data>
   <data name="but_lockup.Text" xml:space="preserve">
-    <value>Блокування MMAV</value>
+    <value>Спричинити зависання апарата</value>
   </data>
   <data name="but_dashware.Text" xml:space="preserve">
-    <value>Дашваре</value>
+    <value>DashWare</value>
   </data>
   <data name="BUT_sorttlogs.Text" xml:space="preserve">
-    <value>Сортувати записи</value>
+    <value>Сортувати TLog</value>
   </data>
   <data name="but_getfw.Text" xml:space="preserve">
-    <value>реп усіх футів</value>
+    <value>Завантажити всі прошивки</value>
   </data>
   <data name="but_remotedflogger.Text" xml:space="preserve">
-    <value>Почати журнал віддаленого df</value>
+    <value>Запустити віддалений записувач DataFlash</value>
   </data>
   <data name="label30.Text" xml:space="preserve">
-    <value>видалити встановлених драйверів</value>
+    <value>Видалити встановлені драйвери</value>
   </data>
   <data name="label32.Text" xml:space="preserve">
-    <value>встановити користувацький інтервал повідомлень</value>
+    <value>Задати власні інтервали повідомлень</value>
   </data>
   <data name="but_anonlog.Text" xml:space="preserve">
-    <value>Анон Лог</value>
+    <value>Анонімізація журналу</value>
   </data>
   <data name="label31.Text" xml:space="preserve">
-    <value>віртуальне натискання на кнопку сатей</value>
+    <value>Програмно натиснути кнопку безпеки</value>
   </data>
   <data name="label34.Text" xml:space="preserve">
-    <value>оновити завантажувач</value>
+    <value>Оновити завантажувач</value>
   </data>
   <data name="label33.Text" xml:space="preserve">
-    <value>Дослідити всі пакети, що передаються через Mavlink</value>
+    <value>Переглянути всі пакети MAVLink, що передаються</value>
   </data>
   <data name="label36.Text" xml:space="preserve">
-    <value>показати інформацію про апаратний ідентифікатор, введений в</value>
+    <value>Показати відомості про введений ідентифікатор обладнання</value>
   </data>
   <data name="label35.Text" xml:space="preserve">
-    <value>Тривимірне тестування</value>
+    <value>Перевірка 3D-мапи</value>
   </data>
   <data name="but_blupdate.Text" xml:space="preserve">
-    <value>Покращення завантажувача</value>
+    <value>Оновлення завантажувача</value>
   </data>
   <data name="BUT_CoT.Text" xml:space="preserve">
-    <value>Кот</value>
+    <value>CoT</value>
   </data>
   <data name="label38.Text" xml:space="preserve">
-    <value>зміна "alt баро"</value>
+    <value>Змінити опорну барометричну висоту</value>
   </data>
   <data name="label37.Text" xml:space="preserve">
-    <value>налагодити шістнадцятковий рядок пакета mavlink</value>
+    <value>Налагодити пакет MAVLink із шістнадцяткового рядка</value>
   </data>
   <data name="label39.Text" xml:space="preserve">
-    <value>причиною блокування автопілота</value>
+    <value>Спричинити зависання автопілота</value>
   </data>
   <data name="but_gimbaltest.Text" xml:space="preserve">
-    <value>підвісний тест</value>
+    <value>Перевірка підвісу</value>
   </data>
   <data name="BUT_outputMD.Text" xml:space="preserve">
-    <value>Мікродрон</value>
+    <value>MicroDrone</value>
   </data>
   <data name="but_GDAL.Text" xml:space="preserve">
     <value>Власний GDAL</value>
   </data>
   <data name="but_proximity.Text" xml:space="preserve">
-    <value>Наближення</value>
+    <value>Датчики наближення</value>
   </data>
   <data name="BUT_clearcustommaps.Text" xml:space="preserve">
-    <value>Очистити користувацькі мапи</value>
+    <value>Очистити власні мапи</value>
   </data>
   <data name="BUT_movingbase.Text" xml:space="preserve">
     <value>Рухома база</value>
   </data>
   <data name="but_osdvideo.Text" xml:space="preserve">
-    <value>OSDвідео</value>
+    <value>OSDVideo</value>
   </data>
   <data name="but_td.Text" xml:space="preserve">
-    <value>захопити threads.txt</value>
+    <value>Отримати threads.txt</value>
   </data>
   <data name="BUT_shptopoly.Text" xml:space="preserve">
-    <value>Одягти полю</value>
+    <value>SHP → багатокутник</value>
   </data>
   <data name="but_3dmap.Text" xml:space="preserve">
-    <value>3D карта</value>
+    <value>3D-мапа</value>
   </data>
   <data name="but_optflowcalib.Text" xml:space="preserve">
-    <value>оптичний каліб</value>
+    <value>Калібрування оптичного потоку</value>
   </data>
   <data name="but_hwids.Text" xml:space="preserve">
-    <value>декод HWIDs</value>
+    <value>Декодувати HWID</value>
   </data>
   <data name="BUT_geinjection.Text" xml:space="preserve">
-    <value>Ввести GE</value>
+    <value>Введення GE</value>
   </data>
   <data name="but_acbarohight.Text" xml:space="preserve">
-    <value>налаштувати висоту ЛА</value>
+    <value>Скоригувати барометричну висоту апарата</value>
   </data>
   <data name="button3.Text" xml:space="preserve">
-    <value>Менеджер попереджень</value>
+    <value>Керування попередженнями</value>
   </data>
   <data name="but_sitl_comb.Text" xml:space="preserve">
-    <value>кумедний комбайнер</value>
+    <value>Об’єднувач потоків SITL</value>
   </data>
   <data name="but_armandtakeoff.Text" xml:space="preserve">
-    <value>руки та зрив</value>
+    <value>Озброїти та злетіти</value>
   </data>
   <data name="but_driverclean.Text" xml:space="preserve">
-    <value>чистий водій</value>
+    <value>Очищення драйверів</value>
   </data>
   <data name="but_gpsinj.Text" xml:space="preserve">
-    <value>витягнути gps_inject</value>
+    <value>Витягти gps_inject</value>
   </data>
   <data name="but_packetbytes.Text" xml:space="preserve">
-    <value>проаналізувати пакети байт</value>
+    <value>Розібрати байти пакета</value>
   </data>
   <data name="but_maplogs.Text" xml:space="preserve">
-    <value>журнал карт</value>
+    <value>Журнали на мапі</value>
   </data>
   <data name="but_trimble.Text" xml:space="preserve">
-    <value>Послідовність оточення</value>
+    <value>Послідовність рою</value>
   </data>
   <data name="but_disablearmswitch.Text" xml:space="preserve">
-    <value>Перемикач безпечного режиму</value>
+    <value>Перемкнути стан кнопки безпеки</value>
   </data>
   <data name="label47.Text" xml:space="preserve">
-    <value>перезавантажте автопілот</value>
+    <value>Перезапустити автопілот</value>
   </data>
   <data name="BUT_magfit2.Text" xml:space="preserve">
-    <value>Чернетка теля</value>
+    <value>Журнал калібрування магнітометра</value>
   </data>
   <data name="label42.Text" xml:space="preserve">
-    <value>перервати всі журнали в папці журналювання MP</value>
+    <value>Пересортувати всі журнали в папці журналів MP</value>
   </data>
   <data name="but_messageinterval.Text" xml:space="preserve">
-    <value>Інтервал написання повідомлень</value>
+    <value>Інтервал повідомлень</value>
   </data>
   <data name="label43.Text" xml:space="preserve">
-    <value>завантажити джерело плиток користувальницьких мап через GDAL</value>
+    <value>Завантажити власне джерело плиток мапи через GDAL</value>
   </data>
   <data name="label40.Text" xml:space="preserve">
-    <value>показати інформацію про поточний завантажений DEM</value>
+    <value>Показати відомості про завантажені цифрові моделі рельєфу</value>
   </data>
   <data name="label41.Text" xml:space="preserve">
-    <value>logdownload за допомогою scp - ssh (apsync)</value>
+    <value>Завантажити журнали через SCP/SSH (APSync)</value>
   </data>
+  <data name="BUT_forcecal_accel.Text" xml:space="preserve"><value>Примусово позначити акселерометр відкаліброваним</value></data>
+  <data name="BUT_forcecal_mag.Text" xml:space="preserve"><value>Примусово позначити компас відкаліброваним</value></data>
+  <data name="but_apjtool.Text" xml:space="preserve"><value>Інструмент APJ</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Налаштування підписування MAVLink 2</value></data>
+  <data name="but_dem.Text" xml:space="preserve"><value>DEM</value></data>
+  <data name="myButton1.Text" xml:space="preserve"><value>Розділити DFLog</value></data>
+  <data name="but_reboot.Text" xml:space="preserve"><value>Перезапустити Pixhawk</value></data>
+  <data name="but_paramrestore.Text" xml:space="preserve"><value>Відновити параметри</value></data>
+  <data name="but_mavinspector.Text" xml:space="preserve"><value>Інспектор MAVLink</value></data>
+  <data name="butlogindex.Text" xml:space="preserve"><value>Індекс журналів</value></data>
+  <data name="but_structtest.Text" xml:space="preserve"><value>Перевірка структур</value></data>
+  <data name="BUT_outputMavlink.Text" xml:space="preserve"><value>MAVLink</value></data>
+  <data name="BUT_georefimage.Text" xml:space="preserve"><value>Геоприв’язка знімків</value></data>
+  <data name="BUT_lang_edit.Text" xml:space="preserve"><value>Редактор перекладів</value></data>
+  <data name="BUT_paramgen.Text" xml:space="preserve"><value>Генератор параметрів</value></data>
+  <data name="but_mavserialport.Text" xml:space="preserve"><value>Наскрізний канал MAVSerial</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>Виводити Cursor-on-Target</value></data>
+  <data name="but_dfumode.Text" xml:space="preserve"><value>Режим DFU</value></data>
+  <data name="label56.Text" xml:space="preserve"><value>Режим DFU</value></data>
+  <data name="label57.Text" xml:space="preserve"><value>Позначити акселерометр відкаліброваним після відновлення параметрів</value></data>
+  <data name="label58.Text" xml:space="preserve"><value>Позначити магнітометр відкаліброваним після відновлення параметрів</value></data>
 </root>

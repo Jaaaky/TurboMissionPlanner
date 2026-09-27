@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -154,10 +154,12 @@
     <value>遙控器輸入</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>舵機/馬達輸入</value>
+    <value>伺服機/馬達輸出</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>注意：如果是使用 Xbee 時 delay 頻率 @ 50hz</value>
+    <value>注意：透過 XBee
+以 50 Hz 檢視時
+會有延遲</value>
   </data>
   <data name="tabOrientation.Text" xml:space="preserve">
     <value>飛行資料</value>
@@ -166,6 +168,7 @@
     <value>遙控器</value>
   </data>
   <data name="tabRawSensor.Text" xml:space="preserve">
-    <value>感應器原始數據</value>
+    <value>感測器原始資料</value>
   </data>
+  <data name="$this.Text" xml:space="preserve"><value>感測器原始資料</value></data>
 </root>

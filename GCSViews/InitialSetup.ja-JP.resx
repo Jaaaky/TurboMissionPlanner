@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="backstageViewPageairspeed.Text" xml:space="preserve">
-    <value>エアスピード</value>
+    <value>対気速度</value>
   </data>
   <data name="backstageViewPageosd.Text" xml:space="preserve">
     <value>OSD</value>
@@ -136,13 +136,13 @@
     <value>オプションハードウェア</value>
   </data>
   <data name="backstageViewPageradio.Text" xml:space="preserve">
-    <value>ラジオキャリブレーション</value>
+    <value>RCキャリブレーション</value>
   </data>
   <data name="backstageViewPageaccelplane.Text" xml:space="preserve">
     <value>加速度キャリブレーション</value>
   </data>
   <data name="backstageViewPageframetype.Text" xml:space="preserve">
-    <value>フレーム タイプ</value>
+    <value>フレームタイプ</value>
   </data>
   <data name="backstageViewPage3drradio.Text" xml:space="preserve">
     <value>3DR Radio</value>
@@ -172,7 +172,7 @@
     <value>ヘリ セットアップ</value>
   </data>
   <data name="backstageViewPageflmode.Text" xml:space="preserve">
-    <value>フライトモード</value>
+    <value>飛行モード</value>
   </data>
   <data name="backstageViewPagecompass.Text" xml:space="preserve">
     <value>コンパス</value>
@@ -193,6 +193,15 @@
     <value>ファームウェアインストール</value>
   </data>
   <data name="backstageViewPagesonar.Text" xml:space="preserve">
-    <value>ソナー</value>
+    <value>距離センサー</value>
   </data>
+  <data name="backstageViewPageaccel.Text" xml:space="preserve"><value>加速度センサー校正</value></data>
+  <data name="backstageViewPageInitialParams.Text" xml:space="preserve"><value>初期チューニングパラメータ</value></data>
+  <data name="backstageViewPageBatt2.Text" xml:space="preserve"><value>バッテリーモニター2</value></data>
+  <data name="backstageViewPageESC.Text" xml:space="preserve"><value>ESCキャリブレーション</value></data>
+  <data name="backstageViewPageESP.Text" xml:space="preserve"><value>ESP8266設定</value></data>
+  <data name="backstageViewPageParachute.Text" xml:space="preserve"><value>パラシュート</value></data>
+  <data name="backstageViewPagePX4Flow.Text" xml:space="preserve"><value>PX4Flow</value></data>
+  <data name="backstageViewPageSikradio.Text" xml:space="preserve"><value>SiK無線</value></data>
+  <data name="backstageViewPageSerial.Text" xml:space="preserve"><value>シリアルポート</value></data>
 </root>

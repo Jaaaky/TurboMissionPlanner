@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="elevationGraphToolStripMenuItem.Text" xml:space="preserve">
-    <value>المخطط البياني للإرتفاعات</value>
+    <value>مخطط المناسيب</value>
   </data>
   <data name="enterUTMCoordToolStripMenuItem.Text" xml:space="preserve">
-    <value>ادخل احداثية UTM</value>
+    <value>إدخال إحداثيات UTM</value>
   </data>
   <data name="lbl_homedist.Text" xml:space="preserve">
-    <value>البداية</value>
+    <value>نقطة العودة</value>
   </data>
   <data name="trackerHomeToolStripMenuItem.Text" xml:space="preserve">
-    <value>تعقب البداية</value>
+    <value>نقطة عودة المتعقّب</value>
   </data>
   <data name="poiaddToolStripMenuItem.Text" xml:space="preserve">
     <value>إضافة</value>
   </data>
   <data name="GeoFencedownloadToolStripMenuItem.Text" xml:space="preserve">
-    <value>تحميل</value>
+    <value>تنزيل</value>
   </data>
   <data name="loadFromFileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>تحميل نقاط هبوط من ملف</value>
+    <value>تحميل نقاط التجمع من ملف</value>
   </data>
   <data name="lbl_prevdist.Text" xml:space="preserve">
     <value>السابق</value>
@@ -151,73 +151,73 @@
     <value>الزمن</value>
   </data>
   <data name="label17.Text" xml:space="preserve">
-    <value>تحذير الإرتفاع</value>
+    <value>تحذير الارتفاع</value>
   </data>
   <data name="LBL_defalutalt.Text" xml:space="preserve">
-    <value>الإرتفاع الإفتراضي</value>
+    <value>الارتفاع الافتراضي</value>
   </data>
   <data name="rotateMapToolStripMenuItem.Text" xml:space="preserve">
     <value>تدوير الخريطة</value>
   </data>
   <data name="autoWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>الاحداثية الآلية</value>
+    <value>نقاط مسار تلقائية</value>
   </data>
   <data name="CHK_verifyheight.Text" xml:space="preserve">
-    <value>التحقق من الإرتفاع</value>
+    <value>التحقق من الارتفاع</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>الارتفاع ( عن سطح البحر )</value>
+    <value>فوق سطح البحر</value>
   </data>
   <data name="mapToolToolStripMenuItem.Text" xml:space="preserve">
-    <value>ادوات الخريطة</value>
+    <value>أدوات الخريطة</value>
   </data>
   <data name="saveRallyPointsToolStripMenuItem.Text" xml:space="preserve">
     <value>رفع</value>
   </data>
   <data name="loiterForeverToolStripMenuItem.Text" xml:space="preserve">
-    <value>دائم</value>
+    <value>بلا نهاية</value>
   </data>
   <data name="Alt.HeaderText" xml:space="preserve">
-    <value>الإرتفاع</value>
+    <value>الارتفاع</value>
   </data>
   <data name="BUT_saveWPFile.Text" xml:space="preserve">
-    <value>حفظ ملف المسار</value>
+    <value>حفظ الملف</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>موقع البداية</value>
+    <value>موقع نقطة العودة</value>
   </data>
   <data name="BUT_loadwpfile.Text" xml:space="preserve">
-    <value>استيراد ملف المسار</value>
+    <value>تحميل الملف</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>نصف قطر الدوران</value>
+    <value>نصف قطر التحويم/الدوران</value>
   </data>
   <data name="loadWPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>استيراد ملف المسار</value>
+    <value>تحميل ملف نقاط المسار</value>
   </data>
   <data name="jumpstartToolStripMenuItem.Text" xml:space="preserve">
-    <value>إبداء</value>
+    <value>بدء</value>
   </data>
   <data name="BUT_read.Text" xml:space="preserve">
-    <value>قراءة الإحداثيات</value>
+    <value>قراءة</value>
   </data>
   <data name="loadPolygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>استيراد المضلع</value>
+    <value>تحميل مضلع</value>
   </data>
   <data name="prefetchToolStripMenuItem.Text" xml:space="preserve">
-    <value>استجلاب</value>
+    <value>جلب مسبق</value>
   </data>
   <data name="GeoFenceuploadToolStripMenuItem.Text" xml:space="preserve">
     <value>رفع</value>
   </data>
   <data name="LBL_WPRad.Text" xml:space="preserve">
-    <value>نصف قطر الإحداثية</value>
+    <value>نصف قطر نقطة المسار</value>
   </data>
   <data name="zoomToToolStripMenuItem.Text" xml:space="preserve">
-    <value>تكبير الى</value>
+    <value>تكبير إلى</value>
   </data>
   <data name="saveToFileToolStripMenuItem1.Text" xml:space="preserve">
-    <value>حفظ نقاط الهبوط الى ملف</value>
+    <value>حفظ نقاط التجمع إلى ملف</value>
   </data>
   <data name="Command.HeaderText" xml:space="preserve">
     <value>الأمر</value>
@@ -229,16 +229,16 @@
     <value>المسافة</value>
   </data>
   <data name="setReturnLocationToolStripMenuItem.Text" xml:space="preserve">
-    <value>ضع موقع العودة </value>
+    <value>تعيين موقع العودة</value>
   </data>
   <data name="clearPolygonToolStripMenuItem.Text" xml:space="preserve">
     <value>مسح المضلع</value>
   </data>
   <data name="loadKMLFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>استيراد ملف KML</value>
+    <value>تحميل ملف KML</value>
   </data>
   <data name="panelAction.Text" xml:space="preserve">
-    <value>الامر</value>
+    <value>الإجراء</value>
   </data>
   <data name="chk_grid.Text" xml:space="preserve">
     <value>الشبكة</value>
@@ -247,28 +247,28 @@
     <value>حذف الصف</value>
   </data>
   <data name="prefetchWPPathToolStripMenuItem.Text" xml:space="preserve">
-    <value>استجلاب مسار الاحداثيات</value>
+    <value>جلب مسبق لمسار نقاط المسار</value>
   </data>
   <data name="takeoffToolStripMenuItem.Text" xml:space="preserve">
-    <value>الإقلاع</value>
+    <value>إقلاع</value>
   </data>
   <data name="addPolygonPointToolStripMenuItem.Text" xml:space="preserve">
-    <value>إضافة نقطة مضلع</value>
+    <value>رسم مضلع</value>
   </data>
   <data name="loiterToolStripMenuItem.Text" xml:space="preserve">
-    <value>الدوران</value>
+    <value>التحويم/الدوران</value>
   </data>
   <data name="Command.ToolTipText" xml:space="preserve">
-    <value>امر APM</value>
+    <value>الأمر</value>
   </data>
   <data name="setRallyPointToolStripMenuItem.Text" xml:space="preserve">
-    <value>وضع نقاط الهبوط</value>
+    <value>تعيين نقطة تجمع</value>
   </data>
   <data name="rallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>نقاط الهبوط</value>
+    <value>نقاط التجمع</value>
   </data>
   <data name="BUT_Add.Text" xml:space="preserve">
-    <value>إضافة بالأسفل</value>
+    <value>إضافة أسفل</value>
   </data>
   <data name="areaToolStripMenuItem.Text" xml:space="preserve">
     <value>المساحة</value>
@@ -277,40 +277,40 @@
     <value>المسافة</value>
   </data>
   <data name="Down.ToolTipText" xml:space="preserve">
-    <value>نقل الصف للأسفل</value>
+    <value>نقل الصف إلى أسفل</value>
   </data>
   <data name="BUT_write.Text" xml:space="preserve">
-    <value>ارسال المسار</value>
+    <value>كتابة</value>
   </data>
   <data name="modifyAltToolStripMenuItem.Text" xml:space="preserve">
-    <value>تعديل الإرتفاع</value>
+    <value>تعديل الارتفاع</value>
   </data>
   <data name="dataGridViewImageColumn2.HeaderText" xml:space="preserve">
-    <value>اسفل</value>
+    <value>أسفل</value>
   </data>
   <data name="polygonToolStripMenuItem.Text" xml:space="preserve">
-    <value>رسم مضلع</value>
+    <value>مضلع</value>
   </data>
   <data name="jumpToolStripMenuItem.Text" xml:space="preserve">
-    <value>القفز</value>
+    <value>انتقال</value>
   </data>
   <data name="landToolStripMenuItem.Text" xml:space="preserve">
-    <value>الهبوط</value>
+    <value>هبوط</value>
   </data>
   <data name="fileLoadSaveToolStripMenuItem.Text" xml:space="preserve">
-    <value>استيراد / حفظ ملف</value>
+    <value>تحميل/حفظ ملف</value>
   </data>
   <data name="saveWPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>حفظ ملف المسار</value>
+    <value>حفظ ملف نقاط المسار</value>
   </data>
   <data name="saveToFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>حفظ الى ملف</value>
+    <value>حفظ إلى ملف</value>
   </data>
   <data name="insertWpToolStripMenuItem.Text" xml:space="preserve">
-    <value>ادراج احداثية</value>
+    <value>إدراج نقطة مسار</value>
   </data>
   <data name="Up.ToolTipText" xml:space="preserve">
-    <value>نقل الصف للأعلى</value>
+    <value>نقل الصف إلى أعلى</value>
   </data>
   <data name="poideleteToolStripMenuItem.Text" xml:space="preserve">
     <value>حذف</value>
@@ -322,34 +322,34 @@
     <value>حذف</value>
   </data>
   <data name="loitercirclesToolStripMenuItem.Text" xml:space="preserve">
-    <value>دوائر</value>
+    <value>دورات</value>
   </data>
   <data name="jumpwPToolStripMenuItem.Text" xml:space="preserve">
-    <value>الاحداثية #</value>
+    <value>نقطة المسار رقم</value>
   </data>
   <data name="deleteWPToolStripMenuItem.Text" xml:space="preserve">
-    <value>حذف الإحداثية</value>
+    <value>حذف نقطة المسار</value>
   </data>
   <data name="panelWaypoints.Text" xml:space="preserve">
-    <value>الإحداثيات</value>
+    <value>نقاط المسار</value>
   </data>
   <data name="getRallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>تحميل</value>
+    <value>تنزيل</value>
   </data>
   <data name="loadFromFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>استيراد من ملف</value>
+    <value>تحميل من ملف</value>
   </data>
   <data name="rTLToolStripMenuItem.Text" xml:space="preserve">
-    <value>العودة</value>
+    <value>العودة إلى نقطة الانطلاق</value>
   </data>
   <data name="clearMissionToolStripMenuItem.Text" xml:space="preserve">
     <value>مسح المهمة</value>
   </data>
   <data name="BUT_Add.ToolTip" xml:space="preserve">
-    <value>اضافة خط الى الشبكة ادناه</value>
+    <value>إضافة سطر إلى الجدول أدناه</value>
   </data>
   <data name="clearRallyPointsToolStripMenuItem.Text" xml:space="preserve">
-    <value>مسح نقاط الهبوط</value>
+    <value>مسح نقاط التجمع</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>معقد</value>
@@ -358,16 +358,16 @@
     <value>حفظ المضلع</value>
   </data>
   <data name="createWpCircleToolStripMenuItem.Text" xml:space="preserve">
-    <value>انشاء احداثية دائرية</value>
+    <value>إنشاء دائرة من نقاط المسار</value>
   </data>
   <data name="ContextMeasure.Text" xml:space="preserve">
     <value>قياس المسافة</value>
   </data>
   <data name="poieditToolStripMenuItem.Text" xml:space="preserve">
-    <value>تعديل</value>
+    <value>تحرير</value>
   </data>
   <data name="fromSHPToolStripMenuItem.Text" xml:space="preserve">
-    <value>من ملف SHP</value>
+    <value>من SHP</value>
   </data>
   <data name="Down.HeaderText" xml:space="preserve">
     <value>اسفل</value>
@@ -376,9 +376,70 @@
     <value>عرض KML</value>
   </data>
   <data name="loadSHPFileToolStripMenuItem.Text" xml:space="preserve">
-    <value>استيراد ملف SHP</value>
+    <value>تحميل ملف SHP</value>
   </data>
   <data name="reverseWPsToolStripMenuItem.Text" xml:space="preserve">
-    <value>عكس الإحداثيات</value>
+    <value>عكس ترتيب نقاط المسار</value>
   </data>
+  <data name="but_writewpfast.Text" xml:space="preserve"><value>كتابة سريعة</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>خط الطول</value></data>
+  <data name="Label1.Text" xml:space="preserve"><value>خط العرض</value></data>
+  <data name="dataGridViewImageColumn1.HeaderText" xml:space="preserve"><value>أعلى</value></data>
+  <data name="chk_usemavftp.Text" xml:space="preserve"><value>MAVFTP</value></data>
+  <data name="CMB_altmode.Text" xml:space="preserve"><value>نسبي</value></data>
+  <data name="CHK_splinedefault.Text" xml:space="preserve"><value>منحنى سلس</value></data>
+  <data name="Param1.HeaderText" xml:space="preserve"><value>P1</value></data>
+  <data name="Param2.HeaderText" xml:space="preserve"><value>P2</value></data>
+  <data name="Param3.HeaderText" xml:space="preserve"><value>P3</value></data>
+  <data name="Param4.HeaderText" xml:space="preserve"><value>P4</value></data>
+  <data name="Lat.HeaderText" xml:space="preserve"><value>خط العرض</value></data>
+  <data name="Lon.HeaderText" xml:space="preserve"><value>خط الطول</value></data>
+  <data name="Frame.HeaderText" xml:space="preserve"><value>الإطار المرجعي</value></data>
+  <data name="coordZone.HeaderText" xml:space="preserve"><value>المنطقة</value></data>
+  <data name="coordEasting.HeaderText" xml:space="preserve"><value>الإحداثي الشرقي</value></data>
+  <data name="coordNorthing.HeaderText" xml:space="preserve"><value>الإحداثي الشمالي</value></data>
+  <data name="MGRS.HeaderText" xml:space="preserve"><value>MGRS</value></data>
+  <data name="Grad.HeaderText" xml:space="preserve"><value>الانحدار %</value></data>
+  <data name="Angle.HeaderText" xml:space="preserve"><value>الزاوية</value></data>
+  <data name="AZ.HeaderText" xml:space="preserve"><value>السمت</value></data>
+  <data name="TagData.HeaderText" xml:space="preserve"><value>بيانات الوسم</value></data>
+  <data name="BUT_InjectCustomMap.Text" xml:space="preserve"><value>إدراج خريطة مخصصة</value></data>
+  <data name="Zoomlevel.ToolTip" xml:space="preserve"><value>تغيير مستوى التكبير</value></data>
+  <data name="cmb_missiontype.Items" xml:space="preserve"><value>المهمة</value></data>
+  <data name="cmb_missiontype.Items1" xml:space="preserve"><value>السياج</value></data>
+  <data name="cmb_missiontype.Items2" xml:space="preserve"><value>نقطة التجمع</value></data>
+  <data name="currentPositionToolStripMenuItem.Text" xml:space="preserve"><value>في الموضع الحالي</value></data>
+  <data name="insertSplineWPToolStripMenuItem.Text" xml:space="preserve"><value>إدراج نقطة مسار بمنحنى سلس</value></data>
+  <data name="setROIToolStripMenuItem.Text" xml:space="preserve"><value>DO_SET_ROI</value></data>
+  <data name="addPolygonPointToolStripMenuItem2.Text" xml:space="preserve"><value>رسم مضلع</value></data>
+  <data name="clearPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>مسح المضلع</value></data>
+  <data name="savePolygonToolStripMenuItem2.Text" xml:space="preserve"><value>حفظ المضلع</value></data>
+  <data name="loadPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>تحميل مضلع</value></data>
+  <data name="fromSHPToolStripMenuItem2.Text" xml:space="preserve"><value>من SHP</value></data>
+  <data name="fromCurrentWaypointsToolStripMenuItem.Text" xml:space="preserve"><value>من نقاط المسار الحالية</value></data>
+  <data name="offsetPolygonToolStripMenuItem2.Text" xml:space="preserve"><value>إزاحة المضلع</value></data>
+  <data name="areaToolStripMenuItem2.Text" xml:space="preserve"><value>المساحة</value></data>
+  <data name="clearToolStripMenuItem.Text" xml:space="preserve"><value>مسح</value></data>
+  <data name="geoFenceToolStripMenuItem.Text" xml:space="preserve"><value>السياج الجغرافي</value></data>
+  <data name="createSplineCircleToolStripMenuItem.Text" xml:space="preserve"><value>إنشاء دائرة بمنحنى سلس</value></data>
+  <data name="areaToolStripMenuItem1.Text" xml:space="preserve"><value>المساحة</value></data>
+  <data name="textToolStripMenuItem.Text" xml:space="preserve"><value>نص</value></data>
+  <data name="createCircleSurveyToolStripMenuItem.Text" xml:space="preserve"><value>إنشاء مسح دائري</value></data>
+  <data name="surveyGridToolStripMenuItem.Text" xml:space="preserve"><value>مسح (شبكة)</value></data>
+  <data name="kMLOverlayToolStripMenuItem.Text" xml:space="preserve"><value>طبقة KML</value></data>
+  <data name="gDALOpacityToolStripMenuItem.Text" xml:space="preserve"><value>عتامة GDAL</value></data>
+  <data name="loadAndAppendToolStripMenuItem.Text" xml:space="preserve"><value>تحميل وإلحاق</value></data>
+  <data name="pOIToolStripMenuItem.Text" xml:space="preserve"><value>نقطة اهتمام</value></data>
+  <data name="switchDockingToolStripMenuItem.Text" xml:space="preserve"><value>تبديل إرساء النافذة</value></data>
+  <data name="setHomeHereToolStripMenuItem.Text" xml:space="preserve"><value>تعيين نقطة العودة هنا</value></data>
+  <data name="panelMap.Text" xml:space="preserve"><value>panel6</value></data>
+  <data name="fenceInclusionToolStripMenuItem.Text" xml:space="preserve"><value>منطقة السماح داخل السياج</value></data>
+  <data name="fenceExclusionToolStripMenuItem.Text" xml:space="preserve"><value>منطقة الاستبعاد داخل السياج</value></data>
+  <data name="convertWPToPolygonToolStripMenuItem.Text" xml:space="preserve"><value>من نقاط المسار الحالية</value></data>
+  <data name="offsetPolygonToolStripMenuItem.Text" xml:space="preserve"><value>إزاحة المضلع</value></data>
+  <data name="drawAPolygonToolStripMenuItem.Text" xml:space="preserve"><value>رسم مضلع</value></data>
+  <data name="testToolStripMenuItem.Text" xml:space="preserve"><value>اختبار</value></data>
+  <data name="zoomToVehicleToolStripMenuItem.Text" xml:space="preserve"><value>تكبير إلى المركبة</value></data>
+  <data name="zoomToMissionToolStripMenuItem.Text" xml:space="preserve"><value>تكبير إلى المهمة</value></data>
+  <data name="zoomToHomeToolStripMenuItem.Text" xml:space="preserve"><value>تكبير إلى نقطة العودة</value></data>
 </root>

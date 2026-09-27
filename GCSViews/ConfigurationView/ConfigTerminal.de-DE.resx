@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,21 +121,31 @@
     <value>Verbinden</value>
   </data>
   <data name="Logs.Text" xml:space="preserve">
-    <value>Log laden</value>
+    <value>Protokolle herunterladen</value>
   </data>
   <data name="BUTradiosetup.Text" xml:space="preserve">
-    <value>Setup RC-Steuerung</value>
+    <value>Fernsteuerung einrichten</value>
   </data>
   <data name="BUT_disconnect.Text" xml:space="preserve">
     <value>Trennen</value>
   </data>
   <data name="TXT_terminal.Text" xml:space="preserve">
-    <value>Achtung, CLI funktioniert nur über USB</value>
+    <value>HINWEIS: Bitte oben auf „Verbinden“ klicken.
+CLI funktioniert nur direkt nach dem Einschalten; Protokolldownload nur über USB.
+Neuere Versionen unterstützen Protokolldownload nur über MAVLink. Siehe „Flugdaten &gt; DataFlash-Protokolle“.
+</value>
   </data>
   <data name="BUT_logbrowse.Text" xml:space="preserve">
-    <value>Log durchsuchen</value>
+    <value>Protokollansicht</value>
   </data>
   <data name="BUTsetupshow.Text" xml:space="preserve">
-    <value>Zeige Einstellungen</value>
+    <value>Einstellungen anzeigen</value>
   </data>
+  <data name="BUTtests.Text" xml:space="preserve"><value>Tests</value></data>
+  <data name="CMB_boardtype.Items" xml:space="preserve"><value>APM</value></data>
+  <data name="CMB_boardtype.Items1" xml:space="preserve"><value>PX4/PIXHAWK</value></data>
+  <data name="CMB_boardtype.Items2" xml:space="preserve"><value>VRX/VRBRAIN</value></data>
+  <data name="CMB_boardtype.Items3" xml:space="preserve"><value>NSH</value></data>
+  <data name="CMB_boardtype.Items4" xml:space="preserve"><value>SSH</value></data>
+  <data name="CMB_boardtype.Text" xml:space="preserve"><value>APM</value></data>
 </root>

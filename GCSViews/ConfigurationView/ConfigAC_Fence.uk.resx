@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,18 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="mavlinkCheckBox1.Text" xml:space="preserve">
-    <value>Увімкнено</value>
+    <value>Увімкнути</value>
   </data>
   <data name="label3enable.Text" xml:space="preserve">
-    <value>Увімкнено</value>
+    <value>Увімкнути</value>
   </data>
   <data name="label5action.Text" xml:space="preserve">
     <value>Дія</value>
   </data>
   <data name="label1gftitle.Text" xml:space="preserve">
-    <value>Гео-паркан</value>
+    <value>Геоогорожа</value>
   </data>
   <data name="label4type.Text" xml:space="preserve">
     <value>Тип</value>
   </data>
+  <data name="label2rtlalt.Text" xml:space="preserve"><value>Висота повернення (RTL)</value></data>
+  <data name="label6maxalt.Text" xml:space="preserve"><value>Макс. висота</value></data>
+  <data name="label7maxrad.Text" xml:space="preserve"><value>Макс. радіус</value></data>
+  <data name="label8minalt.Text" xml:space="preserve"><value>Мін. висота</value></data>
 </root>

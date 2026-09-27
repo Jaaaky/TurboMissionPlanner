@@ -61,46 +61,47 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Retirez les hélices !
 Après avoir appuyé sur ce bouton :
--Débranchez l'USB et la batterie
+-Débranchez l’USB et la batterie
 -Branchez la batterie
--Quand les LEDs clignotent, appuyez sur l'interrupteur de sécurité (si présent)
--Les ESC devraient biper pendant la calibration
--Redémarrez le contrôleur de vol normalement</value>
+-Lorsque les LED clignotent, appuyez sur le bouton de sécurité (si présent)
+-Les ESC doivent émettre des bips pendant leur étalonnage
+-Redémarrez normalement le contrôleur de vol</value>
   </data>
   <data name="buttonStart.Text" xml:space="preserve">
-    <value>Calibrer les ESC</value>
+    <value>Étalonner les ESC</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Type d'ESC :</value>
+    <value>Type d’ESC :</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>PWM min sortie</value>
+    <value>PWM de sortie min</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>PWM max sortie</value>
+    <value>PWM de sortie max</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Rotation quand armé</value>
+    <value>Rotation à l’armement</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Rotation minimum</value>
+    <value>Rotation minimale</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
-    <value>Rotation maximum</value>
+    <value>Rotation maximale</value>
   </data>
   <data name="label9.Text" xml:space="preserve">
-    <value>Laisser à 0 pour utiliser la plage d'entrée RX</value>
+    <value>Laisser à 0 pour utiliser la plage d’entrée du récepteur</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
-    <value>Laisser à 0 pour utiliser la plage d'entrée RX</value>
+    <value>Laisser à 0 pour utiliser la plage d’entrée du récepteur</value>
   </data>
   <data name="label11.Text" xml:space="preserve">
-    <value>Vitesse quand les moteurs sont armés mais les gaz à zéro (ralenti)</value>
+    <value>Vitesse des moteurs armés lorsque les gaz sont à zéro (ralenti)</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
-    <value>Vitesse minimum des moteurs en vol (légèrement supérieure à « Rotation quand armé »)</value>
+    <value>Vitesse minimale des moteurs en vol (légèrement supérieure à la rotation à l’armement)</value>
   </data>
   <data name="label13.Text" xml:space="preserve">
-    <value>Vitesse maximum des moteurs en vol (la plupart des ESC ont une zone morte en haut)</value>
+    <value>Vitesse maximale des moteurs en vol (presque tous les ESC ont une zone morte en haut de plage)</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>Étalonnage des ESC (AC3.3+)</value></data>
 </root>

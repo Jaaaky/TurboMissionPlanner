@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="RSSI.ToolTip" xml:space="preserve"><value>Lihat spesifikasi untuk grafik RSSI ke dBm. Angka-angka di bagian akhir adalah:
+txe: jumlah kesalahan transmisi (misalnya waktu tunggu transmisi habis)
+rxe: jumlah kesalahan penerimaan (kesalahan CRC, framing, dll.)
+stx: jumlah luapan transmisi serial
+rrx: jumlah luapan penerimaan serial
+ecc: jumlah kata 12 bit yang berhasil dikoreksi oleh kode Golay
+sehingga menghasilkan CRC paket yang valid
+</value></data>
+  <data name="linkLabel1.Text" xml:space="preserve"><value>LED Status</value></data>
+  <data name="linkLabel1.ToolTip" xml:space="preserve"><value>Radio 3DR memiliki 2 LED status, satu merah dan satu hijau.
+LED hijau berkedip - mencari radio lain
+LED hijau menyala tetap - tautan dengan radio lain telah terbentuk
+LED merah berkedip - mengirim data
+LED merah menyala tetap - dalam mode pembaruan firmware</value></data>
+  <data name="RRTSCTS.ToolTip" xml:space="preserve"><value>Aktifkan atau nonaktifkan kendali aliran perangkat keras</value></data>
+  <data name="RMAX_FREQ.ToolTip" xml:space="preserve"><value>Frekuensi maksimum dalam kHz </value></data>
+  <data name="RNUM_CHANNELS.ToolTip" xml:space="preserve"><value>Jumlah kanal lompatan frekuensi </value></data>
+  <data name="RDUTY_CYCLE.ToolTip" xml:space="preserve"><value>Persentase waktu yang diizinkan untuk transmisi</value></data>
+  <data name="RLBT_RSSI.ToolTip" xml:space="preserve"><value>Ambang Listen Before Talk</value></data>
+  <data name="RMIN_FREQ.ToolTip" xml:space="preserve"><value>Frekuensi minimum dalam kHz </value></data>
+  <data name="RGPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT menetapkan GPIO 1.1 sebagai keluaran R/C(PPM)</value></data>
+  <data name="RGPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN menetapkan GPIO 1.1 sebagai masukan R/C(PPM)</value></data>
+  <data name="RSERIAL_SPEED.ToolTip" xml:space="preserve"><value>Laju baud serial dalam kbps yang dibulatkan. Jadi 57 berarti 57600.
+</value></data>
+  <data name="RAIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEED adalah laju data antarradio dalam kbps yang dibulatkan. Jadi 128 berarti 128 kbps. Maksimum 192, minimum 2. Nilai di bawah 16 tidak disarankan karena waktu lompatan frekuensi dan sinkronisasi TDM menjadi terlalu lama. </value></data>
+  <data name="RNETID.ToolTip" xml:space="preserve"><value>NETID adalah 'ID jaringan' 16 bit. Nilai ini digunakan sebagai nilai awal urutan lompatan frekuensi dan untuk memastikan paket berasal dari radio yang benar. Pastikan NETID Anda berbeda dari pengguna radio sejenis lainnya di area tersebut. </value></data>
+  <data name="RTXPOWER.ToolTip" xml:space="preserve"><value>TXPOWER adalah daya pancar dalam dBm. 20 dBm setara dengan 100 mW. Pengaturan daya yang lebih rendah berguna untuk pengujian jarak dekat.
+</value></data>
+  <data name="RECC.ToolTip" xml:space="preserve"><value>ECC mengaktifkan/menonaktifkan kode koreksi kesalahan Golay. Secara bawaan nonaktif. Jika diaktifkan, pengiriman paket memerlukan dua kali jumlah byte sehingga lebar pita radio berkurang separuh, tetapi dapat memperbaiki hingga 3 kesalahan bit per 12 bit data. Gunakan untuk jarak jauh, biasanya bersama laju data radio yang lebih rendah. Dekode Golay memerlukan 20 mikrodetik per byte yang dikirim (40 mikrodetik per byte data pengguna), sehingga CPU juga membatasi kinerja pada laju data radio tertinggi. Karena itu, Golay biasanya digunakan pada 128 kbps atau kurang.
+</value></data>
+  <data name="ROPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESEND mengaktifkan/menonaktifkan "pengiriman ulang oportunistik". Jika aktif, radio mengirim paket dua kali saat buffer masukan serial berisi kurang dari 256 byte. Pengiriman kedua ditandai sebagai pengiriman ulang dan dibuang oleh radio penerima jika paket pertama diterima dengan baik. Ini sangat meningkatkan kualitas tautan, terutama untuk perintah uplink.
+</value></data>
+  <data name="RTSCTS.ToolTip" xml:space="preserve"><value>Aktifkan atau nonaktifkan kendali aliran perangkat keras</value></data>
+  <data name="MAX_FREQ.ToolTip" xml:space="preserve"><value>Frekuensi maksimum dalam kHz </value></data>
+  <data name="NUM_CHANNELS.ToolTip" xml:space="preserve"><value>Jumlah kanal lompatan frekuensi </value></data>
+  <data name="LBT_RSSI.ToolTip" xml:space="preserve"><value>Ambang Listen Before Talk</value></data>
+  <data name="MIN_FREQ.ToolTip" xml:space="preserve"><value>Frekuensi minimum dalam kHz </value></data>
+  <data name="DUTY_CYCLE.ToolTip" xml:space="preserve"><value>Persentase waktu yang diizinkan untuk transmisi</value></data>
+  <data name="GPO1_1R_COUT.ToolTip" xml:space="preserve"><value>GPI1_1R/COUT menetapkan GPIO 1.1 sebagai keluaran R/C(PPM)</value></data>
+  <data name="GPI1_1R_CIN.ToolTip" xml:space="preserve"><value>GPI1_1R/CIN menetapkan GPIO 1.1 sebagai masukan R/C(PPM)</value></data>
+  <data name="MAVLINK.ToolTip" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="SERIAL_SPEED.ToolTip" xml:space="preserve"><value>Laju baud serial dalam kbps yang dibulatkan. Jadi 57 berarti 57600.
+</value></data>
+  <data name="AIR_SPEED.ToolTip" xml:space="preserve"><value>AIR_SPEED adalah laju data antarradio dalam kbps yang dibulatkan. Jadi 128 berarti 128 kbps. Maksimum 192, minimum 2. Nilai di bawah 16 tidak disarankan karena waktu lompatan frekuensi dan sinkronisasi TDM menjadi terlalu lama. </value></data>
+  <data name="NETID.ToolTip" xml:space="preserve"><value>NETID adalah 'ID jaringan' 16 bit. Nilai ini digunakan sebagai nilai awal urutan lompatan frekuensi dan untuk memastikan paket berasal dari radio yang benar. Pastikan NETID Anda berbeda dari pengguna radio sejenis lainnya di area tersebut. </value></data>
+  <data name="TXPOWER.ToolTip" xml:space="preserve"><value>TXPOWER adalah daya pancar dalam dBm. 20 dBm setara dengan 100 mW. Pengaturan daya yang lebih rendah berguna untuk pengujian jarak dekat.
+</value></data>
+  <data name="ECC.ToolTip" xml:space="preserve"><value>ECC mengaktifkan/menonaktifkan kode koreksi kesalahan Golay. Secara bawaan nonaktif. Jika diaktifkan, pengiriman paket memerlukan dua kali jumlah byte sehingga lebar pita radio berkurang separuh, tetapi dapat memperbaiki hingga 3 kesalahan bit per 12 bit data. Gunakan untuk jarak jauh, biasanya bersama laju data radio yang lebih rendah. Dekode Golay memerlukan 20 mikrodetik per byte yang dikirim (40 mikrodetik per byte data pengguna), sehingga CPU juga membatasi kinerja pada laju data radio tertinggi. Karena itu, Golay biasanya digunakan pada 128 kbps atau kurang.
+</value></data>
+  <data name="OPPRESEND.ToolTip" xml:space="preserve"><value>OPPRESEND mengaktifkan/menonaktifkan "pengiriman ulang oportunistik". Jika aktif, radio mengirim paket dua kali saat buffer masukan serial berisi kurang dari 256 byte. Pengiriman kedua ditandai sebagai pengiriman ulang dan dibuang oleh radio penerima jika paket pertama diterima dengan baik. Ini sangat meningkatkan kualitas tautan, terutama untuk perintah uplink.
+</value></data>
+  <data name="ENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>Tingkat Enkripsi AES</value></data>
+  <data name="RENCRYPTION_LEVEL.ToolTip" xml:space="preserve"><value>Tingkat Enkripsi AES</value></data>
+  <data name="FSFRAMELOSS.ToolTip" xml:space="preserve"><value>Jumlah frame keluaran SBUS atau PPM yang hilang sebelum failsafe diaktifkan.</value></data>
+  <data name="RFSFRAMELOSS.ToolTip" xml:space="preserve"><value>Jumlah frame keluaran SBUS atau PPM yang hilang sebelum failsafe diaktifkan.</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Versi</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>RSSI</value></data>
+  <data name="lbl_status.Text" xml:space="preserve"><value>CATATAN: Selalu klik "Salin pengaturan wajib ke radio jauh" saat mengubah pengaturan
+agar tautan radio tidak terputus</value></data>
+  <data name="groupBoxLocal.Text" xml:space="preserve"><value>Lokal</value></data>
+  <data name="label54.Text" xml:space="preserve"><value>Kehilangan Frame Pemicu Failsafe</value></data>
+  <data name="lblGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="label49.Text" xml:space="preserve"><value>Negara:</value></data>
+  <data name="label45.Text" xml:space="preserve"><value>Laju/Pita Frekuensi</value></data>
+  <data name="lblSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="btnRandom.Text" xml:space="preserve"><value>Acak</value></data>
+  <data name="lblRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblDESTID.Text" xml:space="preserve"><value>ID Tujuan</value></data>
+  <data name="lblNODEID.Text" xml:space="preserve"><value>ID Node</value></data>
+  <data name="lblGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Format</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Baud</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Laju Data Radio</value></data>
+  <data name="lblNETID.Text" xml:space="preserve"><value>ID Jaringan</value></data>
+  <data name="lblTXPOWER.Text" xml:space="preserve"><value>Daya Pancar</value></data>
+  <data name="lblECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblOPPRESEND.Text" xml:space="preserve"><value>Kirim Ulang Oportunistik</value></data>
+  <data name="lblMAVLINK.Text" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="lblANT_MODE.Text" xml:space="preserve"><value>Mode Antena</value></data>
+  <data name="lblSER_BRK_DETMS.Text" xml:space="preserve"><value>Deteksi Break</value></data>
+  <data name="lblGLOBAL_RETRIES.Text" xml:space="preserve"><value>Percobaan Ulang Global</value></data>
+  <data name="lblMAX_RETRIES.Text" xml:space="preserve"><value>Percobaan Ulang Maks</value></data>
+  <data name="lblMAX_DATA.Text" xml:space="preserve"><value>Data Maks</value></data>
+  <data name="lblENCRYPTION_LEVEL.Text" xml:space="preserve"><value>Enkripsi AES</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>Kunci AES</value></data>
+  <data name="lblRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="linkLabel_mavlink.Text" xml:space="preserve"><value>Pengaturan MAVLink Standar</value></data>
+  <data name="linkLabel_lowlatency.Text" xml:space="preserve"><value>Pengaturan Latensi Rendah</value></data>
+  <data name="lblMAX_WINDOW.Text" xml:space="preserve"><value>Jendela Maks (ms)</value></data>
+  <data name="lblMIN_FREQ.Text" xml:space="preserve"><value>Frekuensi Min</value></data>
+  <data name="lblLBT_RSSI.Text" xml:space="preserve"><value>RSSI LBT</value></data>
+  <data name="lblDUTY_CYCLE.Text" xml:space="preserve"><value>Siklus Kerja</value></data>
+  <data name="lblNUM_CHANNELS.Text" xml:space="preserve"><value>Jumlah Kanal</value></data>
+  <data name="lblMAX_FREQ.Text" xml:space="preserve"><value>Frekuensi Maks</value></data>
+  <data name="btnRemoteLoadFromFile.Text" xml:space="preserve"><value>Muat dari Berkas...</value></data>
+  <data name="btnRemoteSaveToFile.Text" xml:space="preserve"><value>Simpan ke Berkas...</value></data>
+  <data name="lblRFSFRAMELOSS.Text" xml:space="preserve"><value>Kehilangan Frame Pemicu Failsafe</value></data>
+  <data name="lblRGPO1_3AUXOUT.Text" xml:space="preserve"><value>GPO1_3AUXOUT</value></data>
+  <data name="lblRGPI1_2AUXIN.Text" xml:space="preserve"><value>GPI1_2AUXIN</value></data>
+  <data name="lblRGPIO1_1FUNC.Text" xml:space="preserve"><value>GPIO1_1FUNC</value></data>
+  <data name="lblRGPO1_0TXEN485.Text" xml:space="preserve"><value>GPO1_0TXEN485</value></data>
+  <data name="lblRGPO1_3STATLED.Text" xml:space="preserve"><value>GPO1_3STATLED</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.Text" xml:space="preserve"><value>Atur Failsafe PPM</value></data>
+  <data name="BUT_SetPPMFailSafeRemote.ToolTip" xml:space="preserve"><value>Rekam aliran PPM bawaan untuk keluaran PPM (sisi wahana)</value></data>
+  <data name="label50.Text" xml:space="preserve"><value>Negara:</value></data>
+  <data name="lblRSBUSOUT.Text" xml:space="preserve"><value>GPO1_3SBUSOUT:</value></data>
+  <data name="lblRSBUSIN.Text" xml:space="preserve"><value>GPO1_3SBUSIN</value></data>
+  <data name="label46.Text" xml:space="preserve"><value>Laju/Pita Frekuensi</value></data>
+  <data name="lblRRX_ENCAP_METHOD.Text" xml:space="preserve"><value>RXENCAP</value></data>
+  <data name="lblRTX_ENCAP_METHOD.Text" xml:space="preserve"><value>TXENCAP</value></data>
+  <data name="lblRDESTID.Text" xml:space="preserve"><value>ID Tujuan</value></data>
+  <data name="lblRNODEID.Text" xml:space="preserve"><value>ID Node</value></data>
+  <data name="lblRGPO1_1R_COUT.Text" xml:space="preserve"><value>GPO1_1R/COUT</value></data>
+  <data name="lblRGPI1_1R_CIN.Text" xml:space="preserve"><value>GPI1_1R/CIN</value></data>
+  <data name="lblROPPRESEND.Text" xml:space="preserve"><value>Kirim Ulang Oportunistik</value></data>
+  <data name="lblRMAVLINK.Text" xml:space="preserve"><value>Mavlink</value></data>
+  <data name="lblRECC.Text" xml:space="preserve"><value>ECC</value></data>
+  <data name="lblRTXPOWER.Text" xml:space="preserve"><value>Daya Pancar</value></data>
+  <data name="lblRNETID.Text" xml:space="preserve"><value>ID Jaringan</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>Baud</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Laju Data Radio</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Format</value></data>
+  <data name="lblRANT_MODE.Text" xml:space="preserve"><value>Mode Antena</value></data>
+  <data name="lblRSER_BRK_DETMS.Text" xml:space="preserve"><value>Deteksi Break</value></data>
+  <data name="lblRGLOBAL_RETRIES.Text" xml:space="preserve"><value>Percobaan Ulang Global</value></data>
+  <data name="lblRMAX_RETRIES.Text" xml:space="preserve"><value>Percobaan Ulang Maks</value></data>
+  <data name="lblRMAX_DATA.Text" xml:space="preserve"><value>Data Maks</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Kunci AES</value></data>
+  <data name="lblRENCRYPTION_LEVEL.Text" xml:space="preserve"><value>Enkripsi AES</value></data>
+  <data name="lblRRTSCTS.Text" xml:space="preserve"><value>RTS CTS</value></data>
+  <data name="lblRMAX_WINDOW.Text" xml:space="preserve"><value>Jendela Maks (ms)</value></data>
+  <data name="lblRMIN_FREQ.Text" xml:space="preserve"><value>Frekuensi Min</value></data>
+  <data name="lblRMAX_FREQ.Text" xml:space="preserve"><value>Frekuensi Maks</value></data>
+  <data name="lblRNUM_CHANNELS.Text" xml:space="preserve"><value>Jumlah Kanal</value></data>
+  <data name="lblRDUTY_CYCLE.Text" xml:space="preserve"><value>Siklus Kerja</value></data>
+  <data name="lblRLBT_RSSI.Text" xml:space="preserve"><value>RSSI LBT</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Versi</value></data>
+  <data name="groupBoxRemote.Text" xml:space="preserve"><value>Radio Jauh</value></data>
+  <data name="dlgSave.Filter" xml:space="preserve"><value>Berkas INI|*.ini</value></data>
+  <data name="dlgOpen.Filter" xml:space="preserve"><value>Berkas INI|*.ini</value></data>
+  <data name="BUT_loadcustom.Text" xml:space="preserve"><value>Unggah Firmware (khusus)</value></data>
+  <data name="BUT_resettodefault.Text" xml:space="preserve"><value>Kembalikan ke Bawaan</value></data>
+  <data name="BUT_SetPPMFailSafe.Text" xml:space="preserve"><value>Atur Failsafe PPM</value></data>
+  <data name="BUT_SetPPMFailSafe.ToolTip" xml:space="preserve"><value>Rekam aliran PPM bawaan untuk keluaran PPM (sisi wahana)</value></data>
+  <data name="BUT_savesettings.Text" xml:space="preserve"><value>Simpan Pengaturan</value></data>
+  <data name="BUT_getcurrent.Text" xml:space="preserve"><value>Muat Pengaturan</value></data>
+  <data name="BUT_upload.Text" xml:space="preserve"><value>Unggah Firmware (standar)</value></data>
+  <data name="BUT_Syncoptions.Text" xml:space="preserve"><value>Salin pengaturan wajib ke radio jauh</value></data>
+  <data name="btnSaveToFile.Text" xml:space="preserve"><value>Simpan ke Berkas...</value></data>
+  <data name="btnLoadFromFile.Text" xml:space="preserve"><value>Muat dari Berkas...</value></data>
+</root>

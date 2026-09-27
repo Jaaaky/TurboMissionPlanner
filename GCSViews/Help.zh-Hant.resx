@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -151,7 +151,7 @@
     <value>2</value>
   </data>
   <data name="CHK_showconsole.Text" xml:space="preserve">
-    <value>開啟命令模式(重新啟動)</value>
+    <value>顯示主控台視窗 (需重新啟動)</value>
   </data>
   <data name="BUT_updatecheck.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
@@ -184,7 +184,7 @@
     <value>3</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>本次更新</value>
+    <value>更新記錄</value>
   </data>
   <data name="PIC_wizard.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -217,7 +217,7 @@
     <value>5</value>
   </data>
   <data name="BUT_betaupdate.Text" xml:space="preserve">
-    <value>檢查開發版更新</value>
+    <value>檢查測試版更新</value>
   </data>
   <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>

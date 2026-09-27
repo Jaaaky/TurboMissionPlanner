@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label5.Text" xml:space="preserve"><value>يانتۇ قىلىش</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>يان يېنىش</value></data>
+  <data name="LNK_wiki.Text" xml:space="preserve"><value>ۋىكى</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>توغرىسىغا بۇرۇش</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>بۇلۇڭ چەكلىرى</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>سېرۋو چەكلىرى</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>ئەڭ يۇقىرى</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>ئەڭ تۆۋەن</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>ئەڭ يۇقىرى</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>ئەڭ تۆۋەن</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>بۇلۇڭ چەكلىرى</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>سېرۋو چەكلىرى</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>ئەڭ يۇقىرى</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>ئەڭ تۆۋەن</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>ئەڭ يۇقىرى</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>ئەڭ تۆۋەن</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>بۇلۇڭ چەكلىرى</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>سېرۋو چەكلىرى</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>ئەڭ يۇقىرى</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>ئەڭ تۆۋەن</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>ئەڭ يۇقىرى</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>ئەڭ تۆۋەن</value></data>
+  <data name="label22.Text" xml:space="preserve"><value>كىرگۈزۈش قانىلى</value></data>
+  <data name="label23.Text" xml:space="preserve"><value>كىرگۈزۈش قانىلى</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>كىرگۈزۈش قانىلى</value></data>
+  <data name="mavlinkCheckBoxTR.Text" xml:space="preserve"><value>تەتۈر يۆنىلىش</value></data>
+  <data name="mavlinkCheckBoxPR.Text" xml:space="preserve"><value>تەتۈر يۆنىلىش</value></data>
+  <data name="mavlinkCheckBoxRR.Text" xml:space="preserve"><value>تەتۈر يۆنىلىش</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Z</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Y</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>X</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>يىغىش بۇلۇڭلىرى</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Z</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Y</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>X</value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>بىتەرەپ بۇلۇڭلار</value></data>
+  <data name="CHK_stab_tilt.Text" xml:space="preserve"><value>يانتۇلۇقنى مۇقىملاشتۇرۇش</value></data>
+  <data name="CHK_stab_roll.Text" xml:space="preserve"><value>يان يېنىشنى مۇقىملاشتۇرۇش</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>ياپقۇچ</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>سېرۋو چەكلىرى</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>بېسىلمىغان</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>بېسىلغان</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>ئەڭ يۇقىرى</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>ئەڭ تۆۋەن</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>ياپقۇچ</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>داۋاملىشىش ۋاقتى (1/10 سېكۇنت)</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>Ch7 تاللىشىنى كامېرا قوزغاتقۇچىغا تەڭشەڭ</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>تىپ</value></data>
+  <data name="label44.Text" xml:space="preserve"><value>ئەسكەرتىش: مۇقىملاشتۇرغۇچ تىپى ئۇچۇش كونتروللىغۇچ كېيىنكى قېتىم قوزغىتىلغاندا كۈچكە ئىگە بولىدۇ</value></data>
+</root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -263,6 +263,21 @@
     <value>啟用</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>光流感應器</value>
+    <value>光流感測器  </value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>類型</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>偏航安裝方向</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>FX 比例</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>FY 比例</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>X 位置</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Y 位置</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Z 位置</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>度，相對於載具</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>向前公尺數</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>向右公尺數</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>向下公尺數</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>感測器相對於 IMU 的位置</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>比例因子</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>覆寫高度</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>距地面公尺數</value></data>
 </root>

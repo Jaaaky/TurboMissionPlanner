@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -252,4 +252,8 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.MyUserControl, MissionPlanner.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>항공기 등록</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>비행 식별 정보:</value></data>
+  <data name="but_saveacreg.Text" xml:space="preserve"><value>저장</value></data>
+  <data name="but_saveflid.Text" xml:space="preserve"><value>저장</value></data>
 </root>

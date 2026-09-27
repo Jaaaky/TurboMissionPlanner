@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,6 +121,7 @@
     <value>Увімкнути телеметрію</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Вам потрібно тільки використовувати це, якщо виникли проблеми з OSD не оновлюючи</value>
+    <value>Використовуйте лише в разі проблем з оновленням OSD</value>
   </data>
+  <data name="label6.Text" xml:space="preserve"><value>OSD</value></data>
 </root>

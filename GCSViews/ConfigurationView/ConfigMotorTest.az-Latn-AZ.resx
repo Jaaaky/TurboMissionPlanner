@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,15 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>Qeyd: PUA YÜKLƏYİN , Bu mühərrikləri sınayacaq. Motors saat yönü ilə fırlanır ön sağdan başlayaraq.</value>
+    <value>QEYD: PUA-NI MÖHKƏM SAXLAYIN
+Bu sınaq mühərriklərin işləməsini yoxlayır.
+Mühərriklər ön sağdan başlayaraq
+saat əqrəbi istiqamətində yoxlanılır.</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Müddəti (s)</value>
+    <value>Müddət (san)</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Motor Testi</value>
+    <value>Mühərrik sınağı</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
-    <value>Motor nömrənizi görmək üçün buraya vurun,səhifənin alt hissəsinə keçin</value>
+    <value>Mühərrik nömrələrini görmək üçün buraya basın
+və səhifənin sonuna keçin</value>
   </data>
+  <data name="label1.Text" xml:space="preserve"><value>Qaz %</value></data>
+  <data name="FrameType.Text" xml:space="preserve"><value>Növ: naməlum</value></data>
+  <data name="FrameClass.Text" xml:space="preserve"><value>Sinif: naməlum</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Uçuşda veriləcək minimum çıxış faizini təyin et</value></data>
+  <data name="but_mot_spin_min.Text" xml:space="preserve"><value>Minimum mühərrik fırlanmasını təyin et</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Aktiv, lakin hələ yerdə olduqda veriləcək minimum çıxış faizini təyin et</value></data>
+  <data name="but_mot_spin_arm.Text" xml:space="preserve"><value>Aktivləşdirmədə mühərrik fırlanmasını təyin et</value></data>
 </root>

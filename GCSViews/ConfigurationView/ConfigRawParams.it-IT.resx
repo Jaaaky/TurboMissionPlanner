@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,33 +121,43 @@
     <value>Valore</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Tutte le unità sono senza scala e in formato RAW</value>
+    <value>Tutte le unità sono in formato grezzo
+senza fattori di scala</value>
   </data>
   <data name="BUT_load.Text" xml:space="preserve">
-    <value>Carica</value>
+    <value>Carica da file</value>
   </data>
   <data name="Units.HeaderText" xml:space="preserve">
     <value>Unità</value>
   </data>
   <data name="Command.HeaderText" xml:space="preserve">
-    <value>Comando</value>
+    <value>Nome</value>
   </data>
   <data name="Desc.HeaderText" xml:space="preserve">
-    <value>Desc</value>
+    <value>Descrizione</value>
   </data>
   <data name="BUT_save.Text" xml:space="preserve">
-    <value>Salva</value>
+    <value>Salva su file</value>
   </data>
   <data name="Options.HeaderText" xml:space="preserve">
     <value>Opzioni</value>
   </data>
   <data name="BUT_writePIDS.Text" xml:space="preserve">
-    <value>Scrivi Parametri</value>
+    <value>Scrivi parametri</value>
   </data>
   <data name="BUT_compare.Text" xml:space="preserve">
-    <value>Confronta  Parametri</value>
+    <value>Confronta parametri</value>
   </data>
   <data name="BUT_rerequestparams.Text" xml:space="preserve">
-    <value>Aggiorna  Parametri</value>
+    <value>Aggiorna parametri</value>
   </data>
+  <data name="BUT_paramfileload.Text" xml:space="preserve"><value>Carica preimpostazioni</value></data>
+  <data name="BUT_reset_params.Text" xml:space="preserve"><value>Ripristina predefiniti</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Cerca</value></data>
+  <data name="BUT_commitToFlash.Text" xml:space="preserve"><value>Conferma parametri</value></data>
+  <data name="chk_modified.Text" xml:space="preserve"><value>Modificato</value></data>
+  <data name="BUT_refreshTable.Text" xml:space="preserve"><value>Aggiorna tabella</value></data>
+  <data name="chk_none_default.Text" xml:space="preserve"><value>Nessun predefinito</value></data>
+  <data name="Default_value.HeaderText" xml:space="preserve"><value>Predefinito</value></data>
+  <data name="Fav.HeaderText" xml:space="preserve"><value>Pref.</value></data>
 </root>

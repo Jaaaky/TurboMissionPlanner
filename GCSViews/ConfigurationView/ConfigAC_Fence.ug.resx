@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1gftitle.Text" xml:space="preserve"><value>جۇغراپىيەلىك قورشاۋ</value></data>
+  <data name="label2rtlalt.Text" xml:space="preserve"><value>قايتىش ئېگىزلىكى</value></data>
+  <data name="label3enable.Text" xml:space="preserve"><value>قوزغىتىش</value></data>
+  <data name="label4type.Text" xml:space="preserve"><value>تىپ</value></data>
+  <data name="label5action.Text" xml:space="preserve"><value>ھەرىكەت</value></data>
+  <data name="label6maxalt.Text" xml:space="preserve"><value>ئەڭ يۇقىرى ئېگىزلىك</value></data>
+  <data name="label7maxrad.Text" xml:space="preserve"><value>ئەڭ چوڭ رادىئۇس</value></data>
+  <data name="label8minalt.Text" xml:space="preserve"><value>ئەڭ تۆۋەن ئېگىزلىك</value></data>
+  <data name="mavlinkCheckBox1.Text" xml:space="preserve"><value>قوزغىتىش</value></data>
+</root>

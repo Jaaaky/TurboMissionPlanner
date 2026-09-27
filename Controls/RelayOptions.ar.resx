@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -121,9 +121,10 @@
     <value>منخفض</value>
   </data>
   <data name="renameToolStripMenuItem.Text" xml:space="preserve">
-    <value>اعادة تسمية</value>
+    <value>إعادة تسمية</value>
   </data>
   <data name="BUT_High.Text" xml:space="preserve">
     <value>مرتفع</value>
   </data>
+  <data name="BUT_Repeat.Text" xml:space="preserve"><value>تبديل</value></data>
 </root>

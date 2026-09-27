@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label44.Text" xml:space="preserve"><value>Min. çəkim sürəti:</value></data>
+  <data name="label40.Text" xml:space="preserve"><value>Yer səthinin hündürlüyü:</value></data>
+  <data name="label36.Text" xml:space="preserve"><value>Dönmə diametri (45°-də):</value></data>
+  <data name="label35.Text" xml:space="preserve"><value>Çəkim intervalı (təxmini):</value></data>
+  <data name="label31.Text" xml:space="preserve"><value>Uçuş müddəti (təxmini):</value></data>
+  <data name="label25.Text" xml:space="preserve"><value>Xətlərarası məsafə:</value></data>
+  <data name="label30.Text" xml:space="preserve"><value>Çəkiliş izi:</value></data>
+  <data name="label33.Text" xml:space="preserve"><value>Zolaqların sayı:</value></data>
+  <data name="label34.Text" xml:space="preserve"><value>Şəkillər:</value></data>
+  <data name="label29.Text" xml:space="preserve"><value>Yerüstü ayırdetmə: </value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Şəkillərarası məsafə: </value></data>
+  <data name="label23.Text" xml:space="preserve"><value>Məsafə: </value></data>
+  <data name="label22.Text" xml:space="preserve"><value>Sahə: </value></data>
+  <data name="groupBox5.Text" xml:space="preserve"><value>Statistika</value></data>
+  <data name="label42.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="label41.Text" xml:space="preserve"><value>Yuxarı PWM</value></data>
+  <data name="label39.Text" xml:space="preserve"><value>Aşağı PWM</value></data>
+  <data name="rad_do_set_servo.Text" xml:space="preserve"><value>DO_SET_SERVO</value></data>
+  <data name="chk_stopstart.Text" xml:space="preserve"><value>Başlanğıcları ayır</value></data>
+  <data name="label18.Text" xml:space="preserve"><value>PWM</value></data>
+  <data name="label17.Text" xml:space="preserve"><value>Dövr müddəti [san]</value></data>
+  <data name="label16.Text" xml:space="preserve"><value>Servo</value></data>
+  <data name="rad_digicam.Text" xml:space="preserve"><value>DO_DIGICAM_CONTROL</value></data>
+  <data name="rad_repeatservo.Text" xml:space="preserve"><value>DO_REPEAT_SERVO</value></data>
+  <data name="rad_trigdist.Text" xml:space="preserve"><value>CAM_TRIGG_DIST</value></data>
+  <data name="groupBox3.Text" xml:space="preserve"><value>Tətikləmə üsulu</value></data>
+  <data name="BUT_samplephoto.Text" xml:space="preserve"><value>Nümunə şəkil yüklə</value></data>
+  <data name="label21.Text" xml:space="preserve"><value>Hesablanmış dəyərlər</value></data>
+  <data name="label19.Text" xml:space="preserve"><value>Şaquli baxış sahəsi [m]</value></data>
+  <data name="label20.Text" xml:space="preserve"><value>Üfüqi baxış sahəsi [m]</value></data>
+  <data name="label12.Text" xml:space="preserve"><value>sm/piksel</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Sensorun hündürlüyü [mm]</value></data>
+  <data name="label10.Text" xml:space="preserve"><value>Sensorun eni [mm]</value></data>
+  <data name="label14.Text" xml:space="preserve"><value>Şəklin hündürlüyü [piksel]</value></data>
+  <data name="label13.Text" xml:space="preserve"><value>Şəklin eni [piksel]</value></data>
+  <data name="label11.Text" xml:space="preserve"><value>Fokus məsafəsi [mm]</value></data>
+  <data name="BUT_save.Text" xml:space="preserve"><value>Saxla</value></data>
+  <data name="groupBox2.Text" xml:space="preserve"><value>Kamera seçimləri</value></data>
+  <data name="tabCamera.Text" xml:space="preserve"><value>Kamera sazlaması</value></data>
+  <data name="LBL_laps.Text" xml:space="preserve"><value>Dövrə sayı</value></data>
+  <data name="CHK_match_spiral_perimeter.Text" xml:space="preserve"><value>Perimetri çoxbucaqlıya uyğunlaşdır</value></data>
+  <data name="LBL_clockwise_laps.Text" xml:space="preserve"><value>Saat əqrəbi istiqamətində dövrə sayı</value></data>
+  <data name="LBL_clockwise_laps1.Text" xml:space="preserve"><value>(saat əqrəbi istiqamətində spiral üçün -1)</value></data>
+  <data name="groupBoxSpiral.Text" xml:space="preserve"><value>Spiral seçimləri</value></data>
+  <data name="chk_optimize_for_distance.Text" xml:space="preserve"><value>Məsafəyə görə optimallaşdır</value></data>
+  <data name="LBL_Alternating_lanes.Text" xml:space="preserve"><value>Növbələşən zolaqlar</value></data>
+  <data name="LBL_Lane_Dist.Text" xml:space="preserve"><value>Zolaqlar arasında min. məsafə</value></data>
+  <data name="groupBox7.Text" xml:space="preserve"><value>Təyyarə seçimləri</value></data>
+  <data name="chk_spline.Text" xml:space="preserve"><value>Splayn giriş/çıxışları</value></data>
+  <data name="CHK_copter_headingholdlock.Text" xml:space="preserve"><value>Şəbəkəyə bağlılığı aç</value></data>
+  <data name="CHK_copter_headinghold.Text" xml:space="preserve"><value>Kursu saxla</value></data>
+  <data name="LBL_copter_delay.Text" xml:space="preserve"><value>Marşrut nöqtəsində gecikmə (san)</value></data>
+  <data name="groupBox_copter.Text" xml:space="preserve"><value>Kopter seçimləri</value></data>
+  <data name="chk_spiral.Text" xml:space="preserve"><value>Spiral</value></data>
+  <data name="chk_Corridor.Text" xml:space="preserve"><value>Dəhliz</value></data>
+  <data name="label43.Text" xml:space="preserve"><value>Dəhlizin eni [m]</value></data>
+  <data name="chk_crossgrid.Text" xml:space="preserve"><value>Çarpaz şəbəkə</value></data>
+  <data name="label32.Text" xml:space="preserve"><value>Giriş uzantısı [m]</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Uzununa örtüşmə [%]</value></data>
+  <data name="label6.Text" xml:space="preserve"><value>Başlanğıc</value></data>
+  <data name="label15.Text" xml:space="preserve"><value>Yan örtüşmə [%]</value></data>
+  <data name="label5.Text" xml:space="preserve"><value>Çıxış uzantısı [m]</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Xətlərarası məsafə [m]</value></data>
+  <data name="groupBox1.Text" xml:space="preserve"><value>Şəbəkə seçimləri</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Hər [m] məsafədən bir şəkil çək</value></data>
+  <data name="tabGrid.Text" xml:space="preserve"><value>Şəbəkə seçimləri</value></data>
+  <data name="label38.Text" xml:space="preserve"><value>Faylda saxlamaq üçün Control-S
+Fayldan yükləmək üçün Control-O</value></data>
+  <data name="label37.Text" xml:space="preserve"><value>x hissəyə böl</value></data>
+  <data name="CHK_usespeed.Text" xml:space="preserve"><value>Bu tapşırıq üçün sürəti istifadə et</value></data>
+  <data name="CHK_toandland_RTL.Text" xml:space="preserve"><value>RTL istifadə et</value></data>
+  <data name="CHK_toandland.Text" xml:space="preserve"><value>Qalxma və eniş nöqtələri əlavə et</value></data>
+  <data name="label24.Text" xml:space="preserve"><value>Uçuş sürəti (təxmini)</value></data>
+  <data name="label26.Text" xml:space="preserve"><value>Kamera</value></data>
+  <data name="label4.Text" xml:space="preserve"><value>Bucaq [dərəcə]</value></data>
+  <data name="CHK_camdirection.Text" xml:space="preserve"><value>Kameranın üst tərəfi irəli baxır</value></data>
+  <data name="label1.Text" xml:space="preserve"><value>Hündürlük</value></data>
+  <data name="groupBox6.Text" xml:space="preserve"><value>Sadə seçimlər</value></data>
+  <data name="CHK_advanced.Text" xml:space="preserve"><value>Ətraflı seçimlər</value></data>
+  <data name="CHK_footprints.Text" xml:space="preserve"><value>Çəkiliş izləri</value></data>
+  <data name="CHK_internals.Text" xml:space="preserve"><value>Daxili xətlər</value></data>
+  <data name="CHK_grid.Text" xml:space="preserve"><value>Şəbəkə</value></data>
+  <data name="CHK_markers.Text" xml:space="preserve"><value>Nişanlar</value></data>
+  <data name="CHK_boundary.Text" xml:space="preserve"><value>Sərhəd</value></data>
+  <data name="groupBox4.Text" xml:space="preserve"><value>Göstər</value></data>
+  <data name="BUT_Accept.Text" xml:space="preserve"><value>Qəbul et</value></data>
+  <data name="tabSimple.Text" xml:space="preserve"><value>Sadə</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Çəkiliş (şəbəkə)</value></data>
+</root>

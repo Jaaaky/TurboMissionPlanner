@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="label1.Text" xml:space="preserve"><value>Przesunięcie w sekundach</value></data>
+  <data name="BUT_Geotagimages.Text" xml:space="preserve"><value>Geotaguj zdjęcia</value></data>
+  <data name="BUT_estoffset.Text" xml:space="preserve"><value>Oszacuj przesunięcie</value></data>
+  <data name="BUT_doit.Text" xml:space="preserve"><value>Przetwórz wstępnie</value></data>
+  <data name="BUT_browsedir.Text" xml:space="preserve"><value>Wybierz zdjęcia</value></data>
+  <data name="BUT_browselog.Text" xml:space="preserve"><value>Wybierz dziennik</value></data>
+  <data name="BUT_networklinkgeoref.Text" xml:space="preserve"><value>Pozycje KML</value></data>
+  <data name="RDIO_TimeOffset.Text" xml:space="preserve"><value>Przesunięcie czasu</value></data>
+  <data name="RDIO_CAMMsgSynchro.Text" xml:space="preserve"><value>Komunikat CAM</value></data>
+  <data name="label9.Text" xml:space="preserve"><value>Obrót</value></data>
+  <data name="label8.Text" xml:space="preserve"><value>Poprzeczne pole widzenia</value></data>
+  <data name="label7.Text" xml:space="preserve"><value>Wzdłużne pole widzenia</value></data>
+  <data name="label3.Text" xml:space="preserve"><value>Min. odstęp zdjęć (s) (CAM)</value></data>
+  <data name="label2.Text" xml:space="preserve"><value>Pomiń zdjęcie na końcu</value></data>
+  <data name="lbldrpstart.Text" xml:space="preserve"><value>Pomiń zdjęcie na początku</value></data>
+  <data name="chk_usegps2.Text" xml:space="preserve"><value>Użyj GPS2</value></data>
+  <data name="label28.Text" xml:space="preserve"><value>Podstawa wysokości względnej</value></data>
+  <data name="CHECK_AMSLAlt_Use.Text" xml:space="preserve"><value>Użyj wysokości n.p.m.</value></data>
+  <data name="label27.Text" xml:space="preserve"><value>Opóźnienie migawki (ms)</value></data>
+  <data name="chk_cammsg.Text" xml:space="preserve"><value>Użyj komunikatów CAM</value></data>
+  <data name="RDIO_trigmsg.Text" xml:space="preserve"><value>Komunikat wyzwolenia</value></data>
+  <data name="chk_camusegpsalt.Text" xml:space="preserve"><value>Użyj wysokości GPS</value></data>
+  <data name="chk_trigusergpsalt.Text" xml:space="preserve"><value>Użyj wysokości GPS</value></data>
+  <data name="$this.Text" xml:space="preserve"><value>Georeferencja zdjęć</value></data>
+</root>
