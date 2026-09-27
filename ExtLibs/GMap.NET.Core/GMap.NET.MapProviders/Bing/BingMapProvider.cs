@@ -145,8 +145,32 @@ namespace GMap.NET.MapProviders
       public bool TryCorrectVersion = true;
       public bool TryGetDefaultKey = true;
       static bool init = false;
+      static int initRunning = 0;
 
       public override void OnInitialized()
+      {
+         // Fork: the version and key probes below are blocking HTTP GETs
+         // (100 s default timeout each), and OnInitialized runs on the UI
+         // thread when a Bing map is selected, so offline the app froze.
+         // Run them once in the background; overlapping calls skip.
+         if(init)
+            return;
+         if(Interlocked.CompareExchange(ref initRunning, 1, 0) != 0)
+            return;
+         System.Threading.Tasks.Task.Run(() =>
+         {
+            try
+            {
+               InitVersionAndKey();
+            }
+            finally
+            {
+               Interlocked.Exchange(ref initRunning, 0);
+            }
+         });
+      }
+
+      void InitVersionAndKey()
       {
          if(!init)
          {
