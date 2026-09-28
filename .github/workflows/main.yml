@@ -98,9 +98,13 @@ jobs:
           $zip = "TurboMissionPlanner-$upstream-$turbo.zip"
           "ZIP_NAME=$zip" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding ascii
           Copy-Item run-wine.sh bin\Release\net472\   # Wine launcher (sleep inhibitor)
-          Push-Location bin\Release\net472
-          if (Test-Path version.txt) { Copy-Item version.txt ..\..\..\ }
-          7z a "..\..\..\$zip" *
+          if (Test-Path bin\Release\net472\version.txt) { Copy-Item bin\Release\net472\version.txt . }
+          # One top-level folder named like the zip, so extracting it never
+          # spills hundreds of files into the Downloads folder.
+          $top = [IO.Path]::GetFileNameWithoutExtension($zip)
+          Rename-Item bin\Release\net472 $top
+          Push-Location bin\Release
+          7z a "..\..\$zip" $top
           Pop-Location
           $h = (Get-FileHash $zip -Algorithm SHA256).Hash.ToLower()
           "$h  $zip" | Out-File -Encoding ascii checksums.txt
