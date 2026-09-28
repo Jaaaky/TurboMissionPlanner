@@ -27,7 +27,7 @@ v0.3.1 (2026-09-28): row 56 completes the translations (satellite `.resx` only; 
 English base `.resx` touched) and adds Persian (`fa`) and Uyghur (`ug`). It edits about 990 upstream
 satellite files that upstream refreshes from Crowdin, so expect conflicts there on every sync.
 
-v0.3.2 (2026-09-28): rows 57-59 make Arabic-script and CJK UI languages render under Wine
+v0.3.2 (2026-09-28): rows 57-60 make Arabic-script and CJK UI languages render under Wine
 (plan `.claude/tasks/2026-09-28-script-fonts-plan.md` in the GCSs workspace). Wine shapes Arabic only
 with the selected font, so those languages switch the UI font to a bundled Turbo Sans font.
 
@@ -93,6 +93,8 @@ with the selected font, so those languages switch the UI font to a bundled Turbo
 | 57    | fix(l10n): Traditional Chinese strings that were in Simplified | **LOW** | `GCSViews/FlightPlanner.zh-Hant.resx`, `GCSViews/FlightData.zh-TW.resx` | 12 values; a Crowdin refresh may bring the Simplified text back (Turbo Sans TC then shows boxes for those characters). |
 | 58    | feat: Turbo Sans script fonts (IBM Plex derivatives) | **LOW** | `Fonts/TurboSans*.ttf`, `Fonts/tools/build_fonts.py`, `Fonts/README.txt`, `MissionPlanner.csproj`, `.github/workflows/main.yml` | Fork-only files; csproj lines sit next to our Plex block. Rerun `uv run Fonts/tools/build_fonts.py` after translation updates so the CJK subsets cover new characters. |
 | 59    | fix: script UI font for Arabic-script and CJK languages | **MED** | `Utilities/AppFonts.cs`, `Utilities/ThemeManager.cs` (`ApplyThemeTo`), `MainV2.cs` (after `changelanguage`), `ExtLibs/Controls/CustomMessageBox.cs` | `MainV2` constructor and `CustomMessageBox.Show` change upstream now and then; the ThemeManager hook is one line. Wine-only registry writes: FontLink\SystemLink (IBM Plex Sans, Tahoma) and HKCU\Software\Wine\Uniscribe\Fallback. |
+| 60    | fix: HUD draws CJK and joined right-to-left Arabic-script text | **MED** | `ExtLibs/Controls/HUD.cs` (`drawstring`, `calcsize`, `calcfontsize`, glyph-cache cleanup), `MainV2.cs` (1 line) | HUD.cs is large and edited upstream now and then; our additions are a block after `drawstringGDI` plus short branches at the top of four methods. |
+| 61    | ci: release zip extracts into one folder named like the zip | **LOW** | `.github/workflows/main.yml` | Fork-only workflow. |
 
 > **net48 was tried (11c + 11c.1) and reverted** — it hangs on the splash
 > screen under Wine. Stay on `net472`. Table rows 8-11 are the live Phase 11
