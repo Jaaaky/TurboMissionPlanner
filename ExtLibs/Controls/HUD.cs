@@ -173,6 +173,17 @@ namespace MissionPlanner.Controls
 
         private Dictionary<int, character> charDict = new Dictionary<int, character>();
 
+        /// <summary>
+        /// Fork: set by the main app for Arabic-script and CJK UI languages (the
+        /// bundled script font); null keeps HUDT.Font. Must be set before the HUD draws.
+        /// </summary>
+        public static FontFamily ScriptFontFamily { get; set; }
+
+        static FontFamily GlyphFamily(Font font) => ScriptFontFamily ?? font.FontFamily;
+
+        /// <summary>Fork: cached bitmaps/textures of right-to-left runs, see drawRuns.</summary>
+        private readonly Dictionary<string, character> runDict = new Dictionary<string, character>();
+
         public int huddrawtime = 0;
 
         [DefaultValue(true)] public bool opengl { get; set; }
@@ -345,6 +356,8 @@ namespace MissionPlanner.Controls
                         GL.DeleteTexture(texid.gltextureid);
                 }
             }
+
+            ClearRuns();
 
             base.Dispose(disposing);
         }
@@ -3422,6 +3435,13 @@ namespace MissionPlanner.Controls
         {
             if (text == null)
                 return fontsize;
+            if (HasRtl(text))
+            {
+                var runsize = RunsWidth(text, fontsize, brush);
+                if (runsize > targetwidth && runsize > 3 && fontsize > 1)
+                    return calcfontsize(text, font, fontsize - 1, brush, targetwidth);
+                return fontsize;
+            }
             float size = 0;
             foreach (char cha in text)
             {
@@ -3448,6 +3468,8 @@ namespace MissionPlanner.Controls
         {
             if (text == null)
                 return new Size(0, 0);
+            if (HasRtl(text))
+                return new Size((int)RunsWidth(text, fontsize, brush), (int)fontsize);
             float size = 0;
             foreach (char cha in text)
             {
@@ -3482,6 +3504,12 @@ namespace MissionPlanner.Controls
 
         void drawstring(string text, Font font, float fontsize, SolidBrush brush, float x, float y)
         {
+            if (text != null && HasRtl(text))
+            {
+                drawRuns(text, font, fontsize, brush, x, y);
+                return;
+            }
+
             if (!opengl)
             {
                 drawstringGDI(text, font, fontsize, brush, x, y);
@@ -3525,7 +3553,7 @@ namespace MissionPlanner.Controls
                     var pth = new GraphicsPath();
 
                     if (text != null)
-                        pth.AddString(cha + "", font.FontFamily, 0, fontsize + 5, new Point((int)0, (int)0),
+                        pth.AddString(cha + "", GlyphFamily(font), 0, fontsize + 5, new Point((int)0, (int)0),
                             StringFormat.GenericTypographic);
 
                     if (pth.PointCount > 0)
@@ -3647,7 +3675,7 @@ namespace MissionPlanner.Controls
                     var pth = new GraphicsPath();
 
                     if (text != null)
-                        pth.AddString(cha + "", font.FontFamily, 0, fontsize + 5, new Point((int) 0, (int) 0),
+                        pth.AddString(cha + "", GlyphFamily(font), 0, fontsize + 5, new Point((int) 0, (int) 0),
                             StringFormat.GenericTypographic);
 
                     if (pth.PointCount > 0)
@@ -3715,6 +3743,207 @@ namespace MissionPlanner.Controls
                 x += charDict[charid].width * scale;
             }
 
+        }
+
+        // Fork: Arabic-script text. Glyphs drawn one character at a time can
+        // never join or run right to left, so text with right-to-left letters
+        // is split into runs: each right-to-left run is shaped as a whole
+        // (one path, cached as one bitmap/texture), the rest keeps the
+        // per-character path. Covers the HUD's "label + value" strings; it is
+        // not a full bidi algorithm. Numbers never reach runDict.
+
+        static bool IsRtl(char c)
+        {
+            return (c >= '\u0590' && c <= '\u08FF') || (c >= '\uFB1D' && c <= '\uFDFF') ||
+                   (c >= '\uFE70' && c <= '\uFEFE');
+        }
+
+        static bool HasRtl(string text)
+        {
+            foreach (char c in text)
+                if (IsRtl(c))
+                    return true;
+            return false;
+        }
+
+        static bool IsStrongLtr(char c)
+        {
+            return char.IsLetter(c) && !IsRtl(c);
+        }
+
+        /// <summary>Runs in left-to-right drawing order; Value is true for right-to-left runs.</summary>
+        static List<KeyValuePair<string, bool>> VisualRuns(string text)
+        {
+            var runs = new List<KeyValuePair<string, bool>>();
+            bool rtlParagraph = false;
+            foreach (char c in text)
+            {
+                if (IsRtl(c)) { rtlParagraph = true; break; }
+                if (IsStrongLtr(c)) break;
+            }
+
+            int i = 0;
+            while (i < text.Length)
+            {
+                int start = i;
+                if (IsRtl(text[i]))
+                {
+                    // spaces, digits and punctuation between right-to-left
+                    // letters stay inside the run
+                    int last = i;
+                    for (int j = i + 1; j < text.Length && !IsStrongLtr(text[j]); j++)
+                        if (IsRtl(text[j]))
+                            last = j;
+                    runs.Add(new KeyValuePair<string, bool>(text.Substring(start, last - start + 1), true));
+                    i = last + 1;
+                }
+                else
+                {
+                    int j = i + 1;
+                    while (j < text.Length && !IsRtl(text[j]))
+                        j++;
+                    var run = text.Substring(start, j - start);
+                    if (rtlParagraph)
+                    {
+                        // mirrored order: the spaces that separated this run
+                        // from its right-to-left neighbours swap sides
+                        var body = run.Trim(' ');
+                        run = new string(' ', run.Length - run.TrimEnd(' ').Length) + body +
+                              new string(' ', run.Length - run.TrimStart(' ').Length);
+                    }
+                    runs.Add(new KeyValuePair<string, bool>(run, false));
+                    i = j;
+                }
+            }
+
+            if (rtlParagraph)
+                runs.Reverse();
+            return runs;
+        }
+
+        void drawRuns(string text, Font font, float fontsize, SolidBrush brush, float x, float y)
+        {
+            foreach (var run in VisualRuns(text))
+            {
+                if (!run.Value)
+                {
+                    drawstring(run.Key, font, fontsize, brush, x, y);
+                    x += calcsize(run.Key, fontsize, brush).Width;
+                    continue;
+                }
+
+                var shaped = RenderRun(run.Key, fontsize, brush);
+                if (opengl)
+                    DrawRunGL(shaped, x, y);
+                else
+                    DrawImage(shaped.bitmap, (int)x, (int)y, shaped.bitmap.Width, shaped.bitmap.Height);
+                x += shaped.width;
+            }
+        }
+
+        float RunsWidth(string text, float fontsize, SolidBrush brush)
+        {
+            float size = 0;
+            foreach (var run in VisualRuns(text))
+                size += run.Value ? RenderRun(run.Key, fontsize, brush).width : calcsize(run.Key, fontsize, brush).Width;
+            return size;
+        }
+
+        character RenderRun(string run, float fontsize, SolidBrush brush)
+        {
+            var key = run + "\u0001" + (int)(fontsize * 1000) + "\u0001" + brush.Color.ToArgb();
+            character shaped;
+            if (runDict.TryGetValue(key, out shaped))
+                return shaped;
+            if (runDict.Count >= 256)
+                ClearRuns(); // only resx labels get here; this is a safety cap
+
+            var path = new GraphicsPath();
+            path.AddString(run, GlyphFamily(font), 0, fontsize + 5, new Point(0, 0), StringFormat.GenericTypographic);
+            float maxx = this.Width / 150, maxy = 1;
+            if (path.PointCount > 0)
+            {
+                foreach (PointF pnt in path.PathPoints)
+                {
+                    if (pnt.X > maxx)
+                        maxx = pnt.X;
+                    if (pnt.Y > maxy)
+                        maxy = pnt.Y;
+                }
+            }
+
+            shaped = new character()
+            {
+                bitmap = new Bitmap(NextPowerOf2((int)maxx + 1), NextPowerOf2((int)maxy + 1),
+                    System.Drawing.Imaging.PixelFormat.Format32bppArgb),
+                size = (int)fontsize,
+                pth = path,
+                width = (int)(maxx + 2)
+            };
+            using (var gfx = Graphics.FromImage(shaped.bitmap))
+            {
+                gfx.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+                gfx.DrawPath(this._p, path);
+                gfx.FillPath(brush, path);
+            }
+
+            if (opengl)
+            {
+                int textureId;
+                GL.TexEnv(TextureEnvTarget.TextureEnv, TextureEnvParameter.TextureEnvMode,
+                    (float)TextureEnvModeCombine.Replace);
+                GL.GenTextures(1, out textureId);
+                GL.BindTexture(TextureTarget.Texture2D, textureId);
+                BitmapData data = shaped.bitmap.LockBits(
+                    new System.Drawing.Rectangle(0, 0, shaped.bitmap.Width, shaped.bitmap.Height),
+                    ImageLockMode.ReadOnly, System.Drawing.Imaging.PixelFormat.Format32bppArgb);
+                GL.TexImage2D(TextureTarget.Texture2D, 0, PixelInternalFormat.Rgba, data.Width, data.Height, 0,
+                    OpenTK.Graphics.OpenGL.PixelFormat.Bgra, PixelType.UnsignedByte, data.Scan0);
+                GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMinFilter,
+                    (int)TextureMinFilter.Linear);
+                GL.TexParameter(TextureTarget.Texture2D, TextureParameterName.TextureMagFilter,
+                    (int)TextureMagFilter.Linear);
+                GL.Flush();
+                shaped.bitmap.UnlockBits(data);
+                GL.BindTexture(TextureTarget.Texture2D, 0);
+                shaped.gltextureid = textureId;
+            }
+
+            runDict[key] = shaped;
+            return shaped;
+        }
+
+        void DrawRunGL(character shaped, float x, float y)
+        {
+            GL.Enable(EnableCap.Texture2D);
+            GL.BlendFunc(BlendingFactor.SrcAlpha, BlendingFactor.OneMinusSrcAlpha);
+            GL.Color4(1f, 1, 1, 1);
+            GL.TexCoordPointer(2, TexCoordPointerType.Float, 0, texCoords);
+            GL.EnableClientState(ArrayCap.TextureCoordArray);
+            GL.EnableClientState(ArrayCap.VertexArray);
+
+            float w = shaped.bitmap.Width, h = shaped.bitmap.Height;
+            float[] vertices = { x, y + h, x + w, y + h, x + w, y, x, y };
+            GL.BindTexture(TextureTarget.Texture2D, shaped.gltextureid);
+            GL.VertexPointer(2, VertexPointerType.Float, 0, vertices);
+            GL.DrawArrays(PrimitiveType.Quads, 0, 4);
+
+            GL.DisableClientState(ArrayCap.TextureCoordArray);
+            GL.DisableClientState(ArrayCap.VertexArray);
+            GL.Disable(EnableCap.Texture2D);
+            GL.BindTexture(TextureTarget.Texture2D, 0);
+        }
+
+        void ClearRuns()
+        {
+            foreach (var shaped in runDict.Values)
+            {
+                if (opengl && shaped.gltextureid != 0)
+                    GL.DeleteTexture(shaped.gltextureid);
+                shaped.bitmap?.Dispose();
+                shaped.pth?.Dispose();
+            }
+            runDict.Clear();
         }
 
         protected override void OnHandleCreated(EventArgs e)
@@ -3831,6 +4060,7 @@ namespace MissionPlanner.Controls
                 }
 
                 charDict.Clear();
+                ClearRuns();
             }
             catch
             {

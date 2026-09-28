@@ -793,6 +793,7 @@ namespace MissionPlanner
                     this.Font = MissionPlanner.Utilities.AppFonts.Make(this.Font?.Size ?? 8.25f);
                     MsgBox.CustomMessageBox.TextFont =
                         MissionPlanner.Utilities.AppFonts.Make(SystemFonts.DefaultFont.Size);
+                    MissionPlanner.Controls.HUD.ScriptFontFamily = MissionPlanner.Utilities.AppFonts.UiFamily;
                 }
             }
             catch (Exception exFont) { log.Warn("AppFonts script font: " + exFont.Message); }
